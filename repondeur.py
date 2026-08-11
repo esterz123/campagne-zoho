@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 REPONDEUR IA : lit la boite de reception Zoho, repond aux clients de la campagne
-avec un message personnalise genere par Gemini, ou propose un brouillon sur Discord.
+avec un message personnalise genere par OpenRouter (modele gratuit), ou propose un brouillon sur Discord.
 
-Cloud : GitHub Actions (env vars ZOHO_*, GOOGLE_API_KEY, DISCORD_WEBHOOK)
+Cloud : GitHub Actions (env vars ZOHO_*, OPENROUTER_API_KEY, DISCORD_WEBHOOK)
 Local : peut lire les tokens depuis .zoho_tokens.json (si present a cote).
 """
 import json, os, sys, re, urllib.request, urllib.parse, datetime, time
@@ -11,7 +11,7 @@ import json, os, sys, re, urllib.request, urllib.parse, datetime, time
 BASE = os.path.dirname(os.path.abspath(__file__))
 ACC = "7349712000000008002"
 ME = "contact@mahdi-design.com"
-MODEL = "gemini-3-flash-preview"
+MODEL = "openrouter/nemotron-3-ultra"
 DATA_F = os.path.join(BASE, "campagne_data.json")
 STATE_F = os.path.join(BASE, "repondeur_state.json")
 
@@ -83,12 +83,12 @@ def fetch_inbox(access, limit=30):
                     "summary": m.get("summary", ""), "when": m.get("receivedTime", "")})
     return out
 
-def gemini(prompt, key):
-    body = json.dumps({"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0.6}}).encode()
-    url = "https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent?key=%s" % (MODEL, key)
-    req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"})
+def openrouter(prompt, key):
+    body = json.dumps({"model": MODEL, "messages": [{"role": "user", "content": prompt}], "temperature": 0.6}).encode()
+    url = "https://openrouter.ai/api/v1/chat/completions"
+    req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json", "Authorization": "Bearer " + key})
     j = json.load(urllib.request.urlopen(req, timeout=60))
-    return j["candidates"][0]["content"]["parts"][0]["text"].strip()
+    return j["choices"][0]["message"]["content"].strip()
 
 def build_prompt(prosp, msginfo):
     p = prosp or {}
@@ -140,7 +140,7 @@ def main():
     if not dry and not creds:
         print("PAS DE CREDENTIALS : impossible de lire la boite. Abandon.")
         return 1
-    key = os.environ.get("GOOGLE_API_KEY", "")
+    key = os.environ.get("OPENROUTER_API_KEY", "")
 
     access = None
     if not dry and creds:
@@ -177,7 +177,7 @@ def main():
             continue
         prompt = build_prompt(prosp, m)
         try:
-            out = gemini(prompt, key)
+            out = openrouter(prompt, key)
             typ, msg = parse_gemini_out(out)
         except Exception as e:
             typ, msg = "draft", "Erreur de generation : %s" % str(e)[:120]
