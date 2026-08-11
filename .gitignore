@@ -1,2 +1,4 @@
 secrets_a_coller.txt
 .zoho_tokens.json
+__pycache__/
+*.pyc
