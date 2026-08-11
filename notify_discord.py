@@ -39,7 +39,9 @@ def build_message():
     prospects = load(PROSPECTS, [])
 
     sent = state.get("sent", {})
-    sent_today = [k for k, v in sent.items() if v.get("on") == today]
+    sent_today = [k for k, v in sent.items()
+                  if v.get("on") == today or v.get("sent_relance1") == today
+                  or v.get("sent_relance2") == today]
     total_sent = len(sent)
     total_emails = len(data) if isinstance(data, list) else 0
     remaining = max(0, total_emails - total_sent)
@@ -60,8 +62,11 @@ def build_message():
     if sent_today:
         lines.append("✅ Envoyes aujourd'hui : **%d**" % len(sent_today))
         for k in sorted(sent_today, key=int):
-            name = clean_name(k)
-            lines.append("   - #%s %s" % (k, name))
+                    name = clean_name(k)
+                    v = sent[k]
+                    tag = " (relance)" if (v.get("sent_relance1") == today
+                                           or v.get("sent_relance2") == today) else ""
+                    lines.append("   - #%s %s%s" % (k, name, tag))
     else:
         lines.append("Aucun envoi aujourd'hui (quota atteint ou file vide).")
     lines.append("📬 Total envoye : **%d** / %d — reste **%d**"

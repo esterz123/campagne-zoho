@@ -29,7 +29,7 @@ ANNUAIRES = ("cylex", "kompass", "pagesjaunes", "societe.com", "verif.com",
              "infogreffe", "pappers", "annuaire-entreprises", "europages",
              "yellowpages", "sous-traiter", "telesurveillance", "lefigaro",
              "linternaute", "franceinfo", "123sejours", "hotfrog", "buzzfile",
-             "opendi", "agoravox")
+             "opendi", "agoravox", "net1901", "net1901.org", "association", "apel", "cdn")
 
 # (mot-cle recherche, code NAF) — secteurs Mahdi : mecanique/usinage/plasturgie/moules
 CIBLES = [

@@ -86,12 +86,19 @@ def save_state(state):
         json.dump(state, f, ensure_ascii=False, indent=1)
 
 
+def load_followups():
+    p = os.path.join(BASE, "followups.json")
+    if os.path.exists(p):
+        with open(p, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("-")]
     daily_max = int(args[0]) if args and args[0].isdigit() else DAILY_MAX
     dry = "--dry-run" in sys.argv
 
-    creds = load_creds()
     with open(DATA, encoding="utf-8") as f:
         emails = {str(e["num"]): e for e in json.load(f)}
 
@@ -99,30 +106,59 @@ def main():
     sent = state["sent"]
     today = datetime.date.today().isoformat()
 
-    sent_today = [k for k, v in sent.items() if v.get("on") == today]
+    sent_today = [k for k, v in sent.items()
+                  if v.get("on") == today or v.get("sent_relance1") == today
+                  or v.get("sent_relance2") == today]
     remaining = [(num, e) for num, e in sorted(emails.items(), key=lambda kv: int(kv[0]))
                  if num not in sent and e.get("to")]
+
+    # Relances J+5 / J+12, prioritaires sur les nouveaux emails
+    fu = load_followups()
+    due_fu = []
+    for num, v in sorted(sent.items()):
+        if not v.get("on"):
+            continue
+        days = (datetime.date.today() - datetime.date.fromisoformat(v["on"])).days
+        if "sent_relance1" not in v and days >= fu.get("relance1", {}).get("wait_days", 99):
+            due_fu.append(("relance1", num))
+        elif "sent_relance2" not in v and days >= fu.get("relance2", {}).get("wait_days", 99):
+            due_fu.append(("relance2", num))
+    due_fu.sort(key=lambda x: (fu[x[0]].get("wait_days", 99), int(x[1])))
+
     quota = max(0, daily_max - len(sent_today))
-    todo = remaining[:quota]
+    todo_fu = due_fu[:quota]
+    todo = remaining[:max(0, quota - len(todo_fu))]
 
     if dry:
         print("[DRY-RUN] %s | deja envoyes aujourd'hui: %d | quota: %d" % (today, len(sent_today), daily_max))
+        if todo_fu:
+            for stage, num in todo_fu:
+                print("  relance %-8s #%s %s -> %s" % (stage, num, emails[num]["prospect"][:40], emails[num]["to"]))
         if todo:
             for num, e in todo:
                 print("  enverrait  #%s %s -> %s" % (num, e["prospect"][:40], e["to"]))
-        else:
+        if not todo_fu and not todo:
             print("  rien a envoyer (tout envoye ou quota atteint)")
         return
 
-    if not todo:
+    if not todo_fu and not todo:
         if not remaining and not state.get("done_notified"):
             state["done_notified"] = True
             save_state(state)
             print("Campagne terminee : les %d emails ont tous ete envoyes. Bravo !" % len(emails))
         return  # sinon silence total (watchdog)
 
+    creds = load_creds()
     token = refresh_token(creds)
     lines = []
+    for stage, num in todo_fu:
+        e = emails[num]
+        tpl = fu[stage]
+        subject = tpl["subject"].replace("{sujet}", e["subject"])
+        content = tpl["body"] + "\n\n" + SIG
+        r = send_email(token, subject, content, e["to"], e.get("cc", ""))
+        sent[num]["sent_" + stage] = today
+        lines.append("Relance %-8s #%s %s -> %s" % (stage, num, e["prospect"][:40], e["to"]))
     for num, e in todo:
         content = e["body"] + "\n\n" + SIG
         r = send_email(token, e["subject"], content, e["to"], e.get("cc", ""))
