@@ -1,0 +1,147 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Campagne emails Zoho — envoi automatise depuis contact@mahdi-design.com
+Fonctionne EN LOCAL (PC de Mahdi) ET DANS LE CLOUD (GitHub Actions, PC eteint).
+
+Usage:
+    python campagne_zoho.py            # envoi selon le quota (3/jour)
+    python campagne_zoho.py 5          # quota a 5/jour
+    python campagne_zoho.py --dry-run  # montre ce qui serait envoye, sans envoyer
+"""
+import os
+import json
+import sys
+import datetime
+import urllib.request
+import urllib.parse
+
+# Chemins relatifs au script -> marche partout (local comme cloud)
+BASE = os.path.dirname(os.path.abspath(__file__))
+TOKENS = os.path.join(BASE, ".zoho_tokens.json")
+DATA = os.path.join(BASE, "campagne_data.json")
+STATE = os.path.join(BASE, "campagne_state.json")
+
+ACCOUNT_ID = "7349712000000008002"
+FROM = "contact@mahdi-design.com"
+DAILY_MAX = 3
+
+SIG = ("Mahdi\n"
+       "Brand Designer \u2014 Identit\u00e9 visuelle & sites web pour PME\n"
+       "contact@mahdi-design.com\n"
+       "Mahdi Design \u2014 mahdi-design.com")
+
+
+def load_creds():
+    """Priorite aux variables d'environnement (GitHub Actions), sinon fichier local."""
+    env = {k: os.environ.get(k)
+           for k in ("ZOHO_CLIENT_ID", "ZOHO_CLIENT_SECRET", "ZOHO_REFRESH_TOKEN")}
+    if all(env.values()):
+        return {"client_id": env["ZOHO_CLIENT_ID"],
+                "client_secret": env["ZOHO_CLIENT_SECRET"],
+                "refresh_token": env["ZOHO_REFRESH_TOKEN"]}
+    with open(TOKENS, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def refresh_token(creds):
+    data = urllib.parse.urlencode({
+        "refresh_token": creds["refresh_token"],
+        "client_id": creds["client_id"],
+        "client_secret": creds["client_secret"],
+        "grant_type": "refresh_token",
+    }).encode()
+    req = urllib.request.Request("https://accounts.zoho.com/oauth/v2/token", data=data)
+    with urllib.request.urlopen(req, timeout=30) as r:
+        j = json.loads(r.read().decode())
+    if "access_token" not in j:
+        raise RuntimeError("OAuth refresh a echoue: " + json.dumps(j))
+    return j["access_token"]
+
+
+def send_email(token, subject, body, to, cc=""):
+    payload = {"fromAddress": FROM, "toAddress": to, "subject": subject,
+               "content": body}
+    if cc:
+        payload["ccAddress"] = cc
+    data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    req = urllib.request.Request(
+        "https://mail.zoho.com/api/accounts/%s/messages" % ACCOUNT_ID,
+        data=data, method="POST",
+        headers={"Authorization": "Zoho-oauthtoken " + token,
+                 "Content-Type": "application/json; charset=utf-8"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.loads(r.read().decode())
+
+
+def load_state():
+    if os.path.exists(STATE):
+        with open(STATE, encoding="utf-8") as f:
+            return json.load(f)
+    return {"sent": {}, "done_notified": False}
+
+
+def save_state(state):
+    with open(STATE, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=1)
+
+
+def main():
+    args = [a for a in sys.argv[1:] if not a.startswith("-")]
+    daily_max = int(args[0]) if args and args[0].isdigit() else DAILY_MAX
+    dry = "--dry-run" in sys.argv
+
+    creds = load_creds()
+    with open(DATA, encoding="utf-8") as f:
+        emails = {str(e["num"]): e for e in json.load(f)}
+
+    state = load_state()
+    sent = state["sent"]
+    today = datetime.date.today().isoformat()
+
+    sent_today = [k for k, v in sent.items() if v.get("on") == today]
+    remaining = [(num, e) for num, e in sorted(emails.items(), key=lambda kv: int(kv[0]))
+                 if num not in sent and e.get("to")]
+    quota = max(0, daily_max - len(sent_today))
+    todo = remaining[:quota]
+
+    if dry:
+        print("[DRY-RUN] %s | deja envoyes aujourd'hui: %d | quota: %d" % (today, len(sent_today), daily_max))
+        if todo:
+            for num, e in todo:
+                print("  enverrait  #%s %s -> %s" % (num, e["prospect"][:40], e["to"]))
+        else:
+            print("  rien a envoyer (tout envoye ou quota atteint)")
+        return
+
+    if not todo:
+        if not remaining and not state.get("done_notified"):
+            state["done_notified"] = True
+            save_state(state)
+            print("Campagne terminee : les %d emails ont tous ete envoyes. Bravo !" % len(emails))
+        return  # sinon silence total (watchdog)
+
+    token = refresh_token(creds)
+    lines = []
+    for num, e in todo:
+        content = e["body"] + "\n\n" + SIG
+        r = send_email(token, e["subject"], content, e["to"], e.get("cc", ""))
+        sent[num] = {"on": today, "messageId": str(r["data"].get("messageId", ""))}
+        lines.append("Envoye  #%s %s -> %s" % (num, e["prospect"][:40], e["to"]))
+
+    save_state(state)
+    rest = len(emails) - len(sent)
+    lines.append("Restants : %d" % rest)
+    missing = [num for num, e in emails.items() if not e.get("to")]
+    if missing:
+        lines.append("Adresses manquantes a confirmer : #%s (ATP, JSM Perrin, Usimeca)"
+                     % ", ".join(missing))
+    print("\n".join(lines))
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as exc:  # noqa: BLE001 — le cron doit remonter l'erreur
+        sys.stderr.write("ERREUR campagne_zoho: %s\n" % exc)
+        sys.exit(1)

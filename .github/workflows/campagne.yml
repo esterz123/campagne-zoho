@@ -1,0 +1,30 @@
+name: Campagne emails Zoho
+
+# 8h30 heure d'Alger (UTC+1) = 7h30 UTC — les horaires GitHub sont en UTC
+on:
+  schedule:
+    - cron: '30 7 * * 1-5'   # lundi a vendredi, 8h30
+  workflow_dispatch:         # bouton "Run workflow" pour declencher a la main
+
+jobs:
+  campagne:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write        # autorise la sauvegarde de l'etat dans le repo
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Envoi les emails du jour
+        env:
+          ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
+          ZOHO_CLIENT_SECRET: ${{ secrets.ZOHO_CLIENT_SECRET }}
+          ZOHO_REFRESH_TOKEN: ${{ secrets.ZOHO_REFRESH_TOKEN }}
+        run: python3 campagne_zoho.py
+
+      - name: Sauvegarde de l'etat (anti-doublon)
+        run: |
+          git config user.name "campagne-bot"
+          git config user.email "campagne-bot@users.noreply.github.com"
+          git add campagne_state.json
+          git commit -m "campagne: etat du jour" || echo "rien a commiter"
+          git push

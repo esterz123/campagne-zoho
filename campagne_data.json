@@ -1,0 +1,92 @@
+[
+ {
+  "num": 1,
+  "prospect": "1 — SIMI (Sté Industrielle de Micro-Injection)",
+  "to": "direction@simi.fr",
+  "cc": "commercial@simi.fr",
+  "subject": "Votre site affiche sa propre ancienneté",
+  "body": "Bonjour,\n\nVous avez récemment pris la direction de SIMI — toutes mes félicitations pour cette reprise.\n\nEn préparant une présentation sur les sous-traitants du Doubs, j'ai passé quelques minutes sur simi.fr. Un point m'a immédiatement frappé, et il est vérifiable en 30 secondes :\n\n**Votre page d'accueil affiche la date de dernière modification du fichier**, via un script JavaScript datant de 2002. Concrètement, chaque visiteur voit que rien n'a bougé depuis des années — avant même de lire un mot sur votre micro-injection de précision.\n\nDeux autres constats :\n1. Le site est construit en tables HTML de 751 px de large — il s'affiche minuscule et vide sur les écrans actuels, et est illisible sur mobile (où se trouve une bonne part de vos contacts).\n2. Ni parc machine, ni certifications, ni références clients ne sont visibles — alors que ce sont exactement les éléments que vos acheteurs cherchent pour valider un sous-traitant.\n\nDans l'industrie, le site est le premier filtre des donneurs d'ordre. Un site qui affiche sa propre ancienneté fait douter — à tort — de la modernité des machines et des méthodes.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : analyse de votre site, de vos 3 concurrents directs, et 5 recommandations concrètes — dont plusieurs gratuites, applicables dès cette semaine. Vous gardez le document, que vous travailliez ou non avec moi.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi",
+  "to_confirmed": true
+ },
+ {
+  "num": 2,
+  "prospect": "2 — Slicom (ACA Slicom Technologies, Clermont-Ferrand)",
+  "to": "techno@slicom-group.com",
+  "cc": "",
+  "subject": "WordPress 2018 sur votre site — un détail qui coûte cher",
+  "body": "Bonjour,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. J'analysais les acteurs de la mécanique en Auvergne, et votre site a attiré mon attention — parce que votre savoir-faire est solide, mais votre vitrine ne le montre pas.\n\nTrois constats, vérifiables par votre équipe en quelques minutes :\n\n1. **Votre site tourne sur WordPress 4.9, une version sortie en 2018** — 8 ans de mises à jour de sécurité manquantes, sans parler du rendu daté.\n2. Le thème n'a pas été personnalisé (couleurs et polices par défaut), ce qui donne une impression \"modèle non fini\".\n3. Votre positionnement technique — mécanique industrielle de précision — n'apparaît pas en première page, alors que c'est votre meilleur argument.\n\nPour un donneur d'ordre qui compare trois sous-traitants, ce sont ces détails qui font la différence entre \"partenaire fiable\" et \"fournisseur daté\". Or votre CA (près de 6 M€) montre que vous avez les moyens de votre image.\n\n**Ma proposition, sans engagement :**\nUn diagnostic gratuit de votre image digitale : votre site comparé à 3 concurrents directs, et 5 recommandations concrètes (dont des correctifs gratuits applicables tout de suite). Vous gardez le document.\n\nRépondez simplement à cet email et je vous l'envoie sous 3 jours.\n\nCordialement,\nMahdi",
+  "to_confirmed": true
+ },
+ {
+  "num": 3,
+  "prospect": "3 — Rouxel Mold (moules industriels)",
+  "to": "contact@rouxel-mold.com",
+  "cc": "",
+  "subject": "5 polices différentes sur une même page — et ce que ça dit de vos moules",
+  "body": "Bonjour,\n\nJe m'appelle Mahdi, brand designer. En travaillant sur un comparatif des moulistes français, je suis tombé sur rouxel-mold.com — et votre page d'accueil m'a fait réagir.\n\n**Votre site utilise 5 polices de caractères différentes** (Lato, Open Sans, Oswald, PT Sans, Raleway) sur les mêmes pages. C'est typiquement le signe d'un site construit par accumulation d'outils, sans direction artistique. Et votre slider de 2016 n'a pas été mis à jour depuis.\n\nCe n'est pas qu'une question d'esthétique : dans votre métier, la précision est votre argument de vente. Un site qui semble \"approximatif\" à l'œil fait douter — à tort — de la précision de vos moules.\n\n**Ce que je vous propose, gratuitement :**\nUn diagnostic de votre image digitale (10 pages), avec votre site comparé à 3 concurrents directs et 5 actions concrètes classées par impact — dont des correctifs immédiats à coût nul.\n\nRépondez à cet email et je vous prépare le document sous 3 jours. Vous restez libre de l'utiliser comme vous voulez.\n\nCordialement,\nMahdi",
+  "to_confirmed": true
+ },
+ {
+  "num": 4,
+  "prospect": "4 — Milmeca (Villeneuve-Tolosane, 31)",
+  "to": "contact@milmeca.fr",
+  "cc": "",
+  "subject": "Votre site utilise un composant de 2016 — et vos prospects le voient",
+  "body": "Bonjour,\n\nJe suis Mahdi, brand designer spécialisé dans les PME industrielles. J'ai analysé milmeca.fr dans le cadre d'une veille sur la mécanique toulousaine, et je me permets de partager trois constats objectifs :\n\n1. **Votre site repose sur jQuery 1.12.4 — une version de 2016.** Huit ans de correctifs de sécurité manquants, et un rendu qui accuse le poids des années.\n2. Le CMS (WordPress 5.3, 2020) et le constructeur de pages WPBakery alourdissent chaque page d'environ 1 Méga-octet : vos visiteurs attendent plusieurs secondes avant de voir votre contenu.\n3. Votre savoir-faire — mécanique de précision, 3,4 M€ de CA, une équipe de 20 à 49 personnes — n'est pas mis en avant en première page. C'est pourtant ce que cherchent vos futurs donneurs d'ordre.\n\nUn site lent et daté, c'est un filtre négatif invisible : il élimine vos meilleurs prospects avant même qu'ils lisent votre offre.\n\n**Ma proposition, gratuite et sans engagement :**\nUn diagnostic de 10 pages de votre image digitale : votre site comparé à 3 concurrents, 5 recommandations concrètes (plusieurs gratuites et immédiates). Vous gardez le document, quoi que vous décidiez.\n\nPour le recevoir : une simple réponse à cet email.\n\nCordialement,\nMahdi",
+  "to_confirmed": true
+ },
+ {
+  "num": 5,
+  "prospect": "5 — Georget Precision (Vivonne, 86)",
+  "to": "contact@georget.fr",
+  "cc": "",
+  "subject": "Votre site tient en 4 Ko — je peux vous montrer ce que ça coûte",
+  "body": "Bonjour,\n\nJe m'appelle Mahdi, brand designer. En explorant les mécaniciens de précision de Nouvelle-Aquitaine, je suis arrivé sur georget.fr — et j'ai été surpris par un contraste :\n\n**Votre entreprise est solide** (2 M€ de CA, équipe de 10-19 personnes, usinage de précision), mais **votre site tient en 4 Ko de contenu** : une page d'accueil quasi vide, sans votre histoire, sans vos machines, sans vos références.\n\nPour un acheteur industriel qui compare des sous-traitants — souvent sans se déplacer avant la qualification — une page vide est interprétée comme : \"petite entreprise fragile\" ou \"pas de capacité réelle\". C'est faux dans votre cas, mais le visiteur ne le sait pas encore.\n\n**Ce que je vous propose, gratuitement :**\nUn diagnostic de votre image digitale (10 pages) : analyse de votre site, de vos concurrents, et 5 recommandations concrètes classées par impact — dont des actions gratuites applicables sous 48h. Vous gardez le document.\n\nRépondez simplement à cet email et je vous envoie le diagnostic sous 3 jours.\n\nCordialement,\nMahdi",
+  "to_confirmed": true
+ },
+ {
+  "num": 6,
+  "prospect": "6 — Brugière (EURL outillage, Peschadoires, 63)",
+  "to": "info@brugiere-outillage.com",
+  "cc": "",
+  "subject": "+58% de CA en 2023 — mais votre site n'a pas suivi",
+  "body": "Bonjour,\n\nFélicitations pour votre croissance : +58% sur le dernier exercice publié, c'est remarquable dans l'outillage. C'est justement parce que votre entreprise avance vite que je me permets de vous écrire.\n\nEn visitant brugiere-outillage.com, j'ai noté trois points :\n\n1. **Le site repose sur un thème générique non personnalisé** (template Bootstrap brut) — rien ne le distingue des centaines d'autres business qui utilisent le même.\n2. La bibliothèque JavaScript date de 2016 (jQuery 1.12.4) : rendu daté et sécurité en retard.\n3. Votre proposition de valeur — outillage, moules, injection — n'est pas clairement visible en première page.\n\nUne entreprise qui chope +58% de croissance avec une image de 2016 : vous méritez un site qui montre votre niveau réel.\n\n**Ma proposition, sans engagement :**\nUn diagnostic gratuit (10 pages) de votre image digitale : comparaison avec 3 concurrents, 5 recommandations actionnables immédiatement. Le document vous appartient, que vous travailliez avec moi ou non.\n\nRépondez à cet email et je vous le prépare sous 3 jours.\n\nCordialement,\nMahdi",
+  "to_confirmed": true
+ },
+ {
+  "num": 7,
+  "prospect": "7 — ATP Applications Techniques des Plastiques (La Ferté-Bernard, 72)",
+  "to": "",
+  "cc": "",
+  "subject": "Votre site web ne se charge pas — vos prospects voient une page d'erreur",
+  "body": "Bonjour,\n\nJe suis Mahdi, brand designer. En préparant un panorama des plasturgistes du Grand Ouest, j'ai cherché le site d'ATP — et voici ce que j'ai trouvé, vérifiable par vous en 30 secondes :\n\n1. **L'adresse plastiques-atp.fr renvoie automatiquement vers atp-groupermt.com… qui n'affiche aucune page.** Vos prospects qui cherchent \"application techniques des plastiques\" arrivent sur une impasse.\n2. Résultat : pour un donneur d'ordre qui cherche un injecteur sérieux, ATP n'existe pas en ligne.\n\nOr votre entreprise est tout sauf invisible : 2,47 M€ de CA, une vraie activité d'injection plastique. C'est un décalage total entre votre réalité industrielle et votre présence digitale.\n\n**Ce que je vous propose, gratuitement :**\nUn diagnostic de votre image digitale (10 pages) : ce que vos prospects voient aujourd'hui, ce que vos concurrents montrent, et 5 recommandations concrètes — dont une action urgente pour que votre nom redevienne visible en ligne. Vous gardez le document.\n\nUne réponse à cet email, et je vous l'envoie sous 3 jours.\n\nCordialement,\nMahdi",
+  "to_confirmed": false
+ },
+ {
+  "num": 8,
+  "prospect": "8 — JSM Perrin (Châlette-sur-Loing, 45)",
+  "to": "",
+  "cc": "",
+  "subject": "Un site en template russe gratuit pour un acteur de l'aéronautique",
+  "body": "Bonjour,\n\nJSM Perrin travaille pour l'aéronautique, la défense, le ferroviaire — les secteurs les plus exigeants qui soient. C'est exactement pour cela que votre site m'a intrigué.\n\nEn explorant jsmperrin.com, j'ai constaté :\n\n1. **Le site utilise le thème par défaut de Joomla (Beez_20), non personnalisé** — et un lien vers un template russe gratuit (jtemplate.ru) est encore présent dans le code.\n2. La mise en page repose sur des tableaux HTML, non adaptés aux écrans actuels ni au mobile.\n3. **Aucune adresse email n'est visible nulle part sur le site** — pour un acteur de 3,4 M€ de CA servant les donneurs d'ordre les plus exigeants, c'est un signal d'abandon involontaire.\n\nQuand vos prospects — acheteurs aéronautique, qualité, méthode — visitent votre site, ils cherchent des preuves de sérieux. Ils tombent sur un template par défaut. Le contraste avec votre niveau d'exigence industrielle est frappant.\n\n**Ma proposition, sans engagement :**\nUn diagnostic gratuit (10 pages) : votre site comparé à 3 concurrents de votre secteur, 5 recommandations concrètes d'impact différent. Le document vous appartient.\n\nRépondez à cet email et je vous le prépare sous 3 jours.\n\nCordialement,\nMahdi",
+  "to_confirmed": false
+ },
+ {
+  "num": 9,
+  "prospect": "9 — Usimeca Prod (Sorbiers, 42)",
+  "to": "",
+  "cc": "",
+  "subject": "Une reprise réussie mérite une image à la hauteur",
+  "body": "Bonjour Madame Masson,\n\nToutes mes félicitations pour la reprise d'Usimeca Prod — un beau passage de relais, accompagné par le Réseau Entreprendre, si j'ai bien lu la presse.\n\nEn tant que brand designer, je remarque un détail : vous avez repris une entreprise entière, ses machines, ses clients — mais son site web est resté celui d'avant :\n\n1. Le site est en PHP fait maison avec des bibliothèques de 2013 (jQuery 1.10) — avant le mobile, avant les standards actuels.\n2. Trois polices différentes par défaut sont mélangées, donnant un rendu \"bricolé\" qui ne reflète pas la rigueur de l'usinage de précision.\n3. Rien ne raconte votre parcours (ex-Safran) ni la nouvelle dynamique de l'entreprise — pourtant ce sont des arguments commerciaux forts vis-à-vis de vos clients.\n\nQuand vous prenez la direction d'une entreprise, l'image que vous montrez est la première chose que vos prospects voient. La vôtre dit encore \"ancienne équipe\".\n\n**Ce que je vous propose, gratuitement :**\nUn diagnostic de 10 pages de votre image digitale : votre site, vos concurrents, et 5 recommandations concrètes — dont le positionnement \"nouvelle dirigeante, nouveau souffle\" qui vous différencierait. Vous gardez le document.\n\nRépondez à cet email, et je vous l'envoie sous 3 jours.\n\nCordialement,\nMahdi",
+  "to_confirmed": false
+ },
+ {
+  "num": 10,
+  "prospect": "10 — Remiplast (Saint-Aubin-lès-Elbeuf, 76)",
+  "to": "marc.regent@remiplast.com",
+  "cc": "",
+  "subject": "Votre site ne montre ni email ni téléphone — vos prospects ne peuvent pas vous joindre",
+  "body": "Bonjour Monsieur Regent,\n\nJe suis Mahdi, brand designer travaillant avec des PME industrielles. En visitant remiplast.com, j'ai été surpris par un paradoxe :\n\n1. **Votre site ne laisse apparaître aucune adresse email ni numéro de téléphone** — le visiteur doit deviner comment vous contacter. Pour une entreprise qui vend des pièces techniques en plastique, chaque prospect perdu ici ne revient pas.\n2. Le site est en PHP maison avec des outils datant de 2015 (Modernizr 2.8) — avant les standards actuels d'affichage mobile.\n3. La mention \"site réalisé par [agence]\" en pied de page est le seul élément qui ne parle pas de vous — c'est le signe d'un site qui n'a pas évolué depuis sa création.\n\nVotre CA d'environ 1 M€ montre une activité réelle. Mais en ligne, votre entreprise paraît injoignable — et c'est le premier critère de qualification d'un acheteur.\n\n**Ce que je vous propose, gratuitement :**\nUn diagnostic de votre image digitale (10 pages) : votre site, vos concurrents, 5 recommandations concrètes — la première étant de rétablir un contact visible en 24h, à coût nul. Vous gardez le document.\n\nRépondez à cet email et je vous le prépare sous 3 jours.\n\nCordialement,\nMahdi",
+  "to_confirmed": true
+ }
+]
