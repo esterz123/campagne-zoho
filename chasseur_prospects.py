@@ -95,18 +95,24 @@ def api_candidats():
 
 
 def find_site(nom, ville):
-    """Site web via DuckDuckGo, filtre anti-annuaires."""
+    """Site web via DuckDuckGo, secours Bing. Filtre anti-annuaires."""
     q = '"%s" %s' % (nom, ville)
-    url = "https://html.duckduckgo.com/html/?q=" + urllib.parse.quote(q)
-    html = fetch(url)
-    for m in re.findall(r'uddg=([^&"]+)', html)[:8]:
-        try:
-            u = urllib.parse.unquote(m)
-        except Exception:
-            continue
-        netloc = (urllib.parse.urlsplit(u).netloc or "").lower().replace("www.", "")
-        if netloc and not any(a in netloc for a in ANNUAIRES) and "." in netloc:
-            return netloc
+    for engine in ("ddg", "bing"):
+        if engine == "ddg":
+            url = "https://html.duckduckgo.com/html/?q=" + urllib.parse.quote(q)
+            hits = re.findall(r'uddg=([^&"]+)', fetch(url))[:8]
+        else:
+            url = "https://www.bing.com/search?q=" + urllib.parse.quote(q)
+            hits = re.findall(r'<h2><a[^>]+href="([^"]+)"', fetch(url))[:12]
+        for m in hits:
+            try:
+                u = urllib.parse.unquote(m)
+            except Exception:
+                continue
+            netloc = (urllib.parse.urlsplit(u).netloc or "").lower().replace("www.", "")
+            if netloc and not any(a in netloc for a in ANNUAIRES) and "." in netloc:
+                return netloc
+        time.sleep(1)
     return ""
 
 
@@ -177,7 +183,8 @@ def find_email(netloc):
 
 def main():
     candidats = api_candidats()
-    fiches, traites = [], 0
+    print("Candidats API : %d" % len(candidats))
+    fiches, traites, sites_trouves = [], 0, 0
     for cand in candidats:
         if traites >= MAX_SITES:
             break
@@ -185,6 +192,7 @@ def main():
         time.sleep(1)
         if not site:
             continue
+        sites_trouves += 1
         html = fetch("https://www.%s/" % site) or fetch("http://%s/" % site)
         traites += 1
         if not html:
@@ -200,9 +208,11 @@ def main():
         print("FICHE  %-35s %-20s score=%d email=%s constats=%s"
               % (cand["nom"][:35], site, score, emails[:1], constats))
 
+    print("Rapport : %d candidats => %d sites => %d fiches > seuil %d"
+          % (len(candidats), sites_trouves, len(fiches), SCORE_MIN))
     try:
         with open("nouveau_prospects.json", encoding="utf-8") as f:
-            existant = json.load(f)
+            existant = json.load(f) or []
     except Exception:
         existant = []
     existant.extend(fiches)

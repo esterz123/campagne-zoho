@@ -32,3 +32,15 @@ jobs:
           git add -A
           git commit -m "campagne: etat du jour + nouvelles fiches" || echo "rien a commiter"
           git push
+
+      - name: Notifier Discord (rapport du jour)
+        if: ${{ env.DISCORD_WEBHOOK != '' }}
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python3 notify_discord.py
+
+      - name: Notifier erreur sur Discord
+        if: ${{ failure() && env.DISCORD_WEBHOOK != '' }}
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python3 notify_discord.py --error
