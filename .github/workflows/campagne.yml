@@ -1,0 +1,34 @@
+name: Campagne emails Zoho
+
+# Chrono en temps universel : 7h30 UTC = 8h30 heure d'Alger
+# Le job fait TOUT : envoi du jour + chasse de nouveaux prospects + sauvegarde
+on:
+  schedule:
+    - cron: '30 7 * * 1-5'
+  workflow_dispatch:      # bouton "Run workflow" = envoyer + chercher maintenant
+
+jobs:
+  campagne:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Envoi les emails du jour (2-3 max)
+        env:
+          ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
+          ZOHO_CLIENT_SECRET: ${{ secrets.ZOHO_CLIENT_SECRET }}
+          ZOHO_REFRESH_TOKEN: ${{ secrets.ZOHO_REFRESH_TOKEN }}
+        run: python3 campagne_zoho.py
+
+      - name: Chasse de nouveaux prospects (sites vétustes + emails)
+        run: python3 chasseur_prospects.py || echo "chasse finie (limite ou erreur)"
+
+      - name: Sauvegarde etat + nouveaux prospects
+        run: |
+          git config user.name "campagne-bot"
+          git config user.email "campagne-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "campagne: etat du jour + nouvelles fiches" || echo "rien a commiter"
+          git push

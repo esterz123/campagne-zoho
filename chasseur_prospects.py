@@ -1,0 +1,216 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+CHASSEUR DE PROSPECTS — alimente la campagne en nouveaux prospects qualifies.
+Tourne dans GitHub Actions chaque jour (PC eteint ou pas).
+
+Pipeline :
+  1. API recherche-entreprises.api.gouv.fr (officielle, gratuite, sans cle)
+     -> candidats PME industrielles (NAF cible, 10-249 salaries)
+  2. Recherche du site web (DuckDuckGo HTML, filtre anti-annuaires)
+  3. Analyse heuristique du site (WordPress/jQuery/copyright/SSL/mobile)
+  4. Extraction de l'email de contact (contact / mentions-legales / mailto)
+  5. Ecriture dans nouveau_prospects.json — Hermes redige ensuite l'email perso
+
+Sortie : nouveau_prospects.json (liste de fiches, jamais envoye directement).
+"""
+import json
+import re
+import time
+import urllib.parse
+import urllib.request
+from datetime import date
+
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/120.0 Safari/537.36")
+
+# Domaines d'annuaires a ne JAMAIS considerer comme site officiel
+ANNUAIRES = ("cylex", "kompass", "pagesjaunes", "societe.com", "verif.com",
+             "infogreffe", "pappers", "annuaire-entreprises", "europages",
+             "yellowpages", "sous-traiter", "telesurveillance", "lefigaro",
+             "linternaute", "franceinfo", "123sejours", "hotfrog", "buzzfile",
+             "opendi", "agoravox")
+
+# (mot-cle recherche, code NAF) — secteurs Mahdi : mecanique/usinage/plasturgie/moules
+CIBLES = [
+    ("usinage", "2562B"), ("mecanique", "2562A"), ("fraisage", "2562B"),
+    ("plasturgie", "2229A"), ("injection plastique", "2229B"),
+    ("moules injection", "2573A"), ("outillage", "2573B"), ("decoupage", "2550A"),
+]
+
+# Tranches INSEE : 11=10-19, 12=20-49, 21=50-99, 22=100-199, 31=200-249
+EFFECTIFS_OK = ("11", "12", "21", "22", "31")
+
+MAX_SITES = 8          # sites analyses par jour (quotas et courtoisie)
+FETCH_TIMEOUT = 15
+SCORE_MIN = 3          # score de vetuste minimal pour garder la fiche
+
+
+def fetch(url, tries=2):
+    req = urllib.request.Request(url, headers={
+        "User-Agent": UA, "Accept-Language": "fr-FR,fr;q=0.8",
+        "Accept": "text/html,application/xhtml+xml"})
+    for i in range(tries):
+        try:
+            with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT) as r:
+                return r.read().decode("utf-8", "ignore")
+        except Exception:
+            if i == tries - 1:
+                return ""
+            time.sleep(2)
+    return ""
+
+
+def api_candidats():
+    """Candidats depuis l'API officielle. Retourne liste de dicts."""
+    out, deja = [], set()
+    for mot, naf in CIBLES:
+        q = urllib.parse.urlencode({"q": mot, "code_naf": naf, "per_page": 5})
+        try:
+            j = json.loads(fetch("https://recherche-entreprises.api.gouv.fr/search?%s" % q))
+        except Exception:
+            continue
+        for r in j.get("results", []):
+            siren = r.get("siren")
+            if not siren or siren in deja:
+                continue
+            if r.get("etat_administratif") != "A":
+                continue
+            if r.get("categorie_entreprise") not in ("PME", "ETI"):
+                continue
+            if r.get("tranche_effectif_salarie") not in EFFECTIFS_OK:
+                continue
+            deja.add(siren)
+            siege = r.get("siege", {})
+            nom = r.get("nom_complet", "").title()
+            dirs = ["%s %s (%s)" % (d.get("prenoms", "").title(), re.sub(r"\(.*?\)", "", d.get("nom", "")).strip().title(), d.get("qualite", ""))
+                    for d in r.get("dirigeants", [])[:2]]
+            out.append({
+                "nom": nom, "siren": siren, "naf": r.get("activite_principale", ""),
+                "ville": siege.get("libelle_commune", ""), "region": siege.get("region", ""),
+                "effectif": r.get("tranche_effectif_salarie", ""),
+                "dirigeants": dirs, "date_creation": r.get("date_creation", "")})
+        time.sleep(1)
+    return out
+
+
+def find_site(nom, ville):
+    """Site web via DuckDuckGo, filtre anti-annuaires."""
+    q = '"%s" %s' % (nom, ville)
+    url = "https://html.duckduckgo.com/html/?q=" + urllib.parse.quote(q)
+    html = fetch(url)
+    for m in re.findall(r'uddg=([^&"]+)', html)[:8]:
+        try:
+            u = urllib.parse.unquote(m)
+        except Exception:
+            continue
+        netloc = (urllib.parse.urlsplit(u).netloc or "").lower().replace("www.", "")
+        if netloc and not any(a in netloc for a in ANNUAIRES) and "." in netloc:
+            return netloc
+    return ""
+
+
+def analyze(html):
+    """Constats de vetuste. Retourne (constats, score)."""
+    c, score = [], 0
+    low = html.lower()
+    m = re.search(r'<meta[^>]+name=["\']generator["\'][^>]+content=["\']([^"\']+)', low)
+    if m:
+        gen = m.group(1)
+        if "wordpress" in gen:
+            v = re.search(r"wordpress\s*([\d.]+)", gen)
+            ver = v.group(1) if v else "?"
+            c.append("WordPress %s" % ver)
+            score += 2 if (v and float(ver.split(".")[0]) < 6) else 1
+        elif "joomla" in gen or "drupal" in gen:
+            c.append("CMS %s" % gen.strip())
+            score += 1
+    jq = re.search(r"jquery[-/]([\d.]+)", low)
+    if jq:
+        ver = jq.group(1)
+        try:
+            if float(ver[:3]) < 3:
+                c.append("jQuery %s (avant 2016)" % ver); score += 2
+        except ValueError:
+            pass
+    if '<meta name="viewport"' not in low:
+        c.append("Pas de vue mobile (viewport)"); score += 2
+    cop = re.search(r"(?:&copy;|©|copyright)\s*(\d{4})", low, re.I)
+    if cop:
+        an = int(cop.group(1))
+        if an < date.today().year - 1:
+            c.append("Copyright %d" % an); score += 1
+    if not low.startswith("https"):
+        c.append("Pas de certificat SSL"); score += 1
+    if len(html) > 700000:
+        c.append("Page lourde (%d Ko)" % (len(html) // 1024)); score += 1
+    if not c:
+        c.append("Aucun constat majeur")
+    return c, score
+
+
+def find_email(netloc):
+    """Email de contact depuis home + /contact + /mentions-legales."""
+    emails = set()
+    pages = ["https://www.%s/" % netloc, "https://%s/" % netloc,
+             "https://www.%s/contact" % netloc, "https://www.%s/mentions-legales" % netloc]
+    for p in pages[:3]:
+        html = fetch(p)
+        if not html:
+            continue
+        for m in re.findall(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}", html):
+            e = m.lower().strip(".")
+            if any(x in e for x in ("example", "wixpress", "sentry", "godaddy",
+                                    ".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg",
+                                    "schema.org", "w3.org", "noreply", "no-reply",
+                                    "donotreply", "privacy", "legal", "abuse",
+                                    "sentry.io", "googleusercontent")):
+                continue
+            if "@" in e and "." in e.split("@")[1]:
+                emails.add(e)
+        if emails:
+            break
+        time.sleep(1)
+    pref = [e for e in emails if netloc.split(".")[0] in e.split("@")[1]]
+    return sorted(pref) or sorted(emails)
+
+
+def main():
+    candidats = api_candidats()
+    fiches, traites = [], 0
+    for cand in candidats:
+        if traites >= MAX_SITES:
+            break
+        site = find_site(cand["nom"], cand["ville"])
+        time.sleep(1)
+        if not site:
+            continue
+        html = fetch("https://www.%s/" % site) or fetch("http://%s/" % site)
+        traites += 1
+        if not html:
+            continue
+        constats, score = analyze(html)
+        if score < SCORE_MIN:
+            continue
+        emails = find_email(site)
+        fiche = dict(cand)
+        fiche.update({"site": site, "email": emails[:2], "constats": constats,
+                      "score": score, "date": date.today().isoformat()})
+        fiches.append(fiche)
+        print("FICHE  %-35s %-20s score=%d email=%s constats=%s"
+              % (cand["nom"][:35], site, score, emails[:1], constats))
+
+    try:
+        with open("nouveau_prospects.json", encoding="utf-8") as f:
+            existant = json.load(f)
+    except Exception:
+        existant = []
+    existant.extend(fiches)
+    with open("nouveau_prospects.json", "w", encoding="utf-8") as f:
+        json.dump(existant, f, ensure_ascii=False, indent=1)
+    print("Total nouvelles fiches ce jour : %d (accumulees : %d)"
+          % (len(fiches), len(existant)))
+
+
+if __name__ == "__main__":
+    main()
