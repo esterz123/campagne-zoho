@@ -75,7 +75,8 @@ def build_message():
 def post(webhook, content):
     payload = json.dumps({"content": content}).encode("utf-8")
     req = urllib.request.Request(webhook, data=payload, method="POST",
-                                 headers={"Content-Type": "application/json"})
+                                 headers={"Content-Type": "application/json",
+                                          "User-Agent": "campagne-bot/1.0 (contact@mahdi-design.com)"})
     with urllib.request.urlopen(req, timeout=30) as r:
         return r.status
 
