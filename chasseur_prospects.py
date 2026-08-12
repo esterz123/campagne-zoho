@@ -43,7 +43,7 @@ EFFECTIFS_OK = ("11", "12", "21", "22", "31")
 
 MAX_SITES = 8          # sites analyses par jour (quotas et courtoisie)
 FETCH_TIMEOUT = 15
-SCORE_MIN = 3          # score de vetuste minimal pour garder la fiche
+SCORE_MIN = 2          # seuil de vetuste (2 au lieu de 3 : on garde + de cibles)
 
 
 def fetch(url, tries=2):
@@ -113,6 +113,15 @@ def find_site(nom, ville):
             if netloc and not any(a in netloc for a in ANNUAIRES) and "." in netloc:
                 return netloc
         time.sleep(1)
+    # Fallback : domaine devine depuis le nom propre (DELTA USINAGE -> delta-usinage.fr)
+    base = re.sub(r"^(sarl|sa|sas|eurl|eu|ets|ets\.?|les|la|le|group|groupe)\s+", "",
+                  nom.lower(), flags=re.I)
+    base = re.sub(r"[^a-z0-9]+", "-", base).strip("-")
+    if base:
+        for tld in (".fr", ".com", ".eu"):
+            candidat = base + tld
+            if fetch("https://www." + candidat):
+                return candidat
     return ""
 
 

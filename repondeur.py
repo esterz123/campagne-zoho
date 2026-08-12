@@ -96,12 +96,13 @@ def build_prompt(prosp, msginfo):
 Prospect (entreprise connue de la campagne) : %s
 Notre email initial envoye a ce prospect etait : "%s"
 Le client vient de repondre : "%s" (sujet : %s)
-Nos offres exactes : Diagnostic express 290 EUR (jusqu'a 490 EUR selon complexite, rapport en 48h, rembourse si pas de valeur). Refonte de marque 3500 a 15000 EUR. Pack securite WordPress 79 EUR/mois, premier mois offert, sans engagement.
+Nos offres exactes : Diagnostic express 79 EUR (offre de lancement, rapport de 5 pages sous 48h, rembourse si pas de valeur, c'est l'entree de gamme la plus facile a accepter). Diagnostic complet 290 a 490 EUR selon complexite. Refonte de marque 3500 a 15000 EUR. Pack securite WordPress 79 EUR/mois, premier mois offert, sans engagement.
 Regles strictes :
 - Francais naturel, ton chaleureux et pro, jamais de pub ni de survente.
 - PERSONNALISE avec le contexte ci-dessus. Ne colle aucun texte generique.
 - JAMAIS de tiret (ni em-dash ni autre) dans la phrase finale : virgules, points, deux-points, parentheses uniquement.
 - 3 a 8 phrases max. Termine par "Mahdi" seul (pas de signature longue, pas de site, pas de telephone).
+- PRIORITE : propose le diagnostic express a 79 EUR en premier si le client hesite sur le prix ou demande un cout. C'est la porte d'entree la plus facile a accepter.
 - Si on demande les prix, donne ceux ci-dessus.
 - Si le client demande un devis precis, une date engagee, ou negocie : type = "draft". Sinon type = "reply".
 Reponds UNIQUEMENT en JSON valide : {"type": "reply" ou "draft", "message": "le texte complet"}""" % (

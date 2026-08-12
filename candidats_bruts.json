@@ -1,0 +1,139 @@
+[
+ {
+  "nom": "Anjos Injection Plastique (A.I.P.)",
+  "siren": "921425583",
+  "naf": "22.29A",
+  "ville": "TORCIEU",
+  "region": "84",
+  "effectif": "11",
+  "dirigeants": [
+   "Christian Gilles Barbarin (Président de SAS)",
+   "Laurent Herve Barbarin (Directeur Général)"
+  ],
+  "siret_siege": "92142558300017"
+ },
+ {
+  "nom": "Societe Nationale D'Extrusion Et D'Injection Des Plastiques (Sneip)",
+  "siren": "321472011",
+  "naf": "22.29B",
+  "ville": "MONTREUIL",
+  "region": "11",
+  "effectif": "12",
+  "dirigeants": [
+   "Yohann Sarfati (Commissaire aux comptes suppléant)",
+   "David Spilet (Président de SAS)"
+  ],
+  "siret_siege": "32147201100048"
+ },
+ {
+  "nom": "Institut Superieur De Plasturgie Appliquee (Ispa)",
+  "siren": "308708536",
+  "naf": "85.42Z",
+  "ville": "PARIS",
+  "region": "11",
+  "effectif": "21",
+  "dirigeants": [],
+  "siret_siege": "30870853600146"
+ },
+ {
+  "nom": "Erce Plasturgie",
+  "siren": "337793301",
+  "naf": "29.32Z",
+  "ville": "OYONNAX",
+  "region": "84",
+  "effectif": "21",
+  "dirigeants": [
+   "Cyriac Babad (Commissaire aux comptes suppléant)",
+   "  (Président de SAS)"
+  ],
+  "siret_siege": "33779330100058"
+ },
+ {
+  "nom": "Fonderie Et Plasturgie Sa (Fpsa)",
+  "siren": "389425653",
+  "naf": "22.29A",
+  "ville": "BELLIGNAT",
+  "region": "84",
+  "effectif": "12",
+  "dirigeants": [
+   "  (Commissaire aux comptes titulaire)",
+   "  (Commissaire aux comptes suppléant)"
+  ],
+  "siret_siege": "38942565300026"
+ },
+ {
+  "nom": "Centre Technique Industriel De La Plasturgie Et Des Composites (Ctipc)",
+  "siren": "353969348",
+  "naf": "72.19Z",
+  "ville": "BELLIGNAT",
+  "region": "84",
+  "effectif": "22",
+  "dirigeants": [],
+  "siret_siege": "35396934800021"
+ },
+ {
+  "nom": "Axil Plasturgie",
+  "siren": "341917813",
+  "naf": "22.29A",
+  "ville": "CIVRIEUX-D'AZERGUES",
+  "region": "84",
+  "effectif": "12",
+  "dirigeants": [
+   "Cedric Stéphane Romera-Vallin (Directeur Général)",
+   "  (Commissaire aux comptes titulaire)"
+  ],
+  "siret_siege": "34191781300022"
+ },
+ {
+  "nom": "Mecanique Baumoise De Precision (Mbp)",
+  "siren": "381493923",
+  "naf": "25.62B",
+  "ville": "AUTECHAUX",
+  "region": "27",
+  "effectif": "22",
+  "dirigeants": [
+   "Bernard Cour (Directeur Général)",
+   "Bernadette Cour (Directeur Général)"
+  ],
+  "siret_siege": "38149392300027"
+ },
+ {
+  "nom": "Mecanique Precision Issoirienne (Mpi)",
+  "siren": "323505065",
+  "naf": "25.62B",
+  "ville": "SAINT-REMY-DE-CHARGNAT",
+  "region": "84",
+  "effectif": "12",
+  "dirigeants": [
+   "Mathieu Denis Christophe Dugourd (Gérant)",
+   "Sylvain Veziant (Gérant)"
+  ],
+  "siret_siege": "32350506500025"
+ },
+ {
+  "nom": "Precision Mecanique Du Lorouer (Pml)",
+  "siren": "327745519",
+  "naf": "25.62B",
+  "ville": "SAINT-VINCENT-DU-LOROUER",
+  "region": "52",
+  "effectif": "12",
+  "dirigeants": [
+   "Bernard Bonnin (Directeur Général)",
+   "Renaud Bonnin (Président de SAS)"
+  ],
+  "siret_siege": "32774551900022"
+ },
+ {
+  "nom": "Roussel Freres Precision Mecanique (Rfpm)",
+  "siren": "300846532",
+  "naf": "25.62B",
+  "ville": "VILLERS-SUR-PORT",
+  "region": "27",
+  "effectif": "21",
+  "dirigeants": [
+   "  (Commissaire aux comptes titulaire)",
+   "  (Président de SAS)"
+  ],
+  "siret_siege": "30084653200012"
+ }
+]
