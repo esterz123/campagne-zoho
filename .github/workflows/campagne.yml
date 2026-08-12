@@ -1,11 +1,17 @@
 name: Campagne emails Zoho
 
-# Chrono en temps universel : 7h30 UTC = 8h30 heure d'Alger
-# Le job fait TOUT : envoi du jour + chasse de nouveaux prospects + sauvegarde
+# Chrono en temps universel (heure d'Alger = UTC + 1) :
+#   07h30 UTC = 08h30 Alger  -> run 1 : envoi + chasse + rapport
+#   11h30 UTC = 12h30 Alger  -> run 2 : envoi seul (1 email)
+#   16h30 UTC = 17h30 Alger  -> run 3 : envoi seul (1 email)
+# Chaque run n'envoie QU'UN email (--max 1) pour espacer les envois et
+# eviter d'avoir l'air d'un robot (Zoho). 3 emails/jour, espaces de 4-5h.
 on:
   schedule:
-    - cron: '30 7 * * 1-5'
-  workflow_dispatch:      # bouton "Run workflow" = envoyer + chercher maintenant
+    - cron: '30 7 * * 1-5'    # 08h30 Alger
+    - cron: '30 11 * * 1-5'   # 12h30 Alger
+    - cron: '30 16 * * 1-5'   # 17h30 Alger
+  workflow_dispatch:          # bouton "Run workflow" = envoyer maintenant
 
 jobs:
   campagne:
@@ -15,15 +21,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Envoi les emails du jour (2-3 max)
+      - name: Envoi UN email (espaces dans la journee)
         env:
           ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
           ZOHO_CLIENT_SECRET: ${{ secrets.ZOHO_CLIENT_SECRET }}
           ZOHO_REFRESH_TOKEN: ${{ secrets.ZOHO_REFRESH_TOKEN }}
-        run: python3 campagne_zoho.py
+        run: python3 campagne_zoho.py --max 1
 
-      - name: Chasse de nouveaux prospects (sites vétustes + emails)
-        run: python3 chasseur_prospects.py || echo "chasse finie (limite ou erreur)"
+      - name: Chasse de nouveaux prospects (1x/jour seulement)
+        run: |
+          today=$(date +%Y-%m-%d)
+          if [ ! -f ".chasse_$today" ]; then
+            python3 chasseur_prospects.py || echo "chasse finie (limite ou erreur)"
+            touch ".chasse_$today"
+          else
+            echo "chasse deja faite aujourd'hui, skip"
+          fi
 
       - name: Sauvegarde etat + nouveaux prospects
         run: |

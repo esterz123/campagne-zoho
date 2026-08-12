@@ -26,10 +26,36 @@ ACCOUNT_ID = "7349712000000008002"
 FROM = "contact@mahdi-design.com"
 DAILY_MAX = 3
 
-SIG = ("Mahdi\n"
-       "Brand Designer \u2014 Identit\u00e9 visuelle & sites web pour PME\n"
-       "contact@mahdi-design.com\n"
-       "Mahdi Design \u2014 mahdi-design.com")
+SIG = ("Mahdi<br>"
+       "Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>"
+       "Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>"
+       "contact@mahdi-design.com")
+
+
+def body_to_html(text):
+    """Convertit le corps (texte avec \\n et **bold**) en HTML lisible pour Zoho."""
+    import re
+    # markdown **gras** -> <strong>
+    text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
+    # lignes
+    lines = text.split("\n")
+    html = []
+    para = []
+    for ln in lines:
+        if ln.strip() == "":
+            if para:
+                html.append("<p>" + "<br>".join(para) + "</p>")
+                para = []
+        else:
+            para.append(ln)
+    if para:
+        html.append("<p>" + "<br>".join(para) + "</p>")
+    return "\n".join(html)
+
+
+def build_html(body, signature):
+    """Assemble corps HTML + signature en un email bien structure."""
+    return body_to_html(body) + "\n<br>\n" + signature
 
 
 def load_creds():
@@ -61,7 +87,7 @@ def refresh_token(creds):
 
 def send_email(token, subject, body, to, cc=""):
     payload = {"fromAddress": FROM, "toAddress": to, "subject": subject,
-               "content": body}
+               "content": body, "htmlContent": "true"}
     if cc:
         payload["ccAddress"] = cc
     data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
@@ -98,6 +124,15 @@ def main():
     args = [a for a in sys.argv[1:] if not a.startswith("-")]
     daily_max = int(args[0]) if args and args[0].isdigit() else DAILY_MAX
     dry = "--dry-run" in sys.argv
+    # Limite d'emails par run (pour espacer les envois a differents horaires).
+    # Ex: --max 1 avec 3 crons 8h30/12h30/17h30 = 3 emails/jour espaces.
+    max_per_run = 1
+    for i, a in enumerate(sys.argv):
+        if a == "--max" and i + 1 < len(sys.argv):
+            try:
+                max_per_run = int(sys.argv[i + 1])
+            except ValueError:
+                pass
 
     with open(DATA, encoding="utf-8") as f:
         emails = {str(e["num"]): e for e in json.load(f)}
@@ -126,11 +161,13 @@ def main():
     due_fu.sort(key=lambda x: (fu[x[0]].get("wait_days", 99), int(x[1])))
 
     quota = max(0, daily_max - len(sent_today))
+    # Espace les envois : au max `max_per_run` par run (1 = un seul email par horaire)
+    quota = min(quota, max_per_run)
     todo_fu = due_fu[:quota]
     todo = remaining[:max(0, quota - len(todo_fu))]
 
     if dry:
-        print("[DRY-RUN] %s | deja envoyes aujourd'hui: %d | quota: %d" % (today, len(sent_today), daily_max))
+        print("[DRY-RUN] %s | deja envoyes aujourd'hui: %d | quota(ce run): %d | max_per_run: %d" % (today, len(sent_today), quota, max_per_run))
         if todo_fu:
             for stage, num in todo_fu:
                 print("  relance %-8s #%s %s -> %s" % (stage, num, emails[num]["prospect"][:40], emails[num]["to"]))
@@ -155,12 +192,12 @@ def main():
         e = emails[num]
         tpl = fu[stage]
         subject = tpl["subject"].replace("{sujet}", e["subject"])
-        content = tpl["body"] + "\n\n" + SIG
+        content = build_html(tpl["body"], SIG)
         r = send_email(token, subject, content, e["to"], e.get("cc", ""))
         sent[num]["sent_" + stage] = today
         lines.append("Relance %-8s #%s %s -> %s" % (stage, num, e["prospect"][:40], e["to"]))
     for num, e in todo:
-        content = e["body"] + "\n\n" + SIG
+        content = build_html(e["body"], SIG)
         r = send_email(token, e["subject"], content, e["to"], e.get("cc", ""))
         sent[num] = {"on": today, "messageId": str(r["data"].get("messageId", ""))}
         lines.append("Envoye  #%s %s -> %s" % (num, e["prospect"][:40], e["to"]))
