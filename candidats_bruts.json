@@ -1,139 +1,340 @@
 [
  {
   "nom": "Anjos Injection Plastique (A.I.P.)",
-  "siren": "921425583",
-  "naf": "22.29A",
   "ville": "TORCIEU",
-  "region": "84",
+  "naf": "22.29A",
   "effectif": "11",
   "dirigeants": [
-   "Christian Gilles Barbarin (Président de SAS)",
-   "Laurent Herve Barbarin (Directeur Général)"
-  ],
-  "siret_siege": "92142558300017"
+   "Christian Gilles Barbarin"
+  ]
  },
  {
   "nom": "Societe Nationale D'Extrusion Et D'Injection Des Plastiques (Sneip)",
-  "siren": "321472011",
-  "naf": "22.29B",
   "ville": "MONTREUIL",
-  "region": "11",
+  "naf": "22.29B",
   "effectif": "12",
   "dirigeants": [
-   "Yohann Sarfati (Commissaire aux comptes suppléant)",
-   "David Spilet (Président de SAS)"
-  ],
-  "siret_siege": "32147201100048"
+   "Yohann Sarfati"
+  ]
  },
  {
   "nom": "Institut Superieur De Plasturgie Appliquee (Ispa)",
-  "siren": "308708536",
-  "naf": "85.42Z",
   "ville": "PARIS",
-  "region": "11",
+  "naf": "85.42Z",
   "effectif": "21",
-  "dirigeants": [],
-  "siret_siege": "30870853600146"
+  "dirigeants": []
  },
  {
   "nom": "Erce Plasturgie",
-  "siren": "337793301",
-  "naf": "29.32Z",
   "ville": "OYONNAX",
-  "region": "84",
+  "naf": "29.32Z",
   "effectif": "21",
   "dirigeants": [
-   "Cyriac Babad (Commissaire aux comptes suppléant)",
-   "  (Président de SAS)"
-  ],
-  "siret_siege": "33779330100058"
+   "Cyriac Babad"
+  ]
  },
  {
   "nom": "Fonderie Et Plasturgie Sa (Fpsa)",
-  "siren": "389425653",
-  "naf": "22.29A",
   "ville": "BELLIGNAT",
-  "region": "84",
+  "naf": "22.29A",
   "effectif": "12",
   "dirigeants": [
-   "  (Commissaire aux comptes titulaire)",
-   "  (Commissaire aux comptes suppléant)"
-  ],
-  "siret_siege": "38942565300026"
+   " "
+  ]
  },
  {
   "nom": "Centre Technique Industriel De La Plasturgie Et Des Composites (Ctipc)",
-  "siren": "353969348",
-  "naf": "72.19Z",
   "ville": "BELLIGNAT",
-  "region": "84",
+  "naf": "72.19Z",
   "effectif": "22",
-  "dirigeants": [],
-  "siret_siege": "35396934800021"
+  "dirigeants": []
  },
  {
   "nom": "Axil Plasturgie",
-  "siren": "341917813",
-  "naf": "22.29A",
   "ville": "CIVRIEUX-D'AZERGUES",
-  "region": "84",
+  "naf": "22.29A",
   "effectif": "12",
   "dirigeants": [
-   "Cedric Stéphane Romera-Vallin (Directeur Général)",
-   "  (Commissaire aux comptes titulaire)"
-  ],
-  "siret_siege": "34191781300022"
+   "Cedric Stéphane Romera-Vallin (Romera)"
+  ]
  },
  {
   "nom": "Mecanique Baumoise De Precision (Mbp)",
-  "siren": "381493923",
-  "naf": "25.62B",
   "ville": "AUTECHAUX",
-  "region": "27",
+  "naf": "25.62B",
   "effectif": "22",
   "dirigeants": [
-   "Bernard Cour (Directeur Général)",
-   "Bernadette Cour (Directeur Général)"
-  ],
-  "siret_siege": "38149392300027"
+   "Bernard Cour (Cour)"
+  ]
  },
  {
   "nom": "Mecanique Precision Issoirienne (Mpi)",
-  "siren": "323505065",
-  "naf": "25.62B",
   "ville": "SAINT-REMY-DE-CHARGNAT",
-  "region": "84",
+  "naf": "25.62B",
   "effectif": "12",
   "dirigeants": [
-   "Mathieu Denis Christophe Dugourd (Gérant)",
-   "Sylvain Veziant (Gérant)"
-  ],
-  "siret_siege": "32350506500025"
+   "Mathieu Denis Christophe Dugourd"
+  ]
  },
  {
   "nom": "Precision Mecanique Du Lorouer (Pml)",
-  "siren": "327745519",
-  "naf": "25.62B",
   "ville": "SAINT-VINCENT-DU-LOROUER",
-  "region": "52",
+  "naf": "25.62B",
   "effectif": "12",
   "dirigeants": [
-   "Bernard Bonnin (Directeur Général)",
-   "Renaud Bonnin (Président de SAS)"
-  ],
-  "siret_siege": "32774551900022"
+   "Bernard Bonnin"
+  ]
  },
  {
   "nom": "Roussel Freres Precision Mecanique (Rfpm)",
-  "siren": "300846532",
-  "naf": "25.62B",
   "ville": "VILLERS-SUR-PORT",
-  "region": "27",
+  "naf": "25.62B",
   "effectif": "21",
   "dirigeants": [
-   "  (Commissaire aux comptes titulaire)",
-   "  (Président de SAS)"
-  ],
-  "siret_siege": "30084653200012"
+   " "
+  ]
+ },
+ {
+  "nom": "Delta Usinage",
+  "ville": "MURS-ERIGNE",
+  "naf": "25.62B",
+  "effectif": "12",
+  "dirigeants": [
+   "Sébastien Brault"
+  ]
+ },
+ {
+  "nom": "M.P. Usinage",
+  "ville": "MOIRANS-EN-MONTAGNE",
+  "naf": "25.62B",
+  "effectif": "11",
+  "dirigeants": [
+   "Emmanuel Pascal Piard (Piard)"
+  ]
+ },
+ {
+  "nom": "Brizard Usinage (Brizard Usinage)",
+  "ville": "VOIRON",
+  "naf": "25.62B",
+  "effectif": "12",
+  "dirigeants": [
+   "Laurence Chenal"
+  ]
+ },
+ {
+  "nom": "Fraisage Services",
+  "ville": "SAINTE-SEVE",
+  "naf": "43.12A",
+  "effectif": "12",
+  "dirigeants": [
+   "Arnaud Bernard Claude Gouva"
+  ]
+ },
+ {
+  "nom": "Fraisage Tp",
+  "ville": "SAINT-FLORIS",
+  "naf": "43.99E",
+  "effectif": "11",
+  "dirigeants": [
+   " "
+  ]
+ },
+ {
+  "nom": "Nord Fraisage",
+  "ville": "SAINTE-SEVE",
+  "naf": "43.99E",
+  "effectif": "11",
+  "dirigeants": [
+   "Vincent Charles Auguste Libbrecht"
+  ]
+ },
+ {
+  "nom": "Atelier De Fraisage Et Mecanique (Afm)",
+  "ville": "ATHIS-VAL DE ROUVRE",
+  "naf": "25.62B",
+  "effectif": "12",
+  "dirigeants": [
+   "Fabrice Delamarre"
+  ]
+ },
+ {
+  "nom": "Services Moules Glass (S M  Glass)",
+  "ville": "VEAUCHETTE",
+  "naf": "33.11Z",
+  "effectif": "12",
+  "dirigeants": [
+   " "
+  ]
+ },
+ {
+  "nom": "Plast Moul",
+  "ville": "LES NEYROLLES",
+  "naf": "29.32Z",
+  "effectif": "12",
+  "dirigeants": [
+   "Laurent Roger Jean Benoit A La Guillaume"
+  ]
+ },
+ {
+  "nom": "Provence Outillage",
+  "ville": "TAILLADES",
+  "naf": "47.52A",
+  "effectif": "21",
+  "dirigeants": [
+   "Laurence Tauleigne (Chaminas)"
+  ]
+ },
+ {
+  "nom": "Outillage De St Etienne",
+  "ville": "ANDREZIEUX-BOUTHEON",
+  "naf": "47.89Z",
+  "effectif": "22",
+  "dirigeants": [
+   " "
+  ]
+ },
+ {
+  "nom": "Fixations Outillages (Fix Outi Sarl)",
+  "ville": "LE LAMENTIN",
+  "naf": "47.52A",
+  "effectif": "11",
+  "dirigeants": [
+   "Frederic Rene Arnaud"
+  ]
+ },
+ {
+  "nom": "Outillage Magafor",
+  "ville": "FONTENAY-SOUS-BOIS",
+  "naf": "25.73B",
+  "effectif": "22",
+  "dirigeants": [
+   "Christophe Michel Matthey"
+  ]
+ },
+ {
+  "nom": "Assemblage Decoupage Moulage Industrie (A.D.M. Industrie)",
+  "ville": "MARNAZ",
+  "naf": "25.50B",
+  "effectif": "12",
+  "dirigeants": [
+   " "
+  ]
+ },
+ {
+  "nom": "Groupe Mecanique Decoupage (Gmd)",
+  "ville": "BOULOGNE-BILLANCOURT",
+  "naf": "70.10Z",
+  "effectif": "11",
+  "dirigeants": [
+   "Cyril Becque"
+  ]
+ },
+ {
+  "nom": "Decoupage Et Moulage D'Elastomeres (Deme)",
+  "ville": "BEAUCHAMPS",
+  "naf": "22.19Z",
+  "effectif": "11",
+  "dirigeants": [
+   "Manuel Roger Andre Pasteur"
+  ]
+ },
+ {
+  "nom": "Normandie Decoupage Emboutissage (Nde)",
+  "ville": "CRULAI",
+  "naf": "25.50B",
+  "effectif": "12",
+  "dirigeants": [
+   "Florian Thierry Denis Meslin (Meslin)"
+  ]
+ },
+ {
+  "nom": "Decoupage Mecanique Generale (Dmg)",
+  "ville": "RANCHOT",
+  "naf": "25.50B",
+  "effectif": "11",
+  "dirigeants": [
+   "Philippe Michel Georges Bole (Bole)"
+  ]
+ },
+ {
+  "nom": "Atelier De Decoupage Industriel (Aditec)",
+  "ville": "MUNSTER",
+  "naf": "25.50B",
+  "effectif": "12",
+  "dirigeants": [
+   "Patrick Mertz (Mertz)"
+  ]
+ },
+ {
+  "nom": "Outillage Mecanique Decoupage (Omedec)",
+  "ville": "AMANCEY",
+  "naf": "25.50B",
+  "effectif": "12",
+  "dirigeants": [
+   "Xavier Louis Florent Pingret"
+  ]
+ },
+ {
+  "nom": "Soc De Decolletage Et Mecanique (Sdm)",
+  "ville": "MARIGNIER",
+  "naf": "25.62A",
+  "effectif": "11",
+  "dirigeants": [
+   " "
+  ]
+ },
+ {
+  "nom": "Sarl Jcm Decolletage",
+  "ville": "SALLANCHES",
+  "naf": "25.62A",
+  "effectif": "21",
+  "dirigeants": [
+   "Michel Jiguet-Covex"
+  ]
+ },
+ {
+  "nom": "Decoupage Et Emboutissage Du Bourbonnais (Sdeb)",
+  "ville": "CUSSET",
+  "naf": "25.50B",
+  "effectif": "12",
+  "dirigeants": [
+   "Jean-Francois Laurent"
+  ]
+ },
+ {
+  "nom": "Emboutissage Du Mail (Edm)",
+  "ville": "SAINT-JEAN-DE-MOIRANS",
+  "naf": "25.50B",
+  "effectif": "21",
+  "dirigeants": [
+   " "
+  ]
+ },
+ {
+  "nom": "Ouest Emboutissage",
+  "ville": "CERIZAY",
+  "naf": "25.50B",
+  "effectif": "21",
+  "dirigeants": [
+   "Michel Bernard"
+  ]
+ },
+ {
+  "nom": "Jelza Emboutissage (Jelza Emboutissage)",
+  "ville": "SAINT-FLORENT-SUR-CHER",
+  "naf": "25.50B",
+  "effectif": "12",
+  "dirigeants": [
+   " "
+  ]
+ },
+ {
+  "nom": "D.E.M.C. Decoupe, Emboutissage, Montage, Concept (Demc)",
+  "ville": "AYTRE",
+  "naf": "25.50B",
+  "effectif": "11",
+  "dirigeants": [
+   "Philippe Dorleac"
+  ]
  }
 ]
