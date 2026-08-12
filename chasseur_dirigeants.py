@@ -41,7 +41,7 @@ def fetch(url, tries=2):
             time.sleep(1)
     return ""
 
-SEARX = "http://127.0.0.1:10577/search"
+SEARX = "http://127.0.0.1:12054/search"
 
 def search_sites(q):
     """Recherche de site via SearXNG local. Moteur google d'abord (le plus precis),
