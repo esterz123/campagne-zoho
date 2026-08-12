@@ -1,0 +1,2106 @@
+{
+ "308708536": {
+  "nom": "Institut Superieur De Plasturgie Appliquee (Ispa)",
+  "ville": "PARIS",
+  "siren": "308708536",
+  "site": "emploi-plasturgie.org",
+  "email": "contact@allize-plasturgie.org",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "353969348": {
+  "nom": "Centre Technique Industriel De La Plasturgie Et Des Composites (Ctipc)",
+  "ville": "BELLIGNAT",
+  "siren": "353969348",
+  "site": "mairiepariscentre.paris.fr",
+  "email": "",
+  "dirigeants": [],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "341917813": {
+  "nom": "Axil Plasturgie",
+  "ville": "CIVRIEUX-D'AZERGUES",
+  "siren": "341917813",
+  "site": "axil-plasturgie.com",
+  "email": "contact@axil-plasturgie.com",
+  "dirigeants": [
+   {
+    "nom": "CEDRIC STÉPHANE ROMERA-VALLIN",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "cedric.romeravallin@axil-plasturgie.com",
+   "cedricromeravallin@axil-plasturgie.com",
+   "romeravallin.cedric@axil-plasturgie.com",
+   "c.romeravallin@axil-plasturgie.com",
+   "cromeravallin@axil-plasturgie.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "389425653": {
+  "nom": "Fonderie Et Plasturgie Sa (Fpsa)",
+  "ville": "BELLIGNAT",
+  "siren": "389425653",
+  "site": "fonderies-dechaumont.com",
+  "email": "fd@fonderies-dechaumont.com",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "337793301": {
+  "nom": "Erce Plasturgie",
+  "ville": "OYONNAX",
+  "siren": "337793301",
+  "site": "erce-plasturgie.com",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "CYRIAC BABAD",
+    "qualite": "Commissaire aux comptes suppléant"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "cyriac.babad@erce-plasturgie.com",
+   "cyriacbabad@erce-plasturgie.com",
+   "babad.cyriac@erce-plasturgie.com",
+   "c.babad@erce-plasturgie.com",
+   "cbabad@erce-plasturgie.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "398899468": {
+  "nom": "Application Developpement Plasturgie 85 (Adp 85)",
+  "ville": "LES EPESSES",
+  "siren": "398899468",
+  "site": "adp85.com",
+  "email": "",
+  "dirigeants": [],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "771200821": {
+  "nom": "Les Plastiques Decores",
+  "ville": "OYONNAX",
+  "siren": "771200821",
+  "site": "lesplastiquesdecores.fr",
+  "email": "julien.burgos@lesplastiquesdecores.fr",
+  "dirigeants": [
+   {
+    "nom": "JULIEN BURGOS",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "MANUEL BURGOS",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "CHRISTINE ANNICK DANIELE BURGOS",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "DIRIGEANT",
+  "email_dirigeant_devine": [
+   "julien.burgos@lesplastiquesdecores.fr",
+   "julienburgos@lesplastiquesdecores.fr",
+   "burgos.julien@lesplastiquesdecores.fr",
+   "j.burgos@lesplastiquesdecores.fr",
+   "jburgos@lesplastiquesdecores.fr",
+   "manuel.burgos@lesplastiquesdecores.fr",
+   "manuelburgos@lesplastiquesdecores.fr",
+   "burgos.manuel@lesplastiquesdecores.fr",
+   "m.burgos@lesplastiquesdecores.fr",
+   "mburgos@lesplastiquesdecores.fr",
+   "christine.burgos@lesplastiquesdecores.fr",
+   "christineburgos@lesplastiquesdecores.fr",
+   "burgos.christine@lesplastiquesdecores.fr",
+   "c.burgos@lesplastiquesdecores.fr",
+   "cburgos@lesplastiquesdecores.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "390800472": {
+  "nom": "Alpha Matieres Plastiques",
+  "ville": "HORBOURG-WIHR",
+  "siren": "390800472",
+  "site": "amp.fr",
+  "email": "matiere@amp.fr",
+  "dirigeants": [
+   {
+    "nom": "JULIE ANNE CATHERINE FATH LEGUILLIER",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "ALEXANDRE JACQUOT",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "FREDERIC MARIE",
+    "qualite": "Commissaire aux comptes suppléant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "julie.leguillier@amp.fr",
+   "julieleguillier@amp.fr",
+   "leguillier.julie@amp.fr",
+   "j.leguillier@amp.fr",
+   "jleguillier@amp.fr",
+   "alexandre.jacquot@amp.fr",
+   "alexandrejacquot@amp.fr",
+   "jacquot.alexandre@amp.fr",
+   "a.jacquot@amp.fr",
+   "ajacquot@amp.fr",
+   "frederic.marie@amp.fr",
+   "fredericmarie@amp.fr",
+   "marie.frederic@amp.fr",
+   "f.marie@amp.fr",
+   "fmarie@amp.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "328025804": {
+  "nom": "Plastique-Industries",
+  "ville": "BRIGNAIS",
+  "siren": "328025804",
+  "site": "plastique-industries.fr",
+  "email": "contact@pi.fr",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "315635987": {
+  "nom": "Artois Plastiques",
+  "ville": "HOUDAIN",
+  "siren": "315635987",
+  "site": "artoisplastiques.fr",
+  "email": "ap@artoisplastiques.fr",
+  "dirigeants": [
+   {
+    "nom": "VALERIE BLEUZE",
+    "qualite": "Commissaire aux comptes suppléant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "valerie.bleuze@artoisplastiques.fr",
+   "valeriebleuze@artoisplastiques.fr",
+   "bleuze.valerie@artoisplastiques.fr",
+   "v.bleuze@artoisplastiques.fr",
+   "vbleuze@artoisplastiques.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "493246011": {
+  "nom": "Graf Plasturgie",
+  "ville": "DACHSTEIN",
+  "siren": "493246011",
+  "site": "graf.info",
+  "email": "info@graf.fr",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "321472011": {
+  "nom": "Societe Nationale D'Extrusion Et D'Injection Des Plastiques (Sneip)",
+  "ville": "MONTREUIL",
+  "siren": "321472011",
+  "site": "particuliers.sg.fr",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "YOHANN SARFATI",
+    "qualite": "Commissaire aux comptes suppléant"
+   },
+   {
+    "nom": "DAVID SPILET",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "PHILIPPE SPLIET",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "yohann.sarfati@particuliers.sg.fr",
+   "yohannsarfati@particuliers.sg.fr",
+   "sarfati.yohann@particuliers.sg.fr",
+   "y.sarfati@particuliers.sg.fr",
+   "ysarfati@particuliers.sg.fr",
+   "david.spilet@particuliers.sg.fr",
+   "davidspilet@particuliers.sg.fr",
+   "spilet.david@particuliers.sg.fr",
+   "d.spilet@particuliers.sg.fr",
+   "dspilet@particuliers.sg.fr",
+   "philippe.spliet@particuliers.sg.fr",
+   "philippespliet@particuliers.sg.fr",
+   "spliet.philippe@particuliers.sg.fr",
+   "p.spliet@particuliers.sg.fr",
+   "pspliet@particuliers.sg.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "323298349": {
+  "nom": "Application De Techniques D'Electro-Erosion Moules Et Injections Plastiques (Atemip)",
+  "ville": "AMBOISE",
+  "siren": "323298349",
+  "site": "apps.microsoft.com",
+  "email": "support@microsoft.com",
+  "dirigeants": [
+   {
+    "nom": "CEDRIC CLAUDE SAUSSE",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "cedric.sausse@apps.microsoft.com",
+   "cedricsausse@apps.microsoft.com",
+   "sausse.cedric@apps.microsoft.com",
+   "c.sausse@apps.microsoft.com",
+   "csausse@apps.microsoft.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "381596113": {
+  "nom": "Irrigation Distribution Plastiques",
+  "ville": "AVIGNON",
+  "siren": "381596113",
+  "site": "mon-irrigation.com",
+  "email": "",
+  "dirigeants": [],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "453570806": {
+  "nom": "Nobel Plastiques",
+  "ville": "ORGEVAL",
+  "siren": "453570806",
+  "site": "nobelprize.org",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "PIERRE COLL",
+    "qualite": "Commissaire aux comptes suppléant"
+   },
+   {
+    "nom": "MEHMET MUHITTIN KOCUM",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "pierre.coll@nobelprize.org",
+   "pierrecoll@nobelprize.org",
+   "coll.pierre@nobelprize.org",
+   "p.coll@nobelprize.org",
+   "pcoll@nobelprize.org",
+   "mehmet.kocum@nobelprize.org",
+   "mehmetkocum@nobelprize.org",
+   "kocum.mehmet@nobelprize.org",
+   "m.kocum@nobelprize.org",
+   "mkocum@nobelprize.org"
+  ],
+  "date": "2026-08-12"
+ },
+ "344471743": {
+  "nom": "Centre Plastique Sa",
+  "ville": "BRIARE",
+  "siren": "344471743",
+  "site": "mairiepariscentre.paris.fr",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "ANTHONY ANDRE MARCEAU GAILLARD",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "JEAN-NOEL GAILLARD",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "anthony.gaillard@mairiepariscentre.paris.fr",
+   "anthonygaillard@mairiepariscentre.paris.fr",
+   "gaillard.anthony@mairiepariscentre.paris.fr",
+   "a.gaillard@mairiepariscentre.paris.fr",
+   "agaillard@mairiepariscentre.paris.fr",
+   "jeannoel.gaillard@mairiepariscentre.paris.fr",
+   "jeannoelgaillard@mairiepariscentre.paris.fr",
+   "gaillard.jeannoel@mairiepariscentre.paris.fr",
+   "j.gaillard@mairiepariscentre.paris.fr",
+   "jgaillard@mairiepariscentre.paris.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "529961104": {
+  "nom": "Seine Plastique",
+  "ville": "LE HAVRE",
+  "siren": "529961104",
+  "site": "croisieres-en-seine.fr",
+  "email": "contact@croisieres-en-seine.fr",
+  "dirigeants": [
+   {
+    "nom": "BEN GUSTAVE EECKHAUTE",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "STEVEN FRANCIS STOCKMANS",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "ben.eeckhaute@croisieres-en-seine.fr",
+   "beneeckhaute@croisieres-en-seine.fr",
+   "eeckhaute.ben@croisieres-en-seine.fr",
+   "b.eeckhaute@croisieres-en-seine.fr",
+   "beeckhaute@croisieres-en-seine.fr",
+   "steven.stockmans@croisieres-en-seine.fr",
+   "stevenstockmans@croisieres-en-seine.fr",
+   "stockmans.steven@croisieres-en-seine.fr",
+   "s.stockmans@croisieres-en-seine.fr",
+   "sstockmans@croisieres-en-seine.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "757800032": {
+  "nom": "Caoutchouc Manuf Et Plastiques Industrie (Capest)",
+  "ville": "HOUDEMONT",
+  "siren": "757800032",
+  "site": "france-industrie.pro",
+  "email": "contact@itroom.fr",
+  "dirigeants": [
+   {
+    "nom": "DAVID WROBEL",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "david.wrobel@france-industrie.pro",
+   "davidwrobel@france-industrie.pro",
+   "wrobel.david@france-industrie.pro",
+   "d.wrobel@france-industrie.pro",
+   "dwrobel@france-industrie.pro"
+  ],
+  "date": "2026-08-12"
+ },
+ "322305335": {
+  "nom": "Mecanique De Precision Du Barrois (Mpb)",
+  "ville": "LIGNY-EN-BARROIS",
+  "siren": "322305335",
+  "site": "mecaniqueautofacile.com",
+  "email": "contact@mecaniqueautofacile.com",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "319179891": {
+  "nom": "Mecanique Usinage De Precision (Mup)",
+  "ville": "CORBIERES-EN-PROVENCE",
+  "siren": "319179891",
+  "site": "mecaniqueautofacile.com",
+  "email": "contact@mecaniqueautofacile.com",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "414977298": {
+  "nom": "Mecanique De Grande Precision",
+  "ville": "VORAY SUR L'OGNON",
+  "siren": "414977298",
+  "site": "mecaniqueautofacile.com",
+  "email": "contact@mecaniqueautofacile.com",
+  "dirigeants": [
+   {
+    "nom": "YVES SIRURGUET",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "yves.sirurguet@mecaniqueautofacile.com",
+   "yvessirurguet@mecaniqueautofacile.com",
+   "sirurguet.yves@mecaniqueautofacile.com",
+   "y.sirurguet@mecaniqueautofacile.com",
+   "ysirurguet@mecaniqueautofacile.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "447528647": {
+  "nom": "Mecanique Precision Industrie (Mpi)",
+  "ville": "VIRE NORMANDIE",
+  "siren": "447528647",
+  "site": "mecaniqueautofacile.com",
+  "email": "contact@mecaniqueautofacile.com",
+  "dirigeants": [
+   {
+    "nom": "CLAUDE PAUL JACQUART",
+    "qualite": "Commissaire aux comptes suppléant"
+   },
+   {
+    "nom": "FRANÇOIS MORIN",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "claude.jacquart@mecaniqueautofacile.com",
+   "claudejacquart@mecaniqueautofacile.com",
+   "jacquart.claude@mecaniqueautofacile.com",
+   "c.jacquart@mecaniqueautofacile.com",
+   "cjacquart@mecaniqueautofacile.com",
+   "franois.morin@mecaniqueautofacile.com",
+   "franoismorin@mecaniqueautofacile.com",
+   "morin.franois@mecaniqueautofacile.com",
+   "f.morin@mecaniqueautofacile.com",
+   "fmorin@mecaniqueautofacile.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "305393407": {
+  "nom": "Mecanique De Precision De L'Est (Mpe)",
+  "ville": "MASEVAUX-NIEDERBRUCK",
+  "siren": "305393407",
+  "site": "mecaniqueautofacile.com",
+  "email": "contact@mecaniqueautofacile.com",
+  "dirigeants": [
+   {
+    "nom": "JEAN MICHEL HOOG",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "jean.hoog@mecaniqueautofacile.com",
+   "jeanhoog@mecaniqueautofacile.com",
+   "hoog.jean@mecaniqueautofacile.com",
+   "j.hoog@mecaniqueautofacile.com",
+   "jhoog@mecaniqueautofacile.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "348781303": {
+  "nom": "Forage Mecanique De Precision (Fmp)",
+  "ville": "SAINT-OUEN-L'AUMONE",
+  "siren": "348781303",
+  "site": "theforage.com",
+  "email": "",
+  "dirigeants": [],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "338809460": {
+  "nom": "Segre Mecanique Precision (Smp)",
+  "ville": "SEGRE-EN-ANJOU BLEU",
+  "siren": "338809460",
+  "site": "segreenanjoubleu.fr",
+  "email": "communication@segreenanjoubleu.fr",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "328710835": {
+  "nom": "Ateliers Mecaniques De Precision (Amp)",
+  "ville": "EGUILLES",
+  "siren": "328710835",
+  "site": "mesateliersdiy.fr",
+  "email": "amandine@mesateliersdiy.fr",
+  "dirigeants": [
+   {
+    "nom": "FREDERIC SEGUI",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "frederic.segui@mesateliersdiy.fr",
+   "fredericsegui@mesateliersdiy.fr",
+   "segui.frederic@mesateliersdiy.fr",
+   "f.segui@mesateliersdiy.fr",
+   "fsegui@mesateliersdiy.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "438124315": {
+  "nom": "Mecanique De Precision Scala",
+  "ville": "MOUSSY-LE-NEUF",
+  "siren": "438124315",
+  "site": "mecaniqueautofacile.com",
+  "email": "contact@mecaniqueautofacile.com",
+  "dirigeants": [
+   {
+    "nom": "DIDIER MICHEL SCALA",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "NICOLAS SCALA",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "didier.scala@mecaniqueautofacile.com",
+   "didierscala@mecaniqueautofacile.com",
+   "scala.didier@mecaniqueautofacile.com",
+   "d.scala@mecaniqueautofacile.com",
+   "dscala@mecaniqueautofacile.com",
+   "nicolas.scala@mecaniqueautofacile.com",
+   "nicolasscala@mecaniqueautofacile.com",
+   "scala.nicolas@mecaniqueautofacile.com",
+   "n.scala@mecaniqueautofacile.com",
+   "nscala@mecaniqueautofacile.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "805278173": {
+  "nom": "Bourgogne Precision Mecanique (Bpm)",
+  "ville": "LONGVIC",
+  "siren": "805278173",
+  "site": "bourgogne-tourisme.com",
+  "email": "p.lawvinter@bfctourisme.com",
+  "dirigeants": [
+   {
+    "nom": "MOHAMED ENNAIMI",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "PHILIPPE LOUIS NORBERT MARCEL ROUSSEL",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "mohamed.ennaimi@bourgogne-tourisme.com",
+   "mohamedennaimi@bourgogne-tourisme.com",
+   "ennaimi.mohamed@bourgogne-tourisme.com",
+   "m.ennaimi@bourgogne-tourisme.com",
+   "mennaimi@bourgogne-tourisme.com",
+   "philippe.roussel@bourgogne-tourisme.com",
+   "philipperoussel@bourgogne-tourisme.com",
+   "roussel.philippe@bourgogne-tourisme.com",
+   "p.roussel@bourgogne-tourisme.com",
+   "proussel@bourgogne-tourisme.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "479357329": {
+  "nom": "Besne Mecanique De Precision",
+  "ville": "BESNE",
+  "siren": "479357329",
+  "site": "mairie-besne.fr",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "LOICK HUBERT JEAN NICOLAS ANGER",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "loick.anger@mairie-besne.fr",
+   "loickanger@mairie-besne.fr",
+   "anger.loick@mairie-besne.fr",
+   "l.anger@mairie-besne.fr",
+   "langer@mairie-besne.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "440730372": {
+  "nom": "Delta Usinage",
+  "ville": "MURS-ERIGNE",
+  "siren": "440730372",
+  "site": "delta.com",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "SÉBASTIEN BRAULT",
+    "qualite": "Commissaire aux comptes suppléant"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "sbastien.brault@delta.com",
+   "sbastienbrault@delta.com",
+   "brault.sbastien@delta.com",
+   "s.brault@delta.com",
+   "sbrault@delta.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "300155256": {
+  "nom": "Eberhard Usinage",
+  "ville": "HATTMATT",
+  "siren": "300155256",
+  "site": "eberhard.de",
+  "email": "info@eberhard.de",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "399828722": {
+  "nom": "Usinage Alsace",
+  "ville": "OBERHASLACH",
+  "siren": "399828722",
+  "site": "usinage-alsace.com",
+  "email": "contact@usinage-alsace.com",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "420425589": {
+  "nom": "Elcam Usinage (Elcam Usinage)",
+  "ville": "POLIGNY",
+  "siren": "420425589",
+  "site": "elcam-usinage.fr",
+  "email": "stephanemacle@elcam-usinage.fr",
+  "dirigeants": [
+   {
+    "nom": "MATHILDE LUCETTE MICHELE CARTAUX",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "STEPHANE FRANCOIS JEAN-PIERRE MACLE",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "DIRIGEANT",
+  "email_dirigeant_devine": [
+   "mathilde.cartaux@elcam-usinage.fr",
+   "mathildecartaux@elcam-usinage.fr",
+   "cartaux.mathilde@elcam-usinage.fr",
+   "m.cartaux@elcam-usinage.fr",
+   "mcartaux@elcam-usinage.fr",
+   "stephane.macle@elcam-usinage.fr",
+   "stephanemacle@elcam-usinage.fr",
+   "macle.stephane@elcam-usinage.fr",
+   "s.macle@elcam-usinage.fr",
+   "smacle@elcam-usinage.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "331969063": {
+  "nom": "Usinage Dieppois",
+  "ville": "ROUXMESNIL-BOUTEILLES",
+  "siren": "331969063",
+  "site": "usinage-dieppois.fr",
+  "email": "",
+  "dirigeants": [],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "511197162": {
+  "nom": "Nord Fraisage",
+  "ville": "SAINTE-SEVE",
+  "siren": "511197162",
+  "site": "nordvpn.com",
+  "email": "9765ee91544348309ca8564e59eba16d@debug.nordvpn.com",
+  "dirigeants": [
+   {
+    "nom": "VINCENT CHARLES AUGUSTE LIBBRECHT",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "vincent.libbrecht@nordvpn.com",
+   "vincentlibbrecht@nordvpn.com",
+   "libbrecht.vincent@nordvpn.com",
+   "v.libbrecht@nordvpn.com",
+   "vlibbrecht@nordvpn.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "410492326": {
+  "nom": "Atelier De Fraisage Et Mecanique (Afm)",
+  "ville": "ATHIS-VAL DE ROUVRE",
+  "siren": "410492326",
+  "site": "atelierphysis.fr",
+  "email": "contact@atelierphysis.fr",
+  "dirigeants": [
+   {
+    "nom": "FABRICE DELAMARRE",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "FABRICE RENE DELAMARRE",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "fabrice.delamarre@atelierphysis.fr",
+   "fabricedelamarre@atelierphysis.fr",
+   "delamarre.fabrice@atelierphysis.fr",
+   "f.delamarre@atelierphysis.fr",
+   "fdelamarre@atelierphysis.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "498011394": {
+  "nom": "Sarl Jcm Decolletage",
+  "ville": "SALLANCHES",
+  "siren": "498011394",
+  "site": "jcm-decolletage.fr",
+  "email": "info@jcm-decolletage.fr",
+  "dirigeants": [
+   {
+    "nom": "MICHEL JIGUET-COVEX",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "michel.jiguetcovex@jcm-decolletage.fr",
+   "micheljiguetcovex@jcm-decolletage.fr",
+   "jiguetcovex.michel@jcm-decolletage.fr",
+   "m.jiguetcovex@jcm-decolletage.fr",
+   "mjiguetcovex@jcm-decolletage.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "411152267": {
+  "nom": "Ouest Decolletage",
+  "ville": "CHEMILLE-EN-ANJOU",
+  "siren": "411152267",
+  "site": "ouest-france.fr",
+  "email": "",
+  "dirigeants": [],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "528447865": {
+  "nom": "Guillerme Decolletage (Decolletage Boyer)",
+  "ville": "ANNONAY",
+  "siren": "528447865",
+  "site": "guillerme-ferrailles-22.fr",
+  "email": "eurl-guillerme-ferrailles@orange.fr",
+  "dirigeants": [
+   {
+    "nom": "FRANCOIS JOSEPH ALBERT GUILLERME",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "DIRIGEANT",
+  "email_dirigeant_devine": [
+   "francois.guillerme@guillerme-ferrailles-22.fr",
+   "francoisguillerme@guillerme-ferrailles-22.fr",
+   "guillerme.francois@guillerme-ferrailles-22.fr",
+   "f.guillerme@guillerme-ferrailles-22.fr",
+   "fguillerme@guillerme-ferrailles-22.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "572133072": {
+  "nom": "Le Decolletage Jurassien",
+  "ville": "CHAMPAGNOLE",
+  "siren": "572133072",
+  "site": "decolletage-jurassien.fr",
+  "email": "",
+  "dirigeants": [],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "605820729": {
+  "nom": "Decolletage Elbe",
+  "ville": "MARNAZ",
+  "siren": "605820729",
+  "site": "decolletage-elbe.fr",
+  "email": "info@decolletage-elbe.fr",
+  "dirigeants": [
+   {
+    "nom": "GEOFFROY FREDERIC BENE",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "LAURENT BENE",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "geoffroy.bene@decolletage-elbe.fr",
+   "geoffroybene@decolletage-elbe.fr",
+   "bene.geoffroy@decolletage-elbe.fr",
+   "g.bene@decolletage-elbe.fr",
+   "gbene@decolletage-elbe.fr",
+   "laurent.bene@decolletage-elbe.fr",
+   "laurentbene@decolletage-elbe.fr",
+   "bene.laurent@decolletage-elbe.fr",
+   "l.bene@decolletage-elbe.fr",
+   "lbene@decolletage-elbe.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "606920353": {
+  "nom": "Edelweiss Decolletage",
+  "ville": "MAGLAND",
+  "siren": "606920353",
+  "site": "flyedelweiss.com",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "MICHEL CHAPPUIS",
+    "qualite": "Commissaire aux comptes suppléant"
+   },
+   {
+    "nom": "LUDOVIC PERROLLAZ",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "michel.chappuis@flyedelweiss.com",
+   "michelchappuis@flyedelweiss.com",
+   "chappuis.michel@flyedelweiss.com",
+   "m.chappuis@flyedelweiss.com",
+   "mchappuis@flyedelweiss.com",
+   "ludovic.perrollaz@flyedelweiss.com",
+   "ludovicperrollaz@flyedelweiss.com",
+   "perrollaz.ludovic@flyedelweiss.com",
+   "l.perrollaz@flyedelweiss.com",
+   "lperrollaz@flyedelweiss.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "551920796": {
+  "nom": "Decolletage De Reu",
+  "ville": "ACHIET-LE-GRAND",
+  "siren": "551920796",
+  "site": "decolletage-de-reu.com",
+  "email": "contact@decolletage-de-reu.com",
+  "dirigeants": [
+   {
+    "nom": "JOFFREY DE REU",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "FRANCOIS MONTENS",
+    "qualite": "Commissaire aux comptes suppléant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "joffrey.reu@decolletage-de-reu.com",
+   "joffreyreu@decolletage-de-reu.com",
+   "reu.joffrey@decolletage-de-reu.com",
+   "j.reu@decolletage-de-reu.com",
+   "jreu@decolletage-de-reu.com",
+   "francois.montens@decolletage-de-reu.com",
+   "francoismontens@decolletage-de-reu.com",
+   "montens.francois@decolletage-de-reu.com",
+   "f.montens@decolletage-de-reu.com",
+   "fmontens@decolletage-de-reu.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "310774518": {
+  "nom": "Gay Decolletage",
+  "ville": "SAINT-PIERRE-EN-FAUCIGNY",
+  "siren": "310774518",
+  "site": "gay-decolletage.fr",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "CHLOÉ SOPHIE ROSENSTIEHL",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "chlo.rosenstiehl@gay-decolletage.fr",
+   "chlorosenstiehl@gay-decolletage.fr",
+   "rosenstiehl.chlo@gay-decolletage.fr",
+   "c.rosenstiehl@gay-decolletage.fr",
+   "crosenstiehl@gay-decolletage.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "388741639": {
+  "nom": "Sa Amd Decolletage",
+  "ville": "MARNAZ",
+  "siren": "388741639",
+  "site": "amd-decolletage.fr",
+  "email": "sales@amd-decolletage.fr",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "389669417": {
+  "nom": "Orne Decolletage",
+  "ville": "FLERS",
+  "siren": "389669417",
+  "site": "orne.fr",
+  "email": "exemple@domain.fr",
+  "dirigeants": [
+   {
+    "nom": "MICHEL HUET",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "michel.huet@orne.fr",
+   "michelhuet@orne.fr",
+   "huet.michel@orne.fr",
+   "m.huet@orne.fr",
+   "mhuet@orne.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "070201041": {
+  "nom": "Anjou Decolletage",
+  "ville": "MAUGES-SUR-LOIRE",
+  "siren": "070201041",
+  "site": "anjou-tourisme.com",
+  "email": "contact@anjou-tourisme.com",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "300863370": {
+  "nom": "Decolletage Morel",
+  "ville": "CHAMPAGNOLE",
+  "siren": "300863370",
+  "site": "decolletage-morel.com",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "STEPHANIE GRESLE",
+    "qualite": "Commissaire aux comptes suppléant"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "stephanie.gresle@decolletage-morel.com",
+   "stephaniegresle@decolletage-morel.com",
+   "gresle.stephanie@decolletage-morel.com",
+   "s.gresle@decolletage-morel.com",
+   "sgresle@decolletage-morel.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "442311387": {
+  "nom": "Drault Decolletage",
+  "ville": "AYSE",
+  "siren": "442311387",
+  "site": "drault-decolletage.com",
+  "email": "contacts@drault-decolletage.com",
+  "dirigeants": [
+   {
+    "nom": "SEBASTIEN DRAULT",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "sebastien.drault@drault-decolletage.com",
+   "sebastiendrault@drault-decolletage.com",
+   "drault.sebastien@drault-decolletage.com",
+   "s.drault@drault-decolletage.com",
+   "sdrault@drault-decolletage.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "419168448": {
+  "nom": "Gillet Decolletage",
+  "ville": "DANNEMARIE-SUR-CRETE",
+  "siren": "419168448",
+  "site": "gilletsa.com",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "DIMITRI LAURENT MICHEL FOURNIER",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "dimitri.fournier@gilletsa.com",
+   "dimitrifournier@gilletsa.com",
+   "fournier.dimitri@gilletsa.com",
+   "d.fournier@gilletsa.com",
+   "dfournier@gilletsa.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "348992488": {
+  "nom": "Decolletage Du Berry",
+  "ville": "SAINT-FLORENT-SUR-CHER",
+  "siren": "348992488",
+  "site": "footballberry.com",
+  "email": "ask@footballberry.com",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "331014993": {
+  "nom": "Defi - Houillieres De Cruejouls",
+  "ville": "CHATTE",
+  "siren": "331014993",
+  "site": "defi.asp-public.fr",
+  "email": "",
+  "dirigeants": [],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "401867692": {
+  "nom": "Provence Outillage",
+  "ville": "TAILLADES",
+  "siren": "401867692",
+  "site": "laprovence.com",
+  "email": "contactpub@laprovence-medias.fr",
+  "dirigeants": [
+   {
+    "nom": "LAURENCE TAULEIGNE",
+    "qualite": "Autre"
+   },
+   {
+    "nom": "MARTINE SANCHEZ",
+    "qualite": "Vice-Président"
+   },
+   {
+    "nom": "MICHEL POURTIER",
+    "qualite": "Commissaire aux comptes suppléant"
+   },
+   {
+    "nom": "CEDRIC SANCHEZ",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "laurence.tauleigne@laprovence.com",
+   "laurencetauleigne@laprovence.com",
+   "tauleigne.laurence@laprovence.com",
+   "l.tauleigne@laprovence.com",
+   "ltauleigne@laprovence.com",
+   "martine.sanchez@laprovence.com",
+   "martinesanchez@laprovence.com",
+   "sanchez.martine@laprovence.com",
+   "m.sanchez@laprovence.com",
+   "msanchez@laprovence.com",
+   "michel.pourtier@laprovence.com",
+   "michelpourtier@laprovence.com",
+   "pourtier.michel@laprovence.com",
+   "m.pourtier@laprovence.com",
+   "mpourtier@laprovence.com",
+   "cedric.sanchez@laprovence.com",
+   "cedricsanchez@laprovence.com",
+   "sanchez.cedric@laprovence.com",
+   "c.sanchez@laprovence.com",
+   "csanchez@laprovence.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "319438321": {
+  "nom": "Outillage De St Etienne",
+  "ville": "ANDREZIEUX-BOUTHEON",
+  "siren": "319438321",
+  "site": "master-outillage.com",
+  "email": "",
+  "dirigeants": [],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "552035180": {
+  "nom": "Outillage Magafor",
+  "ville": "FONTENAY-SOUS-BOIS",
+  "siren": "552035180",
+  "site": "master-outillage.com",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "CHRISTOPHE MICHEL MATTHEY",
+    "qualite": "Administrateur"
+   },
+   {
+    "nom": "GUILLAUME MATTHEY-PERSIN",
+    "qualite": "Administrateur"
+   },
+   {
+    "nom": "JEAN-MICHEL MATTHEY",
+    "qualite": "Administrateur"
+   },
+   {
+    "nom": "MAXIME MATTHEY",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "christophe.matthey@master-outillage.com",
+   "christophematthey@master-outillage.com",
+   "matthey.christophe@master-outillage.com",
+   "c.matthey@master-outillage.com",
+   "cmatthey@master-outillage.com",
+   "guillaume.mattheypersin@master-outillage.com",
+   "guillaumemattheypersin@master-outillage.com",
+   "mattheypersin.guillaume@master-outillage.com",
+   "g.mattheypersin@master-outillage.com",
+   "gmattheypersin@master-outillage.com",
+   "jeanmichel.matthey@master-outillage.com",
+   "jeanmichelmatthey@master-outillage.com",
+   "matthey.jeanmichel@master-outillage.com",
+   "j.matthey@master-outillage.com",
+   "jmatthey@master-outillage.com",
+   "maxime.matthey@master-outillage.com",
+   "maximematthey@master-outillage.com",
+   "matthey.maxime@master-outillage.com",
+   "m.matthey@master-outillage.com",
+   "mmatthey@master-outillage.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "303376222": {
+  "nom": "Savoie Outillage Service (Savoie Outillage Service - Clickoutil)",
+  "ville": "SAINT-BALDOPH",
+  "siren": "303376222",
+  "site": "explore-savoie.com",
+  "email": "anne-laure.rabier@cdtsavoie.fr",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "311666077": {
+  "nom": "Outillage Mecanique Decoupage (Omedec)",
+  "ville": "AMANCEY",
+  "siren": "311666077",
+  "site": "master-outillage.com",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "XAVIER LOUIS FLORENT PINGRET",
+    "qualite": "Administrateur"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "xavier.pingret@master-outillage.com",
+   "xavierpingret@master-outillage.com",
+   "pingret.xavier@master-outillage.com",
+   "x.pingret@master-outillage.com",
+   "xpingret@master-outillage.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "323646679": {
+  "nom": "Bureau Etude Outillage Mecaniq Generale (Begc)",
+  "ville": "GOUSSAINVILLE",
+  "siren": "323646679",
+  "site": "bureau-vallee.fr",
+  "email": "contact@bureau-vallee.fr",
+  "dirigeants": [
+   {
+    "nom": "VINCENT CHOUZENOUX",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "vincent.chouzenoux@bureau-vallee.fr",
+   "vincentchouzenoux@bureau-vallee.fr",
+   "chouzenoux.vincent@bureau-vallee.fr",
+   "v.chouzenoux@bureau-vallee.fr",
+   "vchouzenoux@bureau-vallee.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "338896426": {
+  "nom": "Outillage Progress",
+  "ville": "NAZELLES-NEGRON",
+  "siren": "338896426",
+  "site": "master-outillage.com",
+  "email": "",
+  "dirigeants": [],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "419808985": {
+  "nom": "Normandie Decoupage Emboutissage (Nde)",
+  "ville": "CRULAI",
+  "siren": "419808985",
+  "site": "normandie-tourisme.fr",
+  "email": "b.collier@normandie-tourisme.fr",
+  "dirigeants": [
+   {
+    "nom": "FLORIAN THIERRY DENIS MESLIN",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "florian.meslin@normandie-tourisme.fr",
+   "florianmeslin@normandie-tourisme.fr",
+   "meslin.florian@normandie-tourisme.fr",
+   "f.meslin@normandie-tourisme.fr",
+   "fmeslin@normandie-tourisme.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "976720284": {
+  "nom": "Decoupage Et Emboutissage Du Bourbonnais (Sdeb)",
+  "ville": "CUSSET",
+  "siren": "976720284",
+  "site": "sdeb.fr",
+  "email": "contact@mc-media.com",
+  "dirigeants": [
+   {
+    "nom": "JEAN-FRANCOIS LAURENT",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "jeanfrancois.laurent@sdeb.fr",
+   "jeanfrancoislaurent@sdeb.fr",
+   "laurent.jeanfrancois@sdeb.fr",
+   "j.laurent@sdeb.fr",
+   "jlaurent@sdeb.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "420273880": {
+  "nom": "Ouest Emboutissage",
+  "ville": "CERIZAY",
+  "siren": "420273880",
+  "site": "ouest-france.fr",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "MICHEL BERNARD",
+    "qualite": "Commissaire aux comptes suppléant"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "michel.bernard@ouest-france.fr",
+   "michelbernard@ouest-france.fr",
+   "bernard.michel@ouest-france.fr",
+   "m.bernard@ouest-france.fr",
+   "mbernard@ouest-france.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "351174081": {
+  "nom": "Societe Azerguoise De Repoussage Et D Emboutissage (Sare)",
+  "ville": "GRANDRIS",
+  "siren": "351174081",
+  "site": "sare-sarl-69.fr",
+  "email": "",
+  "dirigeants": [],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "966500068": {
+  "nom": "Lenoir Metallerie",
+  "ville": "VILLEURBANNE",
+  "siren": "966500068",
+  "site": "lenoirhandiconcept.com",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "DIDIER SERGE LENOIR",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "JORDAN MASSON",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "ANTOINE VINCENT NOYEL",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "didier.lenoir@lenoirhandiconcept.com",
+   "didierlenoir@lenoirhandiconcept.com",
+   "lenoir.didier@lenoirhandiconcept.com",
+   "d.lenoir@lenoirhandiconcept.com",
+   "dlenoir@lenoirhandiconcept.com",
+   "jordan.masson@lenoirhandiconcept.com",
+   "jordanmasson@lenoirhandiconcept.com",
+   "masson.jordan@lenoirhandiconcept.com",
+   "j.masson@lenoirhandiconcept.com",
+   "jmasson@lenoirhandiconcept.com",
+   "antoine.noyel@lenoirhandiconcept.com",
+   "antoinenoyel@lenoirhandiconcept.com",
+   "noyel.antoine@lenoirhandiconcept.com",
+   "a.noyel@lenoirhandiconcept.com",
+   "anoyel@lenoirhandiconcept.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "443830898": {
+  "nom": "Oaca Metallerie",
+  "ville": "AGNOS",
+  "siren": "443830898",
+  "site": "oaca.nat.tn",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "VINCENT BROUSTE",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "BERTRAND AMBROISE MARIE HERISSON DE BEAUVOIR",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "vincent.brouste@oaca.nat.tn",
+   "vincentbrouste@oaca.nat.tn",
+   "brouste.vincent@oaca.nat.tn",
+   "v.brouste@oaca.nat.tn",
+   "vbrouste@oaca.nat.tn",
+   "bertrand.beauvoir@oaca.nat.tn",
+   "bertrandbeauvoir@oaca.nat.tn",
+   "beauvoir.bertrand@oaca.nat.tn",
+   "b.beauvoir@oaca.nat.tn",
+   "bbeauvoir@oaca.nat.tn"
+  ],
+  "date": "2026-08-12"
+ },
+ "501007652": {
+  "nom": "Batisud-Metallerie",
+  "ville": "SEPTEMES-LES-VALLONS",
+  "siren": "501007652",
+  "site": "batisud.org",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "NICOLAS RAFFAELLI",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "nicolas.raffaelli@batisud.org",
+   "nicolasraffaelli@batisud.org",
+   "raffaelli.nicolas@batisud.org",
+   "n.raffaelli@batisud.org",
+   "nraffaelli@batisud.org"
+  ],
+  "date": "2026-08-12"
+ },
+ "803868660": {
+  "nom": "Lg Metallerie (L.G. Metallerie)",
+  "ville": "LORIENT",
+  "siren": "803868660",
+  "site": "lg-metallerie.fr",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "LAURENT GASSE",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "laurent.gasse@lg-metallerie.fr",
+   "laurentgasse@lg-metallerie.fr",
+   "gasse.laurent@lg-metallerie.fr",
+   "l.gasse@lg-metallerie.fr",
+   "lgasse@lg-metallerie.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "817734593": {
+  "nom": "Metallerie Francilienne",
+  "ville": "ROSNY-SOUS-BOIS",
+  "siren": "817734593",
+  "site": "metallerie.com",
+  "email": "info@metallerie.com",
+  "dirigeants": [
+   {
+    "nom": "MOHAMED ABDERRAHMANE LAMIR OUANOUCHE",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "mohamed.ouanouche@metallerie.com",
+   "mohamedouanouche@metallerie.com",
+   "ouanouche.mohamed@metallerie.com",
+   "m.ouanouche@metallerie.com",
+   "mouanouche@metallerie.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "784756413": {
+  "nom": "Institut De Soudure (Is)",
+  "ville": "VILLEPINTE",
+  "siren": "784756413",
+  "site": "institutfrancais.com",
+  "email": "info@institutfrancais.com",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "813390432": {
+  "nom": "Gatsby Soudure (Gatsby Soudure)",
+  "ville": "BOBIGNY",
+  "siren": "813390432",
+  "site": "gatsbyjs.com",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "JULIE SION",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "julie.sion@gatsbyjs.com",
+   "juliesion@gatsbyjs.com",
+   "sion.julie@gatsbyjs.com",
+   "j.sion@gatsbyjs.com",
+   "jsion@gatsbyjs.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "304217292": {
+  "nom": "Chaudronnerie Soudure Tuyauterie (Cst)",
+  "ville": "PETIVILLE",
+  "siren": "304217292",
+  "site": "france-chaudronnerie.org",
+  "email": "dpo@france-chaudronnerie.org",
+  "dirigeants": [
+   {
+    "nom": "LUDOVIC PASCAL MAURICE AUDIEVRE",
+    "qualite": "Administrateur"
+   },
+   {
+    "nom": "SEBASTIEN JEAN-MARIE CORBEL",
+    "qualite": "Administrateur"
+   },
+   {
+    "nom": "JONATHAN VIRGILE CYRIL FOUTEL",
+    "qualite": "Administrateur"
+   },
+   {
+    "nom": "CHRISTOPHE DANIEL GERARD HAUCHARD",
+    "qualite": "Administrateur"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "ludovic.audievre@france-chaudronnerie.org",
+   "ludovicaudievre@france-chaudronnerie.org",
+   "audievre.ludovic@france-chaudronnerie.org",
+   "l.audievre@france-chaudronnerie.org",
+   "laudievre@france-chaudronnerie.org",
+   "sebastien.corbel@france-chaudronnerie.org",
+   "sebastiencorbel@france-chaudronnerie.org",
+   "corbel.sebastien@france-chaudronnerie.org",
+   "s.corbel@france-chaudronnerie.org",
+   "scorbel@france-chaudronnerie.org",
+   "jonathan.foutel@france-chaudronnerie.org",
+   "jonathanfoutel@france-chaudronnerie.org",
+   "foutel.jonathan@france-chaudronnerie.org",
+   "j.foutel@france-chaudronnerie.org",
+   "jfoutel@france-chaudronnerie.org",
+   "christophe.hauchard@france-chaudronnerie.org",
+   "christophehauchard@france-chaudronnerie.org",
+   "hauchard.christophe@france-chaudronnerie.org",
+   "c.hauchard@france-chaudronnerie.org",
+   "chauchard@france-chaudronnerie.org"
+  ],
+  "date": "2026-08-12"
+ },
+ "538676727": {
+  "nom": "Soudure Tuyauterie Brestoise (Stb)",
+  "ville": "BREST",
+  "siren": "538676727",
+  "site": "materiel-soudure.fr",
+  "email": "service.client@materiel-soudure.fr",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "788636215": {
+  "nom": "Soudure Tuyauterie Maintenance (Stm)",
+  "ville": "REDON",
+  "siren": "788636215",
+  "site": "materiel-soudure.fr",
+  "email": "service.client@materiel-soudure.fr",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "320800139": {
+  "nom": "Tolerie Industrielle",
+  "ville": "MAZIERES-EN-GATINE",
+  "siren": "320800139",
+  "site": "tolerie-industrielle.fr",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "ANTHONY RENE LUCIEN BON",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "SIMON PIERRE LUC GRAND",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "anthony.bon@tolerie-industrielle.fr",
+   "anthonybon@tolerie-industrielle.fr",
+   "bon.anthony@tolerie-industrielle.fr",
+   "a.bon@tolerie-industrielle.fr",
+   "abon@tolerie-industrielle.fr",
+   "simon.grand@tolerie-industrielle.fr",
+   "simongrand@tolerie-industrielle.fr",
+   "grand.simon@tolerie-industrielle.fr",
+   "s.grand@tolerie-industrielle.fr",
+   "sgrand@tolerie-industrielle.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "792758377": {
+  "nom": "Tolerie Remond",
+  "ville": "CREPAND",
+  "siren": "792758377",
+  "site": "tolerie-remond.com",
+  "email": "tb@tolerie-remond.com",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "448501619": {
+  "nom": "Provence Tolerie Zinguerie",
+  "ville": "CHATEAU ARNOUX SAINT AUBAN",
+  "siren": "448501619",
+  "site": "laprovence.com",
+  "email": "contactpub@laprovence-medias.fr",
+  "dirigeants": [
+   {
+    "nom": "DIDIER NAMY",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "didier.namy@laprovence.com",
+   "didiernamy@laprovence.com",
+   "namy.didier@laprovence.com",
+   "d.namy@laprovence.com",
+   "dnamy@laprovence.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "381820927": {
+  "nom": "Petite Tolerie De Precision (Ptp)",
+  "ville": "DOMONT",
+  "siren": "381820927",
+  "site": "petite.co.uk",
+  "email": "customerservice@roman.co.uk",
+  "dirigeants": [
+   {
+    "nom": "MICHAEL CONSOLI",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "DAVID SILVESTRE",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "michael.consoli@petite.co.uk",
+   "michaelconsoli@petite.co.uk",
+   "consoli.michael@petite.co.uk",
+   "m.consoli@petite.co.uk",
+   "mconsoli@petite.co.uk",
+   "david.silvestre@petite.co.uk",
+   "davidsilvestre@petite.co.uk",
+   "silvestre.david@petite.co.uk",
+   "d.silvestre@petite.co.uk",
+   "dsilvestre@petite.co.uk"
+  ],
+  "date": "2026-08-12"
+ },
+ "392316782": {
+  "nom": "Carrosserie Tolerie Industrielle Gromy",
+  "ville": "MELESSE",
+  "siren": "392316782",
+  "site": "carrosserie-a-paris.fr",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "LAETITIA GODEFROY",
+    "qualite": "Commissaire aux comptes suppléant"
+   },
+   {
+    "nom": "ALAIN JOSEPH RAYMOND GROMY",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "FRANCK GROMY",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "VINCENT GROMY",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "laetitia.godefroy@carrosserie-a-paris.fr",
+   "laetitiagodefroy@carrosserie-a-paris.fr",
+   "godefroy.laetitia@carrosserie-a-paris.fr",
+   "l.godefroy@carrosserie-a-paris.fr",
+   "lgodefroy@carrosserie-a-paris.fr",
+   "alain.gromy@carrosserie-a-paris.fr",
+   "alaingromy@carrosserie-a-paris.fr",
+   "gromy.alain@carrosserie-a-paris.fr",
+   "a.gromy@carrosserie-a-paris.fr",
+   "agromy@carrosserie-a-paris.fr",
+   "franck.gromy@carrosserie-a-paris.fr",
+   "franckgromy@carrosserie-a-paris.fr",
+   "gromy.franck@carrosserie-a-paris.fr",
+   "f.gromy@carrosserie-a-paris.fr",
+   "fgromy@carrosserie-a-paris.fr",
+   "vincent.gromy@carrosserie-a-paris.fr",
+   "vincentgromy@carrosserie-a-paris.fr",
+   "gromy.vincent@carrosserie-a-paris.fr",
+   "v.gromy@carrosserie-a-paris.fr",
+   "vgromy@carrosserie-a-paris.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "682003033": {
+  "nom": "Carrosserie Tolerie Peinture 94 (Ctp94)",
+  "ville": "SAINT-MAUR-DES-FOSSES",
+  "siren": "682003033",
+  "site": "carrosserie-a-paris.fr",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "GUILLAUME BARTEL",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "PASCAL ROYER",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "PASCAL SERGE MICHEL ROYER",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "guillaume.bartel@carrosserie-a-paris.fr",
+   "guillaumebartel@carrosserie-a-paris.fr",
+   "bartel.guillaume@carrosserie-a-paris.fr",
+   "g.bartel@carrosserie-a-paris.fr",
+   "gbartel@carrosserie-a-paris.fr",
+   "pascal.royer@carrosserie-a-paris.fr",
+   "pascalroyer@carrosserie-a-paris.fr",
+   "royer.pascal@carrosserie-a-paris.fr",
+   "p.royer@carrosserie-a-paris.fr",
+   "proyer@carrosserie-a-paris.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "423613066": {
+  "nom": "Maine Tolerie",
+  "ville": "CHATEAU-GONTIER-SUR-MAYENNE",
+  "siren": "423613066",
+  "site": "visitmaine.com",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "CHARLENE GUILLOTIN",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "CYRIL GUILLOTIN",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "charlene.guillotin@visitmaine.com",
+   "charleneguillotin@visitmaine.com",
+   "guillotin.charlene@visitmaine.com",
+   "c.guillotin@visitmaine.com",
+   "cguillotin@visitmaine.com",
+   "cyril.guillotin@visitmaine.com",
+   "cyrilguillotin@visitmaine.com",
+   "guillotin.cyril@visitmaine.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "414117945": {
+  "nom": "Tolerie Service (Ts)",
+  "ville": "HOUDEMONT",
+  "siren": "414117945",
+  "site": "tolerie-service.fr",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "LAURENCE MARIE CLAIRE REBOIS",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "laurence.rebois@tolerie-service.fr",
+   "laurencerebois@tolerie-service.fr",
+   "rebois.laurence@tolerie-service.fr",
+   "l.rebois@tolerie-service.fr",
+   "lrebois@tolerie-service.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "434269411": {
+  "nom": "Camega-Tolerie",
+  "ville": "SEICHES-SUR-LE-LOIR",
+  "siren": "434269411",
+  "site": "camega-tolerie.com",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "JEAN CLAUDE CARRE",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "JEAN-CLAUDE CARRE",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "jean.carre@camega-tolerie.com",
+   "jeancarre@camega-tolerie.com",
+   "carre.jean@camega-tolerie.com",
+   "j.carre@camega-tolerie.com",
+   "jcarre@camega-tolerie.com",
+   "jeanclaude.carre@camega-tolerie.com",
+   "jeanclaudecarre@camega-tolerie.com",
+   "carre.jeanclaude@camega-tolerie.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "377732219": {
+  "nom": "La Tolerie Armoricaine",
+  "ville": "TREILLIERES",
+  "siren": "377732219",
+  "site": "projet-voltaire.fr",
+  "email": "",
+  "dirigeants": [],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "525620332": {
+  "nom": "Smg Tolerie (Smg)",
+  "ville": "SAINT-PAUL",
+  "siren": "525620332",
+  "site": "smg-decoupage-tolerie.com",
+  "email": "g.sitkiewiez@smgconfrere.com",
+  "dirigeants": [
+   {
+    "nom": "MARIE-CHRISTINE FONTAINE",
+    "qualite": "Commissaire aux comptes suppléant"
+   },
+   {
+    "nom": "CHANTAL MARCHAL",
+    "qualite": "Commissaire aux comptes titulaire"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "mariechristine.fontaine@smg-decoupage-tolerie.com",
+   "mariechristinefontaine@smg-decoupage-tolerie.com",
+   "fontaine.mariechristine@smg-decoupage-tolerie.com",
+   "m.fontaine@smg-decoupage-tolerie.com",
+   "mfontaine@smg-decoupage-tolerie.com",
+   "chantal.marchal@smg-decoupage-tolerie.com",
+   "chantalmarchal@smg-decoupage-tolerie.com",
+   "marchal.chantal@smg-decoupage-tolerie.com",
+   "c.marchal@smg-decoupage-tolerie.com",
+   "cmarchal@smg-decoupage-tolerie.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "513961367": {
+  "nom": "Ag Tolerie",
+  "ville": "SAINT-MARTIN-LA-PLAINE",
+  "siren": "513961367",
+  "site": "ag-tolerie.com",
+  "email": "contact@ag-tolerie.com",
+  "dirigeants": [
+   {
+    "nom": "CAMAL SEMAOUNE",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "camal.semaoune@ag-tolerie.com",
+   "camalsemaoune@ag-tolerie.com",
+   "semaoune.camal@ag-tolerie.com",
+   "c.semaoune@ag-tolerie.com",
+   "csemaoune@ag-tolerie.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "885550285": {
+  "nom": "Tolerie Forezienne",
+  "ville": "BONSON",
+  "siren": "885550285",
+  "site": "tolerie-forezienne.com",
+  "email": "commercial@tolerie-forezienne.com",
+  "dirigeants": [
+   {
+    "nom": "JOEL YVES LEMOINE",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "joel.lemoine@tolerie-forezienne.com",
+   "joellemoine@tolerie-forezienne.com",
+   "lemoine.joel@tolerie-forezienne.com",
+   "j.lemoine@tolerie-forezienne.com",
+   "jlemoine@tolerie-forezienne.com"
+  ],
+  "date": "2026-08-12"
+ },
+ "957502164": {
+  "nom": "Fonderie Vincent",
+  "ville": "BRIGNAIS",
+  "siren": "957502164",
+  "site": "fonderie-vincent.com",
+  "email": "",
+  "dirigeants": [],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "344354584": {
+  "nom": "Fonderies De Larians",
+  "ville": "VECQUEVILLE",
+  "siren": "344354584",
+  "site": "fonderiesdelarians.fr",
+  "email": "contact@fonderiesdelarians.fr",
+  "dirigeants": [
+   {
+    "nom": "PATRICK BACI",
+    "qualite": "Commissaire aux comptes titulaire"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "patrick.baci@fonderiesdelarians.fr",
+   "patrickbaci@fonderiesdelarians.fr",
+   "baci.patrick@fonderiesdelarians.fr",
+   "p.baci@fonderiesdelarians.fr",
+   "pbaci@fonderiesdelarians.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "812250231": {
+  "nom": "Fonderie Lemer",
+  "ville": "CARQUEFOU",
+  "siren": "812250231",
+  "site": "fonderie-lemer.com",
+  "email": "contact@fonderie-lemer.com",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "346980188": {
+  "nom": "Fonderies De Nangis",
+  "ville": "NANGIS",
+  "siren": "346980188",
+  "site": "fonderies-de-nangis.fr",
+  "email": "info@fonderies-de-nangis.fr",
+  "dirigeants": [
+   {
+    "nom": "STEPHANE ROCH",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "stephane.roch@fonderies-de-nangis.fr",
+   "stephaneroch@fonderies-de-nangis.fr",
+   "roch.stephane@fonderies-de-nangis.fr",
+   "s.roch@fonderies-de-nangis.fr",
+   "sroch@fonderies-de-nangis.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "405223843": {
+  "nom": "Lory Fonderies",
+  "ville": "BRIERES-LES-SCELLES",
+  "siren": "405223843",
+  "site": "fonderies.fr",
+  "email": "",
+  "dirigeants": [
+   {
+    "nom": "JEAN CLAUDE CARNIS",
+    "qualite": "Commissaire aux comptes suppléant"
+   },
+   {
+    "nom": "JOSEPH PETRUS THOONSEN",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [
+   "jean.carnis@fonderies.fr",
+   "jeancarnis@fonderies.fr",
+   "carnis.jean@fonderies.fr",
+   "j.carnis@fonderies.fr",
+   "jcarnis@fonderies.fr",
+   "joseph.thoonsen@fonderies.fr",
+   "josephthoonsen@fonderies.fr",
+   "thoonsen.joseph@fonderies.fr",
+   "j.thoonsen@fonderies.fr",
+   "jthoonsen@fonderies.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "775604945": {
+  "nom": "Ouest Injection",
+  "ville": "CARQUEFOU",
+  "siren": "775604945",
+  "site": "ouest-injection.fr",
+  "email": "marketing@idlp.fr",
+  "dirigeants": [
+   {
+    "nom": "FABRICE FREDERIC GODEFROY",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "PATRICE YVON GODEFROY",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "fabrice.godefroy@ouest-injection.fr",
+   "fabricegodefroy@ouest-injection.fr",
+   "godefroy.fabrice@ouest-injection.fr",
+   "f.godefroy@ouest-injection.fr",
+   "fgodefroy@ouest-injection.fr",
+   "patrice.godefroy@ouest-injection.fr",
+   "patricegodefroy@ouest-injection.fr",
+   "godefroy.patrice@ouest-injection.fr",
+   "p.godefroy@ouest-injection.fr",
+   "pgodefroy@ouest-injection.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "533729943": {
+  "nom": "France Injection Service (F.I.S.)",
+  "ville": "SAINT-SYMPHORIEN-D'OZON",
+  "siren": "533729943",
+  "site": "france-injection-service.fr",
+  "email": "contact@france-injection-service.fr",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "399796861": {
+  "nom": "Baxter Injection",
+  "ville": "VINAY",
+  "siren": "399796861",
+  "site": "baxter-injection.com",
+  "email": "",
+  "dirigeants": [],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "878798552": {
+  "nom": "Anjou Injection",
+  "ville": "SOMLOIRE",
+  "siren": "878798552",
+  "site": "anjou-injection.fr",
+  "email": "",
+  "dirigeants": [],
+  "match": "AUCUN",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ },
+ "411746977": {
+  "nom": "Ouest Injection",
+  "ville": "MAMERS",
+  "siren": "411746977",
+  "site": "ouest-injection.fr",
+  "email": "marketing@idlp.fr",
+  "dirigeants": [
+   {
+    "nom": "ANTOINE PIERRE PASCAL NICOLAS MARIE DOUTRIAUX",
+    "qualite": null
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "antoine.doutriaux@ouest-injection.fr",
+   "antoinedoutriaux@ouest-injection.fr",
+   "doutriaux.antoine@ouest-injection.fr",
+   "a.doutriaux@ouest-injection.fr",
+   "adoutriaux@ouest-injection.fr"
+  ],
+  "date": "2026-08-12"
+ },
+ "410333769": {
+  "nom": "Millet Injection (Millet Plastics Group)",
+  "ville": "LAVANS-LES-SAINT-CLAUDE",
+  "siren": "410333769",
+  "site": "milletplastics-group.com",
+  "email": "millet@milletplastics-group.com",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12"
+ }
+}

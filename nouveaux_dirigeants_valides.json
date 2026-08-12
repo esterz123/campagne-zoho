@@ -1,0 +1,512 @@
+[
+ {
+  "nom": "Alpha Matieres Plastiques",
+  "ville": "HORBOURG-WIHR",
+  "siren": "390800472",
+  "site": "amp.fr",
+  "email": "matiere@amp.fr",
+  "dirigeants": [
+   {
+    "nom": "JULIE ANNE CATHERINE FATH LEGUILLIER",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "ALEXANDRE JACQUOT",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "FREDERIC MARIE",
+    "qualite": "Commissaire aux comptes suppléant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "julie.leguillier@amp.fr",
+   "julieleguillier@amp.fr",
+   "leguillier.julie@amp.fr",
+   "j.leguillier@amp.fr",
+   "jleguillier@amp.fr",
+   "alexandre.jacquot@amp.fr",
+   "alexandrejacquot@amp.fr",
+   "jacquot.alexandre@amp.fr",
+   "a.jacquot@amp.fr",
+   "ajacquot@amp.fr",
+   "frederic.marie@amp.fr",
+   "fredericmarie@amp.fr",
+   "marie.frederic@amp.fr",
+   "f.marie@amp.fr",
+   "fmarie@amp.fr"
+  ],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "amp.fr",
+   "constats": [
+    "WordPress 6.9.1"
+   ],
+   "score": 1
+  }
+ },
+ {
+  "nom": "Artois Plastiques",
+  "ville": "HOUDAIN",
+  "siren": "315635987",
+  "site": "artoisplastiques.fr",
+  "email": "ap@artoisplastiques.fr",
+  "dirigeants": [
+   {
+    "nom": "VALERIE BLEUZE",
+    "qualite": "Commissaire aux comptes suppléant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "valerie.bleuze@artoisplastiques.fr",
+   "valeriebleuze@artoisplastiques.fr",
+   "bleuze.valerie@artoisplastiques.fr",
+   "v.bleuze@artoisplastiques.fr",
+   "vbleuze@artoisplastiques.fr"
+  ],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "artoisplastiques.fr",
+   "constats": [
+    "WordPress 7.0.4"
+   ],
+   "score": 1
+  }
+ },
+ {
+  "nom": "Atelier De Fraisage Et Mecanique (Afm)",
+  "ville": "ATHIS-VAL DE ROUVRE",
+  "siren": "410492326",
+  "site": "atelierphysis.fr",
+  "email": "contact@atelierphysis.fr",
+  "dirigeants": [
+   {
+    "nom": "FABRICE DELAMARRE",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "FABRICE RENE DELAMARRE",
+    "qualite": "Gérant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "fabrice.delamarre@atelierphysis.fr",
+   "fabricedelamarre@atelierphysis.fr",
+   "delamarre.fabrice@atelierphysis.fr",
+   "f.delamarre@atelierphysis.fr",
+   "fdelamarre@atelierphysis.fr"
+  ],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "atelierphysis.fr",
+   "constats": [
+    "Aucun constat majeur"
+   ],
+   "score": 0
+  }
+ },
+ {
+  "nom": "Axil Plasturgie",
+  "ville": "CIVRIEUX-D'AZERGUES",
+  "siren": "341917813",
+  "site": "axil-plasturgie.com",
+  "email": "contact@axil-plasturgie.com",
+  "dirigeants": [
+   {
+    "nom": "CEDRIC STÉPHANE ROMERA-VALLIN",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "cedric.romeravallin@axil-plasturgie.com",
+   "cedricromeravallin@axil-plasturgie.com",
+   "romeravallin.cedric@axil-plasturgie.com",
+   "c.romeravallin@axil-plasturgie.com",
+   "cromeravallin@axil-plasturgie.com"
+  ],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "axil-plasturgie.com",
+   "constats": [
+    "WordPress ."
+   ],
+   "score": 0
+  }
+ },
+ {
+  "nom": "Bureau Etude Outillage Mecaniq Generale (Begc)",
+  "ville": "GOUSSAINVILLE",
+  "siren": "323646679",
+  "site": "bureau-vallee.fr",
+  "email": "contact@bureau-vallee.fr",
+  "dirigeants": [
+   {
+    "nom": "VINCENT CHOUZENOUX",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "vincent.chouzenoux@bureau-vallee.fr",
+   "vincentchouzenoux@bureau-vallee.fr",
+   "chouzenoux.vincent@bureau-vallee.fr",
+   "v.chouzenoux@bureau-vallee.fr",
+   "vchouzenoux@bureau-vallee.fr"
+  ],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "bureau-vallee.fr",
+   "constats": [
+    "Copyright 2024"
+   ],
+   "score": 1
+  }
+ },
+ {
+  "nom": "Decolletage De Reu",
+  "ville": "ACHIET-LE-GRAND",
+  "siren": "551920796",
+  "site": "decolletage-de-reu.com",
+  "email": "contact@decolletage-de-reu.com",
+  "dirigeants": [
+   {
+    "nom": "JOFFREY DE REU",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "FRANCOIS MONTENS",
+    "qualite": "Commissaire aux comptes suppléant"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "joffrey.reu@decolletage-de-reu.com",
+   "joffreyreu@decolletage-de-reu.com",
+   "reu.joffrey@decolletage-de-reu.com",
+   "j.reu@decolletage-de-reu.com",
+   "jreu@decolletage-de-reu.com",
+   "francois.montens@decolletage-de-reu.com",
+   "francoismontens@decolletage-de-reu.com",
+   "montens.francois@decolletage-de-reu.com",
+   "f.montens@decolletage-de-reu.com",
+   "fmontens@decolletage-de-reu.com"
+  ],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "decolletage-de-reu.com",
+   "constats": [
+    "Aucun email visible"
+   ],
+   "score": 0
+  }
+ },
+ {
+  "nom": "Decolletage Elbe",
+  "ville": "MARNAZ",
+  "siren": "605820729",
+  "site": "decolletage-elbe.fr",
+  "email": "info@decolletage-elbe.fr",
+  "dirigeants": [
+   {
+    "nom": "GEOFFROY FREDERIC BENE",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "LAURENT BENE",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "geoffroy.bene@decolletage-elbe.fr",
+   "geoffroybene@decolletage-elbe.fr",
+   "bene.geoffroy@decolletage-elbe.fr",
+   "g.bene@decolletage-elbe.fr",
+   "gbene@decolletage-elbe.fr",
+   "laurent.bene@decolletage-elbe.fr",
+   "laurentbene@decolletage-elbe.fr",
+   "bene.laurent@decolletage-elbe.fr",
+   "l.bene@decolletage-elbe.fr",
+   "lbene@decolletage-elbe.fr"
+  ],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "decolletage-elbe.fr",
+   "constats": [
+    "WordPress 7.0.4"
+   ],
+   "score": 1
+  }
+ },
+ {
+  "nom": "Elcam Usinage (Elcam Usinage)",
+  "ville": "POLIGNY",
+  "siren": "420425589",
+  "site": "elcam-usinage.fr",
+  "email": "stephanemacle@elcam-usinage.fr",
+  "dirigeants": [
+   {
+    "nom": "MATHILDE LUCETTE MICHELE CARTAUX",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "STEPHANE FRANCOIS JEAN-PIERRE MACLE",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "DIRIGEANT",
+  "email_dirigeant_devine": [
+   "mathilde.cartaux@elcam-usinage.fr",
+   "mathildecartaux@elcam-usinage.fr",
+   "cartaux.mathilde@elcam-usinage.fr",
+   "m.cartaux@elcam-usinage.fr",
+   "mcartaux@elcam-usinage.fr",
+   "stephane.macle@elcam-usinage.fr",
+   "stephanemacle@elcam-usinage.fr",
+   "macle.stephane@elcam-usinage.fr",
+   "s.macle@elcam-usinage.fr",
+   "smacle@elcam-usinage.fr"
+  ],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "elcam-usinage.fr",
+   "constats": [
+    "jQuery 1.12.4. (avant 2016)",
+    "Copyright 2018"
+   ],
+   "score": 3
+  }
+ },
+ {
+  "nom": "Fonderies De Larians",
+  "ville": "VECQUEVILLE",
+  "siren": "344354584",
+  "site": "fonderiesdelarians.fr",
+  "email": "contact@fonderiesdelarians.fr",
+  "dirigeants": [
+   {
+    "nom": "PATRICK BACI",
+    "qualite": "Commissaire aux comptes titulaire"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "patrick.baci@fonderiesdelarians.fr",
+   "patrickbaci@fonderiesdelarians.fr",
+   "baci.patrick@fonderiesdelarians.fr",
+   "p.baci@fonderiesdelarians.fr",
+   "pbaci@fonderiesdelarians.fr"
+  ],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "fonderiesdelarians.fr",
+   "constats": [
+    "Aucun constat majeur"
+   ],
+   "score": 0
+  }
+ },
+ {
+  "nom": "Fonderies De Nangis",
+  "ville": "NANGIS",
+  "siren": "346980188",
+  "site": "fonderies-de-nangis.fr",
+  "email": "info@fonderies-de-nangis.fr",
+  "dirigeants": [
+   {
+    "nom": "STEPHANE ROCH",
+    "qualite": "Président de SAS"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "stephane.roch@fonderies-de-nangis.fr",
+   "stephaneroch@fonderies-de-nangis.fr",
+   "roch.stephane@fonderies-de-nangis.fr",
+   "s.roch@fonderies-de-nangis.fr",
+   "sroch@fonderies-de-nangis.fr"
+  ],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "fonderies-de-nangis.fr",
+   "constats": [
+    "Aucun constat majeur"
+   ],
+   "score": 0
+  }
+ },
+ {
+  "nom": "Graf Plasturgie",
+  "ville": "DACHSTEIN",
+  "siren": "493246011",
+  "site": "graf.info",
+  "email": "info@graf.fr",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "graf.info",
+   "constats": [
+    "Copyright 1998"
+   ],
+   "score": 1
+  }
+ },
+ {
+  "nom": "Les Plastiques Decores",
+  "ville": "OYONNAX",
+  "siren": "771200821",
+  "site": "lesplastiquesdecores.fr",
+  "email": "julien.burgos@lesplastiquesdecores.fr",
+  "dirigeants": [
+   {
+    "nom": "JULIEN BURGOS",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "MANUEL BURGOS",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "CHRISTINE ANNICK DANIELE BURGOS",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "DIRIGEANT",
+  "email_dirigeant_devine": [
+   "julien.burgos@lesplastiquesdecores.fr",
+   "julienburgos@lesplastiquesdecores.fr",
+   "burgos.julien@lesplastiquesdecores.fr",
+   "j.burgos@lesplastiquesdecores.fr",
+   "jburgos@lesplastiquesdecores.fr",
+   "manuel.burgos@lesplastiquesdecores.fr",
+   "manuelburgos@lesplastiquesdecores.fr",
+   "burgos.manuel@lesplastiquesdecores.fr",
+   "m.burgos@lesplastiquesdecores.fr",
+   "mburgos@lesplastiquesdecores.fr",
+   "christine.burgos@lesplastiquesdecores.fr",
+   "christineburgos@lesplastiquesdecores.fr",
+   "burgos.christine@lesplastiquesdecores.fr",
+   "c.burgos@lesplastiquesdecores.fr",
+   "cburgos@lesplastiquesdecores.fr"
+  ],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "lesplastiquesdecores.fr",
+   "constats": [
+    "jQuery 1.10.1. (avant 2016)",
+    "Aucun email visible"
+   ],
+   "score": 2
+  }
+ },
+ {
+  "nom": "Millet Injection (Millet Plastics Group)",
+  "ville": "LAVANS-LES-SAINT-CLAUDE",
+  "siren": "410333769",
+  "site": "milletplastics-group.com",
+  "email": "millet@milletplastics-group.com",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "milletplastics-group.com",
+   "constats": [
+    "WordPress 6.7.2",
+    "Aucun email visible"
+   ],
+   "score": 1
+  }
+ },
+ {
+  "nom": "Sa Amd Decolletage",
+  "ville": "MARNAZ",
+  "siren": "388741639",
+  "site": "amd-decolletage.fr",
+  "email": "sales@amd-decolletage.fr",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "amd-decolletage.fr",
+   "constats": [
+    "Aucun constat majeur"
+   ],
+   "score": 0
+  }
+ },
+ {
+  "nom": "Segre Mecanique Precision (Smp)",
+  "ville": "SEGRE-EN-ANJOU BLEU",
+  "siren": "338809460",
+  "site": "segreenanjoubleu.fr",
+  "email": "communication@segreenanjoubleu.fr",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "segreenanjoubleu.fr",
+   "constats": [
+    "Aucun constat majeur"
+   ],
+   "score": 0
+  }
+ },
+ {
+  "nom": "Tolerie Forezienne",
+  "ville": "BONSON",
+  "siren": "885550285",
+  "site": "tolerie-forezienne.com",
+  "email": "commercial@tolerie-forezienne.com",
+  "dirigeants": [
+   {
+    "nom": "JOEL YVES LEMOINE",
+    "qualite": "Directeur Général"
+   }
+  ],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [
+   "joel.lemoine@tolerie-forezienne.com",
+   "joellemoine@tolerie-forezienne.com",
+   "lemoine.joel@tolerie-forezienne.com",
+   "j.lemoine@tolerie-forezienne.com",
+   "jlemoine@tolerie-forezienne.com"
+  ],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "tolerie-forezienne.com",
+   "constats": [
+    "jQuery 1.10.2 (avant 2016)",
+    "Pas de vue mobile",
+    "Copyright 2018"
+   ],
+   "score": 5
+  }
+ },
+ {
+  "nom": "Tolerie Remond",
+  "ville": "CREPAND",
+  "siren": "792758377",
+  "site": "tolerie-remond.com",
+  "email": "tb@tolerie-remond.com",
+  "dirigeants": [],
+  "match": "GENERIQUE",
+  "email_dirigeant_devine": [],
+  "date": "2026-08-12",
+  "analyse": {
+   "site": "tolerie-remond.com",
+   "constats": [
+    "WordPress 6.8.3"
+   ],
+   "score": 1
+  }
+ }
+]
