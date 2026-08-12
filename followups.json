@@ -1,11 +1,11 @@
 {
  "relance1": {
-  "wait_days": 5,
+  "wait_days": 3,
   "subject": "Re: {sujet}",
   "body": "Bonjour,\n\nJe me permets de revenir vers vous au sujet de mon email de la semaine derniere, concernant votre site internet et le diagnostic gratuit que je vous proposais.\n\nJe sais que les dirigeants rec.oivent beaucoup d'emails, c'est pour cela que je vous ecris une seconde fois, simplement. Si vous avez 5 minutes, je vous envoie le diagnostic sous 3 jours. Il est gratuit, sans engagement, et il vous appartient.\n\nSi vous n'etes pas interesse, un simple \"non merci\" me suffit et je ne vous ecris plus.\n\nCordialement,\nMahdi"
  },
  "relance2": {
-  "wait_days": 12,
+  "wait_days": 7,
   "subject": "Re: {sujet}",
   "body": "Bonjour,\n\nC'est ma derniere prise de contact au sujet de votre site internet et du diagnostic gratuit que je vous proposais la semaine derniere.\n\nJe pars du principe que vous n'etes pas interesse pour le moment, et je respecte cela. Si un jour votre site vous preoccupe, pensez a moi, mon email est en bas de ce message.\n\nJe vous souhaite une bonne journee.\n\nCordialement,\nMahdi"
  }
