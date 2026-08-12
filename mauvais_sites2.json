@@ -1,0 +1,53 @@
+[
+ {
+  "nom": "Sarl Jcm Decolletage",
+  "ville": "SALLANCHES",
+  "naf": "25.62A",
+  "effectif": "21",
+  "dirigeants": [
+   "Michel Jiguet-Covex"
+  ],
+  "site": "jcm-decolletage.fr",
+  "constats": [
+   "jQuery 1.9.0"
+  ],
+  "score": 2,
+  "emails": [
+   "info@jcm-decolletage.fr"
+  ]
+ },
+ {
+  "nom": "Provence Outillage",
+  "ville": "TAILLADES",
+  "naf": "47.52A",
+  "effectif": "21",
+  "dirigeants": [
+   "Laurence Tauleigne (Chaminas)"
+  ],
+  "site": "provence-outillage.fr",
+  "constats": [
+   "Copyright 1999"
+  ],
+  "score": 1,
+  "emails": [
+   "alpinejs@3.10.4.js"
+  ]
+ },
+ {
+  "nom": "Delta Usinage",
+  "ville": "MURS-ERIGNE",
+  "naf": "25.62B",
+  "effectif": "12",
+  "dirigeants": [
+   "Sébastien Brault"
+  ],
+  "site": "delta-usinage.com",
+  "constats": [
+   "Site correct"
+  ],
+  "score": 0,
+  "emails": [
+   "info@hgpi-group.fr"
+  ]
+ }
+]
