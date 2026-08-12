@@ -1,16 +1,17 @@
 name: Campagne emails Zoho
 
-# Chrono en temps universel (heure d'Alger = UTC + 1) :
-#   07h30 UTC = 08h30 Alger  -> run 1 : envoi + chasse + rapport
-#   11h30 UTC = 12h30 Alger  -> run 2 : envoi seul (1 email)
-#   16h30 UTC = 17h30 Alger  -> run 3 : envoi seul (1 email)
-# Chaque run n'envoie QU'UN email (--max 1) pour espacer les envois et
-# eviter d'avoir l'air d'un robot (Zoho). 3 emails/jour, espaces de 4-5h.
+# Chrono en temps universel (UTC) calibre sur l'heure des DESTINATAIRES (France, UTC+2 en ete) :
+#   Le B2B FR ouvre sa boite le matin (meilleur taux de reponse 8h-11h, etude Belkins 7.5M envois).
+#   06h30 UTC = 08h30 Paris   -> run 1 : envoi + chasse + rapport
+#   08h30 UTC = 10h30 Paris   -> run 2 : envoi seul (1 email)
+#   12h00 UTC = 14h00 Paris   -> run 3 : envoi seul (1 email)
+# Chaque run n'envoie QU'UN email (--max 1) pour espacer et eviter le look robot (Zoho).
+# 3 emails/jour dans la fenetre la plus receptive (matin/debut d'apres-midi).
 on:
   schedule:
-    - cron: '30 7 * * 1-5'    # 08h30 Alger
-    - cron: '30 11 * * 1-5'   # 12h30 Alger
-    - cron: '30 16 * * 1-5'   # 17h30 Alger
+    - cron: '30 6 * * 1-5'    # 08h30 Paris (lundi-vendredi)
+    - cron: '30 8 * * 1-5'    # 10h30 Paris
+    - cron: '0 12 * * 1-5'    # 14h00 Paris
   workflow_dispatch:          # bouton "Run workflow" = envoyer maintenant
 
 jobs:
