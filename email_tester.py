@@ -74,6 +74,8 @@ def guess_emails(nom_complet, domaine):
     else:
         return []
     d = domaine
+    p = prenoms[0]
+    n = noms[0]
     cands = {
         f"{p}.{n}@{d}": "prenom.nom",
         f"{p[0]}.{n}@{d}": "p.nom",
