@@ -11,29 +11,6 @@
   "ville": "BELLIGNAT"
  },
  {
-  "url": "https://aera-sa.fr",
-  "probleme": "PIRATE",
-  "details": [
-   "Liens de fraude/spam dans le code : #specialiste",
-   "Theme WordPress : hello-elementor"
-  ],
-  "note": 5,
-  "nom": "AERA",
-  "email": "aerasav@aera-sa.fr",
-  "ville": ""
- },
- {
-  "url": "https://fonderies-dechaumont.com",
-  "probleme": "PIRATE",
-  "details": [
-   "Liens de fraude/spam dans le code : xena-casino.gr"
-  ],
-  "note": 5,
-  "nom": "52 — Fonderie Et Plasturgie (Fpsa)",
-  "email": "fd@fonderies-dechaumont.com",
-  "ville": ""
- },
- {
   "url": "https://lenoirhandiconcept.com",
   "probleme": "WP_OBSOLETE",
   "details": [
@@ -64,17 +41,6 @@
   "note": 3,
   "nom": "ADDUXI (Conception Réalisation Plastique)",
   "email": "adduxinfo@adduxi.com",
-  "ville": ""
- },
- {
-  "url": "https://arc-colorant.com",
-  "probleme": "WP_OBSOLETE",
-  "details": [
-   "WordPress 4.7 (vulnerabilites connues non corrigees)"
-  ],
-  "note": 3,
-  "nom": "ARC APPLICATIONS RECHERCHES COULEURS",
-  "email": "contact@arc-colorant.com",
   "ville": ""
  },
  {
@@ -149,41 +115,6 @@
   "ville": ""
  },
  {
-  "url": "https://tolerie-forezienne.com",
-  "probleme": "SITE_DATÉ",
-  "details": [
-   "SSL absent : le site repond en http, pas de https",
-   "Theme WordPress : jupiter",
-   "Copyright 2018 : site non mis a jour depuis des annees"
-  ],
-  "note": 2,
-  "nom": "48 — Tolerie Forezienne",
-  "email": "commercial@tolerie-forezienne.com",
-  "ville": ""
- },
- {
-  "url": "https://nordvpn.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Nord Fraisage",
-  "email": "9765ee91544348309ca8564e59eba16d@debug.nordvpn.com",
-  "ville": "SAINTE-SEVE"
- },
- {
-  "url": "https://flyedelweiss.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Edelweiss Decolletage",
-  "email": "",
-  "ville": "MAGLAND"
- },
- {
   "url": "https://amd-decolletage.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -195,28 +126,6 @@
   "ville": "MARNAZ"
  },
  {
-  "url": "https://petite.co.uk",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Petite Tolerie De Precision (Ptp)",
-  "email": "customerservice@roman.co.uk",
-  "ville": "DOMONT"
- },
- {
-  "url": "https://visitmaine.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Maine Tolerie",
-  "email": "",
-  "ville": "CHATEAU-GONTIER-SUR-MAYENNE"
- },
- {
   "url": "https://baxter-injection.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -226,6 +135,39 @@
   "nom": "Baxter Injection",
   "email": "",
   "ville": "VINAY"
+ },
+ {
+  "url": "https://3c-career.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "3C CAREER CONSULTING COMPANY FRANCE (ex INDSIDE)",
+  "email": "dlandry@3c-career.com",
+  "ville": ""
+ },
+ {
+  "url": "https://acz.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "ACZ",
+  "email": "info@acz.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://arc-colorant.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "ARC APPLICATIONS RECHERCHES COULEURS",
+  "email": "contact@arc-colorant.com",
+  "ville": ""
  },
  {
   "url": "https://slicom-group.com",
@@ -269,17 +211,6 @@
   "note": 0,
   "nom": "21 — Provence Outillage (Les Taillades, ",
   "email": "commandes@provence-outillage.com",
-  "ville": ""
- },
- {
-  "url": "https://amd-decolletage.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "46 — Sa Amd Decolletage",
-  "email": "sales@amd-decolletage.fr",
   "ville": ""
  }
 ]
