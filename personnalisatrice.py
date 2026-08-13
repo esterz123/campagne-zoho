@@ -74,9 +74,26 @@ def construire_prompt(prospect):
         "to": prospect.get("to", ""),
         "sujet_actuel": prospect.get("subject", ""),
         "corps_actuel": prospect.get("body", "")[:1200],
+        "dirigeant": prospect.get("dirigeant", ""),
     }
+    # Accroche au dirigeant si on connait son nom (SANS jamais deviner l'email)
+    accroche = ""
+    if info["dirigeant"]:
+        # "Jean DUPONT" -> "M. DUPONT" ; prenoms feminins -> "Mme"
+        prenom, *rest = info["dirigeant"].split()
+        nom_famille = " ".join(rest) if rest else info["dirigeant"]
+        prenoms_feminins = ("marie", "chloe", "chloé", "valerie", "valérie", "julie",
+                            "laurence", "mathilde", "stephanie", "stéphanie",
+                            "charlene", "charlène", "sophie", "anne", "celine",
+                            "céline", "isabelle", "nathalie", "sandra", "virginie",
+                            "emilie", "émilie", "audrey", "karine", "sandrine")
+        civ = "Mme" if prenom.lower() in prenoms_feminins else "M."
+        info["accroche"] = f"{civ} {nom_famille}"
+    else:
+        info["accroche"] = ""
     return (
         "Voici le prospect : %(prospect)s\n"
+        "Dirigeant : %(dirigeant)s\n"
         "Adresse : %(to)s\n"
         "Sujet actuel : %(sujet_actuel)s\n"
         "Email actuel :\n%(corps_actuel)s\n\n"
@@ -84,6 +101,9 @@ def construire_prompt(prospect):
         "un sujet accrocheur (1 phrase, sans tiret) et un corps qui parle de SON "
         "activite, de SON site, de SON probleme concret. Reste sur les constats "
         "verifiables de l'email actuel (ne invente pas de nouveaux faits). "
+        "Si le dirigeant est connu, l'email doit s'adresser a lui par son nom "
+        "des la premiere ligne (ex: 'Bonjour %(accroche)s,' si l'accroche est "
+        "remplie, sinon 'Bonjour,'). "
         "Garde la structure : sujet sur la premiere ligne (prefixe 'SUJET: '), "
         "puis une ligne vide, puis le corps. "
         "Reponds UNIQUEMENT avec le nouvel email, rien d'autre. "

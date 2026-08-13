@@ -28,10 +28,13 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 CREDS = os.path.join(BASE, ".ia_tokens.json")
 
 # REGLE : uniquement des modeles gratuits. Ajuster ici si besoin.
+# MISTRAL-SMALL en tete pour ecriture (teste 13/08 : structure SUJET/corps
+# parfaite, nom du dirigeant respecte, sans artefact — meilleur que hy3 qui
+# raisonne en anglais avant de repondre). hy3 en secours (gratuit Portal).
 CONFIG = {
     "ecriture": [
-        ("portal",    "tencent/hy3:free"),               # Nous Portal, pricing=0 = GRATUIT
-        ("mistral",   "mistral-small-latest"),           # 1B tokens/mois gratuit
+        ("mistral",   "mistral-small-latest"),           # 1B tokens/mois gratuit, MEILLEUR test 13/08
+        ("portal",    "tencent/hy3:free"),               # Nous Portal, pricing=0 = GRATUIT (secours)
         ("groq",      "llama-3.3-70b-versatile"),
         ("openrouter","nvidia/nemotron-nano-12b-v2-vl:free"),
     ],
