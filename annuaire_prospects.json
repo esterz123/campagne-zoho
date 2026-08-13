@@ -1,0 +1,329 @@
+[
+ {
+  "nom": "NOVAFLOOR SA",
+  "site": "novafloor.net",
+  "email": "info@novafloor.net",
+  "dirigeant": "Adib ABBOUD",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "WordPress 7.0.4",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "siren": ""
+ },
+ {
+  "nom": "3C CAREER CONSULTING COMPANY FRANCE (ex INDSIDE)",
+  "site": "3c-career.com",
+  "email": "dlandry@3c-career.com",
+  "dirigeant": "",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "Pas de certificat SSL",
+   "Page lourde (1182 Ko)"
+  ],
+  "score": 2,
+  "siren": ""
+ },
+ {
+  "nom": "A3PLAST",
+  "site": "a3plast.fr",
+  "email": "contact@a3plast.fr",
+  "dirigeant": "Franck COHEN",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "Copyright 2024",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "siren": ""
+ },
+ {
+  "nom": "A4 SOLUTIONS SAS",
+  "site": "a4solutions.fr",
+  "email": "contact@a4solutions.fr",
+  "dirigeant": "",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "WordPress 7.0.4",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "siren": ""
+ },
+ {
+  "nom": "ABF DECISIONS",
+  "site": "abfdecisions.fr",
+  "email": "contact@abfdecisions.fr",
+  "dirigeant": "",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "WordPress 7.0",
+   "Copyright 2022",
+   "Pas de certificat SSL"
+  ],
+  "score": 3,
+  "siren": ""
+ },
+ {
+  "nom": "ACTECH SAS",
+  "site": "actech-innovation.com",
+  "email": "contact@actech-innovation.com",
+  "dirigeant": "",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "Pas de vue mobile (viewport)",
+   "Pas de certificat SSL"
+  ],
+  "score": 3,
+  "siren": ""
+ },
+ {
+  "nom": "ACZ",
+  "site": "acz.fr",
+  "email": "info@acz.fr",
+  "dirigeant": "Fabien DEMEME",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "Pas de certificat SSL",
+   "Page lourde (774 Ko)"
+  ],
+  "score": 2,
+  "siren": ""
+ },
+ {
+  "nom": "ADDUXI (Conception Réalisation Plastique)",
+  "site": "adduxi.com",
+  "email": "adduxinfo@adduxi.com",
+  "dirigeant": "Herve PERRIN",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "WordPress 6.5.8",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "siren": ""
+ },
+ {
+  "nom": "AERA",
+  "site": "aera-sa.fr",
+  "email": "aerasav@aera-sa.fr",
+  "dirigeant": "Hassan ADDIOUI",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "Copyright 2023",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "siren": ""
+ },
+ {
+  "nom": "AGRIPOLYANE",
+  "site": "agripolyane.com",
+  "email": "contact@agripolyane.com",
+  "dirigeant": "Michail LEMPIDAKIS",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "WordPress ?",
+   "Copyright 2018",
+   "Pas de certificat SSL"
+  ],
+  "score": 3,
+  "siren": ""
+ },
+ {
+  "nom": "AISA",
+  "site": "aisa.com",
+  "email": "b.c.o@aisa.com",
+  "dirigeant": "",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "WordPress 7.0.4",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "siren": ""
+ },
+ {
+  "nom": "ALENCON PLASTIC",
+  "site": "alencon-plastic.com",
+  "email": "contact@alencon-plastic.com",
+  "dirigeant": "Tony BEEUWSAERT",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "WordPress 6.9.7",
+   "jQuery 1.12.4. (avant 2016)",
+   "Pas de certificat SSL"
+  ],
+  "score": 4,
+  "siren": ""
+ },
+ {
+  "nom": "ALENCON PLASTIC",
+  "site": "alencon-plastic.com",
+  "email": "contact@alencon-plastic.com",
+  "dirigeant": "Tony BEEUWSAERT",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "WordPress 6.9.7",
+   "jQuery 1.12.4. (avant 2016)",
+   "Pas de certificat SSL"
+  ],
+  "score": 4,
+  "siren": ""
+ },
+ {
+  "nom": "ALMARO",
+  "site": "almaro-france.fr",
+  "email": "contact@almaro-france.fr",
+  "dirigeant": "Christian LEJEUNE",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "WordPress 7.0.4",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "siren": ""
+ },
+ {
+  "nom": "ALPES CONNECTIQUE SERVICES",
+  "site": "acs-alpes.com",
+  "email": "commercial@acs-alpes.com",
+  "dirigeant": "Patrick CORCESSIN",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "WordPress 6.9.7",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "siren": ""
+ },
+ {
+  "nom": "ALPHA INDUSTRIES",
+  "site": "alpha-industries.fr",
+  "email": "contact@alpha-industries.fr",
+  "dirigeant": "Jose CLABAUX",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "WordPress 7.0.4",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "siren": ""
+ },
+ {
+  "nom": "AMDI",
+  "site": "amdi.fr",
+  "email": "contact@amdi.fr",
+  "dirigeant": "Eric JANTROY",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "WordPress 6.9.7",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "siren": ""
+ },
+ {
+  "nom": "APA - APPLICATION PLASTIQUE ARCONSAT",
+  "site": "apa-injection.com",
+  "email": "contact@apa-injection.com",
+  "dirigeant": "",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "WordPress 7.0.4",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "siren": ""
+ },
+ {
+  "nom": "APLAST",
+  "site": "someflu.com",
+  "email": "someflu@someflu.com",
+  "dirigeant": "",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "jQuery 2.1.4. (avant 2016)",
+   "Pas de certificat SSL"
+  ],
+  "score": 3,
+  "siren": ""
+ },
+ {
+  "nom": "APM (AUTOMOTIVE PERFORMANCE MATERIALS)",
+  "site": "apm-planet.com",
+  "email": "contact@apm-planet.com",
+  "dirigeant": "Christophe BOURNAY",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "WordPress 7.0.4",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "siren": ""
+ },
+ {
+  "nom": "APLICIT",
+  "site": "aplicit.com",
+  "email": "contact@aplicit.com",
+  "dirigeant": "",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "Copyright 2006",
+   "Pas de certificat SSL",
+   "Page lourde (1520 Ko)"
+  ],
+  "score": 3,
+  "siren": ""
+ },
+ {
+  "nom": "APPCELL",
+  "site": "appcell.fr",
+  "email": "contact@appcell.fr",
+  "dirigeant": "",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "Pas de vue mobile (viewport)",
+   "Pas de certificat SSL"
+  ],
+  "score": 3,
+  "siren": ""
+ },
+ {
+  "nom": "ARC APPLICATIONS RECHERCHES COULEURS",
+  "site": "arc-colorant.com",
+  "email": "contact@arc-colorant.com",
+  "dirigeant": "",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "WordPress 4.7.29",
+   "Pas de certificat SSL"
+  ],
+  "score": 3,
+  "siren": ""
+ }
+]
