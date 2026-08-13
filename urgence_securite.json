@@ -1,0 +1,347 @@
+[
+ {
+  "url": "https://fonderies-dechaumont.com",
+  "probleme": "PIRATE",
+  "details": [
+   "Liens de fraude/spam dans le code : xena-casino.gr"
+  ],
+  "note": 5,
+  "nom": "Fonderie Et Plasturgie Sa (Fpsa)",
+  "email": "fd@fonderies-dechaumont.com",
+  "ville": "BELLIGNAT"
+ },
+ {
+  "url": "https://aera-sa.fr",
+  "probleme": "PIRATE",
+  "details": [
+   "Liens de fraude/spam dans le code : #specialiste",
+   "Theme WordPress : hello-elementor"
+  ],
+  "note": 5,
+  "nom": "AERA",
+  "email": "aerasav@aera-sa.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://lenoirhandiconcept.com",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 5.3 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "Lenoir Metallerie",
+  "email": "",
+  "ville": "VILLEURBANNE"
+ },
+ {
+  "url": "https://camega-tolerie.com",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 6.2 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "Camega-Tolerie",
+  "email": "",
+  "ville": "SEICHES-SUR-LE-LOIR"
+ },
+ {
+  "url": "https://adduxi.com",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 6.5 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "ADDUXI (Conception Réalisation Plastique)",
+  "email": "adduxinfo@adduxi.com",
+  "ville": ""
+ },
+ {
+  "url": "https://eberhard.de",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "Eberhard Usinage",
+  "email": "info@eberhard.de",
+  "ville": "HATTMATT"
+ },
+ {
+  "url": "https://tolerie-forezienne.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "SSL absent : le site repond en http, pas de https",
+   "Theme WordPress : jupiter",
+   "Copyright 2018 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "Tolerie Forezienne",
+  "email": "commercial@tolerie-forezienne.com",
+  "ville": "BONSON"
+ },
+ {
+  "url": "https://agripolyane.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Theme WordPress : greengia",
+   "Copyright 2018 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "AGRIPOLYANE",
+  "email": "contact@agripolyane.com",
+  "ville": ""
+ },
+ {
+  "url": "https://mon-irrigation.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Irrigation Distribution Plastiques",
+  "email": "",
+  "ville": "AVIGNON"
+ },
+ {
+  "url": "https://usinage-alsace.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Usinage Alsace",
+  "email": "contact@usinage-alsace.com",
+  "ville": "OBERHASLACH"
+ },
+ {
+  "url": "https://ouest-france.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Ouest Decolletage",
+  "email": "",
+  "ville": "CHEMILLE-EN-ANJOU"
+ },
+ {
+  "url": "https://amd-decolletage.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Sa Amd Decolletage",
+  "email": "sales@amd-decolletage.fr",
+  "ville": "MARNAZ"
+ },
+ {
+  "url": "https://laprovence.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Provence Outillage",
+  "email": "contactpub@laprovence-medias.fr",
+  "ville": "TAILLADES"
+ },
+ {
+  "url": "https://master-outillage.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Outillage De St Etienne",
+  "email": "",
+  "ville": "ANDREZIEUX-BOUTHEON"
+ },
+ {
+  "url": "https://master-outillage.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Outillage Magafor",
+  "email": "",
+  "ville": "FONTENAY-SOUS-BOIS"
+ },
+ {
+  "url": "https://master-outillage.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Outillage Mecanique Decoupage (Omedec)",
+  "email": "",
+  "ville": "AMANCEY"
+ },
+ {
+  "url": "https://master-outillage.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Outillage Progress",
+  "email": "",
+  "ville": "NAZELLES-NEGRON"
+ },
+ {
+  "url": "https://ouest-france.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Ouest Emboutissage",
+  "email": "",
+  "ville": "CERIZAY"
+ },
+ {
+  "url": "https://oaca.nat.tn",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Oaca Metallerie",
+  "email": "",
+  "ville": "AGNOS"
+ },
+ {
+  "url": "https://laprovence.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Provence Tolerie Zinguerie",
+  "email": "contactpub@laprovence-medias.fr",
+  "ville": "CHATEAU ARNOUX SAINT AUBAN"
+ },
+ {
+  "url": "https://baxter-injection.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Baxter Injection",
+  "email": "",
+  "ville": "VINAY"
+ },
+ {
+  "url": "https://3c-career.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "3C CAREER CONSULTING COMPANY FRANCE (ex INDSIDE)",
+  "email": "dlandry@3c-career.com",
+  "ville": ""
+ },
+ {
+  "url": "https://acz.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "ACZ",
+  "email": "info@acz.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://alpha-industries.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "ALPHA INDUSTRIES",
+  "email": "contact@alpha-industries.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://amdi.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "AMDI",
+  "email": "contact@amdi.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://apa-injection.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "APA - APPLICATION PLASTIQUE ARCONSAT",
+  "email": "contact@apa-injection.com",
+  "ville": ""
+ },
+ {
+  "url": "https://someflu.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "APLAST",
+  "email": "someflu@someflu.com",
+  "ville": ""
+ },
+ {
+  "url": "https://apm-planet.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "APM (AUTOMOTIVE PERFORMANCE MATERIALS)",
+  "email": "contact@apm-planet.com",
+  "ville": ""
+ },
+ {
+  "url": "https://aplicit.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "APLICIT",
+  "email": "contact@aplicit.com",
+  "ville": ""
+ },
+ {
+  "url": "https://appcell.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "APPCELL",
+  "email": "contact@appcell.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://arc-colorant.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "ARC APPLICATIONS RECHERCHES COULEURS",
+  "email": "contact@arc-colorant.com",
+  "ville": ""
+ }
+]

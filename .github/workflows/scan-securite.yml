@@ -1,0 +1,86 @@
+name: Scan securite H24
+
+# Chrono UTC : 06h30 et 17h30 = 08h30 et 19h30 Paris
+# Scanne les sites connus (annuaires + file) pour detecter les sites
+# PIRATES (liens de fraude) ou WordPress obsolete = travail d'urgence.
+# N'envoie une alerte Discord QUE s'il y a du travail (site pirate trouve).
+# Sinon : silence total (le run passe sans rien dire).
+
+on:
+  schedule:
+    - cron: "30 6 * * 1-5"
+    - cron: "30 17 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Scan securite
+        run: |
+          python3 scan_urgence.py 2>&1 | tail -20
+
+      - name: Generer les DM d'urgence
+        run: |
+          python3 dm_urgence.py 2>&1 | tail -5 || echo "dm_urgence: rien a generer"
+
+      - name: Commit + push si changement
+        run: |
+          git config user.name "campagne-bot"
+          git config user.email "campagne-bot@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "scan securite: etat du jour" -q
+            git push origin main -q
+            echo "PUSH_OK" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "Rien de nouveau, pas de commit." >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Notifier Discord si travail d'urgence
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, urllib.request
+
+          webhook = os.environ.get("DISCORD_WEBHOOK", "")
+          if not webhook:
+              print("Pas de webhook, skip")
+              exit(0)
+          try:
+              d = json.load(open("urgence_securite.json", encoding="utf-8"))
+          except Exception:
+              d = []
+          pirates = [r for r in d if r.get("probleme") == "PIRATE"]
+          wps = [r for r in d if r.get("probleme") == "WP_OBSOLETE"]
+
+          if not pirates and not wps:
+              print("Rien de critique, silence.")
+              exit(0)
+
+          lignes = []
+          if pirates:
+              lignes.append("**PIRATES** (urgence, action aujourd'hui) :")
+              for r in pirates[:8]:
+                  det = "; ".join(r.get("details", []))[:120]
+                  lignes.append("- %s | %s | %s" % (r.get("nom", "?")[:40], r.get("url", ""), det))
+          if wps:
+              lignes.append("**WordPress obsolete** (a contacter) :")
+              for r in wps[:8]:
+                  lignes.append("- %s | %s" % (r.get("nom", "?")[:40], r.get("url", "")))
+
+          msg = "🛡️ SCAN SECURITE : %d pirate(s), %d WP obsolete\n\n%s" % (
+              len(pirates), len(wps), "\n".join(lignes))
+          payload = json.dumps({"content": msg[:1900]}).encode()
+          req = urllib.request.Request(webhook, data=payload,
+              headers={"Content-Type": "application/json", "User-Agent": "campagne-bot"})
+          urllib.request.urlopen(req, timeout=20)
+          print("Notification Discord envoyee")
+          EOF
