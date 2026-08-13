@@ -42,6 +42,10 @@ jobs:
         run: |
           python3 generateur_dm_masse.py 2>&1 | tail -6
 
+      - name: Generer le kit HTML cliquable
+        run: |
+          python3 kit_html_masse.py 2>&1 | tail -3
+
       - name: Commit + push si changement
         run: |
           git config user.name "campagne-bot"
