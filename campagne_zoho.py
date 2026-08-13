@@ -26,6 +26,31 @@ ACCOUNT_ID = "7349712000000008002"
 FROM = "contact@mahdi-design.com"
 DAILY_MAX = 3
 
+# ---- VERROU ANTI-ERREUR (garde-fou permanent) ----
+# Un email dont le domaine est ici est un PIEGE (annuaire/scraper/mail gratuit/
+# relais technique/mismatch). Le script REFUSE de l'envoyer : ca protegerait le
+# domaine mahdi-design.com d'un bounce = blacklist. Liste dans domaines_bloques.json
+BLOQUES = os.path.join(BASE, "domaines_bloques.json")
+
+def load_bloquees():
+    """Domaines a ne JAMAIS contacter (annuaires, scrapers, mails gratuits)."""
+    try:
+        with open(BLOQUES, encoding="utf-8") as f:
+            j = json.load(f)
+        return [d.lower() for d in j.get("bloques", [])]
+    except Exception:
+        return []
+
+def domaine_bloque(to, bloquees):
+    """True si l'email cible est sur un domaine piege."""
+    if not to or "@" not in to:
+        return True  # pas d'adresse = on ne sait pas envoyer = on bloque
+    dom = to.split("@")[1].lower()
+    for b in bloquees:
+        if dom == b or dom.endswith("." + b):
+            return True
+    return False
+
 SIG = ("Mahdi<br>"
        "Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>"
        "Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>"
@@ -187,9 +212,16 @@ def main():
 
     creds = load_creds()
     token = refresh_token(creds)
+    bloquees = load_bloquees()
     lines = []
+    bloquees_skips = []
     for stage, num in todo_fu:
         e = emails[num]
+        if domaine_bloque(e["to"], bloquees):
+            # On ne relance JAMAIS un email piege (ca protege le domaine).
+            sent[num]["sent_" + stage] = today
+            bloquees_skips.append("relance %s #%s %s (%s bloque)" % (stage, num, e["prospect"][:30], e["to"]))
+            continue
         tpl = fu[stage]
         subject = tpl["subject"].replace("{sujet}", e["subject"])
         content = build_html(tpl["body"], SIG)
@@ -197,6 +229,12 @@ def main():
         sent[num]["sent_" + stage] = today
         lines.append("Relance %-8s #%s %s -> %s" % (stage, num, e["prospect"][:40], e["to"]))
     for num, e in todo:
+        if domaine_bloque(e["to"], bloquees):
+            # Filtre anti-erreur : on ne peut plus jamais envoyer vers un piege.
+            # On marque quand meme le quota consomme pour ne pas renvoyer sans fin.
+            sent[num] = {"on": today, "bloque": True}
+            bloquees_skips.append("#%s %s -> %s (domaine bloque)" % (num, e["prospect"][:30], e["to"]))
+            continue
         content = build_html(e["body"], SIG)
         r = send_email(token, e["subject"], content, e["to"], e.get("cc", ""))
         sent[num] = {"on": today, "messageId": str(r["data"].get("messageId", ""))}
@@ -205,6 +243,10 @@ def main():
     save_state(state)
     rest = len(emails) - len(sent)
     lines.append("Restants : %d" % rest)
+    if bloquees_skips:
+        lines.append("BLOQUES (domaines a risque, non envoyes) : %d" % len(bloquees_skips))
+        for b in bloquees_skips:
+            lines.append("   [BLOQUE] " + b)
     missing = [num for num, e in emails.items() if not e.get("to")]
     if missing:
         lines.append("Adresses manquantes a confirmer : #%s (ATP, JSM Perrin, Usimeca)"
