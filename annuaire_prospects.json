@@ -325,5 +325,19 @@
   ],
   "score": 3,
   "siren": ""
+ },
+ {
+  "nom": "3C CAREER CONSULTING COMPANY FRANCE (ex INDSIDE)",
+  "site": "3c-career.com",
+  "email": "info@3c-career.com",
+  "dirigeant": "",
+  "source": "polyvia",
+  "date": "2026-08-13",
+  "constats": [
+   "Pas de certificat SSL",
+   "Page lourde (1177 Ko)"
+  ],
+  "score": 2,
+  "siren": ""
  }
 ]
