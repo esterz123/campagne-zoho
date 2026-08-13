@@ -1,1 +1,46 @@
-[]
+[
+ {
+  "nom": "Erce Plasturgie",
+  "siren": "337793301",
+  "naf": "29.32Z",
+  "ville": "OYONNAX",
+  "region": "84",
+  "effectif": "21",
+  "dirigeants": [
+   "Cyriac Babad (Commissaire aux comptes suppléant)",
+   "  (Président de SAS)"
+  ],
+  "date_creation": "1986-04-11",
+  "site": "erce-plasturgie.com",
+  "email": [],
+  "constats": [
+   "Pas de vue mobile (viewport)",
+   "Pas de certificat SSL"
+  ],
+  "score": 3,
+  "date": "2026-08-13"
+ },
+ {
+  "nom": "Provence Outillage",
+  "siren": "401867692",
+  "naf": "47.52A",
+  "ville": "TAILLADES",
+  "region": "93",
+  "effectif": "21",
+  "dirigeants": [
+   "Laurence Tauleigne (Autre)",
+   "Martine Sanchez (Vice-Président)"
+  ],
+  "date_creation": "1995-07-01",
+  "site": "provence-outillage.fr",
+  "email": [
+   "alpinejs@3.10.4.js"
+  ],
+  "constats": [
+   "Copyright 1999",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "date": "2026-08-13"
+ }
+]
