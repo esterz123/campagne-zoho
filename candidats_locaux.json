@@ -15,7 +15,8 @@
   "secteur": "salon coiffure",
   "website": "",
   "dirigeant": "Mathieu COULON",
-  "instagram": ""
+  "instagram": "",
+  "sites_trouves": []
  },
  {
   "nom": "CAFE COMPTOIR ABEL",
@@ -24,7 +25,8 @@
   "secteur": "restaurant",
   "website": "",
   "dirigeant": "Eric CERVERA",
-  "instagram": ""
+  "instagram": "",
+  "sites_trouves": []
  },
  {
   "nom": "CULINARIES LYON 6 (CULINARIES LYON 6 - JONES)",
@@ -42,7 +44,8 @@
   "secteur": "garage auto",
   "website": "",
   "dirigeant": "Arthur DE SEZE",
-  "instagram": ""
+  "instagram": "",
+  "sites_trouves": []
  },
  {
   "nom": "E.M.G",
@@ -51,7 +54,8 @@
   "secteur": "garage auto",
   "website": "",
   "dirigeant": "Eric GIROUD",
-  "instagram": ""
+  "instagram": "",
+  "sites_trouves": []
  },
  {
   "nom": "CRLAB FRANCE",
@@ -60,7 +64,8 @@
   "secteur": "salon beaute",
   "website": "",
   "dirigeant": "Andrea MANDEL MANTELLO",
-  "instagram": ""
+  "instagram": "",
+  "sites_trouves": []
  },
  {
   "nom": "FRENCH BEAUTY SERVICES",
@@ -69,7 +74,8 @@
   "secteur": "salon beaute",
   "website": "",
   "dirigeant": "Alvaro ROMERO ZABALETA",
-  "instagram": ""
+  "instagram": "",
+  "sites_trouves": []
  },
  {
   "nom": "6T-O&B",
@@ -78,7 +84,8 @@
   "secteur": "salon beaute",
   "website": "",
   "dirigeant": "Thi TRAN",
-  "instagram": ""
+  "instagram": "",
+  "sites_trouves": []
  },
  {
   "nom": "ADS ED",
@@ -87,7 +94,8 @@
   "secteur": "salon beaute",
   "website": "",
   "dirigeant": "Edouard DUFOUR",
-  "instagram": ""
+  "instagram": "",
+  "sites_trouves": []
  },
  {
   "nom": "PANIFICATION DE RETZ",
@@ -96,7 +104,8 @@
   "secteur": "boulangerie",
   "website": "",
   "dirigeant": "Christian BUTON",
-  "instagram": ""
+  "instagram": "",
+  "sites_trouves": []
  },
  {
   "nom": "MARIA SAUNIER",
@@ -105,6 +114,7 @@
   "secteur": "boulangerie",
   "website": "",
   "dirigeant": "Maria SAUNIER",
-  "instagram": ""
+  "instagram": "",
+  "sites_trouves": []
  }
 ]
