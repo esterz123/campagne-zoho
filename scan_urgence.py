@@ -29,9 +29,14 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36"}
 
 # Domaines/patterns de spam connus (site pirate)
+# IMPORTANT (correctif 13/08) : chaque mot-cle doit etre DELIMITE par un
+# separateur de domaine (point, tiret, underscore, ou debut de domaine).
+# Sans ca : "cialis" matche dans "specialiste.com", "bet" matche partout,
+# "poker" dans "pokerface.fr" -> faux positifs massifs.
+SEP = r"(?:^|[.\-_])"
 PATTERNS_SPAM = [
-    r"bioenergywiki\.net", r"uabanker\.net", r"casino", r"pharma", r"viagra",
-    r"cialis", r"poker", r"bitcoin", r"crypto", r"sexe", r"escort",
+    SEP + r"casino", SEP + r"poker", SEP + r"viagra", SEP + r"cialis",
+    SEP + r"pharma", SEP + r"escort", SEP + r"slot", SEP + r"loto",
     r"카지노", r"온라인", r"바카라",  # coreen: casino en ligne
     r"赌场", r"赌博", r"彩票",     # chinois: casino / paris / loterie
     r"кракен", r"kraken", r"даркнет",
@@ -66,8 +71,20 @@ def analyser_site(url, nom=""):
             return out
 
     # 1) Liens de spam / piratage
+    # IMPORTANT (correctif 13/08) : matcher les DOMAINES COMPLETS uniquement,
+    # jamais le texte brut. Le mot "spécialiste" contient "cialis" (faux positif
+    # massif), "bet" matche partout, "poker" dans "pokerface"... On exige un
+    # domaine avec point (ex: xena-casino.gr) ET un mot-clé de fraude.
     hrefs = re.findall(r'href="(?:https?://)?([^/"\']+)', html)
-    spam = [d for d in hrefs if any(re.search(p, d, re.I) for p in PATTERNS_SPAM)]
+    spam = []
+    for d in hrefs:
+        if "#" in d or d.startswith("/") or d.startswith("mailto") or "." not in d:
+            continue  # ancre interne, lien relatif, mailto : jamais du spam
+        d_clean = d.lower().split("/")[0]
+        for p in PATTERNS_SPAM:
+            if re.search(p, d_clean, re.I):
+                spam.append(d)
+                break
     if spam:
         out["probleme"] = "PIRATE"
         out["details"].append("Liens de fraude/spam dans le code : " + ", ".join(sorted(set(spam))[:3]))
