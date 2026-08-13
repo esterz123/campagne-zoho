@@ -1,0 +1,40 @@
+name: Chasseuse H24
+
+# Chrono UTC : 07h00 et 17h00 UTC = 09h00 et 19h00 Paris
+# 2 chasses/jour en plus de celle du workflow campagne (1x/jour le matin)
+# Quota interne : max 6 fiches/jour, 3 par run (anti-spam, anti-blocage)
+on:
+  schedule:
+    - cron: '0 7 * * 1-5'    # 09h00 Paris
+    - cron: '0 17 * * 1-5'   # 19h00 Paris
+  workflow_dispatch:          # bouton "Run workflow" = chasser maintenant
+
+jobs:
+  chasseuse:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Chasse + verification + redaction + ajout
+        env:
+          PORTAL_API_KEY: ${{ secrets.PORTAL_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python3 chasseuse_h24.py --max 3
+
+      - name: Sauvegarde etat + nouvelles fiches
+        run: |
+          git config user.name "campagne-bot"
+          git config user.email "campagne-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "chasseuse: nouvelles fiches validees" || echo "rien a commiter"
+          git push
+
+      - name: Notifier erreur sur Discord
+        if: ${{ failure() && env.DISCORD_WEBHOOK != '' }}
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python3 notify_discord.py --error
