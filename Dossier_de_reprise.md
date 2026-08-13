@@ -1,5 +1,13 @@
 # 🎯 DOSSIER DE REPRISE — CAMPAGNE EMAIL PRO MAHDI
-**Dernière mise à jour : 13/08/2026 (matin) — MAJ MAJEURE : verrou anti-erreur installé**
+**Dernière mise à jour : 13/08/2026 (midi) — CORRECTIF URGENT ZOHO appliqué**
+
+---
+
+## 🚨 CORRECTIF URGENT (13/08 midi) — le bug des envois 404
+**Symptôme** : les runs GitHub échouaient (08h01 + 09h41) avec `HTTP Error 404` → Discord alertait.
+**Cause trouvée (dans le code, pas chez Zoho)** : `campagne_zoho.py` envoyait le champ `htmlContent` dans le payload API. Zoho le REFUSE (`EXTRA_KEY_FOUND_IN_JSON`) et rejette tout l'email avec 404.
+**Correctif** : le HTML passe maintenant directement dans `content` (sans `htmlContent`). Vérifié en test réel : HTTP 200 + messageId. Poussé commit `7443357`.
+**Leçon** : ne JAMAIS réajouter `htmlContent` dans le payload de `send_email()`. C'est documenté en commentaire dans le code.
 
 ---
 
