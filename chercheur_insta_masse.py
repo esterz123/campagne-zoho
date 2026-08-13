@@ -21,7 +21,11 @@ def charger():
         return json.load(f)
 
 def chercher_insta(nom, ville):
-    """Cherche le compte instagram via ddgs. Retourne URL ou ''."""
+    """Cherche le compte instagram via ddgs. Retourne URL ou ''.
+    FILTRE DE PERTINENCE (correctif 13/08) : le handle DOIT matcher un mot
+    significatif du nom de l'entreprise, sinon c'est un faux compte
+    (ex: 'popular', 'syanzhao' pour SYAN). Un DM au mauvais compte =
+    catastrophe de credibilite. Jamais de match au hasard."""
     try:
         from ddgs import DDGS
     except ImportError:
@@ -30,16 +34,46 @@ def chercher_insta(nom, ville):
         except ImportError:
             return ""
     try:
-        q = '"%s" %s instagram' % (nom[:40], ville)
+        # Normaliser les accents (le handle est souvent sans accent :
+        # "Maîtres" -> "maitres" dans lesmaitresbarbiersperruquiers)
+        def sans_accents(s):
+            import unicodedata
+            return "".join(c for c in unicodedata.normalize("NFD", s)
+                           if unicodedata.category(c) != "Mn").lower()
+
+        nom_norm = sans_accents(nom)
+        # Mots significatifs du nom (>= 4 lettres, hors mots generiques)
+        mots = [w.lower() for w in re.findall(r"[A-Za-zÀ-ÿ]{4,}", nom_norm)
+                if w.lower() not in ("sarl", "sas", "eurl", "snc", "sci", "les", "le",
+                                     "la", "the", "des", "paris", "france", "saint",
+                                     "sainte", "st", "sur", "concept", "studio", "group",
+                                     "groupe", "holding", "france", "services")]
+        q_variantes = [
+            '"%s" %s instagram' % (nom[:40], ville),
+            '%s %s instagram' % (nom[:40], ville),
+        ]
         with DDGS() as ddgs:
-            for res in ddgs.text(q, max_results=5):
-                url = res.get("href", "")
-                m = re.search(r'instagram\.com/([A-Za-z0-9_.]{3,40})', url)
-                if m:
-                    handle = m.group(1).split("?")[0]
-                    if handle.lower() not in ("explore", "accounts", "login", "reels", "p",
-                                              "direct", "settings", "share", "stories"):
-                        return "https://www.instagram.com/%s/" % handle
+            for q in q_variantes:
+                try:
+                    results = list(ddgs.text(q, max_results=10))
+                except Exception:
+                    results = []
+                for res in results:
+                    url = res.get("href", "")
+                    m = re.search(r'instagram\.com/([A-Za-z0-9_.]{3,40})', url)
+                    if not m:
+                        continue
+                    handle = sans_accents(m.group(1).split("?")[0])
+                    if handle in ("explore", "accounts", "login", "reels", "p",
+                                  "direct", "settings", "share", "stories", "popular"):
+                        continue
+                    # PERTINENCE : au moins un mot du nom dans le handle
+                    if mots and any(mot in handle for mot in mots):
+                        return "https://www.instagram.com/%s/" % m.group(1).split("?")[0]
+                    # Fallback : le nom complet (sans accents, sans espaces) dans le handle
+                    slug = re.sub(r"[^a-z0-9]", "", nom_norm)
+                    if len(slug) >= 8 and slug[:12] in handle:
+                        return "https://www.instagram.com/%s/" % m.group(1).split("?")[0]
     except Exception:
         pass
     return ""
