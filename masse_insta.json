@@ -70,16 +70,6 @@
   "instagram": "https://www.instagram.com/nithaparis/"
  },
  {
-  "nom": "VB",
-  "siren": "991582594",
-  "secteur": "salon coiffure",
-  "ville": "PARIS 11",
-  "adresse": "189 BOULEVARD VOLTAIRE 75011 PARIS",
-  "dirigeant": "Vanille BRIOT",
-  "website": "",
-  "instagram": "https://www.instagram.com/boutique_vb/"
- },
- {
   "nom": "TATOU",
   "siren": "510749013",
   "secteur": "salon coiffure",
@@ -88,26 +78,6 @@
   "dirigeant": "Farida BELLABAS",
   "website": "",
   "instagram": "https://www.instagram.com/tatou.official/"
- },
- {
-  "nom": "LUCIE SAINT CLAIR PARIS",
-  "siren": "323056515",
-  "secteur": "salon coiffure",
-  "ville": "PARIS 15",
-  "adresse": "23 RUE DU ROULE 75001 PARIS",
-  "dirigeant": "Bernard SAGON",
-  "website": "",
-  "instagram": "https://www.instagram.com/popular/"
- },
- {
-  "nom": "CORODORY",
-  "siren": "790621189",
-  "secteur": "salon coiffure",
-  "ville": "PARIS 15",
-  "adresse": "SQUARE LE KAIN 78600 MAISONS-LAFFITTE",
-  "dirigeant": "Vanessa FERRO",
-  "website": "",
-  "instagram": "https://www.instagram.com/cordori.official/"
  },
  {
   "nom": "AJC COIFFURE",
@@ -128,26 +98,6 @@
   "dirigeant": "Agnele ATIKOSSIE",
   "website": "",
   "instagram": "https://www.instagram.com/agneleatikossie/"
- },
- {
-  "nom": "MOUCOIFF",
-  "siren": "814840765",
-  "secteur": "salon coiffure",
-  "ville": "PARIS 15",
-  "adresse": "CX 75685 126 RUE D'ALESIA 75014 PARIS",
-  "dirigeant": "Mourad DAIKH",
-  "website": "",
-  "instagram": "https://www.instagram.com/allure_paris15/"
- },
- {
-  "nom": "L.Y.B",
-  "siren": "980925861",
-  "secteur": "salon coiffure",
-  "ville": "PARIS 15",
-  "adresse": "11 VILLA DES MARRONNIERS 92000 NANTERRE",
-  "dirigeant": "Yasmine BEN AKLI-BENBARA",
-  "website": "",
-  "instagram": "https://www.instagram.com/f.a.i.r.l.y._.b.l.o.o.m/"
  },
  {
   "nom": "SETSUKO NAKANO",
@@ -178,26 +128,6 @@
   "dirigeant": "Gary NUHAM",
   "website": "",
   "instagram": "https://www.instagram.com/tchip_coiffure/"
- },
- {
-  "nom": "DJEDDAB",
-  "siren": "841749088",
-  "secteur": "salon coiffure",
-  "ville": "PARIS 15",
-  "adresse": "19 RUE AUGUSTE CHABRIERES 75015 PARIS",
-  "dirigeant": "Bandely CISSÉ",
-  "website": "",
-  "instagram": "https://www.instagram.com/_.jadeb_/"
- },
- {
-  "nom": "LABEL COLINE (COLINE B)",
-  "siren": "513054957",
-  "secteur": "salon coiffure",
-  "ville": "LYON 6",
-  "adresse": "80 AVENUE PASTEUR 69370 SAINT-DIDIER-AU-MONT-D'OR",
-  "dirigeant": "Coline BRINGUIER",
-  "website": "",
-  "instagram": "https://www.instagram.com/choline.official/"
  },
  {
   "nom": "SARL THOMAS CABIBEL (LE 20 BARBER SHOP)",
@@ -280,26 +210,6 @@
   "instagram": "https://www.instagram.com/narcisse_coiffure/"
  },
  {
-  "nom": "MR (MR)",
-  "siren": "398531889",
-  "secteur": "salon coiffure",
-  "ville": "LYON 6",
-  "adresse": "9 AVENUE MARECHAL DE SAXE 69006 LYON",
-  "dirigeant": "Michel RABIAN",
-  "website": "",
-  "instagram": "https://www.instagram.com/popular/"
- },
- {
-  "nom": "HAIR INTER",
-  "siren": "338548068",
-  "secteur": "salon coiffure",
-  "ville": "BORDEAUX",
-  "adresse": "5 AV CENTRE COMMERCIAL DE BEAULIEU 17138 PUILBOREA",
-  "dirigeant": "Jean-Claude AUBRY",
-  "website": "",
-  "instagram": "https://www.instagram.com/bordeaux.marathon/"
- },
- {
   "nom": "MCAM ASSOCIES",
   "siren": "529233975",
   "secteur": "salon coiffure",
@@ -330,46 +240,6 @@
   "instagram": "https://www.instagram.com/bs_barber_33/"
  },
  {
-  "nom": "AICHA KASSE (BRAIDS BY AICHA)",
-  "siren": "930276316",
-  "secteur": "salon coiffure",
-  "ville": "BORDEAUX",
-  "adresse": "BATIMENT D86 1 RUE CHARLES DARWIN 33310 LORMONT",
-  "dirigeant": "Aicha KASSE",
-  "website": "",
-  "instagram": "https://www.instagram.com/realscarlettbordeaux/"
- },
- {
-  "nom": "THIERRY DANDREY",
-  "siren": "503868903",
-  "secteur": "salon coiffure",
-  "ville": "BORDEAUX",
-  "adresse": "ETAGE 3 20 CITE MOUNEYRA 33000 BORDEAUX",
-  "dirigeant": "Thierry DANDREY",
-  "website": "",
-  "instagram": "https://www.instagram.com/andreabordeaux/"
- },
- {
-  "nom": "H2ML",
-  "siren": "807635594",
-  "secteur": "salon coiffure",
-  "ville": "BORDEAUX",
-  "adresse": "165 AVENUE D'EYSINES 33110 LE BOUSCAT",
-  "dirigeant": "Mohamed LASSEL",
-  "website": "",
-  "instagram": "https://www.instagram.com/bordeaux_yulia/"
- },
- {
-  "nom": "ALGUE BX",
-  "siren": "808478291",
-  "secteur": "salon coiffure",
-  "ville": "BORDEAUX",
-  "adresse": "PARK AGORA 47 RUE LAGRUA 33260 LA TESTE-DE-BUCH",
-  "dirigeant": "Gérard ZUREK",
-  "website": "",
-  "instagram": "https://www.instagram.com/bordeaux_athle/"
- },
- {
   "nom": "FORTUNAE",
   "siren": "812872703",
   "secteur": "salon coiffure",
@@ -388,36 +258,6 @@
   "dirigeant": "Laurent ABITBOL",
   "website": "",
   "instagram": "https://www.instagram.com/min_barber_/"
- },
- {
-  "nom": "DJAMEL AKKOUCHI",
-  "siren": "538001173",
-  "secteur": "salon coiffure",
-  "ville": "LILLE",
-  "adresse": "24 COUR DILLIES PIAT 57 RUE DE ROCROI 59100 ROUBAI",
-  "dirigeant": "Djamel AKKOUCHI",
-  "website": "",
-  "instagram": "https://www.instagram.com/lille_france/"
- },
- {
-  "nom": "NEW IMAGE (NEW IMAGE)",
-  "siren": "533855631",
-  "secteur": "salon coiffure",
-  "ville": "LILLE",
-  "adresse": "287 RUE PIERRE LEGRAND 59800 LILLE",
-  "dirigeant": "Patrick BOKONZI BASOPO",
-  "website": "",
-  "instagram": "https://www.instagram.com/lille_france/"
- },
- {
-  "nom": "BARBER DRIVER",
-  "siren": "913503058",
-  "secteur": "salon coiffure",
-  "ville": "LILLE",
-  "adresse": "2 RUE BERLIOZ 59800 LILLE",
-  "dirigeant": "Geoffrey LEBORGNE",
-  "website": "",
-  "instagram": "https://www.instagram.com/popular/"
  },
  {
   "nom": "GACHA BARBER",
@@ -460,46 +300,6 @@
   "instagram": "https://www.instagram.com/coiffurebyalex/"
  },
  {
-  "nom": "ARTIS",
-  "siren": "483055778",
-  "secteur": "salon coiffure",
-  "ville": "LILLE",
-  "adresse": "RUE DES LILAS 59660 MERVILLE",
-  "dirigeant": "Estelle CAMBRON",
-  "website": "",
-  "instagram": "https://www.instagram.com/arti_15/"
- },
- {
-  "nom": "M.C. STUDIO",
-  "siren": "451868764",
-  "secteur": "salon coiffure",
-  "ville": "LILLE",
-  "adresse": "13 RUE DE LA CLEF 59800 LILLE",
-  "dirigeant": "Corinne CHOPIN",
-  "website": "",
-  "instagram": "https://www.instagram.com/__mc_studio__/"
- },
- {
-  "nom": "SARL DIMINUTIF",
-  "siren": "343128351",
-  "secteur": "salon coiffure",
-  "ville": "LILLE",
-  "adresse": "49 RUE VERGNIAUD 59000 LILLE",
-  "dirigeant": "Pascale LEPOT",
-  "website": "",
-  "instagram": "https://www.instagram.com/lille_france/"
- },
- {
-  "nom": "SAFFABES",
-  "siren": "439579293",
-  "secteur": "salon coiffure",
-  "ville": "LILLE",
-  "adresse": "38 BOULEVARD BIGO DANEL 59000 LILLE",
-  "dirigeant": "Samira FETOUHI",
-  "website": "",
-  "instagram": "https://www.instagram.com/sablesway/"
- },
- {
   "nom": "LES JARDINS SUSPENDUS",
   "siren": "834166035",
   "secteur": "salon ongles",
@@ -530,46 +330,6 @@
   "instagram": "https://www.instagram.com/beautywave.paris/"
  },
  {
-  "nom": "ANEDO (ANEDO BEAUTY COSMETICS)",
-  "siren": "842170755",
-  "secteur": "salon ongles",
-  "ville": "PARIS 11",
-  "adresse": "18 BOULEVARD SAINT-DENIS 75010 PARIS",
-  "dirigeant": "Sarah KEVIN",
-  "website": "",
-  "instagram": "https://www.instagram.com/sisleyparisofficial/"
- },
- {
-  "nom": "CATHERINE DUPUCH (DANS MON SALON)",
-  "siren": "527785646",
-  "secteur": "salon ongles",
-  "ville": "PARIS 11",
-  "adresse": "10 RUE DES FRANCS BOURGEOIS 75003 PARIS",
-  "dirigeant": "Catherine DUPUCH",
-  "website": "",
-  "instagram": "https://www.instagram.com/parishilton/"
- },
- {
-  "nom": "BODYLIFT CLINIQUE",
-  "siren": "980126569",
-  "secteur": "institut beaute",
-  "ville": "PARIS 15",
-  "adresse": "14 RUE NOCARD 94220 CHARENTON LE PONT",
-  "dirigeant": "Vladyslav MAKAROV",
-  "website": "",
-  "instagram": "https://www.instagram.com/reel/"
- },
- {
-  "nom": "INSTITUT JERODIA",
-  "siren": "501123251",
-  "secteur": "institut beaute",
-  "ville": "PARIS 15",
-  "adresse": "121 CHEMIN DE LA PORTETTE 46090 MERCUES",
-  "dirigeant": "Pascal LEBRET",
-  "website": "",
-  "instagram": "https://www.instagram.com/ritzparis/"
- },
- {
   "nom": "HA NAILS",
   "siren": "953670361",
   "secteur": "institut beaute",
@@ -578,26 +338,6 @@
   "dirigeant": "Bich ROQUEPLO",
   "website": "",
   "instagram": "https://www.instagram.com/_ha_nails/"
- },
- {
-  "nom": "DERMOCARE BEAUTY REPAIR (DBR)",
-  "siren": "987516093",
-  "secteur": "institut beaute",
-  "ville": "PARIS 15",
-  "adresse": "76 BOULEVARD DE GRENELLE 75015 PARIS",
-  "dirigeant": "Claire BALLEUX",
-  "website": "",
-  "instagram": "https://www.instagram.com/dermacare_paris/"
- },
- {
-  "nom": "A.M.N.T.S",
-  "siren": "810870725",
-  "secteur": "institut beaute",
-  "ville": "PARIS 15",
-  "adresse": "35 BOULEVARD DE GRENELLE 75015 PARIS",
-  "dirigeant": "Narissara ANTON",
-  "website": "",
-  "instagram": "https://www.instagram.com/ritzparis/"
  },
  {
   "nom": "MS CENTRE DE BEAUTE INDIEN",
@@ -610,16 +350,6 @@
   "instagram": "https://www.instagram.com/msbeautep10/"
  },
  {
-  "nom": "U & N",
-  "siren": "840036933",
-  "secteur": "institut beaute",
-  "ville": "PARIS 15",
-  "adresse": "26 AVENUE BOSQUET 75007 PARIS",
-  "dirigeant": "Thi NEJMI",
-  "website": "",
-  "instagram": "https://www.instagram.com/n_a_y_r_u/"
- },
- {
   "nom": "YOSRA BEAUTY",
   "siren": "848473872",
   "secteur": "institut beaute",
@@ -628,16 +358,6 @@
   "dirigeant": "Yosra KSSIBI",
   "website": "",
   "instagram": "https://www.instagram.com/yosra___beauty/"
- },
- {
-  "nom": "CLEMENTINE HIVERNAT (CLEMENTINE HIVERNAT)",
-  "siren": "919817452",
-  "secteur": "institut beaute",
-  "ville": "PARIS 15",
-  "adresse": "35 RUE CHARLES ALBY 92370 CHAVILLE",
-  "dirigeant": "Clementine HIVERNAT",
-  "website": "",
-  "instagram": "https://www.instagram.com/parishilton/"
  },
  {
   "nom": "CRLAB FRANCE",
@@ -650,36 +370,6 @@
   "instagram": "https://www.instagram.com/crlab_france/"
  },
  {
-  "nom": "QIPACEBO",
-  "siren": "849348370",
-  "secteur": "salon ongles",
-  "ville": "LYON 6",
-  "adresse": "20 CHEMIN DE FONTVILLE 69130 ECULLY",
-  "dirigeant": "Cecile GONTIER",
-  "website": "",
-  "instagram": "https://www.instagram.com/_._.___.____._____._._/"
- },
- {
-  "nom": "SARL ROX DEVELOPPEMENT",
-  "siren": "435331327",
-  "secteur": "salon ongles",
-  "ville": "LYON 6",
-  "adresse": "16 PLACE MIREMONT 38200 VIENNE",
-  "dirigeant": "Jonathan DAHAN",
-  "website": "",
-  "instagram": "https://www.instagram.com/_rox.fr/"
- },
- {
-  "nom": "OUI ONGLES",
-  "siren": "937746386",
-  "secteur": "salon ongles",
-  "ville": "LYON 6",
-  "adresse": "35 RUE FABIEN ROUSSEL 69520 GRIGNY",
-  "dirigeant": "Julien VEILLET",
-  "website": "",
-  "instagram": "https://www.instagram.com/popular/"
- },
- {
   "nom": "EURL LUNEA ESTHETIQUE",
   "siren": "917976748",
   "secteur": "salon ongles",
@@ -688,16 +378,6 @@
   "dirigeant": "Anna VERGARA",
   "website": "",
   "instagram": "https://www.instagram.com/lunea_esthetique/"
- },
- {
-  "nom": "I CONCEPT",
-  "siren": "984045021",
-  "secteur": "salon ongles",
-  "ville": "LYON 6",
-  "adresse": "56 B COURS TOLSTOI 69100 VILLEURBANNE",
-  "dirigeant": "Lorène AMRI",
-  "website": "",
-  "instagram": "https://www.instagram.com/popular/"
  },
  {
   "nom": "LMBP (LES MAITRES BARBIERS PERRUQUIERS)",
