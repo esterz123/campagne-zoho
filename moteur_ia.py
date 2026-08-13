@@ -148,20 +148,108 @@ def _extract(j):
             return content.strip()
     raise RuntimeError("Reponse illisible: " + str(j)[:150])
 
+# ============================================================
+# BOUCLE INFINIE + COOLDOWNS ANTI-BAN + AUTO-TEST
+# ============================================================
+
+_COOLDOWNS = {}   # provider -> timestamp (epoch) jusqu'auquel il est en pause
+_ECHECS = {}      # provider -> nombre d'echecs consecutifs
+
+def _en_cooldown(provider):
+    return time.time() < _COOLDOWNS.get(provider, 0)
+
+def _marquer_echec(provider, erreur):
+    _ECHECS[provider] = _ECHECS.get(provider, 0) + 1
+    n = _ECHECS[provider]
+    e = str(erreur)
+    # 429 = rate limit -> pause longue (anti-ban)
+    if "429" in e or "Too Many Requests" in e or "rate limit" in e.lower():
+        _COOLDOWNS[provider] = time.time() + 900   # 15 min de pause
+    elif "401" in e or "403" in e or "invalid" in e.lower():
+        _COOLDOWNS[provider] = time.time() + 3600  # cle morte -> 1h (ou jamais)
+    else:
+        # echec reseau/5xx -> pause courte, exponentielle avec le nb d'echecs
+        _COOLDOWNS[provider] = time.time() + min(5 * (2 ** n), 300)
+
+def _marquer_succes(provider):
+    _ECHECS[provider] = 0
+    _COOLDOWNS.pop(provider, None)   # un succes leve le cooldown
+
 def repondre(prompt, usage="ecriture", systeme=None, max_tokens=500,
-             temperature=0.7):
+             temperature=0.7, max_secondes=0, silencieux=False):
+    """Cascade INFINIE et DYNAMIQUE : a CHAQUE tentative on re-trie les
+    providers (prioritaires hors cooldown d'abord) et on prend le meilleur
+    disponible. Si le provider n1 revient pendant qu'on etait sur le secours,
+    la tentative suivante repart direct sur le n1 (on ne finit pas la passe).
+    0 = infini (jusqu'a ce que le job timeout)."""
     messages = []
     if systeme:
         messages.append({"role": "system", "content": systeme})
     messages.append({"role": "user", "content": prompt})
-    for provider, modele in CONFIG.get(usage, CONFIG["ecriture"]):
+    config = CONFIG.get(usage, CONFIG["ecriture"])
+    rang = {m: i for i, (p, m) in enumerate(config)}
+    t0 = time.time()
+    tentatives = 0
+    while True:
+        # Re-trie A CHAQUE tentative : dispo (hors cooldown) en premier,
+        # dans l'ordre de priorite config, puis ceux en cooldown.
+        dispo = [(p, m) for (p, m) in config if not _en_cooldown(p)]
+        en_pause = [(p, m) for (p, m) in config if _en_cooldown(p)]
+        ordre = dispo + en_pause
+        tentatives += 1
+        for provider, modele in ordre:
+            if _en_cooldown(provider):
+                continue
+            try:
+                j = _call_provider(provider, modele, messages, max_tokens, temperature)
+                rep = _extract(j)
+                _marquer_succes(provider)
+                return rep
+            except Exception as e:
+                _marquer_echec(provider, e)
+                if not silencieux:
+                    sys.stderr.write("[tentative %d][%s/%s] %s\n"
+                                     % (tentatives, provider, modele, str(e)[:80]))
+                time.sleep(0.5)
+                # Un provider prioritaire est-il revenu pendant l'appel ?
+                # -> on re-trie immediatement (prochaine iteration du while)
+                meilleur = min(dispo, key=lambda pm: rang[pm[1]]) if dispo else None
+                if meilleur and rang[meilleur[1]] < rang[modele] and not _en_cooldown(meilleur[0]):
+                    break
+        if max_secondes > 0 and time.time() - t0 >= max_secondes:
+            raise RuntimeError("Timeout %ds: toutes les IA gratuites ont echoue."
+                               % max_secondes)
+        # Tous en echec cette passe -> courte pause puis on RETENTE (boucle)
+        time.sleep(min(1 + tentatives * 0.5, 20))
+
+def tester_modeles(usage="ecriture", silencieux=True):
+    """Ping tous les modeles gratuits de la config avec une micro-requete,
+    mesure latence + succes, retourne un classement. 1 req/modele, delai entre
+    chaque pour ne pas se faire bannir."""
+    import random
+    config = CONFIG.get(usage, CONFIG["ecriture"])
+    resultats = []
+    for i, (provider, modele) in enumerate(config):
         try:
-            j = _call_provider(provider, modele, messages, max_tokens, temperature)
-            return _extract(j)
+            t = time.time()
+            j = _call_provider(provider, modele,
+                               [{"role": "user", "content": "Reponds juste: ok"}],
+                               8, 0.0)
+            latence = time.time() - t
+            rep = _extract(j)
+            resultats.append({"provider": provider, "modele": modele,
+                              "ok": True, "latence_s": round(latence, 1),
+                              "extrait": rep[:40]})
         except Exception as e:
-            sys.stderr.write("[%s/%s] %s\n" % (provider, modele, str(e)[:80]))
-            time.sleep(1)
-    raise RuntimeError("Toutes les IA gratuites ont echoue. Aucun credit consomme.")
+            resultats.append({"provider": provider, "modele": modele,
+                              "ok": False, "erreur": str(e)[:60]})
+        if i < len(config) - 1:
+            time.sleep(2 + random.random() * 3)   # espace les tests (anti-ban)
+    # classement : ok d'abord, puis par latence croissante
+    classement = sorted(resultats, key=lambda r: (not r.get("ok"), r.get("latence_s", 999)))
+    with open(os.path.join(BASE, "classement_modeles.json"), "w", encoding="utf-8") as f:
+        json.dump(classement, f, ensure_ascii=False, indent=1)
+    return classement
 
 if __name__ == "__main__":
     q = sys.argv[1] if len(sys.argv) > 1 else "Dis juste OUI"
