@@ -24,7 +24,7 @@ STATE = os.path.join(BASE, "campagne_state.json")
 
 ACCOUNT_ID = "7349712000000008002"
 FROM = "contact@mahdi-design.com"
-DAILY_MAX = 3
+DAILY_MAX = 6  # monte de 3 a 6 (13/08, domaine stable SPF/DKIM/DMARC)
 
 # ---- VERROU ANTI-ERREUR (garde-fou permanent) ----
 # Un email dont le domaine est ici est un PIEGE (annuaire/scraper/mail gratuit/

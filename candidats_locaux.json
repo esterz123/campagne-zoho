@@ -1,0 +1,110 @@
+[
+ {
+  "nom": "ELEXIA",
+  "siren": "435329255",
+  "adresse": "104 AVENUE CHARLES DE GAULLE 92200 NEUILLY-SUR-SEINE",
+  "secteur": "salon coiffure",
+  "website": "",
+  "dirigeant": "",
+  "instagram": ""
+ },
+ {
+  "nom": "LMBP (LES MAITRES BARBIERS PERRUQUIERS)",
+  "siren": "807416524",
+  "adresse": "3 RUE DES APENNINS 75017 PARIS",
+  "secteur": "salon coiffure",
+  "website": "",
+  "dirigeant": "Mathieu COULON",
+  "instagram": ""
+ },
+ {
+  "nom": "CAFE COMPTOIR ABEL",
+  "siren": "302095831",
+  "adresse": "25 RUE GUYNEMER 69002 LYON",
+  "secteur": "restaurant",
+  "website": "",
+  "dirigeant": "Eric CERVERA",
+  "instagram": ""
+ },
+ {
+  "nom": "CULINARIES LYON 6 (CULINARIES LYON 6 - JONES)",
+  "siren": "834315376",
+  "adresse": "43 RUE GODEFROY CAVAIGNAC 75011 PARIS",
+  "secteur": "restaurant",
+  "website": "",
+  "dirigeant": "",
+  "instagram": ""
+ },
+ {
+  "nom": "IMMOJET",
+  "siren": "390022531",
+  "adresse": "36 BOULEVARD DE LA BASTILLE 75012 PARIS",
+  "secteur": "garage auto",
+  "website": "",
+  "dirigeant": "Arthur DE SEZE",
+  "instagram": ""
+ },
+ {
+  "nom": "E.M.G",
+  "siren": "447572058",
+  "adresse": "ZAC VILLAGE ENTREPRISE 47510 FOULAYRONNES",
+  "secteur": "garage auto",
+  "website": "",
+  "dirigeant": "Eric GIROUD",
+  "instagram": ""
+ },
+ {
+  "nom": "CRLAB FRANCE",
+  "siren": "904415379",
+  "adresse": "13 RUE DU CURE SAINT-ETIENNE 59800 LILLE",
+  "secteur": "salon beaute",
+  "website": "",
+  "dirigeant": "Andrea MANDEL MANTELLO",
+  "instagram": ""
+ },
+ {
+  "nom": "FRENCH BEAUTY SERVICES",
+  "siren": "943834952",
+  "adresse": "74 RUE DE ROME 75008 PARIS",
+  "secteur": "salon beaute",
+  "website": "",
+  "dirigeant": "Alvaro ROMERO ZABALETA",
+  "instagram": ""
+ },
+ {
+  "nom": "6T-O&B",
+  "siren": "933285017",
+  "adresse": "14 RUE D'AUBUISSON 31000 TOULOUSE",
+  "secteur": "salon beaute",
+  "website": "",
+  "dirigeant": "Thi TRAN",
+  "instagram": ""
+ },
+ {
+  "nom": "ADS ED",
+  "siren": "751484858",
+  "adresse": "43 BOULEVARD LAZARE CARNOT 31000 TOULOUSE",
+  "secteur": "salon beaute",
+  "website": "",
+  "dirigeant": "Edouard DUFOUR",
+  "instagram": ""
+ },
+ {
+  "nom": "PANIFICATION DE RETZ",
+  "siren": "333997898",
+  "adresse": "21 RUE DU PINIER 44320 CHAUVE",
+  "secteur": "boulangerie",
+  "website": "",
+  "dirigeant": "Christian BUTON",
+  "instagram": ""
+ },
+ {
+  "nom": "MARIA SAUNIER",
+  "siren": "795142439",
+  "adresse": "4EME ETAGE 4 RUE JEANNE D'ARC 44000 NANTES",
+  "secteur": "boulangerie",
+  "website": "",
+  "dirigeant": "Maria SAUNIER",
+  "instagram": ""
+ }
+]
