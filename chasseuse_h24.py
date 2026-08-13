@@ -80,28 +80,65 @@ def verrou_email(email, site, bloquees, deja_emails):
         return False, "domaine email != site (%s vs %s)" % (domaine, site_dom)
     return True, "ok"
 
+# Codes NAF du canal TECH (zone de confort Mahdi : branding startup/SaaS)
+NAF_TECH = ("5829C", "6201Z", "6202A", "6312Z", "4791B", "7410Z")
+
+def secteur_fiche(fiche):
+    """Retourne 'tech' si l'activite est du numerique/design, sinon 'industrie'."""
+    naf = (fiche.get("naf") or "").strip()
+    if naf in NAF_TECH:
+        return "tech"
+    return "industrie"
+
 def rediger_email(fiche, max_secondes=120):
-    """Ecris l'email personnalise avec le moteur IA gratuit."""
+    """Ecris l'email personnalise avec le moteur IA gratuit.
+    Le message s'adapte au secteur : branding/logo pour la tech,
+    diagnostic site pour l'industrie."""
+    secteur = secteur_fiche(fiche)
     constats = ", ".join(fiche.get("constats", [])) or "un site qui merite une mise a jour"
-    systeme = (
-        "Tu es Mahdi, brand designer specialise dans les PME industrielles francaises. "
-        "Tu ecris un email de prospection B2B court, direct, respectueux, en francais. "
-        "IMPORTANT : uniquement des virgules et des points, JAMAIS de tiret long (— ou –), "
-        "pas de double espace, pas d'emojis. Tu proposes un diagnostic gratuit de 30 minutes, "
-        "sans engagement, sans jamais promettre de prix."
-    )
-    prompt = (
-        "Entreprise : %(nom)s (%(ville)s, %(region)s)\n"
-        "Activite : %(naf)s\n"
-        "Site : %(site)s\n"
-        "Constats verifies sur le site : %(constats)s\n\n"
-        "Ecris un email de prospection personnalise pour le dirigeant de cette entreprise. "
-        "Structure : premiere ligne 'SUJET: ' + un sujet accrocheur (1 phrase, sans tiret), "
-        "puis une ligne vide, puis le corps. "
-        "Le corps doit mentionner concretement un ou deux des constats listes ci-dessus, "
-        "proposer un diagnostic gratuit de 30 minutes, et demander une simple reponse. "
-        "Ne invente aucun autre fait. Reponds UNIQUEMENT avec l'email."
-    ) % {**fiche, "constats": constats}
+    if secteur == "tech":
+        systeme = (
+            "Tu es Mahdi, brand designer senior specialise dans les startups et les SaaS "
+            "technologiques (identites visuelles, logos, direction artistique, 6 ans "
+            "d'experience). Tu ecris un email de prospection B2B court, direct, respectueux, "
+            "en francais. IMPORTANT : uniquement des virgules et des points, JAMAIS de tiret "
+            "long (— ou –), pas de double espace, pas d'emojis. Tu parles comme un designer "
+            "qui comprend la tech. Tu proposes une identite visuelle ou un logo, sans jamais "
+            "donner de prix dans l'email."
+        )
+        prompt = (
+            "Entreprise : %(nom)s (%(ville)s, %(region)s)\n"
+            "Activite : %(naf)s\n"
+            "Site : %(site)s\n"
+            "Constats verifies sur le site : %(constats)s\n\n"
+            "Ecris un email de prospection personnalise pour le fondateur ou le dirigeant de "
+            "cette entreprise tech. Structure : premiere ligne 'SUJET: ' + un sujet accrocheur "
+            "(1 phrase, sans tiret), puis une ligne vide, puis le corps. "
+            "Le corps doit montrer que tu comprends SON produit et SON marche (tech/SaaS), "
+            "mentionner un ou deux constats concrets du site ci-dessus, et proposer une "
+            "identite visuelle ou un rafraichissement de marque, avec une simple reponse "
+            "pour en discuter. Ne invente aucun autre fait. Reponds UNIQUEMENT avec l'email."
+        ) % {**fiche, "constats": constats}
+    else:
+        systeme = (
+            "Tu es Mahdi, brand designer specialise dans les PME industrielles francaises. "
+            "Tu ecris un email de prospection B2B court, direct, respectueux, en francais. "
+            "IMPORTANT : uniquement des virgules et des points, JAMAIS de tiret long (— ou –), "
+            "pas de double espace, pas d'emojis. Tu proposes un diagnostic gratuit de 30 minutes, "
+            "sans engagement, sans jamais promettre de prix."
+        )
+        prompt = (
+            "Entreprise : %(nom)s (%(ville)s, %(region)s)\n"
+            "Activite : %(naf)s\n"
+            "Site : %(site)s\n"
+            "Constats verifies sur le site : %(constats)s\n\n"
+            "Ecris un email de prospection personnalise pour le dirigeant de cette entreprise. "
+            "Structure : premiere ligne 'SUJET: ' + un sujet accrocheur (1 phrase, sans tiret), "
+            "puis une ligne vide, puis le corps. "
+            "Le corps doit mentionner concretement un ou deux des constats listes ci-dessus, "
+            "proposer un diagnostic gratuit de 30 minutes, et demander une simple reponse. "
+            "Ne invente aucun autre fait. Reponds UNIQUEMENT avec l'email."
+        ) % {**fiche, "constats": constats}
     try:
         rep = M.repondre(prompt, usage="ecriture", systeme=systeme,
                          max_tokens=700, max_secondes=max_secondes, silencieux=True)

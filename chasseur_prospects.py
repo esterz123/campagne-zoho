@@ -31,11 +31,21 @@ ANNUAIRES = ("cylex", "kompass", "pagesjaunes", "societe.com", "verif.com",
              "linternaute", "franceinfo", "123sejours", "hotfrog", "buzzfile",
              "opendi", "agoravox", "net1901", "net1901.org", "association", "apel", "cdn")
 
-# (mot-cle recherche, code NAF) — secteurs Mahdi : mecanique/usinage/plasturgie/moules
+# (mot-cle recherche, code NAF) — 2 canaux :
+#   CANAL INDUSTRIE : mecanique/usinage/plasturgie/moules (existant, deja en prod)
+#   CANAL TECH/STARTUP : edition logicielle, programmation, web, e-commerce, design
+#     -> la zone de confort de Mahdi (logos startup / branding SaaS)
 CIBLES = [
+    # --- Canal Industrie ---
     ("usinage", "2562B"), ("mecanique", "2562A"), ("fraisage", "2562B"),
     ("plasturgie", "2229A"), ("injection plastique", "2229B"),
     ("moules injection", "2573A"), ("outillage", "2573B"), ("decoupage", "2550A"),
+    # --- Canal Tech / SaaS / Startup (point fort Mahdi) ---
+    ("edition logiciels", "5829C"), ("developpement logiciel", "6201Z"),
+    ("conseil informatique", "6202A"), ("portails web", "6312Z"),
+    ("e-commerce", "4791B"), ("agence web", "7410Z"),
+    ("design graphique", "7410Z"), ("creation websites", "6312Z"),
+    ("solutions SaaS", "6201Z"), ("applications mobiles", "6201Z"),
 ]
 
 # Tranches INSEE : 11=10-19, 12=20-49, 21=50-99, 22=100-199, 31=200-249
