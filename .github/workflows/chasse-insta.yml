@@ -49,6 +49,7 @@ jobs:
           git add -A
           if ! git diff --cached --quiet; then
             git commit -m "chasse insta: nouvelles cibles + DM" -q
+            git pull --rebase origin main -q 2>&1 | tail -1 || true
             git push origin main -q
             echo "PUSH_OK" >> $GITHUB_STEP_SUMMARY
           else
