@@ -50,7 +50,7 @@ CONFIG = {
 }
 
 # providers ou le modele DOIT finir par :free (aucun modele payant jamais appele)
-FREE_SUFFIX_PROVIDERS = {"portal", "nous", "openrouter"}
+FREE_SUFFIX_PROVIDERS = {"portal", "nous", "openrouter", "zen", "opencode"}
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
 
@@ -105,13 +105,15 @@ def _urllib_json(url, data, headers, timeout=60):
         return json.loads(r.read().decode())
 
 def _call_provider(provider, modele, messages, max_tokens, temperature):
+    # GARDE-FOU D'ABORD (regle absolue) : jamais un modele payant,
+    # meme si la cle existe. Passe avant tout le reste.
+    if provider in FREE_SUFFIX_PROVIDERS and not modele.endswith(":free"):
+        raise ValueError("Modele refuse pour %s (doit finir par :free) : %s"
+                         % (provider, modele))
     tok = charger_tokens()
     key = tok.get(provider)
     if not key:
         raise RuntimeError("Pas de cle pour %s" % provider)
-    if provider in FREE_SUFFIX_PROVIDERS and not modele.endswith(":free"):
-        raise ValueError("Modele refuse pour %s (doit finir par :free) : %s"
-                         % (provider, modele))
     body = {"model": modele, "messages": messages,
             "max_tokens": max_tokens, "temperature": temperature}
     hdr = {"Authorization": "Bearer " + key, "User-Agent": UA}
