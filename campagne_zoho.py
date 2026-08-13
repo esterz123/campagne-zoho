@@ -111,8 +111,11 @@ def refresh_token(creds):
 
 
 def send_email(token, subject, body, to, cc=""):
+    # IMPORTANT (corrige 13/08) : Zoho REFUSE le champ "htmlContent" dans le
+    # payload (erreur 404 EXTRA_KEY_FOUND_IN_JSON). Le HTML se passe
+    # directement dans "content" (verifie en test reel : HTTP 200 + messageId).
     payload = {"fromAddress": FROM, "toAddress": to, "subject": subject,
-               "content": body, "htmlContent": "true"}
+               "content": body}
     if cc:
         payload["ccAddress"] = cc
     data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
