@@ -114,13 +114,18 @@ def analyser_site(url, nom=""):
             break
 
     # 4) Copyright ancien
-    cp = re.search(r"©\s*(\d{4})|copyright\s*\(?c\)?\s*(\d{4})", html, re.I)
-    if cp:
-        annee = int(cp.group(1) or cp.group(2))
-        if annee <= 2019:
-            out["probleme"] = out["probleme"] or "SITE_DATÉ"
-            out["details"].append("Copyright %d : site non mis a jour depuis des annees" % annee)
-            out["note"] = max(out["note"], 2)
+    # CORRECTIF 13/08 (faux positif Essensual) : "© 2010 - 2026" est une
+    # FOURCHETTE (annee de creation - annee actuelle) = site ACTIF.
+    # Seul un copyright FIGE sur une vieille annee signifie un site abandonne.
+    fourchette = re.search(r"(19|20)\d{2}\s*[-–—à]\s*(20(?:2[4-9]|3\d))", html)
+    if not fourchette:
+        cp = re.search(r"©\s*(\d{4})|copyright\s*\(?c\)?\s*(\d{4})", html, re.I)
+        if cp:
+            annee = int(cp.group(1) or cp.group(2))
+            if annee <= 2019:
+                out["probleme"] = out["probleme"] or "SITE_DATÉ"
+                out["details"].append("Copyright %d : site non mis a jour depuis des annees" % annee)
+                out["note"] = max(out["note"], 2)
 
     return out
 
