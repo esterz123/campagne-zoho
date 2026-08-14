@@ -1,172 +1,432 @@
 [
  {
-  "nom": "AC LILREP BEAUTE",
-  "handle": "alexbeaute_",
-  "raison": "nom affiche: alex | lille"
- },
- {
-  "nom": "AJC COIFFURE",
-  "handle": "ajc_coiffure",
-  "raison": "nom affiche: AJC Coiffure"
- },
- {
-  "nom": "ANNE DAVID COIFFURE",
-  "handle": "narcisse_coiffure",
-  "raison": "nom affiche: NARCISSE COIFFURE"
- },
- {
-  "nom": "BM 5 (BARBER MEN)",
-  "handle": "min_barber_",
+  "nom": "Lenoir Handi Concept",
+  "handle": "lenoirhandiconcept",
   "raison": "stats indisponibles"
  },
  {
-  "nom": "BS BARBER",
-  "handle": "bs_barber_33",
-  "raison": "nom affiche: BS &#x1f488;"
- },
- {
-  "nom": "DEMON",
-  "handle": "__demon___6",
-  "raison": "nom affiche: "
- },
- {
-  "nom": "ESSENSUAL (ESSENSUAL)",
-  "handle": "toni_guy_essensual_nanganallur",
+  "nom": "BERNARD GASSIES",
+  "handle": "salonbernardgassies33",
   "raison": "stats indisponibles"
  },
  {
-  "nom": "EURL  AN COIFF",
-  "handle": "mc_coiff",
-  "raison": "nom affiche: Marie"
- },
- {
-  "nom": "FORMUL'A",
-  "handle": "academieformulalille",
+  "nom": "CURL SALON (HOZA SALON)",
+  "handle": "curl.salon",
   "raison": "stats indisponibles"
  },
  {
-  "nom": "INTPL",
-  "handle": "intpl",
-  "raison": "nom affiche: Eduard Volkov"
- },
- {
-  "nom": "JOSEPH PUJALTE",
-  "handle": "josephpujalte",
-  "raison": "nom affiche: "
- },
- {
-  "nom": "KMS BARBER",
-  "handle": "kmsbarber",
-  "raison": "nom affiche: KMS"
- },
- {
-  "nom": "LA FAYETTE COIFFURE",
-  "handle": "la_fayette___",
+  "nom": "ISABELLE RONSSE",
+  "handle": "isabelleronsse",
   "raison": "stats indisponibles"
  },
  {
-  "nom": "MCAM ASSOCIES",
-  "handle": "mc_associes",
-  "raison": "nom affiche: M&amp;C ASSOCI&#xc9;S"
- },
- {
-  "nom": "TETE EN L'HAIR BY SWANN (TETE EN L'HAIR)",
-  "handle": "tete_en_l_air_77",
-  "raison": "nom affiche: &#x2601;T&#xea;te en l &#039;a"
- },
- {
-  "nom": "YVAN NIVELLE",
-  "handle": "yvan.illlle",
+  "nom": "JEAN-CLAUDE PUECH",
+  "handle": "jaminpuech",
   "raison": "stats indisponibles"
  },
  {
-  "nom": "EMILIE PETIT (MESNIL) (DOIGTS DE FEES)",
-  "handle": "les.doigts.de.fee.emeline",
+  "nom": "LAO TSEU",
+  "handle": "laotseu",
   "raison": "stats indisponibles"
  },
  {
-  "nom": "EURL LUNEA ESTHETIQUE",
-  "handle": "lunea_esthetique",
-  "raison": "nom affiche: Lun&#xe9;A Esth&#xe9;thique"
- },
- {
-  "nom": "HOUSE OF NAILS",
-  "handle": "houseofnails.paris",
+  "nom": "LAURENCE PRUVOST (WIDENT) (LAURENCE WIDENT ESTHETICIENNE A DOMICILE)",
+  "handle": "laurencepruvostwident",
   "raison": "stats indisponibles"
  },
  {
-  "nom": "JCDA",
-  "handle": "jcda_",
-  "raison": "nom affiche: "
- },
- {
-  "nom": "L'INSTITUT BY S",
-  "handle": "linstitut.by.s.lillenium",
+  "nom": "MANUELLA CADET (STUDIO SARS COIFFURE)",
+  "handle": "cadet.manuela",
   "raison": "stats indisponibles"
  },
  {
-  "nom": "LINE MAKEUP (LM UP)",
-  "handle": "alinemakeupartist",
-  "raison": "nom affiche: &#x1f484;&#x1d5e3;&#x1d5ff;&#x"
- },
- {
-  "nom": "MANUCURE STORE",
-  "handle": "manucurestore",
+  "nom": "NITHA",
+  "handle": "nithaparis",
   "raison": "stats indisponibles"
  },
  {
-  "nom": "MSC-BORDEAUX (MEDI-SPA BORDEAUX)",
-  "handle": "gargalou_bordeaux",
-  "raison": "nom affiche: Gargalou"
- },
- {
-  "nom": "NAILS FRS",
-  "handle": "nailsfrs",
-  "raison": "nom affiche: Camille &#x1f397;&#xfe0f; | Du"
- },
- {
-  "nom": "NEFERTARI",
-  "handle": "nefertari",
+  "nom": "THAI SAKON",
+  "handle": "sakonthai",
   "raison": "stats indisponibles"
  },
  {
-  "nom": "PARADIS ONGLES 6E",
-  "handle": "prestige_ongles06",
+  "nom": "AGNELE ATIKOSSIE",
+  "handle": "agneleatikossie",
   "raison": "stats indisponibles"
  },
  {
-  "nom": "SARL STA (BEAUTY WAVE)",
-  "handle": "beautywave.paris",
-  "raison": "nom affiche: "
- },
- {
-  "nom": "SAS BEAUTY ONE",
-  "handle": "six___beauty",
-  "raison": "nom affiche: "
- },
- {
-  "nom": "SISI ONGLES",
-  "handle": "ongles_paris_sceaux",
-  "raison": "nom affiche: ManucureRusseChablonSourcils"
- },
- {
-  "nom": "SWAN COLORS",
-  "handle": "swanshop.fr",
+  "nom": "BRUNO MINART",
+  "handle": "duthilleul_minart",
   "raison": "stats indisponibles"
  },
  {
-  "nom": "MS CENTRE DE BEAUTE INDIEN",
-  "handle": "msbeautep10",
-  "raison": "nom affiche: MS Beaut&#xe9; Parisienne"
- },
- {
-  "nom": "SOFT EPIL (SOFT EPIL)",
-  "handle": "_soft_epil_",
+  "nom": "CD FASHION PARIS",
+  "handle": "cd_fashions",
   "raison": "stats indisponibles"
  },
  {
-  "nom": "NOSSA",
-  "handle": "nossa.paris",
-  "raison": "nom affiche: "
+  "nom": "CILS & BEAUTE (CILS & BEAUTE)",
+  "handle": "beaute_bordeaux",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "GARY NUHAM (TCHIP COIFFURE)",
+  "handle": "tchip_coiffure",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "HA NAILS",
+  "handle": "_ha_nails",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "INIYAA  BEAUTE  INDIENNE",
+  "handle": "iniyaabeauteindienne",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "IPPUDO PARIS",
+  "handle": "ippudoparis",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "KARIN WESTERLUND",
+  "handle": "karinwesterlundd",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "KENZA (KENZA)",
+  "handle": "6kenza",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "L'ATELIER DU CHEVEUX",
+  "handle": "l_atelier_du_cheveux",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "LES JARDINS SUSPENDUS",
+  "handle": "lesjardinssuspendus",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "MAMABALI",
+  "handle": "spamamabaliparis",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "MANEA (INSTITUT DE BEAUTE ORCHIDEE)",
+  "handle": "manea_institut",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "MARION RECHER (GROSBOIS)",
+  "handle": "marionrecher",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "MODERN COULEURS",
+  "handle": "modern.couleurs",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "NGUIE NGOLO",
+  "handle": "nguie66",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "QIAN XIANG",
+  "handle": "qianxiang__",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "QUATRO",
+  "handle": "quatrofrance",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "SABINE FONTAINE",
+  "handle": "sabineprod",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "SALON AYHAN",
+  "handle": "salon_ayhan",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "SANDRINE AMPE (FORM ESTHETIC)",
+  "handle": "SandrineHolt",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "SKINARIUM",
+  "handle": "skinarium_bordeaux",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "SOLI",
+  "handle": "paris_soli",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "STEPHANIE ROSSIGNOL",
+  "handle": "stephanierossignol11",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "SYAN",
+  "handle": "syanzhao",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "ALEX COIFFURE",
+  "handle": "coiffurebyalex",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "CALLYSTA",
+  "handle": "callysta.alfons15",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "CRYO-SPIRIT",
+  "handle": "cryospirit",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "DEBREU MELANIE",
+  "handle": "mila.debreu",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "FORTUNAE",
+  "handle": "the_fortunae",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "GACHA BARBER",
+  "handle": "gacha.barber",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "HELENE TIMSIT",
+  "handle": "helenetimsit",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "ISABELLE ADAM (YICONCEPT COIFFURE)",
+  "handle": "yi_concept_coiffure_",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "LILLE K",
+  "handle": "lille_k_",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "MAG'BEAUTY",
+  "handle": "magbeauty_femme",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "QUATORZE (DOUBLE SIX)",
+  "handle": "quatorzeparis",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "SETSUKO NAKANO",
+  "handle": "nakanosetsuko",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "SOPHIE TAFFIN (NOUNCKELE) (SUBLIM'NAILS BY SOPHIE)",
+  "handle": "sophietaffin",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "TATOU",
+  "handle": "tatou.official",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "THE SLICE COMPANY",
+  "handle": "theslicecompany_",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "12 TH. SQUARE",
+  "handle": "12thsquarebarber",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "AURORE DORIAC (A L'AURORE)",
+  "handle": "dor.aurore",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "BAN SAWAN (LE ROYAUME THAI)",
+  "handle": "baansawanthaibistro",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "BLEU COIFFURE",
+  "handle": "bleucoiffure",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "BODY ENJOY",
+  "handle": "body.enjoy26",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "CAMELIAS BEAUTE NAILS (CAMELIAS) (CAMELIAS)",
+  "handle": "camelianailsparis8",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "CENTRE WETTA (CENTRE WETTA)",
+  "handle": "centrewetta_lyon",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "CHRISTIAN GILLES DIFFUSION",
+  "handle": "christiangillesparis",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "CHRISTOPHE AVAKIAN",
+  "handle": "chrisavakian",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "CRLAB FRANCE",
+  "handle": "crlab_france",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "DELPHINE SAUBION (DAMECOURT)",
+  "handle": "______delphine______",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "DOC CECE",
+  "handle": "docs_cece",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "EDEN BEAUTY",
+  "handle": "eden_beaute6",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "EPIL NET",
+  "handle": "epilnet_lyon",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "ESSENSUAL 2 (ESSENSUAL) (ESSENSUAL)",
+  "handle": "essensual33",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "GARANCE LYON",
+  "handle": "garancelyon_",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "INSTITUT DU BOIS",
+  "handle": "spaduboisdamour",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "JAFFNA SARL",
+  "handle": "jaffnadigitalparis",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "L'ONGLERIE",
+  "handle": "longleriebordeauxchartrons",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "LASHOLOGIES",
+  "handle": "lashologies",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "LHOEST CLINIC (LHOEST CLINIC)",
+  "handle": "lhoest.clinic",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "LILIA BEAUTE",
+  "handle": "liliabeautefr",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "LIONEL LARU",
+  "handle": "lionel.larue",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "LMBP (LES MAITRES BARBIERS PERRUQUIERS)",
+  "handle": "lesmaitresbarbiersperruquiers",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "LUCALOKA (3 D HAIR CUT) (3 D HAIR CUT)",
+  "handle": "3dhaircut",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "NICOLAS PHILIPPON",
+  "handle": "nicophilippon",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "O'NATTY",
+  "handle": "onattyparis",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "SALON SUZANA (SALON SUZANA)",
+  "handle": "beautysalon_suzana",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "SARL THOMAS CABIBEL (LE 20 BARBER SHOP)",
+  "handle": "le20barbershop",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "SYLVAIN GOUEDARD AGENCE STYLICOACH (MAISON SYLVAIN GOUEDARD)",
+  "handle": "maison_sylvain_gouedard",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "TENDANCE FASHION",
+  "handle": "tendance_fashoin",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "THAI BIEN ETRE (THAI BIEN ETRE)",
+  "handle": "thaibienetre",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "WELSY'S FIGHT",
+  "handle": "welsys_fight_hair",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "YOSRA BEAUTY",
+  "handle": "yosra___beauty",
+  "raison": "stats indisponibles"
+ },
+ {
+  "nom": "YU NAIL (LUNA ONGLE)",
+  "handle": "luna_ongle",
+  "raison": "stats indisponibles"
  }
 ]
