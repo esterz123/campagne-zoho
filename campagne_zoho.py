@@ -24,7 +24,7 @@ STATE = os.path.join(BASE, "campagne_state.json")
 
 ACCOUNT_ID = "7349712000000008002"
 FROM = "contact@mahdi-design.com"
-DAILY_MAX = 5  # domaine jeune : 5 emails/jour max (montée progressive 3 -> 4 -> 5, 15/08)
+DAILY_MAX = 17  # 5 boites : contact 5/jour + 4 boites neuves 3/jour (warm-up), rotation 15/08
 
 # ---- VERROU ANTI-ERREUR (garde-fou permanent) ----
 # Un email dont le domaine est ici est un PIEGE (annuaire/scraper/mail gratuit/
@@ -95,6 +95,57 @@ def load_creds():
         return json.load(f)
 
 
+def load_boites():
+    """Les 5 boites d'envoi en rotation. Priorite env (GitHub Actions), sinon
+    fichier local .boites_zoho.json (dossier parent de BASE)."""
+    env = os.environ.get
+    boites = []
+    if env("ZOHO_CLIENT_ID") and env("ZOHO_CLIENT_SECRET") and env("ZOHO_REFRESH_TOKEN"):
+        boites.append({"nom": "contact", "from": "contact@mahdi-design.com",
+                       "account_id": env("ZOHO_ACCOUNT_ID", ACCOUNT_ID),
+                       "client_id": env("ZOHO_CLIENT_ID"), "client_secret": env("ZOHO_CLIENT_SECRET"),
+                       "refresh_token": env("ZOHO_REFRESH_TOKEN"),
+                       "max_jour": int(env("ZOHO_MAX_JOUR", "5"))})
+    for i, nom in ((2, "commercial"), (3, "hello"), (4, "info"), (5, "direction")):
+        p = "ZOHO_B%d_" % i
+        if env(p + "CLIENT_ID") and env(p + "CLIENT_SECRET") and env(p + "REFRESH_TOKEN"):
+            boites.append({"nom": nom, "from": nom + "@mahdi-design.com",
+                           "account_id": env(p + "ACCOUNT_ID", ""),
+                           "client_id": env(p + "CLIENT_ID"), "client_secret": env(p + "CLIENT_SECRET"),
+                           "refresh_token": env(p + "REFRESH_TOKEN"),
+                           "max_jour": int(env(p + "MAX_JOUR", "3"))})
+    if boites:
+        return boites
+    local = os.path.join(os.path.dirname(BASE), ".boites_zoho.json")
+    if os.path.exists(local):
+        d = json.load(open(local, encoding="utf-8"))
+        return [{"nom": k, "from": v.get("from", k + "@mahdi-design.com"),
+                 "account_id": v.get("account_id", ""), "client_id": v["client_id"],
+                 "client_secret": v["client_secret"], "refresh_token": v["refresh_token"],
+                 "max_jour": v.get("max_jour", 3)} for k, v in d.items()]
+    with open(TOKENS, encoding="utf-8") as f:
+        c = json.load(f)
+    return [{"nom": "contact", "from": "contact@mahdi-design.com", "account_id": ACCOUNT_ID,
+             "client_id": c["client_id"], "client_secret": c["client_secret"],
+             "refresh_token": c["refresh_token"], "max_jour": DAILY_MAX}]
+
+
+def compte_boite(sent, nom, today):
+    """Emails deja envoyes par cette boite aujourd'hui."""
+    return sum(1 for v in sent.values()
+               if v.get("via") == nom and (v.get("on") == today
+                                           or v.get("sent_relance1") == today
+                                           or v.get("sent_relance2") == today))
+
+
+def choisir_boite(boites, sent, today):
+    """Boite avec le moins d'envois du jour, sous son plafond max_jour."""
+    dispo = [b for b in boites if compte_boite(sent, b["nom"], today) < b["max_jour"]]
+    if not dispo:
+        return None
+    return min(dispo, key=lambda b: compte_boite(sent, b["nom"], today))
+
+
 def refresh_token(creds):
     data = urllib.parse.urlencode({
         "refresh_token": creds["refresh_token"],
@@ -110,17 +161,18 @@ def refresh_token(creds):
     return j["access_token"]
 
 
-def send_email(token, subject, body, to, cc=""):
+def send_email(token, subject, body, to, cc="", boite=None):
     # IMPORTANT (corrige 13/08) : Zoho REFUSE le champ "htmlContent" dans le
     # payload (erreur 404 EXTRA_KEY_FOUND_IN_JSON). Le HTML se passe
     # directement dans "content" (verifie en test reel : HTTP 200 + messageId).
-    payload = {"fromAddress": FROM, "toAddress": to, "subject": subject,
+    boite = boite or {"from": FROM, "account_id": ACCOUNT_ID}
+    payload = {"fromAddress": boite["from"], "toAddress": to, "subject": subject,
                "content": body}
     if cc:
         payload["ccAddress"] = cc
     data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
     req = urllib.request.Request(
-        "https://mail.zoho.com/api/accounts/%s/messages" % ACCOUNT_ID,
+        "https://mail.zoho.com/api/accounts/%s/messages" % boite["account_id"],
         data=data, method="POST",
         headers={"Authorization": "Zoho-oauthtoken " + token,
                  "Content-Type": "application/json; charset=utf-8"})
@@ -168,6 +220,7 @@ def main():
     state = load_state()
     sent = state["sent"]
     today = datetime.date.today().isoformat()
+    boites = load_boites()
 
     sent_today = [k for k, v in sent.items()
                   if v.get("on") == today or v.get("sent_relance1") == today
@@ -198,10 +251,12 @@ def main():
         print("[DRY-RUN] %s | deja envoyes aujourd'hui: %d | quota(ce run): %d | max_per_run: %d" % (today, len(sent_today), quota, max_per_run))
         if todo_fu:
             for stage, num in todo_fu:
-                print("  relance %-8s #%s %s -> %s" % (stage, num, emails[num]["prospect"][:40], emails[num]["to"]))
+                b = choisir_boite(boites, sent, today)
+                print("  relance %-8s #%s %s -> %s (via %s)" % (stage, num, emails[num]["prospect"][:40], emails[num]["to"], b["nom"] if b else "AUCUNE"))
         if todo:
             for num, e in todo:
-                print("  enverrait  #%s %s -> %s" % (num, e["prospect"][:40], e["to"]))
+                b = choisir_boite(boites, sent, today)
+                print("  enverrait  #%s %s -> %s (via %s)" % (num, e["prospect"][:40], e["to"], b["nom"] if b else "AUCUNE"))
         if not todo_fu and not todo:
             print("  rien a envoyer (tout envoye ou quota atteint)")
         return
@@ -213,8 +268,12 @@ def main():
             print("Campagne terminee : les %d emails ont tous ete envoyes. Bravo !" % len(emails))
         return  # sinon silence total (watchdog)
 
-    creds = load_creds()
-    token = refresh_token(creds)
+    tokens = {}
+
+    def token_pour(boite):
+        if boite["nom"] not in tokens:
+            tokens[boite["nom"]] = refresh_token(boite)
+        return tokens[boite["nom"]]
     bloquees = load_bloquees()
     lines = []
     bloquees_skips = []
@@ -232,9 +291,14 @@ def main():
         tpl = fu[stage]
         subject = tpl["subject"].replace("{sujet}", e["subject"])
         content = build_html(tpl["body"], SIG)
-        r = send_email(token, subject, content, e["to"], e.get("cc", ""))
+        boite = choisir_boite(boites, sent, today)
+        if not boite:
+            lines.append("Toutes les boites sont a leur plafond du jour")
+            break
+        r = send_email(token_pour(boite), subject, content, e["to"], e.get("cc", ""), boite)
         sent[num]["sent_" + stage] = today
-        lines.append("Relance %-8s #%s %s -> %s" % (stage, num, e["prospect"][:40], e["to"]))
+        sent[num]["via"] = boite["nom"]
+        lines.append("Relance %-8s #%s %s -> %s (via %s)" % (stage, num, e["prospect"][:40], e["to"], boite["nom"]))
         envois_reels += 1
         if envois_reels < len(todo_fu) + len(todo):
             _time.sleep(DELAY_S)
@@ -246,9 +310,13 @@ def main():
             bloquees_skips.append("#%s %s -> %s (domaine bloque)" % (num, e["prospect"][:30], e["to"]))
             continue
         content = build_html(e["body"], SIG)
-        r = send_email(token, e["subject"], content, e["to"], e.get("cc", ""))
-        sent[num] = {"on": today, "messageId": str(r["data"].get("messageId", ""))}
-        lines.append("Envoye  #%s %s -> %s" % (num, e["prospect"][:40], e["to"]))
+        boite = choisir_boite(boites, sent, today)
+        if not boite:
+            lines.append("Toutes les boites sont a leur plafond du jour")
+            break
+        r = send_email(token_pour(boite), e["subject"], content, e["to"], e.get("cc", ""), boite)
+        sent[num] = {"on": today, "messageId": str(r["data"].get("messageId", "")), "via": boite["nom"]}
+        lines.append("Envoye  #%s %s -> %s (via %s)" % (num, e["prospect"][:40], e["to"], boite["nom"]))
         envois_reels += 1
         if envois_reels < len(todo_fu) + len(todo):
             _time.sleep(DELAY_S)

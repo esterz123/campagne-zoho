@@ -25,12 +25,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Envoi UN email (espaces dans la journee)
+      - name: Envoi emails (rotation 5 boites, espaces dans la journee)
         env:
           ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
           ZOHO_CLIENT_SECRET: ${{ secrets.ZOHO_CLIENT_SECRET }}
           ZOHO_REFRESH_TOKEN: ${{ secrets.ZOHO_REFRESH_TOKEN }}
-        run: python3 campagne_zoho.py --max 1
+          ZOHO_B2_CLIENT_ID: ${{ secrets.ZOHO_B2_CLIENT_ID }}
+          ZOHO_B2_CLIENT_SECRET: ${{ secrets.ZOHO_B2_CLIENT_SECRET }}
+          ZOHO_B2_REFRESH_TOKEN: ${{ secrets.ZOHO_B2_REFRESH_TOKEN }}
+          ZOHO_B2_ACCOUNT_ID: ${{ secrets.ZOHO_B2_ACCOUNT_ID }}
+          ZOHO_B3_CLIENT_ID: ${{ secrets.ZOHO_B3_CLIENT_ID }}
+          ZOHO_B3_CLIENT_SECRET: ${{ secrets.ZOHO_B3_CLIENT_SECRET }}
+          ZOHO_B3_REFRESH_TOKEN: ${{ secrets.ZOHO_B3_REFRESH_TOKEN }}
+          ZOHO_B3_ACCOUNT_ID: ${{ secrets.ZOHO_B3_ACCOUNT_ID }}
+          ZOHO_B4_CLIENT_ID: ${{ secrets.ZOHO_B4_CLIENT_ID }}
+          ZOHO_B4_CLIENT_SECRET: ${{ secrets.ZOHO_B4_CLIENT_SECRET }}
+          ZOHO_B4_REFRESH_TOKEN: ${{ secrets.ZOHO_B4_REFRESH_TOKEN }}
+          ZOHO_B4_ACCOUNT_ID: ${{ secrets.ZOHO_B4_ACCOUNT_ID }}
+          ZOHO_B5_CLIENT_ID: ${{ secrets.ZOHO_B5_CLIENT_ID }}
+          ZOHO_B5_CLIENT_SECRET: ${{ secrets.ZOHO_B5_CLIENT_SECRET }}
+          ZOHO_B5_REFRESH_TOKEN: ${{ secrets.ZOHO_B5_REFRESH_TOKEN }}
+          ZOHO_B5_ACCOUNT_ID: ${{ secrets.ZOHO_B5_ACCOUNT_ID }}
+        run: python3 campagne_zoho.py --max 3
 
       - name: Chasse de nouveaux prospects (1x/jour seulement)
         run: |
