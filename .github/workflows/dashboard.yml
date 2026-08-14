@@ -1,0 +1,68 @@
+name: Dashboard auto
+
+# Toutes les heures : regenere le dashboard (compteurs API reels) et le pousse
+# vers le repo public mahdi-design (GitHub Pages) si le PAT est configure.
+on:
+  schedule:
+    - cron: '10 * * * *'
+  workflow_dispatch:      # bouton "Run workflow" = regenere maintenant
+
+jobs:
+  dashboard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Genere le dashboard
+        env:
+          ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
+          ZOHO_CLIENT_SECRET: ${{ secrets.ZOHO_CLIENT_SECRET }}
+          ZOHO_REFRESH_TOKEN: ${{ secrets.ZOHO_REFRESH_TOKEN }}
+          ZOHO_B2_CLIENT_ID: ${{ secrets.ZOHO_B2_CLIENT_ID }}
+          ZOHO_B2_CLIENT_SECRET: ${{ secrets.ZOHO_B2_CLIENT_SECRET }}
+          ZOHO_B2_REFRESH_TOKEN: ${{ secrets.ZOHO_B2_REFRESH_TOKEN }}
+          ZOHO_B2_ACCOUNT_ID: ${{ secrets.ZOHO_B2_ACCOUNT_ID }}
+          ZOHO_B3_CLIENT_ID: ${{ secrets.ZOHO_B3_CLIENT_ID }}
+          ZOHO_B3_CLIENT_SECRET: ${{ secrets.ZOHO_B3_CLIENT_SECRET }}
+          ZOHO_B3_REFRESH_TOKEN: ${{ secrets.ZOHO_B3_REFRESH_TOKEN }}
+          ZOHO_B3_ACCOUNT_ID: ${{ secrets.ZOHO_B3_ACCOUNT_ID }}
+          ZOHO_B4_CLIENT_ID: ${{ secrets.ZOHO_B4_CLIENT_ID }}
+          ZOHO_B4_CLIENT_SECRET: ${{ secrets.ZOHO_B4_CLIENT_SECRET }}
+          ZOHO_B4_REFRESH_TOKEN: ${{ secrets.ZOHO_B4_REFRESH_TOKEN }}
+          ZOHO_B4_ACCOUNT_ID: ${{ secrets.ZOHO_B4_ACCOUNT_ID }}
+          ZOHO_B5_CLIENT_ID: ${{ secrets.ZOHO_B5_CLIENT_ID }}
+          ZOHO_B5_CLIENT_SECRET: ${{ secrets.ZOHO_B5_CLIENT_SECRET }}
+          ZOHO_B5_REFRESH_TOKEN: ${{ secrets.ZOHO_B5_REFRESH_TOKEN }}
+          ZOHO_B5_ACCOUNT_ID: ${{ secrets.ZOHO_B5_ACCOUNT_ID }}
+        run: python3 gen_dashboard.py
+
+      - name: Push vers la vitrine (GitHub Pages)
+        if: ${{ env.GH_PAT_DASHBOARD != '' }}
+        env:
+          GH_PAT_DASHBOARD: ${{ secrets.GH_PAT_DASHBOARD }}
+        run: |
+          git clone "https://x-access-token:${GH_PAT_DASHBOARD}@github.com/esterz123/mahdi-design.git" /tmp/vitrine
+          cp dashboard.html /tmp/vitrine/dashboard.html
+          cd /tmp/vitrine
+          git config user.name "campagne-bot"
+          git config user.email "campagne-bot@users.noreply.github.com"
+          git add dashboard.html
+          git commit -m "dashboard: mise a jour auto" || echo "rien a commiter"
+          git push
+
+      - name: Sauvegarde etat dans campagne-zoho
+        run: |
+          git config user.name "campagne-bot"
+          git config user.email "campagne-bot@users.noreply.github.com"
+          git pull --rebase origin main || true
+          git add -A
+          git commit -m "dashboard: mise a jour auto" || echo "rien a commiter"
+          git push
+
+      - name: Notifier erreur sur Discord
+        if: ${{ failure() && env.DISCORD_WEBHOOK != '' }}
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python3 notify_discord.py --error

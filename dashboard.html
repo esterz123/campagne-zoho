@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><title>Mahdi Design — Tableau de bord</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0d1117;color:#e6edf3;padding:32px;max-width:960px;margin:auto}
+h1{font-size:26px;margin-bottom:4px}
+.sub{color:#8b949e;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:20px;margin-bottom:16px}
+.card h2{font-size:15px;text-transform:uppercase;letter-spacing:1px;color:#58a6ff;margin-bottom:14px}
+.bar{background:#21262d;border-radius:8px;height:14px;margin:8px 0 4px}
+.bar-fill{background:linear-gradient(90deg,#238636,#3fb950);border-radius:8px;height:14px;transition:width .5s}
+.bar-label{font-size:13px;color:#8b949e;margin-bottom:12px}
+.badge{font-size:11px;padding:2px 8px;border-radius:10px;font-weight:600}
+.badge.ok{background:#238636;color:#fff}
+.badge.wait{background:#9e6a03;color:#fff}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;color:#8b949e;font-weight:500;padding:6px 8px;border-bottom:1px solid #30363d}
+td{padding:6px 8px;border-bottom:1px solid #21262d}
+.empty{color:#8b949e;text-align:center;padding:14px}
+.check{display:flex;align-items:center;gap:10px;padding:8px 0;font-size:14px}
+.dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
+.dot.ok{background:#3fb950}.dot.todo{background:#f0883e}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}
+.stat{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:16px;text-align:center}
+.stat .n{font-size:28px;font-weight:700;color:#58a6ff}
+.stat .l{font-size:12px;color:#8b949e;margin-top:4px}
+@media(max-width:700px){.grid,.stats{grid-template-columns:1fr}}
+</style></head><body>
+<h1>🎯 Mahdi Design — Tableau de bord</h1>
+<div class="sub">2026-08-14 — Objectif : 2000 EUR ce mois, 500 EUR cette semaine — mis a jour automatiquement</div>
+<div class="stats">
+<div class="stat"><div class="n">8</div><div class="l">emails envoyes (file)</div></div>
+<div class="stat"><div class="n">39</div><div class="l">restants (47 total)</div></div>
+<div class="stat"><div class="n">3</div><div class="l">envois aujourd hui</div></div>
+<div class="stat"><div class="n">0 EUR</div><div class="l">encaisse</div></div>
+</div>
+<div class="grid">
+<div class="card"><h2>Boites d envoi (compteurs reels)</h2>
+<table><tr><th>Boite</th><th>Aujourd hui</th><th>Hier</th><th>Plafond/jour</th><th>Statut</th></tr><tr><td>commercial</td><td>0</td><td>0</td><td>3</td><td><span class="badge wait">STATE</span></td></tr><tr><td>hello</td><td>0</td><td>0</td><td>3</td><td><span class="badge wait">STATE</span></td></tr><tr><td>info</td><td>0</td><td>0</td><td>3</td><td><span class="badge wait">STATE</span></td></tr><tr><td>direction</td><td>0</td><td>0</td><td>3</td><td><span class="badge wait">STATE</span></td></tr><tr><td>contact</td><td>5</td><td>3</td><td>5</td><td><span class="badge ok">PLAFOND</span></td></tr></table>
+<p style="font-size:12px;color:#8b949e;margin-top:8px">Comptes via l API Zoho (verite terrain). Les boites neuves montent progressivement : 3/jour la 1re semaine, puis 5-6.</p></div>
+<div class="card"><h2>Objectifs</h2><div class="bar"><div class="bar-fill" style="width:0%"></div></div><div class="bar-label">Mois : 0 / 2000 EUR (0%)</div><div class="bar"><div class="bar-fill" style="width:0%"></div></div><div class="bar-label">Semaine : 0 / 500 EUR (0%)</div></div>
+</div>
+<div class="grid">
+<div class="card"><h2>Checklist du jour</h2>
+<div class="check"><span class="dot ok"></span>Emails du jour envoyes (3)</div>
+<div class="check"><span class="dot todo"></span>Relances conges du jour (0)</div>
+<div class="check"><span class="dot todo"></span>Cliq Mailinblack si notification</div>
+<div class="check"><span class="dot todo"></span>Valider les brouillons du closer si reponse</div>
+<div class="check"><span class="dot todo"></span>Verifier le rapport Discord</div></div>
+<div class="card"><h2>Entrees d argent</h2><table><tr><th>Date</th><th>Source</th><th>Montant</th><th>Statut</th></tr><tr><td colspan="4" class="empty">Aucune entree pour l instant. La 1re arrive bientot.</td></tr></table>
+<div class="bar-label" style="margin-top:10px">Total attendu a venir : 0 EUR</div></div>
+</div>
+<div class="grid">
+<div class="card"><h2>Prochaines relances</h2><table><tr><th>Date</th><th>Prospect</th><th>Email</th></tr><tr><td>2026-08-20</td><td>slicom</td><td>techno@slicom-group.com</td></tr><tr><td>2026-08-25</td><td>adduxi</td><td>catherine.prost@adduxi.com</td></tr></table></div>
+<div class="card"><h2>File de campagne</h2>
+<div class="bar-label">Envoyes : 8 / 47 — Restants : 39</div>
+<div class="bar"><div class="bar-fill" style="width:17%"></div></div>
+<p style="font-size:12px;color:#8b949e;margin-top:8px">17 emails/jour max actuellement (warm-up). Objectif : 25-30/jour d ici 2 semaines.</p></div>
+</div>
+</body></html>
