@@ -1,23 +1,5 @@
 [
  {
-  "nom": "ESSENSUAL 2 (ESSENSUAL) (ESSENSUAL)",
-  "siren": "922804554",
-  "secteur": "salon coiffure",
-  "ville": "BORDEAUX",
-  "adresse": "25 AVENUE ROUL 33400 TALENCE",
-  "dirigeant": "Adam GUEDJ",
-  "website": "https://essensual.net/",
-  "instagram": "https://www.instagram.com/essensual33/",
-  "dm": "Bonjour M. GUEDJ,\n\nvotre compte a 542 abonnes et 91 publications. Avec 8 salons et 2 instituts a Bordeaux, c'est une belle presence, mais sans une identite visuelle qui marque et un message clair, ces abonnes ne se transforment pas en clients qui poussent la porte.\n\nJe suis designer de marque, et je peux vous montrer concretement ce que je ferais pour rendre votre presence en ligne aussi soignee que votre travail, avec un exemple adapte a votre activite. Si vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur), vous gardez le document dans tous les cas.\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
-  "priorite": 1,
-  "stats": {
-   "followers": "542",
-   "posts": "91",
-   "nom_affiche": "@essensual"
-  },
-  "constat_site": "RETIRE: faux positif (copyright 2010-2026 = fourchette, site actif)"
- },
- {
   "nom": "Lenoir Handi Concept",
   "siren": "",
   "secteur": "adaptation vehicules PMR",
@@ -26,7 +8,7 @@
   "dirigeant": "Gregory LENOIR",
   "website": "lenoirhandiconcept.com",
   "instagram": "https://www.instagram.com/lenoirhandiconcept/",
-  "dm": "Bonjour M. LENOIR,\n\nEn regardant lenoirhandiconcept.com, j'ai remarque que votre site tourne sur une version de WordPress qui n'est plus maintenue depuis un moment. Pour une entreprise qui accompagne des personnes en situation de handicap, c'est un risque serieux : un site vulnerable peut etre pirate, et vos clients ont besoin de vous faire confiance.\n\nJe suis designer de marque, et je peux verifier votre site, vous montrer les failles et les corriger. Si vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur).\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
+  "dm": "Bonjour M. LENOIR,\n\nEn regardant lenoirhandiconcept.com, j'ai remarque que votre site tourne sur WordPress 5.3.2, une version sortie fin 2019 qui ne recoit plus de correctifs de securite depuis plusieurs annees. Pour une entreprise qui accompagne des personnes en situation de handicap, c'est un risque serieux : un site vulnerable peut etre pirate, et vos clients ont besoin de vous faire confiance.\n\nJe suis designer de marque, et je peux verifier votre site, vous montrer les failles et les corriger. Si vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur).\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
   "priorite": 0,
   "stats": {
    "followers": "?",
@@ -446,6 +428,24 @@
    "posts": "106",
    "nom_affiche": "Epil&#x2019;net"
   }
+ },
+ {
+  "nom": "ESSENSUAL 2 (ESSENSUAL) (ESSENSUAL)",
+  "siren": "922804554",
+  "secteur": "salon coiffure",
+  "ville": "BORDEAUX",
+  "adresse": "25 AVENUE ROUL 33400 TALENCE",
+  "dirigeant": "Adam GUEDJ",
+  "website": "https://essensual.net/",
+  "instagram": "https://www.instagram.com/essensual33/",
+  "dm": "Bonjour M. GUEDJ,\n\nvotre compte a 542 abonnes et 91 publications. Avec 8 salons et 2 instituts a Bordeaux, c'est une belle presence, mais sans une identite visuelle qui marque et un message clair, ces abonnes ne se transforment pas en clients qui poussent la porte.\n\nJe suis designer de marque, et je peux vous montrer concretement ce que je ferais pour rendre votre presence en ligne aussi soignee que votre travail, avec un exemple adapte a votre activite. Si vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur), vous gardez le document dans tous les cas.\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
+  "priorite": 1,
+  "stats": {
+   "followers": "542",
+   "posts": "91",
+   "nom_affiche": "@essensual"
+  },
+  "constat_site": "RETIRE: faux positif (copyright 2010-2026 = fourchette, site actif)"
  },
  {
   "nom": "FORTUNAE",
