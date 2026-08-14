@@ -1,0 +1,38 @@
+name: Relances retour conges
+
+# Tous les jours a 7h UTC = 9h a Alger. Envoie la relance du jour si une
+# relance conges est programmee (send_on) et que le constat est toujours vrai.
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:      # bouton "Run workflow" = verifier maintenant
+
+jobs:
+  relances:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Envoie les relances programmees
+        env:
+          ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
+          ZOHO_CLIENT_SECRET: ${{ secrets.ZOHO_CLIENT_SECRET }}
+          ZOHO_REFRESH_TOKEN: ${{ secrets.ZOHO_REFRESH_TOKEN }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python3 relances_conges.py
+
+      - name: Sauvegarde etat des relances
+        run: |
+          git config user.name "campagne-bot"
+          git config user.email "campagne-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "relances conges: etat" || echo "rien a commiter"
+          git push
+
+      - name: Notifier erreur sur Discord
+        if: ${{ failure() && env.DISCORD_WEBHOOK != '' }}
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python3 notify_discord.py --error

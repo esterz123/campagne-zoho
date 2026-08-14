@@ -9,7 +9,9 @@
   "2": {
    "on": "2026-08-11",
    "manual": true,
-   "note": "Slicom — envoye a la main par Mahdi"
+   "note": "Slicom envoye a la main par Mahdi; conges jusqu au 20/08, relance programmee au retour (workflow relances-conges)",
+   "sent_relance1": "2026-08-14",
+   "sent_relance2": "2026-08-14"
   },
   "3": {
    "on": "2026-08-11",

@@ -1,0 +1,22 @@
+{
+ "relances": [
+  {
+   "id": "slicom",
+   "send_on": "2026-08-20",
+   "to": "techno@slicom-group.com",
+   "subject": "Votre site WordPress, je reviens vers vous après vos congés",
+   "check_url": "https://slicom.fr",
+   "sent": false,
+   "body": "Bonjour,\n\nVotre message automatique indiquait un retour le 20 août. Je reviens donc vers vous au sujet de votre site slicom.fr, qui tourne toujours sur WordPress 4.9, une version sortie en 2018. Concrètement, 8 ans de mises à jour de sécurité manquantes, et un rendu qui date face à vos concurrents.\n\nJe peux vous remettre sous 48h un diagnostic express de votre image digitale : l'état de votre site point par point, la comparaison avec 2 de vos concurrents, et 5 actions concrètes. C'est 79 euros, remboursé intégralement si vous n'y trouvez aucune valeur, et le montant est déduit du prix si vous décidez ensuite une refonte complète.\n\nVoulez-vous que je m'y mette ?\n\nPortfolio : mahdi-design.com"
+  },
+  {
+   "id": "adduxi",
+   "send_on": "2026-08-25",
+   "to": "catherine.prost@adduxi.com",
+   "subject": "Votre site WordPress, je reviens vers vous après votre retour",
+   "check_url": "https://adduxi.com",
+   "sent": false,
+   "body": "Bonjour Mme PROST,\n\nVotre message automatique indiquait votre retour le 24 août. Je reviens donc vers vous au sujet de votre site adduxi.com, qui tourne toujours sur WordPress 6.5, une version de 2024 avec des failles de sécurité connues non corrigées. Votre savoir-faire en plasturgie mérite mieux qu'une vitrine vulnérable.\n\nJe peux vous remettre sous 48h un diagnostic express de votre image digitale : l'état de votre site point par point, la comparaison avec 2 de vos concurrents, et 5 actions concrètes. C'est 79 euros, remboursé intégralement si vous n'y trouvez aucune valeur, et le montant est déduit du prix si vous décidez ensuite une refonte complète.\n\nVoulez-vous que je m'y mette ?\n\nPortfolio : mahdi-design.com"
+  }
+ ]
+}
