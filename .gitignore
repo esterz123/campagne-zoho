@@ -1,5 +1,6 @@
-secrets_a_coller.txt
-.zoho_tokens.json
+# fichiers locaux sensibles / temporaires
 .ia_tokens.json
-__pycache__/
-*.pyc
+.zoho_tokens.json
+captures/
+kit_dm_masse_backup_*.json
+*.png

@@ -1,0 +1,43 @@
+name: Closer IA
+
+# Le Closer transforme une reponse "interesse" en vente (diagnostic 79 EUR).
+# Plus frequent que le repondeur standard : tourne toutes les 30 min en journee.
+# Chrono en temps universel : de 8h a 22h heure d'Alger = 7h a 21h UTC.
+on:
+  schedule:
+    - cron: '*/30 7-21 * * 1-5'
+  workflow_dispatch:      # bouton "Run workflow" = verifier maintenant
+
+jobs:
+  closer:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Detecte les leads chauds et envoie la reponse de vente
+        env:
+          ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
+          ZOHO_CLIENT_SECRET: ${{ secrets.ZOHO_CLIENT_SECRET }}
+          ZOHO_REFRESH_TOKEN: ${{ secrets.ZOHO_REFRESH_TOKEN }}
+          PORTAL_API_KEY: ${{ secrets.PORTAL_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python3 closer_ia.py
+
+      - name: Sauvegarde etat du closer
+        run: |
+          git config user.name "campagne-bot"
+          git config user.email "campagne-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "closer: etat des leads traites" || echo "rien a commiter"
+          git push
+
+      - name: Notifier erreur sur Discord
+        if: ${{ failure() && env.DISCORD_WEBHOOK != '' }}
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python3 notify_discord.py --error
