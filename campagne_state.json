@@ -22,15 +22,21 @@
   "4": {
    "on": "2026-08-12",
    "messageId": "1786524420320155000",
-   "note": "; DELIVRE via clic Mailinblack par Mahdi le 2026-08-14"
+   "note": "; DELIVRE via clic Mailinblack par Mahdi le 2026-08-14",
+   "sent_relance1": "2026-08-15",
+   "via": "commercial"
   },
   "5": {
    "on": "2026-08-12",
-   "messageId": "1786524421023155100"
+   "messageId": "1786524421023155100",
+   "sent_relance1": "2026-08-15",
+   "via": "hello"
   },
   "6": {
    "on": "2026-08-12",
-   "messageId": "1786524422088138400"
+   "messageId": "1786524422088138400",
+   "sent_relance1": "2026-08-15",
+   "via": "info"
   },
   "7": {
    "on": "2026-08-13",
