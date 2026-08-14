@@ -63,18 +63,30 @@ def lire_profil(sid, username):
     except Exception as e:
         return {"_erreur": str(e)[:80]}
 
+def extraire_handle(u):
+    """Extrait le username depuis l'URL complete ou le handle nu."""
+    u = (u or "").strip()
+    if not u:
+        return None
+    # https://www.instagram.com/xxx/ ou @xxx ou xxx
+    u = u.strip().strip("/")
+    if "instagram.com/" in u:
+        u = u.split("instagram.com/", 1)[1]
+    u = u.split("/")[0].split("?")[0].strip().lstrip("@").strip()
+    return u or None
+
 def main():
     sid = charger_sessionid()
     # cibles : usernames depuis le kit + verifications manuelles possibles
     kit = json.load(open(KIT_FILE, encoding="utf-8"))
     usernames = []
     for x in kit:
-        u = (x.get("instagram") or "").strip().lstrip("@").strip()
+        u = extraire_handle(x.get("instagram"))
         if u and u not in usernames:
             usernames.append(u)
     extra = sys.argv[1:]
     for u in extra:
-        u = u.strip().lstrip("@").strip()
+        u = extraire_handle(u)
         if u and u not in usernames:
             usernames.append(u)
 
@@ -82,12 +94,16 @@ def main():
     resultats = {}
     for i, u in enumerate(usernames, 1):
         r = lire_profil(sid, u)
+        # Retry sur 429 (rate-limit) avec backoff
+        if r.get("_erreur") == "HTTP 429":
+            time.sleep(45)
+            r = lire_profil(sid, u)
         if r is None:
             r = {"_erreur": "compte introuvable"}
         resultats[u] = r
         etat = "OK" if "_erreur" not in r else f"ERR {r['_erreur']}"
         print(f"[{i}/{len(usernames)}] {u}: {etat}")
-        time.sleep(4)  # espacement anti-bot
+        time.sleep(6)  # espacement anti-bot
 
     json.dump(resultats, open(OUT_FILE, "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
