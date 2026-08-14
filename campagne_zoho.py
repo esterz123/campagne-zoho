@@ -24,7 +24,7 @@ STATE = os.path.join(BASE, "campagne_state.json")
 
 ACCOUNT_ID = "7349712000000008002"
 FROM = "contact@mahdi-design.com"
-DAILY_MAX = 6  # monte de 3 a 6 (13/08, domaine stable SPF/DKIM/DMARC)
+DAILY_MAX = 4  # domaine jeune (4 jours) : 4 emails/jour max, espaces (14/08)
 
 # ---- VERROU ANTI-ERREUR (garde-fou permanent) ----
 # Un email dont le domaine est ici est un PIEGE (annuaire/scraper/mail gratuit/
@@ -218,6 +218,10 @@ def main():
     bloquees = load_bloquees()
     lines = []
     bloquees_skips = []
+    # Espacement anti-spam : 12 min entre chaque envoi reel (protecteur de domaine)
+    import time as _time
+    DELAY_S = 12 * 60
+    envois_reels = 0
     for stage, num in todo_fu:
         e = emails[num]
         if domaine_bloque(e["to"], bloquees):
@@ -231,6 +235,9 @@ def main():
         r = send_email(token, subject, content, e["to"], e.get("cc", ""))
         sent[num]["sent_" + stage] = today
         lines.append("Relance %-8s #%s %s -> %s" % (stage, num, e["prospect"][:40], e["to"]))
+        envois_reels += 1
+        if envois_reels < len(todo_fu) + len(todo):
+            _time.sleep(DELAY_S)
     for num, e in todo:
         if domaine_bloque(e["to"], bloquees):
             # Filtre anti-erreur : on ne peut plus jamais envoyer vers un piege.
@@ -242,6 +249,9 @@ def main():
         r = send_email(token, e["subject"], content, e["to"], e.get("cc", ""))
         sent[num] = {"on": today, "messageId": str(r["data"].get("messageId", ""))}
         lines.append("Envoye  #%s %s -> %s" % (num, e["prospect"][:40], e["to"]))
+        envois_reels += 1
+        if envois_reels < len(todo_fu) + len(todo):
+            _time.sleep(DELAY_S)
 
     save_state(state)
     rest = len(emails) - len(sent)
