@@ -6,7 +6,7 @@
   "ville": "PARIS 11",
   "adresse": "121 RUE OBERKAMPF 75011 PARIS",
   "dirigeant": "Justine JEANNIN",
-  "website": "",
+  "website": "https://whattheflower.com",
   "instagram": "https://www.instagram.com/whattheflower_paris/"
  },
  {
@@ -16,7 +16,7 @@
   "ville": "PARIS 11",
   "adresse": "56 RUE DES PYRENEES 75020 PARIS",
   "dirigeant": "Bruno MINART",
-  "website": "",
+  "website": "https://duthilleuletminart.com",
   "instagram": "https://www.instagram.com/duthilleul_minart/"
  },
  {
@@ -56,7 +56,7 @@
   "ville": "PARIS 11",
   "adresse": "136 RUE DE CHARONNE 75011 PARIS",
   "dirigeant": "Evelyne GUILLAUME",
-  "website": "",
+  "website": "https://onatty.com",
   "instagram": "https://www.instagram.com/onattyparis/"
  },
  {
@@ -66,7 +66,7 @@
   "ville": "PARIS 11",
   "adresse": "81 RUE SAINT-MAUR 75011 PARIS",
   "dirigeant": "Rajeevan RAVICHCHANTHIRARASA",
-  "website": "",
+  "website": "https://nithatraiteur.com",
   "instagram": "https://www.instagram.com/nithaparis/"
  },
  {
@@ -76,7 +76,7 @@
   "ville": "PARIS 11",
   "adresse": "25 RUE DU LANDY 93200 SAINT-DENIS",
   "dirigeant": "Farida BELLABAS",
-  "website": "",
+  "website": "https://letatoutheatre.fr",
   "instagram": "https://www.instagram.com/tatou.official/"
  },
  {
@@ -116,8 +116,16 @@
   "ville": "PARIS 15",
   "adresse": "16 RUE D'OUESSANT 75015 PARIS",
   "dirigeant": "Saerom SONG",
-  "website": "",
-  "instagram": "https://www.instagram.com/bleucoiffure/"
+  "website": "https://bleucoiffure.com",
+  "instagram": "https://www.instagram.com/bleucoiffure/",
+  "constat_site": {
+   "url": "https://bleucoiffure.com",
+   "probleme": "INJOIGNABLE",
+   "details": [
+    "Le site ne repond pas (domaine mort ou bloque)"
+   ],
+   "note": 0
+  }
  },
  {
   "nom": "GARY NUHAM (TCHIP COIFFURE)",
@@ -216,7 +224,7 @@
   "ville": "BORDEAUX",
   "adresse": "21 ALLEE DE LAPOURCAUD 33500 LES BILLAUX",
   "dirigeant": "Amelie GODERE",
-  "website": "",
+  "website": "https://mcassocies.com",
   "instagram": "https://www.instagram.com/mc_associes/"
  },
  {
