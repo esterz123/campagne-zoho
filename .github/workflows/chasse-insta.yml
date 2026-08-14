@@ -38,9 +38,13 @@ jobs:
         run: |
           python3 chercheur_insta_masse.py --max 150 2>&1 | tail -12
 
-      - name: Generer les DM personnalises
+      - name: Verifier les comptes (anti-mauvais-compte + stats)
         run: |
-          python3 generateur_dm_masse.py 2>&1 | tail -6
+          python3 verificateur_insta.py 2>&1 | tail -5
+
+      - name: Generer les DM personnalises (stats reelles)
+        run: |
+          python3 generateur_dm_perso.py 2>&1 | tail -5
 
       - name: Generer le kit HTML cliquable
         run: |
