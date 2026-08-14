@@ -1,12 +1,12 @@
 {
- "relance1": {
-  "wait_days": 3,
-  "subject": "Re : {sujet}",
-  "body": "Bonjour,\n\nJe me permets de revenir vers vous au sujet de mon email de la semaine dernière, concernant votre site internet et le diagnostic gratuit que je vous proposais.\n\nJe sais que les dirigeants reçoivent beaucoup d’emails, c’est pour cela que je vous écris une seconde fois, simplement. Si vous avez 5 minutes, je vous envoie le diagnostic sous 3 jours. Il est gratuit, sans engagement, et il vous appartient.\n\nSi vous n’êtes pas intéressé, un simple \"non merci\" me suffit et je ne vous écris plus.\n\nCordialement,\nMahdi"
- },
- "relance2": {
-  "wait_days": 7,
-  "subject": "Ré: {sujet}",
-  "body": "Bonjour,\n\nC'est ma dernière prise de contact au sujet de votre site internet et du diagnostic gratuit que je vous proposais la semaine dernière.\n\nJe pars du principe que vous n'êtes pas intéressé pour le moment, et je respecte cela. Si un jour votre site vous préoccupe, pensez à moi, mon email est en bas de ce message.\n\nJe vous souhaite une bonne journée.\n\nCordialement,\nMahdi"
- }
+  "relance1": {
+    "wait_days": 3,
+    "subject": "Re : {sujet}",
+    "body": "Bonjour,\n\nJe me permets de revenir vers vous au sujet de mon email de la semaine dernière, concernant votre site internet.\n\nSi vous avez 5 minutes, je vous montre précisément ce que j'ai trouvé : l'état de votre site point par point, la comparaison avec 2 concurrents, et 5 actions concrètes. C'est 79 euros, remboursé intégralement si vous n'y trouvez aucune valeur, et déduit du prix si vous décidez une refonte.\n\nPour septembre, je ne reprends que 3 refontes complètes au tarif de l'an dernier : 1 900 euros au lieu de 2 900, devis sous 48h. Les places partent dans l'ordre des réponses.\n\nSi vous n'êtes pas intéressé, un simple \"non merci\" me suffit et je ne vous écris plus.\n\nCordialement,\nMahdi"
+  },
+  "relance2": {
+    "wait_days": 7,
+    "subject": "Re : {sujet}",
+    "body": "Bonjour,\n\nC'est ma dernière prise de contact au sujet de votre site internet.\n\nJe pars du principe que vous n'êtes pas intéressé pour le moment, et je respecte cela. Si un jour votre site vous préoccupe, pensez à moi, mon email est en bas de ce message.\n\nJe vous souhaite une bonne journée.\n\nCordialement,\nMahdi"
+  }
 }

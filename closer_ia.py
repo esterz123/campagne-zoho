@@ -154,15 +154,17 @@ Sa reponse : "%s" (sujet : %s)
 Contexte : %s
 Paiement : %s
 
-Offres exactes : Diagnostic express 79 EUR (offre de lancement, rapport 5 pages sous 48h, rembourse si pas de valeur, porte d'entree n°1). Diagnostic complet 290 a 490 EUR. Refonte de marque 3500 a 15000 EUR. Pack securite WordPress 79 EUR/mois, premier mois offert, sans engagement.
+Offres exactes : Constats et recommandations immediates GRATUITS (deja envoyes dans notre email, le client les a). Diagnostic complet 79 EUR (rapport 10 pages sous 48h, rembourse si pas de valeur, deduit du prix de la refonte). Refonte complete site vitrine : 2500 a 5000 EUR. Offre rentree septembre : 3 refontes completes au tarif 2025, 1900 EUR au lieu de 2900, devis sous 48h, places dans l'ordre des reponses. Pack securite WordPress 79 EUR/mois, premier mois offert, sans engagement.
 
 Regles strictes :
 - Francais naturel, chaleureux, pro. JAMAIS de survente ni de pub.
 - PERSONNALISE avec le contexte (nom du dirigeant si present dans l'email initial).
 - JAMAIS de tiret (ni em-dash ni autre) : virgules, points, parentheses uniquement.
 - 4 a 7 phrases max. Termine par "Mahdi" seul.
-- PRIORITE ABSOLUE : proposer le diagnostic express 79 EUR remboursable. C'est la seule porte d'entree facile a accepter.
-- Proposer un creneau de 15 min (telephone ou visio) pour montrer un exemple concret adapte a son activite.
+- PRIORITE ABSOLUE : proposer le diagnostic complet 79 EUR remboursable (deduit de la refonte). C'est la porte d'entree facile a accepter.
+- Si le client repond "envoyez le diagnostic gratuit" : preciser que les constats et recommandations immediates sont deja gratuits (dans notre email), et que l'analyse complete (10 pages, 3 concurrents) est a 79 EUR remboursable, montant deduit en cas de refonte. Ne jamais laisser croire qu'on retire une promesse.
+- Mentionner l'offre rentree (1900 EUR au lieu de 2900, 3 places, places dans l'ordre des reponses) uniquement si le client parle de refonte ou d'un projet plus large.
+- AUCUN appel ni visio : tout se regle par email. Proposer un echange par email.
 - Poser UNE question fermee pour debloquer la decision.
 Reponds UNIQUEMENT en JSON valide : {"type": "reply", "message": "le texte complet"}""" % (
         entreprise, sujet, msginfo["summary"], msginfo["subject"], focus, paiement)
