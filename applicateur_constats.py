@@ -14,6 +14,9 @@ PATH = os.path.join(BASE, "kit_dm_masse.json")
 CONSTATS = {
     "https://epilnet.fr": "votre page d'accueil est epuree et le logo est lisible, mais aucun tarif, aucun avis client ni resultat avant/apres n'y figure. Pour une prestation a forte valeur comme l'epilation definitive, une cliente doit appeler ou prendre RDV avant de connaitre le moindre prix : c'est un frein a la decision face a la concurrence qui affiche tout.",
     "https://le20barbershop.fr": "le site met en avant vos deux adresses du 6e (Croix-Rousse et Franklin Roosevelt), mais ne montre ni tarifs, ni horaires, ni avis clients. Un client qui hesite entre plusieurs barbershops reserve chez celui qui affiche ses prix et ses preuves.",
+    "https://christiangilles.fr": "votre page d'accueil repose sur une grande photo de style fin 2000 sans logo ni identite de marque lisible, et aucun prix, horaire ou avis n'y figure. Seul un petit bouton de rendez-vous discret est visible : un client qui vous decouvre ne sait ni qui vous etes ni ce que vous proposez.",
+    "https://cryospirit.fr": "votre site a une structure moderne mais un grand logo lotus beige volumineux encombre la page, et aucun prix n'est affiche malgre le badge de note client. Un visiteur qui compare les centres minceur de Bordeaux s'attend a voir des tarifs et des resultats concrets des la premiere page.",
+    "https://lunaongle.com": "quand on vous cherche, on tombe sur des fiches d'annuaire repetitives sans prix, sans horaires ni galerie de realisations : votre presence en ligne ne reflete pas le travail de vos ongleries lyonnaises. C'est une perte seche de clientes qui comparent avant de reserver.",
 }
 
 def appliquer():
