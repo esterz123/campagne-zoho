@@ -146,6 +146,27 @@ def choisir_boite(boites, sent, today):
     return min(dispo, key=lambda b: compte_boite(sent, b["nom"], today))
 
 
+def verifier_doublon(token, boite, to):
+    """Anti-doublon (verite terrain API) : si ce destinataire a deja recu un
+    email AUJOURD'HUI depuis cette boite, on ne renvoie pas. Protege contre les
+    regressions du state (doublon reel 14/08 : 4,5,6 renvoyes)."""
+    try:
+        req = urllib.request.Request(
+            "https://mail.zoho.com/api/accounts/%s/messages/search?searchKey=in%%3Asent&limit=30" % boite["account_id"],
+            headers={"Authorization": "Zoho-oauthtoken " + token})
+        j = json.load(urllib.request.urlopen(req, timeout=20))
+        today = datetime.date.today().isoformat()
+        for m in j.get("data", []):
+            if (m.get("toAddress") or "").strip().lower() == to.strip().lower():
+                ts = int(m.get("receivedTime", 0)) / 1000
+                d = datetime.datetime.fromtimestamp(ts).strftime("%Y-%m-%d")
+                if d == today:
+                    return True
+    except Exception:
+        pass
+    return False
+
+
 def refresh_token(creds):
     data = urllib.parse.urlencode({
         "refresh_token": creds["refresh_token"],
@@ -295,6 +316,10 @@ def main():
         if not boite:
             lines.append("Toutes les boites sont a leur plafond du jour")
             break
+        if verifier_doublon(token_pour(boite), boite, e["to"]):
+            sent[num]["sent_" + stage] = today
+            lines.append("DOUBLON evite (deja envoye aujourd'hui) : %s" % e["to"])
+            continue
         r = send_email(token_pour(boite), subject, content, e["to"], e.get("cc", ""), boite)
         sent[num]["sent_" + stage] = today
         sent[num]["via"] = boite["nom"]
@@ -314,6 +339,10 @@ def main():
         if not boite:
             lines.append("Toutes les boites sont a leur plafond du jour")
             break
+        if verifier_doublon(token_pour(boite), boite, e["to"]):
+            sent[num] = {"on": today, "doublon": True, "via": boite["nom"]}
+            lines.append("DOUBLON evite (deja envoye aujourd'hui) : %s" % e["to"])
+            continue
         r = send_email(token_pour(boite), e["subject"], content, e["to"], e.get("cc", ""), boite)
         sent[num] = {"on": today, "messageId": str(r["data"].get("messageId", "")), "via": boite["nom"]}
         lines.append("Envoye  #%s %s -> %s (via %s)" % (num, e["prospect"][:40], e["to"], boite["nom"]))
