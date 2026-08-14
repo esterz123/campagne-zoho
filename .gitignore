@@ -4,3 +4,4 @@
 captures/
 kit_dm_masse_backup_*.json
 *.png
+.sessionid.txt
