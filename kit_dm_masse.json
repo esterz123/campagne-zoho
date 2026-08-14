@@ -16,7 +16,8 @@
    "nom_affiche": "Lenoir Handi Concept"
   },
   "constat_site": "j'ai remarqué que votre site tourne sur WordPress 5.3.2, une version sortie fin 2019 qui ne reçoit plus de correctifs de sécurité depuis plusieurs années. Pour une entreprise qui accompagne des personnes en situation de handicap, c'est un risque sérieux : un site vulnérable peut être piraté, et vos clients ont besoin de vous faire confiance.",
-  "site_provenance": "constat_valide_dossier"
+  "site_provenance": "constat_valide_dossier",
+  "envoye": true
  },
  {
   "nom": "BERNARD GASSIES",
@@ -1199,7 +1200,8 @@
    "christiangilles.fr"
   ],
   "site_provenance": "vision_confirme",
-  "constat_site": "votre site est simple et épuré, avec une prise de rendez-vous en ligne. J'ai remarqué que la page d'accueil repose surtout sur une grande photo sans identité de marque affirmée : un client qui vous découvre ne retient pas encore clairement votre nom ni votre style, alors que votre savoir-faire mérite d'être mis en avant."
+  "constat_site": "votre site est simple et épuré, avec une prise de rendez-vous en ligne. J'ai remarqué que la page d'accueil repose surtout sur une grande photo sans identité de marque affirmée : un client qui vous découvre ne retient pas encore clairement votre nom ni votre style, alors que votre savoir-faire mérite d'être mis en avant.",
+  "envoye": true
  },
  {
   "nom": "CHRISTOPHE AVAKIAN",
@@ -1219,7 +1221,8 @@
   },
   "constat_site": "j'ai découvert l'histoire de votre famille dans la coiffure depuis 1928 : c'est un héritage exceptionnel, et votre page tarifs est claire et bien faite. En tant que designer, je me suis demandé : est-ce que votre identité visuelle raconte cette histoire avec la force qu'elle mérite ? C'est un atout que très peu de salons peuvent revendiquer.",
   "severite": 3,
-  "site_provenance": "constat_valide_dossier"
+  "site_provenance": "constat_valide_dossier",
+  "envoye": true
  },
  {
   "nom": "CRLAB FRANCE",
@@ -1699,7 +1702,8 @@
    "thaibienetre.fr"
   ],
   "site_provenance": "vision_confirme",
-  "constat_site": "votre site a une ambiance chaleureuse et un logo lotus identifiable. J'ai remarqué que le style visuel (boutons carrés, palette or/marron) évoque les débuts des années 2000 : c'est un décalage avec la qualité des soins que vous proposez, et un client moderne pourrait hésiter avant de réserver un massage premium."
+  "constat_site": "votre site a une ambiance chaleureuse et un logo lotus identifiable. J'ai remarqué que le style visuel (boutons carrés, palette or/marron) évoque les débuts des années 2000 : c'est un décalage avec la qualité des soins que vous proposez, et un client moderne pourrait hésiter avant de réserver un massage premium.",
+  "envoye": true
  },
  {
   "nom": "WELSY'S FIGHT",

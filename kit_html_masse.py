@@ -88,7 +88,7 @@ def generer():
         print("kit_dm_masse.json introuvable. Lance d'abord : python3 generateur_dm_masse.py")
         sys.exit(1)
 
-    valides = [c for c in cibles if c.get("instagram") and c.get("dirigeant") and c.get("dm")]
+    valides = [c for c in cibles if c.get("instagram") and c.get("dirigeant") and c.get("dm") and not c.get("envoye")]
     # Les DM forts (site confirme + constat) passent en tete, puis par priorite
     def cle_tri(c):
         fort = 1 if (c.get("website") and c.get("constat_site")) else 0

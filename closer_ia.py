@@ -47,6 +47,15 @@ OFFRE = ("Notre diagnostic express, c'est 79 EUR, une seule fois, remboursable "
          "comment le corriger. Vous gardez le document dans tous les cas.")
 
 
+def paypal_link():
+    """Lien de paiement (fichier local .paypal_link.txt, jamais commite)."""
+    try:
+        with open(os.path.join(BASE, ".paypal_link.txt"), encoding="utf-8") as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        return ""
+
+
 def load_creds():
     env = os.environ.get
     if env("ZOHO_CLIENT_ID") and env("ZOHO_CLIENT_SECRET") and env("ZOHO_REFRESH_TOKEN"):
@@ -130,6 +139,10 @@ def fetch_inbox(access, limit=30):
 def build_prompt(prosp, msginfo, objection_prix):
     entreprise = (prosp or {}).get("entreprise", "votre entreprise")
     sujet = (prosp or {}).get("subject", "")
+    pp = paypal_link()
+    paiement = (f"\nLien de paiement du client (a envoyer UNIQUEMENT quand il a dit oui ou demande comment payer) : {pp}"
+                if pp else
+                "\nPas de lien de paiement configure : propose le creneau 15 min, le paiement se fera par la suite.")
     focus = ("Le client hesite sur le prix. Reformule la VALEUR du diagnostic 79 EUR "
              "remboursable sans baisser le prix, et pose une question fermee."
              if objection_prix else
@@ -139,6 +152,7 @@ Entreprise : %s
 Notre email initial : "%s"
 Sa reponse : "%s" (sujet : %s)
 Contexte : %s
+Paiement : %s
 
 Offres exactes : Diagnostic express 79 EUR (offre de lancement, rapport 5 pages sous 48h, rembourse si pas de valeur, porte d'entree n°1). Diagnostic complet 290 a 490 EUR. Refonte de marque 3500 a 15000 EUR. Pack securite WordPress 79 EUR/mois, premier mois offert, sans engagement.
 
@@ -151,7 +165,7 @@ Regles strictes :
 - Proposer un creneau de 15 min (telephone ou visio) pour montrer un exemple concret adapte a son activite.
 - Poser UNE question fermee pour debloquer la decision.
 Reponds UNIQUEMENT en JSON valide : {"type": "reply", "message": "le texte complet"}""" % (
-        entreprise, sujet, msginfo["summary"], msginfo["subject"], focus)
+        entreprise, sujet, msginfo["summary"], msginfo["subject"], focus, paiement)
 
 
 def parse_out(text):
