@@ -146,6 +146,11 @@ def choisir_boite(boites, sent, today):
     return min(dispo, key=lambda b: compte_boite(sent, b["nom"], today))
 
 
+def _norm_addr(a):
+    """Normalise une adresse email (l'API Zoho renvoie <email>, le state non)."""
+    return (a or "").replace("<", "").replace(">", "").strip().lower()
+
+
 def verifier_doublon(token, boite, to):
     """Anti-doublon (verite terrain API) : si ce destinataire a deja recu un
     email AUJOURD'HUI depuis cette boite, on ne renvoie pas. Protege contre les
@@ -156,8 +161,9 @@ def verifier_doublon(token, boite, to):
             headers={"Authorization": "Zoho-oauthtoken " + token})
         j = json.load(urllib.request.urlopen(req, timeout=20))
         today = datetime.date.today().isoformat()
+        cible = _norm_addr(to)
         for m in j.get("data", []):
-            if (m.get("toAddress") or "").strip().lower() == to.strip().lower():
+            if _norm_addr(m.get("toAddress")) == cible:
                 ts = int(m.get("receivedTime", 0)) / 1000
                 d = datetime.datetime.fromtimestamp(ts).strftime("%Y-%m-%d")
                 if d == today:
