@@ -42,6 +42,7 @@ TEMPLATE = """<!DOCTYPE html>
   .tag { display: inline-block; font-size: 0.72em; padding: 2px 8px; border-radius: 10px; margin-left: 8px; color: #fff; background: #e1306c; }
   .lien { margin: 8px 0; }
   .lien a { color: #e1306c; font-weight: 600; text-decoration: none; }
+  .lien a.port { color: #0a66c2; margin-left: 12px; }
   .dirigeant { font-size: 0.85em; color: #555; }
   .msg { background: #f6f6f6; border-radius: 8px; padding: 12px; font-size: 0.9em; white-space: pre-wrap; margin: 8px 0; line-height: 1.45; }
   .btn { background: #e1306c; color: #fff; border: none; border-radius: 6px; padding: 8px 16px; font-size: 0.9em; cursor: pointer; }
@@ -108,7 +109,7 @@ def generer():
   <span class="nom">%s</span>
   <span class="tag">%s</span>
   <div class="dirigeant">Dirigeant : %s</div>
-  <div class="lien">📸 <a href="%s" target="_blank">%s</a></div>
+  <div class="lien">📸 <a href="%s" target="_blank">%s</a> <a class="port" href="https://mahdi-design.com" target="_blank">Portfolio Mahdi Design ↗</a></div>
   <div class="msg" id="msg%d">%s</div>
   <button class="btn" onclick="copier('msg%d')">Copier</button>
   <div class="copie" id="copie%d"></div>
