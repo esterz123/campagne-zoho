@@ -6,7 +6,7 @@
   "ville": "ROUEN",
   "adresse": "Seine-Maritime (76)",
   "dirigeant": "Gregory LENOIR",
-  "website": "lenoirhandiconcept.com",
+  "website": "https://lenoirhandiconcept.com",
   "instagram": "https://www.instagram.com/lenoirhandiconcept/",
   "dm": "Bonjour M. LENOIR,\n\nEn regardant lenoirhandiconcept.com, j'ai remarque que votre site tourne sur WordPress 5.3.2, une version sortie fin 2019 qui ne recoit plus de correctifs de securite depuis plusieurs annees. Pour une entreprise qui accompagne des personnes en situation de handicap, c'est un risque serieux : un site vulnerable peut etre pirate, et vos clients ont besoin de vous faire confiance.\n\nJe suis designer de marque, et je peux verifier votre site, vous montrer les failles et les corriger. Si vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur).\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
   "priorite": 0,
@@ -22,7 +22,8 @@
     "WordPress 5.3 (vulnerabilites connues non corrigees)"
    ],
    "note": 3
-  }
+  },
+  "site_provenance": "constat_valide_dossier"
  },
  {
   "nom": "BERNARD GASSIES",
@@ -41,7 +42,9 @@
    "nom_affiche": "Bernard Gassies"
   },
   "severite": 0,
-  "logo_url": "https://scontent.cdninstagram.com/v/t51.2885-19/85108791_624219335037370_2548395746747482112_n.jpg?stp=dst-jpg_s100x100_tt6&amp;_nc_cat=101&amp;ccb=7-5&amp;_nc_sid=bf7eb4&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zMjAuQzMifQ%3D%3D&amp;_nc_ohc=zZ3GhHwJRp4Q7kNvwGWQwPg&amp;_nc_oc=AdoEVL82pAU_Tsf-f8F1Y9VzbdD8n5Ndwokbil9uABEndKBxz0Xj30dNqFLXV8tmmaI&amp;_nc_zt=24&amp;_nc_ht=scontent.cdninstagram.com&amp;_nc_ss=7d60f&amp;oh=00_AQF13rCCFeXi-yYvFJULa5qjyDCZYaAKmFCYFBvkInLUVw&amp;oe=6A844F7F"
+  "logo_url": "https://scontent.cdninstagram.com/v/t51.2885-19/85108791_624219335037370_2548395746747482112_n.jpg?stp=dst-jpg_s100x100_tt6&amp;_nc_cat=101&amp;ccb=7-5&amp;_nc_sid=bf7eb4&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4zMjAuQzMifQ%3D%3D&amp;_nc_ohc=zZ3GhHwJRp4Q7kNvwGWQwPg&amp;_nc_oc=AdoEVL82pAU_Tsf-f8F1Y9VzbdD8n5Ndwokbil9uABEndKBxz0Xj30dNqFLXV8tmmaI&amp;_nc_zt=24&amp;_nc_ht=scontent.cdninstagram.com&amp;_nc_ss=7d60f&amp;oh=00_AQF13rCCFeXi-yYvFJULa5qjyDCZYaAKmFCYFBvkInLUVw&amp;oe=6A844F7F",
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "CURL SALON (HOZA SALON)",
@@ -59,7 +62,9 @@
    "posts": "5",
    "nom_affiche": "curl salon"
   },
-  "severite": 0
+  "severite": 0,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "ISABELLE RONSSE",
@@ -77,7 +82,9 @@
    "posts": "4",
    "nom_affiche": "isabelle ronsse"
   },
-  "severite": 0
+  "severite": 0,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "JEAN-CLAUDE PUECH",
@@ -95,7 +102,9 @@
    "posts": "8",
    "nom_affiche": "JAMIN PUECH"
   },
-  "severite": 0
+  "severite": 0,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "LAO TSEU",
@@ -113,7 +122,9 @@
    "posts": "1",
    "nom_affiche": "Lao Tseu"
   },
-  "severite": 0
+  "severite": 0,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "LAURENCE PRUVOST (WIDENT) (LAURENCE WIDENT ESTHETICIENNE A DOMICILE)",
@@ -131,7 +142,9 @@
    "posts": "9",
    "nom_affiche": "Laurence Pruvost-Wident"
   },
-  "severite": 0
+  "severite": 0,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "MANUELLA CADET (STUDIO SARS COIFFURE)",
@@ -149,7 +162,9 @@
    "posts": "4",
    "nom_affiche": "cadet manuela"
   },
-  "severite": 0
+  "severite": 0,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "NITHA",
@@ -167,7 +182,9 @@
    "posts": "0",
    "nom_affiche": "Nitha Paris"
   },
-  "severite": 0
+  "severite": 0,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "THAI SAKON",
@@ -185,7 +202,9 @@
    "posts": "1",
    "nom_affiche": "Thai Sakon"
   },
-  "severite": 0
+  "severite": 0,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "AGNELE ATIKOSSIE",
@@ -203,7 +222,9 @@
    "posts": "0",
    "nom_affiche": "Agnele Atikossie"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "BRUNO MINART",
@@ -221,7 +242,9 @@
    "posts": "22",
    "nom_affiche": "Duthilleul &amp; Minart - 14 rue de Turb"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "CD FASHION PARIS",
@@ -239,7 +262,9 @@
    "posts": "96",
    "nom_affiche": "CD Fashion"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "CILS & BEAUTE (CILS & BEAUTE)",
@@ -257,7 +282,9 @@
    "posts": "27",
    "nom_affiche": "CILS/ONGLES/LISSAGES&#x1f338;"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "GARY NUHAM (TCHIP COIFFURE)",
@@ -275,7 +302,9 @@
    "posts": "1,060",
    "nom_affiche": "Tchip Coiffure"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "HA NAILS",
@@ -293,7 +322,9 @@
    "posts": "125",
    "nom_affiche": "Ha Nails"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "INIYAA  BEAUTE  INDIENNE",
@@ -311,7 +342,9 @@
    "posts": "198",
    "nom_affiche": "Iniyaa Beaute Indienne"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "IPPUDO PARIS",
@@ -329,7 +362,9 @@
    "posts": "1,055",
    "nom_affiche": "IPPUDO Paris &#x1f35c;"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "KARIN WESTERLUND",
@@ -347,7 +382,9 @@
    "posts": "321",
    "nom_affiche": "Karin Westerlund"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "KENZA (KENZA)",
@@ -365,7 +402,9 @@
    "posts": "277",
    "nom_affiche": "Kenza"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "L'ATELIER DU CHEVEUX",
@@ -383,7 +422,9 @@
    "posts": "2",
    "nom_affiche": "L&#x2019;Atelier du Cheveux"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "LES JARDINS SUSPENDUS",
@@ -401,7 +442,9 @@
    "posts": "434",
    "nom_affiche": "Les Jardins Suspendus - Boutiques Spa Bi"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "MAMABALI",
@@ -419,7 +462,9 @@
    "posts": "1,259",
    "nom_affiche": "Mamabali Spa"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "MANEA (INSTITUT DE BEAUTE ORCHIDEE)",
@@ -437,7 +482,9 @@
    "posts": "9",
    "nom_affiche": "Institut MANEA"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "MARION RECHER (GROSBOIS)",
@@ -455,7 +502,9 @@
    "posts": "0",
    "nom_affiche": "Marion Recher"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "MODERN COULEURS",
@@ -473,7 +522,9 @@
    "posts": "249",
    "nom_affiche": "modernes couleurs"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "NGUIE NGOLO",
@@ -491,7 +542,9 @@
    "posts": "1",
    "nom_affiche": "Nguie"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "QIAN XIANG",
@@ -509,7 +562,9 @@
    "posts": "13",
    "nom_affiche": "Qian Xiang"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "QUATRO",
@@ -527,7 +582,9 @@
    "posts": "2,658",
    "nom_affiche": "Quatro Gymnastics France"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "SABINE FONTAINE",
@@ -545,7 +602,9 @@
    "posts": "81",
    "nom_affiche": "Sabine Fontaine"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "SALON AYHAN",
@@ -563,7 +622,9 @@
    "posts": "541",
    "nom_affiche": "SALON AYHAN"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "SANDRINE AMPE (FORM ESTHETIC)",
@@ -581,7 +642,9 @@
    "posts": "48",
    "nom_affiche": "Sandrine Holt"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "SKINARIUM",
@@ -590,16 +653,21 @@
   "ville": "BORDEAUX",
   "adresse": "25 COURS DE VERDUN 33000 BORDEAUX",
   "dirigeant": "Pierre BAYOURTHE",
-  "website": "",
+  "website": "https://skinarium.fr",
   "instagram": "https://www.instagram.com/skinarium_bordeaux/",
-  "dm": "Bonjour M. BAYOURTHE,\n\nJe vous ai cherche sur Google et, honnetement, c'est un probleme : SKINARIUM n'apparait avec aucun site web, aucune page qui presente votre salon, vos horaires ou vos tarifs. Concretement, un client du quartier qui cherche un salon ongles trouve vos concurrents avant de vous trouver, et il reserve chez eux.\n\nJe suis designer de marque, et je peux vous creer une presence en ligne simple et soignee qui vous rend visible. Si vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur), vous gardez le document dans tous les cas.\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
+  "dm": "Bonjour M. BAYOURTHE,\n\nJe suis designer de marque, et en preparant un point sur votre activite j'ai regarde votre site : votre site skinarium.fr est tres elegant, mais je n'y ai trouve aucun tarif, aucun horaire, aucun avis client. Un client qui hesite entre plusieurs instituts ne peut ni comparer ni se decider, et part chez un concurrent qui affiche tout ca. Concretement, vous perdez des clients qui hesitent.\n\nJe peux vous preparer un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur) : analyse de votre image, de votre site et des actions concretes pour convertir plus de visiteurs en clients.\n\nVous etes disponible pour un echange de 15 minutes cette semaine ?",
   "priorite": 1,
   "stats": {
    "followers": "122",
    "posts": "20",
    "nom_affiche": "Skinarium"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [
+   "skinarium.fr"
+  ],
+  "site_provenance": "vision_confirme",
+  "constat_site": "votre site skinarium.fr est tres elegant, mais je n'y ai trouve aucun tarif, aucun horaire, aucun avis client. Un client qui hesite entre plusieurs instituts ne peut ni comparer ni se decider, et part chez un concurrent qui affiche tout ca."
  },
  {
   "nom": "SOLI",
@@ -617,7 +685,9 @@
    "posts": "0",
    "nom_affiche": "soli paris"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "STEPHANIE ROSSIGNOL",
@@ -635,7 +705,9 @@
    "posts": "1",
    "nom_affiche": "St&#xe9;phanie Rossignol"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "SYAN",
@@ -653,7 +725,9 @@
    "posts": "527",
    "nom_affiche": "Syan Zhao"
   },
-  "severite": 1
+  "severite": 1,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "ALEX COIFFURE",
@@ -671,7 +745,9 @@
    "posts": "72",
    "nom_affiche": "Alex Coiffure"
   },
-  "severite": 2
+  "severite": 2,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "CALLYSTA",
@@ -689,7 +765,9 @@
    "posts": "786",
    "nom_affiche": "Callysta"
   },
-  "severite": 2
+  "severite": 2,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "CRYO-SPIRIT",
@@ -698,7 +776,7 @@
   "ville": "BORDEAUX",
   "adresse": "48 AVENUE DU CHATEAU D'EAU 33700 MERIGNAC",
   "dirigeant": "Fabrice BONNEAU",
-  "website": "",
+  "website": "https://cryospirit.fr",
   "instagram": "https://www.instagram.com/cryospirit/",
   "dm": "Bonjour M. BONNEAU,\n\nJe vous ai cherche sur Google et, honnetement, c'est un probleme : CRYO-SPIRIT n'apparait avec aucun site web, aucune page qui presente votre salon, vos horaires ou vos tarifs. Concretement, un client du quartier qui cherche un salon ongles trouve vos concurrents avant de vous trouver, et il reserve chez eux.\n\nJe suis designer de marque, et je peux vous creer une presence en ligne simple et soignee qui vous rend visible. Si vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur), vous gardez le document dans tous les cas.\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
   "priorite": 1,
@@ -707,7 +785,12 @@
    "posts": "90",
    "nom_affiche": "CRYO-SPIRIT"
   },
-  "severite": 2
+  "severite": 2,
+  "website_candidats": [
+   "cryospirit.fr",
+   "cryospirit.com"
+  ],
+  "site_provenance": "vision_confirme"
  },
  {
   "nom": "DEBREU MELANIE",
@@ -725,7 +808,9 @@
    "posts": "0",
    "nom_affiche": "Mila Debreu"
   },
-  "severite": 2
+  "severite": 2,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "FORTUNAE",
@@ -743,7 +828,9 @@
    "posts": "55",
    "nom_affiche": "Fortunae agency"
   },
-  "severite": 2
+  "severite": 2,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "GACHA BARBER",
@@ -761,7 +848,9 @@
    "posts": "38",
    "nom_affiche": "&#x1f488;GACHA BARBER&#x1f488;"
   },
-  "severite": 2
+  "severite": 2,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "HELENE TIMSIT",
@@ -779,7 +868,9 @@
    "posts": "4",
    "nom_affiche": "Helene Timsit"
   },
-  "severite": 2
+  "severite": 2,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "ISABELLE ADAM (YICONCEPT COIFFURE)",
@@ -797,7 +888,9 @@
    "posts": "65",
    "nom_affiche": "Isabelle Adam"
   },
-  "severite": 2
+  "severite": 2,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "LILLE K",
@@ -815,7 +908,9 @@
    "posts": "237",
    "nom_affiche": "Lillemor K&#xf6;per"
   },
-  "severite": 2
+  "severite": 2,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "MAG'BEAUTY",
@@ -833,7 +928,9 @@
    "posts": "544",
    "nom_affiche": "MAG-BEAUTY"
   },
-  "severite": 2
+  "severite": 2,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "QUATORZE (DOUBLE SIX)",
@@ -851,7 +948,9 @@
    "posts": "1,218",
    "nom_affiche": "Quatorze Paris"
   },
-  "severite": 2
+  "severite": 2,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "SETSUKO NAKANO",
@@ -869,7 +968,9 @@
    "posts": "4,769",
    "nom_affiche": "Setsuko Nakano"
   },
-  "severite": 2
+  "severite": 2,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "SOPHIE TAFFIN (NOUNCKELE) (SUBLIM'NAILS BY SOPHIE)",
@@ -887,7 +988,9 @@
    "posts": "57",
    "nom_affiche": "Sophie Taffin"
   },
-  "severite": 2
+  "severite": 2,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "TATOU",
@@ -905,7 +1008,9 @@
    "posts": "30",
    "nom_affiche": "TATOU"
   },
-  "severite": 2
+  "severite": 2,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "THE SLICE COMPANY",
@@ -923,7 +1028,9 @@
    "posts": "31",
    "nom_affiche": "Slice &amp; Co."
   },
-  "severite": 2
+  "severite": 2,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "12 TH. SQUARE",
@@ -932,7 +1039,7 @@
   "ville": "BORDEAUX",
   "adresse": "54 COURS ARISTIDE BRIAND 33000 BORDEAUX",
   "dirigeant": "Sandy LEBERRE",
-  "website": "",
+  "website": "https://12thsquarebarber.com",
   "instagram": "https://www.instagram.com/12thsquarebarber/",
   "dm": "Bonjour Mme LEBERRE,\n\nEn regardant votre site 12thsquarebarber.com, j'ai remarque que le design est tres reussi et moderne, mais un client qui veut reserver ne trouve ni les prix, ni les horaires, ni les avis clients. Concretement, un nouveau client hesite et part souvent chez un concurrent qui montre ces informations.\n\nJe suis designer de marque, et je peux vous aider a rendre votre site aussi convaincant que vos salons. Si vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur).\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
   "priorite": 0,
@@ -941,7 +1048,18 @@
    "posts": "197",
    "nom_affiche": "12th SQUARE"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [
+   "square.fr",
+   "square.net",
+   "12thsquarebarber.com"
+  ],
+  "site_provenance": "constat_valide_dossier",
+  "constat_site": {
+   "url": "https://12thsquarebarber.com",
+   "probleme": "PAS_PRIX_HORAIRES_AVIS",
+   "note": 2
+  }
  },
  {
   "nom": "AURORE DORIAC (A L'AURORE)",
@@ -959,7 +1077,9 @@
    "posts": "100",
    "nom_affiche": "Aurore Dor"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "BAN SAWAN (LE ROYAUME THAI)",
@@ -977,7 +1097,9 @@
    "posts": "740",
    "nom_affiche": "Baan Sawan"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "BLEU COIFFURE",
@@ -1003,7 +1125,8 @@
    ],
    "note": 0
   },
-  "severite": 3
+  "severite": 3,
+  "site_provenance": "constat_valide_dossier"
  },
  {
   "nom": "BODY ENJOY",
@@ -1021,7 +1144,9 @@
    "posts": "305",
    "nom_affiche": "Body Enjoy"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "CAMELIAS BEAUTE NAILS (CAMELIAS) (CAMELIAS)",
@@ -1039,7 +1164,9 @@
    "posts": "154",
    "nom_affiche": "Cam&#xe9;lia Nails Paris 8"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "CENTRE WETTA (CENTRE WETTA)",
@@ -1057,7 +1184,9 @@
    "posts": "0",
    "nom_affiche": "CENTRE WETTA LYON"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "CHRISTIAN GILLES DIFFUSION",
@@ -1066,7 +1195,7 @@
   "ville": "PARIS 11",
   "adresse": "7 RUE VOLTAIRE 92250 LA GARENNE-COLOMBES",
   "dirigeant": "Philippe BRETIN",
-  "website": "",
+  "website": "https://christiangilles.fr",
   "instagram": "https://www.instagram.com/christiangillesparis/",
   "dm": "Bonjour M. BRETIN,\n\nJe vous ai cherche sur Google et, honnetement, c'est un probleme : CHRISTIAN GILLES DIFFUSION n'apparait avec aucun site web, aucune page qui presente votre salon, vos horaires ou vos tarifs. Concretement, un client du quartier qui cherche un salon ongles trouve vos concurrents avant de vous trouver, et il reserve chez eux.\n\nJe suis designer de marque, et je peux vous creer une presence en ligne simple et soignee qui vous rend visible. Si vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur), vous gardez le document dans tous les cas.\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
   "priorite": 1,
@@ -1075,7 +1204,11 @@
    "posts": "894",
    "nom_affiche": "Christian Gilles Paris"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [
+   "christiangilles.fr"
+  ],
+  "site_provenance": "vision_confirme"
  },
  {
   "nom": "CHRISTOPHE AVAKIAN",
@@ -1099,7 +1232,8 @@
    "details": [],
    "note": 0
   },
-  "severite": 3
+  "severite": 3,
+  "site_provenance": "constat_valide_dossier"
  },
  {
   "nom": "CRLAB FRANCE",
@@ -1117,7 +1251,9 @@
    "posts": "246",
    "nom_affiche": "CRLAB France"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "DELPHINE SAUBION (DAMECOURT)",
@@ -1135,7 +1271,9 @@
    "posts": "309",
    "nom_affiche": "Delphine"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "DOC CECE",
@@ -1153,7 +1291,9 @@
    "posts": "410",
    "nom_affiche": "DOC CECE"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "EDEN BEAUTY",
@@ -1171,7 +1311,9 @@
    "posts": "173",
    "nom_affiche": "Eden Beauty"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "EPIL NET",
@@ -1180,16 +1322,21 @@
   "ville": "LYON 6",
   "adresse": "82 RUE CRILLON 69006 LYON",
   "dirigeant": "Frederique GENESTIER",
-  "website": "",
+  "website": "https://epilnet.fr",
   "instagram": "https://www.instagram.com/epilnet_lyon/",
-  "dm": "Bonjour M. GENESTIER,\n\nJe vous ai cherche sur Google et, honnetement, c'est un probleme : EPIL NET n'apparait avec aucun site web, aucune page qui presente votre salon, vos horaires ou vos tarifs. Concretement, un client du quartier qui cherche un salon ongles trouve vos concurrents avant de vous trouver, et il reserve chez eux.\n\nJe suis designer de marque, et je peux vous creer une presence en ligne simple et soignee qui vous rend visible. Si vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur), vous gardez le document dans tous les cas.\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
+  "dm": "Bonjour Frederique GENESTIER,\n\nJe suis designer de marque, et en regardant votre site epilnet.fr : votre page d'accueil est epuree et le logo est lisible, mais aucun tarif, aucun avis client ni resultat avant/apres n'y figure. Pour une prestation a forte valeur comme l'epilation definitive, une cliente doit appeler ou prendre RDV avant de connaitre le moindre prix : c'est un frein a la decision face a la concurrence qui affiche tout. Concretement, ca vous coute des clients qui hesitent.\n\nJe peux vous preparer un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur) : analyse de votre image, de votre site et des actions concretes pour convertir plus de visiteurs en clients.\n\nVous etes disponible pour un echange de 15 minutes cette semaine ?",
   "priorite": 1,
   "stats": {
    "followers": "655",
    "posts": "106",
    "nom_affiche": "Epil&#x2019;net"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [
+   "epilnet.fr"
+  ],
+  "site_provenance": "vision_confirme",
+  "constat_site": "votre page d'accueil est epuree et le logo est lisible, mais aucun tarif, aucun avis client ni resultat avant/apres n'y figure. Pour une prestation a forte valeur comme l'epilation definitive, une cliente doit appeler ou prendre RDV avant de connaitre le moindre prix : c'est un frein a la decision face a la concurrence qui affiche tout."
  },
  {
   "nom": "ESSENSUAL 2 (ESSENSUAL) (ESSENSUAL)",
@@ -1198,7 +1345,7 @@
   "ville": "BORDEAUX",
   "adresse": "25 AVENUE ROUL 33400 TALENCE",
   "dirigeant": "Adam GUEDJ",
-  "website": "https://essensual.net/",
+  "website": "",
   "instagram": "https://www.instagram.com/essensual33/",
   "dm": "Bonjour M. GUEDJ,\n\nVous avez deja une belle communaute (542 abonnes, 91 publications), c'est un vrai actif. Mais une communaute ne se transforme en clients que si l'identite visuelle et le message donnent envie de reserver, et c'est souvent ce qui manque.\n\nJe suis designer de marque, et je peux vous montrer concretement ce que je ferais pour rendre votre presence en ligne aussi soignee que votre travail, avec un exemple adapte a votre activite. Si vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur), vous gardez le document dans tous les cas.\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
   "priorite": 3,
@@ -1208,7 +1355,8 @@
    "nom_affiche": "@essensual"
   },
   "constat_site": "RETIRE: faux positif (copyright 2010-2026 = fourchette, site actif)",
-  "severite": 3
+  "severite": 3,
+  "website_candidats": []
  },
  {
   "nom": "GARANCE LYON",
@@ -1226,7 +1374,9 @@
    "posts": "95",
    "nom_affiche": "Garance lyon   Shu Uemura"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "INSTITUT DU BOIS",
@@ -1244,7 +1394,9 @@
    "posts": "25",
    "nom_affiche": "Spa &amp; Institut du Bois d&#x2019;Amou"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "JAFFNA SARL",
@@ -1262,7 +1414,9 @@
    "posts": "140",
    "nom_affiche": "Jaffna Digital"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "L'ONGLERIE",
@@ -1280,7 +1434,9 @@
    "posts": "165",
    "nom_affiche": "L&#x2019;Onglerie Bordeaux Chartrons"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "LASHOLOGIES",
@@ -1298,7 +1454,9 @@
    "posts": "117",
    "nom_affiche": "LASHOLOGIES&#x1f99a;"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "LHOEST CLINIC (LHOEST CLINIC)",
@@ -1307,16 +1465,21 @@
   "ville": "LILLE",
   "adresse": "18 RUE DE PAS 59800 LILLE",
   "dirigeant": "Sofia MANAR",
-  "website": "",
+  "website": "https://lhoestclinic.fr",
   "instagram": "https://www.instagram.com/lhoest.clinic/",
-  "dm": "Bonjour M. MANAR,\n\nJe vous ai cherche sur Google et, honnetement, c'est un probleme : LHOEST CLINIC n'apparait avec aucun site web, aucune page qui presente votre salon, vos horaires ou vos tarifs. Concretement, un client du quartier qui cherche un salon ongles trouve vos concurrents avant de vous trouver, et il reserve chez eux.\n\nJe suis designer de marque, et je peux vous creer une presence en ligne simple et soignee qui vous rend visible. Si vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur), vous gardez le document dans tous les cas.\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
+  "dm": "Bonjour M. MANAR,\n\nJe suis designer de marque, et en preparant un point sur votre activite j'ai regarde votre site : j'ai regarde lhoestclinic.fr : le design est haut de gamme, mais aucune preuve sociale ne rassure le visiteur (zero avis, zero horaires, zero tarifs visibles) et un bandeau cookies masque une partie de vos prestations. Pour une clinique, c'est la confiance qui fait decrocher le telephone. Concretement, vous perdez des clients qui hesitent.\n\nJe peux vous preparer un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur) : analyse de votre image, de votre site et des actions concretes pour convertir plus de visiteurs en clients.\n\nVous etes disponible pour un echange de 15 minutes cette semaine ?",
   "priorite": 1,
   "stats": {
    "followers": "3,263",
    "posts": "42",
    "nom_affiche": "LHOEST CLINIC &#x1fa7a;"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [
+   "lhoestclinic.fr"
+  ],
+  "site_provenance": "vision_confirme",
+  "constat_site": "j'ai regarde lhoestclinic.fr : le design est haut de gamme, mais aucune preuve sociale ne rassure le visiteur (zero avis, zero horaires, zero tarifs visibles) et un bandeau cookies masque une partie de vos prestations. Pour une clinique, c'est la confiance qui fait decrocher le telephone."
  },
  {
   "nom": "LILIA BEAUTE",
@@ -1334,7 +1497,9 @@
    "posts": "27",
    "nom_affiche": "Lilia Beaut&#xe9; | Institut de beaut&#x"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "LIONEL LARU",
@@ -1352,7 +1517,9 @@
    "posts": "1,149",
    "nom_affiche": "Lionel Larue"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "LMBP (LES MAITRES BARBIERS PERRUQUIERS)",
@@ -1370,7 +1537,9 @@
    "posts": "446",
    "nom_affiche": "LesMaitresBarbiersPerruquiers"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "LUCALOKA (3 D HAIR CUT) (3 D HAIR CUT)",
@@ -1388,7 +1557,9 @@
    "posts": "146",
    "nom_affiche": "3D Haircut"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "NICOLAS PHILIPPON",
@@ -1406,7 +1577,9 @@
    "posts": "182",
    "nom_affiche": "Nicolas Philippon"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "O'NATTY",
@@ -1415,7 +1588,7 @@
   "ville": "PARIS 11",
   "adresse": "136 RUE DE CHARONNE 75011 PARIS",
   "dirigeant": "Evelyne GUILLAUME",
-  "website": "",
+  "website": "https://onatty.com",
   "instagram": "https://www.instagram.com/onattyparis/",
   "dm": "Bonjour Mme GUILLAUME,\n\nEn regardant votre site onatty.com, j'ai remarque que votre identite visuelle ne reflete pas encore la qualite de votre travail. Le logo est difficile a lire, et l'ensemble donne une impression un peu datée (style 2010) alors que votre savoir-faire sur les locks et cheveux crepus est un vrai atout.\n\nAvec une identite moderne et cohérente, votre institut attirerait bien plus de clientes qui vous decouvrent en ligne. Je peux vous montrer concretement ce que je ferais, avec un exemple adapte a votre activite.\n\nSi vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur), vous gardez le document dans tous les cas.\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
   "priorite": 0,
@@ -1424,7 +1597,20 @@
    "posts": "38",
    "nom_affiche": "O&#039;Natty Paris &#x2022; Haircare"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [
+   "onatty.com",
+   "natty.fr",
+   "natty.com",
+   "natty.net",
+   "onattyparis.com"
+  ],
+  "site_provenance": "constat_valide_dossier",
+  "constat_site": {
+   "url": "https://onatty.com",
+   "probleme": "LOGO_ILLISIBLE_DESIGN_DATE",
+   "note": 2
+  }
  },
  {
   "nom": "SALON SUZANA (SALON SUZANA)",
@@ -1442,7 +1628,9 @@
    "posts": "523",
    "nom_affiche": "BeautySalonSuzana"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "SARL THOMAS CABIBEL (LE 20 BARBER SHOP)",
@@ -1451,16 +1639,22 @@
   "ville": "LYON 6",
   "adresse": "20 PLACE DE LA CROIX-ROUSSE 69004 LYON",
   "dirigeant": "Thomas CABIBEL",
-  "website": "",
+  "website": "https://le20barbershop.fr",
   "instagram": "https://www.instagram.com/le20barbershop/",
-  "dm": "Bonjour M. CABIBEL,\n\nJe vous ai cherche sur Google et, honnetement, c'est un probleme : SARL THOMAS CABIBEL n'apparait avec aucun site web, aucune page qui presente votre salon, vos horaires ou vos tarifs. Concretement, un client du quartier qui cherche un coiffeur trouve vos concurrents avant de vous trouver, et il reserve chez eux.\n\nJe suis designer de marque, et je peux vous creer une presence en ligne simple et soignee qui vous rend visible. Si vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur), vous gardez le document dans tous les cas.\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
+  "dm": "Bonjour Thomas CABIBEL,\n\nJe suis designer de marque, et en regardant votre site le20barbershop.fr : le site met en avant vos deux adresses du 6e (Croix-Rousse et Franklin Roosevelt), mais ne montre ni tarifs, ni horaires, ni avis clients. Un client qui hesite entre plusieurs barbershops reserve chez celui qui affiche ses prix et ses preuves. Concretement, ca vous coute des clients qui hesitent.\n\nJe peux vous preparer un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur) : analyse de votre image, de votre site et des actions concretes pour convertir plus de visiteurs en clients.\n\nVous etes disponible pour un echange de 15 minutes cette semaine ?",
   "priorite": 1,
   "stats": {
    "followers": "1,195",
    "posts": "118",
    "nom_affiche": "&#x1f488;LE 20 BARBER SHOP"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [
+   "sarlthomas.net",
+   "le20barbershop.fr"
+  ],
+  "site_provenance": "vision_probable",
+  "constat_site": "le site met en avant vos deux adresses du 6e (Croix-Rousse et Franklin Roosevelt), mais ne montre ni tarifs, ni horaires, ni avis clients. Un client qui hesite entre plusieurs barbershops reserve chez celui qui affiche ses prix et ses preuves."
  },
  {
   "nom": "SYLVAIN GOUEDARD AGENCE STYLICOACH (MAISON SYLVAIN GOUEDARD)",
@@ -1478,7 +1672,9 @@
    "posts": "74",
    "nom_affiche": "Maison Sylvain Gouedard"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": "domaines_probables"
  },
  {
   "nom": "TENDANCE FASHION",
@@ -1496,7 +1692,9 @@
    "posts": "261",
    "nom_affiche": "Tendance fashion"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "THAI BIEN ETRE (THAI BIEN ETRE)",
@@ -1505,16 +1703,21 @@
   "ville": "LYON 6",
   "adresse": "56 RUE DE LA CHARITE 69002 LYON",
   "dirigeant": "Siriluck SAISUK",
-  "website": "",
+  "website": "https://thaibienetre.fr",
   "instagram": "https://www.instagram.com/thaibienetre/",
-  "dm": "Bonjour M. SAISUK,\n\nJe vous ai cherche sur Google et, honnetement, c'est un probleme : THAI BIEN ETRE n'apparait avec aucun site web, aucune page qui presente votre salon, vos horaires ou vos tarifs. Concretement, un client du quartier qui cherche un salon ongles trouve vos concurrents avant de vous trouver, et il reserve chez eux.\n\nJe suis designer de marque, et je peux vous creer une presence en ligne simple et soignee qui vous rend visible. Si vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur), vous gardez le document dans tous les cas.\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
+  "dm": "Bonjour M. SAISUK,\n\nJe suis designer de marque, et en preparant un point sur votre activite j'ai regarde votre site : votre site thaibienetre.fr a un look qui date des annees 2000 (boutons oranges, texte tronque en bas de page) et surtout il ne montre ni prix ni horaires ni avis. Un client qui cherche un massage a Lyon choisit le spa qui affiche ses tarifs des la premiere page. Concretement, vous perdez des clients qui hesitent.\n\nJe peux vous preparer un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur) : analyse de votre image, de votre site et des actions concretes pour convertir plus de visiteurs en clients.\n\nVous etes disponible pour un echange de 15 minutes cette semaine ?",
   "priorite": 1,
   "stats": {
    "followers": "789",
    "posts": "311",
    "nom_affiche": "THAI&#x308; BIEN-E&#x302;TRE"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [
+   "thaibienetre.fr"
+  ],
+  "site_provenance": "vision_confirme",
+  "constat_site": "votre site thaibienetre.fr a un look qui date des annees 2000 (boutons oranges, texte tronque en bas de page) et surtout il ne montre ni prix ni horaires ni avis. Un client qui cherche un massage a Lyon choisit le spa qui affiche ses tarifs des la premiere page."
  },
  {
   "nom": "WELSY'S FIGHT",
@@ -1532,7 +1735,9 @@
    "posts": "45",
    "nom_affiche": "WELSY&#x2019;S FIGHT HAIR | Toulouse"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "YOSRA BEAUTY",
@@ -1550,7 +1755,9 @@
    "posts": "77",
    "nom_affiche": "YOSRA BEAUTY &#x1f4de;0641418326"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [],
+  "site_provenance": ""
  },
  {
   "nom": "YU NAIL (LUNA ONGLE)",
@@ -1559,7 +1766,7 @@
   "ville": "LYON 6",
   "adresse": "177 COURS LAFAYETTE 69006 LYON",
   "dirigeant": "Pengyu ZHANG",
-  "website": "",
+  "website": "https://lunaongle.com",
   "instagram": "https://www.instagram.com/luna_ongle/",
   "dm": "Bonjour M. ZHANG,\n\nJe vous ai cherche sur Google et, honnetement, c'est un probleme : YU NAIL n'apparait avec aucun site web, aucune page qui presente votre salon, vos horaires ou vos tarifs. Concretement, un client du quartier qui cherche un salon ongles trouve vos concurrents avant de vous trouver, et il reserve chez eux.\n\nJe suis designer de marque, et je peux vous creer une presence en ligne simple et soignee qui vous rend visible. Si vous voulez, je vous prepare un diagnostic complet en 48h (79 EUR, rembourse si vous n'y trouvez pas de valeur), vous gardez le document dans tous les cas.\n\nCa vous interesse que je vous prepare une piste ?\n\nPortfolio : mahdi-design.com",
   "priorite": 1,
@@ -1568,6 +1775,12 @@
    "posts": "143",
    "nom_affiche": "Luna Ongle"
   },
-  "severite": 3
+  "severite": 3,
+  "website_candidats": [
+   "lunaongle.com",
+   "nail.fr",
+   "nail.net"
+  ],
+  "site_provenance": "vision_confirme"
  }
 ]

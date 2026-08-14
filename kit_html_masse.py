@@ -88,6 +88,12 @@ def generer():
         sys.exit(1)
 
     valides = [c for c in cibles if c.get("instagram") and c.get("dirigeant") and c.get("dm")]
+    # Les DM forts (site confirme + constat) passent en tete, puis par priorite
+    def cle_tri(c):
+        fort = 1 if (c.get("website") and c.get("constat_site")) else 0
+        prio = c.get("priorite", 9)
+        return (-fort, prio if isinstance(prio, int) else 9)
+    valides.sort(key=cle_tri)
     valides = valides[:max_n]
 
     blocs = []
