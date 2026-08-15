@@ -154,7 +154,7 @@ Sa reponse : "%s" (sujet : %s)
 Contexte : %s
 Paiement : %s
 
-Offres exactes : Constats et recommandations immediates GRATUITS (deja envoyes dans notre email, le client les a). Diagnostic complet 79 EUR (rapport 10 pages sous 48h, rembourse si pas de valeur, deduit du prix de la refonte). Refonte complete site vitrine : 2500 a 5000 EUR. Offre rentree septembre : 3 refontes completes au tarif 2025, 1900 EUR au lieu de 2900, devis sous 48h, places dans l'ordre des reponses. Pack securite WordPress : 69 EUR/mois ou 690 EUR/an (2 mois offerts), premier mois offert, sans engagement.
+Offres exactes : Constats et recommandations immediates GRATUITS (deja envoyes dans notre email, le client les a). Diagnostic de credibilite 79 EUR (rapport 10 pages sous 48h, rembourse si pas de valeur, deduit du projet). Projet complet MARQUE + SITE : identite visuelle (logo, couleurs, typographie, charte) + site vitrine 6-8 pages coherent : 3900 a 5900 EUR. Offre rentree septembre : 3 projets complets au tarif 2025, 2900 EUR au lieu de 3900, devis sous 48h, places dans l'ordre des reponses. Pack securite WordPress : 69 EUR/mois ou 690 EUR/an (2 mois offerts), premier mois offert, sans engagement.
 
 Regles strictes :
 - Francais naturel, chaleureux, pro. JAMAIS de survente ni de pub.
