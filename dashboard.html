@@ -1,61 +1,122 @@
 <!DOCTYPE html>
-<html lang="fr"><head><meta charset="utf-8"><title>Mahdi Design — Tableau de bord</title>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="300">
+<title>Mahdi Design — Tableau de bord</title>
 <style>
+:root{--bg:#0b0b10;--card:#15151d;--line:#262633;--txt:#f2efe6;--dim:#8b8a99;
+--amber:#e8a33d;--amber2:#b45309;--green:#3fb950;--red:#f85149;--blue:#58a6ff}
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:'Segoe UI',system-ui,sans-serif;background:#0d1117;color:#e6edf3;padding:32px;max-width:960px;margin:auto}
-h1{font-size:26px;margin-bottom:4px}
-.sub{color:#8b949e;margin-bottom:24px}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:20px;margin-bottom:16px}
-.card h2{font-size:15px;text-transform:uppercase;letter-spacing:1px;color:#58a6ff;margin-bottom:14px}
-.bar{background:#21262d;border-radius:8px;height:14px;margin:8px 0 4px}
-.bar-fill{background:linear-gradient(90deg,#238636,#3fb950);border-radius:8px;height:14px;transition:width .5s}
-.bar-label{font-size:13px;color:#8b949e;margin-bottom:12px}
-.badge{font-size:11px;padding:2px 8px;border-radius:10px;font-weight:600}
-.badge.ok{background:#238636;color:#fff}
-.badge.wait{background:#9e6a03;color:#fff}
-table{width:100%;border-collapse:collapse;font-size:14px}
-th{text-align:left;color:#8b949e;font-weight:500;padding:6px 8px;border-bottom:1px solid #30363d}
-td{padding:6px 8px;border-bottom:1px solid #21262d}
-.empty{color:#8b949e;text-align:center;padding:14px}
-.check{display:flex;align-items:center;gap:10px;padding:8px 0;font-size:14px}
-.dot{width:12px;height:12px;border-radius:50%;flex-shrink:0}
-.dot.ok{background:#3fb950}.dot.todo{background:#f0883e}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}
-.stat{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:16px;text-align:center}
-.stat .n{font-size:28px;font-weight:700;color:#58a6ff}
-.stat .l{font-size:12px;color:#8b949e;margin-top:4px}
-@media(max-width:700px){.grid,.stats{grid-template-columns:1fr}}
-</style></head><body>
-<h1>🎯 Mahdi Design — Tableau de bord</h1>
-<div class="sub">2026-08-15 — Objectif : 2000 EUR ce mois, 500 EUR cette semaine — mis a jour automatiquement</div>
-<div class="stats">
-<div class="stat"><div class="n">11</div><div class="l">emails envoyes (file)</div></div>
-<div class="stat"><div class="n">60</div><div class="l">restants (71 total)</div></div>
-<div class="stat"><div class="n">6</div><div class="l">envois aujourd hui</div></div>
-<div class="stat"><div class="n">0 EUR</div><div class="l">encaisse</div></div>
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:
+radial-gradient(1200px 600px at 80% -10%,#1c1626 0%,var(--bg) 55%);color:var(--txt);
+padding:28px 20px 60px;min-height:100vh}
+.wrap{max-width:1080px;margin:auto}
+.hero{display:flex;justify-content:space-between;align-items:center;gap:16px;
+padding:22px 26px;background:linear-gradient(135deg,#1a1a24,#131318);
+border:1px solid var(--line);border-radius:18px;margin-bottom:18px}
+.brand{display:flex;align-items:center;gap:14px}
+.logo{width:46px;height:46px;border-radius:12px;display:flex;align-items:center;justify-content:center;
+font-size:24px;font-weight:800;color:#14100a;background:linear-gradient(135deg,var(--amber),var(--amber2))}
+h1{font-size:20px;letter-spacing:3px}
+.tagline{color:var(--dim);font-size:13px;margin-top:2px}
+.hero-right{display:flex;align-items:center;gap:12px}
+.live{display:flex;align-items:center;gap:7px;font-size:12px;font-weight:700;letter-spacing:2px;
+color:var(--green);background:#0f1a12;border:1px solid #1f3a26;padding:6px 12px;border-radius:20px}
+.pulse{width:8px;height:8px;border-radius:50%;background:var(--green);animation:pl 1.6s infinite}
+@keyframes pl{0%{box-shadow:0 0 0 0 rgba(63,185,80,.6)}70%{box-shadow:0 0 0 7px rgba(63,185,80,0)}100%{box-shadow:0 0 0 0 rgba(63,185,80,0)}}
+.date{color:var(--dim);font-size:13px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:18px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 14px;text-align:center;
+transition:transform .15s, border-color .15s}
+.stat:hover{transform:translateY(-2px);border-color:#3a3a4a}
+.ico{font-size:22px;margin-bottom:6px}
+.n{font-size:30px;font-weight:800;background:linear-gradient(135deg,var(--amber),#f6d9a8);
+-webkit-background-clip:text;background-clip:text;color:transparent}
+.l{font-size:12px;color:var(--dim);margin-top:4px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+.card h2{font-size:13px;text-transform:uppercase;letter-spacing:2px;color:var(--amber);
+margin-bottom:14px;display:flex;align-items:center;justify-content:space-between;gap:8px}
+.boxes{display:flex;flex-direction:column;gap:10px}
+.box-row{background:#101018;border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.box-head{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+.box-name{font-weight:600;font-size:14px;flex:1}
+.box-count{font-size:13px;color:var(--txt)}
+.dim{color:var(--dim);font-size:11px}
+.mini-bar{background:#20202c;border-radius:6px;height:7px;overflow:hidden}
+.mini-fill{height:7px;border-radius:6px;background:linear-gradient(90deg,var(--amber2),var(--amber));
+transition:width .6s}
+.mini-fill.amber{background:linear-gradient(90deg,var(--amber2),var(--amber))}
+.pill{font-size:10px;font-weight:700;padding:2px 8px;border-radius:12px;letter-spacing:1px}
+.pill-ok{background:#12331c;color:var(--green);border:1px solid #1f4a2c}
+.pill-cap{background:#33260c;color:var(--amber);border:1px solid #4d3a12}
+.pill-state{background:#1c2233;color:var(--blue);border:1px solid #2a3450}
+.pill-wait{background:#33260c;color:var(--amber);border:1px solid #4d3a12}
+.obj-row{margin-bottom:14px}
+.obj-head{display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px;color:var(--dim)}
+.obj-val{color:var(--txt);font-weight:600}
+.obj-bar{background:#20202c;border-radius:8px;height:12px;overflow:hidden}
+.obj-bar.big{height:16px;margin-top:10px}
+.obj-fill{height:100%;border-radius:8px;transition:width .7s}
+.obj-fill.amber{background:linear-gradient(90deg,var(--amber2),var(--amber))}
+.obj-fill.green{background:linear-gradient(90deg,#1d6b2c,var(--green))}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;color:var(--dim);font-weight:500;padding:6px 8px;border-bottom:1px solid var(--line)}
+td{padding:8px;border-bottom:1px solid #1c1c26}
+.num{text-align:right;font-weight:600}
+.empty{color:var(--dim);text-align:center;padding:14px}
+.note{font-size:11px;color:var(--dim);margin-top:12px;line-height:1.5}
+.total{margin-top:12px;font-size:13px;color:var(--dim)}
+.total b{color:var(--amber)}
+.checks{display:flex;flex-direction:column;gap:4px}
+.check{display:flex;align-items:center;gap:10px;padding:8px 10px;border-radius:10px;cursor:pointer;
+font-size:14px;transition:background .15s}
+.check:hover{background:#1a1a26}
+.check input{display:none}
+.check .box{width:18px;height:18px;border:2px solid #3a3a4a;border-radius:6px;flex-shrink:0;
+display:flex;align-items:center;justify-content:center;font-size:11px;transition:all .15s}
+.check input:checked + .box{background:var(--amber);border-color:var(--amber);color:#14100a}
+.check input:checked + .box::after{content:"✓"}
+.check input:checked ~ .check-label{text-decoration:line-through;color:var(--dim)}
+.check-label{flex:1}
+.check-detail{font-size:11px;color:var(--dim)}
+.check-progress{display:flex;align-items:center;gap:10px;margin-top:12px}
+.check-progress .mini-bar{flex:1}
+.check-progress span{font-size:12px;color:var(--dim);font-weight:700}
+.file-stats{display:flex;gap:20px;font-size:13px;color:var(--dim);margin-bottom:4px}
+.file-stats b{color:var(--txt)}
+footer{text-align:center;color:#5a5a6a;font-size:11px;margin-top:26px;line-height:1.6}
+@media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}}
+</style></head><body><div class="wrap">
+<header class="hero"><div class="brand"><span class="logo">M</span><div><h1>MAHDI DESIGN</h1><p class="tagline">Tableau de bord commercial</p></div></div><div class="hero-right"><span class="live"><span class="pulse"></span>LIVE</span><span class="date">2026-08-15</span></div></header>
+<section class="stats"><div class="stat"><div class="ico">📨</div><div class="n">11</div><div class="l">emails envoyes</div></div><div class="stat"><div class="ico">📥</div><div class="n">60</div><div class="l">restants (71 total)</div></div><div class="stat"><div class="ico">⚡</div><div class="n">6</div><div class="l">envois aujourd hui</div></div><div class="stat"><div class="ico">💰</div><div class="n">0 EUR</div><div class="l">encaisse</div></div></section>
+<div class="grid"><section class="card"><h2>Boites d envoi <span class="pill pill-ok">API REELLE</span></h2><div class="boxes"><div class="box-row"><div class="box-head"><span class="box-name">commercial</span><span class="pill pill-ok">ACTIVE</span><span class="box-count"><b>2</b>/3 <span class="dim">(hier 0)</span></span></div><div class="mini-bar"><div class="mini-fill" style="width:67%"></div></div></div><div class="box-row"><div class="box-head"><span class="box-name">hello</span><span class="pill pill-ok">ACTIVE</span><span class="box-count"><b>2</b>/3 <span class="dim">(hier 0)</span></span></div><div class="mini-bar"><div class="mini-fill" style="width:67%"></div></div></div><div class="box-row"><div class="box-head"><span class="box-name">info</span><span class="pill pill-ok">ACTIVE</span><span class="box-count"><b>1</b>/3 <span class="dim">(hier 0)</span></span></div><div class="mini-bar"><div class="mini-fill" style="width:33%"></div></div></div><div class="box-row"><div class="box-head"><span class="box-name">direction</span><span class="pill pill-ok">ACTIVE</span><span class="box-count"><b>2</b>/3 <span class="dim">(hier 0)</span></span></div><div class="mini-bar"><div class="mini-fill" style="width:67%"></div></div></div><div class="box-row"><div class="box-head"><span class="box-name">contact</span><span class="pill pill-ok">ACTIVE</span><span class="box-count"><b>1</b>/5 <span class="dim">(hier 5)</span></span></div><div class="mini-bar"><div class="mini-fill" style="width:20%"></div></div></div></div><p class="note">Compteurs reels Zoho (verite terrain), repli sur le suivi interne si API indisponible. Plafonds de warm-up : 5/jour pour contact, 3/jour pour les autres.</p></section><section class="card"><h2>Objectifs</h2><div class="obj-row"><div class="obj-head"><span>Mois</span><span class="obj-val">0 / 2000 EUR (0%)</span></div><div class="obj-bar"><div class="obj-fill amber" style="width:0%"></div></div></div><div class="obj-row"><div class="obj-head"><span>Semaine</span><span class="obj-val">0 / 500 EUR (0%)</span></div><div class="obj-bar"><div class="obj-fill green" style="width:0%"></div></div></div></section></div>
+<div class="grid"><section class="card"><h2>Checklist du jour</h2><div class="checks" id="checks"><label class="check" data-cid="emails"><input type="checkbox" checked><span class="box"></span><span class="check-label">Emails du jour envoyes</span><span class="check-detail">6 envoyes</span></label><label class="check" data-cid="relances"><input type="checkbox" ><span class="box"></span><span class="check-label">Relances conges du jour</span><span class="check-detail">0 prevues</span></label><label class="check" data-cid="mailinblack"><input type="checkbox" ><span class="box"></span><span class="check-label">Cliq Mailinblack si notification</span><span class="check-detail"></span></label><label class="check" data-cid="closer"><input type="checkbox" ><span class="box"></span><span class="check-label">Valider les brouillons du closer si reponse</span><span class="check-detail"></span></label><label class="check" data-cid="discord"><input type="checkbox" ><span class="box"></span><span class="check-label">Verifier le rapport Discord</span><span class="check-detail"></span></label></div><div class="check-progress"><div class="mini-bar"><div class="mini-fill amber" id="checkFill" style="width:0%"></div></div><span id="checkCount">0/5</span></div></section><section class="card"><h2>Entrees d argent</h2><table><thead><tr><th>Date</th><th>Source</th><th>Montant</th><th>Statut</th></tr></thead><tbody><tr><td colspan="4" class="empty">Aucune entree pour l instant. La 1re arrive bientot.</td></tr></tbody></table><div class="total">Total attendu a venir : <b>0 EUR</b></div></section></div>
+<div class="grid"><section class="card"><h2>Prochaines relances</h2><table><thead><tr><th>Date</th><th>Prospect</th><th>Email</th></tr></thead><tbody><tr><td>2026-08-20</td><td>slicom</td><td>techno@slicom-group.com</td></tr><tr><td>2026-08-25</td><td>adduxi</td><td>catherine.prost@adduxi.com</td></tr></tbody></table></section><section class="card"><h2>File de campagne</h2><div class="file-stats"><span>Envoyes : <b>11</b></span><span>Restants : <b>60</b></span><span>Total : <b>71</b></span></div><div class="obj-bar big"><div class="obj-fill amber" style="width:15%"></div></div><p class="note">17 emails/jour max en warm-up. Objectif : 25-30/jour d ici 2 semaines. Envois 7j/7, espaces de 12 min.</p></section></div>
+<footer>Genere le 2026-08-15 a 15:20 · GitHub Actions (100%% gratuit) · Auto-refresh toutes les 5 min<br>
+Mahdi Design — La Marque qui Vend · mahdi-design.com</footer>
 </div>
-<div class="grid">
-<div class="card"><h2>Boites d envoi (compteurs reels)</h2>
-<table><tr><th>Boite</th><th>Aujourd hui</th><th>Hier</th><th>Plafond/jour</th><th>Statut</th></tr><tr><td>contact</td><td>1</td><td>5</td><td>5</td><td><span class="badge ok">ACTIVE</span></td></tr><tr><td>commercial</td><td>1</td><td>1</td><td>3</td><td><span class="badge ok">ACTIVE</span></td></tr><tr><td>hello</td><td>1</td><td>1</td><td>3</td><td><span class="badge ok">ACTIVE</span></td></tr><tr><td>info</td><td>1</td><td>1</td><td>3</td><td><span class="badge ok">ACTIVE</span></td></tr><tr><td>direction</td><td>2</td><td>0</td><td>3</td><td><span class="badge ok">ACTIVE</span></td></tr></table>
-<p style="font-size:12px;color:#8b949e;margin-top:8px">Comptes via l API Zoho (verite terrain). Les boites neuves montent progressivement : 3/jour la 1re semaine, puis 5-6.</p></div>
-<div class="card"><h2>Objectifs</h2><div class="bar"><div class="bar-fill" style="width:0%"></div></div><div class="bar-label">Mois : 0 / 2000 EUR (0%)</div><div class="bar"><div class="bar-fill" style="width:0%"></div></div><div class="bar-label">Semaine : 0 / 500 EUR (0%)</div></div>
-</div>
-<div class="grid">
-<div class="card"><h2>Checklist du jour</h2>
-<div class="check"><span class="dot ok"></span>Emails du jour envoyes (6)</div>
-<div class="check"><span class="dot todo"></span>Relances conges du jour (0)</div>
-<div class="check"><span class="dot todo"></span>Cliq Mailinblack si notification</div>
-<div class="check"><span class="dot todo"></span>Valider les brouillons du closer si reponse</div>
-<div class="check"><span class="dot todo"></span>Verifier le rapport Discord</div></div>
-<div class="card"><h2>Entrees d argent</h2><table><tr><th>Date</th><th>Source</th><th>Montant</th><th>Statut</th></tr><tr><td colspan="4" class="empty">Aucune entree pour l instant. La 1re arrive bientot.</td></tr></table>
-<div class="bar-label" style="margin-top:10px">Total attendu a venir : 0 EUR</div></div>
-</div>
-<div class="grid">
-<div class="card"><h2>Prochaines relances</h2><table><tr><th>Date</th><th>Prospect</th><th>Email</th></tr><tr><td>2026-08-20</td><td>slicom</td><td>techno@slicom-group.com</td></tr><tr><td>2026-08-25</td><td>adduxi</td><td>catherine.prost@adduxi.com</td></tr></table></div>
-<div class="card"><h2>File de campagne</h2>
-<div class="bar-label">Envoyes : 11 / 71 — Restants : 60</div>
-<div class="bar"><div class="bar-fill" style="width:15%"></div></div>
-<p style="font-size:12px;color:#8b949e;margin-top:8px">17 emails/jour max actuellement (warm-up). Objectif : 25-30/jour d ici 2 semaines.</p></div>
-</div>
+<script>
+(function(){
+var today="2026-08-15";
+var key="md_check_"+today;
+var done=JSON.parse(localStorage.getItem(key)||"[]");
+document.querySelectorAll(".check").forEach(function(l){
+var cid=l.getAttribute("data-cid");
+if(done.indexOf(cid)>-1){l.querySelector("input").checked=true;}
+l.querySelector("input").addEventListener("change",function(){
+if(this.checked){if(done.indexOf(cid)<0)done.push(cid);}
+else{done=done.filter(function(x){return x!==cid;});}
+localStorage.setItem(key,JSON.stringify(done));refresh();});
+});
+function refresh(){
+var n=document.querySelectorAll(".check input:checked").length;
+var t=document.querySelectorAll(".check").length;
+document.getElementById("checkCount").textContent=n+"/"+t;
+document.getElementById("checkFill").style.width=(t?Math.round(n/t*100):0)+"%";}
+refresh();
+var secs=300;
+setInterval(function(){secs--;if(secs<=0)location.reload();},1000);
+})();
+</script>
 </body></html>

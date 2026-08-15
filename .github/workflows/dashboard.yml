@@ -1,10 +1,10 @@
 name: Dashboard auto
 
-# Toutes les heures : regenere le dashboard (compteurs API reels) et le pousse
+# Toutes les 15 minutes : regenere le dashboard (compteurs API reels) et le pousse
 # vers le repo public mahdi-design (GitHub Pages) si le PAT est configure.
 on:
   schedule:
-    - cron: '10 * * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:      # bouton "Run workflow" = regenere maintenant
 
 jobs:
