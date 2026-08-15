@@ -61,6 +61,20 @@
    "on": "2026-08-15",
    "messageId": "1786802733280155100",
    "via": "commercial"
+  },
+  "11": {
+   "on": "2026-08-15",
+   "via": "hello",
+   "doublon": true,
+   "note": "envoye 3x (hello x2 + contact) apres redemarrage",
+   "sent_relance1": "2026-08-15",
+   "sent_relance2": "2026-08-15"
+  },
+  "12": {
+   "on": "2026-08-15",
+   "via": "info",
+   "doublon": true,
+   "note": "envoye 2x (hello + info) apres redemarrage"
   }
  },
  "done_notified": false

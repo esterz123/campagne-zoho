@@ -146,9 +146,24 @@ def choisir_boite(boites, sent, today):
     return min(dispo, key=lambda b: compte_boite(sent, b["nom"], today))
 
 
+def verifier_doublon_global(token_pour, boites, to):
+    """Anti-doublon TOUTES boites (fix 16/08) : le redemarrage a prouve qu'un envoi
+    non enregistre dans le state peut etre renvoye depuis UNE AUTRE boite.
+    Verifie les 5 boites d'envoi avant chaque email."""
+    for b in boites:
+        try:
+            tok = token_pour(b)
+        except Exception:
+            continue
+        if verifier_doublon(tok, b, to):
+            return True
+    return False
+
+
 def _norm_addr(a):
-    """Normalise une adresse email (l'API Zoho renvoie <email>, le state non)."""
-    return (a or "").replace("<", "").replace(">", "").strip().lower()
+    """Normalise une adresse email. L'API Zoho renvoie <email> OU &lt;email&gt; (HTML encode).
+    Fix 16/08 : sans le decodage &lt;/&gt;, le verrou anti-doublon ne matchait JAMAIS."""
+    return (a or "").replace("<", "").replace(">", "").replace("&lt;", "").replace("&gt;", "").strip().lower()
 
 
 def verifier_doublon(token, boite, to):
@@ -331,13 +346,14 @@ def main():
         if not boite:
             lines.append("Toutes les boites sont a leur plafond du jour")
             break
-        if verifier_doublon(token_pour(boite), boite, e["to"]):
+        if verifier_doublon_global(token_pour, boites, e["to"]):
             sent[num]["sent_" + stage] = today
-            lines.append("DOUBLON evite (deja envoye aujourd'hui) : %s" % e["to"])
+            lines.append("DOUBLON evite (deja envoye aujourd'hui, toutes boites) : %s" % e["to"])
             continue
         r = send_email(token_pour(boite), subject, content, e["to"], e.get("cc", ""), boite)
         sent[num]["sent_" + stage] = today
         sent[num]["via"] = boite["nom"]
+        save_state(state)  # fix 16/08 : sauvegarde APRES CHAQUE envoi (un crash ne perd plus rien)
         lines.append("Relance %-8s #%s %s -> %s (via %s)" % (stage, num, e["prospect"][:40], e["to"], boite["nom"]))
         envois_reels += 1
         if envois_reels < len(todo_fu) + len(todo):
@@ -354,12 +370,13 @@ def main():
         if not boite:
             lines.append("Toutes les boites sont a leur plafond du jour")
             break
-        if verifier_doublon(token_pour(boite), boite, e["to"]):
+        if verifier_doublon_global(token_pour, boites, e["to"]):
             sent[num] = {"on": today, "doublon": True, "via": boite["nom"]}
-            lines.append("DOUBLON evite (deja envoye aujourd'hui) : %s" % e["to"])
+            lines.append("DOUBLON evite (deja envoye aujourd'hui, toutes boites) : %s" % e["to"])
             continue
         r = send_email(token_pour(boite), e["subject"], content, e["to"], e.get("cc", ""), boite)
         sent[num] = {"on": today, "messageId": str(r["data"].get("messageId", "")), "via": boite["nom"]}
+        save_state(state)  # fix 16/08 : sauvegarde APRES CHAQUE envoi (un crash ne perd plus rien)
         lines.append("Envoye  #%s %s -> %s (via %s)" % (num, e["prospect"][:40], e["to"], boite["nom"]))
         envois_reels += 1
         if envois_reels < len(todo_fu) + len(todo):
