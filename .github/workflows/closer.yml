@@ -5,7 +5,7 @@ name: Closer IA
 # Chrono en temps universel : de 8h a 22h heure d'Alger = 7h a 21h UTC.
 on:
   schedule:
-    - cron: '*/30 7-21 * * 1-5'
+    - cron: '*/30 7-21 * * *'
   workflow_dispatch:      # bouton "Run workflow" = verifier maintenant
 
 jobs:
