@@ -11,7 +11,7 @@ import json, os, sys, re, urllib.request, urllib.parse, datetime, time
 BASE = os.path.dirname(os.path.abspath(__file__))
 ACC = "7349712000000008002"
 ME = "contact@mahdi-design.com"
-MODEL = "deepseek/deepseek-v4-flash"
+MODEL = "deepseek/deepseek-v4-flash:free"  # :free obligatoire (0 euro garanti, regle Mahdi 16/08)
 DATA_F = os.path.join(BASE, "campagne_data.json")
 STATE_F = os.path.join(BASE, "repondeur_state.json")
 
