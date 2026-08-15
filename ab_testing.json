@@ -1,0 +1,6 @@
+{
+  "description": "Suivi A/B testing des sujets d'emails. Remplir quand les reponses arrivent : pour chaque lot envoye, noter quels sujets ont recu des reponses. Les sujets gagnants deviennent le standard.",
+  "regle": "Une reponse = un point pour le sujet. Apres 5+ reponses, comparer et figer le meilleur style de sujet.",
+  "lots": [],
+  "sujets_gagnants": []
+}

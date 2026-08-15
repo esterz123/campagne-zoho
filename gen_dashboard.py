@@ -183,6 +183,40 @@ T["ENTREES"] = ('<section class="card"><h2>Entrees d argent</h2>'
                 '<table><thead><tr><th>Date</th><th>Source</th><th>Montant</th><th>Statut</th></tr></thead>'
                 '<tbody>%s</tbody></table>'
                 '<div class="total">Total attendu a venir : <b>%d EUR</b></div></section>') % (rows_entrees, attendu)
+# ---- Conversations (reponses traitees par le closer/repondeur) ----
+def fraicheur(iso):
+    """'il y a X min' depuis un timestamp ISO (UTC)."""
+    try:
+        from datetime import timezone
+        t = datetime.datetime.fromisoformat(iso.replace('Z', '+00:00'))
+        d = datetime.datetime.now(timezone.utc) - t
+        mins = max(0, int(d.total_seconds() // 60))
+        if mins < 1:
+            return "a l'instant"
+        if mins < 60:
+            return "il y a %d min" % mins
+        return "il y a %d h" % (mins // 60)
+    except Exception:
+        return "?"
+
+closer_st = jload(os.path.join(BASE, "closer_state.json"), {})
+repond_st = jload(os.path.join(BASE, "repondeur_state.json"), {})
+nb_closer = len(closer_st.get("traites", []))
+nb_repond = len(repond_st.get("traites", []))
+f_closer = fraicheur(str(closer_st.get("dernier_run", "")))
+f_repond = fraicheur(str(repond_st.get("dernier_run", "")))
+if nb_closer + nb_repond == 0:
+    conv_note = '<div class="empty">Aucune reponse client pour l instant. Elles arrivent apres 50-150 envois.</div>'
+else:
+    conv_note = ('<div class="conv-row"><span>Reponses traitees par le closer</span><b>%d</b></div>'
+                 '<div class="conv-row"><span>Messages vus par le repondeur</span><b>%d</b></div>'
+                 '<div class="conv-row dim2"><span>Dernier passage closer</span><span>%s</span></div>'
+                 '<div class="conv-row dim2"><span>Dernier passage repondeur</span><span>%s</span></div>'
+                 ) % (nb_closer, nb_repond, f_closer, f_repond)
+T["CONVERSATIONS"] = ('<section class="card"><h2>Conversations</h2>%s'
+                      '<p class="note">Une reponse avec signal d interet = le closer repond en ~30 min (diagnostic 79 EUR, '
+                      'puis offre Rentree). Tout est automatique.</p></section>') % conv_note
+
 T["RELANCES"] = ('<section class="card"><h2>Prochaines relances</h2>'
                  '<table><thead><tr><th>Date</th><th>Prospect</th><th>Email</th></tr></thead>'
                  '<tbody>%s</tbody></table></section>') % rows_prochains
@@ -280,6 +314,10 @@ display:flex;align-items:center;justify-content:center;font-size:11px;transition
 .check-progress span{font-size:12px;color:var(--dim);font-weight:700}
 .file-stats{display:flex;gap:20px;font-size:13px;color:var(--dim);margin-bottom:4px}
 .file-stats b{color:var(--txt)}
+.conv-row{display:flex;justify-content:space-between;align-items:center;font-size:13px;
+padding:7px 0;border-bottom:1px solid #1c1c26}
+.conv-row b{color:var(--amber);font-size:16px}
+.conv-row.dim2{color:var(--dim);font-size:12px;border-bottom:none;padding:4px 0}
 footer{text-align:center;color:#5a5a6a;font-size:11px;margin-top:26px;line-height:1.6}
 @media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}}
 </style></head><body><div class="wrap">
@@ -287,7 +325,8 @@ __HEADER__
 __STATS__
 <div class="grid">__BOXES____OBJECTIFS__</div>
 <div class="grid">__CHECKLIST____ENTREES__</div>
-<div class="grid">__RELANCES____FILE__</div>
+<div class="grid">__CONVERSATIONS____RELANCES__</div>
+<div class="grid">__FILE__</div>
 <footer>Genere le __TODAY__ a __NOW__ · GitHub Actions (100%% gratuit) · Auto-refresh toutes les 5 min<br>
 Mahdi Design — La Marque qui Vend · mahdi-design.com</footer>
 </div>
@@ -320,6 +359,7 @@ page = page.replace("__HEADER__", T["HEADER"]).replace("__STATS__", T["STATS"])
 page = page.replace("__BOXES__", T["BOXES"]).replace("__OBJECTIFS__", T["OBJECTIFS"])
 page = page.replace("__CHECKLIST__", T["CHECKLIST"]).replace("__ENTREES__", T["ENTREES"])
 page = page.replace("__RELANCES__", T["RELANCES"]).replace("__FILE__", T["FILE"])
+page = page.replace("__CONVERSATIONS__", T["CONVERSATIONS"])
 page = page.replace("__NOW__", now).replace("__TODAY__", today)
 
 with open(OUT_F, "w", encoding="utf-8") as f:
