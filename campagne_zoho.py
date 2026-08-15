@@ -228,6 +228,10 @@ def load_followups():
 
 
 def main():
+    # KILL-SWITCH URGENCE : si le fichier PAUSE_ENVOIS existe, aucun envoi (cloud + local).
+    if os.path.exists(os.path.join(BASE, "PAUSE_ENVOIS")):
+        print("ENVOIS PAUSES : fichier PAUSE_ENVOIS present, aucun envoi ce run.")
+        return
     args = [a for a in sys.argv[1:] if not a.startswith("-")]
     # Quota journalier : DAILY_MAX par defaut (warm-up), ou 1er argument numerique positionnel (legacy).
     # IMPORTANT (fix 16/08) : --max ne doit JAMAIS devenir le quota journalier, sinon 3 relances
