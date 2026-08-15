@@ -9,12 +9,12 @@ name: Campagne emails Zoho
 # 3 emails/jour dans la fenetre la plus receptive (matin/debut d'apres-midi).
 on:
   schedule:
-    - cron: '30 6 * * 1-5'    # 08h30 Paris (lundi-vendredi)
-    - cron: '30 8 * * 1-5'    # 10h30 Paris
-    - cron: '0 12 * * 1-5'    # 14h00 Paris
-    - cron: '0 14 * * 1-5'    # 16h00 Paris (ajoute 13/08 : 6/jour)
-    - cron: '0 16 * * 1-5'    # 18h00 Paris
-    - cron: '0 17 * * 1-5'    # 19h00 Paris
+    - cron: '30 6 * * *'    # 08h30 Paris (7j/7 - weekend inclus, decision Mahdi 16/08)
+    - cron: '30 8 * * *'    # 10h30 Paris
+    - cron: '0 12 * * *'    # 14h00 Paris
+    - cron: '0 14 * * *'    # 16h00 Paris (ajoute 13/08 : 6/jour)
+    - cron: '0 16 * * *'    # 18h00 Paris
+    - cron: '0 17 * * *'    # 19h00 Paris
   workflow_dispatch:          # bouton "Run workflow" = envoyer maintenant
 
 jobs:
