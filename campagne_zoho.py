@@ -229,7 +229,12 @@ def load_followups():
 
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("-")]
-    daily_max = int(args[0]) if args and args[0].isdigit() else DAILY_MAX
+    # Quota journalier : DAILY_MAX par defaut (warm-up), ou 1er argument numerique positionnel (legacy).
+    # IMPORTANT (fix 16/08) : --max ne doit JAMAIS devenir le quota journalier, sinon 3 relances
+    # envoyees le matin epuisent le quota et plus rien ne part de la journee.
+    daily_max = DAILY_MAX
+    if "--max" not in sys.argv and args and args[0].isdigit():
+        daily_max = int(args[0])
     dry = "--dry-run" in sys.argv
     # Limite d'emails par run (pour espacer les envois a differents horaires).
     # Ex: --max 1 avec 3 crons 8h30/12h30/17h30 = 3 emails/jour espaces.
