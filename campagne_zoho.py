@@ -12,6 +12,7 @@ Usage:
 import os
 import json
 import sys
+import time
 import datetime
 import urllib.request
 import urllib.parse
@@ -247,6 +248,19 @@ def main():
     if os.path.exists(os.path.join(BASE, "PAUSE_ENVOIS")):
         print("ENVOIS PAUSES : fichier PAUSE_ENVOIS present, aucun envoi ce run.")
         return
+    # VERROU LOCAL : un seul processus d'envoi a la fois (fix 16/08, anti-double-run).
+    lock = os.path.join(BASE, "SEND_LOCK")
+    if "--dry-run" not in sys.argv:
+        if os.path.exists(lock):
+            try:
+                age = time.time() - os.path.getmtime(lock)
+            except Exception:
+                age = 0
+            if age < 3 * 3600:
+                print("ENVOI BLOQUE : un autre processus tourne (SEND_LOCK frais, %.0f min)." % (age / 60))
+                return
+            print("SEND_LOCK stale (%.0f min) : reprise." % (age / 60))
+        open(lock, "w").write(datetime.datetime.now().isoformat())
     args = [a for a in sys.argv[1:] if not a.startswith("-")]
     # Quota journalier : DAILY_MAX par defaut (warm-up), ou 1er argument numerique positionnel (legacy).
     # IMPORTANT (fix 16/08) : --max ne doit JAMAIS devenir le quota journalier, sinon 3 relances
@@ -383,6 +397,10 @@ def main():
             _time.sleep(DELAY_S)
 
     save_state(state)
+    try:
+        os.remove(lock)  # liberation du verrou local (fix 16/08)
+    except OSError:
+        pass
     rest = len(emails) - len(sent)
     lines.append("Restants : %d" % rest)
     if bloquees_skips:

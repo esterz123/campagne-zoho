@@ -7,3 +7,4 @@ kit_dm_masse_backup_*.json
 .sessionid.txt
 .paypal_link.txt
 __pycache__/
+SEND_LOCK
