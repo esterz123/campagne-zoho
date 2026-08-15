@@ -251,8 +251,9 @@ def main():
             typ, msg = parse_out(out)
         except Exception as e:
             typ, msg = "reply", ("Erreur de generation : %s" % str(e)[:100])
-        # garde-fou anti-tiret
-        msg = msg.replace("—", ",").replace("–", ",")
+        # garde-fou anti-tiret + anti-apostrophe typographique (fix 16/08 : l'IA genere U+2019)
+        msg = msg.replace("\u2014", ",").replace("\u2013", ",")
+        msg = msg.replace("\u2019", "'").replace("\u2018", "'")
         if dry:
             rapports.append("[DRY] %s : %s\n%s" % (m["from"], "CLOSE(prix)" if objection else "CLOSE", msg[:300]))
             traites.add(m["id"])

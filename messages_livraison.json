@@ -1,0 +1,17 @@
+{
+ "livraison_diagnostic": {
+  "description": "A envoyer avec le docx genere (generateur_diagnostic.py) quand le client a PAYE le diagnostic 79 EUR.",
+  "subject": "Votre diagnostic est prêt",
+  "body": "Bonjour {dirigeant},\n\nVotre diagnostic est prêt, le voici en pièce jointe.\n\nVous y trouverez : l'état de votre présence en ligne point par point, la comparaison avec vos concurrents, et les 5 actions concrètes dans l'ordre d'impact.\n\nLisez-le à votre rythme. Si une action vous semble irréaliste ou si un point manque de clarté, répondez simplement à cet email et je vous précise le détail.\n\nEt si vous voulez aller plus loin sur l'une des recommandations, le montant du diagnostic est déduit du projet.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+ },
+ "temoignage": {
+  "description": "A envoyer 3 jours apres la livraison (si pas de reponse) ou des la reaction du client.",
+  "subject": "Votre avis sur le diagnostic",
+  "body": "Bonjour {dirigeant},\n\nJ'espère que le diagnostic vous a été utile. Une question simple, qui m'aide beaucoup : qu'est-ce qui vous a le plus surpris ou le plus convaincu dans le rapport ?\n\nAvec votre accord, j'aimerais partager votre retour (anonymement ou avec votre nom, comme vous préférez) sur mon portfolio, pour aider d'autres dirigeants à savoir à quoi s'attendre.\n\nUne ligne suffit, et si vous connaissez un autre dirigeant dont le site ne reflète plus son entreprise, transmettez-lui mon email, je m'occupe du reste.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+ },
+ "relance_deadline_rentree": {
+  "description": "Pour les leads CHAUDS (conversations ouvertes) vers le 25-29/08 : urgence Rentree.",
+  "subject": "Il reste 2 places pour septembre",
+  "body": "Bonjour {dirigeant},\n\nJe reviens vers vous au sujet de votre projet, car une information change la donne : l'offre de rentrée se termine le 31 août. Il reste 2 places sur les 3 projets complets de marque et de site au tarif de l'an dernier (2 900 euros au lieu de 3 900, devis sous 48h).\n\nSi votre projet est toujours d'actualité, c'est le bon moment pour réserver la place, sans engagement de votre part : le devis est gratuit et vous décidez ensuite.\n\nUne simple réponse suffit, je m'occupe du reste.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+ }
+}
