@@ -5,8 +5,8 @@ name: Chasseuse H24
 # Quota interne : max 6 fiches/jour, 3 par run (anti-spam, anti-blocage)
 on:
   schedule:
-    - cron: '0 7 * * 1-5'    # 09h00 Paris
-    - cron: '0 17 * * 1-5'   # 19h00 Paris
+    - cron: '0 7 * * *'    # 09h00 Paris
+    - cron: '0 17 * * *'   # 19h00 Paris
   workflow_dispatch:          # bouton "Run workflow" = chasser maintenant
 
 jobs:

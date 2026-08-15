@@ -80,6 +80,75 @@ def verrou_email(email, site, bloquees, deja_emails):
         return False, "domaine email != site (%s vs %s)" % (domaine, site_dom)
     return True, "ok"
 
+A_REVOIR_F = os.path.join(BASE, "a_revoir.json")
+
+def hold_fiche(cand, site, email, constats, score, raison):
+    """Candidat douteux -> a_revoir.json (revue humaine au retour), JAMAIS envoye tel quel."""
+    rev = load_json(A_REVOIR_F, [])
+    rev.append({"date": date.today().isoformat(), "raison": raison,
+                "nom": cand.get("nom"), "siren": cand.get("siren"),
+                "ville": cand.get("ville"), "site": site, "email": email,
+                "constats": constats, "score": score})
+    save_json(A_REVOIR_F, rev)
+
+def dirigeant_fiche(siren):
+    """Nom du dirigeant reel via API officielle (gratuite), remontee de chaine holding (max 3).
+    Retourne (nom, tranche_effectif, statut). Lecons 15/08 : SAS -> holding -> personne physique.
+    Priorite : President > Gerant > DG ; un CAC seul ne compte JAMAIS comme dirigeant."""
+    def fetch_siren(s):
+        url = 'https://recherche-entreprises.api.gouv.fr/search?q=%s&per_page=1' % urllib.parse.quote(str(s))
+        with urllib.request.urlopen(url, timeout=25) as r:
+            j = json.loads(r.read().decode('utf-8'))
+        return next((x for x in j.get('results', []) if x.get('siren') == str(s)), {})
+    def prio(d):
+        q = d.get('qualite') or ''
+        if 'Président' in q or 'President' in q:
+            return 0
+        if 'Gérant' in q or 'Gerant' in q:
+            return 1
+        if 'Directeur Général' in q or 'Directeur General' in q:
+            return 2
+        return 3
+    try:
+        res = fetch_siren(siren)
+        if not res:
+            return None, '', 'INTROUVABLE'
+        tranche = res.get('tranche_effectif_salarie') or ''
+        courant = str(siren)
+        for _ in range(3):
+            res2 = fetch_siren(courant)
+            dirs = res2.get('dirigeants', [])
+            phys = [d for d in dirs if d.get('type_dirigeant') == 'personne physique']
+            morales = [d for d in dirs if d.get('type_dirigeant') == 'personne morale']
+            phys.sort(key=prio)
+            morales.sort(key=lambda d: 0 if ('Président' in (d.get('qualite') or '') or 'President' in (d.get('qualite') or '')) else 1)
+            reel = [d for d in phys if prio(d) < 3]
+            if reel:
+                d = reel[0]
+                nom = ((d.get('prenoms') or '') + ' ' + (d.get('nom') or '')).strip()
+                return nom, tranche, 'OK'
+            # pas de dirigeant physique reel : remonter la holding president
+            if morales and morales[0].get('siren'):
+                courant = morales[0]['siren']
+                continue
+            if phys:
+                # personne physique non dirigeante (CAC) : statut special, JAMAIS envoye tel quel
+                d = phys[0]
+                nom = ((d.get('prenoms') or '') + ' ' + (d.get('nom') or '')).strip()
+                return nom, tranche, 'CAC_SEUL'
+            return None, tranche, 'SANS_DIRIGEANT'
+        return None, tranche, 'HOLDING_TROP_PROFONDE'
+    except Exception as e:
+        return None, '', 'API_ERREUR:%s' % str(e)[:50]
+
+def effectif_cible(tranche):
+    """Cible 10-50 salaries. Inconnu -> A_REVOIR. Hors cible -> NON."""
+    if not tranche or tranche in ('NN', '?'):
+        return 'A_REVOIR'
+    if re.search(r'à 9 salariés|50 à|100 à|200 à|250 à|300 à|500 à|1000', tranche):
+        return 'NON'
+    return 'OK'
+
 # Codes NAF du canal TECH (zone de confort Mahdi : branding startup/SaaS)
 NAF_TECH = ("5829C", "6201Z", "6202A", "6312Z", "4791B", "7410Z")
 
@@ -131,10 +200,14 @@ def rediger_email(fiche, max_secondes=120):
             "Entreprise : %(nom)s (%(ville)s, %(region)s)\n"
             "Activite : %(naf)s\n"
             "Site : %(site)s\n"
+            "Dirigeant : %(dirigeant)s\n"
             "Constats verifies sur le site : %(constats)s\n\n"
-            "Ecris un email de prospection personnalise pour le dirigeant de cette entreprise. "
-            "Structure : premiere ligne 'SUJET: ' + un sujet accrocheur (1 phrase, sans tiret), "
+            "Ecris un email de prospection personnalise pour %(dirigeant)s. "
+            "STRUCTURE OBLIGATOIRE : premiere ligne 'SUJET: ' + un sujet accrocheur (1 phrase, sans tiret), "
             "puis une ligne vide, puis le corps. "
+            "Le corps DOIT commencer par 'Bonjour M. NOM,' ou 'Bonjour Mme NOM,' (le nom de famille du "
+            "dirigeant en majuscules) et DOIT se terminer par 'Cordialement,' puis 'Mahdi' puis "
+            "'Portfolio : mahdi-design.com' sur sa propre ligne. "
             "Le corps doit mentionner concretement un ou deux des constats listes ci-dessus, "
             "proposer un diagnostic gratuit de 30 minutes, et demander une simple reponse. "
             "Ne invente aucun autre fait. Reponds UNIQUEMENT avec l'email."
@@ -156,6 +229,13 @@ def rediger_email(fiche, max_secondes=120):
         return None
     if any(c in sujet + corps for c in ("—", "–")) or len(corps) < 80:
         return None
+    # Revue automatique du corps (lecons 15/08) : salutation + signature obligatoires
+    nom_famille = (fiche.get("dirigeant") or "").strip().split()[-1].upper()
+    if nom_famille and not re.search(r"^Bonjour (M\.|Mme) %s[,.]" % re.escape(nom_famille), corps, re.M):
+        corps = re.sub(r"^Bonjour[^,\n]*,\s*\n?", "", corps, count=1)
+        corps = "Bonjour M. %s,\n\n%s" % (nom_famille, corps.lstrip())
+    if "Portfolio : mahdi-design.com" not in corps:
+        corps = corps.rstrip() + "\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
     return sujet, corps
 
 def main():
@@ -215,15 +295,37 @@ def main():
         if not ok:
             print("  VERROU: %s, skip" % raison)
             continue
+        # REVUE AUTOMATIQUE (lecons 15/08) : dirigeant reel + effectif cible AVANT redaction
+        nom_dir, tranche, st = dirigeant_fiche(cand.get("siren", ""))
+        eff = effectif_cible(tranche)
+        if eff == 'NON':
+            print("  effectif hors cible (%s) -> skip" % tranche)
+            continue
+        if st != 'OK' or eff == 'A_REVOIR':
+            print("  dirigeant %s / effectif %s -> A REVOIR (jamais envoye sans nom)" % (st, tranche))
+            hold_fiche(cand, site, email, constats, score, 'dirigeant:%s effectif:%s' % (st, tranche))
+            continue
         fiche = dict(cand)
         fiche.update({"site": site, "email": email, "constats": constats,
-                      "score": score, "date": today})
+                      "score": score, "date": today, "dirigeant": nom_dir})
         # REDACTION de l'email (IA gratuite)
         res = rediger_email(fiche)
         if not res:
             print("  redaction KO (IA ou valideur), skip")
             continue
         sujet, corps = res
+        # Gardes de contenu (lecons 15/08) : zero prix, zero caractere interdit
+        if any(x in sujet + corps for x in ('2900', '3900', '79 EUR', '79 €', '1 900')):
+            print("  prix dans le 1er contact -> A REVOIR")
+            hold_fiche(cand, site, email, constats, score, 'prix dans corps')
+            continue
+        if '\u2019' in corps or '\u2014' in corps or '\u2013' in corps:
+            corps = corps.replace('\u2019', "'").replace('\u2014', ',').replace('\u2013', ',')
+        nom_famille = nom_dir.strip().split()[-1].upper()
+        if not re.search(r'^Bonjour (M\.|Mme) %s[,.]' % re.escape(nom_famille), corps, re.M):
+            print("  greeting invalide -> A REVOIR")
+            hold_fiche(cand, site, email, constats, score, 'greeting:%s' % nom_famille)
+            continue
         num = str(max([int(e.get("num", 0)) for e in data] + [0]) + 1)
         entry = {
             "num": num,
@@ -233,6 +335,7 @@ def main():
             "subject": sujet,
             "body": corps,
             "to_confirmed": True,
+            "dirigeant": nom_dir,
             "siren": cand.get("siren", ""),
             "site": site,
         }
