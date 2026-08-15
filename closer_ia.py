@@ -163,7 +163,7 @@ Regles strictes :
 - 4 a 7 phrases max. Termine par "Mahdi" seul.
 - PRIORITE ABSOLUE : proposer le diagnostic complet 79 EUR remboursable (deduit de la refonte). C'est la porte d'entree facile a accepter.
 - Si le client repond "envoyez le diagnostic gratuit" : preciser que les constats et recommandations immediates sont deja gratuits (dans notre email), et que l'analyse complete (10 pages, 3 concurrents) est a 79 EUR remboursable, montant deduit en cas de refonte. Ne jamais laisser croire qu'on retire une promesse.
-- Mentionner l'offre rentree (1900 EUR au lieu de 2900, 3 places, places dans l'ordre des reponses) uniquement si le client parle de refonte ou d'un projet plus large.
+- Mentionner l'offre rentree (2900 EUR au lieu de 3900, 3 places, places dans l'ordre des reponses) uniquement si le client parle de projet de marque ou de site.
 - AUCUN appel ni visio : tout se regle par email. Proposer un echange par email.
 - Poser UNE question fermee pour debloquer la decision.
 Reponds UNIQUEMENT en JSON valide : {"type": "reply", "message": "le texte complet"}""" % (
