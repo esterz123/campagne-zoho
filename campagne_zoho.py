@@ -24,7 +24,7 @@ STATE = os.path.join(BASE, "campagne_state.json")
 
 ACCOUNT_ID = "7349712000000008002"
 FROM = "contact@mahdi-design.com"
-DAILY_MAX = 17  # 5 boites : contact 5/jour + 4 boites neuves 3/jour (warm-up), rotation 15/08
+DAILY_MAX = 25  # 5 boites : contact 5/jour + 4 boites neuves 3/jour (warm-up), rotation 15/08
 
 # ---- VERROU ANTI-ERREUR (garde-fou permanent) ----
 # Un email dont le domaine est ici est un PIEGE (annuaire/scraper/mail gratuit/
