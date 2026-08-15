@@ -6,3 +6,4 @@ kit_dm_masse_backup_*.json
 *.png
 .sessionid.txt
 .paypal_link.txt
+__pycache__/
