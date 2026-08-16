@@ -4,13 +4,6 @@
   "semaine": 500,
   "note": "Objectifs decides le 14/08/2026 : 2000 EUR/mois (1 projet branding), 500 EUR/semaine ou 1re entree d'argent. Pas de course au cash rapide."
  },
- "entrees": [
-  {
-   "date": "2026-06-18",
-   "montant": 100,
-   "source": "Acompte PayPal (Estry Studio) - Jean-Noel Jabir, projet SAYMYNAME (landing page naming)",
-   "statut": "encaisse",
-   "note": "Acompte recu le 18/06 (confirme par email). Projet en stand-by VOLONTAIRE du client depuis le 03/07 ('je reviens vers vous des que je suis pret'). Relance douce prevue debut septembre. Le montant restant (landing complete) sera facture a la reprise."
-  }
- ]
+ "entrees": [],
+ "note_compteur": "Compteur reparti a 0 le 16/08/2026 (decision Mahdi). Hors compteur : acompte 100 EUR Jean-Noel Jabir (SAYMYNAME) encaisse juin 2026, avant le cycle actuel."
 }
