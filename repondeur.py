@@ -27,6 +27,41 @@ AUTO_PATTERNS = [
     "dmarc", "report domain", "dmarcreport",
 ]
 
+# DETECTEUR DE PAIEMENT PAYPAL : quand un client paie (diagnostic 79 EUR, acompte),
+# PayPal envoie un email de confirmation -> on enregistre l'entree et on alerte.
+SUIVI_REVENUS_F = os.path.join(BASE, "suivi_revenus.json")
+PAYPAL_SUJETS = ("paiement re\u00e7u", "paiement de", "payment received",
+                 "you received a payment", "vous avez re\u00e7u un paiement", "payment from")
+
+def est_paiement_paypal(frm, summary, subject):
+    f = (frm or "").lower()
+    if "paypal" not in f:
+        return False
+    t = ((summary or "") + " " + (subject or "")).lower()
+    return any(p in t for p in PAYPAL_SUJETS)
+
+def extraire_montant(txt):
+    m = re.search(r"([\d\u00a0\s]+[.,]\d{2})\s*(?:EUR|\u20ac|USD)", txt)
+    if m:
+        return float(m.group(1).replace("\u00a0", "").replace(" ", "").replace(",", "."))
+    return None
+
+def enregistrer_paiement(montant, frm, summary):
+    """Ajoute l'entree dans suivi_revenus.json (lu par le dashboard : encaisse)."""
+    try:
+        d = json.load(open(SUIVI_REVENUS_F, encoding="utf-8")) if os.path.exists(SUIVI_REVENUS_F) else {"entrees": []}
+        d.setdefault("entrees", []).append({
+            "date": datetime.date.today().isoformat(),
+            "montant": montant,
+            "source": "PayPal (" + (frm or "") + ")",
+            "statut": "encaisse" if montant else "a_verifier",
+            "note": (summary or "")[:100],
+        })
+        json.dump(d, open(SUIVI_REVENUS_F, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        return True
+    except Exception:
+        return False
+
 
 def load_boites():
     """Les 5 boites d'envoi. Priorite env (GitHub Actions), sinon .boites_zoho.json local."""
@@ -278,6 +313,13 @@ def main():
             frm = m["from"].lower()
             if is_ours(m["from"]):
                 traites.add(m["id"])
+                continue
+            if est_paiement_paypal(m["from"], m["summary"], m["subject"]):
+                traites.add(m["id"])
+                montant = extraire_montant((m["summary"] or "") + " " + (m["subject"] or ""))
+                if enregistrer_paiement(montant, m["from"], m["summary"]):
+                    rapports.append("[PAIEMENT] %s : %s EUR (entree suivi_revenus ajoutee)"
+                                    % (m["from"], montant if montant is not None else "montant a verifier"))
                 continue
             if is_auto(m["summary"], m["subject"]):
                 traites.add(m["id"])
