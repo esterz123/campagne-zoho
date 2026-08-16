@@ -108,7 +108,7 @@ def load_boites():
                        "account_id": env("ZOHO_ACCOUNT_ID", ACCOUNT_ID),
                        "client_id": env("ZOHO_CLIENT_ID"), "client_secret": env("ZOHO_CLIENT_SECRET"),
                        "refresh_token": env("ZOHO_REFRESH_TOKEN"),
-                       "max_jour": int(env("ZOHO_MAX_JOUR", "5"))})
+                       "max_jour": int(env("ZOHO_MAX_JOUR", "7"))})
     # Boites 2-5 : mahdi-design.com ; boites 6-10 : mahdi-design.fr (2e domaine)
     noms = {2: "commercial", 3: "hello", 4: "info", 5: "direction",
             6: "contact", 7: "commercial", 8: "hello", 9: "info", 10: "direction"}
@@ -325,6 +325,8 @@ def main():
             due_fu.append(("relance1", num))
         elif "sent_relance2" not in v and days >= fu.get("relance2", {}).get("wait_days", 99):
             due_fu.append(("relance2", num))
+        elif "sent_relance3" not in v and days >= fu.get("relance3", {}).get("wait_days", 99):
+            due_fu.append(("relance3", num))
     due_fu.sort(key=lambda x: (fu[x[0]].get("wait_days", 99), int(x[1])))
 
     quota = max(0, daily_max - len(sent_today))

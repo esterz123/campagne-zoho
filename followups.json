@@ -2,11 +2,16 @@
  "relance1": {
   "wait_days": 3,
   "subject": "Re : {sujet}",
-  "body": "Bonjour,\n\nJe me permets de revenir vers vous au sujet de mon email d'il y a quelques jours, concernant votre site internet.\n\nSi vous avez 5 minutes, je vous montre précisément ce que j'ai trouvé : l'état de votre site point par point, la comparaison avec 2 concurrents, et 5 actions concrètes. C'est 79 euros, remboursé intégralement si vous n'y trouvez aucune valeur, et déduit du prix si vous décidez une refonte.\n\nPour septembre, je ne reprends que 3 projets complets de marque et de site au tarif de l'an dernier : 2 900 euros au lieu de 3 900, devis sous 48h. Les places partent dans l'ordre des réponses, et l'offre se termine le 31 août.\n\nSi vous n'êtes pas intéressé, un simple \"non merci\" me suffit et je ne vous écris plus.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  "body": "Bonjour,\n\nJe me permets de revenir vers vous au sujet de mon email d'il y a quelques jours, concernant votre site internet.\n\nSi vous avez 5 minutes, je vous montre gratuitement ce que j'ai trouvé : les points qui datent, et ce que vos visiteurs en concluent. Une simple réponse suffit, je m'occupe du reste.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
  },
  "relance2": {
   "wait_days": 7,
   "subject": "Re : {sujet}",
   "body": "Bonjour,\n\nC'est ma dernière prise de contact au sujet de votre site internet.\n\nJe pars du principe que vous n'êtes pas intéressé pour le moment, et je respecte cela. Une dernière information, pour être complet : mon offre de rentrée (3 projets complets de marque et de site à 2 900 euros au lieu de 3 900) se termine le 31 août. Si le sujet vous revient avant, une simple réponse suffit.\n\nSi un jour votre site vous préoccupe, pensez à moi, mon email est en bas de ce message.\n\nJe vous souhaite une bonne journée.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+ },
+ "relance3": {
+  "wait_days": 30,
+  "subject": "Une dernière chose sur votre site",
+  "body": "Bonjour,\n\nJe ne vous relancerai plus après cet email : je pars du principe que le sujet n'est pas d'actualité pour vous, et je le respecte.\n\nJuste une dernière information : si un jour votre site vous préoccupe (un concurrent qui vous dépasse, un client qui fait une remarque, une refonte qui traîne), mon email est en bas de ce message et mon portfolio est à jour. Une simple réponse suffit, je m'occupe du reste.\n\nBon courage pour la suite.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
  }
 }
