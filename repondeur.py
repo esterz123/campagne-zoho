@@ -23,6 +23,8 @@ AUTO_PATTERNS = [
     "reponse automatique", "automatic reply", "out of office",
     "cong", "vacances", "je serai", "de retour", "absent",
     "prendrai connaissance", "a mon retour", "disponible a partir",
+    # Rapports DMARC quotidiens (Microsoft/Google) : jamais de reponse
+    "dmarc", "report domain", "dmarcreport",
 ]
 
 
