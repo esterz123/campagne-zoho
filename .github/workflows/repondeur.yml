@@ -37,6 +37,27 @@ jobs:
           ZOHO_B5_CLIENT_SECRET: ${{ secrets.ZOHO_B5_CLIENT_SECRET }}
           ZOHO_B5_REFRESH_TOKEN: ${{ secrets.ZOHO_B5_REFRESH_TOKEN }}
           ZOHO_B5_ACCOUNT_ID: ${{ secrets.ZOHO_B5_ACCOUNT_ID }}
+          # 2e domaine mahdi-design.fr (B6-B10) : actives au 1er euro, ignores tant qu absents
+          ZOHO_B6_CLIENT_ID: ${{ secrets.ZOHO_B6_CLIENT_ID }}
+          ZOHO_B6_CLIENT_SECRET: ${{ secrets.ZOHO_B6_CLIENT_SECRET }}
+          ZOHO_B6_REFRESH_TOKEN: ${{ secrets.ZOHO_B6_REFRESH_TOKEN }}
+          ZOHO_B6_ACCOUNT_ID: ${{ secrets.ZOHO_B6_ACCOUNT_ID }}
+          ZOHO_B7_CLIENT_ID: ${{ secrets.ZOHO_B7_CLIENT_ID }}
+          ZOHO_B7_CLIENT_SECRET: ${{ secrets.ZOHO_B7_CLIENT_SECRET }}
+          ZOHO_B7_REFRESH_TOKEN: ${{ secrets.ZOHO_B7_REFRESH_TOKEN }}
+          ZOHO_B7_ACCOUNT_ID: ${{ secrets.ZOHO_B7_ACCOUNT_ID }}
+          ZOHO_B8_CLIENT_ID: ${{ secrets.ZOHO_B8_CLIENT_ID }}
+          ZOHO_B8_CLIENT_SECRET: ${{ secrets.ZOHO_B8_CLIENT_SECRET }}
+          ZOHO_B8_REFRESH_TOKEN: ${{ secrets.ZOHO_B8_REFRESH_TOKEN }}
+          ZOHO_B8_ACCOUNT_ID: ${{ secrets.ZOHO_B8_ACCOUNT_ID }}
+          ZOHO_B9_CLIENT_ID: ${{ secrets.ZOHO_B9_CLIENT_ID }}
+          ZOHO_B9_CLIENT_SECRET: ${{ secrets.ZOHO_B9_CLIENT_SECRET }}
+          ZOHO_B9_REFRESH_TOKEN: ${{ secrets.ZOHO_B9_REFRESH_TOKEN }}
+          ZOHO_B9_ACCOUNT_ID: ${{ secrets.ZOHO_B9_ACCOUNT_ID }}
+          ZOHO_B10_CLIENT_ID: ${{ secrets.ZOHO_B10_CLIENT_ID }}
+          ZOHO_B10_CLIENT_SECRET: ${{ secrets.ZOHO_B10_CLIENT_SECRET }}
+          ZOHO_B10_REFRESH_TOKEN: ${{ secrets.ZOHO_B10_REFRESH_TOKEN }}
+          ZOHO_B10_ACCOUNT_ID: ${{ secrets.ZOHO_B10_ACCOUNT_ID }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: python3 repondeur.py

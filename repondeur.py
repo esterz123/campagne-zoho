@@ -40,6 +40,14 @@ def load_boites():
              "refresh_token": env("ZOHO_B%d_REFRESH_TOKEN" % i), "account_id": env("ZOHO_B%d_ACCOUNT_ID" % i)}
         if all(b[k] for k in ("client_id", "client_secret", "refresh_token", "account_id")):
             boites.append(b)
+    # 2e domaine (mahdi-design.fr) : B6-B10, actives des que les secrets existent
+    noms2 = {6: "contact", 7: "commercial", 8: "hello", 9: "info", 10: "direction"}
+    for i, nom in noms2.items():
+        b = {"nom": nom + "2", "from": nom + "@mahdi-design.fr",
+             "client_id": env("ZOHO_B%d_CLIENT_ID" % i), "client_secret": env("ZOHO_B%d_CLIENT_SECRET" % i),
+             "refresh_token": env("ZOHO_B%d_REFRESH_TOKEN" % i), "account_id": env("ZOHO_B%d_ACCOUNT_ID" % i)}
+        if all(b[k] for k in ("client_id", "client_secret", "refresh_token", "account_id")):
+            boites.append(b)
     if boites:
         return boites
     local = os.path.join(os.path.dirname(BASE), ".boites_zoho.json")

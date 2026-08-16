@@ -98,7 +98,9 @@ def load_creds():
 
 def load_boites():
     """Les 5 boites d'envoi en rotation. Priorite env (GitHub Actions), sinon
-    fichier local .boites_zoho.json (dossier parent de BASE)."""
+    fichier local .boites_zoho.json (dossier parent de BASE).
+    Domaine 2 (mahdi-design.fr, achete au 1er euro) : boites B6-B10, activees
+    automatiquement des que les secrets existent. ZERO impact sinon."""
     env = os.environ.get
     boites = []
     if env("ZOHO_CLIENT_ID") and env("ZOHO_CLIENT_SECRET") and env("ZOHO_REFRESH_TOKEN"):
@@ -107,10 +109,14 @@ def load_boites():
                        "client_id": env("ZOHO_CLIENT_ID"), "client_secret": env("ZOHO_CLIENT_SECRET"),
                        "refresh_token": env("ZOHO_REFRESH_TOKEN"),
                        "max_jour": int(env("ZOHO_MAX_JOUR", "5"))})
-    for i, nom in ((2, "commercial"), (3, "hello"), (4, "info"), (5, "direction")):
+    # Boites 2-5 : mahdi-design.com ; boites 6-10 : mahdi-design.fr (2e domaine)
+    noms = {2: "commercial", 3: "hello", 4: "info", 5: "direction",
+            6: "contact", 7: "commercial", 8: "hello", 9: "info", 10: "direction"}
+    for i, nom in noms.items():
         p = "ZOHO_B%d_" % i
         if env(p + "CLIENT_ID") and env(p + "CLIENT_SECRET") and env(p + "REFRESH_TOKEN"):
-            boites.append({"nom": nom, "from": nom + "@mahdi-design.com",
+            domaine = "mahdi-design.fr" if i >= 6 else "mahdi-design.com"
+            boites.append({"nom": nom + ("2" if i >= 6 else ""), "from": nom + "@" + domaine,
                            "account_id": env(p + "ACCOUNT_ID", ""),
                            "client_id": env(p + "CLIENT_ID"), "client_secret": env(p + "CLIENT_SECRET"),
                            "refresh_token": env(p + "REFRESH_TOKEN"),
@@ -266,6 +272,9 @@ def main():
     # IMPORTANT (fix 16/08) : --max ne doit JAMAIS devenir le quota journalier, sinon 3 relances
     # envoyees le matin epuisent le quota et plus rien ne part de la journee.
     daily_max = DAILY_MAX
+    # 2e domaine (mahdi-design.fr, boites B6-B10) : plafond global x2 quand il est actif
+    if any(os.environ.get("ZOHO_B%d_CLIENT_ID" % i) for i in (6, 7, 8, 9, 10)):
+        daily_max = max(daily_max, 50)
     if "--max" not in sys.argv and args and args[0].isdigit():
         daily_max = int(args[0])
     dry = "--dry-run" in sys.argv
