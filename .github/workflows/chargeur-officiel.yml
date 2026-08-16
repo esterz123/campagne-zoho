@@ -17,7 +17,9 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Charger les candidats officiels
-        run: python3 chargeur_officiel.py
+        run: |
+          python3 chargeur_officiel.py
+          python3 chargeur_cabinets.py || echo "chargeur cabinets: rien de nouveau"
 
       - name: Sauvegarde reserve
         run: |
