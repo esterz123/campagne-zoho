@@ -43,8 +43,8 @@ DATA_F = os.path.join(BASE, "campagne_data.json")
 BLOQUEES_F = os.path.join(BASE, "domaines_bloques.json")
 QUOTA_F = os.path.join(BASE, "chasseuse_quota.json")
 
-MAX_PAR_RUN = 5            # fiches ajoutees max par run (qualite > volume) - 16/08 : 3 -> 5
-MAX_PAR_JOUR = 10          # quota journalier (anti-spam, anti-blocage) - 16/08 : 6 -> 10
+MAX_PAR_RUN = 8            # fiches ajoutees max par run (qualite > volume) - 17/08 : 5 -> 8
+MAX_PAR_JOUR = 35          # quota journalier : la file consomme 24/jour, on produit 35 pour qu'elle CROSSE - 17/08 : 10 -> 35
 TEMP_EMAILS = ("gmail.com", "orange.fr", "free.fr", "yahoo.fr", "hotmail.fr",
                "laposte.net", "numericable.fr", "wanadoo.fr", "outlook.fr",
                "gmx.fr", "protonmail.com")
