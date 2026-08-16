@@ -1,0 +1,41 @@
+name: Chargeur officiel H24
+
+# Remplit candidats_bruts.json depuis l'API officielle de l'Etat (gratuite, sans cle).
+# La chasseuse consomme ensuite la reserve : la file ne s'epuise jamais.
+on:
+  schedule:
+    - cron: '0 10 * * *'    # 12h00 Paris (apres la chasseuse du matin)
+  workflow_dispatch:        # bouton "Run workflow" = charger maintenant
+
+permissions:
+  contents: write
+
+jobs:
+  chargeur:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Charger les candidats officiels
+        run: python3 chargeur_officiel.py
+
+      - name: Sauvegarde reserve
+        run: |
+          git config user.name "campagne-bot"
+          git config user.email "campagne-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "chargeur officiel: reserve mise a jour" || echo "rien a commiter"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash 2>/dev/null && git push; then
+              echo "etat sauvegarde (tentative $i)"
+              break
+            fi
+            echo "push rejete (tentative $i), nouvelle tentative dans 15s..."
+            sleep 15
+          done
+
+      - name: Notifier erreur sur Discord
+        if: ${{ failure() && env.DISCORD_WEBHOOK != '' }}
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python3 notify_discord.py --error
