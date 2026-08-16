@@ -75,6 +75,9 @@ def planifier_relance_conges(prosp, frm, date_retour):
             if e0:
                 m = re.search(r"\*\*(.+?)\*\*", e0[0].get("body", ""), re.S)
                 constat = (m.group(1).strip() + ".") if m else ""
+                if not constat:
+                    # fallback : le sujet initial porte le constat (anciens formats sans gras)
+                    constat = (e0[0].get("subject") or "").strip() + "."
         except Exception:
             pass
         jour = date_retour.day
