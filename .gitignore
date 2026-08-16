@@ -15,3 +15,8 @@ SEND_LOCK
 # Fichiers secrets locaux (jamais pousses)
 .zoho_tokens.json
 .boites_zoho.json
+
+# Secrets locaux (retires du suivi 16/08)
+.ia_tokens.json
+.paypal_link.txt
+captures/

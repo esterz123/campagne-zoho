@@ -1,7 +1,0 @@
-{
-  "portal": "sk-nous-j0sAOBgMY7mxYaWa0X24KWFOndVfqLGC",
-  "mistral": "kkZC07r9PPr22LxdLIprUwYtN115YUbB",
-  "groq": "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",
-  "openrouter": "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",
-  "_note": "Fichier LOCAL uniquement, jamais pousse sur GitHub. SEULS les modeles GRATUITS sont appeles. Portal: uniquement modeles finissant par :free (tencent/hy3:free, stepfun/step-3.7-flash:free, poolside/laguna-*:free, upstage/solar-pro4:free). Mistral=1B tokens/mois. Groq=1000-14400 req/jour. OpenRouter=uniquement :free (50/jour, secours)."
-}
