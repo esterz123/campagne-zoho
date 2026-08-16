@@ -20,3 +20,4 @@ SEND_LOCK
 .ia_tokens.json
 .paypal_link.txt
 captures/
+_dedup_*.json
