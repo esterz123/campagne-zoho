@@ -4,7 +4,7 @@ name: Repondeur IA
 # Lit la boite, repond aux clients de la campagne via Gemini, alerte Discord.
 on:
   schedule:
-    - cron: '0 7-21 * * *'
+    - cron: '*/15 7-21 * * *'   # toutes les 15 min 8h-22h Paris : reponse <15 min = facteur n1 de conversion
   workflow_dispatch:      # bouton "Run workflow" = verifier maintenant
 
 jobs:

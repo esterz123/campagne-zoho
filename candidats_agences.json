@@ -1,0 +1,898 @@
+[
+ {
+  "nom": "AGENCE WEB P24",
+  "ville": "EMERAINVILLE",
+  "naf": "62.01Z",
+  "siren": "821211943",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "JK2 AGENCE WEB",
+  "ville": "CHASSE-SUR-RHONE",
+  "naf": "62.01Z",
+  "siren": "918026048",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "CAFE AGENCE WEB (CAW)",
+  "ville": "PARIS",
+  "naf": "62.01Z",
+  "siren": "825241649",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE GESTION COMMUNICATION WEB (AGC WEB) (AGC WEB)",
+  "ville": "VINEZAC",
+  "naf": "62.01Z",
+  "siren": "853595957",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE WEB-SOLUTIONS-COMMUNICATION",
+  "ville": "LA POSSESSION",
+  "naf": "62.01Z",
+  "siren": "824317994",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "FUTUR WEB (FUTUR WEB) (FW)",
+  "ville": "PARIS",
+  "naf": "62.01Z",
+  "siren": "901585950",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "WEB EXPANSION AGENCY (WEB EXPANSION)",
+  "ville": "LES ABYMES",
+  "naf": "62.01Z",
+  "siren": "809315393",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "WEB LOCAL COMMUNICATION (AGENCE WEB LEADER REFERENCEMENT; KILOUNET; KILOUSITE; NET CONSULTANT; WEB CONSULTANT) (W.L.C.)",
+  "ville": "PARIS",
+  "naf": "63.11Z",
+  "siren": "812774057",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "EROAN BOYER (AGENCE WEB PERFORMANCE)",
+  "ville": "VALLAURIS",
+  "naf": "62.01Z",
+  "siren": "504297912",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "NICOLAS SORANZO (AGENCE WEB SOWEBSITE)",
+  "ville": "LA BUISSE",
+  "naf": "62.01Z",
+  "siren": "919711523",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "ILYO TOUCH (AGENCE ALLO SITES WEB)",
+  "ville": "PARIS",
+  "naf": "62.02A",
+  "siren": "820309177",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "DEVOLIA (DEVOLIA CONSULTING - DEVOLIA CONSEIL - DEVOLIA E-BUSINESS - DEVOLIA WEB SERVICES - DEVOLIA WEB AGENC)",
+  "ville": "LEVALLOIS PERRET",
+  "naf": "62.02A",
+  "siren": "484147970",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "ABTEL AGENCE WEB (ABTEL SOLUTIONS CLOUD)",
+  "ville": "BOUILLARGUES",
+  "naf": "62.02A",
+  "siren": "477565063",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "A2W-AGENCE 2 WEB",
+  "ville": "ECOUEN",
+  "naf": "62.01Z",
+  "siren": "537928236",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "ZEFYX",
+  "ville": "LACHAPELLE-SOUS-AUBENAS",
+  "naf": "62.01Z",
+  "siren": "505037440",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE WEB",
+  "ville": "SAINT-NAZAIRE",
+  "naf": "70.21Z",
+  "siren": "882372667",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "WEB GROUP (L'AGENCE DES EXPERTS COMPTABLES)",
+  "ville": "GRABELS",
+  "naf": "70.21Z",
+  "siren": "533481636",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AE2 (AE2 AGENCE WEB)",
+  "ville": "NANTES",
+  "naf": "70.21Z",
+  "siren": "494283989",
+  "tranche": "11",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE DIGITALE TOKEN",
+  "ville": "POUSSAN",
+  "naf": "62.02A",
+  "siren": "893494302",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "D-AGENCY AGENCE DE MARKETING DIGITAL",
+  "ville": "NOGENT-SUR-MARNE",
+  "naf": "62.01Z",
+  "siren": "901783043",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "VM L'AGENCE DIGITALE",
+  "ville": "AUBENAS",
+  "naf": "62.01Z",
+  "siren": "830414751",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE DIGITALE",
+  "ville": "LE CANNET-DES-MAURES",
+  "naf": "62.02A",
+  "siren": "488211426",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE REVELATEUR (AGENCE REVELATEUR) (REVELATEUR)",
+  "ville": "BAUME-LES-DAMES",
+  "naf": "62.01Z",
+  "siren": "490346780",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE SYRIL DIGITAL (SYRIL DIGITAL) (ASD)",
+  "ville": "TOULOUSE",
+  "naf": "70.22Z",
+  "siren": "909712804",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "JE COMMUNIQUE (AGENCE DE COMMUNICATION TRADITIONNELLE ET DIGITALE)",
+  "ville": "SAINT-GERMAIN-DE-MARTIGNY",
+  "naf": "70.21Z",
+  "siren": "801820846",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "DIGITAL NATIVE (AGENCE DIGITAL NATIVE)",
+  "ville": "VALLAURIS",
+  "naf": "73.11Z",
+  "siren": "911052066",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE SH (SH STRATEGIE DIGITALE)",
+  "ville": "NANCY",
+  "naf": "73.11Z",
+  "siren": "890608326",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "MILLENIA (MILLENIA AGENCE DIGITALE)",
+  "ville": "CARBON-BLANC",
+  "naf": "74.10Z",
+  "siren": "887936664",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "L'AGENCE COMPACT (L'AGENCE COMPACT)",
+  "ville": "BORDEAUX",
+  "naf": "73.11Z",
+  "siren": "792551905",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE INDIGO (LATEAM DIGITALE WESCOPE EVENTZ)",
+  "ville": "LOS MASOS",
+  "naf": "70.21Z",
+  "siren": "539784546",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE GENERALE DE L'INDUSTRIE DE LA COMMUNICATION (AGIC)",
+  "ville": "PARIS",
+  "naf": "58.11Z",
+  "siren": "877725440",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE DE COMMUNICATION ET DIFFUSION (ACODIF)",
+  "ville": "BETHUNE",
+  "naf": "58.11Z",
+  "siren": "301341509",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "SARL PRESSE AGENCE OCCITAN COMMUNICATION",
+  "ville": "BEZIERS",
+  "naf": "58.13Z",
+  "siren": "350284535",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "SARL PLURIELLE COMMUNICATION (AGENCE RESEAUX - PLURIELLE PRODUCTION)",
+  "ville": "LORIENT",
+  "naf": "59.11B",
+  "siren": "489915959",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "MIRMEY (COCLIKO - AGENCE DE COMMUNICATION)",
+  "ville": "THONON-LES-BAINS",
+  "naf": "63.12Z",
+  "siren": "853030336",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE NATIONALE FRANCAISE EN COMMUNICATION INTERNET (AGENCE NATIONALE FRANCAISE EN COMMUNICATION INTERNET) (ANFCI)",
+  "ville": "VILLETELLE",
+  "naf": "62.01Z",
+  "siren": "792347718",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "ACTIMEO SARL",
+  "ville": "AGEN",
+  "naf": "62.01Z",
+  "siren": "532650769",
+  "tranche": "03",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "A2CI - AGENCE CONSEIL EN COMMUNICATION INTERNET (A2CI)",
+  "ville": "ORLEANS",
+  "naf": "62.01Z",
+  "siren": "432672269",
+  "tranche": "11",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "TELE PAESE",
+  "ville": "MONTICELLO",
+  "naf": "60.20B",
+  "siren": "479282014",
+  "tranche": "11",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE DE DEVELOPPEMENT DE PROMOTION ET DE COMMUNICATION",
+  "ville": "CAPESTERRE BELLE EAU",
+  "naf": "70.21Z",
+  "siren": "904966785",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE DE COMMUNICATION MONTPELLIERAINE (ACM COMMUNICATION) (ACM)",
+  "ville": "VENDARGUES",
+  "naf": "73.11Z",
+  "siren": "404527764",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE PTL COMMUNICATION (PTL)",
+  "ville": "BESANCON",
+  "naf": "70.21Z",
+  "siren": "882749336",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE AG COMMUNICATION",
+  "ville": "PARIS",
+  "naf": "73.12Z",
+  "siren": "842389900",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "360 DEGRES AGENCE DE COMMUNICATION",
+  "ville": "ORANGE",
+  "naf": "73.11Z",
+  "siren": "821638772",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "IRIS - AGENCE DE COMMUNICATION GLOBALE (IRIS)",
+  "ville": "VESOUL",
+  "naf": "73.11Z",
+  "siren": "892756131",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "BGC TOSCANE AGENCE CONSEILS EN COMMUNICATION (BGC TOSCANE)",
+  "ville": "CLERMONT-FERRAND",
+  "naf": "70.21Z",
+  "siren": "837604859",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "SEMAPHORE AGENCE DE COMMUNICATION (SEMAPHORE)",
+  "ville": "LANDERNEAU",
+  "naf": "73.11Z",
+  "siren": "848738092",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE SACOM (AS COMMUNICATION)",
+  "ville": "PARIS",
+  "naf": "73.11Z",
+  "siren": "824207203",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "VAN.ESSA COMMUNICATION (AGENCE VANESSA TOUATI)",
+  "ville": "NEUILLY-SUR-SEINE",
+  "naf": "73.11Z",
+  "siren": "878306604",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE MOIRE (ESCALE COMMUNICATION)",
+  "ville": "SAINT-MALO",
+  "naf": "70.21Z",
+  "siren": "903747350",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE BLISS",
+  "ville": "PAU",
+  "naf": "73.11Z",
+  "siren": "428964290",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE SAS (SAS COMMUNICATION)",
+  "ville": "CLERMONT-FERRAND",
+  "naf": "73.11Z",
+  "siren": "527987135",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE PLAYEL (AP)",
+  "ville": "PARIS",
+  "naf": "73.12Z",
+  "siren": "530866607",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "BOOKAN, STRATEGE EN COMMUNICATION (AGENCE B:COM)",
+  "ville": "LYON",
+  "naf": "70.21Z",
+  "siren": "484183603",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "VICTOIRE COMMUNICATION (AGENCE VICTOIRE - VICTOIRE COMMUNICATION)",
+  "ville": "NEUILLY-SUR-SEINE",
+  "naf": "70.21Z",
+  "siren": "791108145",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "MAUD NEGRET CONSEILS",
+  "ville": "NIORT",
+  "naf": "73.11Z",
+  "siren": "498213982",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE FRANCAISE CENTRALISEE DE COMMUNICATION",
+  "ville": "DAMMARIE-LES-LYS",
+  "naf": "73.11Z",
+  "siren": "513766543",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE OPALE COMMUNICATION",
+  "ville": "LA HAGUE",
+  "naf": "70.21Z",
+  "siren": "880717970",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE SENSORI'ELLE COMMUNICATION",
+  "ville": "SAUMUR",
+  "naf": "70.21Z",
+  "siren": "513713636",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE LOC NOUV TECHN INFO COMMUNICATION (NTIC)",
+  "ville": "BIDART",
+  "naf": "70.22Z",
+  "siren": "422097139",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "GIE MEDIAPILOTE",
+  "ville": "VERTOU",
+  "naf": "73.11Z",
+  "siren": "913263620",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "BEATRICE MARTINI COMMUNICATION (AGENCE BMC)",
+  "ville": "SAINT-OUEN-SUR-SEINE",
+  "naf": "70.21Z",
+  "siren": "834814048",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "BAM COMMUNICATION (AGENCE BAM)",
+  "ville": "BIARRITZ",
+  "naf": "70.21Z",
+  "siren": "811723295",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "MONTSERRAT COMMUNICATION",
+  "ville": "PERPIGNAN",
+  "naf": "70.21Z",
+  "siren": "522849033",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "PYRAMIDALE COMMUNICATION (AGENCE PUBLICITE COMMUNICATION)",
+  "ville": "PARIS",
+  "naf": "73.11Z",
+  "siren": "479341331",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "L'AGENCE DU FINISTERE (MEDIAPILOTE)",
+  "ville": "QUIMPER",
+  "naf": "73.11Z",
+  "siren": "448371690",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "LE HOMARD BLEU (AGENCE LE HOMARD BLEU COMMUNICATION)",
+  "ville": "GUIDEL",
+  "naf": "70.21Z",
+  "siren": "849668280",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE DE COMMUNICATION ET EVENEMENTIEL (COM'EVENTS)",
+  "ville": "CAYENNE",
+  "naf": "70.21Z",
+  "siren": "503876914",
+  "tranche": "03",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "SINGULIERS PLURIEL - AGENCE DES COMMUNICATIONS",
+  "ville": "ROUEN",
+  "naf": "73.11Z",
+  "siren": "908557200",
+  "tranche": "03",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "ADOCOM RP - AGENCE DOGNIN COMMUNICATION",
+  "ville": "PARIS",
+  "naf": "70.21Z",
+  "siren": "344190467",
+  "tranche": "03",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "COMPAGNIE REGIONALE DE COMMUNICATION (AGENCE 360 DEGRES COMMUNICATION GLOBALE - C'EST CARRE) (CRC)",
+  "ville": "VALENCIENNES",
+  "naf": "73.11Z",
+  "siren": "450128251",
+  "tranche": "03",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "ECOLOGIE ET COMMUNICATION (ECHO L'AGENCE)",
+  "ville": "MARSEILLE",
+  "naf": "73.11Z",
+  "siren": "501798565",
+  "tranche": "03",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE ELIXIR",
+  "ville": "BESANCON",
+  "naf": "73.11Z",
+  "siren": "444088983",
+  "tranche": "03",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "SOC NOUVEL IMAGES COMMUNICATION (SNIC)",
+  "ville": "PARIS",
+  "naf": "74.20Z",
+  "siren": "334132164",
+  "tranche": "03",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "MA PETITE COM (MA PETITE COM / COCLIKO - AGENCE DE COMMUNICATION)",
+  "ville": "ANNECY",
+  "naf": "70.22Z",
+  "siren": "812544740",
+  "tranche": "03",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE COMMUNICATION PUBLICITE (ACP)",
+  "ville": "MAZINGHEM",
+  "naf": "73.11Z",
+  "siren": "517617411",
+  "tranche": "11",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "PRESSE EDITION COMMUNICATION (AGEC, AGECO, AGECOM, AEC, AGENCE EUROPEENNE DE COMMUNICATION, AECO, AECOM, PRESSE EUROPE, PRESCOM, P) (PEC)",
+  "ville": "MARSEILLE",
+  "naf": "73.11Z",
+  "siren": "392447066",
+  "tranche": "11",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "COBRA",
+  "ville": "PERPIGNAN",
+  "naf": "73.11Z",
+  "siren": "403893860",
+  "tranche": "11",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "ORDINAIRE (EXTRA COMMUNICATIONS - EXTRA L'AGENCE)",
+  "ville": "LYON",
+  "naf": "73.11Z",
+  "siren": "852797018",
+  "tranche": "11",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "WEB STUDIO PRODUCTION (WSP)",
+  "ville": "NEUFCHATEAU",
+  "naf": "62.01Z",
+  "siren": "435070115",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "SHADY WEB STUDIO",
+  "ville": "ARCES-DILO",
+  "naf": "62.01Z",
+  "siren": "819154550",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "M-STUDIO WEB (M-STUDIO WEB)",
+  "ville": "BRON",
+  "naf": "62.01Z",
+  "siren": "840724462",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "WAIONA WEB STUDIO",
+  "ville": "LILLE",
+  "naf": "62.09Z",
+  "siren": "499008514",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "COMMUNITY WEB",
+  "ville": "GRENOBLE",
+  "naf": "62.01Z",
+  "siren": "808359863",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "WEB STUDIOS",
+  "ville": "DREUX",
+  "naf": "63.12Z",
+  "siren": "804590487",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "PULSATION STUDIO WEB (PULSATION STUDIO WEB)",
+  "ville": "NANTES",
+  "naf": "62.01Z",
+  "siren": "920816238",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "WEB TRIBE STUDIO",
+  "ville": "BORDEAUX",
+  "naf": "70.21Z",
+  "siren": "888326048",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "DE PRESSE DE PUBLICITE & DE MARKETING (L'AGENCE) (SPPM)",
+  "ville": "FREJUS",
+  "naf": "58.13Z",
+  "siren": "430349670",
+  "tranche": "11",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "GENX-CO, AGENCE MARKETING EN DEVELOPPEMENT COMMERCIAL OPERATIONNEL (LO.L OU LOVELY DU MANGE LOCAL, PLACE DE MARCHE POUR LES ARTISANS LOCAUX)",
+  "ville": "SCHOELCHER",
+  "naf": "70.22Z",
+  "siren": "903367209",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE DIRECT MARKETING (SODIMAX)",
+  "ville": "CHELLES",
+  "naf": "70.21Z",
+  "siren": "951914431",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE DE STRATEGIE COMMERCIALE & MARKETING",
+  "ville": "STRASBOURG",
+  "naf": "70.22Z",
+  "siren": "902982792",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "CONCEPT MARKETING V. (AGENCE 45)",
+  "ville": "BRIGNOLES",
+  "naf": "70.22Z",
+  "siren": "498024819",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "CAMAYA (ASV AGENCE MARKETING)",
+  "ville": "PLOERMEL",
+  "naf": "70.22Z",
+  "siren": "880024096",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "VIBIZ",
+  "ville": "FLEURINES",
+  "naf": "70.22Z",
+  "siren": "523769669",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE MARKETING DIRECT (AGENCE MD)",
+  "ville": "NANTES",
+  "naf": "73.11Z",
+  "siren": "485255616",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE CONSEIL EN PUBLICITE ET MARKETING (ACPM)",
+  "ville": "LIMOGES",
+  "naf": "73.11Z",
+  "siren": "315634618",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE D'EQUIPEMENT ET DE MARKETING DIRECT ENVIRONNEMENT (ADMD ENVIRONNEMENT)",
+  "ville": "LES PENNES MIRABEAU",
+  "naf": "73.11Z",
+  "siren": "514557446",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE MARKETING BORDEAUX",
+  "ville": "CARBON-BLANC",
+  "naf": "70.21Z",
+  "siren": "850270638",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "MON AGENCE MARKETING",
+  "ville": "SCHILTIGHEIM",
+  "naf": "70.21Z",
+  "siren": "889755583",
+  "tranche": "11",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "JBC DEVELOPPEMENT WEB",
+  "ville": "GRIMAUD",
+  "naf": "62.01Z",
+  "siren": "897567962",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "APS MANAGEMENT (PEO WEB DEVELOPPEMENT & CONSULTING)",
+  "ville": "ORLEANS",
+  "naf": "62.01Z",
+  "siren": "514807767",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "MC WEB DEVELOPPEMENT",
+  "ville": "VIRY-CHATILLON",
+  "naf": "73.11Z",
+  "siren": "844162891",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AM DEVELOPPEMENT WEB",
+  "ville": "PARIS",
+  "naf": "70.22Z",
+  "siren": "980654644",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "SPM EVOLUTION (ALEGIA DEVELOPPEMENT - KALYS WEB)",
+  "ville": "DOUARNENEZ",
+  "naf": "70.22Z",
+  "siren": "845154277",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE JULIEN DE SOUSA DESIGN",
+  "ville": "SAINT-ETIENNE",
+  "naf": "74.10Z",
+  "siren": "820142453",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "DESIGN PROCESS AGENCE D'ARCHITECTURE",
+  "ville": "L'ARBRESLE",
+  "naf": "71.11Z",
+  "siren": "849318472",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE TO-NY DESIGN",
+  "ville": "BOURGES",
+  "naf": "74.10Z",
+  "siren": "494100191",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE ARKAD (ARKAD DESIGN)",
+  "ville": "DIJON",
+  "naf": "71.11Z",
+  "siren": "844919217",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "MARDI COM&DESIGN (AGENCE MARDI)",
+  "ville": "SAINT-PAUL-DE-VARCES",
+  "naf": "73.11Z",
+  "siren": "500696901",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE NATHALIE CHABERT (AGENCE NATHALIE CHABERT)",
+  "ville": "POMMIERS",
+  "naf": "74.10Z",
+  "siren": "909680308",
+  "tranche": "01",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "AGENCE DESIGN ARCHITECTURE (ADA)",
+  "ville": "CENON",
+  "naf": "71.11Z",
+  "siren": "403859606",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ },
+ {
+  "nom": "CLAMENS AGENCE (CLAMENS DESIGN)",
+  "ville": "MONTREUIL",
+  "naf": "74.10Z",
+  "siren": "399165828",
+  "tranche": "02",
+  "source": "api-officielle-agences"
+ }
+]
