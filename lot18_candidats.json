@@ -1,0 +1,67 @@
+[
+ {
+  "numero": 1,
+  "entreprise": "LG Métallerie (L.G. Métallerie)",
+  "site": "https://www.lg-metallerie.fr",
+  "dirigeant": "GASSE (Gérant)",
+  "email": "contact@lg-metallerie.fr",
+  "constat": "Site Wix (générateur Wix.com Website Builder confirmé) jamais personnalisé : le titre de l'onglet affiche encore 'ACCUEIL | My Site', le nom par défaut du template, et les pages légales sont les textes génériques de Wix (mentions légales avec le bloc 'L'entreprise individuelle' non adapté). Téléphone 02 97 83 04 15 (Morbihan) et email contact@lg-metallerie.fr publiés sur le site, domaine identique au nom commercial.",
+  "email_redige": {
+   "subject": "Votre site porte encore le nom par défaut de Wix 'My Site'",
+   "body": "Bonjour M. GASSE,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En préparant une veille sur les métalliers du Morbihan, je suis tombé sur lg-metallerie.fr, et un détail m'a tout de suite frappé :\n\n**Votre site est un template Wix dont le nom par défaut n'a jamais été modifié : l'onglet du navigateur affiche encore 'ACCUEIL | My Site', et les pages légales sont les textes génériques de Wix, sans personnalisation.**\n\nConcrètement, un donneur d'ordres qui découvre LG Métallerie à travers cette vitrine de démonstration peut douter de la rigueur de votre atelier, avant même d'avoir vu une seule de vos réalisations.\n\nJe peux vous montrer précisément ce que j'ai trouvé : l'état de votre site point par point, la comparaison avec 2 de vos concurrents, et 5 actions concrètes. C'est gratuit et sans engagement.\n\nVoulez-vous que je m'y mette ?\n\nPortfolio : mahdi-design.com"
+  },
+  "statut": "DIRIGEANT_CONFIRME"
+ },
+ {
+  "numero": 2,
+  "entreprise": "Outillage Magafor",
+  "site": "https://www.magafor.fr",
+  "dirigeant": "MATTHEY (Président du conseil d'administration)",
+  "email": "magafor@magafor.com",
+  "constat": "Site PHP custom (URLs en index.php?page=) qui affiche une erreur de code en haut de chaque page : 'Notice : Undefined index: HTTP_ACCEPT_LANGUAGE in /home/magafore/public_html/lng/lng.php on line 8'. Email magafor@magafor.com publié sur la page contact du site officiel magafor.fr.",
+  "email_redige": {
+   "subject": "Une erreur de code s'affiche sur chaque page de votre site",
+   "body": "Bonjour M. MATTHEY,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En regardant magafor.fr lors d'une veille sur les fabricants d'outillage de coupe, j'ai remarqué un problème visible par tous vos visiteurs :\n\n**Chaque page de votre site affiche en haut une erreur de code : 'Notice : Undefined index: HTTP_ACCEPT_LANGUAGE in /home/magafore/public_html/lng/lng.php on line 8'.**\n\nConcrètement, cette erreur technique donne une image d'outil numérique négligé, ce qui peut faire hésiter un acheteur avant même qu'il ne compare vos fraises à celles de la concurrence.\n\nJe peux vous montrer précisément ce que j'ai trouvé : l'état de votre site point par point, la comparaison avec 2 de vos concurrents, et 5 actions concrètes. C'est gratuit et sans engagement.\n\nVoulez-vous que je m'y mette ?\n\nPortfolio : mahdi-design.com"
+  },
+  "statut": "DIRIGEANT_CONFIRME"
+ },
+ {
+  "numero": 3,
+  "entreprise": "Lory International (Lory Fonderies)",
+  "site": "https://lory-fonderie.com",
+  "dirigeant": "THOONSEN (Président de SAS)",
+  "email": "s.robtin@carlesimo-groupe.fr",
+  "constat": "Site WordPress mis en ligne en mars 2026 : l'article par défaut 'Hello World' (daté du 24/03/2026) est toujours en ligne, avec des textes non relus ('Plus de 50 ans DE SAVOIR-FAiRE AU SERVICE DE DE LA FONDERIE DE FONTE', 'Depuis plusieurs année LORY perpétue') et des horaires génériques de template ('9h00 - 20h00'). Adresse Route de Brières-les-Scellés 91150 Brières-les-Scellés publiée sur la page contact (correspond au SIREN 405 223 843). Email s.robtin@carlesimo-groupe.fr publié sur la page contact.",
+  "email_redige": {
+   "subject": "L'article 'Hello World' de WordPress est encore en ligne sur votre site",
+   "body": "Bonjour M. THOONSEN,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En consultant le site de la fonderie Lory lors d'une veille sur les fondeurs de l'Essonne, j'ai constaté que sa mise en ligne récente laisse des traces visibles :\n\n**Votre site, livré en mars 2026, contient encore l'article par défaut de WordPress ('Hello World', daté du 24 mars 2026) et des textes non relus : 'Plus de 50 ans DE SAVOIR-FAiRE AU SERVICE DE DE LA FONDERIE DE FONTE' ou 'Depuis plusieurs année'.**\n\nConcrètement, un client qui vous confie une quille de bateau ou un contrepoids peut se demander si la même attention sera portée à sa pièce, quand la page d'accueil n'a pas été relue avant publication.\n\nJe peux vous montrer précisément ce que j'ai trouvé : l'état de votre site point par point, la comparaison avec 2 de vos concurrents, et 5 actions concrètes. C'est gratuit et sans engagement.\n\nVoulez-vous que je m'y mette ?\n\nPortfolio : mahdi-design.com"
+  },
+  "statut": "DIRIGEANT_CONFIRME"
+ },
+ {
+  "numero": 4,
+  "entreprise": "SMG Tolerie (SMG)",
+  "site": "https://www.smg-decoupage-tolerie.com",
+  "dirigeant": "Laurent CONFRERE (Président de SAS)",
+  "email": "g.sitkiewiez@smgconfrere.com",
+  "constat": "Le lien 'Nous rejoindre' du menu principal mène à une page 404 ('Page non trouvée') et la page d'accueil mélange 3 polices différentes (Inter, Open Sans, Arimo) chargées ensemble. Mentions légales : éditeur SMG Confrère, président directeur général Laurent Confrère, zone industrielle RN 31, 60650 Saint-Paul (correspond au SIREN 525 620 332). Email g.sitkiewiez@smgconfrere.com publié sur la page contact du site.",
+  "email_redige": {
+   "subject": "Le lien 'Nous rejoindre' de votre menu mène à une page 404",
+   "body": "Bonjour M. CONFRERE,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En passant sur smg-decoupage-tolerie.com lors d'une veille sur les sous-traitants tôliers de l'Oise, j'ai cliqué dans votre menu et je suis tombé sur un accroc :\n\n**Le lien 'Nous rejoindre' de votre menu principal mène à une page 404 ('Page non trouvée'), et la page d'accueil mélange 3 polices différentes (Inter, Open Sans, Arimo).**\n\nConcrètement, un donneur d'ordres qui cherche à vous confier une série de pièces découpées peut buter sur ce lien cassé et se demander si l'entreprise veille aussi peu sur ses propres outils de communication.\n\nJe peux vous montrer précisément ce que j'ai trouvé : l'état de votre site point par point, la comparaison avec 2 de vos concurrents, et 5 actions concrètes. C'est gratuit et sans engagement.\n\nVoulez-vous que je m'y mette ?\n\nPortfolio : mahdi-design.com"
+  },
+  "statut": "DIRIGEANT_CONFIRME"
+ },
+ {
+  "numero": 5,
+  "entreprise": "Métallerie Francilienne",
+  "site": "https://metalleriefrancilienne.fr",
+  "dirigeant": "Mohamed OUANOUCHE (Président de SAS)",
+  "email": "contact@metalleriefrancilienne.fr",
+  "constat": "Site issu d'un template non personnalisé : le menu affiche encore les entrées par défaut ('Service 1', 'Service 2', 'Service 3', 'Blog', 'Page Single Page'), le lien 'Blog' mène à une page 404, et une adresse Gmail (nechadi.ouafae@gmail.com) est publiée sur la page d'accueil à côté de l'email professionnel. Mentions légales : METALLERIE FRANCILIENNE SAS, RCS Bobigny 817 734 593, 9 rue Joseph et Etienne de Montgolfier, 93110 Rosny-sous-Bois, email contact@metalleriefrancilienne.fr publié, site édité par Technologies 4You SARL (Casablanca).",
+  "email_redige": {
+   "subject": "Votre menu affiche encore 'Service 1', 'Service 2' et 'Service 3'",
+   "body": "Bonjour M. OUANOUCHE,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En consultant metalleriefrancilienne.fr lors d'une veille sur les métalliers d'Ile-de-France, j'ai remarqué des traces de template qui n'ont pas été nettoyées :\n\n**Votre menu affiche encore les entrées par défaut du modèle : 'Service 1', 'Service 2', 'Service 3', 'Blog' et 'Page Single Page', et le lien 'Blog' mène à une page 404.**\n\nConcrètement, un donneur d'ordres qui compare plusieurs métalliers peut voir cette vitrine inachevée comme un manque de finition, au moment même où vous vendez du sur mesure.\n\nJe peux vous montrer précisément ce que j'ai trouvé : l'état de votre site point par point, la comparaison avec 2 de vos concurrents, et 5 actions concrètes. C'est gratuit et sans engagement.\n\nVoulez-vous que je m'y mette ?\n\nPortfolio : mahdi-design.com"
+  },
+  "statut": "DIRIGEANT_CONFIRME"
+ }
+]
