@@ -1,10 +1,17 @@
-# fichiers locaux sensibles / temporaires
-.ia_tokens.json
-.zoho_tokens.json
-captures/
-kit_dm_masse_backup_*.json
-*.png
-.sessionid.txt
-.paypal_link.txt
+# Fichiers temporaires des lots de chasse (jamais commites)
+_lot*
+*_tmp.json
+*_tmp/
+p15.html
+
+# Artefacts locaux
 __pycache__/
+*.pyc
+
+# Kill-switch et verrou : JAMAIS dans le repo (PAUSE_ENVOIS couperait les envois cloud)
+PAUSE_ENVOIS
 SEND_LOCK
+
+# Fichiers secrets locaux (jamais pousses)
+.zoho_tokens.json
+.boites_zoho.json

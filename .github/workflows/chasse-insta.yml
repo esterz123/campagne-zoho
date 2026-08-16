@@ -1,18 +1,12 @@
 name: Chasse Insta H24
 
-# Chrono UTC : 08h30 et 18h30 = 10h30 et 20h30 Paris
-# Pipeline complet de chasse Instagram :
-#   1. Collecte EN MASSE de nouvelles entreprises locales (API officielle
-#      recherche-entreprises, secteurs a forte presence Insta)
-#   2. Recherche du compte Instagram de chaque entreprise (ddgs/DuckDuckGo)
-#   3. Generation des DM personnalises (nom dirigeant + probleme + portfolio)
-#   4. Push auto des resultats + notification Discord si nouveau travail
-# La file Insta ne s'epuise JAMAIS : chaque run ajoute des cibles.
-
+# DESACTIVEE le 16/08 : Instagram n'est plus un canal (decision Mahdi, canal unique email B2B).
+# La chasse Insta ne nourrit plus la file d'emails. Le workflow reste disponible en
+# workflow_dispatch manuel si un jour on veut relancer cette source.
 on:
-  schedule:
-    - cron: "30 8 * * 1-5"
-    - cron: "30 18 * * 1-5"
+  # schedule:
+  #   - cron: "30 8 * * 1-5"
+  #   - cron: "30 18 * * 1-5"
   workflow_dispatch:
 
 permissions:
