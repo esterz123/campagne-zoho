@@ -26,6 +26,7 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 ACC = "7349712000000008002"
 ME = "contact@mahdi-design.com"
 DATA_F = os.path.join(BASE, "campagne_data.json")
+PARTENAIRES_F = os.path.join(BASE, "campagne_partenaires.json")
 STATE_F = os.path.join(BASE, "closer_state.json")
 
 # Signaux : un prospect qui utilise l'un de ces mots est un LEADS CHAUD.
@@ -87,13 +88,19 @@ def zoho_post(url, payload, access):
 
 
 def load_prospects():
-    d = json.load(open(DATA_F, encoding="utf-8"))
+    """Les 2 files : prospects industriels + agences partenaires (le closer ne doit pas
+    marquer 'inconnu' les reponses d'agences, sinon le repondeur les sauterait)."""
     out = {}
-    for e in d:
-        to = (e.get("to") or "").strip().lower()
-        if to:
-            out[to] = {"num": e.get("num"), "entreprise": e.get("entreprise", ""),
-                       "subject": e.get("subject", "")}
+    for f, typ in ((DATA_F, "prospect"), (PARTENAIRES_F, "partenaire")):
+        try:
+            d = json.load(open(f, encoding="utf-8"))
+        except Exception:
+            continue
+        for e in d:
+            to = (e.get("to") or "").strip().lower()
+            if to:
+                out[to] = {"num": e.get("num"), "entreprise": e.get("prospect", e.get("entreprise", "")),
+                           "subject": e.get("subject", ""), "type": typ}
     return out
 
 
@@ -246,10 +253,14 @@ def main():
             traites.add(m["id"])
             rapports.append("[IGNORE] %s : inconnu campagne" % m["from"])
             continue
+        if prosp.get("type") == "partenaire":
+            # reponse d'agence : le repondeur.py a le prompt partenaire dedie, on ne marque PAS
+            rapports.append("[PARTENAIRE] %s : laisse au repondeur" % m["from"])
+            continue
         if not a_un_signal_interet(m["summary"], m["subject"]):
-            # pas un signal d'interet -> on laisse repondeur.py standard gerer
-            rapports.append("[SANS-INTERET] %s : pas de signal de closing" % m["from"])
-            traites.add(m["id"])
+            # pas un signal de closing -> repondeur.py standard va gerer (on ne marque PAS,
+            # sinon sa reponse serait sautee par la lecture croisee des traites)
+            rapports.append("[SANS-INTERET] %s : laisse au repondeur" % m["from"])
             continue
 
         objection = a_objection_prix(m["summary"])

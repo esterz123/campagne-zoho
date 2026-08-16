@@ -14,8 +14,10 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 ACCOUNT_ID = "7349712000000008002"
 MODEL = "deepseek/deepseek-v4-flash:free"  # :free obligatoire (0 euro garanti, regle Mahdi 16/08)
 DATA_F = os.path.join(BASE, "campagne_data.json")
+PARTENAIRES_F = os.path.join(BASE, "campagne_partenaires.json")
 STATE_F = os.path.join(BASE, "repondeur_state.json")
 CAMPAGNE_STATE_F = os.path.join(BASE, "campagne_state.json")
+PARTENAIRES_STATE_F = os.path.join(BASE, "partenaires_state.json")
 
 AUTO_PATTERNS = [
     "reponse automatique", "automatic reply", "out of office",
@@ -81,13 +83,18 @@ def zoho_post(url, payload, access):
 
 
 def load_prospects():
-    d = json.load(open(DATA_F, encoding="utf-8"))
+    """Les 2 files : prospects industriels (campagne_data) + agences partenaires (campagne_partenaires)."""
     out = {}
-    for e in d:
-        to = (e.get("to") or "").strip().lower()
-        if to:
-            out[to] = {"num": e.get("num"), "entreprise": e.get("entreprise", ""),
-                       "subject": e.get("subject", "")}
+    for f, typ in ((DATA_F, "prospect"), (PARTENAIRES_F, "partenaire")):
+        try:
+            d = json.load(open(f, encoding="utf-8"))
+        except Exception:
+            continue
+        for e in d:
+            to = (e.get("to") or "").strip().lower()
+            if to:
+                out[to] = {"num": e.get("num"), "entreprise": e.get("prospect", e.get("entreprise", "")),
+                           "subject": e.get("subject", ""), "type": typ}
     return out
 
 
@@ -111,14 +118,21 @@ def save_campagne_state(st):
     json.dump(st, open(CAMPAGNE_STATE_F, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 
-def marquer_repondu(num):
-    """Marque sent[num]['replied'] : la campagne ne relancera plus ce prospect."""
+def marquer_repondu(num, typ="prospect"):
+    """Marque replied : la campagne/les partenaires ne relanceront plus ce contact."""
     try:
-        st = load_campagne_state()
-        if num and str(num) in st.get("sent", {}):
-            st["sent"][str(num)]["replied"] = datetime.date.today().isoformat()
-            save_campagne_state(st)
-            return True
+        if typ == "partenaire":
+            st = json.load(open(PARTENAIRES_STATE_F, encoding="utf-8")) if os.path.exists(PARTENAIRES_STATE_F) else {"sent": {}}
+            if num and str(num) in st.get("sent", {}):
+                st["sent"][str(num)]["replied"] = datetime.date.today().isoformat()
+                json.dump(st, open(PARTENAIRES_STATE_F, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+                return True
+        else:
+            st = load_campagne_state()
+            if num and str(num) in st.get("sent", {}):
+                st["sent"][str(num)]["replied"] = datetime.date.today().isoformat()
+                save_campagne_state(st)
+                return True
     except Exception:
         pass
     return False
@@ -173,6 +187,25 @@ Regles strictes :
 - IMPORTANT : si le client repond OUI a l'offre gratuite (montrer ce que j'ai trouve), livre d'abord gratuitement les constats principaux (les points qui datent, en 2-3 phrases), puis propose en option le diagnostic complet a 79 EUR (rapport de 5 pages). Ne presente JAMAIS le 79 EUR comme la seule option : le gratuit a ete promis dans l'email initial.
 - Si on demande les prix, donne ceux ci-dessus.
 - Si le client demande un devis precis, une date engagee, ou negocie : type = "draft". Sinon type = "reply".
+Reponds UNIQUEMENT en JSON valide : {"type": "reply" ou "draft", "message": "le texte complet"}""" % (
+        p.get("entreprise", "inconnu"), p.get("subject", ""), msginfo["summary"], msginfo["subject"])
+
+
+def build_prompt_partenaire(prosp, msginfo):
+    p = prosp or {}
+    return """Tu rediges la reponse email de Mahdi, designer de marque independant (studio MAHDI.), qui a envoye une offre de PARTENARIAT a une agence web / studio de communication.
+Agence partenaire : %s
+Notre email initial a cette agence etait : "%s"
+L'agence vient de repondre : "%s" (sujet : %s)
+L'accord propose : Mahdi refait l'identite et le site des clients industriels de l'agence, l'agence garde la relation client et touche 15%% de commission sur chaque projet signe. Le client reçoit d'abord un diagnostic gratuit.
+Regles strictes :
+- Francais naturel, ton chaleureux et pro.
+- Si l'agence accepte ou est interesse : remercie, confirme la commission de 15%%, propose d'envoyer un exemple de projet reel (diagnostic), et demande quels clients industriels pourraient en profiter en premier.
+- Si l'agence hesite ou a des questions : reponds clairement, sans pression.
+- JAMAIS de tiret (ni em-dash ni autre) : virgules, points, deux-points, parentheses uniquement.
+- JAMAIS d'apostrophe typographique (') : apostrophe droite (') uniquement.
+- 3 a 8 phrases max. Termine par "Mahdi" seul (pas de signature longue, pas de site, pas de telephone).
+- Si l'agence demande un contrat ou des conditions precises : type = "draft". Sinon type = "reply".
 Reponds UNIQUEMENT en JSON valide : {"type": "reply" ou "draft", "message": "le texte complet"}""" % (
         p.get("entreprise", "inconnu"), p.get("subject", ""), msginfo["summary"], msginfo["subject"])
 
@@ -253,13 +286,14 @@ def main():
                 traites.add(m["id"])
                 rapports.append("[IGNORE] %s : expéditeur inconnu de la campagne" % m["from"])
                 continue
-            # Prospect de la campagne : il a repondu -> plus jamais relance par la machine
-            if marquer_repondu(prosp.get("num")):
-                rapports.append("[REPLY-MARQUE] %s (#%s) : replied dans campagne_state" % (m["from"], prosp.get("num")))
+            typ = prosp.get("type", "prospect")
+            # Contact connu : il a repondu -> plus jamais relance par la machine
+            if marquer_repondu(prosp.get("num"), typ):
+                rapports.append("[REPLY-MARQUE] %s (#%s, %s) : replied" % (m["from"], prosp.get("num"), typ))
             if not key:
                 rapports.append("[SANS CLE IA] %s : message vu, pas de cle IA (repris au prochain run)" % m["from"])
                 continue
-            prompt = build_prompt(prosp, m)
+            prompt = build_prompt_partenaire(prosp, m) if typ == "partenaire" else build_prompt(prosp, m)
             try:
                 out = openrouter(prompt, key)
                 typ, msg = parse_gemini_out(out)
