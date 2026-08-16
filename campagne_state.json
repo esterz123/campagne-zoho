@@ -40,12 +40,16 @@
   },
   "7": {
    "on": "2026-08-13",
-   "messageId": "1786625301468138300"
+   "messageId": "1786625301468138300",
+   "sent_relance1": "2026-08-16",
+   "via": "contact"
   },
   "47": {
    "on": "2026-08-13",
    "messageId": "1786640571857155000",
-   "urgence": "PIRATAGE"
+   "urgence": "PIRATAGE",
+   "sent_relance1": "2026-08-16",
+   "via": "commercial"
   },
   "8": {
    "on": "2026-08-15",
@@ -97,6 +101,11 @@
    "on": "2026-08-15",
    "doublon": true,
    "via": "contact"
+  },
+  "17": {
+   "on": "2026-08-16",
+   "messageId": "1786865598389155000",
+   "via": "hello"
   }
  },
  "done_notified": false
