@@ -108,7 +108,7 @@ def load_boites():
                        "account_id": env("ZOHO_ACCOUNT_ID", ACCOUNT_ID),
                        "client_id": env("ZOHO_CLIENT_ID"), "client_secret": env("ZOHO_CLIENT_SECRET"),
                        "refresh_token": env("ZOHO_REFRESH_TOKEN"),
-                       "max_jour": int(env("ZOHO_MAX_JOUR", "7"))})
+                       "max_jour": int(env("ZOHO_MAX_JOUR", "8"))})
     # Boites 2-5 : mahdi-design.com ; boites 6-10 : mahdi-design.fr (2e domaine)
     noms = {2: "commercial", 3: "hello", 4: "info", 5: "direction",
             6: "contact", 7: "commercial", 8: "hello", 9: "info", 10: "direction"}
@@ -120,7 +120,7 @@ def load_boites():
                            "account_id": env(p + "ACCOUNT_ID", ""),
                            "client_id": env(p + "CLIENT_ID"), "client_secret": env(p + "CLIENT_SECRET"),
                            "refresh_token": env(p + "REFRESH_TOKEN"),
-                           "max_jour": int(env(p + "MAX_JOUR", "3"))})
+                           "max_jour": int(env(p + "MAX_JOUR", "4"))})
     if boites:
         return boites
     local = os.path.join(os.path.dirname(BASE), ".boites_zoho.json")

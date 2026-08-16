@@ -43,6 +43,40 @@ def main():
 
     restants = [(n, e) for n, e in sorted(emails.items(), key=lambda kv: int(kv[0]))
                 if n not in sent]
+    # RELANCE PARTENAIRE : agences envoyees il y a >= 5 jours sans reponse -> Re: en priorite
+    relance_fu = []
+    if not dry:
+        for n, v in sorted(sent.items()):
+            if v.get("replied") or not v.get("on"):
+                continue
+            days = (datetime.date.today() - datetime.date.fromisoformat(v["on"])).days
+            if days >= 5:
+                relance_fu.append(n)
+    if relance_fu:
+        n = relance_fu[0]
+        e = emails[n]
+        if dry:
+            print("[DRY-RUN] relance partenaire #%s %s -> %s" % (n, e["prospect"][:40], e["to"]))
+            return 0
+        # corps de relance dedie (nom extrait du body initial)
+        import re as _re
+        m = _re.match(r"Bonjour M\. ([A-ZÀ-Ü]+(?: [A-ZÀ-Ü]+)*),", e["body"])
+        nom = m.group(1) if m else "Madame, Monsieur"
+        corps = ("Bonjour M. %s,\n\n"
+                 "Je me permets de revenir vers vous au sujet de ma proposition de partenariat envoyée il y a quelques jours.\n\n"
+                 "En résumé : vos clients industriels ont des sites qui datent, je m'occupe de leur refonte complète "
+                 "(identité + site), vous gardez la relation client et touchez 15%% de commission. Le client reçoit "
+                 "d'abord un diagnostic gratuit, zéro risque pour votre réputation.\n\n"
+                 "Tous les détails : mahdi-design.com/partenaires.html\n\n"
+                 "Si le sujet vous intéresse, une simple réponse suffit.\n\n"
+                 "Cordialement,\nMahdi\nPortfolio : mahdi-design.com" % nom)
+        boite = min(boites, key=lambda b: sum(1 for v in sent.values() if v.get("boite") == b["nom"]))
+        token = cz.refresh_token(boite)
+        cz.send_email(token, "Re: " + e["subject"], corps, e["to"], boite=boite)
+        sent[n] = {"on": datetime.date.today().isoformat(), "boite": boite["nom"], "relance2": True}
+        save_state(st)
+        print("RELANCE partenaire #%s %s -> %s (via %s)" % (n, e["prospect"][:40], e["to"], boite["nom"]))
+        return 0
     if not restants:
         print("File partenaires vide : toutes envoyees.")
         return 0
