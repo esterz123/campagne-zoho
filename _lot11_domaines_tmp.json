@@ -1,0 +1,1041 @@
+{
+ "110": {
+  "nom": "Normandie Decoupage Emboutissage (Nde)",
+  "ville": "CRULAI",
+  "siren": "419808985",
+  "domaines_testes": [
+   "decoupage-normandie.com",
+   "decoupage-normandie.fr",
+   "nde.com",
+   "nde.fr",
+   "normandie-decoupage-emboutissage.com",
+   "normandie-decoupage-emboutissage.fr",
+   "normandie-decoupage.com",
+   "normandie-decoupage.fr",
+   "normandie.com",
+   "normandie.fr",
+   "normandiedecoupageemboutissage.com",
+   "normandiedecoupageemboutissage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "nde.com",
+   "url": "https://www.nde.com/",
+   "titre": "nde | Non Destructive Test",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [
+    "training@nde.com"
+   ],
+   "tech": []
+  }
+ },
+ "111": {
+  "nom": "Decoupage Et Emboutissage Du Bourbonnais (Sdeb)",
+  "ville": "CUSSET",
+  "siren": "976720284",
+  "domaines_testes": [
+   "decoupage-emboutissage-bourbonnais.com",
+   "decoupage-emboutissage-bourbonnais.fr",
+   "decoupage-emboutissage.com",
+   "decoupage-emboutissage.fr",
+   "decoupage.com",
+   "decoupage.fr",
+   "decoupageemboutissagebourbonnais.com",
+   "decoupageemboutissagebourbonnais.fr",
+   "emboutissage-decoupage.com",
+   "emboutissage-decoupage.fr",
+   "sdeb.com",
+   "sdeb.fr"
+  ],
+  "trouve": {
+   "domaine_test": "decoupage-emboutissage.fr",
+   "url": "https://decoupage-emboutissage.fr",
+   "titre": "&#9655; d&eacute;coupage emboutissage outillage presse",
+   "copyright": [],
+   "cms": [],
+   "emails": [
+    "contact@macquet-sa.com",
+    "qualite@macquet-sa.com"
+   ],
+   "tech": []
+  }
+ },
+ "112": {
+  "nom": "Emboutissage Du Mail (Edm)",
+  "ville": "SAINT-JEAN-DE-MOIRANS",
+  "siren": "056501273",
+  "domaines_testes": [
+   "edm.com",
+   "edm.fr",
+   "emboutissage-mail.com",
+   "emboutissage-mail.fr",
+   "emboutissage.com",
+   "emboutissage.fr",
+   "emboutissagemail.com",
+   "emboutissagemail.fr",
+   "mail-emboutissage.com",
+   "mail-emboutissage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "emboutissage.fr",
+   "url": "https://emboutissage.fr",
+   "titre": "▷ Emboutissage et Découpage du metal - ▷ Emboutissage de la tôle",
+   "copyright": [
+    "2015"
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "113": {
+  "nom": "Ouest Emboutissage",
+  "ville": "CERIZAY",
+  "siren": "420273880",
+  "domaines_testes": [
+   "emboutissage-ouest.com",
+   "emboutissage-ouest.fr",
+   "ouest-emboutissage.com",
+   "ouest-emboutissage.fr",
+   "ouest.com",
+   "ouest.fr",
+   "ouestemboutissage.com",
+   "ouestemboutissage.fr"
+  ],
+  "trouve": null
+ },
+ "114": {
+  "nom": "Jelza Emboutissage (Jelza Emboutissage)",
+  "ville": "SAINT-FLORENT-SUR-CHER",
+  "siren": "892541889",
+  "domaines_testes": [
+   "emboutissage-jelza.com",
+   "emboutissage-jelza.fr",
+   "jelza-emboutissage.com",
+   "jelza-emboutissage.fr",
+   "jelza.com",
+   "jelza.fr",
+   "jelzaemboutissage.com",
+   "jelzaemboutissage.fr"
+  ],
+  "trouve": null
+ },
+ "115": {
+  "nom": "D.E.M.C. Decoupe, Emboutissage, Montage, Concept (Demc)",
+  "ville": "AYTRE",
+  "siren": "418321824",
+  "domaines_testes": [
+   "decoupe-emboutissage-montage-concept.com",
+   "decoupe-emboutissage-montage-concept.fr",
+   "decoupe-emboutissage.com",
+   "decoupe-emboutissage.fr",
+   "decoupe.com",
+   "decoupe.fr",
+   "decoupeemboutissagemontageconcept.com",
+   "decoupeemboutissagemontageconcept.fr",
+   "demc.com",
+   "demc.fr",
+   "emboutissage-decoupe.com",
+   "emboutissage-decoupe.fr"
+  ],
+  "trouve": {
+   "domaine_test": "decoupe-emboutissage.fr",
+   "url": "https://decoupe-emboutissage.fr",
+   "titre": "VFE | Découpe &amp; Emboutissage Industriel",
+   "copyright": [
+    "2026"
+   ],
+   "cms": [],
+   "emails": [
+    "nolan.mesnildrey@vf-e.com",
+    "votre@email.fr"
+   ],
+   "tech": []
+  }
+ },
+ "116": {
+  "nom": "Gpe D'Analyse Tech Emboutissage Controle (Groupe A T E C)",
+  "ville": "CAVIGNAC",
+  "siren": "447891862",
+  "domaines_testes": [
+   "analyse-gpe.com",
+   "analyse-gpe.fr",
+   "gpe-analyse-tech-emboutissage-controle.com",
+   "gpe-analyse-tech-emboutissage-controle.fr",
+   "gpe-analyse.com",
+   "gpe-analyse.fr",
+   "gpe.com",
+   "gpe.fr",
+   "gpeanalysetechemboutissagecontrole.com",
+   "gpeanalysetechemboutissagecontrole.fr"
+  ],
+  "trouve": {
+   "domaine_test": "gpe.fr",
+   "url": "http://www.gpe.fr/",
+   "titre": "Site en construction",
+   "copyright": [
+    "1999"
+   ],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "117": {
+  "nom": "Ernst Decoupage Emboutissage",
+  "ville": "NIEDERBRONN-LES-BAINS",
+  "siren": "410599864",
+  "domaines_testes": [
+   "decoupage-ernst.com",
+   "decoupage-ernst.fr",
+   "ernst-decoupage-emboutissage.com",
+   "ernst-decoupage-emboutissage.fr",
+   "ernst-decoupage.com",
+   "ernst-decoupage.fr",
+   "ernst.com",
+   "ernst.fr",
+   "ernstdecoupageemboutissage.com",
+   "ernstdecoupageemboutissage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "ernst.fr",
+   "url": "https://ernst.fr",
+   "titre": "Ernst S.A.R.L. Découpage-Emboutissage",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": [
+    "tables HTML",
+    "frames",
+    "pas_de_viewport_mobile"
+   ]
+  }
+ },
+ "118": {
+  "nom": "Smg Decoupage - Emboutissage",
+  "ville": "SAINT-PAUL",
+  "siren": "484871272",
+  "domaines_testes": [
+   "decoupage-smg.com",
+   "decoupage-smg.fr",
+   "smg-decoupage-emboutissage.com",
+   "smg-decoupage-emboutissage.fr",
+   "smg-decoupage.com",
+   "smg-decoupage.fr",
+   "smg.com",
+   "smg.fr",
+   "smgdecoupageemboutissage.com",
+   "smgdecoupageemboutissage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "smg.com",
+   "url": "https://smg.com",
+   "titre": "Unified Experience Management - BX, CX, EX | SMG",
+   "copyright": [],
+   "cms": [],
+   "emails": [
+    "this-is-smg-thumbnail@2x.webp"
+   ],
+   "tech": []
+  }
+ },
+ "119": {
+  "nom": "Societe D'Emboutissage Precis (Sep)",
+  "ville": "BARBY",
+  "siren": "309054054",
+  "domaines_testes": [
+   "emboutissage-precis.com",
+   "emboutissage-precis.fr",
+   "emboutissage.com",
+   "emboutissage.fr",
+   "emboutissageprecis.com",
+   "emboutissageprecis.fr",
+   "precis-emboutissage.com",
+   "precis-emboutissage.fr",
+   "sep.com",
+   "sep.fr"
+  ],
+  "trouve": {
+   "domaine_test": "emboutissage.fr",
+   "url": "https://emboutissage.fr",
+   "titre": "▷ Emboutissage et Découpage du metal - ▷ Emboutissage de la tôle",
+   "copyright": [
+    "2015"
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "120": {
+  "nom": "Talbot Decoupage Emboutissage (Tde)",
+  "ville": "MER",
+  "siren": "345088371",
+  "domaines_testes": [
+   "decoupage-talbot.com",
+   "decoupage-talbot.fr",
+   "talbot-decoupage-emboutissage.com",
+   "talbot-decoupage-emboutissage.fr",
+   "talbot-decoupage.com",
+   "talbot-decoupage.fr",
+   "talbot.com",
+   "talbot.fr",
+   "talbotdecoupageemboutissage.com",
+   "talbotdecoupageemboutissage.fr",
+   "tde.com",
+   "tde.fr"
+  ],
+  "trouve": {
+   "domaine_test": "talbot.fr",
+   "url": "https://talbot.fr",
+   "titre": "Talbot.fr • une adresse email digne de ce nom !",
+   "copyright": [],
+   "cms": [],
+   "emails": [
+    "webmaster@talbot.fr"
+   ],
+   "tech": []
+  }
+ },
+ "121": {
+  "nom": "Sud Ouest Emboutissage",
+  "ville": "USSAC",
+  "siren": "492142351",
+  "domaines_testes": [
+   "ouest-sud.com",
+   "ouest-sud.fr",
+   "sud-ouest-emboutissage.com",
+   "sud-ouest-emboutissage.fr",
+   "sud-ouest.com",
+   "sud-ouest.fr",
+   "sud.com",
+   "sud.fr",
+   "sudouestemboutissage.com",
+   "sudouestemboutissage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "sud-ouest.fr",
+   "url": "https://www.sud-ouest.fr/",
+   "titre": "Sud-Ouest: pays-basque, catalogne, bigorre, couserans et comminges sur sud-ouest.fr",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "122": {
+  "nom": "Societe Normande De Decoupage - Emboutissage",
+  "ville": "LONDINIERES",
+  "siren": "400567160",
+  "domaines_testes": [
+   "decoupage-normande.com",
+   "decoupage-normande.fr",
+   "normande-decoupage-emboutissage.com",
+   "normande-decoupage-emboutissage.fr",
+   "normande-decoupage.com",
+   "normande-decoupage.fr",
+   "normande.com",
+   "normande.fr",
+   "normandedecoupageemboutissage.com",
+   "normandedecoupageemboutissage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "normande.fr",
+   "url": "https://normande.fr",
+   "titre": "Dovendi - Domain for sale",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "123": {
+  "nom": "Societe Azerguoise De Repoussage Et D Emboutissage (Sare)",
+  "ville": "GRANDRIS",
+  "siren": "351174081",
+  "domaines_testes": [
+   "azerguoise-repoussage-emboutissage.com",
+   "azerguoise-repoussage-emboutissage.fr",
+   "azerguoise-repoussage.com",
+   "azerguoise-repoussage.fr",
+   "azerguoise.com",
+   "azerguoise.fr",
+   "azerguoiserepoussageemboutissage.com",
+   "azerguoiserepoussageemboutissage.fr",
+   "repoussage-azerguoise.com",
+   "repoussage-azerguoise.fr",
+   "sare.com",
+   "sare.fr"
+  ],
+  "trouve": {
+   "domaine_test": "sare.fr",
+   "url": "https://www.sare.fr/",
+   "titre": "Accueil - Mairie de Sare",
+   "copyright": [],
+   "cms": [],
+   "emails": [
+    "mairie@sare.fr"
+   ],
+   "tech": []
+  }
+ },
+ "124": {
+  "nom": "Uma-Decoupage Emboutissage Tolerie",
+  "ville": "NEUILLY-SAINT-FRONT",
+  "siren": "316842012",
+  "domaines_testes": [
+   "decoupage-uma.com",
+   "decoupage-uma.fr",
+   "uma-decoupage-emboutissage-tolerie.com",
+   "uma-decoupage-emboutissage-tolerie.fr",
+   "uma-decoupage.com",
+   "uma-decoupage.fr",
+   "uma.com",
+   "uma.fr",
+   "umadecoupageemboutissagetolerie.com",
+   "umadecoupageemboutissagetolerie.fr"
+  ],
+  "trouve": {
+   "domaine_test": "uma.fr",
+   "url": "https://uma.fr",
+   "titre": "",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "tables HTML"
+   ]
+  }
+ },
+ "125": {
+  "nom": "Societe D' Applications Mecaniques Et De Decoupage (Samd Decoupe Et Emboutissage De Precision) (Samd)",
+  "ville": "COLLEGIEN",
+  "siren": "401884382",
+  "domaines_testes": [
+   "applications-mecaniques-decoupage.com",
+   "applications-mecaniques-decoupage.fr",
+   "applications-mecaniques.com",
+   "applications-mecaniques.fr",
+   "applications.com",
+   "applications.fr",
+   "applicationsmecaniquesdecoupage.com",
+   "applicationsmecaniquesdecoupage.fr",
+   "mecaniques-applications.com",
+   "mecaniques-applications.fr"
+  ],
+  "trouve": {
+   "domaine_test": "applications.fr",
+   "url": "https://applications.fr",
+   "titre": "Applications : Guide Complet des Types d'Applications | applications.fr",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "126": {
+  "nom": "Lenoir Metallerie",
+  "ville": "VILLEURBANNE",
+  "siren": "966500068",
+  "domaines_testes": [
+   "lenoir-metallerie.com",
+   "lenoir-metallerie.fr",
+   "lenoir.com",
+   "lenoir.fr",
+   "lenoirmetallerie.com",
+   "lenoirmetallerie.fr",
+   "metallerie-lenoir.com",
+   "metallerie-lenoir.fr"
+  ],
+  "trouve": {
+   "domaine_test": "lenoirmetallerie.fr",
+   "url": "https://www.lenoirmetallerie.fr/",
+   "titre": "Lenoir Metallerie | Ouvrages métalliques d’exception",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "127": {
+  "nom": "Oaca Metallerie",
+  "ville": "AGNOS",
+  "siren": "443830898",
+  "domaines_testes": [
+   "metallerie-oaca.com",
+   "metallerie-oaca.fr",
+   "oaca-metallerie.com",
+   "oaca-metallerie.fr",
+   "oaca.com",
+   "oaca.fr",
+   "oacametallerie.com",
+   "oacametallerie.fr"
+  ],
+  "trouve": {
+   "domaine_test": "oaca.fr",
+   "url": "https://www.oaca.fr/",
+   "titre": "OACA – Ensemble, matérialisons vos projets",
+   "copyright": [
+    "2023"
+   ],
+   "cms": [],
+   "emails": [
+    "adobestock_176497553-434x289@2x.jpeg",
+    "barrage-cote_d_ivoire-300x200@2x.jpeg.webp",
+    "barrage-cote_d_ivoire-300x200@2x.jpeg",
+    "barrage-cote_d_ivoire-1440x960@2x.jpeg.webp",
+    "barrage-cote_d_ivoire-434x289@2x.jpeg.webp",
+    "barrage-cote_d_ivoire-318x212@2x.jpeg.webp",
+    "barrage-cote_d_ivoire-318x212@2x.jpeg",
+    "barrage-cote_d_ivoire-1440x960@2x.jpeg",
+    "barrage-cote_d_ivoire-434x289@2x.jpeg"
+   ],
+   "tech": []
+  }
+ },
+ "128": {
+  "nom": "Batisud-Metallerie",
+  "ville": "SEPTEMES-LES-VALLONS",
+  "siren": "501007652",
+  "domaines_testes": [
+   "batisud-metallerie.com",
+   "batisud-metallerie.fr",
+   "batisud.com",
+   "batisud.fr",
+   "batisudmetallerie.com",
+   "batisudmetallerie.fr",
+   "metallerie-batisud.com",
+   "metallerie-batisud.fr"
+  ],
+  "trouve": {
+   "domaine_test": "batisud.fr",
+   "url": "https://batisud.fr",
+   "titre": "Dovendi - Domain for sale",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "129": {
+  "nom": "Sud Metallerie Sa",
+  "ville": "DORDIVES",
+  "siren": "310826698",
+  "domaines_testes": [
+   "metallerie-sud.com",
+   "metallerie-sud.fr",
+   "sud-metallerie.com",
+   "sud-metallerie.fr",
+   "sud.com",
+   "sud.fr",
+   "sudmetallerie.com",
+   "sudmetallerie.fr"
+  ],
+  "trouve": null
+ },
+ "130": {
+  "nom": "Lg Metallerie (L.G. Metallerie)",
+  "ville": "LORIENT",
+  "siren": "803868660",
+  "domaines_testes": [
+   "metallerie.com",
+   "metallerie.fr"
+  ],
+  "trouve": null
+ },
+ "131": {
+  "nom": "Gb Metallerie",
+  "ville": "GIMONT",
+  "siren": "397020033",
+  "domaines_testes": [
+   "metallerie.com",
+   "metallerie.fr"
+  ],
+  "trouve": null
+ },
+ "132": {
+  "nom": "Torras Metallerie",
+  "ville": "PARIS",
+  "siren": "793224759",
+  "domaines_testes": [
+   "metallerie-torras.com",
+   "metallerie-torras.fr",
+   "torras-metallerie.com",
+   "torras-metallerie.fr",
+   "torras.com",
+   "torras.fr",
+   "torrasmetallerie.com",
+   "torrasmetallerie.fr"
+  ],
+  "trouve": null
+ },
+ "133": {
+  "nom": "Metallerie Francilienne",
+  "ville": "ROSNY-SOUS-BOIS",
+  "siren": "817734593",
+  "domaines_testes": [
+   "francilienne-metallerie.com",
+   "francilienne-metallerie.fr",
+   "metallerie-francilienne.com",
+   "metallerie-francilienne.fr",
+   "metallerie.com",
+   "metallerie.fr",
+   "metalleriefrancilienne.com",
+   "metalleriefrancilienne.fr"
+  ],
+  "trouve": {
+   "domaine_test": "metallerie.com",
+   "url": "https://metallerie.com",
+   "titre": "Metallerie.com - Votre spécialiste de la métallerie : 100% design, 100% sur mesure pour un résultat à vos attentes",
+   "copyright": [],
+   "cms": [],
+   "emails": [
+    "info@metallerie.com"
+   ],
+   "tech": []
+  }
+ },
+ "134": {
+  "nom": "Institut De Soudure (Is)",
+  "ville": "VILLEPINTE",
+  "siren": "784756413",
+  "domaines_testes": [
+   "institut-soudure.com",
+   "institut-soudure.fr",
+   "institut.com",
+   "institut.fr",
+   "institutsoudure.com",
+   "institutsoudure.fr",
+   "soudure-institut.com",
+   "soudure-institut.fr"
+  ],
+  "trouve": {
+   "domaine_test": "institut.fr",
+   "url": "https://institut.fr",
+   "titre": "",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "tables HTML"
+   ]
+  }
+ },
+ "135": {
+  "nom": "Gatsby Soudure (Gatsby Soudure)",
+  "ville": "BOBIGNY",
+  "siren": "813390432",
+  "domaines_testes": [
+   "gatsby-soudure.com",
+   "gatsby-soudure.fr",
+   "gatsby.com",
+   "gatsby.fr",
+   "gatsbysoudure.com",
+   "gatsbysoudure.fr",
+   "soudure-gatsby.com",
+   "soudure-gatsby.fr"
+  ],
+  "trouve": {
+   "domaine_test": "gatsbysoudure.com",
+   "url": "https://www.gatsbysoudure.com/",
+   "titre": "",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "136": {
+  "nom": "Es Soudure (Es Soudure)",
+  "ville": "METZ",
+  "siren": "841196504",
+  "domaines_testes": [
+   "soudure.com",
+   "soudure.fr"
+  ],
+  "trouve": {
+   "domaine_test": "soudure.fr",
+   "url": "https://www.soudure.fr/",
+   "titre": "Mat&eacute;riel de soudure professionnel | Bigorre Soudure",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "137": {
+  "nom": "Soc Provencale Materiel Soudure (Soudecoup)",
+  "ville": "GARDANNE",
+  "siren": "055802995",
+  "domaines_testes": [
+   "provencale-soc.com",
+   "provencale-soc.fr",
+   "soc-provencale-materiel-soudure.com",
+   "soc-provencale-materiel-soudure.fr",
+   "soc-provencale.com",
+   "soc-provencale.fr",
+   "soc.com",
+   "soc.fr",
+   "socprovencalematerielsoudure.com",
+   "socprovencalematerielsoudure.fr"
+  ],
+  "trouve": {
+   "domaine_test": "soc.com",
+   "url": "http://www.soc.com/",
+   "titre": "soc.com",
+   "copyright": [
+    "2026"
+   ],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "138": {
+  "nom": "Sud Soudure Sarl",
+  "ville": "SAINT-JOSEPH",
+  "siren": "428663686",
+  "domaines_testes": [
+   "soudure-sud.com",
+   "soudure-sud.fr",
+   "sud-soudure.com",
+   "sud-soudure.fr",
+   "sud.com",
+   "sud.fr",
+   "sudsoudure.com",
+   "sudsoudure.fr"
+  ],
+  "trouve": {
+   "domaine_test": "sud.fr",
+   "url": "https://www.sud.fr/",
+   "titre": "Sud.fr - Le Sud de la France",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "139": {
+  "nom": "Chaudronnerie Soudure Tuyauterie (Cst)",
+  "ville": "PETIVILLE",
+  "siren": "304217292",
+  "domaines_testes": [
+   "chaudronnerie-soudure-tuyauterie.com",
+   "chaudronnerie-soudure-tuyauterie.fr",
+   "chaudronnerie-soudure.com",
+   "chaudronnerie-soudure.fr",
+   "chaudronnerie.com",
+   "chaudronnerie.fr",
+   "chaudronneriesouduretuyauterie.com",
+   "chaudronneriesouduretuyauterie.fr",
+   "cst.com",
+   "cst.fr",
+   "soudure-chaudronnerie.com",
+   "soudure-chaudronnerie.fr"
+  ],
+  "trouve": {
+   "domaine_test": "cst.fr",
+   "url": "https://cst.fr",
+   "titre": "CST La Commission Supérieure Technique de l’Image et du Son - CST",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "140": {
+  "nom": "Soudure Tuyauterie Brestoise (Stb)",
+  "ville": "BREST",
+  "siren": "538676727",
+  "domaines_testes": [
+   "soudure-tuyauterie-brestoise.com",
+   "soudure-tuyauterie-brestoise.fr",
+   "soudure-tuyauterie.com",
+   "soudure-tuyauterie.fr",
+   "soudure.com",
+   "soudure.fr",
+   "souduretuyauteriebrestoise.com",
+   "souduretuyauteriebrestoise.fr",
+   "stb.com",
+   "stb.fr",
+   "tuyauterie-soudure.com",
+   "tuyauterie-soudure.fr"
+  ],
+  "trouve": {
+   "domaine_test": "soudure.fr",
+   "url": "https://www.soudure.fr/",
+   "titre": "Mat&eacute;riel de soudure professionnel | Bigorre Soudure",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "141": {
+  "nom": "Soudure Tuyauterie Maintenance (Stm)",
+  "ville": "REDON",
+  "siren": "788636215",
+  "domaines_testes": [
+   "soudure-tuyauterie-maintenance.com",
+   "soudure-tuyauterie-maintenance.fr",
+   "soudure-tuyauterie.com",
+   "soudure-tuyauterie.fr",
+   "soudure.com",
+   "soudure.fr",
+   "souduretuyauteriemaintenance.com",
+   "souduretuyauteriemaintenance.fr",
+   "stm.com",
+   "stm.fr",
+   "tuyauterie-soudure.com",
+   "tuyauterie-soudure.fr"
+  ],
+  "trouve": {
+   "domaine_test": "stm.fr",
+   "url": "https://stm.fr",
+   "titre": "STM Ingénierie & Environnement — Experts en réhabilitation et dépollution",
+   "copyright": [
+    "2026"
+   ],
+   "cms": [],
+   "emails": [
+    "contact@stm-ie.fr"
+   ],
+   "tech": []
+  }
+ },
+ "142": {
+  "nom": "Brivet Mecano Soudure",
+  "ville": "PONTCHATEAU",
+  "siren": "392675237",
+  "domaines_testes": [
+   "brivet-mecano-soudure.com",
+   "brivet-mecano-soudure.fr",
+   "brivet-mecano.com",
+   "brivet-mecano.fr",
+   "brivet.com",
+   "brivet.fr",
+   "brivetmecanosoudure.com",
+   "brivetmecanosoudure.fr",
+   "mecano-brivet.com",
+   "mecano-brivet.fr"
+  ],
+  "trouve": null
+ },
+ "143": {
+  "nom": "Tuyauterie Soudure Chauffage (Tsc)",
+  "ville": "VILLECRESNES",
+  "siren": "385147681",
+  "domaines_testes": [
+   "soudure-tuyauterie.com",
+   "soudure-tuyauterie.fr",
+   "tsc.com",
+   "tsc.fr",
+   "tuyauterie-soudure-chauffage.com",
+   "tuyauterie-soudure-chauffage.fr",
+   "tuyauterie-soudure.com",
+   "tuyauterie-soudure.fr",
+   "tuyauterie.com",
+   "tuyauterie.fr",
+   "tuyauteriesoudurechauffage.com",
+   "tuyauteriesoudurechauffage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "tsc.fr",
+   "url": "https://tsc.fr",
+   "titre": "TSC France : Câblage, cœur de réseau, Wi-fi, data centers",
+   "copyright": [
+    "2015"
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "144": {
+  "nom": "Atlantique Tolerie Soudure",
+  "ville": "NANTES",
+  "siren": "450396296",
+  "domaines_testes": [
+   "atlantique-tolerie-soudure.com",
+   "atlantique-tolerie-soudure.fr",
+   "atlantique-tolerie.com",
+   "atlantique-tolerie.fr",
+   "atlantique.com",
+   "atlantique.fr",
+   "atlantiquetoleriesoudure.com",
+   "atlantiquetoleriesoudure.fr",
+   "tolerie-atlantique.com",
+   "tolerie-atlantique.fr"
+  ],
+  "trouve": {
+   "domaine_test": "atlantiquetoleriesoudure.fr",
+   "url": "https://atlantiquetoleriesoudure.fr",
+   "titre": "ATS Saint-Nazaire – Tôlerie, chaudronnerie et transformation des métaux",
+   "copyright": [
+    "2015"
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "pas_de_viewport_mobile"
+   ]
+  }
+ },
+ "145": {
+  "nom": "Mecano Soudure De L Aron (Msa)",
+  "ville": "SAINT-IGNY-DE-ROCHE",
+  "siren": "332265263",
+  "domaines_testes": [
+   "mecano-soudure-aron.com",
+   "mecano-soudure-aron.fr",
+   "mecano-soudure.com",
+   "mecano-soudure.fr",
+   "mecano.com",
+   "mecano.fr",
+   "mecanosoudurearon.com",
+   "mecanosoudurearon.fr",
+   "msa.com",
+   "msa.fr",
+   "soudure-mecano.com",
+   "soudure-mecano.fr"
+  ],
+  "trouve": {
+   "domaine_test": "msa.fr",
+   "url": "https://www.msa.fr/lfp",
+   "titre": "MSA - La sécurité sociale agricole - MSA_FR",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "146": {
+  "nom": "Maintenance Et Soudure Industrielle (Msi)",
+  "ville": "THAON-LES-VOSGES",
+  "siren": "432851095",
+  "domaines_testes": [
+   "maintenance-soudure-industrielle.com",
+   "maintenance-soudure-industrielle.fr",
+   "maintenance-soudure.com",
+   "maintenance-soudure.fr",
+   "maintenance.com",
+   "maintenance.fr",
+   "maintenancesoudureindustrielle.com",
+   "maintenancesoudureindustrielle.fr",
+   "msi.com",
+   "msi.fr",
+   "soudure-maintenance.com",
+   "soudure-maintenance.fr"
+  ],
+  "trouve": {
+   "domaine_test": "msi.fr",
+   "url": "https://msi.fr",
+   "titre": "msi.fr&nbsp;-&nbsp;هذا الموقع الالكتروني للبيع!&nbsp;-&nbsp;Msi المصادر والمعلومات.",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "147": {
+  "nom": "Tolerie De La Loire",
+  "ville": "NANTES",
+  "siren": "311233431",
+  "domaines_testes": [
+   "loire-tolerie.com",
+   "loire-tolerie.fr",
+   "tolerie-loire.com",
+   "tolerie-loire.fr",
+   "tolerie.com",
+   "tolerie.fr",
+   "tolerieloire.com",
+   "tolerieloire.fr"
+  ],
+  "trouve": {
+   "domaine_test": "tolerie.fr",
+   "url": "http://tolerie.fr/",
+   "titre": "Tolerie.com",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": [
+    "frames",
+    "pas_de_viewport_mobile"
+   ]
+  }
+ },
+ "148": {
+  "nom": "Tolerie Industrielle",
+  "ville": "MAZIERES-EN-GATINE",
+  "siren": "320800139",
+  "domaines_testes": [
+   "industrielle-tolerie.com",
+   "industrielle-tolerie.fr",
+   "tolerie-industrielle.com",
+   "tolerie-industrielle.fr",
+   "tolerie.com",
+   "tolerie.fr",
+   "tolerieindustrielle.com",
+   "tolerieindustrielle.fr"
+  ],
+  "trouve": {
+   "domaine_test": "tolerie.com",
+   "url": "https://tolerie.com",
+   "titre": "Tolerie.com",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": [
+    "frames",
+    "pas_de_viewport_mobile"
+   ]
+  }
+ },
+ "149": {
+  "nom": "Tolerie Remond",
+  "ville": "CREPAND",
+  "siren": "792758377",
+  "domaines_testes": [
+   "remond-tolerie.com",
+   "remond-tolerie.fr",
+   "tolerie-remond.com",
+   "tolerie-remond.fr",
+   "tolerie.com",
+   "tolerie.fr",
+   "tolerieremond.com",
+   "tolerieremond.fr"
+  ],
+  "trouve": {
+   "domaine_test": "tolerie.fr",
+   "url": "http://tolerie.fr/",
+   "titre": "Tolerie.com",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": [
+    "frames",
+    "pas_de_viewport_mobile"
+   ]
+  }
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "125": {
+  "url": "https://samd-aero.fr/",
+  "siren_ok": false,
+  "emails": [
+   "secretariat@samd-aero.com"
+  ],
+  "copyright": [],
+  "title": [
+   "SAMD"
+  ]
+ },
+ "131": {
+  "url": "https://groupe-gb.fr/mentions-legales/",
+  "siren_ok": false,
+  "emails": [
+   "contact@gb-greentech.fr",
+   "email@example.com",
+   "gatimel.s@groupe-gb.fr"
+  ],
+  "copyright": [],
+  "title": [
+   "Mentions légales GB Green Tech - Groupe GB"
+  ]
+ },
+ "133": {
+  "url": "https://metallerie.com/mentions-legales/",
+  "err": "HTTP Error 308: Permanent Redirect"
+ },
+ "135": {
+  "url": "https://www.gatsbysoudure.com/contactez-nous/",
+  "siren_ok": false,
+  "emails": [
+   "gatsbysoudure@gmail.com",
+   "gatsbysoudure@gmail.comServices"
+  ],
+  "copyright": [],
+  "title": [
+   "Contactez-nous"
+  ]
+ },
+ "118": {
+  "url": "https://www.smg-decoupage-tolerie.com/mentions-legales/",
+  "siren_ok": false,
+  "emails": [
+   "louis.sitkiewiez@smgconfrere.com",
+   "recrutement@smgconfrere.com"
+  ],
+  "copyright": [],
+  "title": [
+   "Mentions légales - SMG – Sous‑traitant industriel en tôlerie, découpage et emboutissage | Oise"
+  ]
+ },
+ "130": {
+  "url": "https://lg-metallerie.fr/",
+  "siren_ok": false,
+  "emails": [],
+  "copyright": [],
+  "title": [
+   "ACCUEIL | My Site"
+  ]
+ },
+ "128": {
+  "url": "https://batisud.org/",
+  "err": "<urlopen error timed out>"
+ },
+ "111": {
+  "url": "https://sdeb.fr/mentions-legales",
+  "siren_ok": true,
+  "emails": [
+   "Francecontact@mc-media.com",
+   "contact@mc-media.com"
+  ],
+  "copyright": [
+   [
+    "2026",
+    ""
+   ]
+  ],
+  "title": [
+   "SDEB - Mentions légales - SDEB - Société de Découpage Emboutissage du Bourbonnais"
+  ]
+ },
+ "123": {
+  "url": "https://sare-sarl-69.fr/",
+  "siren_ok": false,
+  "emails": [],
+  "copyright": [],
+  "title": [
+   "Fabrication de pièces métalliques par repoussage et emboutissage - SARE"
+  ]
+ },
+ "127": {
+  "url": "https://www.oaca.fr/mentions-legales/",
+  "siren_ok": true,
+  "emails": [
+   "contact@oaca.fr"
+  ],
+  "copyright": [
+   [
+    "2023",
+    ""
+   ]
+  ],
+  "title": [
+   "Mentions légales - OACA, ingénierie, métallerie et usinage"
+  ]
+ },
+ "129": {
+  "url": "https://sudmetallerie.com/mentions-legales-sud-metallerie/",
+  "siren_ok": true,
+  "emails": [
+   "contact@sudmetallerie.com"
+  ],
+  "copyright": [],
+  "title": [
+   "Fenêtres, portes-fenêtres, porte d’entrée sur mesure en aluminium ou en PVC"
+  ]
+ },
+ "137": {
+  "url": "https://www.soudecoup.fr/mentions-legales/",
+  "siren_ok": true,
+  "emails": [
+   "contact13@soudecoup.fr",
+   "contact30@soudecoup.fr",
+   "contact83@soudecoup.fr",
+   "contact84@soudecoup.fr"
+  ],
+  "copyright": [],
+  "title": [
+   "Mentions légales - Soudecoup"
+  ]
+ }
+}

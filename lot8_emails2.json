@@ -1,0 +1,79 @@
+{
+  "pml72.fr": {
+    "/contact/contactez-nous/": {
+      "len": 26069,
+      "emails": []
+    },
+    "/contact/coordonnees-et-acces/": {
+      "len": 25365,
+      "emails": []
+    },
+    "/mentions-legales/": {
+      "len": 23910,
+      "emails": []
+    }
+  },
+  "adp85.com": {
+    "/": {
+      "len": 25709,
+      "emails": []
+    }
+  },
+  "omp-usinage.fr": {
+    "/fr/contacter-omp-15b1": {
+      "len": 13305,
+      "emails": [
+        "omp-aliermont@wanadoo.fr"
+      ]
+    },
+    "/fr/mentions-legales-7b40": {
+      "len": 14357,
+      "emails": [
+        "omp-aliermont@wanadoo.fr"
+      ]
+    },
+    "/fr/demande-devis-6f3f": {
+      "len": 13863,
+      "emails": [
+        "omp-aliermont@wanadoo.fr"
+      ]
+    }
+  },
+  "pdg-plastiques.fr": {},
+  "anjos.fr": {
+    "/": {
+      "len": 334235,
+      "emails": [
+        "contact@anjos.com"
+      ]
+    },
+    "/contact/": {
+      "len": 220858,
+      "emails": [
+        "contact@anjos-ventilation.com",
+        "contact@anjos.com",
+        "technique@anjos.com"
+      ]
+    },
+    "/nos-produits/": {
+      "len": 270361,
+      "emails": [
+        "contact@anjos.com"
+      ]
+    }
+  },
+  "php-pack.com": {
+    "/mentions-legales/": {
+      "len": 164257,
+      "emails": [
+        "thomas.paget@php-plast.com"
+      ]
+    },
+    "/": {
+      "len": 204431,
+      "emails": [
+        "thomas.paget@php-plast.com"
+      ]
+    }
+  }
+}

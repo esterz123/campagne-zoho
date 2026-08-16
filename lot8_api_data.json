@@ -1,0 +1,448 @@
+{
+  "411580368": {
+    "nom": "T.E.P. TECHNIQUE ET PLASTURGIE",
+    "ville": "BOUTTENCOURT",
+    "siren": "411580368",
+    "effectif": "12",
+    "categorie": "PME",
+    "activite": "22.23Z",
+    "date_creation": "1997-04-01",
+    "siege": "2 AVENUE DU PRESIDENT ROOSEVELT 80220 BOUTTENCOURT",
+    "dirigeants": [
+      {
+        "nom": "BENZ",
+        "qualite": "Commissaire aux comptes suppléant",
+        "type": "personne physique"
+      },
+      {
+        "nom": "",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      },
+      {
+        "nom": "",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ]
+  },
+  "398899468": {
+    "nom": "APPLICATION DEVELOPPEMENT PLASTURGIE 85 (ADP 85)",
+    "ville": "LES EPESSES",
+    "siren": "398899468",
+    "effectif": "11",
+    "categorie": "PME",
+    "activite": "22.29B",
+    "date_creation": "1994-10-17",
+    "siege": "12 ROUTE DE SAINT-MARS LA REORTHE 85590 LES EPESSES",
+    "dirigeants": [
+      {
+        "nom": "",
+        "qualite": "Directeur Général",
+        "type": "personne morale"
+      },
+      {
+        "nom": "",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ]
+  },
+  "402055974": {
+    "nom": "PLASTURGIE HAUTE PERFORMANCE PHP (PHP)",
+    "ville": "SALLES D'ANGLES",
+    "siren": "402055974",
+    "effectif": "12",
+    "categorie": "PME",
+    "activite": "22.22Z",
+    "date_creation": "1995-08-11",
+    "siege": "ZAE LE PONT NEUF 16130 SALLES D'ANGLES",
+    "dirigeants": [
+      {
+        "nom": "PAGET (PAGET)",
+        "qualite": "Gérant",
+        "type": "personne physique"
+      },
+      {
+        "nom": "RICHARDAUD",
+        "qualite": "Commissaire aux comptes suppléant",
+        "type": "personne physique"
+      },
+      {
+        "nom": "",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      }
+    ]
+  },
+  "921425583": {
+    "nom": "ANJOS INJECTION PLASTIQUE (A.I.P.)",
+    "ville": "TORCIEU",
+    "siren": "921425583",
+    "effectif": "11",
+    "categorie": "PME",
+    "activite": "22.29A",
+    "date_creation": "2022-11-04",
+    "siege": "LD EN TAPON 01230 TORCIEU",
+    "dirigeants": [
+      {
+        "nom": "BARBARIN",
+        "qualite": "Président de SAS",
+        "type": "personne physique"
+      },
+      {
+        "nom": "BARBARIN",
+        "qualite": "Directeur Général",
+        "type": "personne physique"
+      },
+      {
+        "nom": "",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      }
+    ]
+  },
+  "321472011": {
+    "nom": "SOCIETE NATIONALE D'EXTRUSION ET D'INJECTION DES PLASTIQUES (SNEIP)",
+    "ville": "MONTREUIL",
+    "siren": "321472011",
+    "effectif": "12",
+    "categorie": "PME",
+    "activite": "22.29B",
+    "date_creation": "1981-04-01",
+    "siege": "37 BOULEVARD JEANNE D'ARC 93100 MONTREUIL",
+    "dirigeants": [
+      {
+        "nom": "SARFATI",
+        "qualite": "Commissaire aux comptes suppléant",
+        "type": "personne physique"
+      },
+      {
+        "nom": "SPILET (SPILET)",
+        "qualite": "Président de SAS",
+        "type": "personne physique"
+      },
+      {
+        "nom": "SPLIET (SPLIET)",
+        "qualite": "Président de SAS",
+        "type": "personne physique"
+      },
+      {
+        "nom": "",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      }
+    ]
+  },
+  "381596113": {
+    "nom": "IRRIGATION DISTRIBUTION PLASTIQUES",
+    "ville": "AVIGNON",
+    "siren": "381596113",
+    "effectif": "12",
+    "categorie": "ETI",
+    "activite": "46.61Z",
+    "date_creation": "1991-05-02",
+    "siege": "92 RUE JOSEPH VERNET 84000 AVIGNON",
+    "dirigeants": [
+      {
+        "nom": "",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      },
+      {
+        "nom": "",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      }
+    ]
+  },
+  "453570806": {
+    "nom": "NOBEL PLASTIQUES",
+    "ville": "ORGEVAL",
+    "siren": "453570806",
+    "effectif": "22",
+    "categorie": "ETI",
+    "activite": "29.32Z",
+    "date_creation": "2004-04-21",
+    "siege": "524 AVENUE PASTEUR 78630 ORGEVAL",
+    "dirigeants": [
+      {
+        "nom": "COLL",
+        "qualite": "Commissaire aux comptes suppléant",
+        "type": "personne physique"
+      },
+      {
+        "nom": "KOCUM",
+        "qualite": "Président de SAS",
+        "type": "personne physique"
+      },
+      {
+        "nom": "",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      }
+    ]
+  },
+  "378927669": {
+    "nom": "HAUTE TECHNOLOGIE PLASTIQUE SAS (HTP)",
+    "ville": "SENLIS",
+    "siren": "378927669",
+    "effectif": "21",
+    "categorie": "PME",
+    "activite": "81.29B",
+    "date_creation": "1990-05-01",
+    "siege": "19 AVENUE ETIENNE AUDIBERT 60300 SENLIS",
+    "dirigeants": [
+      {
+        "nom": "GRIFFON",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne physique"
+      },
+      {
+        "nom": "ROUGAGNOU",
+        "qualite": "Commissaire aux comptes suppléant",
+        "type": "personne physique"
+      },
+      {
+        "nom": "",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ]
+  },
+  "331468223": {
+    "nom": "P.D.G. PLASTIQUES",
+    "ville": "LE MALESHERBOIS",
+    "siren": "331468223",
+    "effectif": "22",
+    "categorie": "ETI",
+    "activite": "22.22Z",
+    "date_creation": "1985-01-01",
+    "siege": "ZI RTE DE SERMAISES 45300 LE MALESHERBOIS",
+    "dirigeants": [
+      {
+        "nom": "DESFRETIER",
+        "qualite": "Directeur Général",
+        "type": "personne physique"
+      },
+      {
+        "nom": "DESFRETIER (LOBERT)",
+        "qualite": "Directeur Général",
+        "type": "personne physique"
+      },
+      {
+        "nom": "",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      },
+      {
+        "nom": "",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ]
+  },
+  "511852568": {
+    "nom": "MASK PLASTIQUE (MASK PRODUCTION)",
+    "ville": "SARTROUVILLE",
+    "siren": "511852568",
+    "effectif": "12",
+    "categorie": "ETI",
+    "activite": "73.11Z",
+    "date_creation": "2009-03-11",
+    "siege": "127 RUE LEON JOUHAUX 78500 SARTROUVILLE",
+    "dirigeants": [
+      {
+        "nom": "LECOMTE",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne physique"
+      },
+      {
+        "nom": "",
+        "qualite": "Commissaire aux comptes suppléant",
+        "type": "personne morale"
+      },
+      {
+        "nom": "",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ]
+  },
+  "505134106": {
+    "nom": "PLASTIQUES FACONNES DU BETHUNOIS (P.F.B)",
+    "ville": "VERQUIN",
+    "siren": "505134106",
+    "effectif": "11",
+    "categorie": "PME",
+    "activite": "22.29A",
+    "date_creation": "2008-05-09",
+    "siege": "117 B RUE JEAN JAURES 62131 VERQUIN",
+    "dirigeants": [
+      {
+        "nom": "",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ]
+  },
+  "390649903": {
+    "nom": "PLASTIQUES INJECTES DU MARMANDAIS (IMEPSA MARMANDE) (PIM)",
+    "ville": "CAUMONT-SUR-GARONNE",
+    "siren": "390649903",
+    "effectif": "12",
+    "categorie": "ETI",
+    "activite": "22.29A",
+    "date_creation": "1993-04-01",
+    "siege": "3 ROUTE DE LABORDE 47430 CAUMONT-SUR-GARONNE",
+    "dirigeants": [
+      {
+        "nom": "",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ]
+  },
+  "785941089": {
+    "nom": "SOCIETE CASTELBRIANTAISE DES PLASTIQUES",
+    "ville": "CHATEAUBRIANT",
+    "siren": "785941089",
+    "effectif": "22",
+    "categorie": "PME",
+    "activite": "22.22Z",
+    "date_creation": "1973-01-01",
+    "siege": "ZI RUE DU QUEBEC 44110 CHATEAUBRIANT",
+    "dirigeants": [
+      {
+        "nom": "",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      },
+      {
+        "nom": "",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      }
+    ]
+  },
+  "381493923": {
+    "nom": "MECANIQUE BAUMOISE DE PRECISION (MBP)",
+    "ville": "AUTECHAUX",
+    "siren": "381493923",
+    "effectif": "22",
+    "categorie": "PME",
+    "activite": "25.62B",
+    "date_creation": "1991-04-08",
+    "siege": "ZONE EUROPOLYS 4 RUE DE LA CRAYE 25110 AUTECHAUX",
+    "dirigeants": [
+      {
+        "nom": "COUR (COUR)",
+        "qualite": "Directeur Général",
+        "type": "personne physique"
+      },
+      {
+        "nom": "COUR (CULOT)",
+        "qualite": "Directeur Général",
+        "type": "personne physique"
+      },
+      {
+        "nom": "",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      },
+      {
+        "nom": "",
+        "qualite": "Directeur Général",
+        "type": "personne morale"
+      },
+      {
+        "nom": "",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ]
+  },
+  "323505065": {
+    "nom": "MECANIQUE PRECISION ISSOIRIENNE (MPI)",
+    "ville": "SAINT-REMY-DE-CHARGE",
+    "siren": "323505065",
+    "effectif": "12",
+    "categorie": "PME",
+    "activite": "25.62B",
+    "date_creation": "1982-01-01",
+    "siege": "LD LA MALOTIERE 63500 SAINT-REMY-DE-CHARGNAT",
+    "dirigeants": [
+      {
+        "nom": "DUGOURD",
+        "qualite": "Gérant",
+        "type": "personne physique"
+      },
+      {
+        "nom": "VEZIANT (VEZIANT)",
+        "qualite": "Gérant",
+        "type": "personne physique"
+      }
+    ]
+  },
+  "327745519": {
+    "nom": "PRECISION MECANIQUE DU LOROUER (PML)",
+    "ville": "SAINT-VINCENT-DU-LOUET",
+    "siren": "327745519",
+    "effectif": "12",
+    "categorie": "PME",
+    "activite": "25.62B",
+    "date_creation": "1983-07-15",
+    "siege": "7 RUE DE GARECHENNE 72150 SAINT-VINCENT-DU-LOROUER",
+    "dirigeants": [
+      {
+        "nom": "BONNIN",
+        "qualite": "Directeur Général",
+        "type": "personne physique"
+      },
+      {
+        "nom": "BONNIN",
+        "qualite": "Président de SAS",
+        "type": "personne physique"
+      }
+    ]
+  },
+  "300846532": {
+    "nom": "ROUSSEL FRERES PRECISION MECANIQUE (RFPM)",
+    "ville": "VILLERS-SUR-PORT",
+    "siren": "300846532",
+    "effectif": "21",
+    "categorie": "PME",
+    "activite": "25.62B",
+    "date_creation": "1974-01-01",
+    "siege": "RTE DE LUXEUIL 70170 VILLERS-SUR-PORT",
+    "dirigeants": [
+      {
+        "nom": "",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      },
+      {
+        "nom": "",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ]
+  },
+  "437977036": {
+    "nom": "OMP OUTILLAGE MECANIQUE PRECISION (OMP)",
+    "ville": "SAINT-NICOLAS-D'ALIERMONT",
+    "siren": "437977036",
+    "effectif": "11",
+    "categorie": "PME",
+    "activite": "25.62B",
+    "date_creation": "2001-04-01",
+    "siege": "840 RUE D'ARQUES 76510 SAINT-NICOLAS-D'ALIERMONT",
+    "dirigeants": [
+      {
+        "nom": "",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ]
+  }
+}

@@ -1,0 +1,371 @@
+{
+ "110": {
+  "verifie": null
+ },
+ "111": {
+  "verifie": {
+   "url": "https://www.sdeb.fr/",
+   "match": true,
+   "kw": [
+    "sdeb",
+    "bourbonnais"
+   ],
+   "titre": "Tôlerie industrielle SDEB dans l&#039;Allier en Auvergne Rhône Alpes",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "generator: WordPress 6.7.6"
+   ]
+  }
+ },
+ "114": {
+  "verifie": null
+ },
+ "116": {
+  "verifie": null
+ },
+ "118": {
+  "verifie": {
+   "url": "https://www.smg-decoupage-tolerie.com/",
+   "match": true,
+   "kw": [
+    "smg",
+    "decoupage",
+    "confrere"
+   ],
+   "titre": "Sous‑traitant tôlerie &amp; découpage industriel | SMG – Oise",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [
+    "louis.sitkiewiez@smgconfrere.com",
+    "recrutement@smgconfrere.com"
+   ],
+   "tech": [
+    "pas_de_viewport_mobile"
+   ]
+  }
+ },
+ "120": {
+  "verifie": null
+ },
+ "121": {
+  "verifie": null
+ },
+ "122": {
+  "verifie": {
+   "url": "https://snde.fr",
+   "match": false,
+   "kw": [],
+   "titre": "SNDE - Société de Nettoyage, Désinfection et Entretien",
+   "copyright": [],
+   "cms": [],
+   "emails": [
+    "ari.laposte@gmail.com"
+   ],
+   "tech": [
+    "generator: Infomaniak Site Creator"
+   ]
+  }
+ },
+ "123": {
+  "verifie": {
+   "url": "https://www.sare-sarl-69.fr/",
+   "match": true,
+   "kw": [
+    "sare",
+    "azerguoise",
+    "repoussage",
+    "grandris"
+   ],
+   "titre": "Fabrication de pièces métalliques par repoussage et emboutissage - SARE",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "generator: WordPress 7.0.4"
+   ]
+  }
+ },
+ "124": {
+  "verifie": {
+   "url": "https://uma.fr",
+   "match": true,
+   "kw": [
+    "uma"
+   ],
+   "titre": "",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "tables HTML",
+    "generator: WordPress 6.1.1"
+   ]
+  }
+ },
+ "125": {
+  "verifie": {
+   "url": "https://www.samd.fr/",
+   "match": true,
+   "kw": [
+    "samd"
+   ],
+   "titre": "Groupes Electrogènes &#8211; Moteurs industriels &#8211; Contrôle / commande &#8211; Couplage &#8211; Toutes Puissances",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "generator: WordPress 6.0.14"
+   ]
+  }
+ },
+ "128": {
+  "verifie": {
+   "url": "https://www.batisud.org",
+   "match": true,
+   "kw": [
+    "batisud"
+   ],
+   "titre": "Demande de devis",
+   "copyright": [],
+   "cms": [
+    "Webself"
+   ],
+   "emails": [],
+   "tech": [
+    "generator: WebSelf.net"
+   ]
+  }
+ },
+ "129": {
+  "verifie": {
+   "url": "http://www.sudmetallerie.fr/",
+   "match": false,
+   "kw": [],
+   "titre": "Site en construction",
+   "copyright": [
+    "1999"
+   ],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "130": {
+  "verifie": {
+   "url": "https://www.lg-metallerie.fr/",
+   "match": true,
+   "kw": [
+    "metallerie"
+   ],
+   "titre": "ACCUEIL | My Site",
+   "copyright": [],
+   "cms": [
+    "Wix"
+   ],
+   "emails": [],
+   "tech": [
+    "generator: Wix.com Website Builder"
+   ]
+  }
+ },
+ "131": {
+  "verifie": {
+   "url": "http://www.gbmetallerie.fr/",
+   "match": false,
+   "kw": [],
+   "titre": "Site en construction",
+   "copyright": [
+    "1999"
+   ],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "132": {
+  "verifie": {
+   "url": "https://torras.fr",
+   "match": true,
+   "kw": [
+    "torras",
+    "metallerie"
+   ],
+   "titre": "Torras Métallerie - 100 ans d&#039;histoire et d&#039;innovation",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "generator: WordPress 7.0.4"
+   ]
+  }
+ },
+ "133": {
+  "verifie": {
+   "url": "https://metalleriefrancilienne.fr",
+   "match": true,
+   "kw": [
+    "francilienne",
+    "rosny",
+    "metallerie"
+   ],
+   "titre": "Entreprise de métallerie, ferronnerie et agencement Ile de France",
+   "copyright": [],
+   "cms": [],
+   "emails": [
+    "contact@mf-metal.fr",
+    "nechadi.ouafae@gmail.com"
+   ],
+   "tech": []
+  }
+ },
+ "135": {
+  "verifie": {
+   "url": "https://www.gatsbysoudure.com/",
+   "match": false,
+   "kw": [],
+   "titre": "",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "136": {
+  "verifie": null
+ },
+ "137": {
+  "verifie": {
+   "url": "https://www.soudecoup.fr/",
+   "match": true,
+   "kw": [
+    "soudecoup",
+    "soudure",
+    "prov"
+   ],
+   "titre": "Soudecoup: Vente, location et réparation de matériel de soudage",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [
+    "contact13@soudecoup.fr",
+    "contact84@soudecoup.fr",
+    "contact83@soudecoup.fr",
+    "contact30@soudecoup.fr"
+   ],
+   "tech": [
+    "generator: WordPress 6.9.7"
+   ]
+  }
+ },
+ "138": {
+  "verifie": null
+ },
+ "139": {
+  "verifie": null
+ },
+ "140": {
+  "verifie": null
+ },
+ "141": {
+  "verifie": null
+ },
+ "142": {
+  "verifie": null
+ },
+ "143": {
+  "verifie": null
+ },
+ "144": {
+  "verifie": {
+   "url": "https://atlantiquetoleriesoudure.fr",
+   "match": true,
+   "kw": [
+    "ats",
+    "atlantique",
+    "saint-nazaire",
+    "tolerie"
+   ],
+   "titre": "ATS Saint-Nazaire – Tôlerie, chaudronnerie et transformation des métaux",
+   "copyright": [
+    "2015"
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "generator: Site Kit by Google 1.171.0"
+   ]
+  }
+ },
+ "145": {
+  "verifie": {
+   "url": "https://bourgogne.msa.fr/lfp",
+   "match": true,
+   "kw": [
+    "msa",
+    "aron"
+   ],
+   "titre": "MSA - Bourgogne accueil - MSA Bourgogne",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "146": {
+  "verifie": {
+   "url": "https://msi-industrie.fr",
+   "match": true,
+   "kw": [
+    "msi"
+   ],
+   "titre": "Accueil - MSI-Industrie",
+   "copyright": [
+    "2026"
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [
+    "contact@msi-industrie.fr"
+   ],
+   "tech": [
+    "generator: WordPress 7.0.4"
+   ]
+  }
+ },
+ "148": {
+  "verifie": {
+   "url": "https://www.ti-ventilation.fr/",
+   "match": true,
+   "kw": [
+    "tolerie"
+   ],
+   "titre": "Bienvenue - Tôlerie Industrielle",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "generator: Site Kit by Google 1.185.0"
+   ]
+  }
+ }
+}

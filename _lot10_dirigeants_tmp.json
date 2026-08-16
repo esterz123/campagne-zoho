@@ -1,0 +1,907 @@
+{
+ "60": {
+  "nom": "Societe D'Usinage Des Metaux (Sum)",
+  "ville": "SAINT-NICOLAS-D'ALIERMONT",
+  "naf": "25.50B",
+  "siren": "325650232",
+  "dirigeants": [
+   {
+    "nom": "DANY MARCEL RENE DUMONT",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "TALENZ ALTEIS AUDIT ROUEN",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   }
+  ]
+ },
+ "61": {
+  "nom": "Ba Usinage",
+  "ville": "CLUSES",
+  "naf": "25.62A",
+  "siren": "382598647",
+  "dirigeants": [
+   {
+    "nom": "FREDERIC JEAN NICOLAS ANTHOINE",
+    "qualite": "Président de SAS"
+   }
+  ]
+ },
+ "62": {
+  "nom": "Eberhard Usinage",
+  "ville": "HATTMATT",
+  "naf": "25.62B",
+  "siren": "300155256",
+  "dirigeants": [
+   {
+    "nom": "TRAITEMENT DE SURFACE DE BITCHE",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ },
+ "63": {
+  "nom": "Ravon Usinage",
+  "ville": "SAINT-CHRISTOPHE-DU-LIGNERON",
+  "naf": "25.62B",
+  "siren": "407503184",
+  "dirigeants": [
+   {
+    "nom": "PASCAL MICHEL MARCEL RAVON",
+    "qualite": "Gérant"
+   }
+  ]
+ },
+ "64": {
+  "nom": "Sa Europ Usinage",
+  "ville": "RAISMES",
+  "naf": "25.62B",
+  "siren": "408629343",
+  "dirigeants": [
+   {
+    "nom": "HIOLLE INDUSTRIES",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ },
+ "65": {
+  "nom": "Usinage Alsace",
+  "ville": "OBERHASLACH",
+  "naf": "25.62B",
+  "siren": "399828722",
+  "dirigeants": [
+   {
+    "nom": "FINANCIERE ALSACE INDUSTRIE",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ },
+ "66": {
+  "nom": "Elcam Usinage (Elcam Usinage)",
+  "ville": "POLIGNY",
+  "naf": "25.62B",
+  "siren": "420425589",
+  "dirigeants": [
+   {
+    "nom": "MATHILDE LUCETTE MICHELE CARTAUX",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "STEPHANE FRANCOIS JEAN-PIERRE MACLE",
+    "qualite": "Président de SAS"
+   }
+  ]
+ },
+ "67": {
+  "nom": "Urma Usinage (Urma)",
+  "ville": "SENTHEIM",
+  "naf": "25.62B",
+  "siren": "333833085",
+  "dirigeants": [
+   {
+    "nom": "GILBERT BISCHOFF",
+    "qualite": "Gérant"
+   }
+  ]
+ },
+ "68": {
+  "nom": "Usinage Dieppois",
+  "ville": "ROUXMESNIL-BOUTEILLES",
+  "naf": "25.62B",
+  "siren": "331969063",
+  "dirigeants": [
+   {
+    "nom": "SECNO",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   },
+   {
+    "nom": "PG INDUSTRIES DEVELOPPEMENT",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ },
+ "69": {
+  "nom": "Bc Usinages (Bcu)",
+  "ville": "MOLSHEIM",
+  "naf": "25.99B",
+  "siren": "339851560",
+  "dirigeants": [
+   {
+    "nom": "ALEXANDRE LEHMANN",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "CEDRIC LEHN",
+    "qualite": "Directeur Général"
+   }
+  ]
+ },
+ "70": {
+  "nom": "Sauvaitre Usinage",
+  "ville": "SAINT-LEGER-SOUS-CHOLET",
+  "naf": "25.62B",
+  "siren": "328884929",
+  "dirigeants": [
+   {
+    "nom": "[NON-DIFFUSIBLE] [NON-DIFFUSIBLE]",
+    "qualite": "Président de SAS"
+   }
+  ]
+ },
+ "71": {
+  "nom": "Fraisage Services",
+  "ville": "SAINTE-SEVE",
+  "naf": "43.12A",
+  "siren": "434860268",
+  "dirigeants": [
+   {
+    "nom": "ARNAUD BERNARD CLAUDE GOUVA",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "B.H.B.",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   },
+   {
+    "nom": "SOBRECOMO MORLAIX SA",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   }
+  ]
+ },
+ "72": {
+  "nom": "Fraisage Tp",
+  "ville": "SAINT-FLORIS",
+  "naf": "43.99E",
+  "siren": "499129120",
+  "dirigeants": [
+   {
+    "nom": "AUDIT COMMISSARIAT",
+    "qualite": "Commissaire aux comptes suppléant",
+    "type": "morale"
+   },
+   {
+    "nom": "FINANCIERE VARET",
+    "qualite": "Directeur Général",
+    "type": "morale"
+   },
+   {
+    "nom": "V GESTION",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   },
+   {
+    "nom": "NORAUDIT",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   }
+  ]
+ },
+ "73": {
+  "nom": "Nord Fraisage",
+  "ville": "SAINTE-SEVE",
+  "naf": "43.99E",
+  "siren": "511197162",
+  "dirigeants": [
+   {
+    "nom": "VINCENT CHARLES AUGUSTE LIBBRECHT",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "B.H.B.",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   },
+   {
+    "nom": "L.G.M.A.",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   }
+  ]
+ },
+ "74": {
+  "nom": "Atelier De Fraisage Et Mecanique (Afm)",
+  "ville": "ATHIS-VAL DE ROUVRE",
+  "naf": "25.62B",
+  "siren": "410492326",
+  "dirigeants": [
+   {
+    "nom": "FABRICE DELAMARRE",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "FABRICE RENE DELAMARRE",
+    "qualite": "Gérant"
+   }
+  ]
+ },
+ "75": {
+  "nom": "T.F.L. Tournage Fraisage Lorrain",
+  "ville": "HAGONDANGE",
+  "naf": "25.62B",
+  "siren": "339728255",
+  "dirigeants": [
+   {
+    "nom": "HUGUES LORRAIN",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "MAXIME LORRAIN",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "NICOLAS LORRAIN",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "XAVIER LORRAIN",
+    "qualite": "Gérant"
+   }
+  ]
+ },
+ "76": {
+  "nom": "Soc De Decolletage Et Mecanique (Sdm)",
+  "ville": "MARIGNIER",
+  "naf": "25.62A",
+  "siren": "350324885",
+  "dirigeants": [
+   {
+    "nom": "KG FINANCE",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ },
+ "77": {
+  "nom": "Sarl Jcm Decolletage",
+  "ville": "SALLANCHES",
+  "naf": "25.62A",
+  "siren": "498011394",
+  "dirigeants": [
+   {
+    "nom": "MICHEL JIGUET-COVEX",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "COFIDEST AUDIT",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   }
+  ]
+ },
+ "78": {
+  "nom": "Ouest Decolletage",
+  "ville": "CHEMILLE-EN-ANJOU",
+  "naf": "25.62A",
+  "siren": "411152267",
+  "dirigeants": [
+   {
+    "nom": "SAS PAPIN ET ASSOCIES",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   },
+   {
+    "nom": "GROUPE ARBM",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   },
+   {
+    "nom": "REA",
+    "qualite": "Directeur Général",
+    "type": "morale"
+   }
+  ]
+ },
+ "79": {
+  "nom": "Rm Decolletage",
+  "ville": "MAGLAND",
+  "naf": "25.62A",
+  "siren": "438574782",
+  "dirigeants": [
+   {
+    "nom": "MICHEL REVUZ",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "MICHEL DANIEL ELIE REVUZ",
+    "qualite": "Gérant"
+   }
+  ]
+ },
+ "80": {
+  "nom": "Guillerme Decolletage (Decolletage Boyer)",
+  "ville": "ANNONAY",
+  "naf": "25.62A",
+  "siren": "528447865",
+  "dirigeants": [
+   {
+    "nom": "FRANCOIS JOSEPH ALBERT GUILLERME",
+    "qualite": "Gérant"
+   }
+  ]
+ },
+ "81": {
+  "nom": "Le Decolletage Jurassien",
+  "ville": "CHAMPAGNOLE",
+  "naf": "25.62A",
+  "siren": "572133072",
+  "dirigeants": [
+   {
+    "nom": "ARDEC INDUSTRIES NEWCO",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   },
+   {
+    "nom": "CERALP",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   }
+  ]
+ },
+ "82": {
+  "nom": "Ravinet Decolletage",
+  "ville": "SALLANCHES",
+  "naf": "25.62A",
+  "siren": "605720622",
+  "dirigeants": [
+   {
+    "nom": "FLORENCE AUDE RAVINET",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "PIERRE GUSTAVE LOUIS RAVINET",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "RAVINET CONSEILS",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ },
+ "83": {
+  "nom": "Decolletage Elbe",
+  "ville": "MARNAZ",
+  "naf": "25.62A",
+  "siren": "605820729",
+  "dirigeants": [
+   {
+    "nom": "GEOFFROY FREDERIC BENE",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "LAURENT BENE",
+    "qualite": "Président de SAS"
+   }
+  ]
+ },
+ "84": {
+  "nom": "Edelweiss Decolletage",
+  "ville": "MAGLAND",
+  "naf": "25.62A",
+  "siren": "606920353",
+  "dirigeants": [
+   {
+    "nom": "MICHEL CHAPPUIS",
+    "qualite": "Commissaire aux comptes suppléant"
+   },
+   {
+    "nom": "LUDOVIC PERROLLAZ",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "BLANC & NEVEUX",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   }
+  ]
+ },
+ "85": {
+  "nom": "Decolletage De Reu",
+  "ville": "ACHIET-LE-GRAND",
+  "naf": "25.62A",
+  "siren": "551920796",
+  "dirigeants": [
+   {
+    "nom": "JOFFREY DE REU",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "FRANCOIS MONTENS",
+    "qualite": "Commissaire aux comptes suppléant"
+   },
+   {
+    "nom": "SOCIETE EXCO-DOUAI",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   }
+  ]
+ },
+ "86": {
+  "nom": "Gay Decolletage",
+  "ville": "SAINT-PIERRE-EN-FAUCIGNY",
+  "naf": "25.62A",
+  "siren": "310774518",
+  "dirigeants": [
+   {
+    "nom": "CHLOÉ SOPHIE ROSENSTIEHL",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "LJ INDUSTRIES",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ },
+ "87": {
+  "nom": "Coulot Decolletage (Exalta Group)",
+  "ville": "CHATELLERAULT",
+  "naf": "25.62A",
+  "siren": "392640702",
+  "dirigeants": [
+   {
+    "nom": "BRUNO LAURENT DOMINIQUE COULOT",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "CHRISTIANE NICOLE COULOT",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "IN EXTENSO CENTRE OUEST",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   },
+   {
+    "nom": "OPALE GROUP",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ },
+ "88": {
+  "nom": "Sa Amd Decolletage",
+  "ville": "MARNAZ",
+  "naf": "25.62A",
+  "siren": "388741639",
+  "dirigeants": [
+   {
+    "nom": "ANDERLAINE AUDIT",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   },
+   {
+    "nom": "EMACA",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ },
+ "89": {
+  "nom": "Orne Decolletage",
+  "ville": "FLERS",
+  "naf": "25.62A",
+  "siren": "389669417",
+  "dirigeants": [
+   {
+    "nom": "MICHEL HUET",
+    "qualite": "Gérant"
+   }
+  ]
+ },
+ "90": {
+  "nom": "Anjou Decolletage",
+  "ville": "MAUGES-SUR-LOIRE",
+  "naf": "25.62A",
+  "siren": "070201041",
+  "dirigeants": [
+   {
+    "nom": "PAPIN ET ASSOCIES",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   },
+   {
+    "nom": "GROUPE ARBM",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ },
+ "91": {
+  "nom": "Decolletage Morel",
+  "ville": "CHAMPAGNOLE",
+  "naf": "25.62A",
+  "siren": "300863370",
+  "dirigeants": [
+   {
+    "nom": "STEPHANIE GRESLE",
+    "qualite": "Commissaire aux comptes suppléant"
+   },
+   {
+    "nom": "SA CERALP",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   },
+   {
+    "nom": "MECA-JURA",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ },
+ "92": {
+  "nom": "Drault Decolletage",
+  "ville": "AYSE",
+  "naf": "25.62A",
+  "siren": "442311387",
+  "dirigeants": [
+   {
+    "nom": "SEBASTIEN DRAULT",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "BLANC & NEVEUX",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   }
+  ]
+ },
+ "93": {
+  "nom": "Gillet Decolletage",
+  "ville": "DANNEMARIE-SUR-CRETE",
+  "naf": "25.62A",
+  "siren": "419168448",
+  "dirigeants": [
+   {
+    "nom": "DIMITRI LAURENT MICHEL FOURNIER",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "GROUP STSI",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   },
+   {
+    "nom": "GROUP STISI",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ },
+ "94": {
+  "nom": "Decolletage Du Berry",
+  "ville": "SAINT-FLORENT-SUR-CHER",
+  "naf": "25.62A",
+  "siren": "348992488",
+  "dirigeants": [
+   {
+    "nom": "SOREC AUDIT",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   },
+   {
+    "nom": "SARL SDC",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ },
+ "95": {
+  "nom": "Defi - Houillieres De Cruejouls",
+  "ville": "CHATTE",
+  "naf": "20.12Z",
+  "siren": "331014993",
+  "dirigeants": [
+   {
+    "nom": "ADEX ENTREPRISE",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   },
+   {
+    "nom": "QUATTRO",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ },
+ "96": {
+  "nom": "Provence Outillage",
+  "ville": "TAILLADES",
+  "naf": "47.52A",
+  "siren": "401867692",
+  "dirigeants": [
+   {
+    "nom": "LAURENCE TAULEIGNE",
+    "qualite": "Autre"
+   },
+   {
+    "nom": "MARTINE SANCHEZ",
+    "qualite": "Vice-Président"
+   },
+   {
+    "nom": "MICHEL POURTIER",
+    "qualite": "Commissaire aux comptes suppléant"
+   },
+   {
+    "nom": "CEDRIC SANCHEZ",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "JEROME SANCHEZ",
+    "qualite": "Autre"
+   }
+  ]
+ },
+ "97": {
+  "nom": "Outillage De St Etienne",
+  "ville": "ANDREZIEUX-BOUTHEON",
+  "naf": "47.89Z",
+  "siren": "319438321",
+  "dirigeants": [
+   {
+    "nom": "SAFIR",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   },
+   {
+    "nom": "FIFAURE",
+    "qualite": "Directeur Général",
+    "type": "morale"
+   },
+   {
+    "nom": "CABINET SAUNIER AUDIT",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   }
+  ]
+ },
+ "98": {
+  "nom": "Fixations Outillages (Fix Outi Sarl)",
+  "ville": "LE LAMENTIN",
+  "naf": "47.52A",
+  "siren": "403219447",
+  "dirigeants": [
+   {
+    "nom": "FREDERIC RENE ARNAUD",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "SELARL LCM AUDIT",
+    "qualite": "Commissaire aux comptes suppléant",
+    "type": "morale"
+   },
+   {
+    "nom": "JL AUDIT",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   }
+  ]
+ },
+ "99": {
+  "nom": "Outillage Magafor",
+  "ville": "FONTENAY-SOUS-BOIS",
+  "naf": "25.73B",
+  "siren": "552035180",
+  "dirigeants": [
+   {
+    "nom": "CHRISTOPHE MICHEL MATTHEY",
+    "qualite": "Administrateur"
+   },
+   {
+    "nom": "GUILLAUME MATTHEY-PERSIN",
+    "qualite": "Administrateur"
+   },
+   {
+    "nom": "JEAN-MICHEL MATTHEY",
+    "qualite": "Administrateur"
+   },
+   {
+    "nom": "MAXIME MATTHEY",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "PATRICK MATTHEY",
+    "qualite": "Administrateur"
+   }
+  ]
+ },
+ "100": {
+  "nom": "Rao Rhone Alpes Outillage (Rao)",
+  "ville": "SEYSSINS",
+  "naf": "46.74A",
+  "siren": "393656624",
+  "dirigeants": [
+   {
+    "nom": "ROBERT GIRARD",
+    "qualite": "Commissaire aux comptes titulaire"
+   },
+   {
+    "nom": "JEAN-FRANCOIS CHRISTOPHE MASCIAVE",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "GUILLAUME VAUCHERET-PERRIER",
+    "qualite": "Commissaire aux comptes suppléant"
+   }
+  ]
+ },
+ "101": {
+  "nom": "L'Outillage Industriel Et Du Batiment (Soib)",
+  "ville": "PARIS",
+  "naf": "46.63Z",
+  "siren": "382346005",
+  "dirigeants": [
+   {
+    "nom": "MICHEL HAMONIC",
+    "qualite": "Gérant"
+   }
+  ]
+ },
+ "102": {
+  "nom": "Savoie Outillage Service (Savoie Outillage Service - Clickoutil)",
+  "ville": "SAINT-BALDOPH",
+  "naf": "46.69B",
+  "siren": "303376222",
+  "dirigeants": [
+   {
+    "nom": "H.F.A.",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   },
+   {
+    "nom": "CABINET CHRISTIAN BURNET AUDIT",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   }
+  ]
+ },
+ "103": {
+  "nom": "Outillage Mecanique Decoupage (Omedec)",
+  "ville": "AMANCEY",
+  "naf": "25.50B",
+  "siren": "311666077",
+  "dirigeants": [
+   {
+    "nom": "XAVIER LOUIS FLORENT PINGRET",
+    "qualite": "Administrateur"
+   },
+   {
+    "nom": "AMIQUAR",
+    "qualite": "Administrateur",
+    "type": "morale"
+   },
+   {
+    "nom": "PRESENCE AUDIT & CONSEILS",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   },
+   {
+    "nom": "QUARFLOC",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ },
+ "104": {
+  "nom": "Bureau Etude Outillage Mecaniq Generale (Begc)",
+  "ville": "GOUSSAINVILLE",
+  "naf": "71.12B",
+  "siren": "323646679",
+  "dirigeants": [
+   {
+    "nom": "VINCENT CHOUZENOUX",
+    "qualite": "Président de SAS"
+   }
+  ]
+ },
+ "105": {
+  "nom": "Athisienne Mecanique Moule Et Outillage",
+  "ville": "ATHIS-VAL DE ROUVRE",
+  "naf": "25.73B",
+  "siren": "402481667",
+  "dirigeants": [
+   {
+    "nom": "CHRISTINE ANNIE EVELYNE LEPESTEUR",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "PATRICK LOUIS MARIE JOUSSE",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "FABRICE PATRICK LAURENT RIDEREAU",
+    "qualite": "Gérant"
+   },
+   {
+    "nom": "FIDORG-AUDIT SA",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   }
+  ]
+ },
+ "106": {
+  "nom": "Specialite Outillage Materiel Entreprise (Some)",
+  "ville": "SAINT-HERBLAIN",
+  "naf": "46.63Z",
+  "siren": "868801374",
+  "dirigeants": [
+   {
+    "nom": "FLORIAN CITAREL",
+    "qualite": "Directeur Général"
+   },
+   {
+    "nom": "FRANCK CITAREL",
+    "qualite": "Président de SAS"
+   },
+   {
+    "nom": "OUEST CONSEILS AUDIT",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "morale"
+   }
+  ]
+ },
+ "107": {
+  "nom": "Philippe Outillage",
+  "ville": "DAVEZIEUX",
+  "naf": "47.52A",
+  "siren": "385274261",
+  "dirigeants": [
+   {
+    "nom": "PHILIPPE CHAILLOT",
+    "qualite": "Gérant"
+   }
+  ]
+ },
+ "108": {
+  "nom": "Remo Outillage",
+  "ville": "CARRIERES-SUR-SEINE",
+  "naf": "25.62B",
+  "siren": "423779776",
+  "dirigeants": [
+   {
+    "nom": "QUENTIN LEFEBVRE",
+    "qualite": "Gérant"
+   }
+  ]
+ },
+ "109": {
+  "nom": "Outillage Progress",
+  "ville": "NAZELLES-NEGRON",
+  "naf": "24.54Z",
+  "siren": "338896426",
+  "dirigeants": [
+   {
+    "nom": "AMBOISIENNE INVESTISSEMENT",
+    "qualite": "Président de SAS",
+    "type": "morale"
+   }
+  ]
+ }
+}

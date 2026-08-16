@@ -1,0 +1,28 @@
+[
+ {
+  "numero": 1,
+  "entreprise": "ATEMIP (Application de Techniques d'Électro-Érosion, Moules et Injections Plastiques)",
+  "site": "https://www.atemip.com",
+  "dirigeant": "Cédric SAUSSE (Président de SAS)",
+  "email": "contact@atemip.com",
+  "constat": "Site custom figé : bibliothèques font-awesome 4.7.0 (2017) et fancybox 3.2.5 (2018), pages .html statiques, aucune actualisation visible. SIREN 323 298 349 vérifié sur les mentions légales (RCS Tours B 323 298 349). Email contact@atemip.com publié sur le site.",
+  "email_redige": {
+   "subject": "Votre site atemip.com utilise des bibliothèques de 2017",
+   "body": "Bonjour M. SAUSSE,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En préparant une veille sur les moulistes et injecteurs de la région Centre, j'ai passé quelques minutes sur atemip.com, et un point m'a frappé :\n\n**Votre site repose sur des bibliothèques techniques de 2017 et 2018 (Font Awesome 4.7.0, Fancybox 3.2.5), avec des pages figées en HTML statique.**\n\nConcrètement, un donneur d'ordres qui cherche un partenaire mouliste voit une vitrine qui n'a pas bougé depuis des années, ce qui peut éveiller un doute sur votre capacité à suivre les évolutions techniques, avant même qu'il ne découvre votre parc machines.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : l'état de votre présence en ligne point par point (disponibilité, sécurité, design), la comparaison avec 2 de vos concurrents, et 5 recommandations concrètes. Vous gardez le document.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  },
+  "statut": "DIRIGEANT_CONFIRME"
+ },
+ {
+  "numero": 2,
+  "entreprise": "Mécanique de Grande Précision (MGP)",
+  "site": "https://www.mgp-voray.fr",
+  "dirigeant": "Yves SIRURGUET (Gérant)",
+  "email": "contact@mgp-voray.com",
+  "constat": "Site construit avec l'ancien éditeur 1&1 IONOS (website-editor.net), widget AddThis 'Share by' obsolète, page de démonstration 'newpage' encore en ligne, pas de copyright. Email contact@mgp-voray.com publié sur le site (domaine frère mgp-voray.com).",
+  "email_redige": {
+   "subject": "Une page de démonstration est encore visible sur votre site",
+   "body": "Bonjour M. SIRURGUET,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En regardant le site de MGP lors d'une veille sur les mécaniciens de précision de Haute-Saône, j'ai remarqué un détail que vos visiteurs peuvent voir :\n\n**Votre site, construit avec l'ancien éditeur 1&1 IONOS, laisse encore en ligne une page de démonstration nommée 'newpage', en plus d'un widget de partage AddThis obsolète.**\n\nConcrètement, un prospect qui découvre votre entreprise à travers cette page de test peut se demander si la même rigueur s'applique à la production de ses pièces, alors que votre atelier tourne sur des machines récentes.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : l'état de votre présence en ligne point par point (disponibilité, sécurité, design), la comparaison avec 2 de vos concurrents, et 5 recommandations concrètes. Vous gardez le document.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  },
+  "statut": "DIRIGEANT_CONFIRME"
+ }
+]

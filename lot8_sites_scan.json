@@ -1,0 +1,209 @@
+[
+  {
+    "domaine": "php-pack.com",
+    "scheme": "https",
+    "taille": 204431,
+    "title": "PHP PACK",
+    "generator": "",
+    "wp_detect": true,
+    "copyright_years": [
+      "2024"
+    ],
+    "tables": 0,
+    "viewport": true,
+    "jquery": [],
+    "derniere_modif": "",
+    "final_url": "https://php-pack.com"
+  },
+  {
+    "domaine": "mbp-usinage.fr",
+    "scheme": "https",
+    "taille": 31423,
+    "title": "MBP - Accueil",
+    "generator": "",
+    "wp_detect": false,
+    "copyright_years": [],
+    "tables": 0,
+    "viewport": true,
+    "jquery": [],
+    "derniere_modif": "",
+    "final_url": "https://www.mbp-usinage.fr/"
+  },
+  {
+    "domaine": "mpi-mecanique.com",
+    "scheme": "https",
+    "taille": 193260,
+    "title": "Mécanique de précision issoirienne, service de qualité, offre compétitive",
+    "generator": "",
+    "wp_detect": true,
+    "copyright_years": [
+      "2026"
+    ],
+    "tables": 0,
+    "viewport": true,
+    "jquery": [],
+    "derniere_modif": "",
+    "final_url": "https://www.mpi-mecanique.com/"
+  },
+  {
+    "domaine": "pml72.fr",
+    "scheme": "https",
+    "taille": 28290,
+    "title": "PML - Précision Mécanique du Lorouër en Sarthe - Accueil - Propulsé par Saytup",
+    "generator": "Saytup 2.17c",
+    "wp_detect": false,
+    "copyright_years": [
+      "2019"
+    ],
+    "tables": 0,
+    "viewport": true,
+    "jquery": [],
+    "derniere_modif": "",
+    "final_url": "https://www.pml72.fr/"
+  },
+  {
+    "domaine": "omp-usinage.fr",
+    "scheme": "https",
+    "taille": 24124,
+    "title": "Usinage 3, 4 et 5 axes - OMP Usinage",
+    "generator": "",
+    "wp_detect": false,
+    "copyright_years": [],
+    "tables": 0,
+    "viewport": true,
+    "jquery": [
+      "3.1.0"
+    ],
+    "derniere_modif": "",
+    "final_url": "https://omp-usinage.fr"
+  },
+  {
+    "domaine": "adp85.com",
+    "scheme": "https",
+    "taille": 25709,
+    "title": "Injection plastique et Bureau d'étude intégré - ADP 85 : Injection plastique et ",
+    "generator": "Contao Open Source CMS",
+    "wp_detect": false,
+    "copyright_years": [],
+    "tables": 0,
+    "viewport": true,
+    "jquery": [
+      "1.1.1",
+      "2.2.4"
+    ],
+    "derniere_modif": "",
+    "final_url": "https://www.adp85.com/"
+  },
+  {
+    "domaine": "mon-irrigation.com",
+    "scheme": "https",
+    "erreur": "HTTP 403",
+    "taille": 0
+  },
+  {
+    "domaine": "anjos.fr",
+    "scheme": "https",
+    "taille": 334235,
+    "title": "Anjos Ventilation | Inspirer le bien-être !",
+    "generator": "",
+    "wp_detect": true,
+    "copyright_years": [],
+    "tables": 0,
+    "viewport": true,
+    "jquery": [
+      "2.7.0",
+      "3.4.1",
+      "3.7.1"
+    ],
+    "derniere_modif": "",
+    "final_url": "https://anjos.fr"
+  },
+  {
+    "domaine": "anjos-ventilation.fr",
+    "scheme": "https",
+    "taille": 334235,
+    "title": "Anjos Ventilation | Inspirer le bien-être !",
+    "generator": "",
+    "wp_detect": true,
+    "copyright_years": [],
+    "tables": 0,
+    "viewport": true,
+    "jquery": [
+      "2.7.0",
+      "3.4.1",
+      "3.7.1"
+    ],
+    "derniere_modif": "",
+    "final_url": "https://anjos-ventilation.fr"
+  },
+  {
+    "domaine": "nobel-plastiques.com",
+    "scheme": "https",
+    "taille": 164,
+    "title": "Nobel Automotive",
+    "generator": "",
+    "wp_detect": false,
+    "copyright_years": [],
+    "tables": 0,
+    "viewport": false,
+    "jquery": [],
+    "derniere_modif": "",
+    "final_url": "https://nobel-plastiques.com"
+  },
+  {
+    "domaine": "pdg-plastiques.fr",
+    "scheme": "http",
+    "taille": 35619,
+    "title": "PDG Plastiques - préforme, emballage, bouteille, flacon et pot PET",
+    "generator": "",
+    "wp_detect": false,
+    "copyright_years": [
+      "2016"
+    ],
+    "tables": 0,
+    "viewport": true,
+    "jquery": [
+      "1.0.5",
+      "2.1.4"
+    ],
+    "derniere_modif": "",
+    "final_url": "http://www.pdg-plastiques.com/"
+  },
+  {
+    "domaine": "imepsa.fr",
+    "scheme": "https",
+    "taille": 91549,
+    "title": "Imepsa Industrie",
+    "generator": "WPML ver:4.9.5 stt:1,4;",
+    "wp_detect": true,
+    "copyright_years": [],
+    "tables": 0,
+    "viewport": true,
+    "jquery": [
+      "3.4.1",
+      "3.7.1"
+    ],
+    "derniere_modif": "",
+    "final_url": "https://imepsa.fr"
+  },
+  {
+    "domaine": "htp.fr",
+    "scheme": "http",
+    "taille": 105658,
+    "title": "Accueil &#8212; HTP Travaux Publics",
+    "generator": "",
+    "wp_detect": true,
+    "copyright_years": [],
+    "tables": 0,
+    "viewport": true,
+    "jquery": [
+      "3.5.1"
+    ],
+    "derniere_modif": "",
+    "final_url": "https://www.htp.fr/"
+  },
+  {
+    "domaine": "pf-bethunois.fr",
+    "erreur": "injoignable"
+  }
+]

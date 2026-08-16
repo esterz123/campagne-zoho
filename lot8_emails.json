@@ -1,0 +1,50 @@
+{
+  "pdg-plastiques.fr": {
+    "emails": [],
+    "siren_pages": {}
+  },
+  "pml72.fr": {
+    "emails": [],
+    "siren_pages": {
+      "PML": 1
+    }
+  },
+  "adp85.com": {
+    "emails": [],
+    "siren_pages": {}
+  },
+  "omp-usinage.fr": {
+    "emails": [],
+    "siren_pages": {}
+  },
+  "mpi-mecanique.com": {
+    "emails": [
+      "compta@mpi-mecanique.com",
+      "contact@mpi-mecanique.com",
+      "laboratoire@mpi-mecanique.com",
+      "mecanique@mpi-mecanique.com",
+      "sylvain.veziant@mpi-mecanique.com"
+    ],
+    "siren_pages": {}
+  },
+  "php-pack.com": {
+    "emails": [
+      "thomas.paget@php-plast.com"
+    ],
+    "siren_pages": {}
+  },
+  "imepsa.fr": {
+    "emails": [
+      "00accueil@imepsa.fr",
+      "accueil@imepsa.fr",
+      "it@imespa.fr"
+    ],
+    "siren_pages": {}
+  },
+  "mbp-usinage.fr": {
+    "emails": [
+      "contact@mbp.fr"
+    ],
+    "siren_pages": {}
+  }
+}

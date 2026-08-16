@@ -1,0 +1,103 @@
+{
+ "152": {
+  "domaine": "tifsas.com",
+  "siren": "315189597",
+  "siren_hit": false,
+  "emails": [
+   "accueil@tifsas.com",
+   "bicom@bicom.fr",
+   "contact@tifsas.com",
+   "mpetiteau@tifsas.com",
+   "vhardy@tifsas.com"
+  ]
+ },
+ "153": {
+  "domaine": "gromy.fr",
+  "siren": "392316782",
+  "siren_hit": false,
+  "emails": []
+ },
+ "157": {
+  "domaine": "tolerie-service.fr",
+  "siren": "414117945",
+  "siren_hit": false,
+  "emails": []
+ },
+ "158": {
+  "domaine": "camega-tolerie.com",
+  "siren": "434269411",
+  "siren_hit": false,
+  "emails": []
+ },
+ "160": {
+  "domaine": "smg-decoupage-tolerie.com",
+  "siren": "525620332",
+  "siren_hit": false,
+  "emails": [
+   "contact@fimmef.fr",
+   "g.sitkiewiez@smgconfrere.com",
+   "louis.sitkiewiez@smgconfrere.com",
+   "ui@gb.lw"
+  ]
+ },
+ "161": {
+  "domaine": "tolerie-du-nord.fr",
+  "erreur": "home injoignable"
+ },
+ "163": {
+  "domaine": "cntolerie.fr",
+  "erreur": "home injoignable"
+ },
+ "167": {
+  "domaine": "dmg-decoupage.com",
+  "siren": "352688428",
+  "siren_hit": true,
+  "emails": [
+   "commercial@dmg-decoupage.com",
+   "contact@dmg-decoupage.com",
+   "contact@lopale.fr",
+   "dmg6@wanadoo.fr"
+  ]
+ },
+ "171": {
+  "domaine": "mgf-grimaldi.fr",
+  "siren": "313002214",
+  "siren_hit": false,
+  "emails": []
+ },
+ "186": {
+  "domaine": "fonderie-vincent.com",
+  "siren": "957502164",
+  "siren_hit": false,
+  "emails": [
+   "bx@6cn.gjfj",
+   "e@f.wo",
+   "rh@fonderievincent.com"
+  ]
+ },
+ "191": {
+  "domaine": "ouest-injection.fr",
+  "siren": "775604945",
+  "siren_hit": false,
+  "emails": []
+ },
+ "193": {
+  "domaine": "baxter-injection.com",
+  "erreur": "home injoignable"
+ },
+ "198": {
+  "domaine": "anjou-injection.fr",
+  "siren": "878798552",
+  "siren_hit": false,
+  "emails": []
+ },
+ "199": {
+  "domaine": "injection74.fr",
+  "siren": "388781544",
+  "siren_hit": false,
+  "emails": [
+   "contact@injection74.com",
+   "info@odem74.com"
+  ]
+ }
+}

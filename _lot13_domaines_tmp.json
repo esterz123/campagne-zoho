@@ -1,0 +1,757 @@
+{
+ "110": {
+  "societe-normande-decoupage.fr": null,
+  "ndemboutissage.fr": null,
+  "normandie-decoupage-emboutissage.fr": null,
+  "normandiedecoupage.fr": null,
+  "nde-france.fr": null,
+  "decoupage-emboutissage-normandie.fr": null
+ },
+ "111": {
+  "decoupage-emboutissage-bourbonnais.fr": null,
+  "sdeb-emboutissage.fr": null,
+  "sdeb.fr": {
+   "status": 200,
+   "final": "https://www.sdeb.fr/",
+   "keywords_hits": [
+    "sdeb",
+    "cusset",
+    "emboutissage",
+    "bourbonnais"
+   ],
+   "emails": [],
+   "copyright": [
+    [
+     "2026",
+     ""
+    ]
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "generator": [
+    "wordpress 6.7.6",
+    "site kit by google 1.142.0",
+    "performance-lab 3.7.0; plugins: "
+   ],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "Tôlerie industrielle SDEB dans l&#039;Allier en Auvergne Rhône Alpes"
+   ]
+  },
+  "sdeb.com": {
+   "status": 200,
+   "final": "https://www.sdeb.org/",
+   "keywords_hits": [
+    "sdeb"
+   ],
+   "emails": [],
+   "copyright": [
+    [
+     "2025",
+     ""
+    ]
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "generator": [],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "Creating a World of Vision® - San Diego Eye Bank"
+   ]
+  }
+ },
+ "112": {
+  "emboutissage-du-mail.fr": null,
+  "edm-emboutissage.fr": null,
+  "emboutissagedumail.fr": null,
+  "groupe-edm.fr": null,
+  "edm.fr": null
+ },
+ "113": {
+  "ouestemboutissage.fr": null,
+  "ouest-emboutissage.fr": null,
+  "emboutissage-ouest.fr": null
+ },
+ "114": {
+  "jelza-emboutissage.fr": null,
+  "jelzaemboutissage.fr": null,
+  "jelza.fr": null,
+  "jelza.com": null
+ },
+ "116": {
+  "groupe-atec.fr": null,
+  "atec-emboutissage.fr": null,
+  "atec-analyse.fr": null,
+  "groupeatec.fr": {
+   "status": 200,
+   "final": "http://www.groupeatec.fr/",
+   "keywords_hits": [],
+   "emails": [],
+   "copyright": [],
+   "cms": [],
+   "generator": [],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "Site en construction"
+   ]
+  },
+  "atec.fr": null
+ },
+ "117": {
+  "ernst-decoupage.fr": null,
+  "ernstdecoupage.fr": null,
+  "ernst-emboutissage.fr": null,
+  "ernstdecoupageemboutissage.fr": null,
+  "ernst-emboutissage.com": null
+ },
+ "118": {
+  "smg-decoupage-emboutissage.fr": null,
+  "smgdecoupage.fr": null,
+  "smg-emboutissage.fr": null,
+  "smg-decoupage.fr": null
+ },
+ "119": {
+  "sep-emboutissage.fr": null,
+  "societe-emboutissage-precis.fr": null,
+  "sepemboutissage.fr": null,
+  "emboutissage-precis.fr": null
+ },
+ "120": {
+  "talbotdecoupageemboutissage.fr": null,
+  "talbot-decoupage.fr": null,
+  "talbot-emboutissage.fr": null,
+  "tdemboutissage.fr": null
+ },
+ "122": {
+  "societe-normande-decoupage.fr": null,
+  "snde-emboutissage.fr": null,
+  "societenormandededecoupage.fr": null,
+  "snde.fr": {
+   "status": 200,
+   "final": "https://snde.fr/",
+   "keywords_hits": [],
+   "emails": [
+    "073160f6a54ed5776bc71e6f45e5b333@sentry-hosting.infomaniak.com",
+    "ari.laposte@gmail.com"
+   ],
+   "copyright": [],
+   "cms": [],
+   "generator": [
+    "infomaniak site creator"
+   ],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "SNDE - Société de Nettoyage, Désinfection et Entretien"
+   ]
+  }
+ },
+ "121": {
+  "sud-ouest-emboutissage.fr": null,
+  "sudouestemboutissage.fr": null,
+  "soe-emboutissage.fr": null
+ },
+ "123": {
+  "sare-emboutissage.fr": null,
+  "societe-azerguoise.fr": null,
+  "sare69.fr": null,
+  "sare-sarl-69.fr": {
+   "status": 200,
+   "final": "https://www.sare-sarl-69.fr/",
+   "keywords_hits": [
+    "azerguoise",
+    "repoussage",
+    "emboutissage",
+    "grandris"
+   ],
+   "emails": [],
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "generator": [
+    "wordpress 7.0.4"
+   ],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "Fabrication de pièces métalliques par repoussage et emboutissage - SARE"
+   ]
+  }
+ },
+ "124": {
+  "uma-decoupage.fr": null,
+  "uma-emboutissage.fr": null,
+  "uma-tolerie.fr": null,
+  "umatolerie.fr": null
+ },
+ "125": {
+  "samd-decoupage.fr": null,
+  "samd-precision.fr": null,
+  "samdemboutissage.fr": null,
+  "samd.fr": {
+   "status": 200,
+   "final": "https://www.samd.fr/",
+   "keywords_hits": [
+    "samd"
+   ],
+   "emails": [],
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "generator": [
+    "wordpress 6.0.14",
+    "wordpress download manager 3.2.58"
+   ],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "Groupes Electrogènes &#8211; Moteurs industriels &#8211; Contrôle / commande &#8211; Couplage &#8211; Toutes Puissances"
+   ]
+  }
+ },
+ "126": {
+  "metallerie-lenoir.fr": null,
+  "lenoir-metallerie.fr": null,
+  "lenoir-metallerie.com": null,
+  "lenoirmetallerie.fr": {
+   "status": 200,
+   "final": "https://www.lenoirmetallerie.fr/",
+   "keywords_hits": [
+    "lenoir",
+    "metallerie",
+    "villeurbanne",
+    "69100"
+   ],
+   "emails": [
+    "courrier@lenoirmetallerie.fr"
+   ],
+   "copyright": [
+    [
+     "2026",
+     ""
+    ]
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "generator": [
+    "wordpress 7.0.4",
+    "site kit by google 1.185.0",
+    "elementor 4.2.2; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto"
+   ],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "Lenoir Metallerie | Ouvrages métalliques d’exception"
+   ]
+  }
+ },
+ "127": {
+  "oaca-metallerie.fr": null,
+  "oacametallerie.fr": null,
+  "oaca.fr": {
+   "status": 200,
+   "final": "https://www.oaca.fr/",
+   "keywords_hits": [
+    "oaca",
+    "metallerie"
+   ],
+   "emails": [
+    "adobestock_176497553-434x289@2x.jpeg",
+    "agroalimentaire-434x236@2x.jpg",
+    "agroalimentaire-434x236@2x.jpg.webp",
+    "armement-434x236@2x.jpg",
+    "armement-434x236@2x.jpg.webp",
+    "background-14-434x326@2x.jpg",
+    "background-14-434x326@2x.jpg.webp",
+    "barrage-cote_d_ivoire-1440x960@2x.jpeg",
+    "barrage-cote_d_ivoire-1440x960@2x.jpeg.webp",
+    "barrage-cote_d_ivoire-300x200@2x.jpeg",
+    "barrage-cote_d_ivoire-300x200@2x.jpeg.webp",
+    "barrage-cote_d_ivoire-318x212@2x.jpeg",
+    "barrage-cote_d_ivoire-318x212@2x.jpeg.webp",
+    "barrage-cote_d_ivoire-434x289@2x.jpeg",
+    "barrage-cote_d_ivoire-434x289@2x.jpeg.webp",
+    "batiment-434x236@2x.jpg",
+    "batiment-434x236@2x.jpg.webp",
+    "energie-434x236@2x.jpg",
+    "energie-434x236@2x.jpg.webp",
+    "ferroviaire-434x236@2x.jpg",
+    "ferroviaire-434x236@2x.jpg.webp",
+    "image-20-1-230x215@2x.jpg",
+    "image-20-2-230x215@2x.jpg",
+    "image-20-230x215@2x.jpg",
+    "image-20-3-230x215@2x.jpg",
+    "image-20-4-230x215@2x.jpg",
+    "image-20-5-230x215@2x.jpg",
+    "nucleaire-434x236@2x.jpg",
+    "nucleaire-434x236@2x.jpg.webp",
+    "oaca-52-1440x960@2x.jpg",
+    "oaca-52-1440x960@2x.jpg.webp",
+    "oaca-52-300x200@2x.jpg",
+    "oaca-52-300x200@2x.jpg.webp",
+    "oaca-52-318x212@2x.jpg",
+    "oaca-52-318x212@2x.jpg.webp",
+    "oaca-52-434x289@2x.jpg",
+    "oaca-52-434x289@2x.jpg.webp",
+    "oaca_still1_00216131-retouche-300x169@2x.jpg",
+    "oaca_still1_00216131-retouche-300x169@2x.jpg.webp",
+    "oaca_still1_00216131-retouche-434x244@2x.jpg",
+    "oaca_still1_00216131-retouche-434x244@2x.jpg.webp",
+    "oaca_still1_00216131-retouche-700x394@2x.jpg",
+    "oaca_still1_00216131-retouche-700x394@2x.jpg.webp",
+    "vue-lac-campana-1440x1080@2x.jpg",
+    "vue-lac-campana-1440x1080@2x.jpg.webp",
+    "vue-lac-campana-287x215@2x.jpg",
+    "vue-lac-campana-287x215@2x.jpg.webp",
+    "vue-lac-campana-300x225@2x.jpg",
+    "vue-lac-campana-300x225@2x.jpg.webp",
+    "vue-lac-campana-434x326@2x.jpg",
+    "vue-lac-campana-434x326@2x.jpg.webp"
+   ],
+   "copyright": [
+    [
+     "2023",
+     ""
+    ]
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "generator": [],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "OACA – Ensemble, matérialisons vos projets"
+   ]
+  }
+ },
+ "128": {
+  "batisud.fr": {
+   "status": 200,
+   "final": "https://batisud.fr/",
+   "keywords_hits": [],
+   "emails": [],
+   "copyright": [],
+   "cms": [],
+   "generator": [],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "Dovendi - Domain for sale"
+   ]
+  },
+  "batisudmetallerie.fr": null,
+  "batisud-metallerie.fr": null,
+  "batisud.org": {
+   "status": 200,
+   "final": "https://www.batisud.org/",
+   "keywords_hits": [
+    "batisud"
+   ],
+   "emails": [],
+   "copyright": [],
+   "cms": [],
+   "generator": [
+    "webself.net"
+   ],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "\r\n\tDemande de devis\r\n"
+   ]
+  }
+ },
+ "129": {
+  "sud-metallerie.fr": null,
+  "sud-metallerie.com": null,
+  "sudmetallerie.fr": {
+   "status": 200,
+   "final": "http://www.sudmetallerie.fr/",
+   "keywords_hits": [],
+   "emails": [],
+   "copyright": [],
+   "cms": [],
+   "generator": [],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "Site en construction"
+   ]
+  }
+ },
+ "130": {
+  "lgmetallerie.fr": null,
+  "lg-metallerie.com": null,
+  "lg-metallerie.fr": {
+   "status": 200,
+   "final": "https://www.lg-metallerie.fr/",
+   "keywords_hits": [
+    "lg",
+    "metallerie",
+    "lorient",
+    "56100"
+   ],
+   "emails": [],
+   "copyright": [],
+   "cms": [
+    "Wix"
+   ],
+   "generator": [
+    "wix.com website builder"
+   ],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "ACCUEIL | My Site"
+   ]
+  }
+ },
+ "132": {
+  "torras-metallerie.fr": null,
+  "torrasmetallerie.fr": null,
+  "torras-metallerie.com": null,
+  "torras.fr": {
+   "status": 200,
+   "final": "https://torras.fr/",
+   "keywords_hits": [
+    "torras",
+    "metallerie"
+   ],
+   "emails": [],
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "generator": [
+    "wordpress 7.0.4",
+    "site kit by google 1.181.0",
+    "elementor 4.0.6; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"
+   ],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "Torras Métallerie - 100 ans d&#039;histoire et d&#039;innovation"
+   ]
+  }
+ },
+ "131": {
+  "gb-metallerie.com": null,
+  "gb-metallerie.fr": {
+   "status": 200,
+   "final": "http://www.gb-metallerie.fr/",
+   "keywords_hits": [],
+   "emails": [],
+   "copyright": [],
+   "cms": [],
+   "generator": [],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "Site en construction"
+   ]
+  },
+  "gbmetallerie.fr": {
+   "status": 200,
+   "final": "http://www.gbmetallerie.fr/",
+   "keywords_hits": [],
+   "emails": [],
+   "copyright": [],
+   "cms": [],
+   "generator": [],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "Site en construction"
+   ]
+  }
+ },
+ "133": {
+  "metallerie-francilienne.fr": null,
+  "metallieriefrancilienne.fr": null,
+  "metallerie.com": {
+   "status": 200,
+   "final": "https://metallerie.com/",
+   "keywords_hits": [
+    "metallerie"
+   ],
+   "emails": [
+    "info@metallerie.com"
+   ],
+   "copyright": [],
+   "cms": [],
+   "generator": [],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "Metallerie.com - Votre spécialiste de la métallerie : 100% design, 100% sur mesure pour un résultat à vos attentes"
+   ]
+  }
+ },
+ "134": {
+  "institut-de-soudure.com": null,
+  "institutsoudure.com": null,
+  "isgroupe.com": {
+   "status": 200,
+   "final": "https://www.isgroupe.com/fr/accueil",
+   "keywords_hits": [
+    "institut",
+    "soudure",
+    "villepinte"
+   ],
+   "emails": [],
+   "copyright": [
+    [
+     "2026",
+     ""
+    ]
+   ],
+   "cms": [],
+   "generator": [
+    "hubspot"
+   ],
+   "tables": 1,
+   "viewport": true,
+   "title": [
+    "Accueil | Groupe Institut de Soudure"
+   ]
+  },
+  "groupe-is.com": {
+   "status": 200,
+   "final": "http://groupe-is.com/",
+   "keywords_hits": [],
+   "emails": [],
+   "copyright": [],
+   "cms": [],
+   "generator": [],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "groupe-is.com"
+   ]
+  }
+ },
+ "135": {
+  "gatsby-soudure.fr": null,
+  "gatsby-soudure.com": null,
+  "gatsbysoudure.fr": {
+   "status": 200,
+   "final": "https://www.gatsbysoudure.com/",
+   "keywords_hits": [],
+   "emails": [],
+   "copyright": [],
+   "cms": [],
+   "generator": [],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    ""
+   ]
+  }
+ },
+ "136": {
+  "es-soudure.fr": null,
+  "essoudure.fr": null,
+  "es-soudure.com": null
+ },
+ "137": {
+  "soc-prov-materiel-soudure.fr": null,
+  "soudecoup.com": {
+   "status": 200,
+   "final": "http://www.soudecoup.com/",
+   "keywords_hits": [],
+   "emails": [],
+   "copyright": [],
+   "cms": [],
+   "generator": [],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "Site en construction"
+   ]
+  },
+  "soudecoup.fr": {
+   "status": 200,
+   "final": "https://www.soudecoup.fr/",
+   "keywords_hits": [
+    "soudecoup",
+    "gardanne",
+    "13120",
+    "soudure"
+   ],
+   "emails": [
+    "contact13@soudecoup.fr",
+    "contact30@soudecoup.fr",
+    "contact83@soudecoup.fr",
+    "contact84@soudecoup.fr"
+   ],
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "generator": [
+    "wordpress 6.9.7",
+    "woocommerce 6.4.2",
+    "powered by slider revolution 6.5.21 - responsive, mobile-friendly slider plugin for wordpress with comfortable drag and drop interface."
+   ],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "Soudecoup: Vente, location et réparation de matériel de soudage"
+   ]
+  }
+ },
+ "138": {
+  "sud-soudure.fr": null,
+  "sudsoudure.fr": null
+ },
+ "139": {
+  "cst-chaudronnerie.fr": null,
+  "chaudronnerie-soudure-tuyauterie.fr": null,
+  "cst-soudure.fr": null
+ },
+ "140": {
+  "soudure-tuyauterie-brestoise.fr": null,
+  "stb-soudure.fr": null,
+  "stbsoudure.fr": null
+ },
+ "141": {
+  "stm-soudure.fr": null,
+  "soudure-tuyauterie-maintenance.fr": null,
+  "stm-tuyauterie.fr": null
+ },
+ "142": {
+  "brivet-mecano-soudure.fr": null,
+  "brivetmecanosoudure.fr": null,
+  "bms-soudure.fr": null
+ },
+ "143": {
+  "tsc-tuyauterie.fr": null,
+  "tuyauterie-soudure-chauffage.fr": null,
+  "tsc-soudure.fr": null
+ },
+ "144": {
+  "atlantique-tolerie-soudure.fr": null,
+  "ats-soudure.fr": null,
+  "atlantiquetoleriesoudure.fr": {
+   "status": 200,
+   "final": "https://atlantiquetoleriesoudure.fr/",
+   "keywords_hits": [
+    "atlantique",
+    "tolerie",
+    "soudure"
+   ],
+   "emails": [
+    "administratif@ats.fr"
+   ],
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "generator": [
+    "site kit by google 1.171.0"
+   ],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "ATS Saint-Nazaire – Tôlerie, chaudronnerie et transformation des métaux"
+   ]
+  }
+ },
+ "145": {
+  "msa-mecano-soudure.fr": null,
+  "mecanosoudurearon.fr": null,
+  "mecano-soudure-aron.fr": null,
+  "msa-soudure.fr": null
+ },
+ "146": {
+  "msi-maintenance-soudure.fr": null,
+  "maintenance-soudure-industrielle.fr": null,
+  "msi-soudure.fr": {
+   "status": 200,
+   "final": "https://www.msi-soudure.fr/",
+   "keywords_hits": [
+    "msi",
+    "soudure"
+   ],
+   "emails": [],
+   "copyright": [
+    [
+     "2025",
+     ""
+    ]
+   ],
+   "cms": [],
+   "generator": [],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "Travaux de métallerie à Grimaud"
+   ]
+  }
+ },
+ "147": {
+  "tolerie-de-la-loire.fr": null,
+  "toleriesdelaloire.fr": null,
+  "toleriedelaloire.fr": null
+ },
+ "148": {
+  "tolerie-industrielle.fr": {
+   "status": 200,
+   "final": "http://tolerie-industrielle.fr/",
+   "keywords_hits": [],
+   "emails": [],
+   "copyright": [],
+   "cms": [],
+   "generator": [],
+   "tables": 0,
+   "viewport": false,
+   "title": [
+    "Nom de domaine, prestataire rfrencement, hbergement de site web"
+   ]
+  },
+  "tolerieindustrielle.fr": null
+ },
+ "149": {
+  "tolerie-remond.fr": null,
+  "remond-tolerie.fr": null,
+  "tolerie-remond.com": {
+   "status": 200,
+   "final": "https://www.tolerie-remond.com/",
+   "keywords_hits": [
+    "remond",
+    "tolerie",
+    "crepand"
+   ],
+   "emails": [
+    "tb@tolerie-remond.com"
+   ],
+   "copyright": [
+    [
+     "2025",
+     ""
+    ]
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "generator": [
+    "wordpress 6.8.3",
+    "powered by wpbakery page builder - drag and drop page builder for wordpress.",
+    "powered by slider revolution 6.2.2 - responsive, mobile-friendly slider plugin for wordpress with comfortable drag and drop interface."
+   ],
+   "tables": 0,
+   "viewport": true,
+   "title": [
+    "TÔLERIE RÉMOND - Découpe Laser Poinçonnage Pliage Soudure du Métal Acier Alu Inox - Crépand Dijon Bourgogne - Tôlerie Rémond - Montbard, Dijon, Bourgogne"
+   ]
+  }
+ }
+}

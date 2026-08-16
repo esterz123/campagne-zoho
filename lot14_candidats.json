@@ -1,0 +1,41 @@
+[
+ {
+  "numero": 1,
+  "entreprise": "ACTECH SAS",
+  "site": "actech-innovation.com",
+  "dirigeant": "Thomas BARGAIN (President via chaine: ACTECH -> PM 891255358 -> PM 890292832)",
+  "email": "contact@actech-innovation.com",
+  "constat": "ZERO balise viewport dans le code (verifie en direct, curl): le site ne s'adapte pas aux ecrans mobiles, rendu dezoome. Page accueil reduite (11 Ko, une page). Copyright 2026. Vision: design sobre 4/5 desktop, mobile casse.",
+  "email_redige": {
+   "subject": "Votre site s'affiche dezoome sur mobile",
+   "body": "Bonjour M. BARGAIN,\n\nJe suis Mahdi, brand designer specialise dans les entreprises industrielles. En consultant actech-innovation.com, j'ai releve un point simple a corriger mais lourd de consequences :\n\n**Votre site ne contient aucune balise viewport : sur un smartphone, la page s'affiche dezoomee, avec des textes minuscules qu'il faut agrandir a la main pour lire.**\n\nConcretement, un donneur d'ordres qui compare des bureaux d'etudes depuis son mobile se retrouve face a une page difficile a consulter, et peut passer au concurrent d'a cote sans meme vous avoir contacte.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : votre site compare a 2 ou 3 concurrents, et 5 recommandations concretes pour mettre votre expertise en avant des la premiere seconde. Vous gardez le document.\n\nIl me suffit d'une reponse a cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  },
+  "statut": "confirme"
+ },
+ {
+  "numero": 2,
+  "entreprise": "APLAST",
+  "site": "aplast.fr",
+  "dirigeant": "Alexandre LACOUR (President via holding 326876836, Courty)",
+  "email": "contact@aplast.fr",
+  "constat": "Design annee 2000-2010 (boutons bleus carres, titres en majuscules), tres peu de visuels (vision sur capture reelle). Footer avec numero de fax. Titre d'onglet generique 'Aplast'. Note: l'annuaire pointait someflu.com (marque pompes de la holding) - faux.",
+  "email_redige": {
+   "subject": "Votre site garde le style des annees 2000",
+   "body": "Bonjour M. LACOUR,\n\nJe suis Mahdi, brand designer specialise dans les entreprises industrielles. En consultant aplast.fr, j'ai releve un point simple a corriger mais lourd de consequences :\n\n**Votre page d'accueil utilise des boutons bleus carres et des titres en majuscules qui rappellent les sites des annees 2000, avec tres peu de visuels pour montrer votre atelier d'injection et vos pieces.**\n\nConcretement, un client industriel qui compare votre site a ceux de vos concurrents peut lire ce contraste comme un manque de modernite de l'entreprise elle-meme, avant meme d'avoir vu la qualite de votre travail.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : votre site compare a 2 ou 3 concurrents, et 5 recommandations concretes pour mettre votre expertise en avant des la premiere seconde. Vous gardez le document.\n\nIl me suffit d'une reponse a cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  },
+  "statut": "confirme"
+ },
+ {
+  "numero": 3,
+  "entreprise": "APPCELL",
+  "site": "appcell.fr",
+  "dirigeant": "Jean-Pierre BILLIARD (President via holding 829073311, Angers)",
+  "email": "contact@appcell.fr",
+  "constat": "Titre d'onglet 'AppCell - Page d'accueil' (suffixe generique), aucune annee de copyright, code Webflow non modifie depuis le 23/03/2023 (Last Published), derniere annee citee dans le contenu: 2022. Vision 3/5.",
+  "email_redige": {
+   "subject": "Votre site n'affiche aucune date de mise a jour",
+   "body": "Bonjour M. BILLIARD,\n\nJe suis Mahdi, brand designer specialise dans les entreprises industrielles. En consultant appcell.fr, j'ai releve un point simple a corriger mais lourd de consequences :\n\n**Votre site n'affiche ni annee de copyright ni date de mise a jour : un visiteur ne peut pas savoir si vos gammes et vos savoir-faire datent de la semaine derniere ou de plusieurs annees, d'autant que le code n'a pas ete modifie depuis mars 2023.**\n\nConcretement, un donneur d'ordres qui compare des fournisseurs hesite devant une entreprise dont la presence en ligne semble endormie, et se tourne vers un concurrent visiblement actif.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : votre site compare a 2 ou 3 concurrents, et 5 recommandations concretes pour mettre votre expertise en avant des la premiere seconde. Vous gardez le document.\n\nIl me suffit d'une reponse a cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  },
+  "statut": "confirme"
+ }
+]

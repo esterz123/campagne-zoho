@@ -1,0 +1,158 @@
+{
+  "411580368": {
+    "denom_cherchee": "FMB TECHNOLOGIES",
+    "holding_nom": "GALLEZ INDUSTRIE HOLDING (G I H)",
+    "holding_siren": "477180566",
+    "holding_ville": "BOUTTENCOURT",
+    "dirigeants_physiques": []
+  },
+  "398899468": {
+    "denom_cherchee": "SOTÉO",
+    "holding_nom": "SOTEO",
+    "holding_siren": "921321014",
+    "holding_ville": "LA LANDE-DE-FRONSAC",
+    "dirigeants_physiques": [
+      {
+        "prenoms": "ANNE-LAURE",
+        "nom": "LIEBOLD (LAVIELLE)",
+        "qualite": "Gérant et associé indéfiniment responsable"
+      },
+      {
+        "prenoms": "DAVID SEBASTIEN",
+        "nom": "LIEBOLD (LIEBOLD)",
+        "qualite": "Gérant et associé indéfiniment responsable"
+      }
+    ]
+  },
+  "300846532": {
+    "denom_cherchee": "HOLDING PIERRE ROUSSEL",
+    "holding_nom": "HOLDING PIERRE ROUSSEL",
+    "holding_siren": "828635904",
+    "holding_ville": "VILLERS-SUR-PORT",
+    "dirigeants_physiques": [
+      {
+        "prenoms": "PIERRE JEAN JOSSELIN",
+        "nom": "ROUSSEL",
+        "qualite": "Gérant et associé indéfiniment responsable"
+      }
+    ]
+  },
+  "437977036": {
+    "denom_cherchee": "KAMI INDUSTRIES",
+    "holding_nom": "KAMI INDUSTRIES",
+    "holding_siren": "815057989",
+    "holding_ville": "SAINT-GERMAIN-DES-ESSOURTS",
+    "dirigeants_physiques": [
+      {
+        "prenoms": "FABRICE ANDRE JEAN",
+        "nom": "VARON",
+        "qualite": "Gérant"
+      }
+    ]
+  },
+  "505134106": {
+    "denom_cherchee": "PLASTIQUES FACONNES DU BETHUNOIS HOLDING",
+    "holding_nom": "PLASTIQUES FACONNES DU BETHUNOIS HOLDING (PFBH)",
+    "holding_siren": "323168872",
+    "holding_ville": "VERQUIN",
+    "dirigeants_physiques": [
+      {
+        "prenoms": "ALAIN CHARLES ALEXIS",
+        "nom": "HERINGUEZ",
+        "qualite": "Directeur Général"
+      },
+      {
+        "prenoms": "INGRID",
+        "nom": "LOUCHART (HERINGUEZ)",
+        "qualite": "Président de SAS"
+      }
+    ]
+  },
+  "390649903": {
+    "denom_cherchee": "IMEPSA INDUSTRIE",
+    "holding_nom": "IMEPSA INDUSTRIE",
+    "holding_siren": "810822999",
+    "holding_ville": "MONTREM",
+    "dirigeants_physiques": [
+      {
+        "prenoms": "LAURENT",
+        "nom": "STIPAL",
+        "qualite": "Président de SAS"
+      }
+    ]
+  },
+  "785941089": {
+    "denom_cherchee": "FINANCIERE DES SOUZEAUX",
+    "holding_nom": "FINANCIERE DES SOUZEAUX",
+    "holding_siren": "534150594",
+    "holding_ville": "PARIS",
+    "dirigeants_physiques": []
+  },
+  "381596113": {
+    "denom_cherchee": "MAGNOLIA",
+    "holding_nom": "MAGNOLIA",
+    "holding_siren": "538353111",
+    "holding_ville": "NICE",
+    "dirigeants_physiques": [
+      {
+        "prenoms": "NIKOLAY",
+        "nom": "DJOUROV",
+        "qualite": "Gérant"
+      }
+    ]
+  },
+  "511852568": {
+    "denom_cherchee": "AKIRA",
+    "holding_nom": "AKIRA",
+    "holding_siren": "844278309",
+    "holding_ville": "BEAUSOLEIL",
+    "dirigeants_physiques": [
+      {
+        "prenoms": "YOUNESS",
+        "nom": "EL MSELLEK",
+        "qualite": "Gérant"
+      }
+    ]
+  },
+  "378927669": {
+    "denom_cherchee": "GROUPE HTP",
+    "holding_nom": "GROUPE HTP",
+    "holding_siren": "414430371",
+    "holding_ville": "GRASSE",
+    "dirigeants_physiques": [
+      {
+        "prenoms": "STEPHANE",
+        "nom": "GRIFFON",
+        "qualite": "Commissaire aux comptes titulaire"
+      },
+      {
+        "prenoms": "ARNAUD",
+        "nom": "ROUGAGNOU",
+        "qualite": "Commissaire aux comptes suppléant"
+      },
+      {
+        "prenoms": "ERIC",
+        "nom": "SAGUET (SAGUET)",
+        "qualite": "Président de SAS"
+      }
+    ]
+  },
+  "344471743": {
+    "denom_cherchee": "Centre Plastique Sa",
+    "holding_nom": "CENTRE PLASTIQUE SA",
+    "holding_siren": "344471743",
+    "holding_ville": "BRIARE",
+    "dirigeants_physiques": [
+      {
+        "prenoms": "ANTHONY ANDRE MARCEAU",
+        "nom": "GAILLARD",
+        "qualite": "Gérant"
+      },
+      {
+        "prenoms": "JEAN-NOEL",
+        "nom": "GAILLARD (GAILLARD)",
+        "qualite": "Président de SAS"
+      }
+    ]
+  }
+}

@@ -293,12 +293,24 @@ def main():
     remaining = [(num, e) for num, e in sorted(emails.items(), key=lambda kv: int(kv[0]))
                  if num not in sent and e.get("to")]
 
-    # Relances J+5 / J+12, prioritaires sur les nouveaux emails
+    # Relances J+3 / J+7, prioritaires sur les nouveaux emails
     fu = load_followups()
+    # Exclusions : ne JAMAIS relancer quelqu'un qui a repondu (repondeur marque
+    # sent[num]["replied"]) ni quelqu'un avec une relance dediee (relances_conges.json).
+    conges_to = set()
+    try:
+        rc = json.load(open(os.path.join(BASE, "relances_conges.json"), encoding="utf-8"))
+        conges_to = {r.get("to", "").strip().lower() for r in rc.get("relances", [])}
+    except Exception:
+        pass
     due_fu = []
     for num, v in sorted(sent.items()):
         if not v.get("on"):
             continue
+        if v.get("replied"):
+            continue  # le prospect a repondu : conversation en cours, pas de relance
+        if emails[num].get("to", "").strip().lower() in conges_to:
+            continue  # relance dediee programmee (retour de conges) : pas de relance auto
         days = (datetime.date.today() - datetime.date.fromisoformat(v["on"])).days
         if "sent_relance1" not in v and days >= fu.get("relance1", {}).get("wait_days", 99):
             due_fu.append(("relance1", num))

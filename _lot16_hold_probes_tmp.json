@@ -1,0 +1,318 @@
+{
+ "holdings": {
+  "525620332_SMG": [
+   "LAURENT PIERRE CONFRERE",
+   "Président de SAS"
+  ],
+  "399796861_BAXTER": [
+   "PATRICK JEAN CHARLES GINOUVIER",
+   "Gérant"
+  ],
+  "348992488_BERRY": [
+   "SYLVAIN CROQUET",
+   "Gérant"
+  ],
+  "311666077_OMEDEC": [
+   "XAVIER PINGRET",
+   "Président de SAS"
+  ],
+  "338896426_PROGRESS": [
+   "ARNAULT RENE PIERRE BREDIF",
+   "Gérant"
+  ],
+  "303376222_SAVOIE": [
+   "FRANCOIS XAVIER ALLARD",
+   "Gérant"
+  ],
+  "419168448_GILLET": [
+   "DIMITRI FOURNIER",
+   "Président de SAS"
+  ],
+  "419808985_NDE": [
+   "FLORIAN MESLIN",
+   "Gérant"
+  ],
+  "957502164_VINCENT": [
+   "JEAN-PIERRE MICHEL CUIF",
+   "Président de SAS"
+  ],
+  "878798552_ANJOU": [
+   [
+    "MORALE ALPA INVEST",
+    "Président de SAS"
+   ],
+   "ANNE THÉRÈSE MARIE RABREAU (GUIET)",
+   "Gérant"
+  ]
+ },
+ "probes": {
+  "419168448_GILLET": [
+   [
+    "https://gillet-decolletage.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://gillet-decolletage.com",
+    200,
+    155038,
+    "Group STSI - Combinez complexité avec précision",
+    []
+   ],
+   [
+    "https://www.gillet-decolletage.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://decolletage-gillet.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://gillet-decoupage.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "http://gillet-decolletage.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ]
+  ],
+  "419808985_NDE": [
+   [
+    "https://nde-crulai.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://www.nde-crulai.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://normandie-decoupage-emboutissage.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://nde-emboutissage.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://sites.google.com/view/nde-crulai",
+    200,
+    1233114,
+    "Connexion : comptes Google",
+    []
+   ],
+   [
+    "http://nde-crulai.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ]
+  ],
+  "813390432_GATSBY": [
+   [
+    "https://gatsby-soudure.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://www.gatsby-soudure.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://gatsbysoudure.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [WinError 10061] Aucune connexion n",
+    []
+   ],
+   [
+    "https://gatsby-soudure.com",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "http://gatsby-soudure.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ]
+  ],
+  "348992488_BERRY": [
+   [
+    "https://decolletage-berry.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://www.decolletage-berry.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://decolletageduberry.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://decoupage-decolletage-berry.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "http://decolletage-berry.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ]
+  ],
+  "311666077_OMEDEC": [
+   [
+    "https://omedec.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://www.omedec.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://omedec.com",
+    200,
+    68287,
+    "La d&#233;coupe de pr&#233;cision, c'est notre m&#233;tier | OMEDEC D&#233;coupage",
+    [
+     "contact@omedec.com"
+    ]
+   ],
+   [
+    "https://outillage-omedec.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "http://omedec.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ]
+  ],
+  "338896426_PROGRESS": [
+   [
+    "https://outillage-progress.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://www.outillage-progress.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://outillageprogress.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "http://outillage-progress.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ]
+  ],
+  "303376222_SAVOIE": [
+   [
+    "https://clickoutil.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [WinError 10061] Aucune connexion n",
+    []
+   ],
+   [
+    "https://www.clickoutil.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [WinError 10061] Aucune connexion n",
+    []
+   ],
+   [
+    "https://savoie-outillage.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "https://savoie-outillage-service.fr",
+    "ERR",
+    "URLError",
+    "<urlopen error [Errno 11001] getaddrinfo failed>",
+    []
+   ],
+   [
+    "http://clickoutil.fr",
+    200,
+    925040,
+    "Outillage électroportatif en ligne chez ClickOutil : Bosch, Milwaukee, Festool, Makita, De",
+    []
+   ]
+  ]
+ }
+}

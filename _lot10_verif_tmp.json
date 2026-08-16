@@ -1,0 +1,460 @@
+{
+ "61": {
+  "verifie": {
+   "url": "https://www.usinage.com/",
+   "match": true,
+   "kw": "ba usinage",
+   "titre": "Usinage en petites et grandes séries - BA Usinage",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "66": {
+  "verifie": {
+   "url": "https://www.elcam-usinage.fr/",
+   "match": true,
+   "kw": "elcam",
+   "titre": "Elcam Usinage - Usinage de précision tous secteurs d'activité et tous matériaux",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "68": {
+  "verifie": {
+   "url": "https://usinage-dieppois.fr",
+   "match": true,
+   "kw": "usinage dieppois",
+   "titre": "Usinage Dieppois",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": [
+    "tables HTML"
+   ]
+  }
+ },
+ "71": {
+  "verifie": {
+   "url": "https://fraisageservices.fr",
+   "match": true,
+   "kw": "fraisage services",
+   "titre": "Accueil - Fraisage Services",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [
+    "fraisage@fraisageservices.fr"
+   ],
+   "tech": [
+    "tables HTML",
+    "generator: WordPress 6.9.7"
+   ]
+  }
+ },
+ "77": {
+  "verifie": {
+   "url": "https://www.jcm-decolletage.fr/",
+   "match": true,
+   "kw": "jcm",
+   "titre": "Décolletage industriel, sous-traitant usinage pièces industrielles, JCM Décolletage Haute-Savoie",
+   "copyright": [],
+   "cms": [],
+   "emails": [
+    "info@jcm-decolletage.fr"
+   ],
+   "tech": []
+  }
+ },
+ "78": {
+  "verifie": {
+   "url": "https://www.ouestdecolletage.com",
+   "match": false,
+   "kw": "",
+   "titre": "Accueil | Ouest Décolletage",
+   "copyright": [
+    "2015"
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "generator: WordPress 7.0.4"
+   ]
+  }
+ },
+ "80": {
+  "verifie": {
+   "url": "https://guillerme-decolletage.fr",
+   "match": true,
+   "kw": "guillerme",
+   "titre": "- GUILLERME DECOLLETAGE - Annonay- 07, France - Accueil",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "88": {
+  "verifie": {
+   "url": "https://www.amd-decolletage.com",
+   "match": true,
+   "kw": "amd decolletage",
+   "titre": "AMD Décolletage &#8212; EXPLORE THE WORLD OF PRECISION",
+   "copyright": [
+    "2026"
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [
+    "sales@amd-decolletage.fr"
+   ],
+   "tech": [
+    "tables HTML"
+   ]
+  }
+ },
+ "96": {
+  "verifie": {
+   "url": "https://www.provence-outillage.fr/",
+   "match": true,
+   "kw": "provence outillage",
+   "titre": "Outillage de qualité livré chez soi partout en France - Provence Outillage",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "100": {
+  "verifie": {
+   "url": "https://www.rao.fr/",
+   "match": true,
+   "kw": "rao",
+   "titre": "Accueil | RAO",
+   "copyright": [],
+   "cms": [
+    "Drupal"
+   ],
+   "emails": [],
+   "tech": [
+    "generator: Drupal 11 (https://www.drupal.org)"
+   ]
+  }
+ },
+ "106": {
+  "verifie": null
+ },
+ "108": {
+  "verifie": {
+   "url": "http://remo-outillage.fr",
+   "match": false,
+   "kw": "",
+   "titre": "",
+   "copyright": [
+    "2001"
+   ],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "62": {
+  "verifie": {
+   "url": "https://eberhard-usinage.fr",
+   "match": true,
+   "kw": "eberhard",
+   "titre": "EBERHARD USINAGE : sous-traitance en usinage &#8211; Usinage de précision, tournage, fraisage, perçage, poinçonnage, cha",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "generator: WordPress 7.0.4"
+   ]
+  }
+ },
+ "65": {
+  "verifie": {
+   "url": "https://www.usinage-alsace.com/",
+   "match": true,
+   "kw": "usinage alsace",
+   "titre": "Usinage Alsace : tourner, fraiser, rectifier - Fabricant de pièces usinées",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "generator: WordPress 7.0.4"
+   ]
+  }
+ },
+ "81": {
+  "verifie": {
+   "url": "https://www.decolletage-jurassien.fr/",
+   "match": true,
+   "kw": "jurassien",
+   "titre": "Décolletage Jurassien, Orfèvre de l'usinage et des solutions mécaniques",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "83": {
+  "verifie": {
+   "url": "https://www.decolletage-elbe.fr/",
+   "match": true,
+   "kw": "elbe",
+   "titre": "Décolletage de précision &amp; usinage CN | Décolletage ELBE",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [
+    "info@decolletage-elbe.fr"
+   ],
+   "tech": [
+    "generator: WordPress 7.0.4"
+   ]
+  }
+ },
+ "84": {
+  "verifie": {
+   "url": "https://www.edelweiss-decolletage.com/",
+   "match": true,
+   "kw": "edelweiss",
+   "titre": "Edelweiss Décolletage - Société de décolletage à Magland 🙌",
+   "copyright": [
+    "2022"
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [
+    "edelweiss.decolletage@orange.fr"
+   ],
+   "tech": [
+    "generator: Elementor 4.2.2; features: additional_cu"
+   ]
+  }
+ },
+ "85": {
+  "verifie": {
+   "url": "https://www.decolletage-de-reu.com/",
+   "match": true,
+   "kw": "de reu",
+   "titre": "DE REU Décolletage - Usine de décolletage Nord - Pas de Calais - Accueil",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "generator: Elementor 4.2.1; features: additional_cu"
+   ]
+  }
+ },
+ "86": {
+  "verifie": {
+   "url": "https://www.gay-decolletage.fr/",
+   "match": true,
+   "kw": "gay decolletage",
+   "titre": "Accueil &#045; GAY DECOLLETAGE",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "generator: WordPress 7.0.4"
+   ]
+  }
+ },
+ "91": {
+  "verifie": {
+   "url": "https://www.morel-decolletage.fr/",
+   "match": true,
+   "kw": "morel",
+   "titre": "Morel : Decolletage en petite et moyenne série",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "92": {
+  "verifie": {
+   "url": "https://drault-decolletage.com/fr/",
+   "match": true,
+   "kw": "drault",
+   "titre": "Du Ø 0,5 mm au Ø 38 mm - DRAULT DECOLLETAGE",
+   "copyright": [
+    "2026"
+   ],
+   "cms": [
+    "Joomla"
+   ],
+   "emails": [
+    "contacts@drault-decolletage.com"
+   ],
+   "tech": [
+    "generator: Régis - © FRANCE MEDIA - www.france-medi"
+   ]
+  }
+ },
+ "93": {
+  "verifie": {
+   "url": "https://www.gilletsa.com/",
+   "match": true,
+   "kw": "gillet",
+   "titre": "GILLET | Génie climatique et plomberie",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [
+    "logo-groupe-streiff-2020@2x.webp"
+   ],
+   "tech": []
+  }
+ },
+ "97": {
+  "verifie": {
+   "url": "http://www.outillage-st-etienne.fr/",
+   "match": false,
+   "kw": "",
+   "titre": "Site en construction",
+   "copyright": [
+    "1999"
+   ],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "98": {
+  "verifie": {
+   "url": "http://fixouti.fr",
+   "match": true,
+   "kw": "fixouti",
+   "titre": "fixouti.fr",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "99": {
+  "verifie": {
+   "url": "https://magafor.eu/index.php?page=accueil",
+   "match": true,
+   "kw": "magafor",
+   "titre": "MAGAFOR | Accueil",
+   "copyright": [
+    "2026"
+   ],
+   "cms": [],
+   "emails": [
+    "magafor@magafor.com"
+   ],
+   "tech": []
+  }
+ },
+ "102": {
+  "verifie": {
+   "url": "https://www.clickoutil.com/",
+   "match": true,
+   "kw": "clickoutil",
+   "titre": "Outillage électroportatif en ligne chez ClickOutil : Bosch, Milwaukee, Festool, Makita, Dewalt",
+   "copyright": [],
+   "cms": [
+    "PrestaShop"
+   ],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "103": {
+  "verifie": {
+   "url": "https://www.omedec.com",
+   "match": true,
+   "kw": "omedec",
+   "titre": "La d&#233;coupe de pr&#233;cision, c'est notre m&#233;tier | OMEDEC D&#233;coupage",
+   "copyright": [
+    "2023"
+   ],
+   "cms": [],
+   "emails": [
+    "contact@omedec.com"
+   ],
+   "tech": [
+    "tables HTML",
+    "generator: Oxatis (www.oxatis.com)"
+   ]
+  }
+ },
+ "104": {
+  "verifie": {
+   "url": "https://www.begc.fr/",
+   "match": true,
+   "kw": "begc",
+   "titre": "Accueil - BEGC Bureau d&#039;Etude de Grandes Cuisines &amp; Buanderies",
+   "copyright": [
+    "2017"
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [
+    "administration@begc.fr"
+   ],
+   "tech": [
+    "generator: Powered by Slider Revolution 5.3.1 - res"
+   ]
+  }
+ },
+ "73": {
+  "verifie": {
+   "url": "https://nordfraisage.fr",
+   "match": true,
+   "kw": "nord fraisage",
+   "titre": "Accueil - Nord Fraisage",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [
+    "contact@nordmateriel.fr",
+    "contact@nordfraisage.fr"
+   ],
+   "tech": [
+    "generator: Elementor 3.35.7; features: additional_c"
+   ]
+  }
+ },
+ "75": {
+  "verifie": {
+   "url": "https://www.tfl.com/en/",
+   "match": false,
+   "kw": "",
+   "titre": "Great chemicals. Excellent advice. - TFL",
+   "copyright": [],
+   "cms": [],
+   "emails": [
+    "doris.glaessner@tfl.com"
+   ],
+   "tech": []
+  }
+ }
+}

@@ -1,0 +1,132 @@
+[
+ {
+  "numero": 37,
+  "entreprise": "SOMEP (Societe Outillage Mecanique de Precision)",
+  "site": "https://somep.eu",
+  "dirigeant": "Arnaud GAULTIER",
+  "email": "a.gaultier@somep.eu",
+  "statut": "qualifie",
+  "constat": "Drupal 7 (fin de maintenance janvier 2022) + aucune meta viewport : pas de version mobile.",
+  "email_redige": {
+   "subject": "Votre site tourne sur un logiciel abandonné",
+   "body": "Bonjour M. GAULTIER,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En consultant somep.eu, j'ai relevé un point simple à corriger mais lourd de conséquences :\n\nVotre site fonctionne sous Drupal 7, une version dont la maintenance s'est arrêtée en janvier 2022 : depuis quatre ans, plus aucune mise à jour de sécurité n'est publiée. Il n'a pas non plus de version mobile : sur un téléphone, les pages s'affichent en pleine largeur et deviennent illisibles sans zoom.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : l'état de votre présence en ligne point par point (disponibilité, sécurité, design), la comparaison avec 2 de vos concurrents, et 5 recommandations concrètes. Vous gardez le document.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  }
+ },
+ {
+  "numero": 23,
+  "entreprise": "CAPEST (Caoutchouc Manuf et Plastiques Industrie)",
+  "site": "http://capest.fr",
+  "dirigeant": "David WROBEL",
+  "email": "capest.industrie@capest.fr",
+  "statut": "qualifie",
+  "constat": "Site en HTTP (pas de cadenas), 14 tableaux HTML, aucune meta viewport, design annees 2000 (vision).",
+  "email_redige": {
+   "subject": "Votre site n'affiche pas de cadenas",
+   "body": "Bonjour M. WROBEL,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En consultant capest.fr, j'ai relevé un point simple à corriger mais lourd de conséquences :\n\nVotre site se charge en HTTP, sans connexion sécurisée : le navigateur n'affiche aucun cadenas, et un visiteur interprète ce signal comme un risque. La page est par ailleurs construite avec des tableaux HTML et ne s'adapte pas aux téléphones, un frein quand vos clients comparent des fournisseurs depuis leur smartphone.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : l'état de votre présence en ligne point par point (disponibilité, sécurité, design), la comparaison avec 2 de vos concurrents, et 5 recommandations concrètes. Vous gardez le document.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  }
+ },
+ {
+  "numero": 50,
+  "entreprise": "AMP - Ateliers Mecaniques de Precision (Eguilles)",
+  "site": "https://www.amp-france.fr",
+  "dirigeant": "Frederic SEGUI",
+  "email": "contact@amp-france.fr",
+  "statut": "qualifie",
+  "constat": "WordPress 4.4.34 (version de decembre 2015) + Visual Composer, tables HTML.",
+  "email_redige": {
+   "subject": "Votre site fonctionne avec un WordPress de 2015",
+   "body": "Bonjour M. SEGUI,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En consultant amp-france.fr, j'ai relevé un point simple à corriger mais lourd de conséquences :\n\nVotre site fonctionne sous WordPress 4.4, une version publiée en décembre 2015 : onze ans d'écart avec les versions actuelles, sans mises à jour de sécurité fiables. Le constructeur de pages utilisé, Visual Composer, n'est plus suivi par son éditeur depuis des années.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : l'état de votre présence en ligne point par point (disponibilité, sécurité, design), la comparaison avec 2 de vos concurrents, et 5 recommandations concrètes. Vous gardez le document.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  }
+ },
+ {
+  "numero": 46,
+  "entreprise": "MPE - Mecanique de Precision de l'Est (Masevaux)",
+  "site": "https://www.mpe-prod.fr",
+  "dirigeant": "Jean-Michel HOOG",
+  "email": "contact@mpe-prod.com",
+  "statut": "qualifie",
+  "constat": "CMS Joomla + design visiblement date (annees 2000-2010, vision 2/5).",
+  "email_redige": {
+   "subject": "Votre site est resté dans les années 2000",
+   "body": "Bonjour M. HOOG,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En consultant mpe-prod.fr, j'ai relevé un point simple à corriger mais lourd de conséquences :\n\nVotre site tourne sous Joomla, un CMS lancé en 2005, et sa mise en page (bandeaux, menu, visuels) évoque directement les sites des années 2000. Un prospect qui compare votre site à celui de vos concurrents peut en conclure que votre parc machines n'a pas évolué non plus, et il a tort.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : l'état de votre présence en ligne point par point (disponibilité, sécurité, design), la comparaison avec 2 de vos concurrents, et 5 recommandations concrètes. Vous gardez le document.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  }
+ },
+ {
+  "numero": 20,
+  "entreprise": "P.D.G. Plastiques (Le Malesherbois)",
+  "site": "http://www.pdg-plastiques.com",
+  "dirigeant": "Francois Boris DESFRETIER",
+  "email": "charlene.perrin@pdg-plastiques.com",
+  "statut": "qualifie",
+  "constat": "Site en HTTP (pas de cadenas) + copyright fige a 2016 en pied de page.",
+  "email_redige": {
+   "subject": "Votre site n'affiche pas de cadenas",
+   "body": "Bonjour M. DESFRETIER,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En consultant pdg-plastiques.com, j'ai relevé un point simple à corriger mais lourd de conséquences :\n\nVotre site se charge en HTTP, sans connexion sécurisée : le navigateur n'affiche aucun cadenas, et en 2026 un visiteur interprète ce signal comme un risque. Le copyright en pied de page est par ailleurs resté figé à 2016 : dix ans, ce qui laisse penser que le site n'a plus bougé.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : l'état de votre présence en ligne point par point (disponibilité, sécurité, design), la comparaison avec 2 de vos concurrents, et 5 recommandations concrètes. Vous gardez le document.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  }
+ },
+ {
+  "numero": 52,
+  "entreprise": "BPM - Bourgogne Precision Mecanique (Longvic)",
+  "site": "http://www.bourgogneprecisionmecanique.fr",
+  "dirigeant": "Philippe ROUSSEL",
+  "email": "direction@bprecimeca.fr",
+  "statut": "qualifie",
+  "constat": "Domaine principal = page OVH par defaut 'Site en construction' (copyright 1999), second domaine 'Site not installed'.",
+  "email_redige": {
+   "subject": "Votre site est toujours en construction",
+   "body": "Bonjour M. ROUSSEL,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En consultant bourgogneprecisionmecanique.fr, j'ai relevé un point simple à corriger mais lourd de conséquences :\n\nVotre domaine affiche encore la page par défaut de l'hébergeur OVH, une page intitulée Site en construction. Votre second domaine, bprecimeca.fr, affiche de son côté un message Site not installed : en 2026, un donneur d'ordres qui cherche un sous-traitant à Dijon ne trouve aucune information sur votre entreprise.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : l'état de votre présence en ligne point par point (disponibilité, sécurité, design), la comparaison avec 2 de vos concurrents, et 5 recommandations concrètes. Vous gardez le document.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  }
+ },
+ {
+  "numero": 59,
+  "entreprise": "UCSS - Usinage Chaudronnerie Sur Site (Milly-la-Foret)",
+  "site": "https://ucss.fr",
+  "dirigeant": "Marcio QUEIROZ OLIVEIRA",
+  "email": "info@ucss.fr",
+  "statut": "qualifie",
+  "constat": "Copyright fige a 2021 en pied de page (5 ans), malgre un CMS a jour.",
+  "email_redige": {
+   "subject": "Votre site n'a pas changé depuis 2021",
+   "body": "Bonjour M. QUEIROZ OLIVEIRA,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En consultant ucss.fr, j'ai relevé un point simple à corriger mais lourd de conséquences :\n\nLe copyright en pied de page de votre site est figé à 2021 : cinq ans. Un visiteur qui compare votre site à celui de vos concurrents conclut que votre entreprise n'a pas évolué non plus, et il a tort.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : l'état de votre présence en ligne point par point (disponibilité, sécurité, design), la comparaison avec 2 de vos concurrents, et 5 recommandations concrètes. Vous gardez le document.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  }
+ },
+ {
+  "numero": 24,
+  "entreprise": "PFB - Plastiques Faconnes du Bethunois (Verquin)",
+  "site": "https://www.plast-fb.com",
+  "dirigeant": "A CONFIRMER",
+  "email": "secretariat@plast-fb.com",
+  "statut": "qualifie",
+  "constat": "CMS SPIP (cree en 2001) : code et ergonomie d'une autre epoque.",
+  "email_redige": {
+   "subject": "Votre site tourne sur un CMS de 2001",
+   "body": "Bonjour,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En consultant plast-fb.com, j'ai relevé un point simple à corriger mais lourd de conséquences :\n\nVotre site fonctionne sous SPIP, un système de gestion de contenu créé en 2001 : son code, sa structure et son ergonomie datent d'une autre époque de l'internet, alors que votre savoir-faire, lui, est solide depuis 1982.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : l'état de votre présence en ligne point par point (disponibilité, sécurité, design), la comparaison avec 2 de vos concurrents, et 5 recommandations concrètes. Vous gardez le document.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  }
+ },
+ {
+  "numero": 28,
+  "entreprise": "Maison du Caoutchouc et du Plastique (Le Creusot)",
+  "site": "https://www.mcp-fournitures-industrielles.fr",
+  "dirigeant": "Fabien PORTRAT",
+  "email": "chalon@mcp-fi.fr",
+  "statut": "qualifie",
+  "constat": "Aucune date de mise a jour ni copyright visible, mise en page (menu lateral fixe, typographie rigide) datee.",
+  "email_redige": {
+   "subject": "Votre site n'affiche aucune date de mise à jour",
+   "body": "Bonjour M. PORTRAT,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En consultant mcp-fournitures-industrielles.fr, j'ai relevé un point simple à corriger mais lourd de conséquences :\n\nAucune année de copyright ni de mise à jour n'apparaît sur votre site : un visiteur ne peut pas savoir si vos informations datent de la semaine dernière ou de 2015. La mise en page, avec son menu latéral fixe et sa typographie rigide, renvoie par ailleurs une image datée à vos clients professionnels.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : l'état de votre présence en ligne point par point (disponibilité, sécurité, design), la comparaison avec 2 de vos concurrents, et 5 recommandations concrètes. Vous gardez le document.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  }
+ },
+ {
+  "numero": 55,
+  "entreprise": "Delta Usinage (Murs-Erigne)",
+  "site": "https://delta-usinage.com",
+  "dirigeant": "A CONFIRMER",
+  "email": "info@hgpi-group.fr",
+  "statut": "qualifie",
+  "constat": "Page d'accueil = bloc de texte sur fond sombre sans mise en avant visuelle, titre navigateur reduit a 'Accueil'.",
+  "email_redige": {
+   "subject": "Votre page d'accueil ne met aucun visuel en avant",
+   "body": "Bonjour,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En consultant delta-usinage.com, j'ai relevé un point simple à corriger mais lourd de conséquences :\n\nVotre page d'accueil s'affiche comme un bloc de texte sur fond sombre, sans mise en avant visuelle de votre atelier ni de vos machines, et l'onglet du navigateur affiche simplement Accueil, sans le nom de Delta Usinage. Pour un donneur d'ordres qui découvre votre entreprise, la première impression ne reflète pas votre savoir-faire.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale (10 pages) : l'état de votre présence en ligne point par point (disponibilité, sécurité, design), la comparaison avec 2 de vos concurrents, et 5 recommandations concrètes. Vous gardez le document.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 3 jours.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  }
+ }
+]

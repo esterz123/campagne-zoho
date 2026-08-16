@@ -1,0 +1,907 @@
+{
+ "976720284": {
+  "nom_complet": "DECOUPAGE ET EMBOUTISSAGE DU BOURBONNAIS (SDEB)",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "LAURENT",
+    "prenoms": "JEAN-FRANCOIS",
+    "qualite": "Président de SAS",
+    "type": "personne physique"
+   }
+  ],
+  "commune": ""
+ },
+ "056501273": {
+  "nom_complet": "EMBOUTISSAGE DU MAIL (EDM)",
+  "categorie": "PME",
+  "tranche": "21",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "BMA",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne morale"
+   },
+   {
+    "nom": "GROUPE EDM",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "420273880": {
+  "nom_complet": "OUEST EMBOUTISSAGE",
+  "categorie": "ETI",
+  "tranche": "21",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "BERNARD",
+    "prenoms": "MICHEL",
+    "qualite": "Commissaire aux comptes suppléant",
+    "type": "personne physique"
+   },
+   {
+    "nom": "HOLDING ROUGER",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   },
+   {
+    "nom": "B & A AUDIT",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "419808985": {
+  "nom_complet": "NORMANDIE DECOUPAGE EMBOUTISSAGE (NDE)",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "MESLIN (MESLIN)",
+    "prenoms": "FLORIAN THIERRY DENIS",
+    "qualite": "Gérant",
+    "type": "personne physique"
+   },
+   {
+    "nom": "SOFIRME",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "892541889": {
+  "nom_complet": "JELZA EMBOUTISSAGE (JELZA EMBOUTISSAGE)",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "JELZA HOLDING",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   },
+   {
+    "nom": "JELZA HOLDING SAS",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "418321824": {
+  "nom_complet": "D.E.M.C. DECOUPE, EMBOUTISSAGE, MONTAGE, CONCEPT (DEMC)",
+  "categorie": "PME",
+  "tranche": "11",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "DORLEAC",
+    "prenoms": "PHILIPPE",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne physique"
+   },
+   {
+    "nom": "MOLINA",
+    "prenoms": "LAURENT",
+    "qualite": "Commissaire aux comptes suppléant",
+    "type": "personne physique"
+   },
+   {
+    "nom": "KDMJ",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "447891862": {
+  "nom_complet": "GPE D'ANALYSE TECH EMBOUTISSAGE CONTROLE (GROUPE A T E C)",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "CAKAR",
+    "prenoms": "FREDERIC",
+    "qualite": "Président de SAS",
+    "type": "personne physique"
+   }
+  ],
+  "commune": ""
+ },
+ "410599864": {
+  "nom_complet": "ERNST DECOUPAGE EMBOUTISSAGE",
+  "categorie": "PME",
+  "tranche": "21",
+  "nature_juridique": "5499",
+  "dirigeants": [
+   {
+    "nom": "ERNST (ERNST)",
+    "prenoms": "MATTHIAS",
+    "qualite": "Gérant",
+    "type": "personne physique"
+   },
+   {
+    "nom": "FIBA",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne morale"
+   },
+   {
+    "nom": "FIBA SATFC",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes suppléant",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "484871272": {
+  "nom_complet": "SMG DECOUPAGE - EMBOUTISSAGE",
+  "categorie": "PME",
+  "tranche": "11",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "CONFRERE",
+    "prenoms": "LAURENT PIERRE",
+    "qualite": "Président de SAS",
+    "type": "personne physique"
+   },
+   {
+    "nom": "FLEURIDAS",
+    "prenoms": "MARIE-LINE",
+    "qualite": "Commissaire aux comptes suppléant",
+    "type": "personne physique"
+   },
+   {
+    "nom": "MARCHAL",
+    "prenoms": "CHANTAL",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne physique"
+   }
+  ],
+  "commune": ""
+ },
+ "345088371": {
+  "nom_complet": "TALBOT DECOUPAGE EMBOUTISSAGE (TDE)",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "LOMBAERDE",
+    "prenoms": "HERVE",
+    "qualite": "Commissaire aux comptes suppléant",
+    "type": "personne physique"
+   },
+   {
+    "nom": "SAS TALBOT INDUSTRIE DEVELOPPEMENT",
+    "prenoms": "",
+    "qualite": "Autre",
+    "type": "personne morale"
+   },
+   {
+    "nom": "CABINET AJILEC",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "309054054": {
+  "nom_complet": "SOCIETE D'EMBOUTISSAGE PRECIS (SEP)",
+  "categorie": "PME",
+  "tranche": "21",
+  "nature_juridique": "5599",
+  "dirigeants": [
+   {
+    "nom": "RACCA",
+    "prenoms": "GIOVANNI BATTISTA",
+    "qualite": "Président du conseil d’administration et directeur général",
+    "type": "personne physique"
+   },
+   {
+    "nom": "RACCA",
+    "prenoms": "MARIELLA",
+    "qualite": "Administrateur",
+    "type": "personne physique"
+   },
+   {
+    "nom": "SPINETTI",
+    "prenoms": "DAVIDE",
+    "qualite": "Directeur général délégué",
+    "type": "personne physique"
+   },
+   {
+    "nom": "TISSOT",
+    "prenoms": "JEROME",
+    "qualite": "Commissaire aux comptes suppléant",
+    "type": "personne physique"
+   },
+   {
+    "nom": "GMG AUDIT",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "492142351": {
+  "nom_complet": "SUD OUEST EMBOUTISSAGE",
+  "categorie": "ETI",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "HOLDING ROUGER",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   },
+   {
+    "nom": "B & A AUDIT",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "401884382": {
+  "nom_complet": "SOCIETE D' APPLICATIONS MECANIQUES ET DE DECOUPAGE (SAMD DECOUPE ET EMBOUTISSAGE DE PRECISION) (SAMD)",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "DAIAN",
+    "prenoms": "ALEXANDRE ALBERT LEONIDAS",
+    "qualite": "Président de SAS",
+    "type": "personne physique"
+   },
+   {
+    "nom": "LE BIHAN",
+    "prenoms": "YVES",
+    "qualite": "Commissaire aux comptes suppléant",
+    "type": "personne physique"
+   },
+   {
+    "nom": "TIMAR SCHUBERT",
+    "prenoms": "LAURE FRANCE",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne physique"
+   },
+   {
+    "nom": "AS2A",
+    "prenoms": "",
+    "qualite": "Directeur Général",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "400567160": {
+  "nom_complet": "SOCIETE NORMANDE DE DECOUPAGE - EMBOUTISSAGE",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "PEYRELONGUE",
+    "prenoms": "VINCENT MARIE HERVE",
+    "qualite": "Président de SAS",
+    "type": "personne physique"
+   },
+   {
+    "nom": "VANDERSCHELDEN",
+    "prenoms": "BENOIT",
+    "qualite": "Commissaire aux comptes suppléant",
+    "type": "personne physique"
+   },
+   {
+    "nom": "AEQUITAS",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "966500068": {
+  "nom_complet": "LENOIR METALLERIE",
+  "categorie": "PME",
+  "tranche": "22",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "LENOIR",
+    "prenoms": "DIDIER SERGE",
+    "qualite": "Directeur Général",
+    "type": "personne physique"
+   },
+   {
+    "nom": "MASSON (LENOIR)",
+    "prenoms": "JORDAN",
+    "qualite": "Directeur Général",
+    "type": "personne physique"
+   },
+   {
+    "nom": "NOYEL",
+    "prenoms": "ANTOINE VINCENT",
+    "qualite": "Directeur Général",
+    "type": "personne physique"
+   },
+   {
+    "nom": "JHK",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   },
+   {
+    "nom": "DV EXPERTS",
+    "prenoms": "",
+    "qualite": "Autre",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "443830898": {
+  "nom_complet": "OACA METALLERIE",
+  "categorie": "PME",
+  "tranche": "11",
+  "nature_juridique": "5499",
+  "dirigeants": [
+   {
+    "nom": "BROUSTE (BROUSTE)",
+    "prenoms": "VINCENT",
+    "qualite": "Gérant",
+    "type": "personne physique"
+   },
+   {
+    "nom": "HERISSON DE BEAUVOIR",
+    "prenoms": "BERTRAND AMBROISE MARIE",
+    "qualite": "Gérant",
+    "type": "personne physique"
+   }
+  ],
+  "commune": ""
+ },
+ "351174081": {
+  "nom_complet": "SOCIETE AZERGUOISE DE REPOUSSAGE ET D EMBOUTISSAGE (SARE)",
+  "categorie": "PME",
+  "tranche": "11",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "GAP SAS",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "501007652": {
+  "nom_complet": "BATISUD-METALLERIE",
+  "categorie": "PME",
+  "tranche": "11",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "RAFFAELLI",
+    "prenoms": "NICOLAS",
+    "qualite": "Président de SAS",
+    "type": "personne physique"
+   }
+  ],
+  "commune": ""
+ },
+ "803868660": {
+  "nom_complet": "LG METALLERIE (L.G. METALLERIE)",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5499",
+  "dirigeants": [
+   {
+    "nom": "GASSE",
+    "prenoms": "LAURENT",
+    "qualite": "Gérant",
+    "type": "personne physique"
+   }
+  ],
+  "commune": ""
+ },
+ "310826698": {
+  "nom_complet": "SUD METALLERIE SA",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "ACERRA",
+    "prenoms": "JEAN-FRANCOIS",
+    "qualite": "Directeur général délégué",
+    "type": "personne physique"
+   },
+   {
+    "nom": "J.A.A.P.",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "397020033": {
+  "nom_complet": "GB METALLERIE",
+  "categorie": "ETI",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "GATIMEL",
+    "prenoms": "VINCENT PIERRE GILBERT",
+    "qualite": "Président de SAS",
+    "type": "personne physique"
+   },
+   {
+    "nom": "SIDIBE",
+    "prenoms": "FODE",
+    "qualite": "Directeur Général",
+    "type": "personne physique"
+   },
+   {
+    "nom": "AXYLIS AUDIT",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "793224759": {
+  "nom_complet": "TORRAS METALLERIE",
+  "categorie": "PME",
+  "tranche": "11",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "HARMONIA",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "817734593": {
+  "nom_complet": "METALLERIE FRANCILIENNE",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "OUANOUCHE",
+    "prenoms": "MOHAMED ABDERRAHMANE LAMIR",
+    "qualite": "Président de SAS",
+    "type": "personne physique"
+   }
+  ],
+  "commune": ""
+ },
+ "784756413": {
+  "nom_complet": "INSTITUT DE SOUDURE (IS)",
+  "categorie": "ETI",
+  "tranche": "21",
+  "nature_juridique": "9220",
+  "dirigeants": [],
+  "commune": ""
+ },
+ "813390432": {
+  "nom_complet": "GATSBY SOUDURE (GATSBY SOUDURE)",
+  "categorie": "PME",
+  "tranche": "11",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "SION",
+    "prenoms": "JULIE",
+    "qualite": "Président de SAS",
+    "type": "personne physique"
+   }
+  ],
+  "commune": ""
+ },
+ "841196504": {
+  "nom_complet": "ES SOUDURE (ES SOUDURE)",
+  "categorie": "PME",
+  "tranche": "11",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "OZCIFTCI (OZCIFTCI)",
+    "prenoms": "AHMET",
+    "qualite": "Président de SAS",
+    "type": "personne physique"
+   }
+  ],
+  "commune": ""
+ },
+ "055802995": {
+  "nom_complet": "SOC PROVENCALE MATERIEL SOUDURE (SOUDECOUP)",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "ENJALBERT",
+    "prenoms": "NICOLAS",
+    "qualite": "Directeur Général",
+    "type": "personne physique"
+   },
+   {
+    "nom": "GIALLURACHI",
+    "prenoms": "GEORGES",
+    "qualite": "Président de SAS",
+    "type": "personne physique"
+   }
+  ],
+  "commune": ""
+ },
+ "428663686": {
+  "nom_complet": "SUD SOUDURE SARL",
+  "categorie": "PME",
+  "tranche": "11",
+  "nature_juridique": "5499",
+  "dirigeants": [
+   {
+    "nom": "FONTAINE (BENARD)",
+    "prenoms": "CATHERINE",
+    "qualite": "Gérant",
+    "type": "personne physique"
+   },
+   {
+    "nom": "MOREL (MOREL)",
+    "prenoms": "JEAN PASCAL",
+    "qualite": "Gérant",
+    "type": "personne physique"
+   },
+   {
+    "nom": "MOREL",
+    "prenoms": "JEAN-PASCAL",
+    "qualite": "Gérant",
+    "type": "personne physique"
+   }
+  ],
+  "commune": ""
+ },
+ "538676727": {
+  "nom_complet": "SOUDURE TUYAUTERIE BRESTOISE (STB)",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "ROGER HOLDING",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "788636215": {
+  "nom_complet": "SOUDURE TUYAUTERIE MAINTENANCE (STM)",
+  "categorie": "ETI",
+  "tranche": "11",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "NEXIOM AUDIT",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne morale"
+   },
+   {
+    "nom": "WELDING PIPELINES SERVICES",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "304217292": {
+  "nom_complet": "CHAUDRONNERIE SOUDURE TUYAUTERIE (CST)",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5558",
+  "dirigeants": [
+   {
+    "nom": "AUDIEVRE",
+    "prenoms": "LUDOVIC PASCAL MAURICE",
+    "qualite": "Administrateur",
+    "type": "personne physique"
+   },
+   {
+    "nom": "CORBEL",
+    "prenoms": "SEBASTIEN JEAN-MARIE",
+    "qualite": "Administrateur",
+    "type": "personne physique"
+   },
+   {
+    "nom": "FOUTEL",
+    "prenoms": "JONATHAN VIRGILE CYRIL",
+    "qualite": "Administrateur",
+    "type": "personne physique"
+   },
+   {
+    "nom": "HAUCHARD",
+    "prenoms": "CHRISTOPHE DANIEL GERARD",
+    "qualite": "Administrateur",
+    "type": "personne physique"
+   },
+   {
+    "nom": "HAZARD",
+    "prenoms": "MAXIME ROBERT JACQUES",
+    "qualite": "Administrateur",
+    "type": "personne physique"
+   },
+   {
+    "nom": "MAHIER",
+    "prenoms": "BRUNO",
+    "qualite": "Président du conseil d’administration et directeur général",
+    "type": "personne physique"
+   },
+   {
+    "nom": "SAUDITEX",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes suppléant",
+    "type": "personne morale"
+   },
+   {
+    "nom": "A.S.T.R.E. (AUDIT SURVEILLANCE TECHNIQUES DE REVISION EXPERTISE)",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "392675237": {
+  "nom_complet": "BRIVET MECANO SOUDURE",
+  "categorie": "PME",
+  "tranche": "11",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "SILENN",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "316842012": {
+  "nom_complet": "UMA-DECOUPAGE EMBOUTISSAGE TOLERIE",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "MARTIN",
+    "prenoms": "NICOLAS LOUIS CHARLES",
+    "qualite": "Président de SAS",
+    "type": "personne physique"
+   }
+  ],
+  "commune": ""
+ },
+ "432851095": {
+  "nom_complet": "MAINTENANCE ET SOUDURE INDUSTRIELLE (MSI)",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "BULET",
+    "prenoms": "JEAN-MARIE",
+    "qualite": "Président de SAS",
+    "type": "personne physique"
+   },
+   {
+    "nom": "KHENCHOUL",
+    "prenoms": "FARID",
+    "qualite": "Directeur Général",
+    "type": "personne physique"
+   },
+   {
+    "nom": "ACCOUNTAUDIT",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "450396296": {
+  "nom_complet": "ATLANTIQUE TOLERIE SOUDURE",
+  "categorie": "PME",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "HR AUDIT",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne morale"
+   },
+   {
+    "nom": "AD2C MANAGEMENT",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "311233431": {
+  "nom_complet": "TOLERIE DE LA LOIRE",
+  "categorie": "PME",
+  "tranche": "21",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "ÉKALIS",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne morale"
+   },
+   {
+    "nom": "MANO FINANCE",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "332265263": {
+  "nom_complet": "MECANO SOUDURE DE L ARON (MSA)",
+  "categorie": "PME",
+  "tranche": "11",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "CHAMPION",
+    "prenoms": "MARTIAL",
+    "qualite": "Président de SAS",
+    "type": "personne physique"
+   },
+   {
+    "nom": "CRISALYNE",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   },
+   {
+    "nom": "JL AVENIR",
+    "prenoms": "",
+    "qualite": "Directeur Général",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "385147681": {
+  "nom_complet": "TUYAUTERIE SOUDURE CHAUFFAGE (TSC)",
+  "categorie": "PME",
+  "tranche": "11",
+  "nature_juridique": "5499",
+  "dirigeants": [
+   {
+    "nom": "BOUAJILA (BOUAJILA)",
+    "prenoms": "ALI",
+    "qualite": "Gérant",
+    "type": "personne physique"
+   },
+   {
+    "nom": "BOUAJILA ALI",
+    "prenoms": null,
+    "qualite": "Gérant",
+    "type": "personne physique"
+   }
+  ],
+  "commune": ""
+ },
+ "320800139": {
+  "nom_complet": "TOLERIE INDUSTRIELLE",
+  "categorie": "ETI",
+  "tranche": "12",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "BON",
+    "prenoms": "ANTHONY RENE LUCIEN",
+    "qualite": "Président de SAS",
+    "type": "personne physique"
+   },
+   {
+    "nom": "GRAND",
+    "prenoms": "SIMON PIERRE LUC",
+    "qualite": "Directeur Général",
+    "type": "personne physique"
+   },
+   {
+    "nom": "CEGEF RECHARD ET ASSOCIES",
+    "prenoms": "",
+    "qualite": "Commissaire aux comptes titulaire",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ },
+ "792758377": {
+  "nom_complet": "TOLERIE REMOND",
+  "categorie": "PME",
+  "tranche": "11",
+  "nature_juridique": "5710",
+  "dirigeants": [
+   {
+    "nom": "GR HOLDING",
+    "prenoms": "",
+    "qualite": "Président de SAS",
+    "type": "personne morale"
+   },
+   {
+    "nom": "BARBER SHOP STUDIO",
+    "prenoms": "",
+    "qualite": "Directeur Général",
+    "type": "personne morale"
+   }
+  ],
+  "commune": ""
+ }
+}

@@ -113,7 +113,8 @@ def is_auto(summary, subject):
 
 
 def is_ours(frm):
-    return frm.lower() in (ME, "welcome@zoho.com", "no-reply@zoho.com", "zoho@zoho.com")
+    f = (frm or "").lower()
+    return f.endswith("@mahdi-design.com") or f in ("welcome@zoho.com", "no-reply@zoho.com", "zoho@zoho.com")
 
 
 def a_un_signal_interet(summary, subject):
@@ -130,7 +131,8 @@ def fetch_inbox(access, limit=30):
     j = zoho_get("https://mail.zoho.com/api/accounts/%s/messages/search?searchKey=in%%3Ainbox&limit=%d" % (ACC, limit), access)
     out = []
     for m in j.get("data", []):
-        out.append({"id": str(m.get("messageId")), "from": (m.get("fromAddress") or ""),
+        # id prefixe par la boite : format partage avec repondeur.py (lecture croisee anti-doublon)
+        out.append({"id": "contact:" + str(m.get("messageId")), "from": (m.get("fromAddress") or ""),
                     "subject": m.get("subject", ""), "summary": m.get("summary", ""),
                     "when": m.get("receivedTime", "")})
     return out
@@ -221,6 +223,12 @@ def main():
 
     st = load_state()
     traites = set(st.get("traites", []))
+    # Lecture croisee : ne pas repondre 2x au meme message (le repondeur peut avoir deja repondu)
+    try:
+        rp = json.load(open(os.path.join(BASE, "repondeur_state.json"), encoding="utf-8"))
+        traites |= set(rp.get("traites", []))
+    except Exception:
+        pass
     prospects = load_prospects()
     rapports = []
 

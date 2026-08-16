@@ -1,0 +1,450 @@
+{
+  "411580368": {
+    "nom_complet": "T.E.P. TECHNIQUE ET PLASTURGIE",
+    "dirigeants": [
+      {
+        "prenoms": "JEAN-PIERRE",
+        "nom": "BENZ",
+        "denomination": "",
+        "qualite": "Commissaire aux comptes suppléant",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "AUDISOM",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "FMB TECHNOLOGIES",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "12",
+    "nature_juridique": "5710"
+  },
+  "398899468": {
+    "nom_complet": "APPLICATION DEVELOPPEMENT PLASTURGIE 85 (ADP 85)",
+    "dirigeants": [
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "AJMPG TECH",
+        "qualite": "Directeur Général",
+        "type": "personne morale"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "SOTÉO",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "11",
+    "nature_juridique": "5710"
+  },
+  "402055974": {
+    "nom_complet": "PLASTURGIE HAUTE PERFORMANCE PHP (PHP)",
+    "dirigeants": [
+      {
+        "prenoms": "PHILIPPE",
+        "nom": "PAGET (PAGET)",
+        "denomination": "",
+        "qualite": "Gérant",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "BRUNO",
+        "nom": "RICHARDAUD",
+        "denomination": "",
+        "qualite": "Commissaire aux comptes suppléant",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "ALLIANCE COMMISSARIAT AUX COMPTES",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "12",
+    "nature_juridique": "5499"
+  },
+  "921425583": {
+    "nom_complet": "ANJOS INJECTION PLASTIQUE (A.I.P.)",
+    "dirigeants": [
+      {
+        "prenoms": "CHRISTIAN GILLES",
+        "nom": "BARBARIN",
+        "denomination": "",
+        "qualite": "Président de SAS",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "LAURENT HERVE",
+        "nom": "BARBARIN",
+        "denomination": "",
+        "qualite": "Directeur Général",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "INKIPIO AUDIT",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "11",
+    "nature_juridique": "5710"
+  },
+  "321472011": {
+    "nom_complet": "SOCIETE NATIONALE D'EXTRUSION ET D'INJECTION DES PLASTIQUES (SNEIP)",
+    "dirigeants": [
+      {
+        "prenoms": "YOHANN",
+        "nom": "SARFATI",
+        "denomination": "",
+        "qualite": "Commissaire aux comptes suppléant",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "DAVID",
+        "nom": "SPILET (SPILET)",
+        "denomination": "",
+        "qualite": "Président de SAS",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "PHILIPPE",
+        "nom": "SPLIET (SPLIET)",
+        "denomination": "",
+        "qualite": "Président de SAS",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "FIDUCO",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "12",
+    "nature_juridique": "5710"
+  },
+  "453570806": {
+    "nom_complet": "NOBEL PLASTIQUES",
+    "dirigeants": [
+      {
+        "prenoms": "PIERRE",
+        "nom": "COLL",
+        "denomination": "",
+        "qualite": "Commissaire aux comptes suppléant",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "MEHMET MUHITTIN",
+        "nom": "KOCUM",
+        "denomination": "",
+        "qualite": "Président de SAS",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "PRICEWATERHOUSECOOPERS AUDIT",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "22",
+    "nature_juridique": "5710"
+  },
+  "331468223": {
+    "nom_complet": "P.D.G. PLASTIQUES",
+    "dirigeants": [
+      {
+        "prenoms": "FRANCOIS BORIS",
+        "nom": "DESFRETIER",
+        "denomination": "",
+        "qualite": "Directeur Général",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "CECILE",
+        "nom": "DESFRETIER (LOBERT)",
+        "denomination": "",
+        "qualite": "Directeur Général",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "ABG AUDIT",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "PDG HOLDING",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "22",
+    "nature_juridique": "5710"
+  },
+  "381493923": {
+    "nom_complet": "MECANIQUE BAUMOISE DE PRECISION (MBP)",
+    "dirigeants": [
+      {
+        "prenoms": "BERNARD",
+        "nom": "COUR (COUR)",
+        "denomination": "",
+        "qualite": "Directeur Général",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "BERNADETTE",
+        "nom": "COUR (CULOT)",
+        "denomination": "",
+        "qualite": "Directeur Général",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "COFIDES L'AUDIT SARL",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "EMILIE FEUVRIER",
+        "qualite": "Directeur Général",
+        "type": "personne morale"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "MATHIEU COUR",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "22",
+    "nature_juridique": "5710"
+  },
+  "323505065": {
+    "nom_complet": "MECANIQUE PRECISION ISSOIRIENNE (MPI)",
+    "dirigeants": [
+      {
+        "prenoms": "MATHIEU DENIS CHRISTOPHE",
+        "nom": "DUGOURD",
+        "denomination": "",
+        "qualite": "Gérant",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "SYLVAIN",
+        "nom": "VEZIANT (VEZIANT)",
+        "denomination": "",
+        "qualite": "Gérant",
+        "type": "personne physique"
+      }
+    ],
+    "effectif": "12",
+    "nature_juridique": "5499"
+  },
+  "327745519": {
+    "nom_complet": "PRECISION MECANIQUE DU LOROUER (PML)",
+    "dirigeants": [
+      {
+        "prenoms": "BERNARD",
+        "nom": "BONNIN",
+        "denomination": "",
+        "qualite": "Directeur Général",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "RENAUD",
+        "nom": "BONNIN",
+        "denomination": "",
+        "qualite": "Président de SAS",
+        "type": "personne physique"
+      }
+    ],
+    "effectif": "12",
+    "nature_juridique": "5710"
+  },
+  "300846532": {
+    "nom_complet": "ROUSSEL FRERES PRECISION MECANIQUE (RFPM)",
+    "dirigeants": [
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "VR AUDIT",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "HOLDING PIERRE ROUSSEL",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "21",
+    "nature_juridique": "5710"
+  },
+  "437977036": {
+    "nom_complet": "OMP OUTILLAGE MECANIQUE PRECISION (OMP)",
+    "dirigeants": [
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "KAMI INDUSTRIES",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "11",
+    "nature_juridique": "5710"
+  },
+  "505134106": {
+    "nom_complet": "PLASTIQUES FACONNES DU BETHUNOIS (P.F.B)",
+    "dirigeants": [
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "PLASTIQUES FACONNES DU BETHUNOIS HOLDING",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "11",
+    "nature_juridique": "5710"
+  },
+  "390649903": {
+    "nom_complet": "PLASTIQUES INJECTES DU MARMANDAIS (IMEPSA MARMANDE) (PIM)",
+    "dirigeants": [
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "IMEPSA INDUSTRIE",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "12",
+    "nature_juridique": "5710"
+  },
+  "785941089": {
+    "nom_complet": "SOCIETE CASTELBRIANTAISE DES PLASTIQUES",
+    "dirigeants": [
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "FINANCIERE DES SOUZEAUX",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "KPMG SA",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "22",
+    "nature_juridique": "5710"
+  },
+  "378927669": {
+    "nom_complet": "HAUTE TECHNOLOGIE PLASTIQUE SAS (HTP)",
+    "dirigeants": [
+      {
+        "prenoms": "STEPHANE",
+        "nom": "GRIFFON",
+        "denomination": "",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "ARNAUD",
+        "nom": "ROUGAGNOU",
+        "denomination": "",
+        "qualite": "Commissaire aux comptes suppléant",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "GROUPE HTP",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "21",
+    "nature_juridique": "5710"
+  },
+  "381596113": {
+    "nom_complet": "IRRIGATION DISTRIBUTION PLASTIQUES",
+    "dirigeants": [
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "MAGNOLIA",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "TALENZ ARES AUDIT",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "12",
+    "nature_juridique": "5710"
+  },
+  "511852568": {
+    "nom_complet": "MASK PLASTIQUE (MASK PRODUCTION)",
+    "dirigeants": [
+      {
+        "prenoms": "OLIVIER",
+        "nom": "LECOMTE",
+        "denomination": "",
+        "qualite": "Commissaire aux comptes titulaire",
+        "type": "personne physique"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "COMPTABILITE FINANCE GESTION",
+        "qualite": "Commissaire aux comptes suppléant",
+        "type": "personne morale"
+      },
+      {
+        "prenoms": "",
+        "nom": "",
+        "denomination": "AKIRA",
+        "qualite": "Président de SAS",
+        "type": "personne morale"
+      }
+    ],
+    "effectif": "12",
+    "nature_juridique": "5710"
+  }
+}

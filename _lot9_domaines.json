@@ -1,0 +1,1677 @@
+{
+ "10": {
+  "nom": "Societe Nationale D'Extrusion Et D'Injection Des Plastiques (Sneip)",
+  "ville": "MONTREUIL",
+  "siren": "321472011",
+  "candidats_testes": [
+   "nationale-extrusion-injection.fr",
+   "nationale-extrusion-injection.com",
+   "nationale-extrusion.fr",
+   "nationale-extrusion.com",
+   "nationaleextrusion.fr",
+   "nationaleextrusion.com"
+  ],
+  "vivants": [],
+  "teste": true
+ },
+ "11": {
+  "nom": "Application De Techniques D'Electro-Erosion Moules Et Injections Plastiques (Atemip)",
+  "ville": "AMBOISE",
+  "siren": "323298349",
+  "candidats_testes": [
+   "applicationtechniques.fr",
+   "applicationtechniques.com",
+   "application-techniques.fr",
+   "application-techniques.com",
+   "application-techniques-electro.fr",
+   "application-techniques-electro.com"
+  ],
+  "vivants": [],
+  "teste": true
+ },
+ "12": {
+  "nom": "Irrigation Distribution Plastiques",
+  "ville": "AVIGNON",
+  "siren": "381596113",
+  "candidats_testes": [
+   "irrigationdistributionplastiques.fr",
+   "irrigationdistributionplastiques.com",
+   "idp.fr",
+   "idp.com",
+   "irrigation.fr",
+   "irrigation.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "idp.com",
+    "title": "Study Abroad &amp; International Education Experts | IDP Education",
+    "generator": "",
+    "annees": [
+     "1998",
+     "2000",
+     "2024",
+     "2025"
+    ],
+    "emails": [],
+    "flags": [],
+    "taille": 149912
+   },
+   {
+    "domaine": "irrigation.fr",
+    "title": "Kletel Multimedia - site en cours de construction",
+    "generator": "",
+    "annees": [],
+    "emails": [],
+    "flags": [
+     "tables_html",
+     "pas_de_tracking"
+    ],
+    "taille": 3092
+   },
+   {
+    "domaine": "irrigation.com",
+    "title": "Growing systems for professional horticulture - Meteor Systems",
+    "generator": "",
+    "annees": [
+     "2000",
+     "2002",
+     "2011",
+     "2016",
+     "2019",
+     "2023"
+    ],
+    "emails": [
+     "info@meteorsystems.nl"
+    ],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 149996
+   }
+  ],
+  "teste": true
+ },
+ "13": {
+  "nom": "Plastique-Industries",
+  "ville": "BRIGNAIS",
+  "siren": "328025804",
+  "candidats_testes": [
+   "pi.fr",
+   "pi.com",
+   "plastiqueindustries.fr",
+   "plastiqueindustries.com"
+  ],
+  "vivants": [],
+  "teste": true
+ },
+ "14": {
+  "nom": "Nobel Plastiques",
+  "ville": "ORGEVAL",
+  "siren": "453570806",
+  "candidats_testes": [
+   "nobel.fr",
+   "nobel.com",
+   "nobelplastiques.fr",
+   "nobelplastiques.com",
+   "np.fr",
+   "np.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "nobel.fr",
+    "title": "Nobel — Agence Digitale pour Diagnostiqueurs Immobiliers",
+    "generator": "",
+    "annees": [
+     "1997",
+     "2000",
+     "2025"
+    ],
+    "emails": [
+     "contact@nobel.fr",
+     "jean.dupont@email.fr"
+    ],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 85111
+   },
+   {
+    "domaine": "nobel.com",
+    "title": "Cheap international calls - NobelCom",
+    "generator": "",
+    "annees": [
+     "1980",
+     "1998",
+     "2011",
+     "2026"
+    ],
+    "emails": [],
+    "flags": [
+     "copyright_2011",
+     "flash"
+    ],
+    "taille": 143886
+   },
+   {
+    "domaine": "np.fr",
+    "title": "np.fr est en vente",
+    "generator": "",
+    "annees": [],
+    "emails": [
+     "deuxlettresfr@gmail.com"
+    ],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 782
+   },
+   {
+    "domaine": "np.com",
+    "title": "np.com — For Sale",
+    "generator": "",
+    "annees": [],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 2287
+   }
+  ],
+  "teste": true
+ },
+ "15": {
+  "nom": "Haute Technologie Plastique Sas (Htp)",
+  "ville": "SENLIS",
+  "siren": "378927669",
+  "candidats_testes": [
+   "hautetechnologie.fr",
+   "hautetechnologie.com",
+   "hautetechnologieplastiquesas.fr",
+   "hautetechnologieplastiquesas.com",
+   "haute-technologie-.fr",
+   "haute-technologie-.com",
+   "haute-technologie.fr",
+   "haute-technologie.com",
+   "htpsh.fr",
+   "htpsh.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "haute-technologie.fr",
+    "title": "Haute Technologie : Le Magazine de l&#039;Innovation, Business &amp; Numérique",
+    "generator": "WordPress 7.0.4",
+    "annees": [
+     "2000",
+     "2019",
+     "2020",
+     "2026"
+    ],
+    "emails": [],
+    "flags": [
+     "wordpress",
+     "pas_de_tracking"
+    ],
+    "taille": 149984
+   }
+  ],
+  "teste": true
+ },
+ "17": {
+  "nom": "Centre Plastique Sa",
+  "ville": "BRIARE",
+  "siren": "344471743",
+  "candidats_testes": [
+   "cps.fr",
+   "cps.com",
+   "centreplastiquesa.fr",
+   "centreplastiquesa.com",
+   "centre.fr",
+   "centre.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "cps.com",
+    "title": "CPS Solutions, LLC",
+    "generator": "HubSpot",
+    "annees": [
+     "2007",
+     "2008",
+     "2020",
+     "2023",
+     "2026",
+     "2027"
+    ],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 143819
+   },
+   {
+    "domaine": "centre.fr",
+    "title": "centre.fr&nbsp;-&nbsp;هذا الموقع الالكتروني للبيع!&nbsp;-&nbsp;centre المصادر والمعلومات.",
+    "generator": "",
+    "annees": [],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 4166
+   }
+  ],
+  "teste": true
+ },
+ "19": {
+  "nom": "Seine Plastique",
+  "ville": "LE HAVRE",
+  "siren": "529961104",
+  "candidats_testes": [
+   "seine.fr",
+   "seine.com",
+   "seineplastique.fr",
+   "seineplastique.com",
+   "sp.fr",
+   "sp.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "seine.com",
+    "title": "Seine.com | Plan Your Cruise on the Seine River in Paris",
+    "generator": "",
+    "annees": [
+     "2023",
+     "2026"
+    ],
+    "emails": [
+     "support@seine.com"
+    ],
+    "flags": [
+     "copyright_2023"
+    ],
+    "taille": 19542
+   },
+   {
+    "domaine": "sp.fr",
+    "title": "sp.fr",
+    "generator": "",
+    "annees": [],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 28363
+   }
+  ],
+  "teste": true
+ },
+ "20": {
+  "nom": "P.D.G. Plastiques",
+  "ville": "LE MALESHERBOIS",
+  "siren": "331468223",
+  "candidats_testes": [
+   "pdgp.fr",
+   "pdgp.com",
+   "pdgplastiques.fr",
+   "pdgplastiques.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "pdgp.com",
+    "title": "PDGP.com — Premium Domain For Sale | Atom",
+    "generator": "",
+    "annees": [
+     "2000",
+     "2020"
+    ],
+    "emails": [],
+    "flags": [],
+    "taille": 149996
+   }
+  ],
+  "teste": true
+ },
+ "21": {
+  "nom": "Mask Plastique (Mask Production)",
+  "ville": "SARTROUVILLE",
+  "siren": "511852568",
+  "candidats_testes": [
+   "mask.fr",
+   "mask.com",
+   "maskplastique.fr",
+   "maskplastique.com",
+   "mpmp.fr",
+   "mpmp.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "mask.fr",
+    "title": "Mask - Club Libertin pour Couples à Paris",
+    "generator": "WordPress 6.9.7",
+    "annees": [
+     "1981",
+     "1995",
+     "2009",
+     "2013",
+     "2021",
+     "2026"
+    ],
+    "emails": [],
+    "flags": [
+     "wordpress"
+    ],
+    "taille": 149707
+   },
+   {
+    "domaine": "mpmp.fr",
+    "title": "MPMP - Conseil",
+    "generator": "",
+    "annees": [],
+    "emails": [
+     "contact@mpmp.fr"
+    ],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 3481
+   },
+   {
+    "domaine": "mpmp.com",
+    "title": "The New MPMP HomePage",
+    "generator": "Mozilla/4.05 [en] (Win95; I) [Netscape]",
+    "annees": [],
+    "emails": [
+     "info@mpmp.com"
+    ],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 1260
+   }
+  ],
+  "teste": true
+ },
+ "22": {
+  "nom": "Sarl Materiaux Equipements Plastiques (Mep)",
+  "ville": "LOUVRES",
+  "siren": "326508660",
+  "candidats_testes": [
+   "smepm.fr",
+   "smepm.com",
+   "materiaux-equipements.fr",
+   "materiaux-equipements.com",
+   "materiauxequipements.fr",
+   "materiauxequipements.com",
+   "materiaux-equipements-.fr",
+   "materiaux-equipements-.com",
+   "materiauxequipementsplastiques.fr",
+   "materiauxequipementsplastiques.com"
+  ],
+  "vivants": [],
+  "teste": true
+ },
+ "23": {
+  "nom": "Caoutchouc Manuf Et Plastiques Industrie (Capest)",
+  "ville": "HOUDEMONT",
+  "siren": "757800032",
+  "candidats_testes": [
+   "caoutchoucmanufetplastiquesindustrie.fr",
+   "caoutchoucmanufetplastiquesindustrie.com",
+   "caoutchoucmanuf.fr",
+   "caoutchoucmanuf.com",
+   "caoutchouc-manuf.fr",
+   "caoutchouc-manuf.com",
+   "caoutchouc-manuf-industrie.fr",
+   "caoutchouc-manuf-industrie.com"
+  ],
+  "vivants": [],
+  "teste": true
+ },
+ "24": {
+  "nom": "Plastiques Faconnes Du Bethunois (P.F.B)",
+  "ville": "VERQUIN",
+  "siren": "505134106",
+  "candidats_testes": [
+   "plastiquesfaconnesdubethunois.fr",
+   "plastiquesfaconnesdubethunois.com",
+   "bethunois.fr",
+   "bethunois.com"
+  ],
+  "vivants": [],
+  "teste": true
+ },
+ "25": {
+  "nom": "Plastiques Injectes Du Marmandais (Imepsa Marmande) (Pim)",
+  "ville": "CAUMONT-SUR-GARONNE",
+  "siren": "390649903",
+  "candidats_testes": [
+   "marmandais.fr",
+   "marmandais.com",
+   "plastiquesinjectesdumarmandais.fr",
+   "plastiquesinjectesdumarmandais.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "marmandais.fr",
+    "title": "Dovendi - Domain for sale",
+    "generator": "",
+    "annees": [
+     "2000"
+    ],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 8988
+   },
+   {
+    "domaine": "marmandais.com",
+    "title": "marmandais.com :: Index",
+    "generator": "",
+    "annees": [
+     "2010",
+     "2012",
+     "2013",
+     "2015",
+     "2018",
+     "2026"
+    ],
+    "emails": [
+     "unkof@wanadoo.fr"
+    ],
+    "flags": [
+     "tables_html",
+     "copyright_2001",
+     "flash",
+     "pas_de_tracking"
+    ],
+    "taille": 50267
+   }
+  ],
+  "teste": true
+ },
+ "27": {
+  "nom": "Sa Mousses Plastiques D'Artois",
+  "ville": "FREVENT",
+  "siren": "323813956",
+  "candidats_testes": [
+   "moussesartois.fr",
+   "moussesartois.com",
+   "mousses-artois-.fr",
+   "mousses-artois-.com",
+   "moussesplastiquesdartois.fr",
+   "moussesplastiquesdartois.com",
+   "smpda.fr",
+   "smpda.com",
+   "mousses-artois.fr",
+   "mousses-artois.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "smpda.com",
+    "title": "Главная - Smart Mobile Personal Digital Assistant",
+    "generator": "",
+    "annees": [
+     "2004",
+     "2025",
+     "2026"
+    ],
+    "emails": [],
+    "flags": [
+     "copyright_2004",
+     "pas_de_tracking"
+    ],
+    "taille": 2824
+   }
+  ],
+  "teste": true
+ },
+ "28": {
+  "nom": "Maison Du Caoutchouc Et Plastique",
+  "ville": "LE CREUSOT",
+  "siren": "339533887",
+  "candidats_testes": [
+   "maison-caoutchouc-.fr",
+   "maison-caoutchouc-.com",
+   "mdcep.fr",
+   "mdcep.com",
+   "maisoncaoutchouc.fr",
+   "maisoncaoutchouc.com",
+   "maison-caoutchouc.fr",
+   "maison-caoutchouc.com",
+   "maisonducaoutchoucetplastique.fr",
+   "maisonducaoutchoucetplastique.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "mdcep.com",
+    "title": "Maryland Center on Economic Policy",
+    "generator": "Elementor 4.0.9; features: additional_custom_breakpoints; se",
+    "annees": [
+     "2023",
+     "2024",
+     "2025",
+     "2026"
+    ],
+    "emails": [],
+    "flags": [
+     "wordpress"
+    ],
+    "taille": 126497
+   }
+  ],
+  "teste": true
+ },
+ "29": {
+  "nom": "Societe Castelbriantaise Des Plastiques",
+  "ville": "CHATEAUBRIANT",
+  "siren": "785941089",
+  "candidats_testes": [
+   "scdp.fr",
+   "scdp.com",
+   "castelbriantaise-des-.fr",
+   "castelbriantaise-des-.com",
+   "castelbriantaisedesplastiques.fr",
+   "castelbriantaisedesplastiques.com",
+   "castelbriantaise-des.fr",
+   "castelbriantaise-des.com",
+   "castelbriantaisedes.fr",
+   "castelbriantaisedes.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "scdp.com",
+    "title": "SCDP.com for sale",
+    "generator": "",
+    "annees": [
+     "2026"
+    ],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 843
+   }
+  ],
+  "teste": true
+ },
+ "30": {
+  "nom": "Caoutchouc Et Plastiques Lyonnais (Cpl)",
+  "ville": "GENAS",
+  "siren": "962503934",
+  "candidats_testes": [
+   "ceplc.fr",
+   "ceplc.com",
+   "caoutchoucetplastiqueslyonnais.fr",
+   "caoutchoucetplastiqueslyonnais.com",
+   "caoutchouc-lyonnais.fr",
+   "caoutchouc-lyonnais.com",
+   "caoutchouclyonnais.fr",
+   "caoutchouclyonnais.com",
+   "caoutchouc-lyonnais-.fr",
+   "caoutchouc-lyonnais-.com"
+  ],
+  "vivants": [],
+  "teste": true
+ },
+ "31": {
+  "nom": "Lozerienne Plastique Sarl",
+  "ville": "MEYRUEIS",
+  "siren": "318760030",
+  "candidats_testes": [
+   "lozerienneplastiquesarl.fr",
+   "lozerienneplastiquesarl.com",
+   "lozerienne.fr",
+   "lozerienne.com",
+   "lps.fr",
+   "lps.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "lozerienne.com",
+    "title": "Lozérienne | VTT - Gravel - Cyclo",
+    "generator": "Powered by LayerSlider 8.1.2 - Build Heros, Sliders, and Pop",
+    "annees": [
+     "2014",
+     "2019",
+     "2020",
+     "2024",
+     "2025",
+     "2026"
+    ],
+    "emails": [],
+    "flags": [
+     "wordpress"
+    ],
+    "taille": 149928
+   }
+  ],
+  "teste": true
+ },
+ "32": {
+  "nom": "Mecanique Baumoise De Precision (Mbp)",
+  "ville": "AUTECHAUX",
+  "siren": "381493923",
+  "candidats_testes": [
+   "mecaniquebaumoisedeprecision.fr",
+   "mecaniquebaumoisedeprecision.com",
+   "mbdpm.fr",
+   "mbdpm.com",
+   "baumoise.fr",
+   "baumoise.com"
+  ],
+  "vivants": [],
+  "teste": true
+ },
+ "33": {
+  "nom": "Mecanique Precision Issoirienne (Mpi)",
+  "ville": "SAINT-REMY-DE-CHARGNAT",
+  "siren": "323505065",
+  "candidats_testes": [
+   "mecaniqueprecisionissoirienne.fr",
+   "mecaniqueprecisionissoirienne.com",
+   "issoirienne.fr",
+   "issoirienne.com",
+   "mpim.fr",
+   "mpim.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "mpim.com",
+    "title": "5850",
+    "generator": "",
+    "annees": [
+     "1999"
+    ],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 11662
+   }
+  ],
+  "teste": true
+ },
+ "34": {
+  "nom": "Precision Mecanique Du Lorouer (Pml)",
+  "ville": "SAINT-VINCENT-DU-LOROUER",
+  "siren": "327745519",
+  "candidats_testes": [
+   "pmdlp.fr",
+   "pmdlp.com",
+   "lorouer.fr",
+   "lorouer.com",
+   "precisionmecaniquedulorouer.fr",
+   "precisionmecaniquedulorouer.com"
+  ],
+  "vivants": [],
+  "teste": true
+ },
+ "35": {
+  "nom": "Roussel Freres Precision Mecanique (Rfpm)",
+  "ville": "VILLERS-SUR-PORT",
+  "siren": "300846532",
+  "candidats_testes": [
+   "roussel-freres.fr",
+   "roussel-freres.com",
+   "rfpmr.fr",
+   "rfpmr.com",
+   "roussel-freres-.fr",
+   "roussel-freres-.com",
+   "rousselfreresprecisionmecanique.fr",
+   "rousselfreresprecisionmecanique.com",
+   "rousselfreres.fr",
+   "rousselfreres.com"
+  ],
+  "vivants": [],
+  "teste": true
+ },
+ "36": {
+  "nom": "Omp Outillage Mecanique Precision (Omp)",
+  "ville": "SAINT-NICOLAS-D'ALIERMONT",
+  "siren": "437977036",
+  "candidats_testes": [
+   "ompoutillage.fr",
+   "ompoutillage.com",
+   "omp-outillage.fr",
+   "omp-outillage.com",
+   "omp-outillage-.fr",
+   "omp-outillage-.com",
+   "ompoutillagemecaniqueprecision.fr",
+   "ompoutillagemecaniqueprecision.com",
+   "oompo.fr",
+   "oompo.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "oompo.com",
+    "title": "oompo.com",
+    "generator": "",
+    "annees": [
+     "2026"
+    ],
+    "emails": [
+     "you@company.com"
+    ],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 31366
+   }
+  ],
+  "teste": true
+ },
+ "37": {
+  "nom": "Societe Outillage Mecanique De Precision (Somep)",
+  "ville": "ERNEE",
+  "siren": "790272256",
+  "candidats_testes": [
+   "outillage.fr",
+   "outillage.com",
+   "outillagemecaniquedeprecision.fr",
+   "outillagemecaniquedeprecision.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "outillage.fr",
+    "title": "outillage.fr&nbsp;-&nbsp;هذا الموقع الالكتروني للبيع!&nbsp;-&nbsp;Outillage المصادر والمعلومات.",
+    "generator": "",
+    "annees": [],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 4244
+   },
+   {
+    "domaine": "outillage.com",
+    "title": "Ferramentas.pt Maior Loja Online de Ferramentas",
+    "generator": "",
+    "annees": [
+     "1994",
+     "2000",
+     "2010",
+     "2016",
+     "2017",
+     "2020"
+    ],
+    "emails": [],
+    "flags": [
+     "magento"
+    ],
+    "taille": 149783
+   }
+  ],
+  "teste": true
+ },
+ "38": {
+  "nom": "Societe Mecanique De Precision",
+  "ville": "FLERS",
+  "siren": "379681778",
+  "candidats_testes": [
+   "smdp.fr",
+   "smdp.com",
+   "mecaniquedeprecision.fr",
+   "mecaniquedeprecision.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "smdp.com",
+    "title": "LA&#x27;s Trusted Local News | Santa Monica Daily Press",
+    "generator": "Ghost 6.57",
+    "annees": [
+     "2000",
+     "2001",
+     "2022",
+     "2024",
+     "2025",
+     "2026"
+    ],
+    "emails": [],
+    "flags": [],
+    "taille": 149971
+   },
+   {
+    "domaine": "mecaniquedeprecision.fr",
+    "title": "Dovendi - Domain for sale",
+    "generator": "",
+    "annees": [
+     "2000"
+    ],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 8988
+   }
+  ],
+  "teste": true
+ },
+ "39": {
+  "nom": "Mecanique De Precision Du Barrois (Mpb)",
+  "ville": "LIGNY-EN-BARROIS",
+  "siren": "322305335",
+  "candidats_testes": [
+   "mecaniquedeprecisiondubarrois.fr",
+   "mecaniquedeprecisiondubarrois.com",
+   "barrois.fr",
+   "barrois.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "barrois.fr",
+    "title": "Bienvenue",
+    "generator": "",
+    "annees": [
+     "2006",
+     "2008"
+    ],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 1484
+   }
+  ],
+  "teste": true
+ },
+ "40": {
+  "nom": "Mecanique Usinage De Precision (Mup)",
+  "ville": "CORBIERES-EN-PROVENCE",
+  "siren": "319179891",
+  "candidats_testes": [
+   "mudpm.fr",
+   "mudpm.com",
+   "mecaniqueusinagedeprecision.fr",
+   "mecaniqueusinagedeprecision.com"
+  ],
+  "vivants": [],
+  "teste": true
+ },
+ "41": {
+  "nom": "Kantemir Mecanique De Precision",
+  "ville": "LANDEVANT",
+  "siren": "321702425",
+  "candidats_testes": [
+   "kantemir.fr",
+   "kantemir.com",
+   "kantemirmecaniquedeprecision.fr",
+   "kantemirmecaniquedeprecision.com",
+   "kmdp.fr",
+   "kmdp.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "kmdp.com",
+    "title": "KOMODA PROFILE",
+    "generator": "Digital Site 1.7.1J",
+    "annees": [
+     "2000"
+    ],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 1322
+   }
+  ],
+  "teste": true
+ },
+ "42": {
+  "nom": "Maintenance Mecanique De Precision",
+  "ville": "SAINT-AVE",
+  "siren": "409296662",
+  "candidats_testes": [
+   "maintenancemecaniquedeprecision.fr",
+   "maintenancemecaniquedeprecision.com",
+   "mmdp.fr",
+   "mmdp.com"
+  ],
+  "vivants": [],
+  "teste": true
+ },
+ "43": {
+  "nom": "Precision Mecanique Technique (Premetec)",
+  "ville": "SAVERDUN",
+  "siren": "394159958",
+  "candidats_testes": [
+   "pmtp.fr",
+   "pmtp.com",
+   "technique.fr",
+   "technique.com",
+   "precisionmecaniquetechnique.fr",
+   "precisionmecaniquetechnique.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "pmtp.com",
+    "title": "pmtp.com | Venture",
+    "generator": "",
+    "annees": [
+     "2009",
+     "2019",
+     "2021",
+     "2026"
+    ],
+    "emails": [],
+    "flags": [
+     "flash"
+    ],
+    "taille": 52613
+   },
+   {
+    "domaine": "technique.com",
+    "title": "technique.com for sale | Spaceship.com",
+    "generator": "",
+    "annees": [
+     "2001"
+    ],
+    "emails": [],
+    "flags": [
+     "copyright_2001",
+     "pas_de_tracking"
+    ],
+    "taille": 19694
+   }
+  ],
+  "teste": true
+ },
+ "44": {
+  "nom": "Mecanique De Grande Precision",
+  "ville": "VORAY SUR L'OGNON",
+  "siren": "414977298",
+  "candidats_testes": [
+   "mdgp.fr",
+   "mdgp.com",
+   "mecaniquedegrandeprecision.fr",
+   "mecaniquedegrandeprecision.com",
+   "grande.fr",
+   "grande.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "grande.fr",
+    "title": "Bravo ! Votre domaine grande.fr a bien été créé avec LWS !",
+    "generator": "",
+    "annees": [
+     "1999"
+    ],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 17292
+   },
+   {
+    "domaine": "grande.com",
+    "title": "Grande Cheese Company",
+    "generator": "All in One SEO (AIOSEO) 4.9.10",
+    "annees": [
+     "2000",
+     "2018",
+     "2020",
+     "2022",
+     "2023",
+     "2026"
+    ],
+    "emails": [],
+    "flags": [
+     "wordpress",
+     "pas_de_tracking"
+    ],
+    "taille": 149974
+   }
+  ],
+  "teste": true
+ },
+ "45": {
+  "nom": "Mecanique Precision Industrie (Mpi)",
+  "ville": "VIRE NORMANDIE",
+  "siren": "447528647",
+  "candidats_testes": [
+   "mecaniqueprecisionindustrie.fr",
+   "mecaniqueprecisionindustrie.com",
+   "industrie.fr",
+   "industrie.com",
+   "mpim.fr",
+   "mpim.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "mpim.com",
+    "title": "5850",
+    "generator": "",
+    "annees": [
+     "1999"
+    ],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 11662
+   }
+  ],
+  "teste": true
+ },
+ "46": {
+  "nom": "Mecanique De Precision De L'Est (Mpe)",
+  "ville": "MASEVAUX-NIEDERBRUCK",
+  "siren": "305393407",
+  "candidats_testes": [
+   "est.fr",
+   "est.com",
+   "mecaniquedeprecisiondelest.fr",
+   "mecaniquedeprecisiondelest.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "est.fr",
+    "title": "Est.fr le site de l'est de la France",
+    "generator": "",
+    "annees": [
+     "2009",
+     "2026"
+    ],
+    "emails": [
+     "contact@est.fr"
+    ],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 722
+   },
+   {
+    "domaine": "est.com",
+    "title": "Quality-Driven Electronics Manufacturing | ISO &amp; ITAR-Certified Solutions by EST",
+    "generator": "WordPress 7.0.4",
+    "annees": [
+     "1999",
+     "2000",
+     "2024",
+     "2025"
+    ],
+    "emails": [
+     "support@est.com"
+    ],
+    "flags": [
+     "wordpress",
+     "pas_de_tracking"
+    ],
+    "taille": 149980
+   }
+  ],
+  "teste": true
+ },
+ "47": {
+  "nom": "Precision Industrielle Mecanique",
+  "ville": "LA BRESSE",
+  "siren": "377887559",
+  "candidats_testes": [
+   "pim.fr",
+   "pim.com",
+   "precisionindustriellemecanique.fr",
+   "precisionindustriellemecanique.com",
+   "industrielle.fr",
+   "industrielle.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "pim.fr",
+    "title": "Fabricant de Solutions en Polyuréthane sur Mesure à Lyon et en Rhône-Alpes - PIM",
+    "generator": "",
+    "annees": [
+     "2011",
+     "2012",
+     "2020",
+     "2022",
+     "2023",
+     "2026"
+    ],
+    "emails": [
+     "info.pim@pim.fr"
+    ],
+    "flags": [],
+    "taille": 76529
+   },
+   {
+    "domaine": "industrielle.fr",
+    "title": "Site en construction",
+    "generator": "",
+    "annees": [
+     "1999"
+    ],
+    "emails": [],
+    "flags": [
+     "copyright_1999",
+     "pas_de_tracking"
+    ],
+    "taille": 18839
+   }
+  ],
+  "teste": true
+ },
+ "48": {
+  "nom": "Forage Mecanique De Precision (Fmp)",
+  "ville": "SAINT-OUEN-L'AUMONE",
+  "siren": "348781303",
+  "candidats_testes": [
+   "fmdpf.fr",
+   "fmdpf.com",
+   "foragemecaniquedeprecision.fr",
+   "foragemecaniquedeprecision.com",
+   "forage.fr",
+   "forage.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "forage.com",
+    "title": "Discover Books",
+    "generator": "",
+    "annees": [
+     "2024"
+    ],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 42102
+   }
+  ],
+  "teste": true
+ },
+ "49": {
+  "nom": "Segre Mecanique Precision (Smp)",
+  "ville": "SEGRE-EN-ANJOU BLEU",
+  "siren": "338809460",
+  "candidats_testes": [
+   "segre.fr",
+   "segre.com",
+   "smps.fr",
+   "smps.com",
+   "segremecaniqueprecision.fr",
+   "segremecaniqueprecision.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "segre.com",
+    "title": "SEGRE - Digital líder a les comarques de Lleida",
+    "generator": "",
+    "annees": [
+     "1999",
+     "2000",
+     "2023",
+     "2024",
+     "2025",
+     "2026"
+    ],
+    "emails": [
+     "segrecom@segre.com"
+    ],
+    "flags": [],
+    "taille": 149642
+   }
+  ],
+  "teste": true
+ },
+ "50": {
+  "nom": "Ateliers Mecaniques De Precision (Amp)",
+  "ville": "EGUILLES",
+  "siren": "328710835",
+  "candidats_testes": [
+   "amdpa.fr",
+   "amdpa.com",
+   "mecaniques.fr",
+   "mecaniques.com",
+   "ateliersmecaniquesdeprecision.fr",
+   "ateliersmecaniquesdeprecision.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "amdpa.fr",
+    "title": "Site en construction",
+    "generator": "",
+    "annees": [
+     "1999"
+    ],
+    "emails": [],
+    "flags": [
+     "copyright_1999",
+     "pas_de_tracking"
+    ],
+    "taille": 11564
+   }
+  ],
+  "teste": true
+ },
+ "51": {
+  "nom": "Mecanique De Precision Scala",
+  "ville": "MOUSSY-LE-NEUF",
+  "siren": "438124315",
+  "candidats_testes": [
+   "mecaniquedeprecisionscala.fr",
+   "mecaniquedeprecisionscala.com",
+   "scala.fr",
+   "scala.com",
+   "mdps.fr",
+   "mdps.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "scala.com",
+    "title": "Scala | Digital Signage | Full Solution Signage Provider",
+    "generator": "WPML ver:4.9.6 stt:8,1,4,3,2;",
+    "annees": [
+     "2000",
+     "2020",
+     "2023",
+     "2024",
+     "2025",
+     "2026"
+    ],
+    "emails": [],
+    "flags": [
+     "wordpress",
+     "pas_de_tracking"
+    ],
+    "taille": 123022
+   },
+   {
+    "domaine": "mdps.fr",
+    "title": "CDPS | Accueil",
+    "generator": "",
+    "annees": [
+     "2026"
+    ],
+    "emails": [],
+    "flags": [],
+    "taille": 12029
+   }
+  ],
+  "teste": true
+ },
+ "52": {
+  "nom": "Bourgogne Precision Mecanique (Bpm)",
+  "ville": "LONGVIC",
+  "siren": "805278173",
+  "candidats_testes": [
+   "bourgogneprecisionmecanique.fr",
+   "bourgogneprecisionmecanique.com",
+   "bourgogne.fr",
+   "bourgogne.com",
+   "bpmb.fr",
+   "bpmb.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "bourgogneprecisionmecanique.fr",
+    "title": "Site en construction",
+    "generator": "",
+    "annees": [
+     "1999"
+    ],
+    "emails": [],
+    "flags": [
+     "copyright_1999",
+     "pas_de_tracking"
+    ],
+    "taille": 32986
+   },
+   {
+    "domaine": "bourgogneprecisionmecanique.com",
+    "title": "Site en construction",
+    "generator": "",
+    "annees": [
+     "1999"
+    ],
+    "emails": [],
+    "flags": [
+     "copyright_1999",
+     "pas_de_tracking"
+    ],
+    "taille": 33879
+   }
+  ],
+  "teste": true
+ },
+ "53": {
+  "nom": "Roch Mecanique De Precision",
+  "ville": "REIGNIER-ESERY",
+  "siren": "796580108",
+  "candidats_testes": [
+   "rochmecaniquedeprecision.fr",
+   "rochmecaniquedeprecision.com",
+   "rmdp.fr",
+   "rmdp.com",
+   "roch.fr",
+   "roch.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "rmdp.com",
+    "title": "RMDP Participacoes ltda",
+    "generator": "Starfield Technologies; Go Daddy Website Builder 8.0.0000",
+    "annees": [
+     "2000",
+     "2005",
+     "2007",
+     "2011",
+     "2017",
+     "2020"
+    ],
+    "emails": [
+     "info@rmdp.com"
+    ],
+    "flags": [
+     "copyright_2017"
+    ],
+    "taille": 40547
+   },
+   {
+    "domaine": "roch.fr",
+    "title": "Constructeur Maisons en Bois et chalets dans le Jura | Roch Constructeur Bois",
+    "generator": "",
+    "annees": [
+     "2018",
+     "2020",
+     "2022",
+     "2023",
+     "2025",
+     "2026"
+    ],
+    "emails": [],
+    "flags": [
+     "copyright_2018"
+    ],
+    "taille": 59304
+   }
+  ],
+  "teste": true
+ },
+ "54": {
+  "nom": "Besne Mecanique De Precision",
+  "ville": "BESNE",
+  "siren": "479357329",
+  "candidats_testes": [
+   "besnemecaniquedeprecision.fr",
+   "besnemecaniquedeprecision.com",
+   "besne.fr",
+   "besne.com",
+   "bmdp.fr",
+   "bmdp.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "besne.fr",
+    "title": "Mairie de la commune de Besn (44)",
+    "generator": "",
+    "annees": [],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 627
+   },
+   {
+    "domaine": "bmdp.fr",
+    "title": "Site en construction",
+    "generator": "",
+    "annees": [
+     "1999"
+    ],
+    "emails": [],
+    "flags": [
+     "copyright_1999",
+     "pas_de_tracking"
+    ],
+    "taille": 10783
+   },
+   {
+    "domaine": "bmdp.com",
+    "title": "Domain Name For Sale - contact: info@nucom.com",
+    "generator": "",
+    "annees": [],
+    "emails": [
+     "info@nucom.com"
+    ],
+    "flags": [],
+    "taille": 1751
+   }
+  ],
+  "teste": true
+ },
+ "55": {
+  "nom": "Delta Usinage",
+  "ville": "MURS-ERIGNE",
+  "siren": "440730372",
+  "candidats_testes": [
+   "deltausinage.fr",
+   "deltausinage.com",
+   "delta.fr",
+   "delta.com",
+   "du.fr",
+   "du.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "delta.com",
+    "title": "Delta Air Lines | Flights & Plane Tickets + Hotels & Cars",
+    "generator": "",
+    "annees": [],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 8241
+   },
+   {
+    "domaine": "du.fr",
+    "title": "du.fr est en vente",
+    "generator": "",
+    "annees": [],
+    "emails": [
+     "deuxlettresfr@gmail.com"
+    ],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 782
+   }
+  ],
+  "teste": true
+ },
+ "56": {
+  "nom": "M.P. Usinage",
+  "ville": "MOIRANS-EN-MONTAGNE",
+  "siren": "384489134",
+  "candidats_testes": [
+   "mpu.fr",
+   "mpu.com",
+   "mpusinage.fr",
+   "mpusinage.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "mpu.fr",
+    "title": "Premium Domain For Sale | Safenames Ltd",
+    "generator": "",
+    "annees": [
+     "2014",
+     "2026"
+    ],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 6960
+   },
+   {
+    "domaine": "mpu.com",
+    "title": "mpu.com — This Domain May Be For Sale",
+    "generator": "",
+    "annees": [
+     "2024"
+    ],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 17278
+   }
+  ],
+  "teste": true
+ },
+ "57": {
+  "nom": "Brizard Usinage (Brizard Usinage)",
+  "ville": "VOIRON",
+  "siren": "431980929",
+  "candidats_testes": [
+   "brizard.fr",
+   "brizard.com",
+   "brizardusinage.fr",
+   "brizardusinage.com",
+   "bubu.fr",
+   "bubu.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "brizard.fr",
+    "title": "Brizard - Brizard.fr",
+    "generator": "",
+    "annees": [
+     "2000",
+     "2026"
+    ],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 108067
+   },
+   {
+    "domaine": "bubu.fr",
+    "title": "www.bubu.fr",
+    "generator": "",
+    "annees": [
+     "1999",
+     "2009",
+     "2010"
+    ],
+    "emails": [],
+    "flags": [
+     "drupal",
+     "flash",
+     "pas_de_tracking"
+    ],
+    "taille": 16394
+   },
+   {
+    "domaine": "bubu.com",
+    "title": "Bubu A Cultural Intelligence Agency. | Bubu.com",
+    "generator": "Hostinger Website Builder",
+    "annees": [
+     "2019",
+     "2020",
+     "2022",
+     "2023",
+     "2025",
+     "2026"
+    ],
+    "emails": [
+     "info@bubu.com"
+    ],
+    "flags": [],
+    "taille": 149994
+   }
+  ],
+  "teste": true
+ },
+ "58": {
+  "nom": "Breizh Usinage Services",
+  "ville": "PLEYBEN",
+  "siren": "409730074",
+  "candidats_testes": [
+   "breizhservices.fr",
+   "breizhservices.com",
+   "bus.fr",
+   "bus.com",
+   "breizh-services.fr",
+   "breizh-services.com",
+   "breizh-services-.fr",
+   "breizh-services-.com",
+   "breizhusinageservices.fr",
+   "breizhusinageservices.com"
+  ],
+  "vivants": [
+   {
+    "domaine": "breizhservices.fr",
+    "title": "Dovendi - Domain for sale",
+    "generator": "",
+    "annees": [
+     "2000"
+    ],
+    "emails": [],
+    "flags": [
+     "pas_de_tracking"
+    ],
+    "taille": 8988
+   },
+   {
+    "domaine": "bus.com",
+    "title": "Bus.com | The better way to book a bus",
+    "generator": "WordPress 7.0.2",
+    "annees": [
+     "2000",
+     "2014",
+     "2023",
+     "2024",
+     "2025",
+     "2026"
+    ],
+    "emails": [],
+    "flags": [
+     "wordpress"
+    ],
+    "taille": 80346
+   },
+   {
+    "domaine": "breizh-services.com",
+    "title": "Breizh Nuisibles Services : Solutions de Lutte Contre les Nuisibles",
+    "generator": "WordPress 7.0.4",
+    "annees": [
+     "1999",
+     "2000",
+     "2006",
+     "2025",
+     "2026"
+    ],
+    "emails": [
+     "contact@breizh-services.com",
+     "sebservices@orange.fr"
+    ],
+    "flags": [
+     "wordpress"
+    ],
+    "taille": 149974
+   }
+  ],
+  "teste": true
+ },
+ "59": {
+  "nom": "Usinage Chaudronnerie Sur Site (Ucss)",
+  "ville": "MILLY-LA-FORET",
+  "siren": "800540205",
+  "candidats_testes": [
+   "chaudronnerie-sur.fr",
+   "chaudronnerie-sur.com",
+   "chaudronnerie-sur-site.fr",
+   "chaudronnerie-sur-site.com",
+   "usinagechaudronneriesursite.fr",
+   "usinagechaudronneriesursite.com",
+   "chaudronneriesur.fr",
+   "chaudronneriesur.com",
+   "ucssu.fr",
+   "ucssu.com"
+  ],
+  "vivants": [],
+  "teste": true
+ }
+}

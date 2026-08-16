@@ -1,0 +1,132 @@
+{
+ "132": {
+  "holding": "HARMONIA",
+  "resolved": "HARMONIA",
+  "siren": "945307254",
+  "eff": "NN",
+  "dirigeants": [
+   "DAVY ALBERT DEPAIX [Directeur Général]",
+   "MALEK TAZEROUT [Président de SAS]"
+  ]
+ },
+ "144": {
+  "holding": "AD2C MANAGEMENT",
+  "resolved": "AD2C MANAGEMENT",
+  "siren": "883502528",
+  "eff": "01",
+  "dirigeants": [
+   "ALEXANDRE DE CUNIAC [Président de SAS]"
+  ]
+ },
+ "123": {
+  "holding": "GAP SAS",
+  "resolved": "GAP SAS",
+  "siren": "884116328",
+  "eff": "01",
+  "dirigeants": [
+   "GUILLAUME MICHEL PIERRE MAURICE RABIER [Président de SAS]"
+  ]
+ },
+ "112": {
+  "holding": "GROUPE EDM",
+  "resolved": "GROUPE EDM (GROUPE EDM)",
+  "siren": "902874460",
+  "eff": "11",
+  "dirigeants": []
+ },
+ "114": {
+  "holding": "JELZA HOLDING",
+  "resolved": "JELZA HOLDING",
+  "siren": "891654824",
+  "eff": "NN",
+  "dirigeants": [
+   "CLAUDE RENE PIMPIE [Président de SAS]"
+  ]
+ },
+ "113": {
+  "holding": "HOLDING ROUGER",
+  "resolved": "HOLDING ROUGER",
+  "siren": "831899034",
+  "eff": "01",
+  "dirigeants": [
+   "SAMUEL ROUGER [Président de SAS]"
+  ]
+ },
+ "120": {
+  "holding": "TALBOT INDUSTRIE DEVELOPPEMENT",
+  "resolved": "TALBOT INDUSTRIE DEVELOPPEMENT (TID)",
+  "siren": "449194968",
+  "eff": "NN",
+  "dirigeants": [
+   "FRANCOIS XAVIER MAURICE GEORGES GUYARD [Président de SAS]",
+   "HERVE LOMBAERDE [Commissaire aux comptes suppléant]"
+  ]
+ },
+ "140": {
+  "holding": "ROGER HOLDING",
+  "resolved": "ROGER HOLDING",
+  "siren": "822541967",
+  "eff": "NN",
+  "dirigeants": [
+   "EMMANUEL ROGER [Gérant]"
+  ]
+ },
+ "141": {
+  "holding": "WELDING PIPELINES SERVICES",
+  "resolved": "WELDING PIPELINES SERVICES",
+  "siren": "811167295",
+  "eff": "NN",
+  "dirigeants": [
+   "MAXIME LELEU [Gérant]"
+  ]
+ },
+ "142": {
+  "holding": "SILENN",
+  "resolved": "SILENN",
+  "siren": "833712797",
+  "eff": "NN",
+  "dirigeants": [
+   "SIMON ULRICK BRICHET [Gérant]"
+  ]
+ },
+ "147": {
+  "holding": "MANO FINANCE",
+  "resolved": "MANO FINANCE",
+  "siren": "500488200",
+  "eff": "NN",
+  "dirigeants": [
+   "CHRISTOPHE GAUDIN [Gérant]"
+  ]
+ },
+ "115": {
+  "holding": "KDMJ",
+  "resolved": "KDMJ",
+  "siren": "524184280",
+  "eff": "03",
+  "dirigeants": [
+   "PHILIPPE DORLEAC [Commissaire aux comptes titulaire]",
+   "LAURENT MOLINA [Commissaire aux comptes suppléant]",
+   "PHILIPPE DANIEL FERNAND MOURAT [Président de SAS]"
+  ]
+ },
+ "110": {
+  "holding": "SOFIRME",
+  "resolved": "SOFIRME",
+  "siren": "479852642",
+  "eff": "NN",
+  "dirigeants": [
+   "FLORIAN MESLIN [Gérant]",
+   "ARMELLE MESLIN (PIGEON) [Gérant]"
+  ]
+ },
+ "149": {
+  "holding": "GR HOLDING",
+  "resolved": "GR HOLDING",
+  "siren": "831278296",
+  "eff": "01",
+  "dirigeants": [
+   "NICOLAS VINCENT HENRI MARTINEZ [Gérant et associé indéfiniment responsable]",
+   "CAMILLE JULIE SCART [Autre]"
+  ]
+ }
+}

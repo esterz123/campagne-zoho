@@ -1,0 +1,1183 @@
+{
+ "60": {
+  "nom": "Societe D'Usinage Des Metaux (Sum)",
+  "ville": "SAINT-NICOLAS-D'ALIERMONT",
+  "siren": "325650232",
+  "domaines_testes": [
+   "sum.com",
+   "sum.fr",
+   "usinage-metaux.com",
+   "usinage-metaux.fr",
+   "usinage.com",
+   "usinage.fr",
+   "usinagemetaux.com",
+   "usinagemetaux.fr"
+  ],
+  "trouve": {
+   "domaine_test": "sum.fr",
+   "url": "https://sum.fr",
+   "titre": "Blogito Ergo Sum ! &#8212; Guide d&#039;achat, consommation, e-commerce et mobilité",
+   "copyright": [],
+   "cms": [
+    "WordPress",
+    "PrestaShop"
+   ],
+   "emails": [],
+   "tech": [
+    "tables HTML"
+   ]
+  }
+ },
+ "61": {
+  "nom": "Ba Usinage",
+  "ville": "CLUSES",
+  "siren": "382598647",
+  "domaines_testes": [
+   "usinage.com",
+   "usinage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "usinage.com",
+   "url": "https://www.usinage.com/",
+   "titre": "Usinage en petites et grandes séries - BA Usinage",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "62": {
+  "nom": "Eberhard Usinage",
+  "ville": "HATTMATT",
+  "siren": "300155256",
+  "domaines_testes": [
+   "eberhard-usinage.com",
+   "eberhard-usinage.fr",
+   "eberhard.com",
+   "eberhard.fr",
+   "eberhardusinage.com",
+   "eberhardusinage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "eberhard.fr",
+   "url": "https://eberhard.fr",
+   "titre": "Bravo ! Votre domaine eberhard.fr a bien été créé avec LWS !",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "63": {
+  "nom": "Ravon Usinage",
+  "ville": "SAINT-CHRISTOPHE-DU-LIGNERON",
+  "siren": "407503184",
+  "domaines_testes": [
+   "ravon-usinage.com",
+   "ravon-usinage.fr",
+   "ravon.com",
+   "ravon.fr",
+   "ravonusinage.com",
+   "ravonusinage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "ravon.fr",
+   "url": "https://ravon-automobile.fr/",
+   "titre": "Ravon Automobile : Concession véhicules neufs et occasion",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [
+    "contact@ravon.fr"
+   ],
+   "tech": []
+  }
+ },
+ "64": {
+  "nom": "Sa Europ Usinage",
+  "ville": "RAISMES",
+  "siren": "408629343",
+  "domaines_testes": [
+   "europ-usinage.com",
+   "europ-usinage.fr",
+   "europ.com",
+   "europ.fr",
+   "europusinage.com",
+   "europusinage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "europusinage.fr",
+   "url": "http://europusinage.fr",
+   "titre": "Apache2 Debian Default Page: It works",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "65": {
+  "nom": "Usinage Alsace",
+  "ville": "OBERHASLACH",
+  "siren": "399828722",
+  "domaines_testes": [
+   "usinage-alsace.com",
+   "usinage-alsace.fr",
+   "usinage.com",
+   "usinage.fr",
+   "usinagealsace.com",
+   "usinagealsace.fr"
+  ],
+  "trouve": {
+   "domaine_test": "usinage.com",
+   "url": "https://www.usinage.com/",
+   "titre": "Usinage en petites et grandes séries - BA Usinage",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "66": {
+  "nom": "Elcam Usinage (Elcam Usinage)",
+  "ville": "POLIGNY",
+  "siren": "420425589",
+  "domaines_testes": [
+   "elcam-usinage.com",
+   "elcam-usinage.fr",
+   "elcam.com",
+   "elcam.fr",
+   "elcamusinage.com",
+   "elcamusinage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "elcam-usinage.fr",
+   "url": "https://www.elcam-usinage.fr/",
+   "titre": "Elcam Usinage - Usinage de précision tous secteurs d'activité et tous matériaux",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "67": {
+  "nom": "Urma Usinage (Urma)",
+  "ville": "SENTHEIM",
+  "siren": "333833085",
+  "domaines_testes": [
+   "urma-usinage.com",
+   "urma-usinage.fr",
+   "urma.com",
+   "urma.fr",
+   "urmausinage.com",
+   "urmausinage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "urma.com",
+   "url": "https://urma.com",
+   "titre": "Dr. Raoul-Gabriel Urma",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "68": {
+  "nom": "Usinage Dieppois",
+  "ville": "ROUXMESNIL-BOUTEILLES",
+  "siren": "331969063",
+  "domaines_testes": [
+   "usinage-dieppois.com",
+   "usinage-dieppois.fr",
+   "usinage.com",
+   "usinage.fr",
+   "usinagedieppois.com",
+   "usinagedieppois.fr"
+  ],
+  "trouve": {
+   "domaine_test": "usinage-dieppois.fr",
+   "url": "https://usinage-dieppois.fr",
+   "titre": "Usinage Dieppois",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": [
+    "tables HTML"
+   ]
+  }
+ },
+ "69": {
+  "nom": "Bc Usinages (Bcu)",
+  "ville": "MOLSHEIM",
+  "siren": "339851560",
+  "domaines_testes": [
+   "bcu.com",
+   "bcu.fr",
+   "usinages.com",
+   "usinages.fr"
+  ],
+  "trouve": {
+   "domaine_test": "usinages.com",
+   "url": "https://www.usinages.com/",
+   "titre": "Portail Usinages | Usinages",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "70": {
+  "nom": "Sauvaitre Usinage",
+  "ville": "SAINT-LEGER-SOUS-CHOLET",
+  "siren": "328884929",
+  "domaines_testes": [
+   "sauvaitre-usinage.com",
+   "sauvaitre-usinage.fr",
+   "sauvaitre.com",
+   "sauvaitre.fr",
+   "sauvaitreusinage.com",
+   "sauvaitreusinage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "sauvaitre.fr",
+   "url": "https://sauvaitre.fr",
+   "titre": "Dovendi - Domain for sale",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "71": {
+  "nom": "Fraisage Services",
+  "ville": "SAINTE-SEVE",
+  "siren": "434860268",
+  "domaines_testes": [
+   "fraisage-services.com",
+   "fraisage-services.fr",
+   "fraisage.com",
+   "fraisage.fr",
+   "fraisageservices.com",
+   "fraisageservices.fr"
+  ],
+  "trouve": {
+   "domaine_test": "fraisageservices.fr",
+   "url": "https://fraisageservices.fr",
+   "titre": "Accueil - Fraisage Services",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [
+    "fraisage@fraisageservices.fr"
+   ],
+   "tech": [
+    "tables HTML"
+   ]
+  }
+ },
+ "72": {
+  "nom": "Fraisage Tp",
+  "ville": "SAINT-FLORIS",
+  "siren": "499129120",
+  "domaines_testes": [
+   "fraisage.com",
+   "fraisage.fr"
+  ],
+  "trouve": null
+ },
+ "73": {
+  "nom": "Nord Fraisage",
+  "ville": "SAINTE-SEVE",
+  "siren": "511197162",
+  "domaines_testes": [
+   "nord-fraisage.com",
+   "nord-fraisage.fr",
+   "nord.com",
+   "nord.fr",
+   "nordfraisage.com",
+   "nordfraisage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "nord.fr",
+   "url": "https://nord.fr",
+   "titre": "nord.fr&nbsp;-&nbsp;هذا الموقع الالكتروني للبيع!&nbsp;-&nbsp;nord المصادر والمعلومات.",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "74": {
+  "nom": "Atelier De Fraisage Et Mecanique (Afm)",
+  "ville": "ATHIS-VAL DE ROUVRE",
+  "siren": "410492326",
+  "domaines_testes": [
+   "afm.com",
+   "afm.fr",
+   "atelier-fraisage-mecanique.com",
+   "atelier-fraisage-mecanique.fr",
+   "atelier-fraisage.com",
+   "atelier-fraisage.fr",
+   "atelier.com",
+   "atelier.fr",
+   "atelierfraisagemecanique.com",
+   "atelierfraisagemecanique.fr"
+  ],
+  "trouve": {
+   "domaine_test": "atelier.fr",
+   "url": "https://atelier.net/",
+   "titre": "Home - L&#x27;Atelier",
+   "copyright": [
+    "2026",
+    "2026"
+   ],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "75": {
+  "nom": "T.F.L. Tournage Fraisage Lorrain",
+  "ville": "HAGONDANGE",
+  "siren": "339728255",
+  "domaines_testes": [
+   "tournage-fraisage-lorrain.com",
+   "tournage-fraisage-lorrain.fr",
+   "tournage-fraisage.com",
+   "tournage-fraisage.fr",
+   "tournage.com",
+   "tournage.fr",
+   "tournagefraisagelorrain.com",
+   "tournagefraisagelorrain.fr"
+  ],
+  "trouve": {
+   "domaine_test": "tournage.fr",
+   "url": "http://www.tournage.fr/",
+   "titre": "tournage.fr est en vente",
+   "copyright": [
+    "2026"
+   ],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "76": {
+  "nom": "Soc De Decolletage Et Mecanique (Sdm)",
+  "ville": "MARIGNIER",
+  "siren": "350324885",
+  "domaines_testes": [
+   "sdm.com",
+   "sdm.fr",
+   "soc-decolletage-mecanique.com",
+   "soc-decolletage-mecanique.fr",
+   "soc-decolletage.com",
+   "soc-decolletage.fr",
+   "soc.com",
+   "soc.fr",
+   "socdecolletagemecanique.com",
+   "socdecolletagemecanique.fr"
+  ],
+  "trouve": {
+   "domaine_test": "soc.fr",
+   "url": "https://www.nge.fr/",
+   "titre": "NGE",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "77": {
+  "nom": "Sarl Jcm Decolletage",
+  "ville": "SALLANCHES",
+  "siren": "498011394",
+  "domaines_testes": [
+   "jcm-decolletage.com",
+   "jcm-decolletage.fr",
+   "jcm.com",
+   "jcm.fr",
+   "jcmdecolletage.com",
+   "jcmdecolletage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "jcm-decolletage.fr",
+   "url": "https://www.jcm-decolletage.fr/",
+   "titre": "Décolletage industriel, sous-traitant usinage pièces industrielles, JCM Décolletage Haute-Savoie",
+   "copyright": [],
+   "cms": [],
+   "emails": [
+    "info@jcm-decolletage.fr"
+   ],
+   "tech": []
+  }
+ },
+ "78": {
+  "nom": "Ouest Decolletage",
+  "ville": "CHEMILLE-EN-ANJOU",
+  "siren": "411152267",
+  "domaines_testes": [
+   "ouest-decolletage.com",
+   "ouest-decolletage.fr",
+   "ouest.com",
+   "ouest.fr",
+   "ouestdecolletage.com",
+   "ouestdecolletage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "ouestdecolletage.com",
+   "url": "https://www.ouestdecolletage.com/",
+   "titre": "Accueil | Ouest Décolletage",
+   "copyright": [
+    "2015"
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "79": {
+  "nom": "Rm Decolletage",
+  "ville": "MAGLAND",
+  "siren": "438574782",
+  "domaines_testes": [
+   "decolletage.com",
+   "decolletage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "decolletage.com",
+   "url": "https://decolletage.com",
+   "titre": "Loading...",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "80": {
+  "nom": "Guillerme Decolletage (Decolletage Boyer)",
+  "ville": "ANNONAY",
+  "siren": "528447865",
+  "domaines_testes": [
+   "guillerme-decolletage.com",
+   "guillerme-decolletage.fr",
+   "guillerme.com",
+   "guillerme.fr",
+   "guillermedecolletage.com",
+   "guillermedecolletage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "guillerme-decolletage.fr",
+   "url": "https://guillerme-decolletage.fr",
+   "titre": "- GUILLERME DECOLLETAGE - Annonay- 07, France - Accueil",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "81": {
+  "nom": "Le Decolletage Jurassien",
+  "ville": "CHAMPAGNOLE",
+  "siren": "572133072",
+  "domaines_testes": [
+   "decolletage-jurassien.com",
+   "decolletage-jurassien.fr",
+   "decolletage.com",
+   "decolletage.fr",
+   "decolletagejurassien.com",
+   "decolletagejurassien.fr"
+  ],
+  "trouve": {
+   "domaine_test": "decolletage.com",
+   "url": "https://decolletage.com",
+   "titre": "Loading...",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "82": {
+  "nom": "Ravinet Decolletage",
+  "ville": "SALLANCHES",
+  "siren": "605720622",
+  "domaines_testes": [
+   "ravinet-decolletage.com",
+   "ravinet-decolletage.fr",
+   "ravinet.com",
+   "ravinet.fr",
+   "ravinetdecolletage.com",
+   "ravinetdecolletage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "ravinet.fr",
+   "url": "https://ravinet.fr",
+   "titre": "Dovendi - Domain for sale",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "83": {
+  "nom": "Decolletage Elbe",
+  "ville": "MARNAZ",
+  "siren": "605820729",
+  "domaines_testes": [
+   "decolletage-elbe.com",
+   "decolletage-elbe.fr",
+   "decolletage.com",
+   "decolletage.fr",
+   "decolletageelbe.com",
+   "decolletageelbe.fr"
+  ],
+  "trouve": {
+   "domaine_test": "decolletage.com",
+   "url": "https://decolletage.com",
+   "titre": "Loading...",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "84": {
+  "nom": "Edelweiss Decolletage",
+  "ville": "MAGLAND",
+  "siren": "606920353",
+  "domaines_testes": [
+   "edelweiss-decolletage.com",
+   "edelweiss-decolletage.fr",
+   "edelweiss.com",
+   "edelweiss.fr",
+   "edelweissdecolletage.com",
+   "edelweissdecolletage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "edelweiss.com",
+   "url": "https://alpp.ch/",
+   "titre": "Alpine Partners",
+   "copyright": [
+    "1999"
+   ],
+   "cms": [],
+   "emails": [
+    "info@alpp.ch"
+   ],
+   "tech": []
+  }
+ },
+ "85": {
+  "nom": "Decolletage De Reu",
+  "ville": "ACHIET-LE-GRAND",
+  "siren": "551920796",
+  "domaines_testes": [
+   "decolletage-reu.com",
+   "decolletage-reu.fr",
+   "decolletage.com",
+   "decolletage.fr",
+   "decolletagereu.com",
+   "decolletagereu.fr"
+  ],
+  "trouve": {
+   "domaine_test": "decolletage.com",
+   "url": "https://decolletage.com",
+   "titre": "Loading...",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "86": {
+  "nom": "Gay Decolletage",
+  "ville": "SAINT-PIERRE-EN-FAUCIGNY",
+  "siren": "310774518",
+  "domaines_testes": [
+   "gay-decolletage.com",
+   "gay-decolletage.fr",
+   "gay.com",
+   "gay.fr",
+   "gaydecolletage.com",
+   "gaydecolletage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "gay.com",
+   "url": "https://gay.com",
+   "titre": "GAY IS HERE",
+   "copyright": [
+    "2026"
+   ],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "87": {
+  "nom": "Coulot Decolletage (Exalta Group)",
+  "ville": "CHATELLERAULT",
+  "siren": "392640702",
+  "domaines_testes": [
+   "coulot-decolletage.com",
+   "coulot-decolletage.fr",
+   "coulot.com",
+   "coulot.fr",
+   "coulotdecolletage.com",
+   "coulotdecolletage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "coulot.fr",
+   "url": "https://coulot.fr",
+   "titre": "Dovendi - Domain for sale",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "88": {
+  "nom": "Sa Amd Decolletage",
+  "ville": "MARNAZ",
+  "siren": "388741639",
+  "domaines_testes": [
+   "amd-decolletage.com",
+   "amd-decolletage.fr",
+   "amd.com",
+   "amd.fr",
+   "amddecolletage.com",
+   "amddecolletage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "amd-decolletage.com",
+   "url": "https://www.amd-decolletage.com",
+   "titre": "AMD Décolletage &#8212; EXPLORE THE WORLD OF PRECISION",
+   "copyright": [
+    "2026"
+   ],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [
+    "sales@amd-decolletage.fr"
+   ],
+   "tech": [
+    "tables HTML"
+   ]
+  }
+ },
+ "89": {
+  "nom": "Orne Decolletage",
+  "ville": "FLERS",
+  "siren": "389669417",
+  "domaines_testes": [
+   "orne-decolletage.com",
+   "orne-decolletage.fr",
+   "orne.com",
+   "orne.fr",
+   "ornedecolletage.com",
+   "ornedecolletage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "orne.fr",
+   "url": "https://www.orne.fr/",
+   "titre": "Accueil | Conseil départemental de l&#039;Orne",
+   "copyright": [],
+   "cms": [
+    "Drupal"
+   ],
+   "emails": [
+    "exemple@domain.fr"
+   ],
+   "tech": []
+  }
+ },
+ "90": {
+  "nom": "Anjou Decolletage",
+  "ville": "MAUGES-SUR-LOIRE",
+  "siren": "070201041",
+  "domaines_testes": [
+   "anjou-decolletage.com",
+   "anjou-decolletage.fr",
+   "anjou.com",
+   "anjou.fr",
+   "anjoudecolletage.com",
+   "anjoudecolletage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "anjou.fr",
+   "url": "https://anjou.fr",
+   "titre": "Anjou France Anjou.fr - l'Anjou... c&#39;est vous",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "91": {
+  "nom": "Decolletage Morel",
+  "ville": "CHAMPAGNOLE",
+  "siren": "300863370",
+  "domaines_testes": [
+   "decolletage-morel.com",
+   "decolletage-morel.fr",
+   "decolletage.com",
+   "decolletage.fr",
+   "decolletagemorel.com",
+   "decolletagemorel.fr"
+  ],
+  "trouve": {
+   "domaine_test": "decolletage.com",
+   "url": "https://decolletage.com",
+   "titre": "Loading...",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "92": {
+  "nom": "Drault Decolletage",
+  "ville": "AYSE",
+  "siren": "442311387",
+  "domaines_testes": [
+   "drault-decolletage.com",
+   "drault-decolletage.fr",
+   "drault.com",
+   "drault.fr",
+   "draultdecolletage.com",
+   "draultdecolletage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "drault.com",
+   "url": "https://drault.com",
+   "titre": "El que busca encuentra - Mil y una formas de abrir el futuro",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "93": {
+  "nom": "Gillet Decolletage",
+  "ville": "DANNEMARIE-SUR-CRETE",
+  "siren": "419168448",
+  "domaines_testes": [
+   "gillet-decolletage.com",
+   "gillet-decolletage.fr",
+   "gillet.com",
+   "gillet.fr",
+   "gilletdecolletage.com",
+   "gilletdecolletage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "gillet.fr",
+   "url": "https://gillet.fr",
+   "titre": "Gillet - Gillet.fr",
+   "copyright": [
+    "2026"
+   ],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "94": {
+  "nom": "Decolletage Du Berry",
+  "ville": "SAINT-FLORENT-SUR-CHER",
+  "siren": "348992488",
+  "domaines_testes": [
+   "decolletage-berry.com",
+   "decolletage-berry.fr",
+   "decolletage.com",
+   "decolletage.fr",
+   "decolletageberry.com",
+   "decolletageberry.fr"
+  ],
+  "trouve": {
+   "domaine_test": "decolletage.com",
+   "url": "https://decolletage.com",
+   "titre": "Loading...",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "95": {
+  "nom": "Defi - Houillieres De Cruejouls",
+  "ville": "CHATTE",
+  "siren": "331014993",
+  "domaines_testes": [
+   "defi-houillieres-cruejouls.com",
+   "defi-houillieres-cruejouls.fr",
+   "defi-houillieres.com",
+   "defi-houillieres.fr",
+   "defi.com",
+   "defi.fr",
+   "defihouillierescruejouls.com",
+   "defihouillierescruejouls.fr"
+  ],
+  "trouve": {
+   "domaine_test": "defi.com",
+   "url": "https://defi.com",
+   "titre": "Finance Designed Around You | defi.com",
+   "copyright": [
+    "2026"
+   ],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "96": {
+  "nom": "Provence Outillage",
+  "ville": "TAILLADES",
+  "siren": "401867692",
+  "domaines_testes": [
+   "provence-outillage.com",
+   "provence-outillage.fr",
+   "provence.com",
+   "provence.fr",
+   "provenceoutillage.com",
+   "provenceoutillage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "provence-outillage.fr",
+   "url": "https://www.provence-outillage.fr/",
+   "titre": "Outillage de qualité livré chez soi partout en France - Provence Outillage",
+   "copyright": [],
+   "cms": [],
+   "emails": [
+    "alpinejs@3.10.4.js"
+   ],
+   "tech": []
+  }
+ },
+ "97": {
+  "nom": "Outillage De St Etienne",
+  "ville": "ANDREZIEUX-BOUTHEON",
+  "siren": "319438321",
+  "domaines_testes": [
+   "outillage-etienne.com",
+   "outillage-etienne.fr",
+   "outillage.com",
+   "outillage.fr",
+   "outillageetienne.com",
+   "outillageetienne.fr"
+  ],
+  "trouve": {
+   "domaine_test": "outillage.fr",
+   "url": "https://outillage.fr",
+   "titre": "outillage.fr&nbsp;-&nbsp;هذا الموقع الالكتروني للبيع!&nbsp;-&nbsp;Outillage المصادر والمعلومات.",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "98": {
+  "nom": "Fixations Outillages (Fix Outi Sarl)",
+  "ville": "LE LAMENTIN",
+  "siren": "403219447",
+  "domaines_testes": [
+   "fixations-outillages.com",
+   "fixations-outillages.fr",
+   "fixations.com",
+   "fixations.fr",
+   "fixationsoutillages.com",
+   "fixationsoutillages.fr"
+  ],
+  "trouve": {
+   "domaine_test": "fixations.com",
+   "url": "https://fixations.com",
+   "titre": "Fixations, Entretoises, Abstandsbolzen, Spacers - CCB Composants SA",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": [
+    "tables HTML"
+   ]
+  }
+ },
+ "99": {
+  "nom": "Outillage Magafor",
+  "ville": "FONTENAY-SOUS-BOIS",
+  "siren": "552035180",
+  "domaines_testes": [
+   "outillage-magafor.com",
+   "outillage-magafor.fr",
+   "outillage.com",
+   "outillage.fr",
+   "outillagemagafor.com",
+   "outillagemagafor.fr"
+  ],
+  "trouve": {
+   "domaine_test": "outillage.fr",
+   "url": "https://outillage.fr",
+   "titre": "outillage.fr&nbsp;-&nbsp;هذا الموقع الالكتروني للبيع!&nbsp;-&nbsp;Outillage المصادر والمعلومات.",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "100": {
+  "nom": "Rao Rhone Alpes Outillage (Rao)",
+  "ville": "SEYSSINS",
+  "siren": "393656624",
+  "domaines_testes": [
+   "rao-rhone-alpes-outillage.com",
+   "rao-rhone-alpes-outillage.fr",
+   "rao-rhone.com",
+   "rao-rhone.fr",
+   "rao.com",
+   "rao.fr",
+   "raorhonealpesoutillage.com",
+   "raorhonealpesoutillage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "rao.fr",
+   "url": "https://www.rao.fr/",
+   "titre": "Accueil | RAO",
+   "copyright": [],
+   "cms": [
+    "Drupal"
+   ],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "101": {
+  "nom": "L'Outillage Industriel Et Du Batiment (Soib)",
+  "ville": "PARIS",
+  "siren": "382346005",
+  "domaines_testes": [
+   "outillage-industriel-batiment.com",
+   "outillage-industriel-batiment.fr",
+   "outillage-industriel.com",
+   "outillage-industriel.fr",
+   "outillage.com",
+   "outillage.fr",
+   "outillageindustrielbatiment.com",
+   "outillageindustrielbatiment.fr",
+   "soib.com",
+   "soib.fr"
+  ],
+  "trouve": {
+   "domaine_test": "outillage.fr",
+   "url": "https://outillage.fr",
+   "titre": "outillage.fr&nbsp;-&nbsp;هذا الموقع الالكتروني للبيع!&nbsp;-&nbsp;Outillage المصادر والمعلومات.",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "102": {
+  "nom": "Savoie Outillage Service (Savoie Outillage Service - Clickoutil)",
+  "ville": "SAINT-BALDOPH",
+  "siren": "303376222",
+  "domaines_testes": [
+   "savoie-outillage-service.com",
+   "savoie-outillage-service.fr",
+   "savoie-outillage.com",
+   "savoie-outillage.fr",
+   "savoie.com",
+   "savoie.fr",
+   "savoieoutillageservice.com",
+   "savoieoutillageservice.fr"
+  ],
+  "trouve": {
+   "domaine_test": "savoie.fr",
+   "url": "https://www.savoie.fr/",
+   "titre": "Accueil - Savoie.fr",
+   "copyright": [
+    "2001"
+   ],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "103": {
+  "nom": "Outillage Mecanique Decoupage (Omedec)",
+  "ville": "AMANCEY",
+  "siren": "311666077",
+  "domaines_testes": [
+   "omedec.com",
+   "omedec.fr",
+   "outillage-mecanique-decoupage.com",
+   "outillage-mecanique-decoupage.fr",
+   "outillage-mecanique.com",
+   "outillage-mecanique.fr",
+   "outillage.com",
+   "outillage.fr",
+   "outillagemecaniquedecoupage.com",
+   "outillagemecaniquedecoupage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "outillage.fr",
+   "url": "https://outillage.fr",
+   "titre": "outillage.fr&nbsp;-&nbsp;هذا الموقع الالكتروني للبيع!&nbsp;-&nbsp;Outillage المصادر والمعلومات.",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "104": {
+  "nom": "Bureau Etude Outillage Mecaniq Generale (Begc)",
+  "ville": "GOUSSAINVILLE",
+  "siren": "323646679",
+  "domaines_testes": [
+   "begc.com",
+   "begc.fr",
+   "bureau-etude-outillage-mecaniq-generale.com",
+   "bureau-etude-outillage-mecaniq-generale.fr",
+   "bureau-etude.com",
+   "bureau-etude.fr",
+   "bureau.com",
+   "bureau.fr",
+   "bureauetudeoutillagemecaniqgenerale.com",
+   "bureauetudeoutillagemecaniqgenerale.fr"
+  ],
+  "trouve": {
+   "domaine_test": "bureau-etude.fr",
+   "url": "https://bureau-etude.fr",
+   "titre": "En construction",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "105": {
+  "nom": "Athisienne Mecanique Moule Et Outillage",
+  "ville": "ATHIS-VAL DE ROUVRE",
+  "siren": "402481667",
+  "domaines_testes": [
+   "athisienne-mecanique-moule-outillage.com",
+   "athisienne-mecanique-moule-outillage.fr",
+   "athisienne-mecanique.com",
+   "athisienne-mecanique.fr",
+   "athisienne.com",
+   "athisienne.fr",
+   "athisiennemecaniquemouleoutillage.com",
+   "athisiennemecaniquemouleoutillage.fr"
+  ],
+  "trouve": null
+ },
+ "106": {
+  "nom": "Specialite Outillage Materiel Entreprise (Some)",
+  "ville": "SAINT-HERBLAIN",
+  "siren": "868801374",
+  "domaines_testes": [
+   "some.com",
+   "some.fr",
+   "specialite-outillage-materiel-entreprise.com",
+   "specialite-outillage-materiel-entreprise.fr",
+   "specialite-outillage.com",
+   "specialite-outillage.fr",
+   "specialite.com",
+   "specialite.fr",
+   "specialiteoutillagematerielentreprise.com",
+   "specialiteoutillagematerielentreprise.fr"
+  ],
+  "trouve": {
+   "domaine_test": "specialite.fr",
+   "url": "https://specialite.fr",
+   "titre": "",
+   "copyright": [],
+   "cms": [
+    "WordPress"
+   ],
+   "emails": [],
+   "tech": [
+    "tables HTML"
+   ]
+  }
+ },
+ "107": {
+  "nom": "Philippe Outillage",
+  "ville": "DAVEZIEUX",
+  "siren": "385274261",
+  "domaines_testes": [
+   "philippe-outillage.com",
+   "philippe-outillage.fr",
+   "philippe.com",
+   "philippe.fr",
+   "philippeoutillage.com",
+   "philippeoutillage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "philippe.com",
+   "url": "https://philippe.com",
+   "titre": "Aftermarket.com | The domain Philippe.com is for sale!",
+   "copyright": [],
+   "cms": [],
+   "emails": [
+    "email@domain.com",
+    "escrow@k-v.com"
+   ],
+   "tech": []
+  }
+ },
+ "108": {
+  "nom": "Remo Outillage",
+  "ville": "CARRIERES-SUR-SEINE",
+  "siren": "423779776",
+  "domaines_testes": [
+   "remo-outillage.com",
+   "remo-outillage.fr",
+   "remo.com",
+   "remo.fr",
+   "remooutillage.com",
+   "remooutillage.fr"
+  ],
+  "trouve": {
+   "domaine_test": "remo-outillage.fr",
+   "url": "http://remo-outillage.fr",
+   "titre": "",
+   "copyright": [
+    "2001"
+   ],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ },
+ "109": {
+  "nom": "Outillage Progress",
+  "ville": "NAZELLES-NEGRON",
+  "siren": "338896426",
+  "domaines_testes": [
+   "outillage-progress.com",
+   "outillage-progress.fr",
+   "outillage.com",
+   "outillage.fr",
+   "outillageprogress.com",
+   "outillageprogress.fr"
+  ],
+  "trouve": {
+   "domaine_test": "outillage.fr",
+   "url": "https://outillage.fr",
+   "titre": "outillage.fr&nbsp;-&nbsp;هذا الموقع الالكتروني للبيع!&nbsp;-&nbsp;Outillage المصادر والمعلومات.",
+   "copyright": [],
+   "cms": [],
+   "emails": [],
+   "tech": []
+  }
+ }
+}

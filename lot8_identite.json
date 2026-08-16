@@ -1,0 +1,71 @@
+{
+  "pdg-plastiques.fr": {
+    "title": "PDG Plastiques - préforme, emballage, bouteille, flacon et pot PET",
+    "desc": "PDG PLASTIQUES a bâti son savoir-faire dans les emballages plastiques, principalement pour les liquides dans l'agroalimentaire. PDG PLASTIQUES conçoit",
+    "siren_present": false,
+    "nom_present": false,
+    "emails_accueil": []
+  },
+  "pml72.fr": {
+    "title": "PML - Précision Mécanique du Lorouër en Sarthe - Accueil - Propulsé par Saytup",
+    "desc": "",
+    "siren_present": false,
+    "nom_present": false,
+    "emails_accueil": []
+  },
+  "adp85.com": {
+    "title": "Injection plastique et Bureau d'étude intégré - ADP 85 : Injection plastique et Bureau d'étude",
+    "desc": "Depuis plus de 30 ans, ADP 85 est une entreprise Vendéenne d'injection plastique et bureau d'étude intégré pour accompagner ses clients dans tous leur",
+    "siren_present": false,
+    "nom_present": false,
+    "emails_accueil": []
+  },
+  "omp-usinage.fr": {
+    "title": "Usinage 3, 4 et 5 axes - OMP Usinage",
+    "desc": "Usinage 5 axes clé en main. Pièce unitaire , petite et moyenne série.",
+    "siren_present": false,
+    "nom_present": true,
+    "emails_accueil": [
+      "omp-aliermont@wanadoo.fr"
+    ]
+  },
+  "mbp-usinage.fr": {
+    "title": "MBP - Accueil",
+    "desc": "",
+    "siren_present": false,
+    "nom_present": false,
+    "emails_accueil": [
+      "contact@mbp.fr"
+    ]
+  },
+  "mpi-mecanique.com": {
+    "title": "Mécanique de précision issoirienne, service de qualité, offre compétitive",
+    "desc": "MPI est une société de mécanique de précision basée en Auvergne. Elle propose de offres compétitives, un travail de qualité, une réelle expertise et d",
+    "siren_present": false,
+    "nom_present": false,
+    "emails_accueil": []
+  },
+  "php-pack.com": {
+    "title": "PHP PACK",
+    "desc": "",
+    "siren_present": false,
+    "nom_present": false,
+    "emails_accueil": [
+      "thomas.paget@php-plast.com"
+    ]
+  },
+  "imepsa.fr": {
+    "title": "Imepsa Industrie",
+    "desc": "",
+    "siren_present": false,
+    "nom_present": true,
+    "emails_accueil": []
+  },
+  "htp.fr": {
+    "title": "Accueil &#8212; HTP Travaux Publics",
+    "desc": "Vous êtes une collectivité, une entreprise privée ou un particulier ? HTP Travaux Publics vous accompagne dans tous vos projets",
+    "siren_present": false,
+    "nom_present": false,
+    "emails_accueil": []
+  }
+}

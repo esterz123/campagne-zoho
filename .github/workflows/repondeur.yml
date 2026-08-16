@@ -15,11 +15,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Surveille la boite et repond aux clients
+      - name: Surveille les 5 boites et repond aux clients
         env:
           ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
           ZOHO_CLIENT_SECRET: ${{ secrets.ZOHO_CLIENT_SECRET }}
           ZOHO_REFRESH_TOKEN: ${{ secrets.ZOHO_REFRESH_TOKEN }}
+          ZOHO_ACCOUNT_ID: ${{ secrets.ZOHO_ACCOUNT_ID }}
+          ZOHO_B2_CLIENT_ID: ${{ secrets.ZOHO_B2_CLIENT_ID }}
+          ZOHO_B2_CLIENT_SECRET: ${{ secrets.ZOHO_B2_CLIENT_SECRET }}
+          ZOHO_B2_REFRESH_TOKEN: ${{ secrets.ZOHO_B2_REFRESH_TOKEN }}
+          ZOHO_B2_ACCOUNT_ID: ${{ secrets.ZOHO_B2_ACCOUNT_ID }}
+          ZOHO_B3_CLIENT_ID: ${{ secrets.ZOHO_B3_CLIENT_ID }}
+          ZOHO_B3_CLIENT_SECRET: ${{ secrets.ZOHO_B3_CLIENT_SECRET }}
+          ZOHO_B3_REFRESH_TOKEN: ${{ secrets.ZOHO_B3_REFRESH_TOKEN }}
+          ZOHO_B3_ACCOUNT_ID: ${{ secrets.ZOHO_B3_ACCOUNT_ID }}
+          ZOHO_B4_CLIENT_ID: ${{ secrets.ZOHO_B4_CLIENT_ID }}
+          ZOHO_B4_CLIENT_SECRET: ${{ secrets.ZOHO_B4_CLIENT_SECRET }}
+          ZOHO_B4_REFRESH_TOKEN: ${{ secrets.ZOHO_B4_REFRESH_TOKEN }}
+          ZOHO_B4_ACCOUNT_ID: ${{ secrets.ZOHO_B4_ACCOUNT_ID }}
+          ZOHO_B5_CLIENT_ID: ${{ secrets.ZOHO_B5_CLIENT_ID }}
+          ZOHO_B5_CLIENT_SECRET: ${{ secrets.ZOHO_B5_CLIENT_SECRET }}
+          ZOHO_B5_REFRESH_TOKEN: ${{ secrets.ZOHO_B5_REFRESH_TOKEN }}
+          ZOHO_B5_ACCOUNT_ID: ${{ secrets.ZOHO_B5_ACCOUNT_ID }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: python3 repondeur.py

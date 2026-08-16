@@ -1,0 +1,67 @@
+[
+ {
+  "name": "lot9_pdg",
+  "url": "http://www.pdg-plastiques.com/",
+  "size": 45307
+ },
+ {
+  "name": "lot9_somep",
+  "url": "https://somep.eu/",
+  "size": 1207504
+ },
+ {
+  "name": "lot9_pfb",
+  "url": "https://www.plast-fb.com/",
+  "size": 7686
+ },
+ {
+  "name": "lot9_mcp",
+  "url": "https://www.mcp-fournitures-industrielles.fr/",
+  "size": 944603
+ },
+ {
+  "name": "lot9_mpe",
+  "url": "https://www.mpe-prod.fr/",
+  "size": 817904
+ },
+ {
+  "name": "lot9_ucss",
+  "url": "https://ucss.fr/",
+  "size": 698747
+ },
+ {
+  "name": "lot9_mgp",
+  "url": "https://www.mgp-voray.fr/",
+  "size": 1507010
+ },
+ {
+  "name": "lot9_scala",
+  "url": "https://www.scala-mecanique.com/",
+  "size": 390426
+ },
+ {
+  "name": "lot9_amp",
+  "url": "https://www.amp-france.fr/",
+  "size": 1631245
+ },
+ {
+  "name": "lot9_atemip",
+  "url": "https://www.atemip.com/fr/",
+  "size": 1280720
+ },
+ {
+  "name": "lot9_mbp",
+  "url": "https://www.mbp-usinage.fr/",
+  "size": 981389
+ },
+ {
+  "name": "lot9_premetec",
+  "url": "https://www.premetec.fr/",
+  "size": 631531
+ },
+ {
+  "name": "lot9_bpm",
+  "url": "http://www.bourgogneprecisionmecanique.fr/",
+  "size": 99416
+ }
+]
