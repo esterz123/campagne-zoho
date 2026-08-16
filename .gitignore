@@ -21,3 +21,5 @@ SEND_LOCK
 .paypal_link.txt
 captures/
 _dedup_*.json
+_*.html
+_*_tmp/
