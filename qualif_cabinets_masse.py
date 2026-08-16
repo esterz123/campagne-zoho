@@ -96,6 +96,26 @@ def site_domaine(url):
     except Exception:
         return ""
 
+def pappers_email(siren):
+    """Scrape Pappers pour trouver l'email pro du cabinet. Retourne liste d'emails."""
+    try:
+        req = urllib.request.Request("https://www.pappers.fr/entreprise/%s" % siren,
+                                     headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125 Safari/537.36"})
+        html = urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "ignore")
+        emails = set(re.findall(r'[\w.+-]+@[\w-]+\.[\w.-]+', html))
+        pros = []
+        for e in emails:
+            if "pappers" in e or "png" in e or "jpg" in e or "example" in e or "sentry" in e or e.count("@") != 1:
+                continue
+            dom = e.split("@")[1].lower()
+            if any(x in dom for x in ["gmail", "wanadoo", "orange", "hotmail", "outlook", "yahoo", "live", "free.fr", "sfr", "laposte"]):
+                continue
+            if len(e) < 60:
+                pros.append(e.lower())
+        return pros[:4]
+    except Exception:
+        return []
+
 def main():
     reserve = json.load(open(RESERVE, encoding="utf-8"))
     if isinstance(reserve, dict):
@@ -130,26 +150,18 @@ def main():
             continue  # pas de dirigeant -> pas envoyable
         prenom = dirg.split()[0] if dirg.split() else dirg
         civil = "M." if not any(x in dirg.upper() for x in ["MME", "MADAME", "MLLE"]) else "Mme"
-        # 2. site web
-        sites = google_search_site(nom, ville)
-        url = None
-        for s in sites:
-            if re.match(r'https?://', s):
-                url = s
-                break
-        if not url:
-            continue  # pas de site -> pas de preuve
-        dom = site_domaine(url)
-        # 3. email
-        emails = extract_emails_from_site(url)
+        # 2. email pro via Pappers (le domaine pro = la preuve d'activite)
+        emails = pappers_email(siren)
         email = None
         for e in emails:
-            if est_ok_email(e, dom):
+            if est_ok_email(e, None):
                 email = e
                 break
         if not email:
             continue
-        # 4. fiche
+        dom = email.split("@")[1]
+        url = "https://" + dom
+        # 3. fiche
         fiche = {
             "nom": nom.title() if nom.isupper() else nom,
             "ville": ville,
@@ -160,13 +172,13 @@ def main():
             "site": url,
             "email": email,
             "type": "cabinet",
-            "constat": "Cabinet d'expertise comptable - vos clients industriels ont besoin d'une presence web credible pour leurs donneurs d'ordre",
+            "constat": "Cabinet d'expertise comptable - vos clients industriels ont besoin d'une presence web credible pour rassurer leurs donneurs d'ordre",
         }
         with open(os.path.join(CACHE_DIR, siren + ".json"), "w", encoding="utf-8") as f:
             json.dump(fiche, f, ensure_ascii=False, indent=1)
         qualifies.append(fiche)
         print("OK %s | %s | %s | %s" % (siren, nom[:40], email, dirg))
-        time.sleep(1)
+        time.sleep(0.5)
     # sauver cache dirigeants
     with open(os.path.join(BASE, "_lot21_cache.json"), "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False)
