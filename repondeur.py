@@ -27,8 +27,79 @@ AUTO_PATTERNS = [
     "dmarc", "report domain", "dmarcreport",
 ]
 
-# DETECTEUR DE PAIEMENT PAYPAL : quand un client paie (diagnostic 79 EUR, acompte),
-# PayPal envoie un email de confirmation -> on enregistre l'entree et on alerte.
+# DETECTEUR DE CONGES : les reponses automatiques ("de retour le X") deviennent des
+# relances planifiees au jour du retour (août = le mois des conges en France).
+RELANCES_CONGES_F = os.path.join(BASE, "relances_conges.json")
+MOIS_FR = {"janvier": 1, "fevrier": 2, "mars": 3, "avril": 4, "mai": 5, "juin": 6,
+           "juillet": 7, "aout": 8, "septembre": 9, "octobre": 10, "novembre": 11, "decembre": 12}
+
+def extraire_date_retour(txt):
+    """Cherche une date de retour dans une reponse automatique. Retourne date ou None."""
+    t = (txt or "").lower()
+    # normalisation des accents (août -> aout, février -> fevrier, ...)
+    for a, b in (("ô", "o"), ("é", "e"), ("è", "e"), ("ê", "e"), ("ë", "e"),
+                 ("à", "a"), ("â", "a"), ("û", "u"), ("ù", "u"), ("î", "i"), ("ï", "i"), ("ç", "c")):
+        t = t.replace(a, b)
+    # "le 20 aout" / "du 20 aout" / "a partir du 25 aout" / "des le 25"
+    m = re.search(r"(?:le|du|au|des le|a partir du)\s+(\d{1,2})\s+([a-zà-ÿ]+)", t)
+    if m:
+        mois = MOIS_FR.get(m.group(2))
+        if mois:
+            try:
+                return datetime.date(datetime.date.today().year, mois, int(m.group(1)))
+            except ValueError:
+                return None
+    # "20/08" ou "20/08/2026" ou "25-08"
+    m = re.search(r"(\d{1,2})[/-](\d{1,2})(?:[/-](\d{4}))?", t)
+    if m:
+        try:
+            an = int(m.group(3)) if m.group(3) else datetime.date.today().year
+            return datetime.date(an, int(m.group(2)), int(m.group(1)))
+        except ValueError:
+            return None
+    return None
+
+def planifier_relance_conges(prosp, frm, date_retour):
+    """Ajoute une relance programmee au jour du retour (anti-doublon par adresse)."""
+    try:
+        d = json.load(open(RELANCES_CONGES_F, encoding="utf-8")) if os.path.exists(RELANCES_CONGES_F) else {"relances": []}
+        to = (frm or "").strip().lower()
+        if any(r.get("to", "").strip().lower() == to for r in d.get("relances", [])):
+            return False  # deja planifie
+        domaine = to.split("@")[-1] if "@" in to else "votre site"
+        # constat : la phrase en **gras** du corps initial, sinon le sujet
+        constat = ""
+        try:
+            e0 = [x for x in json.load(open(DATA_F, encoding="utf-8"))
+                  if (x.get("to") or "").strip().lower() == to]
+            if e0:
+                m = re.search(r"\*\*(.+?)\*\*", e0[0].get("body", ""), re.S)
+                constat = (m.group(1).strip() + ".") if m else ""
+        except Exception:
+            pass
+        jour = date_retour.day
+        mois = {1: "janvier", 2: "février", 3: "mars", 4: "avril", 5: "mai", 6: "juin",
+                7: "juillet", 8: "août", 9: "septembre", 10: "octobre", 11: "novembre", 12: "décembre"}[date_retour.month]
+        corps = ("Bonjour,\n\n"
+                 "Votre message automatique indiquait un retour le %d %s. Je reviens donc vers vous au sujet de votre site %s.\n\n"
+                 "%s\n\n"
+                 "Je peux vous montrer précisément ce que j'ai trouvé sur votre site, gratuitement et sans engagement.\n\n"
+                 "Voulez-vous que je m'y mette ?\n\n"
+                 "Cordialement,\nMahdi\nPortfolio : mahdi-design.com") % (jour, mois, domaine, constat)
+        d.setdefault("relances", []).append({
+            "id": "auto_conges_" + to.split("@")[0][:20],
+            "send_on": date_retour.isoformat(),
+            "to": to,
+            "subject": "Votre site, je reviens vers vous après vos congés",
+            "check_url": "https://" + domaine,
+            "sent": False,
+            "body": corps,
+            "source": "auto-repondeur",
+        })
+        json.dump(d, open(RELANCES_CONGES_F, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        return True
+    except Exception:
+        return False
 SUIVI_REVENUS_F = os.path.join(BASE, "suivi_revenus.json")
 PAYPAL_SUJETS = ("paiement re\u00e7u", "paiement de", "payment received",
                  "you received a payment", "vous avez re\u00e7u un paiement", "payment from")
@@ -323,6 +394,13 @@ def main():
                 continue
             if is_auto(m["summary"], m["subject"]):
                 traites.add(m["id"])
+                # CONGES : si la reponse auto contient une date de retour, planifier la relance
+                date_retour = extraire_date_retour((m["summary"] or "") + " " + (m["subject"] or ""))
+                if date_retour and date_retour > datetime.date.today():
+                    prosp_auto = prospects.get(frm)
+                    if prosp_auto and prosp_auto.get("type") == "prospect":
+                        if planifier_relance_conges(prosp_auto, frm, date_retour):
+                            rapports.append("[CONGES] %s : relance planifiee au %s" % (frm, date_retour.isoformat()))
                 rapports.append("[AUTO] %s : %s (reponse automatique, rien envoye)" % (m["from"], m["subject"][:50]))
                 continue
             prosp = prospects.get(frm)
