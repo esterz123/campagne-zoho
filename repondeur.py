@@ -311,7 +311,8 @@ def main():
 
     st["traites"] = sorted(traites)
     st["dernier_run"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
-    save_state(st)
+    if not dry:
+        save_state(st)   # le dry-run ne doit JAMAIS ecrire l'etat (fix 16/08)
 
     titre = "REPONDEUR IA" + (" (dry run)" if dry else "")
     if rapports:
