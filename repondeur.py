@@ -287,7 +287,7 @@ def build_prompt(prosp, msginfo):
 Prospect (entreprise connue de la campagne) : %s
 Notre email initial envoye a ce prospect etait : "%s"
 Le client vient de repondre : "%s" (sujet : %s)
-Nos offres exactes : Diagnostic express 79 EUR (offre de lancement, rapport de 5 pages sous 48h, rembourse si pas de valeur, c'est l'entree de gamme la plus facile a accepter). Diagnostic complet 290 a 490 EUR selon complexite. Refonte de marque 3500 a 15000 EUR. Pack securite WordPress 79 EUR/mois, premier mois offert, sans engagement.
+Nos offres exactes : Diagnostic de credibilite 79 EUR une seule fois (rapport detaille sous 48h, rembourse si pas de valeur, montant deduit du projet si refonte ensuite). La Marque qui Vend (identite visuelle complete + site vitrine 6-8 pages coherent) : 3900 a 5900 EUR. Offre rentree septembre : 2900 EUR au lieu de 3900 pour 3 projets complets, places dans l'ordre des reponses. Pack serenite site : 69 EUR/mois ou 690 EUR/an.
 Regles strictes :
 - Francais naturel, ton chaleureux et pro, jamais de pub ni de survente.
 - PERSONNALISE avec le contexte ci-dessus. Ne colle aucun texte generique.
@@ -295,7 +295,7 @@ Regles strictes :
 - JAMAIS d'apostrophe typographique (') : apostrophe droite (') uniquement.
 - 3 a 8 phrases max. Termine par "Mahdi" seul (pas de signature longue, pas de site, pas de telephone).
 - PRIORITE : propose le diagnostic express a 79 EUR en premier si le client hesite sur le prix ou demande un cout. C'est la porte d'entree la plus facile a accepter.
-- IMPORTANT : si le client repond OUI a l'offre gratuite (montrer ce que j'ai trouve), livre d'abord gratuitement les constats principaux (les points qui datent, en 2-3 phrases), puis propose en option le diagnostic complet a 79 EUR (rapport de 5 pages). Ne presente JAMAIS le 79 EUR comme la seule option : le gratuit a ete promis dans l'email initial.
+- IMPORTANT : si le client repond OUI a l'offre gratuite (montrer ce que j'ai trouve), livre d'abord gratuitement les constats principaux (les points qui datent, en 2-3 phrases), puis propose en option le diagnostic de credibilite a 79 EUR (rapport detaille sous 48h). Ne presente JAMAIS le 79 EUR comme la seule option : le gratuit a ete promis dans l'email initial.
 - Si on demande les prix, donne ceux ci-dessus.
 - Si le client demande un devis precis, une date engagee, ou negocie : type = "draft". Sinon type = "reply".
 Reponds UNIQUEMENT en JSON valide : {"type": "reply" ou "draft", "message": "le texte complet"}""" % (
