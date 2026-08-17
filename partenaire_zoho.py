@@ -10,7 +10,7 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(BASE, "campagne_partenaires.json")
 STATE = os.path.join(BASE, "partenaires_state.json")
 ACCOUNT_ID = "7349712000000008002"
-MAX_PAR_RUN = 1
+MAX_PAR_RUN = 2
 DELAY_S = 12 * 60
 
 sys.path.insert(0, BASE)
