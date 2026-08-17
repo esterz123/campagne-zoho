@@ -175,21 +175,48 @@ def analyze(html):
 
 
 def find_email(netloc):
-    """Email de contact depuis home + /contact + /mentions-legales."""
+    """Email de contact depuis home + /contact + /mentions-legales.
+    FIX 17/08 : exclut les extensions de fichiers (JS, CSS, JSON, TS...) qui
+    étaient capturées comme de faux emails (ex: alpinejs@3.10.4.js)."""
     emails = set()
     pages = ["https://www.%s/" % netloc, "https://%s/" % netloc,
              "https://www.%s/contact" % netloc, "https://www.%s/mentions-legales" % netloc]
+
+    # Extensions de fichiers = JAMAIS un email
+    EXT_FICHIER = (".js", ".css", ".json", ".ts", ".tsx", ".jsx", ".map", ".min.js",
+                   ".min.css", ".html", ".htm", ".txt", ".xml", ".csv", ".pdf",
+                   ".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg", ".ico", ".woff",
+                   ".woff2", ".ttf", ".eot", ".mp4", ".webm", ".mp3", ".zip", ".gz", ".tar")
+    # Domaines techniques / non-email (jamais un vrai destinataire)
+    TECH_DOM = ("example", "wixpress", "sentry", "godaddy", "schema.org", "w3.org",
+                "noreply", "no-reply", "donotreply", "privacy", "legal", "abuse",
+                "sentry.io", "googleusercontent", "gravatar", "facebook", "twitter",
+                "linkedin", "instagram", "youtube", "cloudflare", "wix.com",
+                "webflow", "squarespace", "wordpress", "github", "unbounce")
+    # TLD invalides (fins de fichier sans vraie extension)
+    FAUX_TLD = (".js", ".css", ".json", ".ts", ".py", ".php", ".asp", ".yml", ".yaml")
+
     for p in pages[:3]:
         html = fetch(p)
         if not html:
             continue
-        for m in re.findall(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}", html):
+        for m in re.findall(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z0-9]{2,}", html):
             e = m.lower().strip(".")
-            if any(x in e for x in ("example", "wixpress", "sentry", "godaddy",
-                                    ".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg",
-                                    "schema.org", "w3.org", "noreply", "no-reply",
-                                    "donotreply", "privacy", "legal", "abuse",
-                                    "sentry.io", "googleusercontent")):
+            # 1. Extension de fichier dans l'@local (alpinejs@3.10.4.js)
+            if any(e.lower().endswith(ext) for ext in EXT_FICHIER):
+                continue
+            if any(e.lower().endswith(t) for t in FAUX_TLD):
+                continue
+            # 2. Domaine technique
+            if any(x in e for x in TECH_DOM):
+                continue
+            # 3. Pas de sous-domaine type "node.1.2.3" ou versions
+            dom = e.split("@")[1] if "@" in e else ""
+            if not dom or "." not in dom:
+                continue
+            # 4. Domaines avec chiffres uniquement dans la partie locale (fichiers versionnés)
+            local = e.split("@")[0]
+            if local and local[0].isdigit():
                 continue
             if "@" in e and "." in e.split("@")[1]:
                 emails.add(e)
