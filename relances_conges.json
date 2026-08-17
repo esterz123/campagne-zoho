@@ -27,6 +27,15 @@
    "sent": false,
    "body": "Bonjour,\n\nVotre message automatique indiquait un retour le 24 août. Je reviens donc vers vous au sujet de votre site atelierphysis.fr.\n\nVotre site montre des pièces mécaniques, pas votre savoir-faire.\n\nJe peux vous montrer précisément ce que j'ai trouvé sur votre site, gratuitement et sans engagement.\n\nVoulez-vous que je m'y mette ?\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
    "source": "auto-repondeur"
+  },
+  {
+   "id": "atelier_physis",
+   "send_on": "2026-08-25",
+   "to": "contact@atelierphysis.fr",
+   "subject": "Votre site montre des pièces mécaniques, pas votre savoir-faire",
+   "check_url": "https://www.atelierphysis.fr",
+   "sent": false,
+   "body": "Bonjour M. DELAMARRE,\n\nVotre message automatique indiquait un retour le 24 août. Je reviens donc vers vous au sujet de votre site atelierphysis.fr, qui montre vos pièces mécaniques mais laisse votre savoir-faire en fraisage et mécanique fine au second plan.\n\nJe peux vous remettre sous 48h un diagnostic express de votre image digitale : l'état de votre site point par point, la comparaison avec 2 de vos concurrents, et 5 actions concrètes. C'est 79 euros, remboursé intégralement si vous n'y trouvez aucune valeur, et le montant est déduit du prix si vous décidez ensuite une refonte complète.\n\nVoulez-vous que je m'y mette ?\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
   }
  ]
 }
