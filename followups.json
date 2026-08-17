@@ -2,12 +2,12 @@
  "relance1": {
   "wait_days": 3,
   "subject": "Re : {sujet}",
-  "body": "Bonjour,\n\nJe me permets de revenir vers vous au sujet de mon email d'il y a quelques jours, concernant votre site internet.\n\nSi vous avez 5 minutes, je vous montre gratuitement ce que j'ai trouvé : les points qui datent, et ce que vos visiteurs en concluent. Une simple réponse suffit, je m'occupe du reste.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  "body": "Bonjour,\n\nJe reviens vers vous au sujet de mon email d'il y a quelques jours. Concrètement : {sujet}.\n\nSi vous voulez en avoir le cœur net, je vous montre gratuitement ce que j'ai trouvé : les points qui datent sur votre site, et ce que vos visiteurs en concluent. C'est un diagnostic sans engagement, vous ne perdez que 5 minutes.\n\nVoulez-vous que je m'y mette ?\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
  },
  "relance2": {
   "wait_days": 7,
   "subject": "Re : {sujet}",
-  "body": "Bonjour,\n\nC'est ma dernière prise de contact au sujet de votre site internet.\n\nJe pars du principe que vous n'êtes pas intéressé pour le moment, et je respecte cela. Une dernière information, pour être complet : mon offre de rentrée (3 projets complets de marque et de site à 2 900 euros au lieu de 3 900) se termine le 31 août. Si le sujet vous revient avant, une simple réponse suffit.\n\nSi un jour votre site vous préoccupe, pensez à moi, mon email est en bas de ce message.\n\nJe vous souhaite une bonne journée.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  "body": "Bonjour,\n\nC'est ma dernière prise de contact au sujet de votre site. Concrètement : {sujet}.\n\nJe pars du principe que ce n'est pas le bon moment pour vous, et je le respecte. Mon diagnostic gratuit reste disponible si un jour vous voulez voir les points qui datent sur votre site et ce que vos visiteurs en concluent. Une simple réponse suffit, je m'occupe du reste.\n\nSi un jour votre site vous préoccupe, pensez à moi, mon email est en bas de ce message.\n\nJe vous souhaite une bonne journée.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
  },
  "relance3": {
   "wait_days": 30,

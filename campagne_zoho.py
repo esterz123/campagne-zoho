@@ -378,7 +378,11 @@ def main():
             continue
         tpl = fu[stage]
         subject = tpl["subject"].replace("{sujet}", e["subject"])
-        content = build_html(tpl["body"], SIG)
+        # 17/08 : le corps des relances 1/2 rappelle le constat ({sujet} = sujet d'origine)
+        corps_relance = tpl["body"].replace("{sujet}", e["subject"])
+        for doublon in ("?.", "!.", ".."):
+            corps_relance = corps_relance.replace(doublon, doublon[0])
+        content = build_html(corps_relance, SIG)
         boite = choisir_boite(boites, sent, today)
         if not boite:
             lines.append("Toutes les boites sont a leur plafond du jour")
