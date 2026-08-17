@@ -382,8 +382,8 @@ def main():
         # Privilégie le fichier généré par sequencage_constats.py (constats réels sur le site du prospect)
         # au template followups.json (texte générique, demande de permission).
         corps_relance = ""
-        if stage == "relance1":
-            fn = os.path.join(BASE, "relances_constats", f"relance1_prospect_{num}.txt")
+        if stage in ("relance1", "relance2"):
+            fn = os.path.join(BASE, "relances_constats", f"{stage}_prospect_{num}.txt")
             if os.path.exists(fn):
                 fh = open(fn, encoding="utf-8")
                 txt = fh.read()
