@@ -79,6 +79,29 @@
   "ville": ""
  },
  {
+  "url": "https://demc.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "SSL absent : le site repond en http, pas de https",
+   "WordPress 4.5 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "60 — DEMC (Charente-Maritime, 17)",
+  "email": "charlesia.croce@demc.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://amp-france.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 4.4 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "68 — AMP - Ateliers Mecaniques de Precis",
+  "email": "contact@amp-france.fr",
+  "ville": ""
+ },
+ {
   "url": "https://eberhard.de",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -150,6 +173,18 @@
   "ville": ""
  },
  {
+  "url": "https://begc.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Theme WordPress : betheme",
+   "Copyright 2017 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "62 — BEGC Bureau d'Etude (Goussainville,",
+  "email": "administration@begc.fr",
+  "ville": ""
+ },
+ {
   "url": "https://nordvpn.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -216,17 +251,6 @@
   "ville": "VINAY"
  },
  {
-  "url": "https://aplicit.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "APLICIT",
-  "email": "contact@aplicit.com",
-  "ville": ""
- },
- {
   "url": "https://slicom-group.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -279,6 +303,50 @@
   "note": 0,
   "nom": "46 — Sa Amd Decolletage",
   "email": "sales@amd-decolletage.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://omedec.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "63 — OMEDEC Outillage Découpage (Amancey",
+  "email": "contact@omedec.com",
+  "ville": ""
+ },
+ {
+  "url": "https://mpe-prod.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "69 — MPE - Mecanique de Precision de l'E",
+  "email": "contact@mpe-prod.com",
+  "ville": ""
+ },
+ {
+  "url": "https://bprecimeca.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "70 — BPM - Bourgogne Precision Mecanique",
+  "email": "direction@bprecimeca.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://baxter-injection.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "84 — Baxter Injection",
+  "email": "info@baxter-injection.com",
   "ville": ""
  }
 ]
