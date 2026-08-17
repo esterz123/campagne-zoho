@@ -378,9 +378,24 @@ def main():
             continue
         tpl = fu[stage]
         subject = tpl["subject"].replace("{sujet}", e["subject"])
-        # 17/08 : le corps des relances 1/2 rappelle le constat ({sujet} = sujet d'origine)
-        corps_relance = tpl["body"].replace("{sujet}", e["subject"])
-        for doublon in ("?.", "!.", ".."):
+        # 17/08 + 20/08 : branchement sur contraints concrets prêts (relances_constats/).
+        # Privilégie le fichier généré par sequencage_constats.py (constats réels sur le site du prospect)
+        # au template followups.json (texte générique, demande de permission).
+        corps_relance = ""
+        if stage == "relance1":
+            fn = os.path.join(BASE, "relances_constats", f"relance1_prospect_{num}.txt")
+            if os.path.exists(fn):
+                fh = open(fn, encoding="utf-8")
+                txt = fh.read()
+                fh.close()
+                # format : "OBJET: Re : <sujet>\n\n<body>"
+                if txt.startswith("OBJET"):
+                    idx = txt.index("\n\n")
+                    corps_relance = txt[idx + 2:]
+                    # subject reste comme dans tpl (Re : <sujet>), ok
+        if corps_relance == "":
+            corps_relance = tpl["body"].replace("{sujet}", e["subject"])
+        for doublon in ("?.", "!."):
             corps_relance = corps_relance.replace(doublon, doublon[0])
         content = build_html(corps_relance, SIG)
         boite = choisir_boite(boites, sent, today)
