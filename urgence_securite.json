@@ -251,6 +251,17 @@
   "ville": "VINAY"
  },
  {
+  "url": "https://aplicit.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "APLICIT",
+  "email": "contact@aplicit.com",
+  "ville": ""
+ },
+ {
   "url": "https://slicom-group.com",
   "probleme": "INJOIGNABLE",
   "details": [
