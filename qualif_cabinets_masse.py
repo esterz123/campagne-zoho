@@ -77,13 +77,18 @@ def extract_emails_from_site(url):
     return out[:6]
 
 def est_ok_email(email, site_domaine):
-    """L'email doit etre sur le domaine du site (ou au moins un domaine propre)."""
+    """L'email doit etre PRO et sur un domaine propre (pas de reseau/DPO/agregateur)."""
     try:
-        dom = email.split("@")[1]
+        dom = email.split("@")[1].lower()
         if site_domaine and dom == site_domaine:
             return True
         # domaines generiques = rejetes (gmail, wanadoo... = pas pro)
         if any(x in dom for x in ["gmail", "wanadoo", "orange", "hotmail", "outlook", "yahoo", "live", "free.fr", "sfr", "laposte"]):
+            return False
+        # domaines agregateurs / DPO / reseaux de cabinets = rejetes (pas leur propre site)
+        if any(x in dom for x in ["google.com", "inextenso", "cabinet-comptable", "expert-comptable",
+                                   "compteo", "pont9", "annuaire", "pagesjaunes", "societe.com",
+                                   "googlemail", "yopmail", "outlook.fr", "hotmail.fr"]):
             return False
         return True
     except Exception:
