@@ -421,7 +421,16 @@ def main():
             sent[num] = {"on": today, "bloque": True}
             bloquees_skips.append("#%s %s -> %s (domaine bloque)" % (num, e["prospect"][:30], e["to"]))
             continue
-        content = build_html(e["body"], SIG)
+        # 18/08 : brancher le premier message sur la V2 (constats concrets) si presente.
+        corps_premier = e.get("body", "")
+        fn_v2 = os.path.join(BASE, "premiers_messages_v2", f"premier_msg_v2_prospect_{num}.txt")
+        if os.path.exists(fn_v2):
+            with open(fn_v2, encoding="utf-8") as fh2:
+                txt2 = fh2.read()
+            if txt2.startswith("OBJET"):
+                idx = txt2.index("\n\n")
+                corps_premier = txt2[idx + 2:]
+        content = build_html(corps_premier, SIG)
         boite = choisir_boite(boites, sent, today)
         if not boite:
             lines.append("Toutes les boites sont a leur plafond du jour")
