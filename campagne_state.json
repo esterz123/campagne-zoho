@@ -54,17 +54,20 @@
   "8": {
    "on": "2026-08-15",
    "messageId": "1786801287799138400",
-   "via": "direction"
+   "via": "contact",
+   "sent_relance1": "2026-08-18"
   },
   "9": {
    "on": "2026-08-15",
    "messageId": "1786802010662155300",
-   "via": "contact"
+   "via": "commercial",
+   "sent_relance1": "2026-08-18"
   },
   "10": {
    "on": "2026-08-15",
    "messageId": "1786802733280155100",
-   "via": "commercial"
+   "via": "hello",
+   "sent_relance1": "2026-08-18"
   },
   "11": {
    "on": "2026-08-15",
@@ -78,7 +81,8 @@
    "on": "2026-08-15",
    "via": "info",
    "doublon": true,
-   "note": "envoye 2x (hello + info) apres redemarrage"
+   "note": "envoye 2x (hello + info) apres redemarrage",
+   "sent_relance1": "2026-08-18"
   },
   "13": {
    "on": "2026-08-15",
