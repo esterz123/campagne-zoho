@@ -1,0 +1,40 @@
+name: Sequence Upsell 79 -> 2900
+
+# Transforme chaque paiement de diagnostic 79 EUR en sequence upsell vers la
+# refonte 2900 EUR. Cron quotidien 08h45 Paris (apres la livraison_auto du repondeur).
+# Le script lit suivi_revenus.json et envoie 1 email/jour aux stades J+0/J+3/J+7/J+14.
+
+on:
+  schedule:
+    - cron: '45 6 * * *'    # 08h45 Paris
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  upsell:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sequence upsell (dry puis reel, securise par le script)
+        env:
+          ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
+          ZOHO_CLIENT_SECRET: ${{ secrets.ZOHO_CLIENT_SECRET }}
+          ZOHO_REFRESH_TOKEN: ${{ secrets.ZOHO_REFRESH_TOKEN }}
+          ZOHO_ACCOUNT_ID: ${{ secrets.ZOHO_ACCOUNT_ID }}
+        run: python3 sequence_upsell.py
+
+      - name: Sauvegarde etat revenus
+        run: |
+          git config user.name "campagne-bot"
+          git config user.email "campagne-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "upsell: etat sequence jour" || echo "rien a commiter"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash 2>/dev/null && git push; then
+              break
+            fi
+            sleep 15
+          done

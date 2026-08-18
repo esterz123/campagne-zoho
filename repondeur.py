@@ -120,15 +120,30 @@ def extraire_montant(txt):
         return float(m.group(1).replace("\u00a0", "").replace(" ", "").replace(",", "."))
     return None
 
-def enregistrer_paiement(montant, frm, summary):
-    """Ajoute l'entree dans suivi_revenus.json (lu par le dashboard : encaisse)."""
+def extraire_email_payeur(frm, summary, subject):
+    """Recupere l'email du client qui a paye (PayPal FR : dans le subject/note)."""
+    txt = " ".join([str(subject or ""), str(summary or ""), str(frm or "")])
+    # format "<email@x>"
+    m = re.search(r"<([\w.+-]+@[\w-]+\.[\w.-]+)>", txt)
+    if m:
+        return m.group(1).lower()
+    m = re.search(r"[\w.+-]+@[\w-]+\.[\w.-]+", txt)
+    if m:
+        return m.group(0).lower()
+    return ""
+
+def enregistrer_paiement(montant, frm, summary, subject=""):
+    """Ajoute l'entree dans suivi_revenus.json (lu par le dashboard : encaisse).
+    FIX 18/08 : capture aussi l'email du payeur pour la sequence upsell 79->2900."""
     try:
         d = json.load(open(SUIVI_REVENUS_F, encoding="utf-8")) if os.path.exists(SUIVI_REVENUS_F) else {"entrees": []}
+        email_payeur = extraire_email_payeur(frm, summary, subject)
         d.setdefault("entrees", []).append({
             "date": datetime.date.today().isoformat(),
             "montant": montant,
             "source": "PayPal (" + (frm or "") + ")",
             "statut": "encaisse" if montant else "a_verifier",
+            "email_payeur": email_payeur,
             "note": (summary or "")[:100],
         })
         json.dump(d, open(SUIVI_REVENUS_F, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
@@ -391,7 +406,7 @@ def main():
             if est_paiement_paypal(m["from"], m["summary"], m["subject"]):
                 traites.add(m["id"])
                 montant = extraire_montant((m["summary"] or "") + " " + (m["subject"] or ""))
-                if enregistrer_paiement(montant, m["from"], m["summary"]):
+                if enregistrer_paiement(montant, m["from"], m["summary"], m.get("subject", "")):
                     rapports.append("[PAIEMENT] %s : %s EUR (entree suivi_revenus ajoutee)"
                                     % (m["from"], montant if montant is not None else "montant a verifier"))
                 continue
