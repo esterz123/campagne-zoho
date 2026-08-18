@@ -4,7 +4,8 @@ name: Partenaires agences
 # File separee campagne_partenaires.json. Ne cannibalise pas la campagne principale.
 on:
   schedule:
-    - cron: '30 9 * * 1-5'    # 11h30 Paris, jours ouvrés
+    - cron: '30 9 * * 1-5'    # 11h30 Paris, jours ouvrés (run 1)
+    - cron: '0 14 * * 1-5'    # 16h00 Paris, jours ouvrés (run 2 = acceleration)
   workflow_dispatch:          # bouton "Run workflow" = envoyer maintenant
 
 permissions:
@@ -16,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Envoi partenaire (1/jour)
+      - name: Envoi partenaires (3/jour max, cible qualitative)
         env:
           ZOHO_CLIENT_ID: ${{ secrets.ZOHO_CLIENT_ID }}
           ZOHO_CLIENT_SECRET: ${{ secrets.ZOHO_CLIENT_SECRET }}
