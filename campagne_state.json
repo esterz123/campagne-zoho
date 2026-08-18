@@ -4,7 +4,9 @@
    "on": "2026-08-11",
    "manual": true,
    "note": "SIMI — envoye a la main (programme +10min par Mahdi); DELIVRE via clic Mailinblack par Mahdi le 2026-08-14",
-   "sent_relance1": "2026-08-14"
+   "sent_relance1": "2026-08-14",
+   "sent_relance2": "2026-08-18",
+   "via": "info"
   },
   "2": {
    "on": "2026-08-11",
@@ -16,8 +18,9 @@
   "3": {
    "on": "2026-08-11",
    "messageId": "1786437374233138400",
-   "via": "contact",
-   "sent_relance1": "2026-08-14"
+   "via": "direction",
+   "sent_relance1": "2026-08-14",
+   "sent_relance2": "2026-08-18"
   },
   "4": {
    "on": "2026-08-12",
@@ -308,6 +311,16 @@
    "on": "2026-08-17",
    "messageId": "1786989951532155100",
    "via": "contact"
+  },
+  "61": {
+   "on": "2026-08-18",
+   "messageId": "1787057312282155100",
+   "via": "contact"
+  },
+  "62": {
+   "on": "2026-08-18",
+   "messageId": "1787058034047138300",
+   "via": "commercial"
   }
  },
  "done_notified": false
