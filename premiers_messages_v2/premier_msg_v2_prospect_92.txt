@@ -1,0 +1,12 @@
+OBJET: Votre site affiche « Non sécurisé » 
+
+Bonjour,
+En préparant une présentation sur les sous-traitants en injection plastique, j'ai passé quelques minutes sur france-injection-service.fr. Un point m'a immédiatement frappé, et il est vérifiable en 10 secondes :
+**Votre site n'est pas en HTTPS.** Aucun certificat SSL. Concrètement, chaque visiteur qui arrive sur votre site voit la mention « Non sécurisé » dans la barre d'adresse — avant même de lire le moindre mot sur votre capacité d'injection.
+Dans l'industrie, le site est le premier filtre des donneurs d'ordre. Un sous-traitant dont le site affiche « Non sécurisé » fait douter, à tort, de la fiabilité de sa production et de la protection de ses données.
+**Ce que je vous propose, gratuitement et sans engagement :**
+Un diagnostic de votre image digitale : analyse de votre site, de vos 2-3 concurrents directs, et des recommandations concrètes, dont plusieurs gratuites, applicables dès cette semaine. Vous gardez le document, que vous travailliez ou non avec moi.
+Il me suffit d'une réponse à cet email pour vous l'envoyer sous 48h.
+Cordialement,
+Mahdi
+Portfolio : mahdi-design.com

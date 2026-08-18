@@ -104,9 +104,42 @@ def api_candidats():
     return out
 
 
-def find_site(nom, ville):
-    """Site web via DuckDuckGo, secours Bing. Filtre anti-annuaires."""
+def _brave_sites(nom, ville):
+    """Sites via Brave Search (marche, teste en direct 18/08) - filtre anti-annuaires."""
     q = '"%s" %s' % (nom, ville)
+    NOYAUX = ANNUAIRES + ("usinenouvelle", "rubypayeur", "mappy", "118712", "lagazettefrance",
+                          "xerfi", "zoominfo", "crunchbase", "chimiefrance", "koufra",
+                          "prenezplace", "everand", "hal.science", "linkedin", "facebook",
+                          "wikipedia", "google", "bing", "brave", "youtube", "pinterest")
+    try:
+        out = fetch("https://search.brave.com/search?q=" + urllib.parse.quote(q))
+    except Exception:
+        return []
+    hits = []
+    for l in re.findall(r'(https?://[^"<> ]+)', out):
+        l = l.rstrip(".,);]")
+        dom = l.lower()
+        if any(x in dom for x in NOYAUX):
+            continue
+        m = re.match(r'(https?://(?:www\.)?([^/]+))', l)
+        if m:
+            netloc = m.group(2).lower()
+            if netloc not in ("", "www", "web", "home", "index") and "." in netloc and m.group(1) not in hits:
+                hits.append(m.group(1))
+        if len(hits) >= 4:
+            break
+    return hits
+
+
+def find_site(nom, ville):
+    """Site web via Brave (primaire), secours DuckDuckGo puis Bing. Filtre anti-annuaires."""
+    q = '"%s" %s' % (nom, ville)
+    # 0. Brave d'abord (retrouve les vrais sites que DDG/Bing ratent - fix 18/08)
+    for u in _brave_sites(nom, ville):
+        netloc = (urllib.parse.urlsplit(u).netloc or "").lower().replace("www.", "")
+        if netloc and not any(a in netloc for a in ANNUAIRES) and "." in netloc:
+            return netloc
+        time.sleep(0.3)
     for engine in ("ddg", "bing"):
         if engine == "ddg":
             url = "https://html.duckduckgo.com/html/?q=" + urllib.parse.quote(q)
@@ -146,7 +179,11 @@ def analyze(html):
             v = re.search(r"wordpress\s*([\d.]+)", gen)
             ver = v.group(1) if v else "?"
             c.append("WordPress %s" % ver)
-            score += 2 if (v and float(ver.split(".")[0]) < 6) else 1
+            try:
+                old_wp = v and float(ver.split(".")[0]) < 6
+            except ValueError:
+                old_wp = False
+            score += 2 if old_wp else 1
         elif "joomla" in gen or "drupal" in gen:
             c.append("CMS %s" % gen.strip())
             score += 1

@@ -873,5 +873,13 @@
   "to_confirmed": true,
   "subject": "Votre menu affiche encore 'Service 1', 'Service 2' et 'Service 3'",
   "body": "Bonjour M. OUANOUCHE,\n\nJe suis Mahdi, brand designer spécialisé dans les entreprises industrielles. En consultant metalleriefrancilienne.fr lors d'une veille sur les métalliers d'Ile-de-France, j'ai remarqué des traces de template qui n'ont pas été nettoyées :\n\n**Votre menu affiche encore les entrées par défaut du modèle : 'Service 1', 'Service 2', 'Service 3', 'Blog' et 'Page Single Page', et le lien 'Blog' mène à une page 404.**\n\nConcrètement, un donneur d'ordres qui compare plusieurs métalliers peut voir cette vitrine inachevée comme un manque de finition, au moment même où vous vendez du sur mesure.\n\nJe peux vous montrer précisément ce que j'ai trouvé sur votre site, gratuitement et sans engagement.\n\nVoulez-vous que je m'y mette ?\n\nPortfolio : mahdi-design.com"
+ },
+ {
+  "num": 92,
+  "prospect": "92 — France Injection Service (F.I.S.)",
+  "to": "contact@france-injection-service.fr",
+  "subject": "Votre site affiche « Non sécurisé »",
+  "body": "Bonjour,\n\nEn préparant une présentation sur les sous-traitants en injection plastique, j'ai passé quelques minutes sur france-injection-service.fr. Un point m'a immédiatement frappé, et il est vérifiable en 10 secondes :\n\n**Votre site n'est pas en HTTPS.** Aucun certificat SSL. Concrètement, chaque visiteur qui arrive sur votre site voit la mention « Non sécurisé » dans la barre d'adresse — avant même de lire le moindre mot sur votre capacité d'injection.\n\nDans l'industrie, le site est le premier filtre des donneurs d'ordre. Un sous-traitant dont le site affiche « Non sécurisé » fait douter, à tort, de la fiabilité de sa production et de la protection de ses données.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale : analyse de votre site, de vos 2-3 concurrents directs, et des recommandations concrètes, dont plusieurs gratuites, applicables dès cette semaine. Vous gardez le document, que vous travailliez ou non avec moi.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "to_confirmed": true
  }
 ]
