@@ -102,6 +102,17 @@
   "ville": ""
  },
  {
+  "url": "https://id-plasturgie.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 5.5 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "93 — T.E.P. Technique et Plasturgie",
+  "email": "info@id-plasturgie.fr",
+  "ville": ""
+ },
+ {
   "url": "https://eberhard.de",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -185,6 +196,30 @@
   "ville": ""
  },
  {
+  "url": "https://desjardins-sa.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "pierre.desjardin@desjardins-sa.com",
+  "ville": ""
+ },
+ {
+  "url": "https://tolerie-forezienne.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "SSL absent : le site repond en http, pas de https",
+   "Theme WordPress : jupiter",
+   "Copyright 2018 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "joel.lemoine@tolerie-forezienne.com",
+  "ville": ""
+ },
+ {
   "url": "https://nordvpn.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -218,17 +253,6 @@
   "ville": "MARNAZ"
  },
  {
-  "url": "https://institutfrancais.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Institut De Soudure (Is)",
-  "email": "info@institutfrancais.com",
-  "ville": "VILLEPINTE"
- },
- {
   "url": "https://petite.co.uk",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -260,17 +284,6 @@
   "nom": "Baxter Injection",
   "email": "",
   "ville": "VINAY"
- },
- {
-  "url": "https://alencon-plastic.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "ALENCON PLASTIC",
-  "email": "contact@alencon-plastic.com",
-  "ville": ""
  },
  {
   "url": "https://slicom-group.com",
@@ -369,6 +382,28 @@
   "note": 0,
   "nom": "84 — Baxter Injection",
   "email": "info@baxter-injection.com",
+  "ville": ""
+ },
+ {
+  "url": "https://milmeca.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "jean-baptiste.henry@milmeca.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://provence-outillage.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "martine.sanchez@provence-outillage.com",
   "ville": ""
  }
 ]
