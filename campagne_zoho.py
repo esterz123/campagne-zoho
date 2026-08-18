@@ -440,7 +440,10 @@ def main():
             lines.append("DOUBLON evite (deja envoye aujourd'hui, toutes boites) : %s" % e["to"])
             continue
         r = send_email(token_pour(boite), e["subject"], content, e["to"], e.get("cc", ""), boite)
-        sent[num] = {"on": today, "messageId": str(r["data"].get("messageId", "")), "via": boite["nom"]}
+        resp = json.loads(r.read().decode())
+        sent[num] = {"on": today, "messageId": str(resp.get("data", {}).get("messageId", "")), "via": boite["nom"],
+                     "status_code": resp.get("status", {}).get("code"),
+                     "to": to, "body": content}
         save_state(state)  # fix 16/08 : sauvegarde APRES CHAQUE envoi (un crash ne perd plus rien)
         lines.append("Envoye  #%s %s -> %s (via %s)" % (num, e["prospect"][:40], e["to"], boite["nom"]))
         envois_reels += 1
