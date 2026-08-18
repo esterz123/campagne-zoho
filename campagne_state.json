@@ -86,25 +86,29 @@
   },
   "13": {
    "on": "2026-08-15",
-   "via": "info",
+   "via": "direction",
    "reconcilie": true,
    "doublon": false,
-   "note": "reconcilie depuis la boite (1x envoye)"
+   "note": "reconcilie depuis la boite (1x envoye)",
+   "sent_relance1": "2026-08-18"
   },
   "14": {
    "on": "2026-08-15",
    "doublon": true,
-   "via": "contact"
+   "via": "contact",
+   "sent_relance1": "2026-08-18"
   },
   "15": {
    "on": "2026-08-15",
    "doublon": true,
-   "via": "direction"
+   "via": "commercial",
+   "sent_relance1": "2026-08-18"
   },
   "16": {
    "on": "2026-08-15",
    "doublon": true,
-   "via": "contact"
+   "via": "hello",
+   "sent_relance1": "2026-08-18"
   },
   "17": {
    "on": "2026-08-16",
