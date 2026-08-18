@@ -1,0 +1,22 @@
+OBJET: Votre site tourne sur un WordPress de 2020
+
+Bonjour,
+
+En travaillant sur un comparatif des sous-traitants en plasturgie, j'ai passé quelques minutes sur id-plasturgie.fr. Plusieurs points m'ont frappé, et ils sont vérifiables en 2 minutes :
+
+1. Votre site tourne sur WordPress 5.5.20, une version sortie en 2020 : elle ne reçoit plus de mises à jour de sécurité. Pour une entreprise qui traite avec des donneurs d'ordre exigeants, c'est un point que les auditeurs d'acheteurs remarquent.
+
+2. Le copyright affiche encore 2020 : le site n'a pas été touché depuis des années, et ça se voit.
+
+3. Le site n'est pas en HTTPS : un visiteur voit la mention « Non sécurisé » dans la barre d'adresse avant même de lire votre offre de plasturgie.
+
+Dans l'industrie, le site est le premier filtre des donneurs d'ordre : il rassure, ou fait douter, avant même un premier échange.
+
+**Ce que je vous propose, gratuitement et sans engagement :**
+Un diagnostic de votre image digitale : l'état de votre présence en ligne point par point (disponibilité, sécurité, design), la comparaison avec 2 de vos concurrents, et 5 recommandations concrètes dont plusieurs gratuites. Vous gardez le document, que vous travailliez ou non avec moi.
+
+Il me suffit d'une réponse à cet email pour vous l'envoyer sous 48h.
+
+Cordialement,
+Mahdi
+Portfolio : mahdi-design.com

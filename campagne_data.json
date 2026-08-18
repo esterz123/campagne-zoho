@@ -881,5 +881,13 @@
   "subject": "Votre site affiche « Non sécurisé »",
   "body": "Bonjour,\n\nEn préparant une présentation sur les sous-traitants en injection plastique, j'ai passé quelques minutes sur france-injection-service.fr. Un point m'a immédiatement frappé, et il est vérifiable en 10 secondes :\n\n**Votre site n'est pas en HTTPS.** Aucun certificat SSL. Concrètement, chaque visiteur qui arrive sur votre site voit la mention « Non sécurisé » dans la barre d'adresse — avant même de lire le moindre mot sur votre capacité d'injection.\n\nDans l'industrie, le site est le premier filtre des donneurs d'ordre. Un sous-traitant dont le site affiche « Non sécurisé » fait douter, à tort, de la fiabilité de sa production et de la protection de ses données.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale : analyse de votre site, de vos 2-3 concurrents directs, et des recommandations concrètes, dont plusieurs gratuites, applicables dès cette semaine. Vous gardez le document, que vous travailliez ou non avec moi.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "to_confirmed": true
+ },
+ {
+  "num": 93,
+  "prospect": "93 — T.E.P. Technique et Plasturgie",
+  "to": "info@id-plasturgie.fr",
+  "subject": "Votre site tourne sur un WordPress de 2020",
+  "body": "Bonjour,\n\nEn travaillant sur un comparatif des sous-traitants en plasturgie, j'ai passé quelques minutes sur id-plasturgie.fr. Plusieurs points m'ont frappé, et ils sont vérifiables en 2 minutes :\n\n1. Votre site tourne sur WordPress 5.5.20, une version sortie en 2020 : elle ne reçoit plus de mises à jour de sécurité. Pour une entreprise qui traite avec des donneurs d'ordre exigeants, c'est un point que les auditeurs d'acheteurs remarquent.\n\n2. Le copyright affiche encore 2020 : le site n'a pas été touché depuis des années, et ça se voit.\n\n3. Le site n'est pas en HTTPS : un visiteur voit la mention « Non sécurisé » dans la barre d'adresse avant même de lire votre offre de plasturgie.\n\nDans l'industrie, le site est le premier filtre des donneurs d'ordre : il rassure, ou fait douter, avant même un premier échange.\n\n**Ce que je vous propose, gratuitement et sans engagement :**\nUn diagnostic de votre image digitale : l'état de votre présence en ligne point par point (disponibilité, sécurité, design), la comparaison avec 2 de vos concurrents, et 5 recommandations concrètes dont plusieurs gratuites. Vous gardez le document, que vous travailliez ou non avec moi.\n\nIl me suffit d'une réponse à cet email pour vous l'envoyer sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "to_confirmed": true
  }
 ]
