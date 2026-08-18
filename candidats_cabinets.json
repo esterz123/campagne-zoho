@@ -7670,5 +7670,117 @@
   "siren": "509989471",
   "tranche": "11",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE EUROPEENNE D'EXPERTISE COMPTABLE (SEEC)",
+  "ville": "MANOSQUE",
+  "naf": "69.20Z",
+  "siren": "065805053",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "MPG AUDIT ET EXPERTISE COMPTABLE",
+  "ville": "AUBERVILLIERS",
+  "naf": "69.20Z",
+  "siren": "894536333",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "DE EXPERTISE-COMPTABLE CONSEIL AUDIT (DOMEXCA) (DOMEXCA)",
+  "ville": "FORT-DE-FRANCE",
+  "naf": "69.20Z",
+  "siren": "904501319",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CLEMENCE COUTURIER EXPERTISE COMPTABLE (C CARRE EXPERTISE COMPTABLE)",
+  "ville": "BENESSE-MAREMNE",
+  "naf": "69.20Z",
+  "siren": "880631999",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EXPERTISE COMPTABLE CONSEILS SUD (ECC SUD) (ECC SUD)",
+  "ville": "SAINT-PIERRE",
+  "naf": "69.20Z",
+  "siren": "887630762",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE D'EXPERTISE COMPTABLE DE LA ROCADE",
+  "ville": "MARSEILLE",
+  "naf": "69.20Z",
+  "siren": "072807217",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EXPERTISES COMPTABLES ET FINANCIERES VERNEUIL",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "314282450",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SAS DL EXPERTISE COMPTABLE",
+  "ville": "LEZIGNAN-CORBIERES",
+  "naf": "69.20Z",
+  "siren": "891900631",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "GRAND EST EXPERTISE COMPTABLE",
+  "ville": "STRASBOURG",
+  "naf": "69.20Z",
+  "siren": "754084887",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ALPES VERDON EXPERTISE COMPTABLE (AVEC)",
+  "ville": "RIEZ",
+  "naf": "69.20Z",
+  "siren": "807960216",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "AUDIT CONSEIL ET EXPERTISE COMPTABLE (AC&EC)",
+  "ville": "VERTOU",
+  "naf": "69.20Z",
+  "siren": "802142083",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EXPERTISE COMPTABLE - CONSEILS ET ASSISTANCE (EXPERTISE 2CA)",
+  "ville": "DIJON",
+  "naf": "69.20Z",
+  "siren": "810174573",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE D'EXPERTISE & REVISION COMPTABLE (SEREC)",
+  "ville": "AMIENS",
+  "naf": "69.20Z",
+  "siren": "314304874",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "GCR SOCIETE D'EXPERTISE COMPTABLE",
+  "ville": "LYON",
+  "naf": "69.20Z",
+  "siren": "315483644",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
  }
 ]
