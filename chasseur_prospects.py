@@ -217,7 +217,9 @@ def find_email(netloc):
     étaient capturées comme de faux emails (ex: alpinejs@3.10.4.js)."""
     emails = set()
     pages = ["https://www.%s/" % netloc, "https://%s/" % netloc,
-             "https://www.%s/contact" % netloc, "https://www.%s/mentions-legales" % netloc]
+             "https://www.%s/contact" % netloc, "https://www.%s/contactez-nous" % netloc,
+             "https://www.%s/nous-contacter" % netloc,
+             "https://www.%s/mentions-legales" % netloc, "https://www.%s/a-propos" % netloc]
 
     # Extensions de fichiers = JAMAIS un email
     EXT_FICHIER = (".js", ".css", ".json", ".ts", ".tsx", ".jsx", ".map", ".min.js",
@@ -233,35 +235,33 @@ def find_email(netloc):
     # TLD invalides (fins de fichier sans vraie extension)
     FAUX_TLD = (".js", ".css", ".json", ".ts", ".py", ".php", ".asp", ".yml", ".yaml")
 
-    for p in pages[:3]:
+    site_dom = netloc.lower()
+    for p in pages:
         html = fetch(p)
         if not html:
             continue
         for m in re.findall(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z0-9]{2,}", html):
             e = m.lower().strip(".")
-            # 1. Extension de fichier dans l'@local (alpinejs@3.10.4.js)
-            if any(e.lower().endswith(ext) for ext in EXT_FICHIER):
+            # extensions de fichier -> jamais un email
+            if any(e.endswith(ext) for ext in EXT_FICHIER):
                 continue
-            if any(e.lower().endswith(t) for t in FAUX_TLD):
+            if any(e.endswith(t) for t in FAUX_TLD):
                 continue
-            # 2. Domaine technique
+            # domaine technique -> jamais
             if any(x in e for x in TECH_DOM):
                 continue
-            # 3. Pas de sous-domaine type "node.1.2.3" ou versions
-            dom = e.split("@")[1] if "@" in e else ""
-            if not dom or "." not in dom:
+            dom = e.split("@")[-1]
+            # STRICT : domaine email == domaine du site (preuve d'officialite)
+            if dom != site_dom and not dom.endswith("." + site_dom):
                 continue
-            # 4. Domaines avec chiffres uniquement dans la partie locale (fichiers versionnés)
+            if e.count("@") != 1 or len(e) > 50:
+                continue
             local = e.split("@")[0]
             if local and local[0].isdigit():
                 continue
-            if "@" in e and "." in e.split("@")[1]:
-                emails.add(e)
-        if emails:
-            break
-        time.sleep(1)
-    pref = [e for e in emails if netloc.split(".")[0] in e.split("@")[1]]
-    return sorted(pref) or sorted(emails)
+            emails.add(e)
+    # uniquement les emails du domaine (plus de fallback hors-domaine dangereux)
+    return sorted(emails)
 
 
 def main():
