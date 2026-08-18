@@ -1,0 +1,16 @@
+OBJET: Re : Votre site affiche sa propre ancienneté
+
+Bonjour,
+
+Je reviens vers vous au sujet de mon email d'il y a quelques jours. Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
+
+• Votre page d'accueil affiche la date de dernière modification du fichier
+• Le site est construit en tables HTML de 751 px de large , il s'affiche minuscule et vide sur les écrans actuels, et est illisible sur mobile (où se trouve une bonne part de vos contacts). 2.
+
+Dans l'industrie, le site est le premier filtre des donneurs d'ordre : il fait douter, ou rassure, avant même une première rencontre.
+
+Si vous voulez que je vous envoie, gratuitement et sans engagement, un diagnostic de votre image digitale (analyse de votre site, de vos 2-3 concurrents, et des corrections concrètes dont plusieurs gratuites), il me suffit d'une réponse à cet email.
+
+Cordialement,
+Mahdi
+Portfolio : mahdi-design.com
