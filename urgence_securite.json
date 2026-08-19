@@ -253,6 +253,17 @@
   "ville": "MARNAZ"
  },
  {
+  "url": "https://institutfrancais.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Institut De Soudure (Is)",
+  "email": "info@institutfrancais.com",
+  "ville": "VILLEPINTE"
+ },
+ {
   "url": "https://petite.co.uk",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -284,6 +295,17 @@
   "nom": "Baxter Injection",
   "email": "",
   "ville": "VINAY"
+ },
+ {
+  "url": "https://alencon-plastic.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "ALENCON PLASTIC",
+  "email": "contact@alencon-plastic.com",
+  "ville": ""
  },
  {
   "url": "https://slicom-group.com",
