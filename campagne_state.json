@@ -140,22 +140,26 @@
   "21": {
    "on": "2026-08-16",
    "messageId": "1786882785767155100",
-   "via": "commercial"
+   "via": "direction",
+   "sent_relance1": "2026-08-19"
   },
   "22": {
    "on": "2026-08-16",
    "messageId": "1786883507193155300",
-   "via": "hello"
+   "via": "contact",
+   "sent_relance1": "2026-08-19"
   },
   "23": {
    "on": "2026-08-16",
    "messageId": "1786884228800138400",
-   "via": "info"
+   "via": "commercial",
+   "sent_relance1": "2026-08-19"
   },
   "24": {
    "on": "2026-08-16",
    "messageId": "1786890427580155300",
-   "via": "direction"
+   "via": "hello",
+   "sent_relance1": "2026-08-19"
   },
   "25": {
    "on": "2026-08-16",
