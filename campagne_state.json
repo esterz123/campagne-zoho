@@ -27,7 +27,8 @@
    "messageId": "1786524420320155000",
    "note": "; DELIVRE via clic Mailinblack par Mahdi le 2026-08-14",
    "sent_relance1": "2026-08-15",
-   "via": "commercial"
+   "via": "contact",
+   "sent_relance2": "2026-08-19"
   },
   "5": {
    "on": "2026-08-12",
@@ -188,12 +189,14 @@
   "31": {
    "on": "2026-08-16",
    "messageId": "1786899195758155100",
-   "via": "direction"
+   "via": "hello",
+   "sent_relance1": "2026-08-19"
   },
   "32": {
    "on": "2026-08-16",
    "messageId": "1786900929085138400",
-   "via": "contact"
+   "via": "info",
+   "sent_relance1": "2026-08-19"
   },
   "33": {
    "on": "2026-08-16",
@@ -203,7 +206,8 @@
   "34": {
    "on": "2026-08-16",
    "messageId": "1786902370520155100",
-   "via": "hello"
+   "via": "direction",
+   "sent_relance1": "2026-08-19"
   },
   "35": {
    "on": "2026-08-17",
