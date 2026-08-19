@@ -7782,5 +7782,93 @@
   "siren": "315483644",
   "tranche": "11",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE MONTILIENNE D'EXPERTISE COMPTABLE (MONEX SARL)",
+  "ville": "MONTELIMAR",
+  "naf": "69.20Z",
+  "siren": "529094484",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "COMPAORE-EXPERTISE-COMPTABLE-CONSEIL (C.E.C.C)",
+  "ville": "BALMA",
+  "naf": "69.20Z",
+  "siren": "794546184",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "GESTION REVISION EXPERTISE COMPTABLE (G.R.E.C)",
+  "ville": "SAINTE-MARIE",
+  "naf": "69.20Z",
+  "siren": "807896303",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CHV EXPERTISE COMPTABLE ET AUDIT",
+  "ville": "VERSAILLES",
+  "naf": "69.20Z",
+  "siren": "808758890",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE MAXIMINOISE D'EXPERTISE COMPTABLE",
+  "ville": "BEAURECUEIL",
+  "naf": "69.20Z",
+  "siren": "808836621",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE PARISIENNE D EXPERTISE COMPTABLE (SPEC)",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "542014584",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "FIDUCIAIRE TECHNIQUE EXPERTISE COMPTABLE (FITEC)",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "612036715",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "MASSILIA AUDIT EXPERTISE COMPTABLE (M A E C)",
+  "ville": "SEPTEMES LES VALLONS",
+  "naf": "69.20Z",
+  "siren": "788642924",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "A & B EXPERTISE COMPTABLE",
+  "ville": "BRIGNOLES",
+  "naf": "69.20Z",
+  "siren": "752139683",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "A NOEL EXPERTISE COMPTABLE (ANEC)",
+  "ville": "LE TAMPON",
+  "naf": "69.20Z",
+  "siren": "794821496",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "REUNION EXPERTISE COMPTABLE ET CONSEILS (REUNION EXPERTISE COMPTABLE ET CONSEILS) (RE EX CO2)",
+  "ville": "SAINT-LEU",
+  "naf": "69.20Z",
+  "siren": "810868885",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
  }
 ]
