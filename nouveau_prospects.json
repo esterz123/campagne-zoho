@@ -302,5 +302,26 @@
   ],
   "score": 2,
   "date": "2026-08-19"
+ },
+ {
+  "nom": "Erce Plasturgie",
+  "siren": "337793301",
+  "naf": "29.32Z",
+  "ville": "OYONNAX",
+  "region": "84",
+  "effectif": "21",
+  "dirigeants": [
+   "Cyriac Babad (Commissaire aux comptes suppléant)",
+   "  (Président de SAS)"
+  ],
+  "date_creation": "1986-04-11",
+  "site": "erce-plasturgie.com",
+  "email": [],
+  "constats": [
+   "Pas de vue mobile (viewport)",
+   "Pas de certificat SSL"
+  ],
+  "score": 3,
+  "date": "2026-08-20"
  }
 ]
