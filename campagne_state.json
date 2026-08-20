@@ -303,22 +303,26 @@
   "52": {
    "on": "2026-08-17",
    "messageId": "1786979316802138400",
-   "via": "contact"
+   "via": "contact",
+   "sent_relance1": "2026-08-20"
   },
   "53": {
    "on": "2026-08-17",
    "messageId": "1786984298423155100",
-   "via": "commercial"
+   "via": "commercial",
+   "sent_relance1": "2026-08-20"
   },
   "54": {
    "on": "2026-08-17",
    "messageId": "1786985020298138400",
-   "via": "hello"
+   "via": "hello",
+   "sent_relance1": "2026-08-20"
   },
   "55": {
    "on": "2026-08-17",
    "messageId": "1786985741655155000",
-   "via": "info"
+   "via": "info",
+   "sent_relance1": "2026-08-20"
   },
   "56": {
    "on": "2026-08-17",
