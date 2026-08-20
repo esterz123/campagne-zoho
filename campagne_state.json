@@ -355,7 +355,8 @@
   "66": {
    "on": "2026-08-18",
    "messageId": "1787065294871155100",
-   "via": "direction"
+   "via": "direction",
+   "replied": "2026-08-20"
   }
  },
  "done_notified": false
