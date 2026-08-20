@@ -260,22 +260,26 @@
   "43": {
    "on": "2026-08-17",
    "messageId": "1786969394214155100",
-   "via": "info"
+   "via": "info",
+   "sent_relance1": "2026-08-20"
   },
   "44": {
    "on": "2026-08-17",
    "messageId": "1786970115384155100",
-   "via": "direction"
+   "via": "direction",
+   "sent_relance1": "2026-08-20"
   },
   "45": {
    "on": "2026-08-17",
    "messageId": "1786970836452138300",
-   "via": "contact"
+   "via": "contact",
+   "sent_relance1": "2026-08-20"
   },
   "48": {
    "on": "2026-08-17",
    "messageId": "1786971557663155100",
-   "via": "commercial"
+   "via": "commercial",
+   "sent_relance1": "2026-08-20"
   },
   "49": {
    "on": "2026-08-17",
