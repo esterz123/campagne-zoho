@@ -7870,5 +7870,109 @@
   "siren": "810868885",
   "tranche": "11",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOC D'EXPERTISE COMPTABLE DE L'ARMOR (CAEXIS) (S E C A)",
+  "ville": "GUERANDE",
+  "naf": "69.20Z",
+  "siren": "480845304",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EURO CONSEIL EXPERTISE COMPTABLE (EURO CONSEIL) (E.C.2 SARL)",
+  "ville": "AIX-EN-PROVENCE",
+  "naf": "69.20Z",
+  "siren": "442157012",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "C MODOUX SOC EXPERTISE COMPTABLE",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "351541222",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE DE GESTION D'EXPERTISE COMPTABLE (SEGEC)",
+  "ville": "RONTIGNON",
+  "naf": "69.20Z",
+  "siren": "390792364",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ASSISTANCE TECHNIQUE EXPERTISE COMPTABLE (ATEC)",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "324646611",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ISABELLE CARMI EXPERTISE COMPTABLE (ICEC)",
+  "ville": "SAINT-DENIS",
+  "naf": "69.20Z",
+  "siren": "453447526",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SUD CONSEIL EXPERTISE COMPTABLE",
+  "ville": "MOUANS-SARTOUX",
+  "naf": "69.20Z",
+  "siren": "438048688",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "PERSPECTIVES D'AVENIR EXPERTISE COMPTABLE",
+  "ville": "TINQUEUX",
+  "naf": "69.20Z",
+  "siren": "493086979",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EXPERTISE COMPTABLE CORSE D'AUDIT (ECCA 20) (ECCA 20)",
+  "ville": "BASTIA",
+  "naf": "69.20Z",
+  "siren": "340632330",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EXPERTISE COMPTABLE PROVENCE MEDITERRANEE (ECP MED)",
+  "ville": "MARSEILLE",
+  "naf": "69.20Z",
+  "siren": "440522001",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ALLIER EXPERTISE COMPTABLE ET AUDIT (ALEXA)",
+  "ville": "BOURBON-L'ARCHAMBAULT",
+  "naf": "69.20Z",
+  "siren": "444670004",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CHEMARIN EXPERTISE COMPTABLE ET CONSEILS",
+  "ville": "ROANNE",
+  "naf": "69.20Z",
+  "siren": "448783183",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EUROPEENNE EXPERTISE COMPTABLE CONSEIL (EURODEX)",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "352243083",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
  }
 ]
