@@ -286,28 +286,6 @@
   "ville": "VINAY"
  },
  {
-  "url": "https://alencon-plastic.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "ALENCON PLASTIC",
-  "email": "contact@alencon-plastic.com",
-  "ville": ""
- },
- {
-  "url": "https://aplicit.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "APLICIT",
-  "email": "contact@aplicit.com",
-  "ville": ""
- },
- {
   "url": "https://slicom-group.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -393,6 +371,17 @@
   "note": 0,
   "nom": "70 — BPM - Bourgogne Precision Mecanique",
   "email": "direction@bprecimeca.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://torras.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "81 — Torras Metallerie (Paris, 75)",
+  "email": "contact@torras.fr",
   "ville": ""
  },
  {
