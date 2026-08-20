@@ -353,7 +353,9 @@
   "63": {
    "on": "2026-08-18",
    "messageId": "1787063850405138400",
-   "via": "hello"
+   "via": "hello",
+   "replied": true,
+   "note": "Gaultier a quitte SOMEP; piste nouvelle collab (a.gaultier@free.fr)"
   },
   "64": {
    "on": "2026-08-18",
