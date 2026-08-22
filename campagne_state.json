@@ -321,16 +321,20 @@
   "55": {
    "on": "2026-08-17",
    "messageId": "1786985741655155000",
-   "via": "info"
+   "via": "info",
+   "sent_relance1": "2026-08-21"
   },
   "56": {
    "on": "2026-08-17",
-   "bloque": true
+   "bloque": true,
+   "sent_relance1": "2026-08-22",
+   "via": "commercial"
   },
   "57": {
    "on": "2026-08-17",
    "messageId": "1786987784695155100",
-   "via": "direction"
+   "via": "hello",
+   "sent_relance1": "2026-08-22"
   },
   "58": {
    "on": "2026-08-17",
@@ -377,7 +381,8 @@
    "on": "2026-08-18",
    "messageId": "1787065294871155100",
    "via": "direction",
-   "replied": "2026-08-20"
+   "replied": false,
+   "note": "faux positif corrige (pas de reponse mpe-prod en boite)"
   }
  },
  "done_notified": false
