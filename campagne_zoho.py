@@ -280,7 +280,7 @@ def main():
     dry = "--dry-run" in sys.argv
     # Limite d'emails par run (pour espacer les envois a differents horaires).
     # Ex: --max 1 avec 3 crons 8h30/12h30/17h30 = 3 emails/jour espaces.
-    max_per_run = 1
+    max_per_run = 2
     for i, a in enumerate(sys.argv):
         if a == "--max" and i + 1 < len(sys.argv):
             try:
@@ -330,10 +330,11 @@ def main():
     due_fu.sort(key=lambda x: (fu[x[0]].get("wait_days", 99), int(x[1])))
 
     quota = max(0, daily_max - len(sent_today))
-    # Espace les envois : au max `max_per_run` par run (1 = un seul email par horaire)
+    # LEVIER x1000 : 1 relance + 1 nouveau par run (au lieu de 1 seul qui bloque les nouveaux pendant 3 semaines)
     quota = min(quota, max_per_run)
-    todo_fu = due_fu[:quota]
-    todo = remaining[:max(0, quota - len(todo_fu))]
+    todo_fu = due_fu[:min(quota, 1)]
+    todo = remaining[:min(max(0, quota - len(todo_fu)), 1)]
+    # Si quota=2 : 1 relance + 1 nouveau en meme run. Si quota=1 : priorite relance, nouveau au prochain run.
 
     if dry:
         print("[DRY-RUN] %s | deja envoyes aujourd'hui: %d | quota(ce run): %d | max_per_run: %d" % (today, len(sent_today), quota, max_per_run))
@@ -365,9 +366,9 @@ def main():
     bloquees = load_bloquees()
     lines = []
     bloquees_skips = []
-    # Espacement anti-spam : 12 min entre chaque envoi reel (protecteur de domaine)
+    # Espacement anti-spam : 3 min entre envois (x1000: 4x plus rapide que 12 min, reste safe pour Zoho)
     import time as _time
-    DELAY_S = 12 * 60
+    DELAY_S = 180
     envois_reels = 0
     for stage, num in todo_fu:
         e = emails[num]

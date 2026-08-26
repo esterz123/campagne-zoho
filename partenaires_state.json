@@ -1,53 +1,64 @@
 {
  "sent": {
   "1": {
-   "on": "2026-08-22",
-   "boite": "commercial",
+   "on": "2026-08-27",
+   "boite": "info",
    "relance2": true
   },
   "2": {
-   "on": "2026-08-18",
-   "boite": "commercial"
+   "on": "2026-08-23",
+   "boite": "hello",
+   "relance2": true
   },
   "3": {
-   "on": "2026-08-19",
-   "boite": "hello"
+   "on": "2026-08-24",
+   "boite": "commercial",
+   "relance2": true
   },
   "4": {
-   "on": "2026-08-19",
-   "boite": "info"
+   "on": "2026-08-24",
+   "boite": "hello",
+   "relance2": true
   },
   "5": {
-   "on": "2026-08-20",
-   "boite": "direction"
+   "on": "2026-08-25",
+   "boite": "info",
+   "relance2": true
   },
   "6": {
-   "on": "2026-08-20",
-   "boite": "contact"
+   "on": "2026-08-25",
+   "boite": "direction",
+   "relance2": true
   },
   "7": {
-   "on": "2026-08-21",
-   "boite": "commercial"
+   "on": "2026-08-26",
+   "boite": "direction",
+   "relance2": true
   },
   "8": {
-   "on": "2026-08-21",
-   "boite": "hello"
+   "on": "2026-08-26",
+   "boite": "commercial",
+   "relance2": true
   },
   "9": {
-   "on": "2026-08-21",
-   "boite": "info"
+   "on": "2026-08-26",
+   "boite": "hello",
+   "relance2": true
   },
   "10": {
-   "on": "2026-08-21",
-   "boite": "direction"
+   "on": "2026-08-26",
+   "boite": "contact",
+   "relance2": true
   },
   "11": {
-   "on": "2026-08-22",
-   "boite": "contact"
+   "on": "2026-08-27",
+   "boite": "commercial",
+   "relance2": true
   },
   "12": {
-   "on": "2026-08-22",
-   "boite": "hello"
+   "on": "2026-08-27",
+   "boite": "contact",
+   "relance2": true
   },
   "13": {
    "on": "2026-08-22",

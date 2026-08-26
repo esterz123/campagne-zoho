@@ -34,19 +34,22 @@
    "on": "2026-08-12",
    "messageId": "1786524421023155100",
    "sent_relance1": "2026-08-15",
-   "via": "hello"
+   "via": "info",
+   "sent_relance2": "2026-08-25"
   },
   "6": {
    "on": "2026-08-12",
    "messageId": "1786524422088138400",
    "sent_relance1": "2026-08-15",
-   "via": "info"
+   "via": "direction",
+   "sent_relance2": "2026-08-25"
   },
   "7": {
    "on": "2026-08-13",
    "messageId": "1786625301468138300",
    "sent_relance1": "2026-08-16",
-   "via": "contact"
+   "via": "contact",
+   "sent_relance2": "2026-08-25"
   },
   "47": {
    "on": "2026-08-13",
@@ -58,20 +61,23 @@
   "8": {
    "on": "2026-08-15",
    "messageId": "1786801287799138400",
-   "via": "contact",
-   "sent_relance1": "2026-08-18"
+   "via": "commercial",
+   "sent_relance1": "2026-08-18",
+   "sent_relance2": "2026-08-25"
   },
   "9": {
    "on": "2026-08-15",
    "messageId": "1786802010662155300",
    "via": "commercial",
-   "sent_relance1": "2026-08-18"
+   "sent_relance1": "2026-08-18",
+   "sent_relance2": "2026-08-26"
   },
   "10": {
    "on": "2026-08-15",
    "messageId": "1786802733280155100",
    "via": "hello",
-   "sent_relance1": "2026-08-18"
+   "sent_relance1": "2026-08-18",
+   "sent_relance2": "2026-08-26"
   },
   "11": {
    "on": "2026-08-15",
@@ -86,51 +92,59 @@
    "via": "info",
    "doublon": true,
    "note": "envoye 2x (hello + info) apres redemarrage",
-   "sent_relance1": "2026-08-18"
+   "sent_relance1": "2026-08-18",
+   "sent_relance2": "2026-08-26"
   },
   "13": {
    "on": "2026-08-15",
-   "via": "direction",
+   "via": "commercial",
    "reconcilie": true,
    "doublon": false,
    "note": "reconcilie depuis la boite (1x envoye)",
-   "sent_relance1": "2026-08-18"
+   "sent_relance1": "2026-08-18",
+   "sent_relance2": "2026-08-27"
   },
   "14": {
    "on": "2026-08-15",
    "doublon": true,
-   "via": "contact",
-   "sent_relance1": "2026-08-18"
+   "via": "hello",
+   "sent_relance1": "2026-08-18",
+   "sent_relance2": "2026-08-27"
   },
   "15": {
    "on": "2026-08-15",
    "doublon": true,
-   "via": "commercial",
-   "sent_relance1": "2026-08-18"
+   "via": "info",
+   "sent_relance1": "2026-08-18",
+   "sent_relance2": "2026-08-27"
   },
   "16": {
    "on": "2026-08-15",
    "doublon": true,
-   "via": "hello",
-   "sent_relance1": "2026-08-18"
+   "via": "direction",
+   "sent_relance1": "2026-08-18",
+   "sent_relance2": "2026-08-27"
   },
   "17": {
    "on": "2026-08-16",
    "messageId": "1786865598389155000",
    "via": "contact",
-   "sent_relance1": "2026-08-19"
+   "sent_relance1": "2026-08-19",
+   "sent_relance2": "2026-08-27"
   },
   "18": {
    "on": "2026-08-16",
    "messageId": "1786870611774155000",
    "via": "commercial",
-   "sent_relance1": "2026-08-19"
+   "sent_relance1": "2026-08-19",
+   "sent_relance2": "2026-08-27"
   },
   "19": {
    "on": "2026-08-16",
    "messageId": "1786871332785155100",
    "via": "hello",
-   "sent_relance1": "2026-08-19"
+   "sent_relance1": "2026-08-19",
+   "sent_relance2": "2026-08-27"
   },
   "20": {
    "on": "2026-08-16",
@@ -339,27 +353,32 @@
   "58": {
    "on": "2026-08-17",
    "messageId": "1786988507638138300",
-   "via": "contact"
+   "via": "info",
+   "sent_relance1": "2026-08-22"
   },
   "59": {
    "on": "2026-08-17",
    "messageId": "1786989229567155100",
-   "via": "contact"
+   "via": "commercial",
+   "sent_relance1": "2026-08-23"
   },
   "60": {
    "on": "2026-08-17",
    "messageId": "1786989951532155100",
-   "via": "contact"
+   "via": "hello",
+   "sent_relance1": "2026-08-23"
   },
   "61": {
    "on": "2026-08-18",
    "messageId": "1787057312282155100",
-   "via": "contact"
+   "via": "commercial",
+   "sent_relance1": "2026-08-24"
   },
   "62": {
    "on": "2026-08-18",
    "messageId": "1787058034047138300",
-   "via": "commercial"
+   "via": "commercial",
+   "sent_relance1": "2026-08-24"
   },
   "63": {
    "on": "2026-08-18",
@@ -371,18 +390,27 @@
   "64": {
    "on": "2026-08-18",
    "messageId": "1787064572595138300",
-   "via": "info"
+   "via": "hello",
+   "sent_relance1": "2026-08-24"
   },
   "65": {
    "on": "2026-08-18",
-   "bloque": true
+   "bloque": true,
+   "sent_relance1": "2026-08-25",
+   "via": "commercial"
   },
   "66": {
    "on": "2026-08-18",
    "messageId": "1787065294871155100",
-   "via": "direction",
+   "via": "hello",
    "replied": false,
-   "note": "faux positif corrige (pas de reponse mpe-prod en boite)"
+   "note": "faux positif corrige (pas de reponse mpe-prod en boite)",
+   "sent_relance1": "2026-08-25"
+  },
+  "29": {
+   "on": "2026-08-27",
+   "doublon": true,
+   "via": "info"
   }
  },
  "done_notified": false
