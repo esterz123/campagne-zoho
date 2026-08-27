@@ -142,8 +142,9 @@
   "19": {
    "on": "2026-08-16",
    "messageId": "1786871332785155100",
-   "via": "hello",
-   "sent_relance1": "2026-08-19"
+   "via": "contact",
+   "sent_relance1": "2026-08-19",
+   "sent_relance2": "2026-08-27"
   },
   "20": {
    "on": "2026-08-16",
@@ -415,6 +416,11 @@
    "on": "2026-08-27",
    "doublon": true,
    "via": "hello"
+  },
+  "46": {
+   "on": "2026-08-27",
+   "doublon": true,
+   "via": "info"
   }
  },
  "done_notified": false
