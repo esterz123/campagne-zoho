@@ -109,7 +109,7 @@ def generer():
   <span class="nom">%s</span>
   <span class="tag">%s</span>
   <div class="dirigeant">Dirigeant : %s</div>
-  <div class="lien">📸 <a href="%s" target="_blank">%s</a> <a class="port" href="https://mahdi-design.com" target="_blank">Portfolio Mahdi Design ↗</a></div>
+  <div class="lien">📸 <a href="%s" target="_blank">%s</a> <a class="port" href="https://esterz123.github.io/mahdi-design" target="_blank">Portfolio Mahdi Design ↗</a></div>
   <div class="msg" id="msg%d">%s</div>
   <button class="btn" onclick="copier('msg%d')">Copier</button>
   <div class="copie" id="copie%d"></div>
