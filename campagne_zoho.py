@@ -441,7 +441,7 @@ def main():
             lines.append("DOUBLON evite (deja envoye aujourd'hui, toutes boites) : %s" % e["to"])
             continue
         r = send_email(token_pour(boite), e["subject"], content, e["to"], e.get("cc", ""), boite)
-        resp = json.loads(r.read().decode())
+        resp = r  # fix 27/08 : send_email retourne DEJA le JSON parse (double-parse = crash 'dict has no read')
         sent[num] = {"on": today, "messageId": str(resp.get("data", {}).get("messageId", "")), "via": boite["nom"],
                      "status_code": resp.get("status", {}).get("code"),
                      "to": to, "body": content}
