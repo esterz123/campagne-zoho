@@ -1,0 +1,7 @@
+[2026-08-27 02:02:13] === CHASSE HEBDOMADAIRE ===
+[2026-08-27 02:02:13] Phase 0 - recole des domaines candidats (exa_search direct, sans fetch)
+[2026-08-27 02:03:20] candidats recoltes (exa direct): 191
+[2026-08-27 02:03:20] Phase 1 - exa_bulk (collecte + extraction)
+[2026-08-27 02:03:31] sites candidats: 172
+== BULK LEADS: 0 -> C:\Users\ulamb\Bureau\prospection\github-campagne\_hebdo_exa.json
+[2026-08-27 02:03:31] Phase 2 - extract_seq (emails profonds)
