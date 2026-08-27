@@ -7974,5 +7974,53 @@
   "siren": "352243083",
   "tranche": "11",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE D'EXPERTISE COMPTABLE CASTANEENNE (SECCAS)",
+  "ville": "TOULOUSE",
+  "naf": "69.20Z",
+  "siren": "334354131",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "IG EXPERTISE COMPTABLE AUDIT",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "501372619",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EXPERTISE COMPTABLE DU VIEUX LILLE (E.C.V.L.)",
+  "ville": "LILLE",
+  "naf": "69.20Z",
+  "siren": "951012467",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOC LANGUEDOCIENNE EXPERTISE COMPTABLE (SLEC)",
+  "ville": "NIMES",
+  "naf": "69.20Z",
+  "siren": "309192615",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SERVICE CONSEIL EXPERTISE COMPTABLE",
+  "ville": "TROYES",
+  "naf": "69.20Z",
+  "siren": "332440262",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "AUDIT AND CO",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "538013517",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
  }
 ]
