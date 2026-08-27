@@ -169,3 +169,33 @@ urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 AttributeError: module 'campagne_zoho' has no attribute 'load_boites'. Did you mean: 'load_bloquees'?
 
 [2026-08-27 02:09:02] === RUN LOCAL termine ===
+[2026-08-27 04:09:01] === RUN LOCAL: campagne ===
+[2026-08-27 04:09:14]   C ERREUR (code 1): ERREUR campagne_zoho: 'dict' object has no attribute 'read'
+
+[2026-08-27 04:09:14] === RUN LOCAL: partenaires ===
+[2026-08-27 04:09:16]   P RELANCE partenaire #13 13 — JE COMMUNIQUE -> lydianelambert@je-communique.fr (via hello)
+[2026-08-27 04:09:16] === RUN LOCAL termine ===
+[2026-08-27 15:40:01] === RUN LOCAL: campagne ===
+[2026-08-27 15:40:11]   C SEND_LOCK stale (691 min) : reprise.
+[2026-08-27 15:40:11]   C DOUBLON evite (deja envoye aujourd'hui, toutes boites) : commandes@provence-outillage.com
+[2026-08-27 15:40:11]   C DOUBLON evite (deja envoye aujourd'hui, toutes boites) : contact@alencon-plastic.com
+[2026-08-27 15:40:11]   C Restants : 153
+[2026-08-27 15:40:11] === RUN LOCAL: partenaires ===
+[2026-08-27 15:40:14]   P RELANCE partenaire #14 14 — AGENCE INDIGO -> contact@agence-indigo.com (via info)
+[2026-08-27 15:40:14] === RUN LOCAL termine ===
+[2026-08-27 16:09:02] === RUN LOCAL: campagne ===
+[2026-08-27 16:12:20]   C ERREUR (code 1): ERREUR campagne_zoho: 'dict' object has no attribute 'read'
+
+[2026-08-27 16:12:20] === RUN LOCAL: partenaires ===
+[2026-08-27 16:12:22]   P RELANCE partenaire #15 15 — EDRYM Expertise-Comptable et Consei -> contact@edrym.com (via direction)
+[2026-08-27 16:12:22] === RUN LOCAL termine ===
+[2026-08-27 16:23:00] === RUN LOCAL: campagne ===
+[2026-08-27 16:23:00]   C ENVOI BLOQUE : un autre processus tourne (SEND_LOCK frais, 14 min).
+[2026-08-27 16:23:00] === RUN LOCAL: partenaires ===
+[2026-08-27 16:23:03]   P RELANCE partenaire #16 16 — ADP Expertise Comptable -> accueil@adp-expertise.fr (via contact)
+[2026-08-27 16:23:03] === RUN LOCAL termine ===
+[2026-08-27 16:26:53] === RUN LOCAL: campagne ===
+[2026-08-27 16:26:53]   C ENVOI BLOQUE : un autre processus tourne (SEND_LOCK frais, 18 min).
+[2026-08-27 16:26:53] === RUN LOCAL: partenaires ===
+[2026-08-27 16:26:56]   P RELANCE partenaire #17 17 — PMC Expertise Comptable -> hello@pmc-expertisecomptable.fr (via commercial)
+[2026-08-27 16:26:56] === RUN LOCAL termine ===
