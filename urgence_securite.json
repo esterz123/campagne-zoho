@@ -105,11 +105,68 @@
   "url": "https://id-plasturgie.fr",
   "probleme": "WP_OBSOLETE",
   "details": [
+   "SSL absent : le site repond en http, pas de https",
    "WordPress 5.5 (vulnerabilites connues non corrigees)"
   ],
   "note": 3,
   "nom": "93 — T.E.P. Technique et Plasturgie",
   "email": "info@id-plasturgie.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://nplast-usinage.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 5.2 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@nplast-usinage.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://metalleriejonchere.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 6.1 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "jonchereaccueil@metalleriejonchere.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://cardinaud.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "SSL absent : le site repond en http, pas de https",
+   "WordPress 6.5 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "b.naud@cardinaud.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://srelectricite.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 5.9 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@srelectricite.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://emab.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 6.1 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@emab.fr",
   "ville": ""
  },
  {
@@ -217,6 +274,84 @@
   "note": 2,
   "nom": "",
   "email": "joel.lemoine@tolerie-forezienne.com",
+  "ville": ""
+ },
+ {
+  "url": "https://cnrtl.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2012 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@cnrtl.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://mojonmetallerie.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@mojonmetallerie.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://delabre.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@delabre.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://rcma-maconnerie.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@rcma-maconnerie.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://reffay-sas.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Theme WordPress : betheme",
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@reffay-sas.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://sadevteq.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@sadevteq.com",
+  "ville": ""
+ },
+ {
+  "url": "https://sitralindustrie.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "commercial@sitralindustrie.fr",
   "ville": ""
  },
  {
@@ -374,17 +509,6 @@
   "ville": ""
  },
  {
-  "url": "https://torras.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "81 — Torras Metallerie (Paris, 75)",
-  "email": "contact@torras.fr",
-  "ville": ""
- },
- {
   "url": "https://baxter-injection.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -415,6 +539,50 @@
   "note": 0,
   "nom": "",
   "email": "martine.sanchez@provence-outillage.com",
+  "ville": ""
+ },
+ {
+  "url": "https://ufp-plast.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "jm.lizot@ufp-plast.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://dis-bourasseau.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "info@dis-bourasseau.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://michel-perret.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@michel-perret.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://ribaut.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "ribautsa@ribaut.fr",
   "ville": ""
  }
 ]
