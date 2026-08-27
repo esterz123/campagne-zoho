@@ -280,7 +280,7 @@ def main():
     dry = "--dry-run" in sys.argv
     # Limite d'emails par run (pour espacer les envois a differents horaires).
     # Ex: --max 1 avec 3 crons 8h30/12h30/17h30 = 3 emails/jour espaces.
-    max_per_run = 2
+    max_per_run = 5  # 5 boites (contact 5 + 4x3) = 17/jour max ; 5/run vide 154 restants en ~3x plus vite, espacement 3min conserve (anti-ban OK)
     for i, a in enumerate(sys.argv):
         if a == "--max" and i + 1 < len(sys.argv):
             try:
