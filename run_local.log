@@ -199,3 +199,55 @@ AttributeError: module 'campagne_zoho' has no attribute 'load_boites'. Did you m
 [2026-08-27 16:26:53] === RUN LOCAL: partenaires ===
 [2026-08-27 16:26:56]   P RELANCE partenaire #17 17 — PMC Expertise Comptable -> hello@pmc-expertisecomptable.fr (via commercial)
 [2026-08-27 16:26:56] === RUN LOCAL termine ===
+[2026-08-27 16:27:27] === RUN LOCAL: campagne ===
+[2026-08-27 16:27:27]   C ERREUR (code 1): ERREUR campagne_zoho: Expecting property name enclosed in double quotes: line 145 column 1 (char 3546)
+
+[2026-08-27 16:27:27] === RUN LOCAL: partenaires ===
+[2026-08-27 16:27:28]   P ERREUR (code 1):   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 65 column 1 (char 1010)
+
+[2026-08-27 16:27:28] === RUN LOCAL termine ===
+[2026-08-27 16:27:28] === RUN LOCAL: campagne ===
+[2026-08-27 16:27:28]   C ENVOI BLOQUE : un autre processus tourne (SEND_LOCK frais, 0 min).
+[2026-08-27 16:27:28] === RUN LOCAL: partenaires ===
+[2026-08-27 16:27:28]   P ERREUR (code 1):   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 65 column 1 (char 1010)
+
+[2026-08-27 16:27:28] === RUN LOCAL termine ===
+[2026-08-27 16:27:28] === RUN LOCAL: campagne ===
+[2026-08-27 16:27:28]   C ENVOI BLOQUE : un autre processus tourne (SEND_LOCK frais, 0 min).
+[2026-08-27 16:27:28] === RUN LOCAL: partenaires ===
+[2026-08-27 16:27:28]   P ERREUR (code 1):   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 65 column 1 (char 1010)
+
+[2026-08-27 16:27:28] === RUN LOCAL termine ===
+[2026-08-27 18:09:02] === RUN LOCAL: campagne ===
+[2026-08-27 18:12:18]   C ERREUR (code 1): ERREUR campagne_zoho: 'dict' object has no attribute 'read'
+
+[2026-08-27 18:12:18] === RUN LOCAL: partenaires ===
+[2026-08-27 18:12:18]   P ERREUR (code 1):   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 65 column 1 (char 1010)
+
+[2026-08-27 18:12:18] === RUN LOCAL termine ===
+[2026-08-27 20:09:02] === RUN LOCAL: campagne ===
+[2026-08-27 20:09:02]   C ENVOI BLOQUE : un autre processus tourne (SEND_LOCK frais, 120 min).
+[2026-08-27 20:09:02] === RUN LOCAL: partenaires ===
+[2026-08-27 20:09:02]   P ERREUR (code 1):   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 65 column 1 (char 1010)
+
+[2026-08-27 20:09:02] === RUN LOCAL termine ===
