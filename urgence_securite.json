@@ -158,6 +158,85 @@
   "ville": ""
  },
  {
+  "url": "https://emab.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 6.1 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@emab.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://chaudronnerie-rosteel.com",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 5.5 (vulnerabilites connues non corrigees)",
+   "Builder amateur : 1and1"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@chaudronnerie-rosteel.com",
+  "ville": ""
+ },
+ {
+  "url": "https://conceptindustriel.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 6.3 (vulnerabilites connues non corrigees)",
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "ci@conceptindustriel.com",
+  "ville": ""
+ },
+ {
+  "url": "https://constructionmetallique.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 6.2 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@constructionmetallique.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://forge-de-laguiole.com",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 6.1 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "commercial@forge-de-laguiole.com",
+  "ville": ""
+ },
+ {
+  "url": "https://acsoxycoupage.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 5.8 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@acsoxycoupage.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://b27.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 6.3 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@b27.fr",
+  "ville": ""
+ },
+ {
   "url": "https://eberhard.de",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -343,15 +422,81 @@
   "ville": ""
  },
  {
-  "url": "https://lesplastiquesdecores.fr",
+  "url": "https://bti.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@bti.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://ch-metallerie.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@ch-metallerie.com",
+  "ville": ""
+ },
+ {
+  "url": "https://besafrance.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "info@besafrance.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://cophyma.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "cophyma@cophyma.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://ems-concept.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "info@ems-concept.com",
+  "ville": ""
+ },
+ {
+  "url": "https://etanchebat.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@etanchebat.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://mairie-besne.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
-  "nom": "Les Plastiques Decores",
-  "email": "julien.burgos@lesplastiquesdecores.fr",
-  "ville": "OYONNAX"
+  "nom": "Besne Mecanique De Precision",
+  "email": "",
+  "ville": "BESNE"
  },
  {
   "url": "https://nordvpn.com",
@@ -385,17 +530,6 @@
   "nom": "Sa Amd Decolletage",
   "email": "sales@amd-decolletage.fr",
   "ville": "MARNAZ"
- },
- {
-  "url": "https://institutfrancais.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Institut De Soudure (Is)",
-  "email": "info@institutfrancais.com",
-  "ville": "VILLEPINTE"
  },
  {
   "url": "https://petite.co.uk",
@@ -439,6 +573,17 @@
   "note": 0,
   "nom": "ALENCON PLASTIC",
   "email": "contact@alencon-plastic.com",
+  "ville": ""
+ },
+ {
+  "url": "https://aplicit.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "APLICIT",
+  "email": "contact@aplicit.com",
   "ville": ""
  },
  {
@@ -486,17 +631,6 @@
   "ville": ""
  },
  {
-  "url": "https://lesplastiquesdecores.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "44 — Les Plastiques Decores",
-  "email": "julien.burgos@lesplastiquesdecores.fr",
-  "ville": ""
- },
- {
   "url": "https://amd-decolletage.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -505,17 +639,6 @@
   "note": 0,
   "nom": "46 — Sa Amd Decolletage",
   "email": "sales@amd-decolletage.fr",
-  "ville": ""
- },
- {
-  "url": "https://mpi-mecanique.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "55 — MPI (Issoire, 63)",
-  "email": "contact@mpi-mecanique.com",
   "ville": ""
  },
  {
@@ -607,17 +730,6 @@
   "ville": ""
  },
  {
-  "url": "https://ets-ogier.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@ets-ogier.fr",
-  "ville": ""
- },
- {
   "url": "https://michel-perret.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -651,14 +763,14 @@
   "ville": ""
  },
  {
-  "url": "https://emab.fr",
+  "url": "https://carrosserie-ats.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "contact@emab.fr",
+  "email": "ats@carrosserie-ats.com",
   "ville": ""
  }
 ]
