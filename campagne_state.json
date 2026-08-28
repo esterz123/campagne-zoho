@@ -260,14 +260,16 @@
   "38": {
    "on": "2026-08-17",
    "messageId": "1786954103941138400",
-   "via": "info",
-   "sent_relance1": "2026-08-20"
+   "via": "contact",
+   "sent_relance1": "2026-08-20",
+   "sent_relance2": "2026-08-28"
   },
   "39": {
    "on": "2026-08-17",
    "messageId": "1786957777088155300",
-   "via": "direction",
-   "sent_relance1": "2026-08-20"
+   "via": "contact",
+   "sent_relance1": "2026-08-20",
+   "sent_relance2": "2026-08-28"
   },
   "40": {
    "on": "2026-08-17",
