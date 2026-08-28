@@ -59,7 +59,7 @@ def note_globale(info):
 
 def main():
     if len(sys.argv) < 2:
-        print('Usage : python generateur_diagnostic.py <num> [--site <domaine>]')
+        print('Usage : python generateur_diagnostic.py <num> [--site <domaine>] [--out <chemin>]')
         sys.exit(1)
     num = int(sys.argv[1])
     site = None
@@ -120,6 +120,9 @@ def main():
                     fix_para(p)
 
     out = os.path.join(LIV, 'diagnostic_%d_%s.docx' % (num, re.sub(r'[^A-Za-z0-9]+', '_', entreprise)[:40]))
+    if '--out' in sys.argv:  # 28/08 : chemin personnalise (livraison gratuite par le closer)
+        out = sys.argv[sys.argv.index('--out') + 1]
+        os.makedirs(os.path.dirname(out) or '.', exist_ok=True)
     d.save(out)
     print('OK - diagnostic genere : %s' % out)
     print('  entreprise :', entreprise, '| site :', site)

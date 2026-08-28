@@ -27,3 +27,4 @@ _cab_qualifies/
 _api_round*.json
 livrable/diagnostic_*_*.docx
 messages_livraison.json
+livrable/diag_gratuit_*.docx

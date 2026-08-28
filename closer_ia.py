@@ -280,6 +280,43 @@ def main():
         if typ == "reply":
             mid = send(m["from"], m["subject"], msg, access)
             rapports.append("[CLOSE-ENVOYE] %s : messageId %s" % (m["from"], mid))
+        # 28/08 PARETO : livrer la VALEUR des que l'interet est detecte (la vitesse de
+        # livraison est le facteur n1 de conversion). Genere le docx du prospect et
+        # l'envoie en piece jointe, gratuitement. Le prix 79 EUR est propose APRES reception.
+        num_p = prosp.get("num")
+        if num_p and not objection:
+            try:
+                import subprocess, sys as _s
+                docx_out = os.path.join(BASE, "livrable", "diag_gratuit_%s.docx" % num_p)
+                subprocess.run([sys.executable, os.path.join(BASE, "generateur_diagnostic.py"),
+                                str(num_p), "--out", docx_out],
+                               capture_output=True, text=True, timeout=120, cwd=BASE)
+                if os.path.exists(docx_out) and not dry:
+                    try:
+                        from livraison_auto import send_email_pj, multipart_encode  # module deja teste
+                        import repondeur as R2
+                        token = access.get("access_token") if isinstance(access, dict) else access
+                        boite = R2.creds_pour(None) if hasattr(R2, "creds_pour") else None
+                        acc_id = None
+                        try:
+                            bx = json.load(open(os.path.join(os.path.dirname(BASE), ".boites_zoho.json"), encoding="utf-8"))
+                            b0 = bx[0] if isinstance(bx, list) else list(bx.values())[0]
+                            acc_id = b0.get("account_id"); fro = b0.get("from")
+                        except Exception:
+                            fro = "contact@mahdi-design.com"
+                        corps_liv = ("Bonjour,<br><br>Voici le diagnostic complet de votre site, "
+                                     "comme promis : 10 pages, signaux concrets, plan d'action chiffre. "
+                                     "Il est a vous, sans engagement.<br><br>"
+                                     "Un point important : si vous voulez qu on execute ce plan pour vous "
+                                     "(ou que vous preferiez une offre a votre budget), repondez simplement "
+                                     "a ce mail.<br><br>Cordialement,<br>Mahdi")
+                        send_email_pj(token, acc_id, fro, m["from"],
+                                      "Votre diagnostic complet (piece jointe)", corps_liv, docx_out)
+                        rapports.append("[DIAG-GRATUIT-LIVRE] %s : %s" % (m["from"], os.path.basename(docx_out)))
+                    except Exception as e2:
+                        rapports.append("[DIAG-GRATUIT-ERR] %s : %s" % (m["from"], str(e2)[:120]))
+            except Exception as e3:
+                rapports.append("[DIAG-GEN-ERR] %s : %s" % (m["from"], str(e3)[:120]))
         traites.add(m["id"])
 
     st["traites"] = sorted(traites)
