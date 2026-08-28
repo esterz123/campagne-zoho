@@ -121,6 +121,10 @@ jobs:
             sleep 15
           done
 
+      - name: Bouclier anti-bounce (protege la delivrabilite des 5 boites)
+        if: ${{ always() }}
+        run: python3 bounce_shield.py
+
       - name: Notifier Discord (rapport du jour)
         if: ${{ env.DISCORD_WEBHOOK != '' }}
         env:
