@@ -431,6 +431,17 @@ def main():
             if txt2.startswith("OBJET"):
                 idx = txt2.index("\n\n")
                 corps_premier = txt2[idx + 2:]
+        # 28/08 PARETO : page diag personnalisee -> le prospect voit la valeur AVANT de repondre
+        man_path = os.path.join(BASE, "diag_pages.json")
+        if os.path.exists(man_path):
+            try:
+                man = json.load(open(man_path, encoding="utf-8"))
+                url_diag = (man.get(num) or {}).get("url")
+                if url_diag:
+                    corps_premier += ("\n\nP.S. J'ai deja prepare le diagnostic express de votre site : "
+                                      "score, points bloquants, tout est ici : %s" % url_diag)
+            except Exception:
+                pass
         content = build_html(corps_premier, SIG)
         boite = choisir_boite(boites, sent, today)
         if not boite:

@@ -134,6 +134,13 @@ def main():
     n2 = integrer_tout()
     log(f"=== CHASSE TERMINEE : +{n1} puis +{n2} prospects ===")
 
+    # 5. Pages diag express pour les nouveaux prospects (Pareto 28/08: valeur dans le 1er email)
+    try:
+        code5, out5 = safe_run("genere_pages_diag.py", "25", timeout=300)
+        log(out5)
+    except Exception as e:
+        log("Phase 5 err: " + str(e)[:120])
+
 def integrer_tout():
     """28/08: integration appelable a tout moment (apres chaque phase)."""
     added = 0
