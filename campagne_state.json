@@ -451,6 +451,11 @@
    "on": "2026-08-28",
    "doublon": true,
    "via": "contact"
+  },
+  "75": {
+   "on": "2026-08-28",
+   "via": "commercial",
+   "note": "envoye reellement 02:40 (log run 33136460830), enregistrement Manuel apres crash name-to"
   }
  },
  "done_notified": false

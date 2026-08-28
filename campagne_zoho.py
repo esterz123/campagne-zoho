@@ -441,10 +441,10 @@ def main():
             lines.append("DOUBLON evite (deja envoye aujourd'hui, toutes boites) : %s" % e["to"])
             continue
         r = send_email(token_pour(boite), e["subject"], content, e["to"], e.get("cc", ""), boite)
-        resp = r  # fix 27/08 : send_email retourne DEJA le JSON parse (double-parse = crash 'dict has no read')
+        resp = r  # fix 27/08 : send_email retourne DEJA le JSON parse (double-parse = crash)
         sent[num] = {"on": today, "messageId": str(resp.get("data", {}).get("messageId", "")), "via": boite["nom"],
                      "status_code": resp.get("status", {}).get("code"),
-                     "to": to, "body": content}
+                     "to": e["to"], "body": content}
         save_state(state)  # fix 16/08 : sauvegarde APRES CHAQUE envoi (un crash ne perd plus rien)
         lines.append("Envoye  #%s %s -> %s (via %s)" % (num, e["prospect"][:40], e["to"], boite["nom"]))
         envois_reels += 1
