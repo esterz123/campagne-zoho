@@ -10,3 +10,45 @@
 [2026-08-27 16:25:16] sites candidats: 172
 == BULK LEADS: 0 -> C:\Users\ulamb\Bureau\prospection\github-campagne\_hebdo_exa.json
 [2026-08-27 16:25:16] Phase 2 - extract_seq (emails profonds)
+[2026-08-28 17:11:05] === CHASSE HEBDOMADAIRE ===
+[2026-08-28 17:11:05] Phase 0 - recolle systematique (60 niches Exa, dedup auto)
+[2026-08-28 17:12:26] candidats recoltes: 551 -> 846 (+295)
+[2026-08-28 17:12:26] Phase 1 - exa_bulk (collecte + extraction)
+[2026-08-28 17:12:34] sites candidats: 560
+== BULK LEADS: 0 -> /home/runner/work/campagne-zoho/campagne-zoho/_hebdo_exa.json
+[2026-08-28 17:12:34] Phase 2 - extract_seq (chunk dynamique 700)
+[2026-08-28 17:47:34] TIMEOUT extract_seq.py apres 2100s (chunk trop gros ou site lent)
+[2026-08-28 17:47:34]   integre 26 depuis _exa_bulk_leads.json
+[2026-08-28 17:47:34] Phase 3 - Apify contact-info-scraper (emails JS)
+[2026-08-28 17:53:08] tact@Etude-BET.fr
+  +  -> contact@saet85.fr
+  +  -> contact@valmy-avocats.com
+  +  -> fleur@lyon-paysagiste.fr
+  +  -> donneespersonnelles@laforet.com
+  +  -> contact@cabinet12.com
+  +  -> ecai@cabinetecai.com
+  +  -> contact@pointcontroles.fr
+  +  -> contact@manda.fr
+  +  -> rgpd@junot.fr
+  +  -> contact@khadiri.com
+  +  -> troyes@guichard-associes.fr
+  +  -> adc@adc.fr
+  +  -> contact@psg-industries.com
+  +  -> ctvabraise@orange.fr
+  +  -> belesia@hotmail.fr
+  +  -> contact@geometre.fr
+  +  -> contact@ge3d.fr
+  +  -> contact@opterm.fr
+  +  -> contact-commercial@sip-sa.fr
+  +  -> contact@lasermetaldesign.fr
+  +  -> Contact@metalise.fr
+  +  -> info@massard.fr
+  +  -> adminlallemand@lafuma-mobilier.fr
+
+URLs a traiter: 739
+RUN: gBF3oa7qSNwI6FgjW
+status: SUCCEEDED
+== APIFY CONTACT LEADS: 261
+
+[2026-08-28 17:53:08]   integre 0 depuis _exa_bulk_leads.json
+[2026-08-28 17:53:08] === CHASSE TERMINEE : +26 puis +0 prospects ===
