@@ -1,0 +1,70 @@
+{
+  "page": { "size": "A4", "margins_mm": { "top": 18, "bottom": 18, "left": 20, "right": 20 } },
+  "styles": [
+    { "name": "TitreAccent", "font": "Calibri", "size": 26, "bold": true, "color": "111827" },
+    { "name": "SousTitre", "font": "Calibri", "size": 13, "color": "6B7280" },
+    { "name": "H2Accent", "font": "Calibri", "size": 16, "bold": true, "color": "B45309" },
+    { "name": "H3Accent", "font": "Calibri", "size": 13, "bold": true, "color": "111827" },
+    { "name": "Corps", "font": "Calibri", "size": 11, "color": "1F2937" },
+    { "name": "CtaBox", "font": "Calibri", "size": 11, "bold": true, "color": "FFFFFF" }
+  ],
+  "blocks": [
+    { "type": "heading", "level": 1, "text": "Diagnostic express", "style": "TitreAccent" },
+    { "type": "heading", "level": 2, "text": "Image digitale de votre entreprise", "style": "SousTitre" },
+    { "type": "paragraph", "text": "Préparé pour : {{entreprise}}", "style": "Corps" },
+    { "type": "paragraph", "text": "Préparé par : Mahdi, brand designer indépendant  |  Portfolio : mahdi-design.com  |  contact@mahdi-design.com", "style": "Corps" },
+    { "type": "paragraph", "text": "Date : {{date}}   |   Offre de lancement : 79 €  |   Livré sous 48h  |   Remboursé si aucune valeur", "style": "Corps" },
+    { "type": "paragraph", "text": "Vous gardez ce document, que vous travailliez avec moi ou non.", "style": "Corps" },
+
+    { "type": "page_break" },
+
+    { "type": "heading", "level": 2, "text": "1. En 30 secondes", "style": "H2Accent" },
+    { "type": "paragraph", "text": "Votre site dit \"{{constat_principal}}\" aujourd'hui. Vos prospects le voient avant même de vous lire. Ce document vous montre ce qui bloque votre crédibilité, ce que font vos concurrents, et les 3 actions à faire cette semaine.", "style": "Corps" },
+
+    { "type": "heading", "level": 2, "text": "2. Votre site aujourd'hui", "style": "H2Accent" },
+    { "type": "paragraph", "text": "[Insérez ici une capture d'écran annotée de la page d'accueil]", "style": "Corps" },
+    { "type": "table", "header": ["Critère", "Constat", "Note /20"], "style": "Table Grid", "rows": [
+      ["Première impression", "{{constat_1}}", "{{note_1}}"],
+      ["Ergonomie mobile", "{{constat_2}}", "{{note_2}}"],
+      ["Preuves de confiance", "{{constat_3}}", "{{note_3}}"],
+      ["Appel à l'action", "{{constat_4}}", "{{note_4}}"]
+    ]},
+    { "type": "paragraph", "text": "Note globale : {{note_globale}} / 100", "style": "Corps" },
+
+    { "type": "heading", "level": 2, "text": "3. Ce que font vos concurrents", "style": "H2Accent" },
+    { "type": "table", "header": ["Concurrent", "Point fort", "Point faible"], "style": "Table Grid", "rows": [
+      ["{{conc_1_nom}}", "{{conc_1_fort}}", "{{conc_1_faible}}"],
+      ["{{conc_2_nom}}", "{{conc_2_fort}}", "{{conc_2_faible}}"]
+    ]},
+    { "type": "paragraph", "text": "Conclusion : vos concurrents montrent {{element_manquant}}. Vous ne le montrez pas. C'est là que vous perdez des donneurs d'ordre.", "style": "Corps" },
+
+    { "type": "heading", "level": 2, "text": "4. Ce que ça vous coûte en vrai", "style": "H2Accent" },
+    { "type": "bullet_list", "items": [
+      "Un acheteur qui compare 3 fournisseurs choisit souvent le site le plus crédible, pas le meilleur techniquement.",
+      "Un site daté fait douter, à tort, de vos machines, votre qualité, vos délais.",
+      "Un acheteur qui ne trouve pas vos certifications ou références en 1 minute passe au suivant."
+    ]},
+
+    { "type": "heading", "level": 2, "text": "5. Les 3 actions à faire cette semaine", "style": "H2Accent" },
+    { "type": "numbered_list", "items": [
+      "{{action_1}} (gratuit, immédiat)",
+      "{{action_2}} (faible coût)",
+      "{{action_3}} (stratégique)"
+    ]},
+
+    { "type": "heading", "level": 2, "text": "6. La suite, si vous voulez", "style": "H2Accent" },
+    { "type": "bullet_list", "items": [
+      "Pack sécurité et maintenance : 79 €/mois, premier mois offert, sans engagement.",
+      "Refonte de site : à partir de 3 500 €, devis sous 48h."
+    ]},
+
+    { "type": "heading", "level": 2, "text": "Conditions", "style": "H2Accent" },
+    { "type": "bullet_list", "items": [
+      "Paiement par PayPal ou virement SEPA (Payoneer), facture professionnelle fournie.",
+      "Remboursé intégralement si vous ne trouvez aucune valeur dans ce diagnostic.",
+      "Vous gardez le document, quoi que vous décidiez ensuite."
+    ]},
+
+    { "type": "paragraph", "text": "Mahdi  |  Brand Designer  |  Portfolio : mahdi-design.com  |  contact@mahdi-design.com", "style": "Corps" }
+  ]
+}

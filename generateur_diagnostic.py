@@ -6,7 +6,7 @@ A SUPPRIMER APRES RUN : non, ce fichier est DURABLE (a commiter dans le repo).""
 import json, os, re, sys, datetime, urllib.request, urllib.parse, unicodedata
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-LIV = os.path.join(os.path.dirname(BASE), 'livrable_diagnostic')
+LIV = os.path.join(BASE, 'livrable')  # 28/08 : template DANS le repo (le cloud n a pas ../livrable_diagnostic)
 TEMPLATE = os.path.join(LIV, 'diagnostic_template.docx')
 UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126.0'}
 

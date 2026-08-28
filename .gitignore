@@ -25,3 +25,5 @@ _*.html
 _*_tmp/
 _cab_qualifies/
 _api_round*.json
+livrable/diagnostic_*.docx
+messages_livraison.json
