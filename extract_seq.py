@@ -67,6 +67,11 @@ def main():
             file_emails.add(em)
             json.dump(results, open(outpath,"w",encoding="utf-8"), ensure_ascii=False, indent=1)
             print("  +",d,"->",em,flush=True)
+        else:
+            # 28/08 : marquer les domaines SANS email (ou doublon) pour ne JAMAIS les re-scanner
+            results.append({"domaine":d,"email":"","scan":"2026-08-28"})
+            known.add(d)
+            print("  -",d,"(sans email, marque scanne)",flush=True)
         time.sleep(0.4+random.random()*0.5)
         if (i+1)%15==0:
             json.dump(results, open(outpath,"w",encoding="utf-8"), ensure_ascii=False, indent=1)

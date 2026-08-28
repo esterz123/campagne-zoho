@@ -50,6 +50,15 @@ def run(script, *args, timeout=560):
     tail = (r.stdout + "\n" + r.stderr).strip()
     return r.returncode, tail[-1200:]
 
+def safe_run(script, *args, timeout=560):
+    """28/08: un TimeoutExpired dans une phase ne doit JAMAIS tuer les phases suivantes."""
+    try:
+        return run(script, *args, timeout=timeout)
+    except subprocess.TimeoutExpired:
+        return -1, "TIMEOUT %s apres %ss (chunk trop gros ou site lent)" % (script, timeout)
+    except Exception as e:
+        return -1, "ERR %s: %s" % (script, str(e)[:150])
+
 def main():
     log("=== CHASSE HEBDOMADAIRE ===")
 
@@ -90,13 +99,22 @@ def main():
 
     # 1. Exa : collecte candidats + extraction emails HTML
     log("Phase 1 - exa_bulk (collecte + extraction)")
-    code, out = run("exa_bulk.py", QUERIES, "_hebdo_exa.json", "4", timeout=550)
+    code, out = safe_run("exa_bulk.py", QUERIES, "_hebdo_exa.json", "4", timeout=550)
     log(out)
 
-    # 2. extract_seq : extraction robuste sur candidats (28/08 : 0->1500 pour la chasse massive)
-    log("Phase 2 - extract_seq (emails profonds)")
-    code2, out2 = run("extract_seq.py", "0", "1500", timeout=550)
-    log(out2)
+    # 2. extract_seq : chunk DYNAMIQUE (28/08 fix : 1500 d'un coup = 75 min > timeout 550s
+    #    -> TimeoutExpired tuait le run AVANT l integration. Desormais 700/run = ~35 min,
+    #    le chunk reprend au 1er domaine non encore traite (fin de fichier leads).)
+    log("Phase 2 - extract_seq (chunk dynamique 700)")
+    start, end = chunk_extract()
+    if end > start:
+        code2, out2 = safe_run("extract_seq.py", str(start), str(end), timeout=2100)
+        log(out2)
+    else:
+        log("Phase 2 - rien a extraire (tout deja fait)")
+
+    # 2bis. integrer TOUT DE SUITE ce qui a ete extrait (un crash plus loin ne perd rien)
+    n1 = integrer_tout()
 
     # 3. Apify JS : emails masques (optionnel, si APIFY_TOKEN)
     apify_out = ""
@@ -112,8 +130,12 @@ def main():
         except Exception as e:
             log("Apify err: "+str(e)[:120])
 
-    # 4. Integrer TOUT (Exa + extract + Apify) en V3 + anti-doublon
-    log("Phase 4 - integration")
+    # 4. Integrer le reste (Apify + relique)
+    n2 = integrer_tout()
+    log(f"=== CHASSE TERMINEE : +{n1} puis +{n2} prospects ===")
+
+def integrer_tout():
+    """28/08: integration appelable a tout moment (apres chaque phase)."""
     added = 0
     for src, f in [("exa_bulk","_exa_bulk_leads.json"),
                    ("apify_contact","_apify_pro_leads.json")]:
@@ -126,7 +148,38 @@ def main():
             n = integrer(BASE, leads)
             added += n
             log(f"  integre {n} depuis {f}")
-    log(f"=== CHASSE TERMINEE : +{added} prospects ===")
+    return added
+
+def chunk_extract():
+    """28/08: calcule (start,end) du prochain chunk de candidats non extraits.
+    'Non extrait' = pas encore dans _exa_bulk_leads.json (cle domaine)."""
+    leads_path = os.path.join(BASE, "_exa_bulk_leads.json")
+    fait = set()
+    if os.path.exists(leads_path):
+        try:
+            for x in json.load(open(leads_path, encoding="utf-8")):
+                if x.get("domaine"): fait.add(x["domaine"].strip().lower())
+        except Exception:
+            pass
+    cand_path = os.path.join(BASE, "_candidats_domains.json")
+    if not os.path.exists(cand_path):
+        return 0, 0
+    try:
+        cands = json.load(open(cand_path, encoding="utf-8"))
+    except Exception:
+        return 0, 0
+    restants = [d for d in cands if d.strip().lower() not in fait]
+    CHUNK = 700
+    if not restants:
+        return 0, 0
+    # alignement sur la liste TRIEE (extract_seq fait doms=sorted(sites) puis [off:off+step])
+    doms = sorted(cands)
+    # premier domaine NON scanne dans l ordre trie
+    debut = next((i for i, d in enumerate(doms) if d.strip().lower() not in fait), None)
+    if debut is None:
+        return 0, 0
+    fin = debut + CHUNK
+    return debut, fin
 
 def integrer(BASE, leads):
     """Integre une liste de {domaine,email} dans campagne_data.json (V3, anti-doublon)."""
