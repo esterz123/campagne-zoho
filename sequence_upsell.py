@@ -96,7 +96,7 @@ Vos reponses (meme en 3 lignes) seront integrees a votre rapport final pour le r
 
 Aussi, un point pratique : si vous voulez aller plus loin que le diagnostic et transformer votre image de marque pour de bon, l'offre de rentree reste ouverte jusqu'au 31 aout. 3 places seulement. Le tarif passe de 3 900 EUR a 2 900 EUR jusqu'a cette date.
 
-https://esterz123.github.io/mahdi-design/refonte.html
+https://mahdi-design.com/refonte.html
 
 Cordialement,
 Mahdi

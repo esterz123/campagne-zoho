@@ -134,7 +134,7 @@ def _call_provider(provider, modele, messages, max_tokens, temperature):
     if provider == "openrouter":
         return _urllib_json("https://openrouter.ai/api/v1/chat/completions",
                             body, {**hdr, "Content-Type": "application/json",
-                                   "HTTP-Referer": "https://esterz123.github.io/mahdi-design"})
+                                   "HTTP-Referer": "https://mahdi-design.com"})
     if provider in ("portal", "nous"):
         base = tok.get("portal_base", "https://inference-api.nousresearch.com/v1")
         return _curl_json(base + "/chat/completions",

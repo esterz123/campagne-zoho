@@ -251,3 +251,47 @@ json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
 json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 65 column 1 (char 1010)
 
 [2026-08-27 20:09:02] === RUN LOCAL termine ===
+[2026-08-27 22:09:02] === RUN LOCAL: campagne ===
+[2026-08-27 22:09:02]   C SEND_LOCK stale (240 min) : reprise.
+[2026-08-27 22:09:02]   C ERREUR (code 1): ERREUR campagne_zoho: <urlopen error [Errno 11001] getaddrinfo failed>
+
+[2026-08-27 22:09:02] === RUN LOCAL: partenaires ===
+[2026-08-27 22:09:03]   P ERREUR (code 1):   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 65 column 1 (char 1010)
+
+[2026-08-27 22:09:03] === RUN LOCAL termine ===
+[2026-08-28 00:09:02] === RUN LOCAL: campagne ===
+[2026-08-28 00:09:02]   C ENVOI BLOQUE : un autre processus tourne (SEND_LOCK frais, 120 min).
+[2026-08-28 00:09:02] === RUN LOCAL: partenaires ===
+[2026-08-28 00:09:02]   P ERREUR (code 1):   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 65 column 1 (char 1010)
+
+[2026-08-28 00:09:02] === RUN LOCAL termine ===
+[2026-08-28 02:09:02] === RUN LOCAL: campagne ===
+[2026-08-28 02:09:02]   C SEND_LOCK stale (240 min) : reprise.
+[2026-08-28 02:09:02]   C ERREUR (code 1): ERREUR campagne_zoho: <urlopen error [Errno 11001] getaddrinfo failed>
+
+[2026-08-28 02:09:02] === RUN LOCAL: partenaires ===
+[2026-08-28 02:09:02]   P ERREUR (code 1):   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 65 column 1 (char 1010)
+
+[2026-08-28 02:09:02] === RUN LOCAL termine ===
+[2026-08-28 04:09:02] === RUN LOCAL: campagne ===
+[2026-08-28 04:09:02]   C ENVOI BLOQUE : un autre processus tourne (SEND_LOCK frais, 120 min).
+[2026-08-28 04:09:02] === RUN LOCAL: partenaires ===
+[2026-08-28 04:09:02]   P ERREUR (code 1):   File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 65 column 1 (char 1010)
+
+[2026-08-28 04:09:02] === RUN LOCAL termine ===

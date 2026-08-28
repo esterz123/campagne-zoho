@@ -54,7 +54,7 @@ def domaine_bloque(to, bloquees):
 
 SIG = ("Mahdi<br>"
        "Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>"
-       "Portfolio : <a href=\"https://esterz123.github.io/mahdi-design\">mahdi-design.com</a><br>"
+       "Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>"
        "contact@mahdi-design.com")
 
 
