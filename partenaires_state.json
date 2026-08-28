@@ -62,11 +62,7 @@
   },
   "13": {
    "on": "2026-08-27",
-<<<<<<< Updated upstream
    "boite": "contact",
-=======
-   "boite": "hello",
->>>>>>> Stashed changes
    "relance2": true
   },
   "14": {
@@ -85,15 +81,9 @@
    "relance2": true
   },
   "17": {
-<<<<<<< Updated upstream
    "on": "2026-08-22",
    "boite": "hello",
    "replied": "2026-08-27"
-=======
-   "on": "2026-08-27",
-   "boite": "commercial",
-   "relance2": true
->>>>>>> Stashed changes
   },
   "18": {
    "on": "2026-08-22",
