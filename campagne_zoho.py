@@ -330,11 +330,11 @@ def main():
     due_fu.sort(key=lambda x: (fu[x[0]].get("wait_days", 99), int(x[1])))
 
     quota = max(0, daily_max - len(sent_today))
-    # LEVIER x1000 : 1 relance + 1 nouveau par run (au lieu de 1 seul qui bloque les nouveaux pendant 3 semaines)
+    # LEVIER x1000 : jusqu'a 2 relances + 3 nouveaux par run (max_per_run=5, plafond boites intact)
     quota = min(quota, max_per_run)
-    todo_fu = due_fu[:min(quota, 1)]
-    todo = remaining[:min(max(0, quota - len(todo_fu)), 1)]
-    # Si quota=2 : 1 relance + 1 nouveau en meme run. Si quota=1 : priorite relance, nouveau au prochain run.
+    todo_fu = due_fu[:min(quota, 2)]
+    todo = remaining[:min(max(0, quota - len(todo_fu)), 3)]
+    # Si quota=2 : 2 relances. Si quota=5 : 2 relances + 3 nouveaux en meme run. DELAY_S=180s protege la delivrabilite.
 
     if dry:
         print("[DRY-RUN] %s | deja envoyes aujourd'hui: %d | quota(ce run): %d | max_per_run: %d" % (today, len(sent_today), quota, max_per_run))
