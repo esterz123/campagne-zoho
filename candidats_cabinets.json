@@ -8022,5 +8022,61 @@
   "siren": "538013517",
   "tranche": "02",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EUROPE EXPERTISE COMPTABLE ET CONSEIL (E.E.C.C.)",
+  "ville": "MOUANS-SARTOUX",
+  "naf": "69.20Z",
+  "siren": "438631558",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ARQAM SOCIETE D'EXPERTISE COMPTABLE",
+  "ville": "LATTES",
+  "naf": "69.20Z",
+  "siren": "439212184",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "PROFIL CONSEILS EXPERTISE COMPTABLE",
+  "ville": "TROYES",
+  "naf": "69.20Z",
+  "siren": "478863129",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "FREDERIC GABORIAU EXPERTISE COMPTABLE AU (FG)",
+  "ville": "BRUGES",
+  "naf": "69.20Z",
+  "siren": "479226730",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ROCHER EXPERTISE COMPTABLE ET AUDIT",
+  "ville": "BUCHELAY",
+  "naf": "69.20Z",
+  "siren": "838656619",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CGC@ SOCIETE D'EXPERTISE COMPTABLE",
+  "ville": "AVIGNON",
+  "naf": "69.20Z",
+  "siren": "840569024",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ALEGRE ET ASSOCIES EXPERTISE COMPTABLE",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "404726044",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
  }
 ]
