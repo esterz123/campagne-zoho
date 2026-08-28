@@ -112,14 +112,6 @@
   "x": "Bonjour, Votre site tourne sur un WordPress obsolete, avec des vulnerabilites connues non corrigees. Un hacker peut le prendre en 30 minutes.\n\nJe peux le mettre a jour et le securiser : intervention 150 EUR, puis 79 EUR/mois pour les mises a jour et la surveillance. Je vous montre d'abord les failles.\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
  },
  {
-  "nom": "",
-  "site": "https://emab.fr",
-  "email": "contact@emab.fr",
-  "probleme": "WP_OBSOLETE",
-  "instagram": "Bonjour, Votre site tourne sur un WordPress obsolete, avec des vulnerabilites connues non corrigees. Un hacker peut le prendre en 30 minutes.\n\nJe peux le mettre a jour et le securiser : intervention 150 EUR, puis 79 EUR/mois pour les mises a jour et la surveillance. Je vous montre d'abord les failles.\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
-  "x": "Bonjour, Votre site tourne sur un WordPress obsolete, avec des vulnerabilites connues non corrigees. Un hacker peut le prendre en 30 minutes.\n\nJe peux le mettre a jour et le securiser : intervention 150 EUR, puis 79 EUR/mois pour les mises a jour et la surveillance. Je vous montre d'abord les failles.\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
- },
- {
   "nom": "Eberhard Usinage",
   "site": "https://eberhard.de",
   "email": "info@eberhard.de",
@@ -248,6 +240,14 @@
   "x": "Bonjour, J'ai regarde votre site https://sitralindustrie.fr : Copyright 2015 : site non mis a jour depuis des annees\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
  },
  {
+  "nom": "Les Plastiques Decores",
+  "site": "https://lesplastiquesdecores.fr",
+  "email": "julien.burgos@lesplastiquesdecores.fr",
+  "probleme": "INJOIGNABLE",
+  "instagram": "Bonjour, J'ai regarde votre site https://lesplastiquesdecores.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://lesplastiquesdecores.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+ },
+ {
   "nom": "Nord Fraisage",
   "site": "https://nordvpn.com",
   "email": "9765ee91544348309ca8564e59eba16d@debug.nordvpn.com",
@@ -272,6 +272,14 @@
   "x": "Bonjour, J'ai regarde votre site https://amd-decolletage.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
  },
  {
+  "nom": "Institut De Soudure (Is)",
+  "site": "https://institutfrancais.com",
+  "email": "info@institutfrancais.com",
+  "probleme": "INJOIGNABLE",
+  "instagram": "Bonjour, J'ai regarde votre site https://institutfrancais.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://institutfrancais.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+ },
+ {
   "nom": "Petite Tolerie De Precision (Ptp)",
   "site": "https://petite.co.uk",
   "email": "customerservice@roman.co.uk",
@@ -294,6 +302,14 @@
   "probleme": "INJOIGNABLE",
   "instagram": "Bonjour, J'ai regarde votre site https://baxter-injection.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
   "x": "Bonjour, J'ai regarde votre site https://baxter-injection.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+ },
+ {
+  "nom": "ALENCON PLASTIC",
+  "site": "https://alencon-plastic.com",
+  "email": "contact@alencon-plastic.com",
+  "probleme": "INJOIGNABLE",
+  "instagram": "Bonjour, J'ai regarde votre site https://alencon-plastic.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://alencon-plastic.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
  },
  {
   "nom": "2 — Slicom (ACA Slicom Technologies, Cle",
@@ -328,12 +344,28 @@
   "x": "Bonjour, J'ai regarde votre site https://provence-outillage.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
  },
  {
+  "nom": "44 — Les Plastiques Decores",
+  "site": "https://lesplastiquesdecores.fr",
+  "email": "julien.burgos@lesplastiquesdecores.fr",
+  "probleme": "INJOIGNABLE",
+  "instagram": "Bonjour, J'ai regarde votre site https://lesplastiquesdecores.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://lesplastiquesdecores.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+ },
+ {
   "nom": "46 — Sa Amd Decolletage",
   "site": "https://amd-decolletage.fr",
   "email": "sales@amd-decolletage.fr",
   "probleme": "INJOIGNABLE",
   "instagram": "Bonjour, J'ai regarde votre site https://amd-decolletage.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
   "x": "Bonjour, J'ai regarde votre site https://amd-decolletage.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+ },
+ {
+  "nom": "55 — MPI (Issoire, 63)",
+  "site": "https://mpi-mecanique.com",
+  "email": "contact@mpi-mecanique.com",
+  "probleme": "INJOIGNABLE",
+  "instagram": "Bonjour, J'ai regarde votre site https://mpi-mecanique.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://mpi-mecanique.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
  },
  {
   "nom": "63 — OMEDEC Outillage Découpage (Amancey",
@@ -401,6 +433,14 @@
  },
  {
   "nom": "",
+  "site": "https://ets-ogier.fr",
+  "email": "contact@ets-ogier.fr",
+  "probleme": "INJOIGNABLE",
+  "instagram": "Bonjour, J'ai regarde votre site https://ets-ogier.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://ets-ogier.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+ },
+ {
+  "nom": "",
   "site": "https://michel-perret.fr",
   "email": "contact@michel-perret.fr",
   "probleme": "INJOIGNABLE",
@@ -414,5 +454,21 @@
   "probleme": "INJOIGNABLE",
   "instagram": "Bonjour, J'ai regarde votre site https://ribaut.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
   "x": "Bonjour, J'ai regarde votre site https://ribaut.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+ },
+ {
+  "nom": "",
+  "site": "https://adiamix.com",
+  "email": "admin@adiamix.com",
+  "probleme": "INJOIGNABLE",
+  "instagram": "Bonjour, J'ai regarde votre site https://adiamix.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://adiamix.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+ },
+ {
+  "nom": "",
+  "site": "https://emab.fr",
+  "email": "contact@emab.fr",
+  "probleme": "INJOIGNABLE",
+  "instagram": "Bonjour, J'ai regarde votre site https://emab.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://emab.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
  }
 ]
