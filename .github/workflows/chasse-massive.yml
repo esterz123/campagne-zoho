@@ -1,0 +1,44 @@
+name: Chasse massive Exa
+
+# 28/08 : chasse industrielle. 60 niches, recolle systematique, extraction 1500 domaines.
+# 07h30 Paris = integre les nouveaux prospects AVANT le run campagne de 08h30 (meme jour).
+on:
+  schedule:
+    - cron: '30 5 * * *'   # 07h30 Paris
+  workflow_dispatch:         # bouton "Run workflow" = chasser maintenant
+
+jobs:
+  chasse:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Chasse massive (Exa 60 niches + extraction + Apify + integration V3)
+        run: python3 chasse_hebdo.py
+
+      - name: Sauvegarde stock + candidats
+        run: |
+          git config user.name "campagne-bot"
+          git config user.email "campagne-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "chasse massive: nouveau stock du jour" || echo "rien a commiter"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash 2>/dev/null && git push; then
+              echo "stock sauvegarde (tentative $i)"
+              break
+            fi
+            echo "push rejete (tentative $i), retry dans 15s..."
+            sleep 15
+          done
+
+      - name: Notifier erreur sur Discord
+        if: ${{ failure() && env.DISCORD_WEBHOOK != '' }}
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python3 notify_discord.py --error

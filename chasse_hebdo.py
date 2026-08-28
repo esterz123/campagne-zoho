@@ -18,12 +18,30 @@ def log(msg):
     print(line)
 
 QUERIES = (
+    # --- 18 niches historiques ---
     "serrurerie metalerie France | chaudronnerie entreprise France | usinage mecanique precision France "
     "| tôlerie industrielle France | décolletage France | plomberie chauffage entreprise France "
     "| électricité artisan France | menuiserie agence France | couverture zinguerie France "
     "| maçonnerie entreprise France | emboutissage tôlerie France | injection plastique sous-traitant "
     "| fonderie alu France | traitement surface industrie France | maintenance industrielle France "
     "| plasturgie France | outillage France | metallerie France"
+    # --- 42 niches industrielles ajoutees 28/08 (levier x60) ---
+    " | forge de precision France | mecanique generale France | micromecanique France "
+    "| oxycoupage decoupe metal France | decoupe laser metal France | peinture industrielle France "
+    "| robinetterie industrielle France | soudure industrielle France | tournage fraisage France "
+    "| traitement thermique metaux France | vannerie industrielle France | visserie boulonnerie France "
+    "| hydraulique industrielle France | levage manutention France | calorifugeage France entreprise "
+    "| carrosserie industrielle France | charpente metallique France | construction metallique France "
+    "| etancheite batiment France | etancheite facade France | chaudronnerie inox France"
+    # --- BTP & services techniques ---
+    " | carrelage France entreprise | platrerie France | peinture batiment France "
+    "| menuiserie bois France | installation photovoltaique France | pompe a chaleur installation France "
+    "| garage automobile France | depannage remorquage France | transport routier France "
+    "| logistique entrepot France | nettoyage industriel France | gardiennage securite France"
+    # --- services B2B (dirigeants PME) ---
+    " | bureau etudes France | controle technique construction France | geometre France "
+    "| architecte France | cabinet comptable France | expert comptable France "
+    "| avocat PME France | agence immobiliere France | paysagiste France"
 )
 
 def run(script, *args, timeout=560):
@@ -35,45 +53,49 @@ def run(script, *args, timeout=560):
 def main():
     log("=== CHASSE HEBDOMADAIRE ===")
 
-    # 0. S'assurer que le fichier candidats existe (les phases 2/3 en dependent)
+    # 0. Recolle des candidats A CHAQUE run (28/08 : 60 niches, dedup auto dans exa_bulk).
+    #    Avant : ne recoltait que si le fichier etait absent -> la chasse recyklait les memes domaines.
     cand_path = os.path.join(BASE, "_candidats_domains.json")
-    if not os.path.exists(cand_path) or os.path.getsize(cand_path) < 20:
-        log("Phase 0 - recole des domaines candidats (exa_search direct, sans fetch)")
-        try:
-            import urllib.request, re
-            EXA = "69458868-3ce4-42da-873d-43a0465dff11"
-            def exa_search(q, n=12):
-                req = urllib.request.Request("https://api.exa.ai/search",
-                    data=json.dumps({"query":q,"numResults":n,"type":"auto","useAutoprompt":True}).encode(),
-                    headers={"Content-Type":"application/json","x-api-key":EXA}, method="POST")
-                return [r.get("url","") for r in json.load(urllib.request.urlopen(req,timeout=25)).get("results",[])]
-            def dom(u): return re.sub(r"^https?://(www\.)?","",u).split("/")[0].lower()
-            BLACK=("google","facebook","linkedin","wiki","youtube","annuaire","pagesjaunes","societe","twitter","instagram","wix","shopify","mairie","commune")
-            TYPES=(".fr",".com",".eu",".net")
-            cands={}
-            for q in QUERIES.split("|"):
-                q=q.strip()
-                if not q: continue
-                try:
-                    for u in exa_search(q):
-                        d=dom(u)
-                        if d and not any(b in d for b in BLACK) and d.endswith(TYPES):
-                            cands[d]="https://"+d
-                except Exception as e:
-                    log("exa err "+str(e)[:60])
-            json.dump(cands, open(cand_path,"w",encoding="utf-8"), ensure_ascii=False, indent=1)
-            log(f"candidats recoltes (exa direct): {len(cands)}")
-        except Exception as e:
-            log("Phase 0 err: "+str(e)[:150])
+    log("Phase 0 - recolle systematique (60 niches Exa, dedup auto)")
+    try:
+        import urllib.request, re
+        EXA = "69458868-3ce4-42da-873d-43a0465dff11"
+        def exa_search(q, n=12):
+            req = urllib.request.Request("https://api.exa.ai/search",
+                data=json.dumps({"query":q,"numResults":n,"type":"auto","useAutoprompt":True}).encode(),
+                headers={"Content-Type":"application/json","x-api-key":EXA}, method="POST")
+            return [r.get("url","") for r in json.load(urllib.request.urlopen(req,timeout=25)).get("results",[])]
+        def dom(u): return re.sub(r"^https?://(www\.)?","",u).split("/")[0].lower()
+        BLACK=("google","facebook","linkedin","wiki","youtube","annuaire","pagesjaunes","societe","twitter","instagram","wix","shopify","mairie","commune")
+        TYPES=(".fr",".com",".eu",".net")
+        cands={}
+        if os.path.exists(cand_path) and os.path.getsize(cand_path) > 20:
+            try: cands = json.load(open(cand_path, encoding="utf-8"))
+            except Exception: cands = {}
+        avant = len(cands)
+        for q in QUERIES.split("|"):
+            q=q.strip()
+            if not q: continue
+            try:
+                for u in exa_search(q):
+                    d=dom(u)
+                    if d and not any(b in d for b in BLACK) and d.endswith(TYPES):
+                        cands[d]="https://"+d
+            except Exception as e:
+                log("exa err "+str(e)[:60])
+        json.dump(cands, open(cand_path,"w",encoding="utf-8"), ensure_ascii=False, indent=1)
+        log(f"candidats recoltes: {avant} -> {len(cands)} (+{len(cands)-avant})")
+    except Exception as e:
+        log("Phase 0 err: "+str(e)[:150])
 
     # 1. Exa : collecte candidats + extraction emails HTML
     log("Phase 1 - exa_bulk (collecte + extraction)")
     code, out = run("exa_bulk.py", QUERIES, "_hebdo_exa.json", "4", timeout=550)
     log(out)
 
-    # 2. extract_seq : extraction robuste sur candidats
+    # 2. extract_seq : extraction robuste sur candidats (28/08 : 0->1500 pour la chasse massive)
     log("Phase 2 - extract_seq (emails profonds)")
-    code2, out2 = run("extract_seq.py", "0", "600", timeout=550)
+    code2, out2 = run("extract_seq.py", "0", "1500", timeout=550)
     log(out2)
 
     # 3. Apify JS : emails masques (optionnel, si APIFY_TOKEN)
