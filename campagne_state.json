@@ -275,13 +275,15 @@
    "on": "2026-08-17",
    "messageId": "1786958499501155100",
    "via": "contact",
-   "sent_relance1": "2026-08-20"
+   "sent_relance1": "2026-08-20",
+   "sent_relance2": "2026-08-29"
   },
   "41": {
    "on": "2026-08-17",
    "messageId": "1786959222078155300",
    "via": "commercial",
-   "sent_relance1": "2026-08-20"
+   "sent_relance1": "2026-08-20",
+   "sent_relance2": "2026-08-29"
   },
   "42": {
    "on": "2026-08-17",
@@ -541,6 +543,22 @@
    "status_code": 200,
    "to": "a.bredif@outillageprogress.com",
    "body": "<p>Bonjour Cédric SAUSSE,</p>\n<p>Je suis Mahdi, designer de marque pour PME industrielles. En passant sur atemip.com, j'ai noté un point qui peut faire hésiter un donneur d'ordre :</p>\n<p>1. Un point vérifiable sur votre site en 2 minutes</p>\n<p>Ces points sont vérifiables par votre équipe en 2 minutes. Pour un client qui compare 3 sous-traitants, c'est souvent ce genre de détail qui fait la différence entre « partenaire crédible » et « fournisseur daté ».</p>\n<p>Je vous envoie, gratuitement et sans engagement, un diagnostic de 10 pages qui détaille ces points et les compare à 2 de vos concurrents directs. Vous le gardez, que nous travaillions ensemble ou non.</p>\n<p>Répondez simplement « oui » et je vous l'envoie sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "83": {
+   "on": "2026-08-29",
+   "messageId": "1787963670265138400",
+   "via": "hello",
+   "status_code": 200,
+   "to": "contact@adp85.com",
+   "body": "<p>Bonjour Yves SIRURGUET,</p>\n<p>Je suis Mahdi, designer de marque pour PME industrielles. En passant sur mgp-voray.com, j'ai noté un point qui peut faire hésiter un donneur d'ordre :</p>\n<p>1. Un point vérifiable sur votre site en 2 minutes</p>\n<p>Ces points sont vérifiables par votre équipe en 2 minutes. Pour un client qui compare 3 sous-traitants, c'est souvent ce genre de détail qui fait la différence entre « partenaire crédible » et « fournisseur daté ».</p>\n<p>Je vous envoie, gratuitement et sans engagement, un diagnostic de 10 pages qui détaille ces points et les compare à 2 de vos concurrents directs. Vous le gardez, que nous travaillions ensemble ou non.</p>\n<p>Répondez simplement « oui » et je vous l'envoie sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "84": {
+   "on": "2026-08-29",
+   "messageId": "1787963852163155000",
+   "via": "info",
+   "status_code": 200,
+   "to": "contact@lg-metallerie.fr",
+   "body": "<p>Bonjour Patrick GINOUVIER,</p>\n<p>Je suis Mahdi, designer de marque pour PME industrielles. En passant sur baxter-injection.com, j'ai noté un point qui peut faire hésiter un donneur d'ordre :</p>\n<p>1. Un point vérifiable sur votre site en 2 minutes</p>\n<p>Ces points sont vérifiables par votre équipe en 2 minutes. Pour un client qui compare 3 sous-traitants, c'est souvent ce genre de détail qui fait la différence entre « partenaire crédible » et « fournisseur daté ».</p>\n<p>Je vous envoie, gratuitement et sans engagement, un diagnostic de 10 pages qui détaille ces points et les compare à 2 de vos concurrents directs. Vous le gardez, que nous travaillions ensemble ou non.</p>\n<p>Répondez simplement « oui » et je vous l'envoie sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   }
  },
  "done_notified": false
