@@ -488,17 +488,6 @@
   "ville": ""
  },
  {
-  "url": "https://mairie-besne.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Besne Mecanique De Precision",
-  "email": "",
-  "ville": "BESNE"
- },
- {
   "url": "https://nordvpn.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -563,28 +552,6 @@
   "nom": "Baxter Injection",
   "email": "",
   "ville": "VINAY"
- },
- {
-  "url": "https://alencon-plastic.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "ALENCON PLASTIC",
-  "email": "contact@alencon-plastic.com",
-  "ville": ""
- },
- {
-  "url": "https://aplicit.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "APLICIT",
-  "email": "contact@aplicit.com",
-  "ville": ""
  },
  {
   "url": "https://slicom-group.com",
@@ -752,14 +719,14 @@
   "ville": ""
  },
  {
-  "url": "https://adiamix.com",
+  "url": "https://oureval.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "admin@adiamix.com",
+  "email": "accueil@oureval.fr",
   "ville": ""
  },
  {
