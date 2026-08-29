@@ -1,0 +1,48 @@
+name: Squad Boss H24
+
+# Le cerveau strategique de la squad, SANS PC : toutes les 2h sur le cloud.
+# Lit les chiffres reels, demande la decision a l IA gratuite (OpenRouter),
+# applique les actions auto (relance chasse/campagne si besoin), ecrit le briefing
+# dans squad_briefings/ et notifie Discord. Zero depense.
+on:
+  schedule:
+    - cron: '0 */2 * * *'   # toutes les 2h
+  workflow_dispatch:
+
+jobs:
+  boss:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Tour du boss (chiffres + decision IA + actions)
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 squad_boss.py
+
+      - name: Sauvegarde du briefing
+        run: |
+          git config user.name "campagne-bot"
+          git config user.email "campagne-bot@users.noreply.github.com"
+          git add squad_briefings/
+          git commit -m "squad boss: briefing du tour" || echo "rien a commiter"
+          for i in 1 2 3; do
+            if git pull --rebase --autostash 2>/dev/null && git push; then
+              echo "briefing sauvegarde (tentative $i)"
+              break
+            fi
+            sleep 15
+          done
+
+      - name: Notifier erreur sur Discord
+        if: ${{ failure() && env.DISCORD_WEBHOOK != '' }}
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python3 notify_discord.py --error
