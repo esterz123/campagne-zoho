@@ -8078,5 +8078,29 @@
   "siren": "404726044",
   "tranche": "11",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "DR EXPERTISE COMPTABLE & AUDIT",
+  "ville": "ERMONT",
+  "naf": "69.20Z",
+  "siren": "518079686",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EXPERTISE COMPTABLE CONSEIL ENTREPRISES (ECCE)",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "340978352",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "BONNIOL BOURDERON EXPERTISE COMPTABLE",
+  "ville": "LUNEL",
+  "naf": "69.20Z",
+  "siren": "511404626",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
  }
 ]
