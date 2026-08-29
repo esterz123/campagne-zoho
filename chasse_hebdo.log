@@ -52,3 +52,59 @@ status: SUCCEEDED
 
 [2026-08-28 17:53:08]   integre 0 depuis _exa_bulk_leads.json
 [2026-08-28 17:53:08] === CHASSE TERMINEE : +26 puis +0 prospects ===
+[2026-08-29 11:44:11] === CHASSE HEBDOMADAIRE ===
+[2026-08-29 11:44:11] Phase 0 - recolle systematique (60 niches Exa, dedup auto)
+[2026-08-29 11:45:26] candidats recoltes: 846 -> 930 (+84)
+[2026-08-29 11:45:26] Phase 1 - exa_bulk (collecte + extraction)
+[2026-08-29 11:45:33] sites candidats: 558
+== BULK LEADS: 0 -> /home/runner/work/campagne-zoho/campagne-zoho/_hebdo_exa.json
+[2026-08-29 11:45:33] Phase 2 - extract_seq (chunk dynamique 700)
+[2026-08-29 12:20:33] TIMEOUT extract_seq.py apres 2100s (chunk trop gros ou site lent)
+[2026-08-29 12:20:33]   integre 13 depuis _exa_bulk_leads.json
+[2026-08-29 12:20:33] Phase 3 - Apify contact-info-scraper (emails JS)
+[2026-08-29 12:26:30] act@st-peintre.fr
+  +  -> choukrouncedric@gmail.com
+  +  -> contact@minospeinture.com
+  +  -> rgpd@artis-groupe.fr
+  +  -> contact@moulinpaysage.fr
+  +  -> rgpd@junot.fr
+  +  -> calais@geometre.net
+  +  -> contact@mandon-architecte.fr
+  +  -> ctvabraise@orange.fr
+  +  -> contact@geometre-paris.fr
+  +  -> contact@yourwebsite.com
+  +  -> adc@adc.fr
+  +  -> contact@garagepasteur.com
+  +  -> contact@fbetancheitecouverture.com
+  +  -> contact@odibelt.fr
+  +  -> contact@platryo.fr
+  +  -> contact@nova-clean.fr
+  +  -> contact-commercial@sip-sa.fr
+  +  -> Contact@metalise.fr
+  +  -> contact@bdagencements.com
+  +  -> sales@vanlics.com
+  +  -> eshop@reca.fr
+  +  -> mbohda+cbc@gmail.com
+  +  -> info@massard.fr
+
+URLs a traiter: 810
+RUN: 34ZJi322qYdFBErN8
+status: SUCCEEDED
+== APIFY CONTACT LEADS: 286
+
+[2026-08-29 12:26:30]   integre 0 depuis _exa_bulk_leads.json
+[2026-08-29 12:26:30] === CHASSE TERMINEE : +13 puis +0 prospects ===
+[2026-08-29 12:26:54] + 312 aci-menuiserie.com score 92
+  + 313 armadal.fr score 80
+  + 314 bureau-detude-structure.fr score 100
+  + 315 bureau-etude-thermique-bet.fr score 100
+  + 316 cabinet-sac.fr score 92
+  + 317 cabinet12.com score 100
+  + 318 cabinetecai.com score 100
+  + 319 cabinetexpertcomptable.fr score 88
+  + 320 cabinetmaillard.com score 82
+  + 321 calorizol.com score 100
+  + 322 caro-centre.fr score 90
+  - 323 injoignable
+  + 324 carrondo.fr score 100
+PAGES GENEREES: 12 | manifest: 225
