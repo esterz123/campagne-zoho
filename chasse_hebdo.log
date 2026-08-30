@@ -108,3 +108,39 @@ status: SUCCEEDED
   - 323 injoignable
   + 324 carrondo.fr score 100
 PAGES GENEREES: 12 | manifest: 225
+[2026-08-30 10:34:58] === CHASSE HEBDOMADAIRE ===
+[2026-08-30 10:34:58] Phase 0 - recolle systematique (60 niches Exa, dedup auto)
+[2026-08-30 10:36:09] candidats recoltes: 930 -> 979 (+49)
+[2026-08-30 10:36:09] Phase 1 - exa_bulk (collecte + extraction)
+[2026-08-30 10:36:17] sites candidats: 541
+== BULK LEADS: 0 -> /home/runner/work/campagne-zoho/campagne-zoho/_hebdo_exa.json
+[2026-08-30 10:36:17] Phase 2 - extract_seq (chunk dynamique 700)
+[2026-08-30 11:11:17] TIMEOUT extract_seq.py apres 2100s (chunk trop gros ou site lent)
+[2026-08-30 11:11:17]   integre 14 depuis _exa_bulk_leads.json
+[2026-08-30 11:11:17] Phase 3 - Apify contact-info-scraper (emails JS)
+[2026-08-30 11:11:17] 
+URLs a traiter: 844
+START ERR: {
+  "error": {
+    "type": "not-enough-usage-to-run-paid-actor",
+    "message": "By launching this job you will exceed your remaining usage of $0.193544.  Consider upgrading to a paid plan at https://console.apify.com/billing/subscription"
+  }
+}
+
+[2026-08-30 11:11:17]   integre 0 depuis _exa_bulk_leads.json
+[2026-08-30 11:11:17] === CHASSE TERMINEE : +14 puis +0 prospects ===
+[2026-08-30 11:11:52] + 325 agbsecurite.fr score 92
+  + 326 bonnevaux-sa.fr score 100
+  + 327 chort-batiment.com score 90
+  + 328 chronotruck.com score 92
+  + 329 cmdcardot.fr score 100
+  + 330 cmhindustrie.com score 92
+  + 331 cnr.fr score 90
+  + 332 cornut.fr score 65
+  + 333 covernit.fr score 88
+  + 334 ct-ipc.com score 92
+  + 335 de-pierre.fr score 100
+  + 336 decobaie.com score 90
+  + 337 decolletage-usinage.fr score 92
+  + 338 decoupacier.com score 88
+PAGES GENEREES: 14 | manifest: 239
