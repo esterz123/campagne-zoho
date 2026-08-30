@@ -116,6 +116,15 @@ et le plan d'action chiffre en euros. Vous le gardez, que nous travaillions ense
 Repondez simplement <b>"oui"</b> a l'email qui vous a conduit ici.</div>
 </div>
 <div style="color:#6b7280;font-size:13px;margin-top:18px;line-height:1.6;">
+<div style="margin-top:22px;background:#f0fdf4;border:2px solid #16a34a;border-radius:12px;padding:18px;">
+<div style="font-weight:bold;color:#14532d;font-size:17px;">Version complete du diagnostic : 79 EUR</div>
+<div style="color:#1f2937;font-size:15px;line-height:1.6;margin-top:6px;">
+Votre site compare a 2 concurrents directs, le plan d'action chiffre en euros, et la liste exacte des corrections a faire.
+Livraison immediate apres paiement, sans rendez-vous, sans appel.</div>
+<a href="https://www.paypal.com/ncp/payment/FQYKP733699LQ" style="display:inline-block;margin-top:14px;background:#16a34a;color:#ffffff;font-weight:bold;font-size:16px;padding:14px 26px;border-radius:10px;text-decoration:none;">
+Payer 79 EUR et recevoir ma version complete</a>
+<div style="color:#6b7280;font-size:13px;margin-top:10px;">Paiement securise PayPal. Vous pouvez aussi repondre "oui" a l'email pour la version gratuite.</div>
+</div>
 Mahdi · Designer de marque pour PME industrielles<br>
 <a href="https://mahdi-design.com" style="color:#2563eb;">mahdi-design.com</a> · contact@mahdi-design.com
 </div>
