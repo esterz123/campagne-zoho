@@ -16,6 +16,11 @@ on:
     - cron: '0 16 * * *'    # 18h00 Paris
     - cron: '0 17 * * *'    # 19h00 Paris
   workflow_dispatch:          # bouton "Run workflow" = envoyer maintenant
+    inputs:
+      go2:
+        description: "GO nominatifs seuls (SIMI + ITPLAST), sans envois normaux"
+        type: boolean
+        default: false
 
 jobs:
   campagne:
@@ -70,7 +75,12 @@ jobs:
           ZOHO_B10_CLIENT_SECRET: ${{ secrets.ZOHO_B10_CLIENT_SECRET }}
           ZOHO_B10_REFRESH_TOKEN: ${{ secrets.ZOHO_B10_REFRESH_TOKEN }}
           ZOHO_B10_ACCOUNT_ID: ${{ secrets.ZOHO_B10_ACCOUNT_ID }}
-        run: python3 campagne_zoho.py --max 4
+        run: |
+          if [ "${{ inputs.go2 }}" = "true" ]; then
+            python3 campagne_zoho.py --go2
+          else
+            python3 campagne_zoho.py --max 4
+          fi
 
       - name: Chasse de nouveaux prospects (1x/jour seulement)
         run: |

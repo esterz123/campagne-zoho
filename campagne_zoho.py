@@ -255,10 +255,58 @@ def load_followups():
     return {}
 
 
+def envoi_go2(dry=False):
+    """Envois GO nominatifs (Mahdi a dit OUI le 30/08): SIMI livraison diagnostic
+    + ITPLAST relance 3 breakup. Idempotent via marqueurs dans campagne_state.json.
+    Bypass SEND_LOCK (declenchement manuel unique) ; anti-doublon = marqueur state."""
+    liv = os.path.join(BASE, "livrable")
+    cibles = [
+        ("1", "go2_simi", "adv.simi@id-casting.com", "go2_livraison_simi",
+         "Diagnostic livre en ligne le 31/08 (OFFRE V2)"),
+        ("11", "go2_itplast", "andre.muller@itplast.com", "go2_relance3_itplast",
+         "Relance 3 breakup envoyee le 31/08 (site renvoie vers annuaire)"),
+    ]
+    state = load_state()
+    sent = state.setdefault("sent", {})
+    boites = load_boites()
+    if not boites:
+        print("GO2: aucune boite config (secrets absents), rien envoye.")
+        return
+    boite = boites[0]
+    tok = None
+    if not dry:
+        tok = refresh_token(boite)
+    for num, slug, to, marqueur, note in cibles:
+        ent = sent.setdefault(num, {})
+        if ent.get(marqueur):
+            print("GO2: %s deja envoye (%s), skip" % (slug, ent[marqueur]))
+            continue
+        html = open(os.path.join(liv, slug + ".html"), encoding="utf-8").read()
+        objet = open(os.path.join(liv, slug + ".objet"), encoding="utf-8").read().strip()
+        if dry:
+            print("GO2 DRY: %s -> %s objet='%s' (%d octets)" % (slug, to, objet[:55], len(html.encode("utf-8"))))
+            continue
+        r = send_email(tok, objet, html, to, boite=boite)
+        code = (r.get("status") or {}).get("code")
+        mid = (r.get("data") or {}).get("messageId", "")
+        print("GO2: %s -> %s code=%s messageId=%s" % (slug, to, code, mid))
+        if str(code) == "200":
+            ent[marqueur] = datetime.datetime.now().isoformat()
+            ent["note"] = note
+            save_state(state)
+        else:
+            print("GO2 ECHEC %s: %s" % (slug, json.dumps(r)[:300]))
+            return
+
+
 def main():
     # KILL-SWITCH URGENCE : si le fichier PAUSE_ENVOIS existe, aucun envoi (cloud + local).
     if os.path.exists(os.path.join(BASE, "PAUSE_ENVOIS")):
         print("ENVOIS PAUSES : fichier PAUSE_ENVOIS present, aucun envoi ce run.")
+        return
+    # GO nominatifs (SIMI + ITPLAST) : mode manuel idempotent, avant le verrou normal.
+    if "--go2" in sys.argv:
+        envoi_go2(dry="--dry-run" in sys.argv)
         return
     # VERROU LOCAL : un seul processus d'envoi a la fois (fix 16/08, anti-double-run).
     lock = os.path.join(BASE, "SEND_LOCK")
