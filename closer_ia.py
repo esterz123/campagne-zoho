@@ -42,10 +42,13 @@ OBJECTION_PRIX = ["trop cher", "cher", "pas le budget", "budget", "combien ca co
 AUTO_PATTERNS = ["reponse automatique", "automatic reply", "out of office",
                  "cong", "vacances", "de retour", "absent", "a mon retour"]
 
-OFFRE = ("Notre diagnostic express, c'est 79 EUR, une seule fois, remboursable "
-         "si vous n'y trouvez pas de valeur. Sous 48h vous avez un rapport de "
-         "5 pages qui montre concretement ce qui freine votre visibilite et "
-         "comment le corriger. Vous gardez le document dans tous les cas.")
+OFFRE = ("Notre diagnostic express, c'est 79 EUR, une seule fois. Livre sous 48h "
+         "ou il vous est offert. Rembourse si vous n'y trouvez pas de valeur, et "
+         "deduit du projet si vous nous confiez la correction ensuite. Vous gardez "
+         "le document dans tous les cas. Et si vous preferez ne plus jamais y "
+         "penser : Pack Serenite, 69 EUR par mois, on surveille, corrige et "
+         "maintient votre site en continu, sans engagement, arret possible quand "
+         "vous voulez.")
 
 
 def paypal_link():
@@ -163,7 +166,7 @@ Sa reponse : "%s" (sujet : %s)
 Contexte : %s
 Paiement : %s
 
-Offres exactes : Constats et recommandations immediates GRATUITS (deja envoyes dans notre email, le client les a). Diagnostic de credibilite 79 EUR (rapport 10 pages sous 48h, rembourse si pas de valeur, deduit du projet). Projet complet MARQUE + SITE : identite visuelle (logo, couleurs, typographie, charte) + site vitrine 6-8 pages coherent : 3900 a 5900 EUR. Offre rentree septembre : 3 projets complets au tarif 2025, 2900 EUR au lieu de 3900, devis sous 48h, places dans l'ordre des reponses. Pack securite WordPress : 69 EUR/mois ou 690 EUR/an (2 mois offerts), premier mois offert, sans engagement.
+Offres exactes : Constats et recommandations immediates GRATUITS (deja envoyes dans notre email, le client les a). Diagnostic de credibilite 79 EUR (livre sous 48h ou offert, rembourse si pas de valeur, deduit du projet). Pack Serenite site 69 EUR/mois sans engagement (ou 690 EUR/an, 2 mois offerts) : surveillance, corrections, maintenance, amelioration continue. A placer systematiquement apres chaque vente : le recurrent est la priorite commerce. Projet complet MARQUE + SITE : identite visuelle (logo, couleurs, typographie, charte) + site vitrine 6-8 pages coherent : 3900 a 5900 EUR. Offre rentree septembre : 3 projets complets au tarif 2025, 2900 EUR au lieu de 3900, devis sous 48h, places dans l'ordre des reponses. Pack securite WordPress : 69 EUR/mois ou 690 EUR/an (2 mois offerts), premier mois offert, sans engagement.
 
 Regles strictes :
 - Francais naturel, chaleureux, pro. JAMAIS de survente ni de pub.

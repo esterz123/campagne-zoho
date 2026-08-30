@@ -302,7 +302,7 @@ def build_prompt(prosp, msginfo):
 Prospect (entreprise connue de la campagne) : %s
 Notre email initial envoye a ce prospect etait : "%s"
 Le client vient de repondre : "%s" (sujet : %s)
-Nos offres exactes : Diagnostic de credibilite 79 EUR une seule fois (rapport detaille sous 48h, rembourse si pas de valeur, montant deduit du projet si refonte ensuite). La Marque qui Vend (identite visuelle complete + site vitrine 6-8 pages coherent) : 3900 a 5900 EUR. Offre rentree septembre : 2900 EUR au lieu de 3900 pour 3 projets complets, places dans l'ordre des reponses. Pack serenite site : 69 EUR/mois ou 690 EUR/an.
+Nos offres exactes : Diagnostic de credibilite 79 EUR une seule fois (livre sous 48h ou offert, rembourse si pas de valeur, montant deduit du projet si refonte ensuite). Pack Serenite site : 69 EUR/mois sans engagement (ou 690 EUR/an, 2 mois offerts) : surveillance, corrections, maintenance et amelioration continue du site. PRIORITE COMMERCE : placer le Pack Serenite systematiquement apres chaque diagnostic ou vente, c'est le revenu recurrent qui fait la valeur de l'entreprise. La Marque qui Vend (identite visuelle complete + site vitrine 6-8 pages coherent) : 3900 a 5900 EUR. Offre rentree septembre : 2900 EUR au lieu de 3900 pour 3 projets complets, places dans l'ordre des reponses.
 Regles strictes :
 - Francais naturel, ton chaleureux et pro, jamais de pub ni de survente.
 - PERSONNALISE avec le contexte ci-dessus. Ne colle aucun texte generique.
