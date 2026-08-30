@@ -8102,5 +8102,21 @@
   "siren": "511404626",
   "tranche": "11",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "AUDIT EXPERTISE COMPTABLE 47 (AEC 47)",
+  "ville": "VILLENEUVE-SUR-LOT",
+  "naf": "69.20Z",
+  "siren": "451254239",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SARL MLG EXPERTISE COMPTABLE",
+  "ville": "MOURMELON-LE-GRAND",
+  "naf": "69.20Z",
+  "siren": "414358705",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
  }
 ]
