@@ -46,7 +46,9 @@ def main():
     except Exception:
         print("BOUNCE SHIELD: pas de boites locales (cloud: skip, bounces geres par blacklist manuelle)")
         return 0
-    x = bx["contact"] if "contact" in bx else (bx[0] if isinstance(bx, list) else list(bx.values())[0])
+    # 01/09 : scanner TOUTES les boites (un bounce peut arriver sur n importe laquelle)
+    boites_scan = [v for k, v in (bx.items() if isinstance(bx, dict) else enumerate(bx))
+                   if isinstance(v, dict) and v.get("account_id")]
     st = json.load(open(STATE, encoding="utf-8"))
     sent = st["sent"]
     try:
@@ -59,14 +61,18 @@ def main():
     for e in data:
         t = (e.get("to") or "").strip().lower()
         if t: num_par_to.setdefault(t, e["num"])
-    try:
-        token = zoho_token(x)
-        msgs = inbox_msgs(token, x["account_id"])
-    except Exception as e:
-        print("BOUNCE SHIELD: lecture inbox impossible: %s" % str(e)[:100])
-        return 0
     n_dom = 0
-    for m in msgs:
+    all_msgs = []
+    for bx_item in boites_scan:
+        try:
+            tok = zoho_token(bx_item)
+            all_msgs.extend(inbox_msgs(tok, bx_item["account_id"]))
+        except Exception as e:
+            print("BOUNCE SHIELD: boite ignoree: %s" % str(e)[:80])
+    if not all_msgs:
+        print("BOUNCE SHIELD: aucune boite lisible, skip")
+        return 0
+    for m in all_msgs:
         if not is_bounce(m): continue
         try:
             req = urllib.request.Request(

@@ -341,11 +341,11 @@ def main():
         if todo_fu:
             for stage, num in todo_fu:
                 b = choisir_boite(boites, sent, today)
-                print("  relance %-8s #%s %s -> %s (via %s)" % (stage, num, emails[num]["prospect"][:40], emails[num]["to"], b["nom"] if b else "AUCUNE"))
+                print("  relance %-8s #%s %s -> %s (via %s)" % (stage, num, emails[num].get("prospect", emails[num].get("nom", "?"))[:40], emails[num]["to"], b["nom"] if b else "AUCUNE"))
         if todo:
             for num, e in todo:
                 b = choisir_boite(boites, sent, today)
-                print("  enverrait  #%s %s -> %s (via %s)" % (num, e["prospect"][:40], e["to"], b["nom"] if b else "AUCUNE"))
+                print("  enverrait  #%s %s -> %s (via %s)" % (num, e.get("prospect", e.get("nom", "?"))[:40], e["to"], b["nom"] if b else "AUCUNE"))
         if not todo_fu and not todo:
             print("  rien a envoyer (tout envoye ou quota atteint)")
         return
@@ -375,7 +375,7 @@ def main():
         if domaine_bloque(e["to"], bloquees):
             # On ne relance JAMAIS un email piege (ca protege le domaine).
             sent[num]["sent_" + stage] = today
-            bloquees_skips.append("relance %s #%s %s (%s bloque)" % (stage, num, e["prospect"][:30], e["to"]))
+            bloquees_skips.append("relance %s #%s %s (%s bloque)" % (stage, num, e.get("prospect", e.get("nom", "?"))[:30], e["to"]))
             continue
         tpl = fu[stage]
         subject = tpl["subject"].replace("{sujet}", e["subject"])
@@ -411,7 +411,7 @@ def main():
         sent[num]["sent_" + stage] = today
         sent[num]["via"] = boite["nom"]
         save_state(state)  # fix 16/08 : sauvegarde APRES CHAQUE envoi (un crash ne perd plus rien)
-        lines.append("Relance %-8s #%s %s -> %s (via %s)" % (stage, num, e["prospect"][:40], e["to"], boite["nom"]))
+        lines.append("Relance %-8s #%s %s -> %s (via %s)" % (stage, num, e.get("prospect", e.get("nom", "?"))[:40], e["to"], boite["nom"]))
         envois_reels += 1
         if envois_reels < len(todo_fu) + len(todo):
             _time.sleep(DELAY_S)
@@ -420,7 +420,7 @@ def main():
             # Filtre anti-erreur : on ne peut plus jamais envoyer vers un piege.
             # On marque quand meme le quota consomme pour ne pas renvoyer sans fin.
             sent[num] = {"on": today, "bloque": True}
-            bloquees_skips.append("#%s %s -> %s (domaine bloque)" % (num, e["prospect"][:30], e["to"]))
+            bloquees_skips.append("#%s %s -> %s (domaine bloque)" % (num, e.get("prospect", e.get("nom", "?"))[:30], e["to"]))
             continue
         # 18/08 : brancher le premier message sur la V2 (constats concrets) si presente.
         corps_premier = e.get("body", "")
@@ -457,7 +457,7 @@ def main():
                      "status_code": resp.get("status", {}).get("code"),
                      "to": e["to"], "body": content}
         save_state(state)  # fix 16/08 : sauvegarde APRES CHAQUE envoi (un crash ne perd plus rien)
-        lines.append("Envoye  #%s %s -> %s (via %s)" % (num, e["prospect"][:40], e["to"], boite["nom"]))
+        lines.append("Envoye  #%s %s -> %s (via %s)" % (num, e.get("prospect", e.get("nom", "?"))[:40], e["to"], boite["nom"]))
         envois_reels += 1
         if envois_reels < len(todo_fu) + len(todo):
             _time.sleep(DELAY_S)

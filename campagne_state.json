@@ -451,7 +451,9 @@
   "68": {
    "on": "2026-08-27",
    "doublon": true,
-   "via": "contact"
+   "via": "contact",
+   "bounce": true,
+   "note": "bounce detecte 2026-08-30"
   },
   "69": {
    "on": "2026-08-27",
@@ -504,7 +506,9 @@
    "via": "hello",
    "status_code": 200,
    "to": "contact@oaca.fr",
-   "body": "<p>Bonjour Jean-Pierre BILLIARD,</p>\n<p>Je suis Mahdi, designer de marque pour PME industrielles. En passant sur appcell.fr, j'ai noté un point qui peut faire hésiter un donneur d'ordre :</p>\n<p>1. Un point vérifiable sur votre site en 2 minutes</p>\n<p>Ces points sont vérifiables par votre équipe en 2 minutes. Pour un client qui compare 3 sous-traitants, c'est souvent ce genre de détail qui fait la différence entre « partenaire crédible » et « fournisseur daté ».</p>\n<p>Je vous envoie, gratuitement et sans engagement, un diagnostic de 10 pages qui détaille ces points et les compare à 2 de vos concurrents directs. Vous le gardez, que nous travaillions ensemble ou non.</p>\n<p>Répondez simplement « oui » et je vous l'envoie sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+   "body": "<p>Bonjour Jean-Pierre BILLIARD,</p>\n<p>Je suis Mahdi, designer de marque pour PME industrielles. En passant sur appcell.fr, j'ai noté un point qui peut faire hésiter un donneur d'ordre :</p>\n<p>1. Un point vérifiable sur votre site en 2 minutes</p>\n<p>Ces points sont vérifiables par votre équipe en 2 minutes. Pour un client qui compare 3 sous-traitants, c'est souvent ce genre de détail qui fait la différence entre « partenaire crédible » et « fournisseur daté ».</p>\n<p>Je vous envoie, gratuitement et sans engagement, un diagnostic de 10 pages qui détaille ces points et les compare à 2 de vos concurrents directs. Vous le gardez, que nous travaillions ensemble ou non.</p>\n<p>Répondez simplement « oui » et je vous l'envoie sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com",
+   "bounce": true,
+   "note": "bounce detecte 2026-08-30"
   },
   "78": {
    "on": "2026-08-28",
@@ -577,6 +581,26 @@
    "status_code": 200,
    "to": "s.robtin@carlesimo-groupe.fr",
    "body": "<p>Bonjour Madame, Monsieur,</p>\n<p>Je suis Mahdi, designer de marque pour PME industrielles. En passant sur adp85.com, j'ai noté un point qui peut faire hésiter un donneur d'ordre :</p>\n<p>1. Un point vérifiable sur votre site en 2 minutes</p>\n<p>Ces points sont vérifiables par votre équipe en 2 minutes. Pour un client qui compare 3 sous-traitants, c'est souvent ce genre de détail qui fait la différence entre « partenaire crédible » et « fournisseur daté ».</p>\n<p>Je vous envoie, gratuitement et sans engagement, un diagnostic de 10 pages qui détaille ces points et les compare à 2 de vos concurrents directs. Vous le gardez, que nous travaillions ensemble ou non.</p>\n<p>Répondez simplement « oui » et je vous l'envoie sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "92": {
+   "bounce": true,
+   "note": "bounce detecte 2026-08-30",
+   "on": "2026-08-30"
+  },
+  "93": {
+   "on": "2026-08-30",
+   "bounce": true,
+   "note": "bounce detecte 2026-08-30"
+  },
+  "94": {
+   "on": "2026-08-30",
+   "bounce": true,
+   "note": "bounce detecte 2026-08-30"
+  },
+  "90": {
+   "on": "2026-08-30",
+   "bounce": true,
+   "note": "bounce detecte 2026-08-30"
   }
  },
  "done_notified": false
