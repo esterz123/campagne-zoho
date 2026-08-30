@@ -446,6 +446,9 @@ def main():
                 if url_diag:
                     corps_premier += ("\n\nP.S. J'ai deja prepare le diagnostic express de votre site : "
                                       "score, points bloquants, tout est ici : %s" % url_diag)
+                else:
+                    corps_premier += ("\n\nP.S. Testez vous-meme votre site en 30 secondes (gratuit, sans inscription) : "
+                                      "https://mahdi-design.com/audit.html")
             except Exception:
                 pass
         content = build_html(corps_premier, SIG)
