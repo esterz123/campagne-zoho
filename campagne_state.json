@@ -461,14 +461,16 @@
   "68": {
    "on": "2026-08-27",
    "doublon": true,
-   "via": "contact",
+   "via": "commercial",
    "bounce": true,
-   "note": "bounce detecte 2026-08-30"
+   "note": "bounce detecte 2026-08-30",
+   "sent_relance1": "2026-08-30"
   },
   "69": {
    "on": "2026-08-27",
    "doublon": true,
-   "via": "hello"
+   "via": "hello",
+   "sent_relance1": "2026-08-30"
   },
   "70": {
    "on": "2026-08-27",
@@ -657,9 +659,12 @@
    "note": "SMTP verify user_unknown - jamais envoye"
   },
   "98": {
-   "bounce": true,
+   "on": "2026-08-30",
+   "messageId": "1788117389461155100",
+   "via": "info",
+   "status_code": 200,
    "to": "cyriac.babad@erce-plasturgie.com",
-   "note": "SMTP verify user_unknown - jamais envoye"
+   "body": "<p>Bonjour M. Babad,<br>Votre site erce-plasturgie.com est invisible quand un industriel cherche des partenaires comme le vôtre sur Google. Vos concurrents, qui ont modernisé leur présence en ligne il y a deux ans, apparaissent en tête. Ce sont eux qui reçoivent les appels, pas vous.<br>Je ne vous propose rien aujourd'hui. En 2 minutes d'analyse, je vous montre exactement ce que vos prospects voient (ou ne voient pas) : lenteur, affichage mobile, manque de crédibilité. Diagnostic gratuit, sans engagement.<br>Répondez simplement \"oui\" à ce mail, et je vous renvoie mes constats sous 48 heures.<br>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/98.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   },
   "99": {
    "bounce": true,
