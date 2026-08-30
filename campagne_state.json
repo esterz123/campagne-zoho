@@ -635,6 +635,81 @@
    "on": "2026-08-30",
    "bounce": true,
    "note": "bounce detecte 2026-08-30"
+  },
+  "95": {
+   "bounce": true,
+   "to": "pierre.desjardin@desjardins-sa.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "96": {
+   "bounce": true,
+   "to": "chanthara.sirivathana@r2c-aura.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "97": {
+   "bounce": true,
+   "to": "michel.dornberger@ids33017.delosmail.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "98": {
+   "bounce": true,
+   "to": "cyriac.babad@erce-plasturgie.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "99": {
+   "bounce": true,
+   "to": "michel.jiguet-covex@jcm-decolletage.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "102": {
+   "bounce": true,
+   "to": "charlene.guillotin@maine-tolerie.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "103": {
+   "bounce": true,
+   "to": "camal.semaoune@ag-tolerie.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "105": {
+   "bounce": true,
+   "to": "chloe.rosenstiehl@gay-decolletage.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "106": {
+   "bounce": true,
+   "to": "stephanie.gresle@morel-decolletage.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "107": {
+   "bounce": true,
+   "to": "julie.leguillier@amp.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "110": {
+   "bounce": true,
+   "to": "cedric.romera-vallin@axil-plasturgie.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "111": {
+   "bounce": true,
+   "to": "vincent.chouzenoux@bureau-vallee.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "113": {
+   "bounce": true,
+   "to": "geoffroy.bene@decolletage-elbe.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "116": {
+   "bounce": true,
+   "to": "stephane.roch@fonderies-de-nangis.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "117": {
+   "bounce": true,
+   "to": "joel.lemoine@tolerie-forezienne.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
   }
  },
  "done_notified": false

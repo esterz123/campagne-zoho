@@ -87,10 +87,20 @@ def main():
         if num:
             sent[str(num)] = dict(sent.get(str(num), {}), on=sent.get(str(num), {}).get("on", datetime.date.today().isoformat()),
                                   bounce=True, note="bounce detecte %s" % datetime.date.today())
-        dom = dead.split("@")[1]
-        if dom not in blocs:
-            blocs.append(dom)
+        # 01/09 REGLE PARETO : blacklist l EMAIL specifique (pas le domaine entier).
+        # Un bounce 550 "user unknown" = CETTE adresse est morte, le reste du domaine peut etre vivant.
+        # Blacklister le domaine entier tuait des leads chauds (simi.fr, usimeca.fr...).
+        morts = bl.setdefault("_emails_morts", [])
+        if dead not in morts:
+            morts.append(dead)
             n_dom += 1
+        # blacklist domaine UNIQUEMENT si le domaine n existe plus (NXDOMAIN visible dans le bounce)
+        body_low = body.lower()
+        if "nxdomain" in body_low or "no such domain" in body_low or "domain not found" in body_low:
+            dom = dead.split("@")[1]
+            if dom not in blocs:
+                blocs.append(dom)
+                bl[dom] = "domaine inexistant (NXDOMAIN)"
     if n_dom:
         bl["_maj"] = "bounce shield %s" % datetime.date.today()
         for b in blocs: bl.setdefault(b, "bounce")

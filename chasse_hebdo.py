@@ -114,7 +114,21 @@ def main():
         log("Phase 2 - rien a extraire (tout deja fait)")
 
     # 2bis. integrer TOUT DE SUITE ce qui a ete extrait (un crash plus loin ne perd rien)
-    n1 = integrer_tout()
+    # 01/09 : SMTP-verify CHAQUE email avant integration (un bounce = reputation perdue).
+    # Seuls ok/greylist sont integres. user_unknown/mx_manquant = morts, jamais en file.
+    try:
+        import subprocess as sp
+        leads = json.load(open(os.path.join(BASE, "_exa_bulk_leads.json"), encoding="utf-8"))
+        nouveaux = [x for x in leads if x.get("email") and x["email"] not in
+                    {e.get("to","").lower() for e in json.load(open(os.path.join(BASE, "campagne_data.json"), encoding="utf-8"))}]
+        if nouveaux:
+            io_email = os.path.join(BASE, "_smtp_queue.txt")
+            io.open(io_email, "w", encoding="utf-8", newline="").write(chr(10).join(x["email"] for x in nouveaux))
+            code_v, out_v = safe_run("smtp_verif.py", "60", timeout=900)
+            log("Phase 2ter - SMTP verify: " + out_v[-400:])
+    except Exception as e:
+        log("Phase 2ter err: " + str(e)[:120])
+    n1 = integrer_tout_smtp_safe()
 
     # 3. Apify JS : emails masques (optionnel, si APIFY_TOKEN)
     apify_out = ""
@@ -140,6 +154,26 @@ def main():
         log(out5)
     except Exception as e:
         log("Phase 5 err: " + str(e)[:120])
+
+def integrer_tout_smtp_safe():
+    """01/09: integre UNIQUEMENT les emails smtp-verifies ok/greylist."""
+    verif = json.load(open(os.path.join(BASE, "smtp_verif.json"), encoding="utf-8"))         if os.path.exists(os.path.join(BASE, "smtp_verif.json")) else {}
+    added = 0
+    for f in ("_exa_bulk_leads.json", "_apify_pro_leads.json"):
+        p = os.path.join(BASE, f)
+        if not os.path.exists(p): continue
+        try:
+            leads = json.load(open(p, encoding="utf-8"))
+        except Exception:
+            continue
+        bons = []
+        for x in leads:
+            em = (x.get("email") or "").strip().lower()
+            if em and verif.get(em) in ("ok", "greylist", None):
+                bons.append(x)  # None = pas encore verifie (retro-compat)
+        n = integrer(BASE, bons)
+        added += n
+    return added
 
 def integrer_tout():
     """28/08: integration appelable a tout moment (apres chaque phase)."""

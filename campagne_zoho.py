@@ -43,10 +43,13 @@ def load_bloquees():
         return []
 
 def domaine_bloque(to, bloquees):
-    """True si l'email cible est sur un domaine piege."""
+    """True si l'email cible est piege : domaine blackliste OU email deja mort (bounce 550)."""
     if not to or "@" not in to:
         return True  # pas d'adresse = on ne sait pas envoyer = on bloque
-    dom = to.split("@")[1].lower()
+    low = to.lower()
+    if low in bloquees:  # 01/09 : emails specifiquement morts (bounce) dans la blacklist
+        return True
+    dom = low.split("@")[1]
     for b in bloquees:
         if dom == b or dom.endswith("." + b):
             return True
