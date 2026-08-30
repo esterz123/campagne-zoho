@@ -34,11 +34,14 @@ DAILY_MAX = 25  # 5 boites : contact 5/jour + 4 boites neuves 3/jour (warm-up), 
 BLOQUES = os.path.join(BASE, "domaines_bloques.json")
 
 def load_bloquees():
-    """Domaines a ne JAMAIS contacter (annuaires, scrapers, mails gratuits)."""
+    """Domaines a ne JAMAIS contacter (annuaires, scrapers, mails gratuits) + emails morts (bounce 550)."""
     try:
         with open(BLOQUES, encoding="utf-8") as f:
             j = json.load(f)
-        return [d.lower() for d in j.get("bloques", [])]
+        out = [d.lower() for d in j.get("bloques", [])]
+        # 01/09 : les emails specifiques morts (bounce) sont bloques aussi
+        out += [e.lower() for e in j.get("_emails_morts", [])]
+        return out
     except Exception:
         return []
 
