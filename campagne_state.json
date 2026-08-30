@@ -338,8 +338,9 @@
   "51": {
    "on": "2026-08-17",
    "messageId": "1786978594795138400",
-   "via": "direction",
-   "sent_relance1": "2026-08-20"
+   "via": "contact",
+   "sent_relance1": "2026-08-20",
+   "sent_relance2": "2026-08-30"
   },
   "52": {
    "on": "2026-08-17",
@@ -475,7 +476,8 @@
   "70": {
    "on": "2026-08-27",
    "doublon": true,
-   "via": "hello"
+   "via": "direction",
+   "sent_relance1": "2026-08-30"
   },
   "71": {
    "on": "2026-08-28",
@@ -667,9 +669,20 @@
    "body": "<p>Bonjour M. Babad,<br>Votre site erce-plasturgie.com est invisible quand un industriel cherche des partenaires comme le vôtre sur Google. Vos concurrents, qui ont modernisé leur présence en ligne il y a deux ans, apparaissent en tête. Ce sont eux qui reçoivent les appels, pas vous.<br>Je ne vous propose rien aujourd'hui. En 2 minutes d'analyse, je vous montre exactement ce que vos prospects voient (ou ne voient pas) : lenteur, affichage mobile, manque de crédibilité. Diagnostic gratuit, sans engagement.<br>Répondez simplement \"oui\" à ce mail, et je vous renvoie mes constats sous 48 heures.<br>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/98.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   },
   "99": {
-   "bounce": true,
+   "on": "2026-08-30",
+   "messageId": "1788119168456155100",
+   "via": "commercial",
+   "status_code": 200,
    "to": "michel.jiguet-covex@jcm-decolletage.fr",
-   "note": "SMTP verify user_unknown - jamais envoye"
+   "body": "<p>Bonjour M. JIGUET-COVEX,<br>Votre site jcm-decolletage.fr n'apparaît pas quand un donneur d'ordres cherche \"décolletage\" ou \"sous-traitance mécanique\" sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requêtes : c'est eux qui reçoivent les appels, pas vous.<br>Je ne vous vends rien ici. Je regarde votre site en 2 minutes et je vous dis exactement ce que vos prospects fuient : lenteur du chargement, mauvaise adaptation au mobile, manque de crédibilité visuelle. C'est gratuit, sans engagement.<br>Répondez simplement \"oui\" à ce mail et je vous envoie mes constats sous 48h.<br>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/99.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "100": {
+   "on": "2026-08-30",
+   "messageId": "1788119350664138400",
+   "via": "hello",
+   "status_code": 200,
+   "to": "martine.sanchez@provence-outillage.com",
+   "body": "<p>Bonjour Martine SANCHEZ (CHAMINAS),<br>Votre site provence-outillage.com n'apparaît pas quand un donneur d'ordres de la mécanique industrielle tape \"fournisseur outillage industriel\" sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requêtes, c'est eux qui décrochent les appels, pas vous.<br>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient : lenteur, mauvaise expérience mobile, manque de crédibilité. C'est gratuit, sans engagement.<br>Répondez simplement \"oui\" à ce mail et je vous envoie mes constats sous 48h.<br>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   },
   "102": {
    "bounce": true,
