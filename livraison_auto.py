@@ -27,7 +27,7 @@ sys.path.insert(0, BASE)
 
 REVENUS = os.path.join(BASE, "suivi_revenus.json")
 CAMPAGNE = os.path.join(BASE, "campagne_data.json")
-LIV = os.path.join(os.path.dirname(BASE), "livrable_diagnostic")
+LIV = os.path.join(BASE, "livrable")  # aligne sur generateur_diagnostic.py (dans le repo, dispo cloud)
 MESSAGES = os.path.join(BASE, "messages_livraison.json")
 
 DRY = "--dry-run" in sys.argv
@@ -100,7 +100,7 @@ def main():
 
     print("Paiements a livrer : %d" % len(livraisons))
     for e in livraisons:
-        payer = (e.get("email") or e.get("payeur") or "").strip().lower()
+        payer = (e.get("email_payeur") or e.get("email") or e.get("payeur") or "").strip().lower()
         # 1. trouver le prospect dans la file
         prospect = None
         for x in camp:
