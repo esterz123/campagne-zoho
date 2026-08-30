@@ -1063,6 +1063,56 @@
    "bounce": true,
    "to": "info@aximar.com",
    "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "306": {
+   "bounce": true,
+   "to": "contact@b27.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "307": {
+   "bounce": true,
+   "to": "secretariat@baillesas.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "313": {
+   "bounce": true,
+   "to": "info@armadal.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "316": {
+   "bounce": true,
+   "to": "paris@cabinet-sac.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "317": {
+   "bounce": true,
+   "to": "contact@cabinet12.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "322": {
+   "bounce": true,
+   "to": "commercial@caro-centre.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "327": {
+   "bounce": true,
+   "to": "groupe@chort-batiment.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "332": {
+   "bounce": true,
+   "to": "info@cornut.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "334": {
+   "bounce": true,
+   "to": "dpo@ct-ipc.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "335": {
+   "bounce": true,
+   "to": "contact@de-pierre.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
   }
  },
  "done_notified": false
