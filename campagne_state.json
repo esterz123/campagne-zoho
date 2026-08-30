@@ -3,10 +3,11 @@
   "1": {
    "on": "2026-08-11",
    "manual": true,
-   "note": "SIMI — envoye a la main (programme +10min par Mahdi); DELIVRE via clic Mailinblack par Mahdi le 2026-08-14",
+   "note": "Diagnostic livre en ligne le 31/08 (OFFRE V2)",
    "sent_relance1": "2026-08-14",
    "sent_relance2": "2026-08-18",
-   "via": "info"
+   "via": "info",
+   "go2_livraison_simi": "2026-08-30T23:58:54.213455"
   },
   "2": {
    "on": "2026-08-11",
@@ -84,9 +85,10 @@
    "on": "2026-08-15",
    "via": "hello",
    "doublon": true,
-   "note": "envoye 3x (hello x2 + contact) apres redemarrage",
+   "note": "Relance 3 breakup envoyee le 31/08 (site renvoie vers annuaire)",
    "sent_relance1": "2026-08-15",
-   "sent_relance2": "2026-08-15"
+   "sent_relance2": "2026-08-15",
+   "go2_relance3_itplast": "2026-08-30T23:58:54.703533"
   },
   "12": {
    "on": "2026-08-15",
