@@ -449,12 +449,14 @@
   "46": {
    "on": "2026-08-27",
    "doublon": true,
-   "via": "info"
+   "via": "info",
+   "sent_relance1": "2026-08-30"
   },
   "67": {
    "on": "2026-08-27",
    "doublon": true,
-   "via": "direction"
+   "via": "direction",
+   "sent_relance1": "2026-08-30"
   },
   "68": {
    "on": "2026-08-27",
@@ -637,9 +639,12 @@
    "note": "bounce detecte 2026-08-30"
   },
   "95": {
-   "bounce": true,
+   "on": "2026-08-30",
+   "messageId": "1788112749282138400",
+   "via": "contact",
+   "status_code": 200,
    "to": "pierre.desjardin@desjardins-sa.com",
-   "note": "SMTP verify user_unknown - jamais envoye"
+   "body": "<p>Bonjour M. DESJARDIN,<br>Chez Desjardins SA, votre expertise en décolletage est reconnue. Pourtant, quand un donneur d'ordres tape \"décolletage\" sur Google, votre site desjardins-sa.com n'apparaît pas. Vos concurrents, qui ont refait leur site il y a deux ans, sont devant vous sur ces requêtes. C'est eux qui décrochent les appels, pas vous.<br>Je ne vous vends rien ici. Je regarde votre site deux minutes et je vous dis exactement ce que vos prospects fuient : vitesse, adaptabilité mobile, manque de confiance. C'est gratuit, sans engagement.<br>Répondez simplement \"oui\" à ce mail et je vous envoie mes constats sous 48 heures.<br>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/95.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   },
   "96": {
    "bounce": true,
