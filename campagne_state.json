@@ -733,6 +733,131 @@
    "bounce": true,
    "to": "joel.lemoine@tolerie-forezienne.com",
    "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "120": {
+   "bounce": true,
+   "to": "jm.lizot@ufp-plast.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "122": {
+   "bounce": true,
+   "to": "contact@ajymaconnerie.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "123": {
+   "bounce": true,
+   "to": "dpo@cetim.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "126": {
+   "bounce": true,
+   "to": "contact@chaudronneriedelavareze.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "127": {
+   "bounce": true,
+   "to": "contact@cide-elec.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "128": {
+   "bounce": true,
+   "to": "cne@cne-elec.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "130": {
+   "bounce": true,
+   "to": "compagnonslyon@compagnons-du-devoir.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "133": {
+   "bounce": true,
+   "to": "amp@amp-usinage.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "134": {
+   "bounce": true,
+   "to": "accueil@angouleme-ts.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "135": {
+   "bounce": true,
+   "to": "contact@artisal.fr",
+   "note": "SMTP verify mx_manquant - jamais envoye"
+  },
+  "137": {
+   "bounce": true,
+   "to": "jonchereaccueil@metalleriejonchere.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "141": {
+   "bounce": true,
+   "to": "mail@nsn-industrie.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "144": {
+   "bounce": true,
+   "to": "cpacault@guery.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "145": {
+   "bounce": true,
+   "to": "mgr@mgr.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "151": {
+   "bounce": true,
+   "to": "contact@etitolerie.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "156": {
+   "bounce": true,
+   "to": "contact@pitaval-sarl.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "158": {
+   "bounce": true,
+   "to": "contact@raynier-plomberie.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "159": {
+   "bounce": true,
+   "to": "mail@webency.com",
+   "note": "SMTP verify mx_manquant - jamais envoye"
+  },
+  "160": {
+   "bounce": true,
+   "to": "smba@smba-sas.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "161": {
+   "bounce": true,
+   "to": "schneider@schneider-cie.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "162": {
+   "bounce": true,
+   "to": "contact@michel-perret.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "166": {
+   "bounce": true,
+   "to": "contact@jsefrance.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "170": {
+   "bounce": true,
+   "to": "louis.sitkiewiez@smgconfrere.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "175": {
+   "bounce": true,
+   "to": "contact@pieraut.fr",
+   "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "176": {
+   "bounce": true,
+   "to": "quadratec@quadratecinjection.com",
+   "note": "SMTP verify user_unknown - jamais envoye"
   }
  },
  "done_notified": false
