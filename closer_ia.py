@@ -296,9 +296,16 @@ def main():
         num_p = prosp.get("num")
         if num_p and not objection:
             try:
-                import subprocess, sys as _s
+                import subprocess, sys as _s, glob as _g
                 docx_out = os.path.join(BASE, "livrable", "diag_gratuit_%s.docx" % num_p)
-                subprocess.run([sys.executable, os.path.join(BASE, "generateur_diagnostic.py"),
+                # 31/08 ERE PREUVE : si le rapport MESURE existe deja (generateur_rapports.py,
+                # 24 faits reels), on le livre en 10 secondes au lieu de regenerer un doc type.
+                pre = _g.glob(os.path.join(BASE, "livrable", "rapports", "rapport_%s_*.docx" % num_p))
+                if pre:
+                    docx_out = pre[0]
+                    rapports.append("[RAPPORT-MESURE-DEJA-LA] #%s" % num_p)
+                else:
+                    subprocess.run([sys.executable, os.path.join(BASE, "generateur_diagnostic.py"),
                                 str(num_p), "--out", docx_out],
                                capture_output=True, text=True, timeout=120, cwd=BASE)
                 if os.path.exists(docx_out) and not dry:
