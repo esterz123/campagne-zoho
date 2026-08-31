@@ -486,7 +486,8 @@
   "71": {
    "on": "2026-08-28",
    "doublon": true,
-   "via": "contact"
+   "via": "contact",
+   "sent_relance1": "2026-08-31"
   },
   "75": {
    "on": "2026-08-28",
@@ -496,7 +497,8 @@
   "72": {
    "on": "2026-08-28",
    "doublon": true,
-   "via": "contact"
+   "via": "commercial",
+   "sent_relance1": "2026-08-31"
   },
   "73": {
    "on": "2026-08-28",
@@ -1117,6 +1119,22 @@
    "bounce": true,
    "to": "contact@de-pierre.fr",
    "note": "SMTP verify user_unknown - jamais envoye"
+  },
+  "149": {
+   "on": "2026-08-31",
+   "messageId": "1788178248417138300",
+   "via": "hello",
+   "status_code": 200,
+   "to": "info@dis-bourasseau.fr",
+   "body": "<p>Bonjour,<br>J'ai tape dis-bourasseau.fr dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.<br>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. Testez vous-meme votre site en 30 secondes (gratuit, sans inscription) : https://mahdi-design.com/audit.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "165": {
+   "on": "2026-08-31",
+   "messageId": "1788178430086138300",
+   "via": "info",
+   "status_code": 200,
+   "to": "ribautsa@ribaut.fr",
+   "body": "<p>Bonjour M. RIBAUT,<br>J'ai tape ribaut.fr dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.<br>Je ne vous vends rien ici. Je regarde votre site en deux minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). Répondez simplement \"oui\" à ce mail et je vous envoie mes constats sous 48 heures</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. Testez vous-meme votre site en 30 secondes (gratuit, sans inscription) : https://mahdi-design.com/audit.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   }
  },
  "done_notified": false
