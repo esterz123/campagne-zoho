@@ -1,0 +1,61 @@
+{
+ "date": "2026-08-31",
+ "envoyes_total": 198,
+ "vierges_restants": 156,
+ "boites_actives": 5,
+ "volume_actuel_par_jour": 24,
+ "objectif_hormozi": 100,
+ "escalade": [
+  {
+   "jour": 0,
+   "volume": 24,
+   "note": "actuel"
+  },
+  {
+   "jour": 3,
+   "volume": 34,
+   "note": "+2/boite"
+  },
+  {
+   "jour": 6,
+   "volume": 44,
+   "note": "+2/boite"
+  },
+  {
+   "jour": 9,
+   "volume": 54,
+   "note": "+2/boite"
+  },
+  {
+   "jour": 12,
+   "volume": 64,
+   "note": "+2/boite"
+  },
+  {
+   "jour": 15,
+   "volume": 74,
+   "note": "+2/boite"
+  },
+  {
+   "jour": 18,
+   "volume": 84,
+   "note": "+2/boite"
+  },
+  {
+   "jour": 21,
+   "volume": 94,
+   "note": "+2/boite"
+  },
+  {
+   "jour": 24,
+   "volume": 100,
+   "note": "objectif atteint"
+  }
+ ],
+ "conditions_pour_monte": [
+  "bounce rate < 2% sur les 3 derniers jours (verifier bounce_shield)",
+  "spam complaints = 0",
+  "replies >= 2% (sinon le volume amplifie un message qui ne marche pas)"
+ ],
+ "si_replies_toujours_bas": "NE PAS MONTER LE VOLUME - ameliorer le message d'abord (verdict ab_stats 02/09)"
+}
