@@ -144,3 +144,37 @@ START ERR: {
   + 337 decolletage-usinage.fr score 92
   + 338 decoupacier.com score 88
 PAGES GENEREES: 14 | manifest: 239
+[2026-08-31 11:43:43] === CHASSE HEBDOMADAIRE ===
+[2026-08-31 11:43:43] Phase 0 - recolle systematique (60 niches Exa, dedup auto)
+[2026-08-31 11:44:59] candidats recoltes: 979 -> 998 (+19)
+[2026-08-31 11:44:59] Phase 1 - exa_bulk (collecte + extraction)
+[2026-08-31 11:45:08] sites candidats: 532
+== BULK LEADS: 0 -> /home/runner/work/campagne-zoho/campagne-zoho/_hebdo_exa.json
+[2026-08-31 11:45:08] Phase 2 - extract_seq (chunk dynamique 700)
+[2026-08-31 12:20:08] TIMEOUT extract_seq.py apres 2100s (chunk trop gros ou site lent)
+[2026-08-31 12:20:08] Phase 2ter err: name 'io' is not defined
+[2026-08-31 12:20:08] Phase 3 - Apify contact-info-scraper (emails JS)
+[2026-08-31 12:20:08] 
+URLs a traiter: 851
+START ERR: {
+  "error": {
+    "type": "not-enough-usage-to-run-paid-actor",
+    "message": "By launching this job you will exceed your remaining usage of $0.193544.  Consider upgrading to a paid plan at https://console.apify.com/billing/subscription"
+  }
+}
+
+[2026-08-31 12:20:08]   integre 0 depuis _exa_bulk_leads.json
+[2026-08-31 12:20:08] === CHASSE TERMINEE : +12 puis +0 prospects ===
+[2026-08-31 12:20:45] + 339 cabinetvision.fr score 100
+  + 340 dema-france.com score 92
+  + 341 dpsa-securite.fr score 100
+  + 342 dsdrenov.com score 100
+  + 343 ecovantaro.com score 92
+  + 344 effy.fr score 100
+  + 345 eltf.fr score 75
+  + 346 entoutesecurite.fr score 90
+  + 347 esg1securite.fr score 92
+  + 348 etude-bet.fr score 100
+  + 349 expert-comptable-en-ligne.fr score 100
+  + 350 fermetalu.com score 90
+PAGES GENEREES: 12 | manifest: 251
