@@ -265,6 +265,8 @@ def envoi_go2(dry=False):
          "Diagnostic livre en ligne le 31/08 (OFFRE V2)"),
         ("11", "go2_itplast", "andre.muller@itplast.com", "go2_relance3_itplast",
          "Relance 3 breakup envoyee le 31/08 (site renvoie vers annuaire)"),
+        ("44", "go2_fpsa", "fd@fonderies-dechaumont.com", "go2_urgence_fpsa",
+         "Urgence pirate: liens xena-casino.gr verifies 31/08 03h30, intervention 150 EUR"),
     ]
     state = load_state()
     sent = state.setdefault("sent", {})
