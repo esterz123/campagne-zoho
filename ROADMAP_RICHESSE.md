@@ -64,3 +64,12 @@ Quand STEP 1-4 produisent du recurrent : 100 EUR/jour de liens sponsorises "agen
 ## PROCHAINE ACTION MACHINE (automatique, sans toi)
 Run cloud 6h30 Paris : premiers mails a preuve + nom. Sentinelle alerte Telegram a la 1re
 reponse humaine ou 1er euro reel. Chef-script pousse les ameliorations toutes les 15 min.
+
+## V2 (31/08, 2e passe) — steps 11-16 executes
+11. Vitrine mahdi-design.com verifiee VIVANTE (200, 0.4s) -> les 152 mails renvoient a un site OK. FAIT
+12. Civilite Mme corrigee par le prenom (API Etat met "Gerant" pour une femme). FAIT (reciv auto a chaque chasse)
+13. Nom commercial extrait du SUJET du mail pour les fiches sans raison sociale. FAIT (+1 nom, 41 restent sans = honnete)
+14. Filtre entreprises RADIEES avant toute ecriture de nom. FAIT
+15. Relance 3 ramenee a J+14 (etait J+30, hors fenetre "froid paie J+7-21"). FAIT -> 47 muets recoivent leur R3 des le 11/09
+16. Digest 20H Telegram (envois/replies/argent/ab_stats en 1 message, zero LLM). FAIT (cron f1e943445e41)
+Prochaine passe V3 prevue: verdict ab_stats 02/09 -> reecriture de la file sur l'angle gagnant.
