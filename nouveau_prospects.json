@@ -491,5 +491,26 @@
   ],
   "score": 2,
   "date": "2026-08-30"
+ },
+ {
+  "nom": "Provence Outillage",
+  "siren": "401867692",
+  "naf": "47.52A",
+  "ville": "TAILLADES",
+  "region": "93",
+  "effectif": "21",
+  "dirigeants": [
+   "Laurence Tauleigne (Autre)",
+   "Martine Sanchez (Vice-Président)"
+  ],
+  "date_creation": "1995-07-01",
+  "site": "provence-outillage.fr",
+  "email": [],
+  "constats": [
+   "Copyright 1999",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "date": "2026-08-31"
  }
 ]
