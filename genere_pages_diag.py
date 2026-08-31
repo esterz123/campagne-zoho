@@ -141,7 +141,10 @@ def main():
     for e in sorted(data, key=lambda x: int(x["num"])):
         if fait >= nb: break
         num = str(e["num"])
-        if num in sent or num in man: continue
+        # 31/08 P3 (audit Boss) : les DEJA-ENVOYES sans page recoivent aussi leur page
+        # (le closer et les relances peuvent encore la leur servir). On ne saute
+        # que ceux qui ont deja une page dans le manifeste.
+        if num in man: continue
         site = (e.get("site") or "").strip()
         if not site: continue
         dom, constats, score = scan(site)
