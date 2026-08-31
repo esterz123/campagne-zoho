@@ -1,0 +1,104 @@
+05:54:27 anti-doublon: 310 domaines existants
+05:54:50 [1/100] NO_EMAIL 4 J CHAUDRONNERIE w3.org
+05:55:34 anti-doublon: 310 domaines existants
+05:55:57 [1/100] NO_EMAIL 4 J CHAUDRONNERIE repreneurs.com
+05:56:18 [2/100] NO_EMAIL A.F.U.M.E. ATELIER DE FABRICATION E infonet.fr
+05:56:40 [3/100] NO_EMAIL ABAG (ABATTOIRS DE GRENOBLE) (ABAG) usinedefrance.fr
+05:56:45 [4/100] NO_SITE ABATTOIR ET DECOUPES DES TUILERIES (BEAUVAIS-SUR-TESCOU)
+05:57:05 [5/100] NO_EMAIL ACGR TOLERIE metallurgie.e-pro.fr
+05:57:09 [6/100] NO_SITE ACTIOMS (ACTIOMS) (SAINT-MARCEL)
+05:57:16 [7/100] NO_SITE AG TOLERIE (SAINT-MARTIN-LA-PLAINE)
+05:57:22 [8/100] NO_SITE ALLIANCE CHAUDRONNERIE TUYAUTERIE INDUST (VILLENEUVE-D'OLMES)
+05:57:26 [9/100] NO_SITE ALSACE TOLERIE (ALSACE TOLERIE) (COLMAR)
+05:57:30 [10/100] NO_SITE AMADA OUTILLAGE (VAL-DE-SCIE)
+05:57:38 [11/100] NO_SITE ANJOU DECOLLETAGE (MAUGES-SUR-LOIRE)
+05:57:42 [12/100] NO_SITE AP DECOUPE (ALGRANGE)
+05:57:46 [13/100] NO_SITE APPLICATION DE TECHNIQUES D'ELECTRO-EROS (AMBOISE)
+05:57:51 [14/100] NO_SITE APPLICATION GENERALE MECANIQUE ELECTRIQU (DOMONT)
+05:57:56 [15/100] NO_SITE APPLICATIONS USINAGE DES PLASTIQUES POUR (VILLERS-COTTERETS)
+05:59:17 === PHASE 2 v2 start: 100 candidats, 310 domaines a exclure ===
+06:00:31 [1/100] HOMONYME 4 J CHAUDRONNERIE (SAINTE-BLANDINE) candidats=4-j-chaudronnerie.fr,4-j-chaudronnerie.com,4-j-chaudronnerie.eu
+06:02:22 [2/100] HOMONYME A.F.U.M.E. ATELIER DE FABRICATION E (JARGEAU) candidats=afume.fr,manageo.fr,dnb.com
+06:03:03 [3/100] HOMONYME ABAG (ABATTOIRS DE GRENOBLE) (ABAG) (FONTANIL-CORNILLON) candidats=abag.fr,abag.com,abag.eu
+06:04:14 [4/100] HOMONYME ABATTOIR ET DECOUPES DES TUILERIES (BEAUVAIS-SUR-TESCOU) candidats=abattoir-et-decoupes-des-tuileries.fr,abattoir-et-decoupes-des-tuileries.com,abattoir-et-decoupes-des-tuileries.eu
+06:05:26 [5/100] HOMONYME ACGR TOLERIE (ROSULT) candidats=acgr-tolerie.fr,acgr-tolerie.com,acgr-tolerie.eu
+14:44:45 === PHASE 2 v2 start: 100 candidats, 322 domaines a exclure ===
+14:44:45 reprise: 0 deja traites
+14:47:01 [1/100] HOMONYME 4 J CHAUDRONNERIE (SAINTE-BLANDINE) candidats=societeinfo.com,mesinfos.fr,lessor38.fr
+14:48:11 [2/100] HOMONYME A.F.U.M.E. ATELIER DE FABRICATION E (JARGEAU) candidats=a-f-u-m-e-atelier-de-fabrication-et-d-usinage-mecanique.fr,a-f-u-m-e-atelier-de-fabrication-et-d-usinage-mecanique.com,a-f-u-m-e-atelier-de-fabrication-et-d-usinage-mecanique.eu
+14:49:33 [3/100] HOMONYME ABAG (ABATTOIRS DE GRENOBLE) (ABAG) (FONTANIL-CORNILLON) candidats=abag.fr,abag.com,abag.eu
+14:52:21 [4/100] HOMONYME ABATTOIR ET DECOUPES DES TUILERIES (BEAUVAIS-SUR-TESCOU) candidats=manageo.fr,volailles.fr,certificat.ecocert.com
+14:55:43 === PHASE 2 v2 start: 100 candidats, 322 domaines a exclure ===
+14:55:43 reprise: 0 deja traites
+14:59:36 [1/100] HOMONYME 4 J CHAUDRONNERIE (SAINTE-BLANDINE) candidats=societeinfo.com,mesinfos.fr,lessor38.fr
+15:00:48 [2/100] BLOQUE   A.F.U.M.E. ATELIER DE FABRIC accueil@afume.fr afume.fr (serveur bloque/injoignable (SMTPConnectError))
+15:00:48 FATAL:
+Traceback (most recent call last):
+  File "C:\Users\ulamb\Bureau\prospection\github-campagne\_scout_phase2_chasse.py", line 323, in <module>
+    main()
+  File "C:\Users\ulamb\Bureau\prospection\github-campagne\_scout_phase2_chasse.py", line 312, in main
+    log("[%d/100] %-8s %s %s %s (%s)" % (
+  File "C:\Users\ulamb\Bureau\prospection\github-campagne\_scout_phase2_chasse.py", line 67, in log
+    print(line, flush=True)
+OSError: [Errno 22] Invalid argument
+
+15:15:55 === PHASE 2 v2 start: 100 candidats, 322 domaines a exclure ===
+15:15:55 reprise: 1 deja traites
+15:16:50 [2/100] BLOQUE   A.F.U.M.E. ATELIER DE FABRIC accueil@afume.fr afume.fr (serveur bloque/injoignable (SMTPConnectError))
+15:17:22 [3/100] HOMONYME ABAG (ABATTOIRS DE GRENOBLE) (ABAG) (FONTANIL-CORNILLON) candidats=abag.fr,abag.com,abag.eu
+15:23:51 [4/100] HOMONYME ABATTOIR ET DECOUPES DES TUILERIES (BEAUVAIS-SUR-TESCOU) candidats=manageo.fr,volailles.fr,certificat.ecocert.com
+15:24:03 [5/100] HOMONYME ACGR TOLERIE (ROSULT) candidats=acgr-tolerie.fr,acgr-tolerie.com,acgr-tolerie.eu
+15:28:12 [6/100] HOMONYME ACTIOMS (ACTIOMS) (SAINT-MARCEL) candidats=hackerone.com,status.brave.app,actioms.fr
+15:28:23 [7/100] DOUBLON AG TOLERIE ag-tolerie.com
+15:29:58 [8/100] HOMONYME ALLIANCE CHAUDRONNERIE TUYAUTERIE I (VILLENEUVE-D'OLMES) candidats=hackerone.com,status.brave.app,acti.fr
+15:31:11 [9/100] NO_EMAIL ALSACE TOLERIE (ALSACE TOLERIE) alsace-tolerie.com
+15:34:02 [10/100] HOMONYME AMADA OUTILLAGE (VAL-DE-SCIE) candidats=score3.fr,manageo.fr,xerfi.com
+15:34:16 [11/100] HOMONYME ANJOU DECOLLETAGE (MAUGES-SUR-LOIRE) candidats=anjou-decolletage.fr,anjou-decolletage.com,anjou-decolletage.eu
+15:34:28 [12/100] HOMONYME AP DECOUPE (ALGRANGE) candidats=ap-decoupe.fr,ap-decoupe.com,ap-decoupe.eu
+15:34:54 [13/100] HOMONYME APPLICATION DE TECHNIQUES D'ELECTRO (AMBOISE) candidats=datalegal.fr,atemip.fr,atemip.com
+15:38:27 [14/100] HOMONYME APPLICATION GENERALE MECANIQUE ELEC (DOMONT) candidats=agme.fr,agme.com,application-generale-mecanique-electriqu.fr
+15:40:25 [15/100] HOMONYME APPLICATIONS USINAGE DES PLASTIQUES (VILLERS-COTTERETS) candidats=aupi.fr,aupi.com,applications-usinage-des-plastiques-pour-l-industrie-aupi.fr
+15:41:23 [16/100] HOMONYME ARDEN PLAST SAS (MOUZON) candidats=arden-plast-sas.fr,arden-plast-sas.com,arden-plast-sas.eu
+15:42:14 [17/100] HOMONYME ATELIER CHAUDRONNERIE LASER (ACL23) (FROMENTAL) candidats=acl23.fr,acl23.com,atelier-chaudronnerie-laser.fr
+15:43:13 [18/100] HOMONYME ATELIER DE DECOLLETAGE DE BIGORRE ( (LOUEY) candidats=decolletage.fr,adb.fr,adb.com
+15:44:42 [19/100] HOMONYME ATELIER DE FRAISAGE ET MECANIQUE (A (ATHIS-VAL DE ROUVRE) candidats=afm.fr,afm.com,atelier-de-fraisage-et-mecanique.fr
+15:46:31 [20/100] HOMONYME ATELIER DECOLLETAGE MECANIQUE ISERE (GRENOBLE) candidats=decolletage.fr,ademis.fr,ademis.com
+15:51:33 [21/100] HOMONYME ATELIER INDUSTRIEL TOLERIE SOUDURE  (VERRIERES-EN-ANJOU) candidats=aitssatip.fr,aitssatip.com,atelier-industriel-tolerie-soudure-satip.fr
+15:54:19 [22/100] HOMONYME ATELIER MECANIQUE CHAUDRONNERIE SER (SAINTE AGATHE D'ALIERMONT) candidats=amcs.fr,amcs.com,atelier-mecanique-chaudronnerie-serrurer.fr
+15:55:14 [23/100] HOMONYME ATELIER MECANIQUE DECOLLETAGE SANDE (COURPIERE) candidats=decolletage.fr,atelier-mecanique-decolletage-sanderon.fr,atelier-mecanique-decolletage-sanderon.com
+15:56:16 [24/100] HOMONYME ATELIER MECANIQUE THOUARSAIS D'ELEC (THOUARS) candidats=atelier-mecanique-thouarsais-d-electroerosion-et-usinage.fr,atelier-mecanique-thouarsais-d-electroerosion-et-usinage.com,atelier-mecanique-thouarsais-d-electroerosion-et-usinage.eu
+15:57:26 [25/100] HOMONYME ATELIER SOUDURE TOLERIE CHAUDRONNER (JOUY-LE-MOUTIER) candidats=rubypayeur.com,astc.fr,astc.com
+15:57:46 [26/100] HOMONYME ATELIER TOLERIE MECANIQUE PRECISION (YEBLES) candidats=atelier-tolerie-mecanique-precision-77.fr,atelier-tolerie-mecanique-precision-77.com,atelier-tolerie-mecanique-precision-77.eu
+15:58:16 [27/100] HOMONYME ATELIERS CHAUDRONNERIE CANTAL (ACC) (SANSAC-DE-MARMIESSE) candidats=acc.fr,acc.com,ateliers-chaudronnerie-cantal.fr
+15:58:42 [28/100] HOMONYME ATELIERS CONSTRUCTION MECANIQUE GEN (PAGNY-SUR-MEUSE) candidats=acmg.fr,acmg.com,ateliers-construction-mecanique-generale.fr
+15:59:19 [29/100] HOMONYME ATELIERS DE TOLERIE ANJOU BRETAGNE  (AVRILLE) candidats=atab.fr,atab.com,ateliers-de-tolerie-anjou-bretagne.fr
+15:59:53 [30/100] HOMONYME ATELIERS DE TOLERIE FINE (ATF) (ONNAING) candidats=atf.fr,atf.com,ateliers-de-tolerie-fine.fr
+16:00:27 [31/100] HOMONYME ATELIERS MECANIQUE PRECISION OUTILL (FLEURINES) candidats=decolletage.fr,ampo.fr,ampo.com
+16:01:47 [32/100] OK       ATELIERS OUTILLAGE PRODUCTIO contact@aopb.fr aopb.fr (RCPT code 250)
+16:02:11 [33/100] HOMONYME ATHISIENNE MECANIQUE MOULE ET OUTIL (ATHIS-VAL DE ROUVRE) candidats=athisienne-mecanique-moule-et-outillage.fr,athisienne-mecanique-moule-et-outillage.com,athisienne-mecanique-moule-et-outillage.eu
+16:03:34 [34/100] NO_EMAIL ATLANTIQUE TOLERIE SOUDURE atlantiquetoleriesoudure.fr
+16:04:45 [35/100] HOMONYME AUTOMATISATION MACHINES USINAGE (AC (SEGRE-EN-ANJOU BLEU) candidats=decolletage.fr,amu.fr,amu.com
+16:05:47 [36/100] HOMONYME AUTOMATISME TOLERIE ET MECANIQUE (A (CARIGNAN) candidats=atm.fr,atm.com,automatisme-tolerie-et-mecanique.fr
+16:06:40 [37/100] HOMONYME AXIL PLASTURGIE (CIVRIEUX-D'AZERGUES) candidats=axil-plasturgie.fr,axil-plasturgie.com,axil-plasturgie.eu
+16:06:53 [38/100] HOMONYME BAXTER INJECTION (VINAY) candidats=baxter-injection.com,baxter-injection.fr,baxter-injection.eu
+16:07:35 [39/100] HOMONYME BOULANGERIE JOSSERAND (ALLEMOND) candidats=uneboulangerie.fr,boulangerie-josserand.fr,boulangerie-josserand.com
+16:07:53 [40/100] HOMONYME BREIZH USINAGE SERVICES (PLEYBEN) candidats=breizh-usinage-services.fr,breizh-usinage-services.com,breizh-usinage-services.eu
+16:10:09 [41/100] HOMONYME BRIZARD USINAGE (BRIZARD USINAGE) (VOIRON) candidats=brizard-usinage.fr,brizard-usinage.com,brizard-usinage.eu
+16:11:15 [42/100] HOMONYME CADIOU CHAUDRONNERIE PLASTIQUE (GUENGAT) candidats=cadiou-chaudronnerie-plastique.com,cadiou-chaudronnerie-plastique.fr,cadiou-chaudronnerie-plastique.eu
+16:12:23 [43/100] NO_EMAIL CAMEGA-TOLERIE camega-tolerie.com
+16:12:43 [44/100] HOMONYME CARROSSERIE TOLERIE INDUSTRIELLE GR (MELESSE) candidats=carrosserie-tolerie-industrielle-gromy.fr,carrosserie-tolerie-industrielle-gromy.com,carrosserie-tolerie-industrielle-gromy.eu
+16:13:29 [45/100] HOMONYME CENTRALU USINAGE (GANNAT) candidats=centralu-usinage.fr,centralu-usinage.com,centralu-usinage.eu
+16:14:17 [46/100] HOMONYME CERO CONCEPT REALISA OUTILLAGE (CHALLANS) candidats=cero-concept-realisa-outillage.fr,cero-concept-realisa-outillage.com,cero-concept-realisa-outillage.eu
+16:15:46 [47/100] BLOQUE   CGS PLASTIQUE communication@cgsplastique.fr cgsplastique.fr (serveur bloque/injoignable (SMTPConnectError))
+16:16:20 [48/100] HOMONYME CHARLES LAUZIER (SAINT-GEORGES-D'ESPERANCHE) candidats=charles-lauzier.com,charles-lauzier.fr,charles-lauzier.eu
+16:16:29 [49/100] HOMONYME CHAUDRONNERIE AGNP (NASSANDRES SUR RISLE) candidats=chaudronnerie-agnp.fr,chaudronnerie-agnp.com,chaudronnerie-agnp.eu
+16:19:48 [50/100] HOMONYME CHAUDRONNERIE ALBANAISE - GRANGER ( (ENTRELACS) candidats=predictice.com,blocalps.fr,blocalps.com
+16:20:23 [51/100] NO_EMAIL CHAUDRONNERIE COGNACAISE chaudronnerie-cognacaise.com
+16:20:43 [52/100] HOMONYME CHAUDRONNERIE DE LA RHUNE (TARNOS) candidats=chaudronnerie-de-la-rhune.fr,chaudronnerie-de-la-rhune.com,chaudronnerie-de-la-rhune.eu
+16:21:07 [53/100] HOMONYME CHAUDRONNERIE DU RIED (SAASENHEIM) candidats=cdried.fr,chaudronnerie-du-ried.fr,chaudronnerie-du-ried.com
+16:31:34 [54/100] HOMONYME CHAUDRONNERIE INDUST MAINTENANCE ET (SAINT SAULVE) candidats=cime.fr,cime.com,chaudronnerie-indust-maintenance-etudes.fr
+16:31:55 [55/100] HOMONYME CHAUDRONNERIE INDUSTR CHAMP ARDENNE (MUIZON) candidats=cica.fr,cica.com,chaudronnerie-industr-champ-ardenne.fr
+16:32:07 [56/100] HOMONYME CHAUDRONNERIE LESCAUT SA (BERGERAC) candidats=chaudronnerie-lescaut-sa.fr,chaudronnerie-lescaut-sa.com,chaudronnerie-lescaut-sa.eu
+16:32:16 [57/100] HOMONYME CHAUDRONNERIE LESPINASSE (HIERSAC) candidats=chaudronnerie-lespinasse.fr,chaudronnerie-lespinasse.com,chaudronnerie-lespinasse.eu
+16:32:33 [58/100] HOMONYME CHAUDRONNERIE LOUCHET (CAMBLIGNEUL) candidats=chaudronnerielouchet.fr,chaudronnerie-louchet.fr,chaudronnerie-louchet.com
+16:33:28 [59/100] HOMONYME CHAUDRONNERIE MAINTENANCE MECANIQUE (INGRANDES) candidats=datalegal.fr,cmmi.fr,cmmi.com
