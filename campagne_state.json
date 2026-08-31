@@ -349,8 +349,9 @@
   "52": {
    "on": "2026-08-17",
    "messageId": "1786979316802138400",
-   "via": "commercial",
-   "sent_relance1": "2026-08-21"
+   "via": "contact",
+   "sent_relance1": "2026-08-21",
+   "sent_relance2": "2026-08-31"
   },
   "53": {
    "on": "2026-08-17",
