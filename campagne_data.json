@@ -6,7 +6,8 @@
   "cc": "commercial@simi.fr",
   "subject": "J'ai audite simi.fr ce matin: 38/100",
   "body": "Bonjour,\n\nJ'ai ouvert simi.fr a l'instant. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et une seule page : Google n'a rien a indexer sur vos metiers.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "to_confirmed": true
+  "to_confirmed": true,
+  "site": "https://simi.fr"
  },
  {
   "num": 2,
@@ -15,7 +16,8 @@
   "cc": "",
   "subject": "Votre site slicom-group.com ne s'ouvre pas ce matin",
   "body": "Bonjour,\n\nJ'ai tape slicom-group.com dans mon navigateur ce matin : la page ne s'ouvre pas du tout. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "to_confirmed": true
+  "to_confirmed": true,
+  "site": "https://slicom-group.com"
  },
  {
   "num": 3,
@@ -24,7 +26,8 @@
   "cc": "",
   "subject": "5 polices différentes sur une même page , et ce que ça dit de vos moules",
   "body": "Bonjour,\n\nJ'ai ouvert rouxel-mold.com a l'instant. Le point qui me saute aux yeux : 29 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "to_confirmed": true
+  "to_confirmed": true,
+  "site": "https://rouxel-mold.com"
  },
  {
   "num": 4,
@@ -33,7 +36,8 @@
   "cc": "",
   "subject": "Votre site utilise un composant de 2016, et vos prospects le voient",
   "body": "Bonjour,\n\nJ'ai ouvert milmeca.fr a l'instant. Le point qui me saute aux yeux : WordPress 5.3.18 : version majeure perimee, failles connues.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "to_confirmed": true
+  "to_confirmed": true,
+  "site": "https://milmeca.fr"
  },
  {
   "num": 5,
@@ -42,7 +46,8 @@
   "cc": "",
   "subject": "Votre site tient en 4 Ko, je peux vous montrer ce que ça coûte",
   "body": "Bonjour,\n\nJ'ai ouvert georget.fr a l'instant. Deux choses me sautent aux yeux : une seule page : Google n'a rien a indexer sur vos metiers, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "to_confirmed": true
+  "to_confirmed": true,
+  "site": "https://georget.fr"
  },
  {
   "num": 6,
@@ -51,7 +56,8 @@
   "cc": "info@brugiere-outillage.com",
   "subject": "+58% de CA en 2023, mais votre site n'a pas suivi",
   "body": "Bonjour,\n\nJ'ai ouvert brugiere-outillage.com a l'instant. Le point qui me saute aux yeux : 12 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "to_confirmed": true
+  "to_confirmed": true,
+  "site": "https://brugiere-outillage.com"
  },
  {
   "num": 7,
@@ -61,7 +67,8 @@
   "subject": "Votre site plastiques-atp.fr ne s'ouvre pas ce matin",
   "body": "Bonjour,\n\nJ'ai tape plastiques-atp.fr dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "to_confirmed": true,
-  "note": "EXCEPTION dirigee: dirigeant introuvable via API (garde Bonjour, generique)"
+  "note": "EXCEPTION dirigee: dirigeant introuvable via API (garde Bonjour, generique)",
+  "site": "https://plastiques-atp.fr"
  },
  {
   "num": 8,
@@ -71,7 +78,8 @@
   "subject": "Votre site est illisible sur telephone, je viens de verifier",
   "body": "Bonjour M. Bourrelier,\n\nJ'ai ouvert jsmperrin.fr a l'instant. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "to_confirmed": true,
-  "dirigeant": "Patrick BOURRELIER"
+  "dirigeant": "Patrick BOURRELIER",
+  "site": "https://jsmperrin.fr"
  },
  {
   "num": 9,
@@ -81,7 +89,8 @@
   "subject": "Votre site reflète-t-il la précision que vous offrez en usinage ?",
   "body": "Bonjour M. Masson,\n\nJ'ai ouvert usimeca.fr a l'instant. Le point qui me saute aux yeux : une seule page : Google n'a rien a indexer sur vos metiers.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "to_confirmed": true,
-  "dirigeant": "Sophie MASSON"
+  "dirigeant": "Sophie MASSON",
+  "site": "https://usimeca.fr"
  },
  {
   "num": 10,
@@ -91,7 +100,8 @@
   "subject": "Vos prospects industriels cherchent des pièces techniques en plastique, pas des énigmes.",
   "body": "Bonjour M. Regent,\n\nJ'ai ouvert remiplast.com a l'instant. Deux choses me sautent aux yeux : une seule page : Google n'a rien a indexer sur vos metiers, et ni formulaire ni telephone cliquable : on ne peut pas vous joindre depuis le site.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "to_confirmed": true,
-  "dirigeant": "Marc REGENT"
+  "dirigeant": "Marc REGENT",
+  "site": "https://remiplast.com"
  },
  {
   "num": 11,
@@ -101,7 +111,8 @@
   "to_confirmed": true,
   "subject": "Chrome affiche 'non securise' sur itplast.com",
   "body": "Bonjour M. Muller,\n\nJ'ai ouvert itplast.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et aucune version mobile : Google declasse le site sur telephone.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "dirigeant": "Andre MULLER"
+  "dirigeant": "Andre MULLER",
+  "site": "https://itplast.com"
  },
  {
   "num": 12,
@@ -112,7 +123,8 @@
   "subject": "Votre site affiche 2015, vos prospects comparent avec 2026",
   "body": "Bonjour M. Boumertit,\n\nJ'ai ouvert bgplastic.com a l'instant. Deux choses me sautent aux yeux : 24 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Mohand BOUMERTIT",
-  "note": ""
+  "note": "",
+  "site": "https://bgplastic.com"
  },
  {
   "num": 13,
@@ -122,7 +134,8 @@
   "to_confirmed": true,
   "subject": "J'ai audite desjardins-sa.com ce matin: 54/100",
   "body": "Bonjour M. Blauwe,\n\nJ'ai ouvert desjardins-sa.com a l'instant. Deux choses me sautent aux yeux : le site met 3.4 s a s'afficher, la moitie des visiteurs partent avant, et pas de description : votre resultat Google affiche du texte bricolé.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "dirigeant": "Beatrice DE BLAUWE"
+  "dirigeant": "Beatrice DE BLAUWE",
+  "site": "https://desjardins-sa.com"
  },
  {
   "num": 14,
@@ -133,7 +146,8 @@
   "subject": "Chrome affiche 'non securise' sur rgf-plastique.com",
   "body": "Bonjour M. Béraldin,\n\nJ'ai ouvert rgf-plastique.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et seulement 2 pages : trop peu pour exister dans les recherches.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Mathieu BÉRALDIN",
-  "note": ""
+  "note": "",
+  "site": "https://rgf-plastique.com"
  },
  {
   "num": 15,
@@ -143,7 +157,8 @@
   "to_confirmed": true,
   "subject": "R2C, votre site passe à côté de votre expertise en moules et injection.",
   "body": "Bonjour M. Sirivathana,\n\nJ'ai ouvert r2c-aura.fr a l'instant. Deux choses me sautent aux yeux : 6 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "dirigeant": "Chanthara SIRIVATHANA"
+  "dirigeant": "Chanthara SIRIVATHANA",
+  "site": "https://r2c-aura.fr"
  },
  {
   "num": 16,
@@ -153,7 +168,8 @@
   "to_confirmed": true,
   "subject": "Votre site Erce Plasturgie manque-t-il de visibilité face à vos concurrents en injection plastique ?",
   "body": "Bonjour M. Babad,\n\nJ'ai ouvert erce-plasturgie.com a l'instant. Deux choses me sautent aux yeux : une seule page : Google n'a rien a indexer sur vos metiers, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "dirigeant": "Cyriac BABAD"
+  "dirigeant": "Cyriac BABAD",
+  "site": "https://erce-plasturgie.com"
  },
  {
   "num": 17,
@@ -163,7 +179,8 @@
   "to_confirmed": true,
   "subject": "Votre site de décolletage à Sallanches reflète-t-il vraiment l'excellence de votre atelier depuis 1979.",
   "body": "Bonjour M. Covex,\n\nJ'ai ouvert jcm-decolletage.fr a l'instant. Le point qui me saute aux yeux : ni formulaire ni telephone cliquable : on ne peut pas vous joindre depuis le site.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "dirigeant": "Michel JIGUET-COVEX"
+  "dirigeant": "Michel JIGUET-COVEX",
+  "site": "https://jcm-decolletage.fr"
  },
  {
   "num": 18,
@@ -174,7 +191,8 @@
   "subject": "Fonderie Lemer, votre site inspire-t-il la confiance de vos donneurs d'ordre industriels ?",
   "body": "Bonjour,\n\nJ'ai ouvert fonderie-lemer.com a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "",
-  "note": "EXCEPTION dirigee: dirigeant introuvable via API (garde Bonjour, generique)"
+  "note": "EXCEPTION dirigee: dirigeant introuvable via API (garde Bonjour, generique)",
+  "site": "https://fonderie-lemer.com"
  },
  {
   "num": 19,
@@ -184,7 +202,8 @@
   "to_confirmed": true,
   "subject": "Votre site affiche Copyright 1999, mais votre activité, elle, est bien ancrée en 2024.",
   "body": "Bonjour M. Tauleigne,\n\nJe suis alle voir votre site ce matin. Plutot que de vous ecrire une longue lettre, je prefere vous montrer deux ou trois points en direct, ca prend cinq minutes. Diagnostic gratuit, sans engagement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "dirigeant": "Laurence TAULEIGNE"
+  "dirigeant": "Laurence TAULEIGNE",
+  "site": "https://provence-outillage.com"
  },
  {
   "num": 20,
@@ -195,7 +214,8 @@
   "subject": "usinage-alsace.com met 3 secondes a s'afficher (mesure a l'instant)",
   "body": "Bonjour M. Ossola,\n\nJ'ai ouvert usinage-alsace.com a l'instant. Deux choses me sautent aux yeux : le site met 3.3 s a s'afficher, la moitie des visiteurs partent avant, et pas de description : votre resultat Google affiche du texte bricolé.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Vincent OSSOLA",
-  "note": ""
+  "note": "",
+  "site": "https://usinage-alsace.com"
  },
  {
   "num": 21,
@@ -205,7 +225,8 @@
   "to_confirmed": true,
   "subject": "J'ai audite maine-tolerie.fr ce matin: 52/100",
   "body": "Bonjour M. Guillotin,\n\nJ'ai ouvert maine-tolerie.fr a l'instant. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et une seule page : Google n'a rien a indexer sur vos metiers.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "dirigeant": "Charlene GUILLOTIN"
+  "dirigeant": "Charlene GUILLOTIN",
+  "site": "https://maine-tolerie.fr"
  },
  {
   "num": 22,
@@ -215,7 +236,8 @@
   "to_confirmed": true,
   "subject": "AG Tolerie mérite un site qui reflète la qualité de votre atelier",
   "body": "Bonjour M. Semaoune,\n\nJ'ai ouvert ag-tolerie.com a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "dirigeant": "Camal SEMAOUNE"
+  "dirigeant": "Camal SEMAOUNE",
+  "site": "https://ag-tolerie.com"
  },
  {
   "num": 23,
@@ -226,7 +248,8 @@
   "subject": "France Injection Service, votre site ne montre aucune activité récente aux donneurs d'ordre industriels.",
   "body": "Bonjour M. Mallet,\n\nJ'ai ouvert france-injection-service.fr a l'instant. Deux choses me sautent aux yeux : 22 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Arnaud MALLET",
-  "note": ""
+  "note": "",
+  "site": "https://france-injection-service.fr"
  },
  {
   "num": 24,
@@ -237,7 +260,8 @@
   "subject": "usinage-dieppois.fr met 4 secondes a s'afficher (mesure a l'instant)",
   "body": "Bonjour M. Mauny,\n\nJ'ai ouvert usinage-dieppois.fr a l'instant. Deux choses me sautent aux yeux : le site met 4.1 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Laurent MAUNY",
-  "note": ""
+  "note": "",
+  "site": "https://usinage-dieppois.fr"
  },
  {
   "num": 25,
@@ -247,7 +271,8 @@
   "to_confirmed": true,
   "subject": "Votre site manque de clarté sur la précision de votre décolletage face à vos clients industriels",
   "body": "Bonjour M. Drault,\n\nJ'ai ouvert drault-decolletage.com a l'instant. Le point qui me saute aux yeux : pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "dirigeant": "Sebastien DRAULT"
+  "dirigeant": "Sebastien DRAULT",
+  "site": "https://drault-decolletage.com"
  },
  {
   "num": 26,
@@ -258,7 +283,8 @@
   "subject": "Votre héritage industriel mérite une communication à la hauteur",
   "body": "Bonjour M. Delaroux,\n\nJ'ai ouvert decolletage-jurassien.fr a l'instant. Deux choses me sautent aux yeux : pas de sitemap : Google decouvre vos pages tout seul, lentement, et ni formulaire ni telephone cliquable : on ne peut pas vous joindre depuis le site.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Guillaume DELAROUX",
-  "note": ""
+  "note": "",
+  "site": "https://decolletage-jurassien.fr"
  },
  {
   "num": 27,
@@ -268,7 +294,8 @@
   "to_confirmed": true,
   "subject": "gay-decolletage.fr met 4 secondes a s'afficher (mesure a l'instant)",
   "body": "Bonjour M. Rosenstiehl,\n\nJ'ai ouvert gay-decolletage.fr a l'instant. Deux choses me sautent aux yeux : le site met 4.2 s a s'afficher, la moitie des visiteurs partent avant, et pas de description : votre resultat Google affiche du texte bricolé.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "dirigeant": "Chloé ROSENSTIEHL"
+  "dirigeant": "Chloé ROSENSTIEHL",
+  "site": "https://gay-decolletage.fr"
  },
  {
   "num": 28,
@@ -278,7 +305,8 @@
   "to_confirmed": true,
   "subject": "Votre site ne met pas en avant votre décolletage de précision, alors que c'est votre meilleur argument",
   "body": "Bonjour M. Gresle,\n\nJ'ai ouvert morel-decolletage.fr a l'instant. Deux choses me sautent aux yeux : pas de sitemap : Google decouvre vos pages tout seul, lentement, et ni formulaire ni telephone cliquable : on ne peut pas vous joindre depuis le site.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "dirigeant": "Stephanie GRESLE"
+  "dirigeant": "Stephanie GRESLE",
+  "site": "https://morel-decolletage.fr"
  },
  {
   "num": 29,
@@ -288,7 +316,8 @@
   "subject": "Votre site WordPress, une carte de visite numérique qui ne joue pas en votre faveur.",
   "body": "Bonjour M. Leguillier,\n\nJ'ai ouvert amp.fr a l'instant. Le point qui me saute aux yeux : 19 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Julie FATH LEGUILLIER",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://amp.fr"
  },
  {
   "num": 30,
@@ -299,7 +328,8 @@
   "body": "Bonjour M. Bleuze,\n\nJ'ai ouvert artoisplastiques.fr a l'instant. Deux choses me sautent aux yeux : le site met 4.9 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Valerie BLEUZE",
   "note": "EXCEPTION dirigee: BLEUZE = commissaire aux comptes (interdit); candidat holding PLAST & METAL -> Jerome LOBEL a confirmer via Pappers avant envoi",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://artoisplastiques.fr"
  },
  {
   "num": 31,
@@ -309,7 +339,8 @@
   "subject": "Votre site montre des pièces mécaniques, pas votre savoir-faire",
   "body": "Bonjour M. Delamarre,\n\nJ'ai ouvert atelierphysis.fr a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Fabrice DELAMARRE",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://atelierphysis.fr"
  },
  {
   "num": 32,
@@ -319,7 +350,8 @@
   "subject": "axil-plasturgie.com met 4 secondes a s'afficher (mesure a l'instant)",
   "body": "Bonjour M. Vallin,\n\nJ'ai ouvert axil-plasturgie.com a l'instant. Deux choses me sautent aux yeux : le site met 3.8 s a s'afficher, la moitie des visiteurs partent avant, et 8 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Cedric ROMERA-VALLIN",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://axil-plasturgie.com"
  },
  {
   "num": 33,
@@ -329,7 +361,8 @@
   "subject": "Votre site de décolletage perd des clients parce que vos prospects ne trouvent pas votre numéro de téléphone.",
   "body": "Bonjour M. Reu,\n\nJ'ai ouvert decolletage-de-reu.com a l'instant. Le point qui me saute aux yeux : pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Joffrey DE REU",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://decolletage-de-reu.com"
  },
  {
   "num": 34,
@@ -339,7 +372,8 @@
   "subject": "decolletage-elbe.fr met 4 secondes a s'afficher (mesure a l'instant)",
   "body": "Bonjour M. Bene,\n\nJ'ai ouvert decolletage-elbe.fr a l'instant. Deux choses me sautent aux yeux : le site met 4.4 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Geoffroy BENE",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://decolletage-elbe.fr"
  },
  {
   "num": 35,
@@ -349,7 +383,8 @@
   "subject": "Votre site de 2016, un frein pour valoriser votre expertise en usinage de précision.",
   "body": "Bonjour M. Cartaux,\n\nJ'ai ouvert elcam-usinage.fr a l'instant. Deux choses me sautent aux yeux : une seule page : Google n'a rien a indexer sur vos metiers, et 25 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Mathilde CARTAUX",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://elcam-usinage.fr"
  },
  {
   "num": 36,
@@ -359,7 +394,8 @@
   "subject": "Fonderies De Larians, votre savoir-faire mérite une vitrine à la hauteur de votre expertise.",
   "body": "Bonjour M. Baci,\n\nJ'ai ouvert fonderiesdelarians.fr a l'instant. Le point qui me saute aux yeux : 9 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Patrick BACI",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://fonderiesdelarians.fr"
  },
  {
   "num": 37,
@@ -369,7 +405,8 @@
   "subject": "Votre site ne reflète pas la qualité de votre fonderie à Nangis",
   "body": "Bonjour M. Roch,\n\nJ'ai ouvert fonderies-de-nangis.fr a l'instant. Deux choses me sautent aux yeux : pas de description : votre resultat Google affiche du texte bricolé, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Stephane ROCH",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://fonderies-de-nangis.fr"
  },
  {
   "num": 38,
@@ -380,7 +417,8 @@
   "body": "Bonjour M. Graf,\n\nJ'ai ouvert graf.fr a l'instant. Deux choses me sautent aux yeux : le site met 3.1 s a s'afficher, la moitie des visiteurs partent avant, et 11 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Otto GRAF",
   "note": "",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://graf.fr"
  },
  {
   "num": 39,
@@ -390,7 +428,8 @@
   "subject": "Votre site de 2016 envoie un signal involontaire sur votre expertise industrielle",
   "body": "Bonjour M. Burgos,\n\nJ'ai ouvert lesplastiquesdecores.fr a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Julien BURGOS",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://lesplastiquesdecores.fr"
  },
  {
   "num": 40,
@@ -401,7 +440,8 @@
   "body": "Bonjour M. Millet,\n\nJ'ai ouvert milletplastics-group.com a l'instant. Deux choses me sautent aux yeux : 22 photos sans legende : invisibles dans Google Images, et ni formulaire ni telephone cliquable : on ne peut pas vous joindre depuis le site.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Christine MILLET",
   "note": "",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://milletplastics-group.com"
  },
  {
   "num": 41,
@@ -412,7 +452,8 @@
   "body": "Bonjour M. Allamand,\n\nJ'ai tape amd-decolletage.fr dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Emile ALLAMAND",
   "note": "",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://amd-decolletage.fr"
  },
  {
   "num": 42,
@@ -422,7 +463,8 @@
   "subject": "Chrome affiche 'non securise' sur tolerie-forezienne.com",
   "body": "Bonjour M. Lemoine,\n\nJ'ai ouvert tolerie-forezienne.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et le site met 4.4 s a s'afficher, la moitie des visiteurs partent avant.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Joel LEMOINE",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://tolerie-forezienne.com"
  },
  {
   "num": 43,
@@ -433,7 +475,8 @@
   "body": "Bonjour M. Remond,\n\nJ'ai ouvert tolerie-remond.com a l'instant. Deux choses me sautent aux yeux : le site met 4.7 s a s'afficher, la moitie des visiteurs partent avant, et 31 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Guillaume REMOND",
   "note": "",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://tolerie-remond.com"
  },
  {
   "num": 44,
@@ -444,7 +487,8 @@
   "body": "Bonjour M. Alloin,\n\nJ'ai ouvert fonderies-dechaumont.com a l'instant et j'ai arrete ma lecture sur un point grave : un bloc texte cache, en grec, tourne dans le code de votre page d'accueil. Il cache un lien vers un site de casino en ligne (xena-casino.gr). C'est le hack spam SEO classique : invisible pour vous, lisible par Google, qui peut vous classer site nuisible et faire disparaitre fonderies-dechaumont.com des resultats.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : ou se cache le bloc, comment le retirer proprement, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Nicolas ALLOIN",
   "urgence": "PIRATAGE",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://fonderies-dechaumont.com"
  },
  {
   "num": 45,
@@ -452,7 +496,8 @@
   "to": "contact@agripolyane.com",
   "subject": "Votre site affiche des technologies des années 2010",
   "body": "Bonjour,\n\nJ'ai ouvert agripolyane.com a l'instant. Deux choses me sautent aux yeux : pas de description : votre resultat Google affiche du texte bricolé, et 29 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://agripolyane.com"
  },
  {
   "num": 46,
@@ -460,7 +505,8 @@
   "to": "contact@alencon-plastic.com",
   "subject": "Alencon Plastic, votre site attire-t-il assez les donneurs d'ordre industriels ?",
   "body": "Bonjour,\nJ'ai ouvert alencon-plastic.com a l'instant. Deux choses me sautent aux yeux : 10 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\nCela signifie qu'ils captent des appels que vos prospects ne vous adressent pas.\nJe peux vous offrir un diagnostic gratuit de 30 minutes pour identifier précisément ce qui freine votre visibilité auprès de vos donneurs d'ordre. Sans engagement.\nDites simplement \"oui\", je vous envoie mes constats sous 48h\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://alencon-plastic.com"
  },
  {
   "num": 47,
@@ -468,7 +514,8 @@
   "to": "contact@aplicit.com",
   "subject": "Votre page d'accueil ne dit pas ce que vous faites en 5 secondes",
   "body": "Bonjour,\n\nJ'ai ouvert aplicit.com a l'instant. Le point qui me saute aux yeux : 22 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://aplicit.com"
  },
  {
   "num": 48,
@@ -476,7 +523,8 @@
   "to": "contact@a3plast.fr",
   "subject": "a3plast.fr met 4 secondes a s'afficher (mesure a l'instant)",
   "body": "Bonjour,\n\nJ'ai ouvert a3plast.fr a l'instant. Deux choses me sautent aux yeux : le site met 3.9 s a s'afficher, la moitie des visiteurs partent avant, et 4 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://a3plast.fr"
  },
  {
   "num": 49,
@@ -484,7 +532,8 @@
   "to": "contact@alpha-industries.fr",
   "subject": "alpha-industries.fr met 3 secondes a s'afficher (mesure a l'instant)",
   "body": "Bonjour,\n\nJ'ai ouvert alpha-industries.fr a l'instant. Le point qui me saute aux yeux : le site met 3.5 s a s'afficher, la moitie des visiteurs partent avant.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://alpha-industries.fr"
  },
  {
   "num": 50,
@@ -492,7 +541,8 @@
   "to": "contact@amdi.fr",
   "subject": "Votre page d'accueil semble vide au premier regard",
   "body": "Bonjour,\n\nJ'ai ouvert amdi.fr a l'instant. Le point qui me saute aux yeux : 21 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://amdi.fr"
  },
  {
   "num": 51,
@@ -500,7 +550,8 @@
   "to": "commercial@acs-alpes.com",
   "subject": "Chrome affiche 'non securise' sur acs-alpes.com",
   "body": "Bonjour,\n\nJ'ai ouvert acs-alpes.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et une seule page : Google n'a rien a indexer sur vos metiers.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "to_confirmed": false
+  "to_confirmed": false,
+  "site": "https://acs-alpes.com"
  },
  {
   "num": 52,
@@ -511,7 +562,8 @@
   "subject": "Chrome affiche 'non securise' sur mpi-mecanique.com",
   "body": "Bonjour M. Veziant,\n\nJ'ai ouvert mpi-mecanique.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et le site met 6.6 s a s'afficher, la moitie des visiteurs partent avant.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Sylvain VEZIANT",
-  "note": ""
+  "note": "",
+  "site": "https://mpi-mecanique.com"
  },
  {
   "num": 53,
@@ -522,7 +574,8 @@
   "subject": "Votre site ne montre pas votre niveau d'usinage",
   "body": "Bonjour M. Varon,\n\nJ'ai ouvert wanadoo.fr a l'instant. Deux choses me sautent aux yeux : une seule page : Google n'a rien a indexer sur vos metiers, et pas de description : votre resultat Google affiche du texte bricolé.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Fabrice VARON",
-  "note": ""
+  "note": "",
+  "site": "https://wanadoo.fr"
  },
  {
   "num": 54,
@@ -533,7 +586,8 @@
   "subject": "Votre site met trop de temps à répondre",
   "body": "Bonjour M. Gaillard,\n\nJ'ai ouvert centreplastique.fr a l'instant. Deux choses me sautent aux yeux : pas de description : votre resultat Google affiche du texte bricolé, et 12 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Jean-Noël GAILLARD",
-  "note": ""
+  "note": "",
+  "site": "https://centreplastique.fr"
  },
  {
   "num": 55,
@@ -544,7 +598,8 @@
   "subject": "mousse-plastique-artois.com met 3 secondes a s'afficher (mesure a l'instant)",
   "body": "Bonjour M. Naessens,\n\nJ'ai ouvert mousse-plastique-artois.com a l'instant. Deux choses me sautent aux yeux : le site met 3.2 s a s'afficher, la moitie des visiteurs partent avant, et pas de description : votre resultat Google affiche du texte bricolé.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Elena NAESSENS",
-  "note": ""
+  "note": "",
+  "site": "https://mousse-plastique-artois.com"
  },
  {
   "num": 56,
@@ -555,7 +610,8 @@
   "subject": "anjos.com met 3 secondes a s'afficher (mesure a l'instant)",
   "body": "Bonjour M. Barbarin,\n\nJ'ai ouvert anjos.com a l'instant. Le point qui me saute aux yeux : le site met 3.4 s a s'afficher, la moitie des visiteurs partent avant.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Christian BARBARIN",
-  "note": ""
+  "note": "",
+  "site": "https://anjos.com"
  },
  {
   "num": 57,
@@ -566,7 +622,8 @@
   "subject": "Chrome affiche 'non securise' sur demc.fr",
   "body": "Bonjour M. Dorleac,\n\nJ'ai ouvert demc.fr a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et 3 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Philippe DORLEAC",
-  "note": ""
+  "note": "",
+  "site": "https://demc.fr"
  },
  {
   "num": 58,
@@ -577,7 +634,8 @@
   "subject": "Votre page d'accueil est presque vide",
   "body": "Bonjour M. Gouva,\n\nJ'ai ouvert fraisageservices.fr a l'instant. Deux choses me sautent aux yeux : 18 photos sans legende : invisibles dans Google Images, et ni formulaire ni telephone cliquable : on ne peut pas vous joindre depuis le site.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Arnaud GOUVA",
-  "note": ""
+  "note": "",
+  "site": "https://fraisageservices.fr"
  },
  {
   "num": 59,
@@ -588,7 +646,8 @@
   "subject": "Votre site semble inachevé depuis 2017",
   "body": "Bonjour M. Chouzenoux,\n\nJ'ai ouvert begc.fr a l'instant. Deux choses me sautent aux yeux : 18 photos sans legende : invisibles dans Google Images, et mention legale figee en 2017 : le site parait abandonne.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Vincent CHOUZENOUX",
-  "note": ""
+  "note": "",
+  "site": "https://begc.fr"
  },
  {
   "num": 60,
@@ -599,7 +658,8 @@
   "subject": "J'ai audite omedec.com ce matin: 46/100",
   "body": "Bonjour M. Confirmer,\n\nJ'ai ouvert omedec.com a l'instant. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et le site met 4.1 s a s'afficher, la moitie des visiteurs partent avant.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "A CONFIRMER",
-  "note": ""
+  "note": "",
+  "site": "https://omedec.com"
  },
  {
   "num": 61,
@@ -610,7 +670,8 @@
   "subject": "Votre parc matériel est votre meilleur argument, et il est invisible",
   "body": "Bonjour M. Libbrecht,\n\nJ'ai ouvert nordfraisage.fr a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Vincent LIBBRECHT",
-  "note": ""
+  "note": "",
+  "site": "https://nordfraisage.fr"
  },
  {
   "num": 62,
@@ -621,7 +682,8 @@
   "subject": "Chrome affiche 'non securise' sur edelweiss-decolletage.fr",
   "body": "Bonjour M. Perrollaz,\n\nJ'ai ouvert edelweiss-decolletage.fr a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et le site met 4.1 s a s'afficher, la moitie des visiteurs partent avant.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Ludovic PERROLLAZ",
-  "note": ""
+  "note": "",
+  "site": "https://edelweiss-decolletage.fr"
  },
  {
   "num": 63,
@@ -632,7 +694,8 @@
   "subject": "Votre site est illisible sur telephone, je viens de verifier",
   "body": "Bonjour M. Gaultier,\n\nJ'ai ouvert somep.eu a l'instant. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et 3 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Arnaud GAULTIER",
-  "note": ""
+  "note": "",
+  "site": "https://somep.eu"
  },
  {
   "num": 64,
@@ -643,7 +706,8 @@
   "subject": "Chrome affiche 'non securise' sur capest.fr",
   "body": "Bonjour M. Wrobel,\n\nJ'ai ouvert capest.fr a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et aucune version mobile : Google declasse le site sur telephone.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "David WROBEL",
-  "note": ""
+  "note": "",
+  "site": "https://capest.fr"
  },
  {
   "num": 65,
@@ -654,7 +718,8 @@
   "subject": "J'ai audite amp-france.fr ce matin: 56/100",
   "body": "Bonjour M. Segui,\n\nJ'ai ouvert amp-france.fr a l'instant. Deux choses me sautent aux yeux : le site met 3.1 s a s'afficher, la moitie des visiteurs partent avant, et pas de description : votre resultat Google affiche du texte bricolé.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Frederic SEGUI",
-  "note": ""
+  "note": "",
+  "site": "https://amp-france.fr"
  },
  {
   "num": 66,
@@ -665,7 +730,8 @@
   "subject": "Votre site mpe-prod.com ne s'ouvre pas ce matin",
   "body": "Bonjour M. Hoog,\n\nJ'ai tape mpe-prod.com dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Jean-Michel HOOG",
-  "note": ""
+  "note": "",
+  "site": "https://mpe-prod.com"
  },
  {
   "num": 67,
@@ -676,7 +742,8 @@
   "subject": "Votre site est toujours en construction",
   "body": "Bonjour M. Roussel,\n\nJe suis alle voir votre site ce matin. Plutot que de vous ecrire une longue lettre, je prefere vous montrer deux ou trois points en direct, ca prend cinq minutes. Diagnostic gratuit, sans engagement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Philippe ROUSSEL",
-  "note": ""
+  "note": "",
+  "site": "https://bprecimeca.fr"
  },
  {
   "num": 68,
@@ -687,7 +754,8 @@
   "subject": "Usinage et chaudronnerie sur site : votre site de 2021 limite vos appels",
   "body": "Bonjour M. QUEIROZ OLIVEIRA,\nJ'ai ouvert ucss.fr a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\nOr, vos concurrents qui ont mis à jour leur site il y a deux ans sont aujourd'hui devant vous dans ces recherches. Résultat : ce sont eux qui captent les appels, pas vous.\nJe ne vous propose rien aujourd'hui. Je regarde votre site en deux minutes et vous partage mes constats concrets : vitesse d'affichage, adaptation mobile, éléments qui inspirent confiance ou pas. Répondez simplement \"oui\" à ce mail et je vous envoie mes observations sous 48 heures\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Marcio QUEIROZ OLIVEIRA",
-  "note": ""
+  "note": "",
+  "site": "https://ucss.fr"
  },
  {
   "num": 69,
@@ -698,7 +766,8 @@
   "subject": "Votre site tourne sur un CMS de 2001",
   "body": "Bonjour,\n\nJ'ai ouvert plast-fb.com a l'instant. Deux choses me sautent aux yeux : une seule page : Google n'a rien a indexer sur vos metiers, et ni formulaire ni telephone cliquable : on ne peut pas vous joindre depuis le site.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Bonjour Mme LOUCHART,",
-  "note": ""
+  "note": "",
+  "site": "https://plast-fb.com"
  },
  {
   "num": 70,
@@ -709,7 +778,8 @@
   "subject": "Chrome affiche 'non securise' sur mcp-fi.fr",
   "body": "Bonjour M. PORTRAT,\nJ'ai ouvert mcp-fi.fr a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et une seule page : Google n'a rien a indexer sur vos metiers.\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie.C'est gratuit et sans engagement.\nRépondez simplement \"oui\" à ce mail et je vous envoie mes observations sous 48 heures\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Fabien PORTRAT",
-  "note": ""
+  "note": "",
+  "site": "https://mcp-fi.fr"
  },
  {
   "num": 71,
@@ -720,7 +790,8 @@
   "subject": "Chrome affiche 'non securise' sur hgpi-group.fr",
   "body": "Bonjour M. BOCHEREAU,\nJ'ai ouvert hgpi-group.fr a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et une seule page : Google n'a rien a indexer sur vos metiers.\nJe peux vous montrer en 30 minutes gratuits, sans engagement, ce que vos visiteurs fuient sur votre site : vitesse, affichage mobile, ou manque de repères visuels concrets. Répondez simplement par \"oui\" et je vous envoie mes constats sous 48 heures.\nBien cordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Bonjour M. BOCHEREAU,",
-  "note": ""
+  "note": "",
+  "site": "https://hgpi-group.fr"
  },
  {
   "num": 72,
@@ -731,7 +802,8 @@
   "subject": "J'ai audite actech-innovation.com ce matin: 49/100",
   "body": "Bonjour M. BARGAIN,\nJ'ai ouvert actech-innovation.com a l'instant. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et une seule page : Google n'a rien a indexer sur vos metiers.\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Thomas BARGAIN",
-  "note": ""
+  "note": "",
+  "site": "https://actech-innovation.com"
  },
  {
   "num": 73,
@@ -742,7 +814,8 @@
   "subject": "aplast.fr met 3 secondes a s'afficher (mesure a l'instant)",
   "body": "Bonjour M. LACOUR,\nJ'ai ouvert aplast.fr a l'instant. Le point qui me saute aux yeux : le site met 3.1 s a s'afficher, la moitie des visiteurs partent avant.\nJe ne vous vends rien aujourd'hui. En deux minutes d'analyse, je peux vous montrer précisément ce que vos prospects fuient sur votre site : un chargement lent, une expérience mobile médiocre, ou un manque de crédibilité visuelle. C'est un diagnostic gratuit, sans engagement.\nRépondez simplement \"oui\" à ce mail, et je vous envoie mes constats sous 48 heures\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Alexandre LACOUR",
-  "note": ""
+  "note": "",
+  "site": "https://aplast.fr"
  },
  {
   "num": 74,
@@ -753,7 +826,8 @@
   "subject": "appcell.fr met 4 secondes a s'afficher (mesure a l'instant)",
   "body": "Bonjour M. BILLIARD,\nJ'ai ouvert appcell.fr a l'instant. Deux choses me sautent aux yeux : le site met 3.7 s a s'afficher, la moitie des visiteurs partent avant, et 20 photos sans legende : invisibles dans Google Images.\nJe ne vous vends rien ici. Je regarde votre site en moins de deux minutes et je vous donne les trois points qui freinent vos clients : vitesse de chargement, adaptation mobile et manque de confiance\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Jean-Pierre BILLIARD",
-  "note": ""
+  "note": "",
+  "site": "https://appcell.fr"
  },
  {
   "num": 75,
@@ -764,7 +838,8 @@
   "subject": "Vos prospects industriels ne vous trouvent plus sur Google, et ça coûte cher",
   "body": "Bonjour M. BOLE,\nJ'ai ouvert dmg-decoupage.com a l'instant. Deux choses me sautent aux yeux : 3 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\nJe ne vous propose rien pour l'instant. Je regarde votre site en 2 minutes et je vous partage mes constats sur ce qui freine vos prospects : vitesse de chargement, adaptation mobile, ou manque de confiance. Diagnostic gratuit, sans engagement.\nRépondez simplement \"oui\" à ce mail et je vous envoie mes observations sous 48h\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Philippe BOLE",
-  "note": ""
+  "note": "",
+  "site": "https://dmg-decoupage.com"
  },
  {
   "num": 76,
@@ -775,7 +850,8 @@
   "subject": "3 points qui coutent des clients a Wanadoo",
   "body": "Bonjour M. RIVOIRE,\nJ'ai ouvert wanadoo.fr a l'instant. Deux choses me sautent aux yeux : une seule page : Google n'a rien a indexer sur vos metiers, et pas de description : votre resultat Google affiche du texte bricolé.\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie. Répondez simplement \"oui\" à ce mail et je vous envoie mes constats sous 48 heures\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Bernard RIVOIRE",
-  "note": ""
+  "note": "",
+  "site": "https://wanadoo.fr"
  },
  {
   "num": 77,
@@ -786,7 +862,8 @@
   "subject": "Question rapide sur votre site, Oaca",
   "body": "Bonjour M. Brouste,\nJ'ai ouvert oaca.fr a l'instant. Deux choses me sautent aux yeux : 70 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie. Répondez simplement \"oui\" à ce mail et je vous envoie mes observations sous 48h\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Vincent BROUSTE",
-  "note": ""
+  "note": "",
+  "site": "https://oaca.fr"
  },
  {
   "num": 78,
@@ -797,7 +874,8 @@
   "subject": "torras.fr met 4 secondes a s'afficher (mesure a l'instant)",
   "body": "Bonjour M. Tazerout,\nJ'ai ouvert torras.fr a l'instant. Deux choses me sautent aux yeux : le site met 3.5 s a s'afficher, la moitie des visiteurs partent avant, et 23 photos sans legende : invisibles dans Google Images.\nJe ne vous propose rien aujourd'hui. Je regarde votre site pendant 2 minutes et je vous partage mes constats sur ce qui manque aux yeux de vos prospects (vitesse, mobile, confiance). Répondez simplement \"oui\" à ce mail et je vous envoie mes observations sous 48 heures\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Malek TAZEROUT",
-  "note": ""
+  "note": "",
+  "site": "https://torras.fr"
  },
  {
   "num": 79,
@@ -808,7 +886,8 @@
   "subject": "Question rapide sur votre site, Atemip",
   "body": "Bonjour M. SAUSSE,\nJ'ai ouvert atemip.com a l'instant. Deux choses me sautent aux yeux : seulement 4 pages : trop peu pour exister dans les recherches, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\nJe ne vous propose rien ici, juste un diagnostic rapide. Je regarde votre site en 2 minutes et je vous indique ce que vos prospects fuient : la lenteur, l'affichage mobile médiocre, le manque de crédibilité visuelle\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Cédric SAUSSE",
-  "note": ""
+  "note": "",
+  "site": "https://atemip.com"
  },
  {
   "num": 80,
@@ -819,7 +898,8 @@
   "subject": "Chrome affiche 'non securise' sur mgp-voray.com",
   "body": "Bonjour M. Sirurguet,\nJ'ai ouvert mgp-voray.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et une seule page : Google n'a rien a indexer sur vos metiers.\nJe ne vous vends rien ici. Je regarde votre site en deux minutes et je vous dis exactement ce que vos prospects fuient : vitesse de chargement, adaptation mobile, manque de confiance. Répondez simplement \"oui\" à ce mail et je vous envoie mes constats sous 48 heures\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Yves SIRURGUET",
-  "note": ""
+  "note": "",
+  "site": "https://mgp-voray.com"
  },
  {
   "num": 81,
@@ -830,7 +910,8 @@
   "subject": "Votre site baxter-injection.com ne s'ouvre pas ce matin",
   "body": "Bonjour M. GINOUVIER,\nJ'ai tape baxter-injection.com dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Patrick GINOUVIER",
-  "note": ""
+  "note": "",
+  "site": "https://baxter-injection.com"
  },
  {
   "num": 82,
@@ -841,7 +922,8 @@
   "subject": "outillageprogress.com met 6 secondes a s'afficher (mesure a l'instant)",
   "body": "Bonjour M. BREDIF,\nJ'ai ouvert outillageprogress.com a l'instant. Deux choses me sautent aux yeux : le site met 6.3 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Arnault BREDIF",
-  "note": ""
+  "note": "",
+  "site": "https://outillageprogress.com"
  },
  {
   "num": 83,
@@ -850,7 +932,8 @@
   "cc": "",
   "to_confirmed": true,
   "subject": "Question rapide sur votre site, Adp85",
-  "body": "Bonjour,\nJ'ai ouvert adp85.com a l'instant. Deux choses me sautent aux yeux : seulement 4 pages : trop peu pour exister dans les recherches, et 11 photos sans legende : invisibles dans Google Images.\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie.Répondez simplement \"oui\" et je vous envoie mes constats sous 48h\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  "body": "Bonjour,\nJ'ai ouvert adp85.com a l'instant. Deux choses me sautent aux yeux : seulement 4 pages : trop peu pour exister dans les recherches, et 11 photos sans legende : invisibles dans Google Images.\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie.Répondez simplement \"oui\" et je vous envoie mes constats sous 48h\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "site": "https://adp85.com"
  },
  {
   "num": 84,
@@ -859,7 +942,8 @@
   "cc": "",
   "to_confirmed": true,
   "subject": "lg-metallerie.fr met 5 secondes a s'afficher (mesure a l'instant)",
-  "body": "Bonjour,\nJ'ai ouvert lg-metallerie.fr a l'instant. Deux choses me sautent aux yeux : le site met 5.2 s a s'afficher, la moitie des visiteurs partent avant, et seulement 4 pages : trop peu pour exister dans les recherches.\nJe ne vous vends rien. En 2 minutes d'analyse de votre site, je vous montre exactement ce que vos prospects fuient : lenteur, mauvaise expérience mobile, manque de crédibilité. Diagnostic gratuit, sans engagement.\nRépondez simplement \"oui\" à ce mail et je vous envoie mes constats sous 48 heures\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  "body": "Bonjour,\nJ'ai ouvert lg-metallerie.fr a l'instant. Deux choses me sautent aux yeux : le site met 5.2 s a s'afficher, la moitie des visiteurs partent avant, et seulement 4 pages : trop peu pour exister dans les recherches.\nJe ne vous vends rien. En 2 minutes d'analyse de votre site, je vous montre exactement ce que vos prospects fuient : lenteur, mauvaise expérience mobile, manque de crédibilité. Diagnostic gratuit, sans engagement.\nRépondez simplement \"oui\" à ce mail et je vous envoie mes constats sous 48 heures\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "site": "https://lg-metallerie.fr"
  },
  {
   "num": 85,
@@ -868,7 +952,8 @@
   "cc": "",
   "to_confirmed": true,
   "subject": "Question rapide sur votre site, Magafor",
-  "body": "Bonjour,\nJe me suis penché sur votre site magafor.com pour vous donner un retour rapide sur ce que vos prospects fuient quand ils cherchent \"industrielle\" sur Google. Vos concurrents qui ont mis à jour leur site il y a deux ans apparaissent devant vous sur ces requêtes, ce sont eux qui reçoivent les appels, pas vous.\nJe ne vous vendrai rien aujourd'hui. Je regarde votre site pendant 2 minutes et je vous partage mes constats sur la vitesse, l'affichage mobile et la confiance que vos visiteurs perçoivent (ou pas). C'est gratuit, sans engagement.\nRépondez simplement \"oui\" à ce mail et je vous envoie mes observations sous 48 heures.\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  "body": "Bonjour,\nJe me suis penché sur votre site magafor.com pour vous donner un retour rapide sur ce que vos prospects fuient quand ils cherchent \"industrielle\" sur Google. Vos concurrents qui ont mis à jour leur site il y a deux ans apparaissent devant vous sur ces requêtes, ce sont eux qui reçoivent les appels, pas vous.\nJe ne vous vendrai rien aujourd'hui. Je regarde votre site pendant 2 minutes et je vous partage mes constats sur la vitesse, l'affichage mobile et la confiance que vos visiteurs perçoivent (ou pas). C'est gratuit, sans engagement.\nRépondez simplement \"oui\" à ce mail et je vous envoie mes observations sous 48 heures.\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "site": "https://magafor.com"
  },
  {
   "num": 86,
@@ -877,7 +962,8 @@
   "cc": "",
   "to_confirmed": true,
   "subject": "3 points qui coutent des clients a Carlesimo-Groupe",
-  "body": "Bonjour M. Robtin,\nJ'ai ouvert carlesimo-groupe.fr a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  "body": "Bonjour M. Robtin,\nJ'ai ouvert carlesimo-groupe.fr a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "site": "https://carlesimo-groupe.fr"
  },
  {
   "num": 87,
@@ -886,7 +972,8 @@
   "cc": "",
   "to_confirmed": true,
   "subject": "Question rapide sur votre site, Metalleriefrancilienne",
-  "body": "Bonjour,\nJ'ai ouvert metalleriefrancilienne.fr a l'instant. Le point qui me saute aux yeux : une seule page : Google n'a rien a indexer sur vos metiers.\nJe ne vous vends rien. Je vous envoie le rapport deja fait et vous verrez exactement ce que vos prospects fuient (vitesse de chargement, navigation mobile, manque de preuves industrielles)\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com"
+  "body": "Bonjour,\nJ'ai ouvert metalleriefrancilienne.fr a l'instant. Le point qui me saute aux yeux : une seule page : Google n'a rien a indexer sur vos metiers.\nJe ne vous vends rien. Je vous envoie le rapport deja fait et vous verrez exactement ce que vos prospects fuient (vitesse de chargement, navigation mobile, manque de preuves industrielles)\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "site": "https://metalleriefrancilienne.fr"
  },
  {
   "num": 88,
@@ -894,7 +981,8 @@
   "to": "contact@france-injection-service.fr",
   "subject": "3 points qui coutent des clients a France-Injection-Service",
   "body": "Bonjour,\n\nJ'ai ouvert france-injection-service.fr a l'instant. Deux choses me sautent aux yeux : 22 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "to_confirmed": true
+  "to_confirmed": true,
+  "site": "https://france-injection-service.fr"
  },
  {
   "num": 89,
@@ -902,7 +990,8 @@
   "to": "info@id-plasturgie.fr",
   "subject": "J'ai audite id-plasturgie.fr ce matin: 56/100",
   "body": "Bonjour,\nJ'ai ouvert id-plasturgie.fr a l'instant. Deux choses me sautent aux yeux : le site met 3.8 s a s'afficher, la moitie des visiteurs partent avant, et 17 photos sans legende : invisibles dans Google Images.\nJe ne vous vends rien ici. Je jette un œil à votre site pendant 2 minutes et je vous donne mes constats sur ce qui freine vos prospects : vitesse d'affichage, adaptation mobile, ou manque de confiance dans votre message. Répondez simplement \"oui\" à ce mail et je vous envoie mes observations sous 48 heures\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "to_confirmed": true
+  "to_confirmed": true,
+  "site": "https://id-plasturgie.fr"
  },
  {
   "num": 90,
