@@ -252,3 +252,165 @@ Portfolio : mahdi-design.com
 1. "On prefere en discuter de vive voix / appelez-nous" -> "Tout se fait par ecrit, c'est ma methode : vous gardez la trace de chaque etape, vous repondez quand vous voulez, et je livre plus vite. Posez-moi vos questions ici, je reponds dans l'heure."
 2. "Envoyez une reference / un client du meme secteur" -> "Portfolio : mahdi-design.com, et le diagnostic que je vous ai livre est un exemple direct de mon niveau de detail. Je peux aussi vous montrer un cas identique (site vitrine industriel) avant tout engagement."
 3. "Je vais reflechir" -> "Bien sur. Pour que votre reflexion soit complete : l'offre rentree a 2900 EUR tient jusqu'au 30 septembre, le diagnostic a 79 EUR est remboursable sans condition, et le Pack Serenite se resilie par simple mail. Il n'y a aucun engagement caché. Je note votre reponse quand vous voulez."
+
+---
+
+# ANNEXE B : SIGNATURES INDIRECTES (15 formulations réelles)
+
+Principe : le "oui" propre n'existe presque jamais. Un dirigeant de PME industrielle fatigue signe son interet autrement : "interessant...", "c'est combien deja ?", "appelez-nous" (piege), "envoyez-moi une facture". Chaque signature ci-dessous est suivie de la reponse prete a coller (max 120 mots), qui close vers l'etape suivante : lien PayPal au bon montant OU une seule question de qualification.
+
+Rappel montants et liens par lead :
+- ITPLAST : diagnostic 79 EUR, lien existant paypal.com/ncp/payment/FQYKP733699LQ
+- FPSA : intervention urgence 150 EUR, lien a generer au montant de 150 EUR
+- SIMI : Pack Serenite 69 EUR/mois (ou 690 EUR/an, 2 mois offerts) ou refonte 2900 EUR jusqu'au 30 septembre, liens a generer au montant
+Les crochets [ ... ] dans les reponses = a adapter au lead concerne avant envoi.
+
+## 1. "Interessant... je fais tourner en interne."
+Signal chaud, risque : mourir dans un tiroir. Reponse :
+
+Bonjour,
+
+Parfait, je facilite la transmission : virez ce mail tel quel, tout est dedans. Et pour ne pas rester bloque en attente de reunion, je vous propose une etape simple : [offre + montant], livree sous 48h, [garantie remboursement / fait sous 48h]. Si un collegue a besoin d'une reponse technique, je la lui donne par mail dans l'heure. Repondez simplement "go" et je vous envoie le lien de paiement au bon montant.
+
+Mahdi
+Portfolio : mahdi-design.com
+
+## 2. "C'est combien deja ?"
+Celui qui demande le prix n'est pas froid. Reponse courte, puis close :
+
+Bonjour,
+
+Reprise en une ligne : [montant], livre sous 48h, rembourse integralement par simple mail si vous n'y trouvez aucune valeur, et deduit du projet si vous allez plus loin. Pas de frais cache, pas d'abonnement, tout par ecrit. Repondez "go" et je vous envoie a l'instant le lien de paiement au bon montant.
+
+Mahdi
+Portfolio : mahdi-design.com
+
+## 3. "Appelez-moi au 06 xx xx xx xx" (CAS CRITIQUE, piege a eviter)
+JAMAIS d'appel, sans frustrer. Reponse :
+
+Bonjour,
+
+C'est note, mais chez moi tout se passe par ecrit : c'est ma methode, vous gardez la trace de chaque etape, vous repondez quand vous voulez, et je livre plus vite. Voici la suite en 2 lignes : 1) je vous envoie le lien de paiement au bon montant, 2) des reception je demarre et je livre sous 48h. Posez-moi vos questions ici, je reponds dans l'heure. Repondez "go" et c'est parti.
+
+Mahdi
+Portfolio : mahdi-design.com
+
+## 4. "Envoyez-moi une facture." (CAS facture directe)
+Il achete, on ne re-negocie rien, on livre. Reponse en une seule fois :
+
+Bonjour,
+
+C'est parti. Voici le lien de paiement : [lien PayPal au bon montant]. Pour etablir la facture, j'ai besoin de 3 infos par retour de mail : raison sociale et SIRET, adresse de facturation, nom du signataire. Des reception de ces 3 lignes, la facture suit par mail et je demarre immediatement. Tout reste par ecrit.
+
+Mahdi
+Portfolio : mahdi-design.com
+
+## 5. "On a deja quelqu'un pour le site."
+Ne jamais attaquer le prestataire en place, le transformer en test. Reponse :
+
+Bonjour,
+
+Tant mieux, je ne suis pas la pour le remplacer. Deux options : 1) je vous envoie les preuves techniques [liens casino dans le code / frameset OVH / HTTPS refuse], vous les transmettez, s'il corrige sous 48h vous n'avez rien a me payer, 2) s'il ne repond pas ou nie l'evidence, mon intervention a [montant] reste ouverte. Vous preferez "preuves" ou "go" ?
+
+Mahdi
+Portfolio : mahdi-design.com
+
+## 6. "Envoyez-moi plus de details."
+Il veut une raison de plus de dire oui. Reponse factuelle, puis close :
+
+Bonjour,
+
+Voici l'essentiel en 3 points, le reste est dans le document : 1) [constat verifie 1], 2) [constat verifie 2], 3) [constat verifie 3]. Chaque point est verifiable par votre equipe en moins d'une minute. La suite est simple : [offre + montant], livree sous 48h, rembourse si aucune valeur. Repondez "go" pour le lien de paiement.
+
+Mahdi
+Portfolio : mahdi-design.com
+
+## 7. "Ce que ca inclut concretement ?"
+Reponse inventaire, puis close :
+
+Bonjour,
+
+Concretement vous recevez : 1) l'etat des lieux point par point avec captures, 2) 5 actions classees par urgence, 3) mes reponses ecrites a toutes les questions de votre equipe technique, sans limite. Et si vous allez plus loin, le montant est deduit du projet. Rien de vague, tout est verifiable. Repondez "go" et je vous envoie le lien de paiement au bon montant.
+
+Mahdi
+Portfolio : mahdi-design.com
+
+## 8. "Je reviens vers vous, periode chargee."
+Respecter, mais laisser une porte datee. Reponse :
+
+Bonjour,
+
+Je comprends, je ne vous derange pas. Un seul point factuel pour votre calendrier : [FPSA : les liens casino sont toujours en ligne et chaque jour s'indexe chez Google / SIMI et ITPLAST : l'offre rentree se termine le 30 septembre]. Je repasse une seule fois en fin de semaine pour l'etat des lieux, ensuite j'attends votre feu vert. Quand vous voulez : un mot suffit, "go".
+
+Mahdi
+Portfolio : mahdi-design.com
+
+## 9. "Vous pouvez faire un geste sur le prix ?"
+Prix ferme, mais leviers reels. Reponse :
+
+Bonjour,
+
+Franchement : le prix est ferme, c'est ce qui garantit la livraison sous 48h sans surprise. Ce que je peux faire : [SIMI : l'offre rentree est deja a 2900 EUR au lieu de 3900 jusqu'au 30 septembre / ITPLAST : les 79 EUR sont integralement deduits du projet / FPSA : 150 EUR est deja le tarif d'urgence sans facturer le diagnostic]. Et si le budget est le seul frein : Pack Serenite a 69 EUR par mois sans engagement. Repondez "pack" ou "go".
+
+Mahdi
+Portfolio : mahdi-design.com
+
+## 10. "C'est qui ? Vous avez eu mon mail comment ?"
+Transparence totale + porte de sortie. Reponse :
+
+Bonjour,
+
+Question legitime. Je suis Mahdi, createur independant, portfolio : mahdi-design.com. Votre adresse est une adresse de contact publique [page de contact / annuaire professionnel], et je n'ai verifie qu'une chose avant d'ecrire : votre propre site. Tout ce que j'affirme est verifiable en 30 secondes par n'importe qui chez vous. Si vous preferez que je ne vous contacte plus, repondez "stop" et je vous retire de ma liste sans relance.
+
+Mahdi
+Portfolio : mahdi-design.com
+
+## 11. "Vous me garantissez que ca ne reviendra pas ?" (FPSA)
+Jamais de fausse garantie, du concret. Reponse :
+
+Bonjour,
+
+Reponse honnete : celui qui promet du 100 % ne merite pas votre confiance. Ce que je garantis par ecrit : suppression complete des acces portes par les fraudeurs, mises a jour, pare-feu, sauvegarde automatique, rapport avant/apres. Et pour la duree : le Pack Serenite a 69 EUR par mois, sans engagement, inclut la surveillance quotidienne du code et l'intervention immediate si une alerte revient. On commence par le nettoyage a 150 EUR, vous decidez ensuite. Repondez "go".
+
+Mahdi
+Portfolio : mahdi-design.com
+
+## 12. "Ca prend combien de temps ?"
+Il calcule sa charge mentale, pas la tienne. Reponse :
+
+Bonjour,
+
+Pour vous : 10 minutes par mail, un questionnaire de 10 questions auquel vous repondez a votre rythme. Pour moi : [diagnostic livre sous 48h / intervention faite sous 48h / refonte livree sous 15 jours]. Aucun rendez-vous, aucun telephone, vous validez chaque etape par ecrit. Repondez "go" et je vous envoie le lien de paiement au bon montant.
+
+Mahdi
+Portfolio : mahdi-design.com
+
+## 13. "Ce n'est pas moi qui decide."
+Ne pas insister sur lui, l'utiliser comme pont. Reponse :
+
+Bonjour,
+
+Je comprends, et ca me rend service. Deux options : 1) vous virez ce mail tel quel a la bonne personne et je reprends la main la-bas, 2) vous me donnez son adresse et je lui envoie les memes elements en mentionnant les votres. Je peux aussi vous faire un resume en 5 lignes a coller dans votre echange interne. Repondez "transfert" ou donnez-moi l'adresse.
+
+Mahdi
+Portfolio : mahdi-design.com
+
+## 14. "Envoyez-moi des references / un portfolio."
+Sa meilleure reference est deja chez lui. Reponse :
+
+Bonjour,
+
+Voici : mahdi-design.com. Et la vraie reference, vous l'avez deja recue : le diagnostic sur votre propre site, avec les constats verifies en live. C'est exactement ce niveau de detail que je livre sur chaque projet. Pour un cas identique en industriel, repondez "exemple" et je vous envoie un avant/apres complet par mail. Pour lancer : repondez "go", je vous envoie le lien de paiement.
+
+Mahdi
+Portfolio : mahdi-design.com
+
+## 15. "On verra apres le 15 / fin septembre."
+Il ne dit pas non, il dit "pas maintenant". Reponse :
+
+Bonjour,
+
+Note, je ne vous ecrirai plus avant le 16. Deux points factuels pour votre calendrier : [FPSA : les liens pirates seront toujours en ligne, et l'indexation Google aussi / SIMI et ITPLAST : l'offre rentree a 2900 EUR se termine le 30 septembre, apres quoi le tarif repart a 3900]. Si vous changez d'avis avant, un mot suffit : "go".
+
+Mahdi
+Portfolio : mahdi-design.com
