@@ -38,6 +38,7 @@ def main():
     rc, _ = run(["injecteur_preuves.py"], "2/4 INJECTE LES CONSTATS MESURES")
     if rc != 0:
         return 1
+    run(["generateur_rapports.py"], "2bis RAPPORTS DOCX PRE-GENERES (promesse 'deja fait' = vraie)")
     run(["sequencage_constats.py", "--apply"], "3/4 REGENERE LES RELANCES")
     rc, _ = run(["validateur_mail.py"], "4/4 VALIDE LES REGLES D'OR")
     print("\nCHAINE PREUVE TERMINEE" + (" - VIOLATIONS BLOQUANTES, NE PAS PUSH" if rc else " - PRET AU PUSH"))
