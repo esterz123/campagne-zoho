@@ -40,7 +40,31 @@ def norm_dom(x):
 CLAIM = re.compile(
     r"n'appara[iî]t pas|n'apparait|tombent sur vos concurrents|sont devant vous|"
     r"le v[oô]tre non|recherche .* sur Google", re.I)
-ALREADY = re.compile(r"^J'ai (ouvert|tape|passé|verifie)", re.I)
+ALREADY = re.compile(r"^J'ai (ouvert|tape|cherche|verifie|pass)", re.I)
+
+
+def objet_pour(p):
+    """Objet bâti sur LE fait mesuré le plus fort. Zéro affirmation gratuite.
+    Retourne None = on garde l'objet d'origine (site propre ou non auditable)."""
+    dom = p.get("domaine", "")
+    note = p.get("note")
+    if p.get("pirate"):
+        return "Des liens de fraude tournent sur %s en ce moment" % dom
+    if p.get("etat") == "BLOQUE" or note is None:
+        return None
+    if p.get("etat") != "VIVANT":
+        return "Votre site %s ne s'ouvre pas ce matin" % dom
+    if p.get("parking"):
+        return "%s affiche une page de parking, pas votre entreprise" % dom
+    if p.get("http_seul"):
+        return "Chrome affiche 'non securise' sur %s" % dom
+    if note < 60:
+        return "J'ai audite %s ce matin: %d/100" % (dom, note)
+    if p.get("mobile") is False:
+        return "Votre site est illisible sur telephone, je viens de verifier"
+    if p.get("temps_s") and p["temps_s"] > 3:
+        return "%s met %.0f secondes a s'afficher (mesure a l'instant)" % (dom, p["temps_s"])
+    return None  # site correct : objet d'origine, constat honnête dans le corps
 
 
 def main():
@@ -53,6 +77,7 @@ def main():
     injectes = 0
     conserves = 0
     sautes = 0
+    objets = 0
     exemples = []
     for r in data:
         num = str(r.get("num"))
@@ -91,11 +116,19 @@ def main():
             conserves += 1  # site propre, le constat dit "rien a reprocher" : utile aussi
         lines[idx] = constat
         new_body = "\n".join(lines)
-        if new_body != body:
+        nouveau_objet = objet_pour(p)
+        objet_change = False
+        if nouveau_objet and clean(nouveau_objet) != clean(r.get("subject", "")):
+            r["subject"] = clean(nouveau_objet)
+            objet_change = True
+        if new_body != body or objet_change:
             r["body"] = clean(new_body)
             injectes += 1
+            if objet_change:
+                objets += 1
             if len(exemples) < 3:
-                exemples.append((num, p.get("domaine"), note, constat[:90]))
+                exemples.append((num, p.get("domaine"), note,
+                                 (r.get("subject", "")[:50] + " || " + constat[:60])))
 
     print("constats dispo: %d | mails injectes: %d | sites propres: %d | sautes: %d"
           % (len(preuves), injectes, conserves, sautes))
