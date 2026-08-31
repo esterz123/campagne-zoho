@@ -353,8 +353,18 @@ def main():
     sent_today = [k for k, v in sent.items()
                   if v.get("on") == today or v.get("sent_relance1") == today
                   or v.get("sent_relance2") == today]
-    remaining = [(num, e) for num, e in sorted(emails.items(), key=lambda kv: int(kv[0]))
-                 if num not in sent and e.get("to")]
+    # PREUVE-DRIVEN (31/08) : envoyer d'abord les sites les plus cassés.
+    # constats_sites.json (verificateur_site.py) porte la note /100 mesurée.
+    # Sans constat = note neutre 50 (après les cassés, avant les nickel).
+    try:
+        NOTES = {k: (v.get("note") if v.get("note") is not None else 50)
+                 for k, v in json.load(open(os.path.join(BASE, "constats_sites.json"),
+                                            encoding="utf-8")).items()}
+    except Exception:
+        NOTES = {}
+    remaining = [(num, e) for num, e in sorted(
+        emails.items(), key=lambda kv: (NOTES.get(kv[0], 50), int(kv[0])))
+        if num not in sent and e.get("to")]
 
     # Relances J+3 / J+7, prioritaires sur les nouveaux emails
     fu = load_followups()
