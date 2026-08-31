@@ -1,0 +1,67 @@
+Date : 31/08/2026
+OFFRE V2 - diagnostic gratuit au 1er contact
+Angles creatifs pour les 152 prospects vierges de la campagne.
+Placeholders obligatoires dans chaque corps : {pseudo_prenom} et {concret_entreprise}.
+
+=====================================================================
+
+ANGLE 1 : LA FIERTE DU METIER MAL RACONTEE EN LIGNE
+
+Objet : Votre metier merite mieux que trois lignes sur votre site
+
+Corps :
+Bonjour {pseudo_prenom},
+
+{concret_entreprise} : ca se voit que le savoir-faire est reel. Mais sur votre site, il tient en trois lignes generiques, comme chez tout le monde.
+
+Un client qui ne vous connait pas juge en cinq secondes. Si votre metier reste dans l'atelier et pas sur la page, il part chez celui qui le raconte mieux.
+
+Je ne vous vends rien ici. Je vous propose un diagnostic gratuit de votre site : ce qui raconte mal votre metier, et quoi corriger en premier. Sans engagement.
+
+Repondez simplement "oui" a ce mail et je vous envoie mes notes sous 48h.
+
+Cordialement,
+Mahdi
+Portfolio : mahdi-design.com
+
+=====================================================================
+
+ANGLE 2 : LE CONCURRENT LOCAL VISIBLE, VOUS INVISIBLE
+
+Objet : Un concurrent de votre zone vous devance sur Google
+
+Corps :
+Bonjour {pseudo_prenom},
+
+J'ai cherche votre activite comme le ferait un client : {concret_entreprise}. Votre site n'etait pas dans les premiers resultats. Un concurrent de votre departement, lui, etait en tete, avec un site plus recent.
+
+Ce n'est pas une question de qualite, c'est une question de visibilite. Le client qui ne vous trouve pas appelle l'autre.
+
+Plutot que de vous vendre quoi que ce soit, je vous offre un diagnostic gratuit : je liste ce qui vous bloque (mobile, vitesse, contenu) et ce que le concurrent a en plus.
+
+Repondez "oui" et je vous l'envoie sous 48h.
+
+Cordialement,
+Mahdi
+Portfolio : mahdi-design.com
+
+=====================================================================
+
+ANGLE 3 : LE SITE, CET EMPLOYE QUI TRAVAILLE 24H/24 (OU QUI DORT)
+
+Objet : Votre seul employe qui travaille 24h/24, il fait quoi la nuit ?
+
+Corps :
+Bonjour {pseudo_prenom},
+
+Vos salaries portent {concret_entreprise} du lundi au vendredi. Votre site, lui, est le seul employe qui travaille 24h/24, week-ends compris.
+
+La question : est-ce qu'il vend, ou est-ce qu'il dort ? Un site lent, date ou muet sur mobile ne ramene aucun appel le dimanche soir, quand un decideur cherche son prestataire.
+
+Je vous propose un diagnostic gratuit de cet employe silencieux : ce qu'il rate, ce qu'il pourrait ramener. Rien a acheter, sans engagement.
+
+Repondez "oui" et je vous envoie mes constats sous 48h.
+
+Cordialement,
+Mahdi
+Portfolio : mahdi-design.com

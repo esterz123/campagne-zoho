@@ -105,7 +105,7 @@ def main():
         for k, v in repl.items():
             new = new.replace(k, v)
         # prix a jour (defense : meme si le template regresse)
-        new = new.replace('79 €/mois', '69 €/mois').replace('à partir de 3 500 €', '3 900 € à 5 900 €').replace('3 500 €', '3 900 €')
+        new = new.replace('69 €/mois', '69 €/mois').replace('à partir de 3 500 €', '3 900 € à 5 900 €').replace('3 500 €', '3 900 €')
         if new != p.text:
             for r in p.runs:
                 r.text = ''

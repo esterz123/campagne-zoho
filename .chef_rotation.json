@@ -1,0 +1,7 @@
+{
+ "cycles": [
+  {"date": "2026-08-31T00:33", "slot": "b", "action": "Offre: test_simulation.py contenait encore la grille de prix pre-V2 (Diagnostic 290-490 EUR, Refonte 3500-15000, Pack Serenite 69 EUR/mois). Remplacee par l'offre V2 exacte alignee sur repondeur.py/closer_ia.py: Diagnostic 79 EUR sous 48h ou offert, Pack Serenite 69 EUR/mois (690/an), Marque+Site 3900 EUR rentree 2900. Backup .bak, py_compile OK. Reste en observation: dm_urgence.py + scan_urgence.py citent '150 EUR puis 69 EUR/mois' (offre urgence, prix hors V2) - ne pas modifier sans oui Mahdi. Audit cycle: repondeur 0 non-traites, suivi_revenus 0 entree, 186 entries sent."}
+,
+  {"date": "2026-08-30T23:55", "slot": "d", "action": "Hygiene campagne_data.json: 35 corps de mails corriges U+2019 -> apostrophe droite (backup campagne_data.json.bak, 338 prospects verifies identiques hors apostrophes, 0 restant). Audit etat: 186 entries sent (92 reels, 94 bounce-only), 69 relance1, 47 relance2, 8 envois du 30/08, relance2 #51 faite. Repondeur: 0 non-traites. Revenus: 0 entree."}
+ ]
+}

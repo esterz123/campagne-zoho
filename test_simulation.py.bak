@@ -64,7 +64,7 @@ def build_prompt(prosp, msginfo):
 Prospect (entreprise connue de la campagne) : %s
 Notre email initial envoye a ce prospect etait : "%s"
 Le client vient de repondre : "%s" (sujet : %s)
-Nos offres exactes : Diagnostic de credibilite 79 EUR une seule fois (livre sous 48h ou offert, rembourse si pas de valeur, montant deduit du projet si refonte ensuite). Pack Serenite site : 69 EUR/mois sans engagement (ou 690 EUR/an, 2 mois offerts) : surveillance, corrections, maintenance et amelioration continue du site. A placer systematiquement apres chaque diagnostic ou vente, c'est le revenu recurrent qui fait la valeur de l'entreprise. Projet complet MARQUE + SITE : 3900 EUR (offre de rentrée 2900 EUR).
+Nos offres exactes : Diagnostic express 290 EUR (jusqu'a 490 EUR selon complexite, rapport en 48h, rembourse si pas de valeur). Refonte de marque 3500 a 15000 EUR. Pack securite WordPress 79 EUR/mois, premier mois offert, sans engagement.
 Regles strictes :
 - Francais naturel, ton chaleureux et pro, jamais de pub ni de survente.
 - PERSONNALISE avec le contexte ci-dessus. Ne colle aucun texte generique.

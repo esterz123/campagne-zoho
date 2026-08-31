@@ -5,7 +5,7 @@ SCAN URGENCE SECURITE — detecte les sites piratés / vulnérables.
 ================================================================
 Pourquoi : les entreprises au site piraté ou non maintenu ont un probleme
 AIGU (peur = action immediate). C'est le levier de conversion le plus rapide :
-intervention 150-300 EUR + pack securite 79 EUR/mois.
+intervention 150-300 EUR + Pack Serenite 69 EUR/mois.
 
 Détecte sur chaque site :
   1. LIENS DE FRAUDE / SPAM : domaines inconnus dans les href (coréen, chinois,

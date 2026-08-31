@@ -1,0 +1,33 @@
+PROSPECT 4 - MILMECA (Villeneuve-Tolosane, 31) - contact@milmeca.fr
+STATUT : brouillon pret, ENVOI INTERDIT sans un oui explicite de Mahdi.
+VERIFIE EN LIVE le 2026-08-31 (voir preuves plus bas).
+
+========================================
+OBJET : Re : milmeca.fr tourne encore sous WordPress 5.3, la branche de 2019
+========================================
+
+Bonjour,
+
+Dernier message de ma part au sujet de votre site, ensuite je ne reviendrai plus.
+
+Je viens de revérifier milmeca.fr a l'instant. Voici ce que j'ai trouve, noir sur blanc : votre site tourne sous WordPress 5.3.18, une branche qui date de 2019 (la version actuelle est la 7.1), avec le plugin Slider Revolution 6.2.3, connu pour ses failles de securite. Et votre pied de page affiche "Copyright 2020" sans changement depuis 6 ans : pour un donneur d'ordres qui compare trois fournisseurs en cinq minutes, le message est immediat.
+
+Pourtant vous usinez en fraisage 3 et 5 axes et tournage 2 et 4 axes, avec 18 centres d'usinage et un bras de mesure pour le controle. Votre site ne le montre pas comme il le devrait. Un concurrent avec une vitrine moderne prend le telephone avant vous, alors que vos capacites sont la.
+
+Voici ce que je vous propose : un audit point par point de votre presence en ligne, securite et credibilite, 79 euros, livre sous 48h, rembourse integralement si vous n'y trouvez aucune valeur, et deduit du projet si vous decidez d'aller plus loin. Vous repartez avec l'etat des lieux et 5 actions concretes, meme si nous ne travaillons jamais ensemble.
+
+Repondez simplement "oui" a ce mail et je m'y mets des demain. Tout se passe par ecrit, aucun appel.
+
+Cordialement,
+Mahdi
+Portfolio : mahdi-design.com
+
+========================================
+PREUVES (verifiees en live le 2026-08-31, a garder pour le diagnostic)
+========================================
+- https://www.milmeca.fr : HTTP 200, certificat SSL VALIDE (ne rien accuser sur le HTTPS, il est OK).
+- Meta generator : "WordPress 5.3.18" (derniere version officielle via api.wordpress.org le 31/08 : 7.1).
+- Meta generator : "Slider Revolution 6.2.3" et "WPBakery Page Builder" (outils de 2020, theme cree par Infopolis).
+- Pied de page : "Cree par Infopolis - Copyright (c) 2020 milmeca" = copyright FIGE (pas une fourchette), site non mis a jour depuis 2020. Constat valide selon la regle du 13/08.
+- Contenu reel verifie sur la home : "18 Centres d'usinage, 3 Postes CAO", "Fraisage 3 et 5 axes, Tournage 2 et 4 axes", "Bras de mesure", equipe de ~29 personnes. A reutiliser dans le diagnostic.
+- Historique campagne : 1er mail 12/08 (DELIVRE apres clic Mailinblack de Mahdi le 14/08), relance 1 le 15/08, relance 2 le 19/08, aucune reponse depuis 12 jours.

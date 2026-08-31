@@ -1,0 +1,35 @@
+PROSPECT 11 - ITPLAST (Andre MULLER) - andre.muller@itplast.com
+STATUT : brouillon pret, ENVOI INTERDIT sans un oui explicite de Mahdi.
+VERIFIE EN LIVE le 2026-08-30 (voir preuves plus bas).
+
+========================================
+OBJET : Re : itplast.com renvoie vers un annuaire, je viens de le revérifier
+========================================
+
+Bonjour M. Muller,
+
+Dernier message de ma part au sujet de votre site, ensuite je ne reviendrai plus.
+
+Je viens de revérifier itplast.com à l'instant, et le constat est plus grave que ma première analyse :
+
+1. https://itplast.com ne fonctionne pas du tout : la connexion sécurisée est refusée, votre domaine n'a même pas de certificat. Un client qui tape votre adresse avec "https" ne voit rien.
+2. La page qui s'affiche en http n'est pas votre site : c'est une page de l'annuaire sous-traiter.com, encadrée derrière votre nom de domaine par un simple gadget technique OVH.
+3. Le titre que Google affiche pour votre domaine est "ITPLAST - SARREGUEMINES (57200) - Sous-traiter.com". Votre marque vit aujourd'hui sur le site d'un autre.
+
+Conséquence concrète : un donneur d'ordres qui tape itplast.com pour vérifier votre sérieux avant de vous appeler tombe sur un annuaire. À ce moment-là, il prend son téléphone et appelle le concurrent suivant de sa liste.
+
+Je vous propose un diagnostic de votre image digitale : 79 euros, livré sous 48h, remboursé intégralement si vous n'y trouvez aucune valeur, et déduit du projet si vous décidez d'aller plus loin. Vous repartez avec l'état des lieux point par point et 5 actions concrètes, même si nous ne travaillons jamais ensemble.
+
+Répondez simplement "oui" à ce mail et je m'y mets dès demain. Tout se passe par écrit, aucun appel.
+
+Cordialement,
+Mahdi
+Portfolio : mahdi-design.com
+
+========================================
+PREUVES (vérifiées en live le 2026-08-30, à garder pour le diagnostic)
+========================================
+- curl https://itplast.com : connexion port 443 refusée (Failed to connect, Connection refused) = pas de HTTPS.
+- curl http://www.itplast.com : HTTP 200, 780 octets, generator "ORT - Ovh Redirect Technology", frameset vers http://www.sous-traiter.com/itplast.
+- curl sous-traiter.com/itplast : HTTP 200, titre "ITPLAST - SARREGUEMINES (57200) - Sous-traiter.com".
+- Historique campagne : 1er mail 11/08, relance 1 le 15/08, relance 2 le 15/08, aucune réponse depuis 15 jours.

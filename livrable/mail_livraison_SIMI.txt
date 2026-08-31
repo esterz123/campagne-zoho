@@ -1,0 +1,25 @@
+Objet : Votre diagnostic de site — 7 constats sur simi.fr (pièce jointe)
+
+Bonjour,
+
+J'avais commencé à travailler sur votre site. Plutôt que de relancer en l'air, j'ai fini le diagnostic et je vous l'envoie — c'est gratuit, sans engagement, et vous pouvez le donner à votre webmaster tel quel.
+
+Note obtenue : 50/100. Les 3 constats qui coûtent le plus directement :
+
+1. 25 images en .gif (format de 1998) : lourdes, floues sur téléphone. Vos candidats jugent votre casting sur la netteté des visuels.
+2. Largeur fixe 751px + absence de balise viewport : sur smartphone, le site s'affiche en tout petit avec zoom obligatoire. Une large part du trafic casting est mobile.
+3. 6 mises en page en tables HTML : cassures d'affichage selon les navigateurs, référencement dégradé.
+
+Le détail complet des 7 constats, chiffré et avec captures, est dans le document joint.
+
+Si vous voulez que je corrige tout ça, deux options, une seule réponse à faire :
+
+- Refonte complète (identité visuelle + site rapide, mobile, cohérent) : offre rentrée à 2900 € au lieu de 3900, livrable sous 15 jours.
+- Ou Pack Sérénité : 69 € par mois, je surveille, corrige et fais évoluer votre site en continu, sans engagement, arrêt quand vous voulez.
+
+Bonne réception,
+Mahdi
+
+P.S. Réponse par simple mail, sans rendez-vous ni appel — tout se fait par écrit.
+
+Portfolio : mahdi-design.com

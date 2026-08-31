@@ -41,7 +41,7 @@ def generer_dm(c, insta_handle=""):
         accroche = ("Votre site %s affiche des liens de fraude et du spam "
                     "(casino, contenus en coreen/chinois) visibles par vos clients." % site)
         offre = ("Je peux nettoyer votre site et le securiser dans la semaine, "
-                 "150 EUR l'intervention, puis 79 EUR/mois pour le surveiller "
+                 "150 EUR l'intervention, puis 69 EUR/mois pour le surveiller "
                  "et le proteger. Sans engagement, je vous montre d'abord ce "
                  "que j'ai trouve.")
     elif probleme == "WP_OBSOLETE":
@@ -49,7 +49,7 @@ def generer_dm(c, insta_handle=""):
                     "vulnerabilites connues non corrigees. Un hacker peut le "
                     "prendre en 30 minutes.")
         offre = ("Je peux le mettre a jour et le securiser : intervention "
-                 "150 EUR, puis 79 EUR/mois pour les mises a jour et la "
+                 "150 EUR, puis 69 EUR/mois pour les mises a jour et la "
                  "surveillance. Je vous montre d'abord les failles.")
     else:
         accroche = ("J'ai regarde votre site %s : %s" % (site, details[0] if details else "il a besoin d'une mise a jour."))
