@@ -223,7 +223,10 @@ def zoho_post(url, payload, access):
 
 
 def load_prospects():
-    """Les 2 files : prospects industriels (campagne_data) + agences partenaires (campagne_partenaires)."""
+    """Les 2 files : prospects industriels (campagne_data) + agences partenaires (campagne_partenaires).
+    + reply_aliases.json (31/08) : adresses de reponse hors file (ex: SIMI repond via
+    son agence adv.simi@id-casting.com, pas direction@simi.fr). Sans alias, le
+    repondeur marquait la reponse 'expediteur inconnu' et la repondait JAMAIS."""
     out = {}
     for f, typ in ((DATA_F, "prospect"), (PARTENAIRES_F, "partenaire")):
         try:
@@ -235,6 +238,12 @@ def load_prospects():
             if to:
                 out[to] = {"num": e.get("num"), "entreprise": e.get("prospect", e.get("entreprise", "")),
                            "subject": e.get("subject", ""), "type": typ}
+    try:
+        al = json.load(open(os.path.join(BASE, "reply_aliases.json"), encoding="utf-8"))
+        for k, v in al.items():
+            out.setdefault(k.strip().lower(), dict(v))
+    except Exception:
+        pass
     return out
 
 

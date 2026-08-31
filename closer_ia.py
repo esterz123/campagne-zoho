@@ -104,6 +104,13 @@ def load_prospects():
             if to:
                 out[to] = {"num": e.get("num"), "entreprise": e.get("prospect", e.get("entreprise", "")),
                            "subject": e.get("subject", ""), "type": typ}
+    # reply_aliases.json (31/08) : reponses hors file (agence SIMI, Gaultier free.fr...)
+    try:
+        al = json.load(open(os.path.join(BASE, "reply_aliases.json"), encoding="utf-8"))
+        for k, v in al.items():
+            out.setdefault(k.strip().lower(), dict(v))
+    except Exception:
+        pass
     return out
 
 
