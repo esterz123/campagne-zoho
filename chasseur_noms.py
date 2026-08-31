@@ -120,6 +120,8 @@ def main():
     state = json.load(open(os.path.join(BASE, "campagne_state.json"), encoding="utf-8"))
     sent = set(str(k) for k in state.get("sent", {}))
     cache = json.load(open(CACHE, encoding="utf-8")) if os.path.exists(CACHE) else {}
+    preuves = json.load(open(os.path.join(BASE, "constats_sites.json"), encoding="utf-8")) \
+        if os.path.exists(os.path.join(BASE, "constats_sites.json")) else {}
 
     cibles = []
     for r in data:
@@ -137,12 +139,20 @@ def main():
     for k, (num, r) in enumerate(cibles, 1):
         entreprise = re.sub(r"^\d+\s*[—-]\s*", "", r.get("prospect") or "")
         if not entreprise.strip():
-            # pas de raison sociale : on derive du domaine (nplast-usinage.fr -> nplast usinage)
-            src = (r.get("site") or r.get("to", "") or "")
-            src = re.sub(r"^https?://", "", src).replace("www.", "")
-            dom = norm(src.split("@")[-1].split("/")[0])
-            dom = re.sub(r"\.(fr|com|net|eu|org)$", "", dom)
-            entreprise = dom.replace("-", " ").replace("_", " ").strip()
+            # 1) titre reel du site (deja mesure par verificateur_site, plus fiable
+            #    que le domaine : "Societe Trucmachin - accueil" -> requete propre)
+            titre = (preuves.get(num, {}).get("titre") or "").strip()
+            titre = re.sub(r"\s*[-|–].*$", "", titre)          # couper " - accueil" etc.
+            titre = re.sub(r"\b(sas|sarl|sa|eurl|sci|sasu)\b", "", norm(titre), flags=re.I).strip()
+            if len(titre) >= 4:
+                entreprise = titre
+            else:
+                # 2) fallback : domaine (nplast-usinage.fr -> nplast usinage)
+                src = (r.get("site") or r.get("to", "") or "")
+                src = re.sub(r"^https?://", "", src).replace("www.", "")
+                dom = norm(src.split("@")[-1].split("/")[0])
+                dom = re.sub(r"\.(fr|com|net|eu|org)$", "", dom)
+                entreprise = dom.replace("-", " ").replace("_", " ").strip()
         cle = entreprise.strip().lower()[:50]
         if cle in cache:
             got = cache[cle]
