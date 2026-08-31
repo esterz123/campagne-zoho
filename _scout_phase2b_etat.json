@@ -330,5 +330,277 @@
   "site": "",
   "email": "",
   "nom": "CHAUDRONNERIE INDUSTR CHAMP ARDENNE (CICA)"
+ },
+ "557020062": {
+  "verdict": "pas_de_site",
+  "site": "",
+  "email": "",
+  "nom": "CHAUDRONNERIE LESCAUT SA"
+ },
+ "380046862": {
+  "verdict": "pas_de_site",
+  "site": "",
+  "email": "",
+  "nom": "CHAUDRONNERIE LESPINASSE"
+ },
+ "301273678": {
+  "verdict": "homonyme",
+  "site": "chaudronnerielouchet.fr",
+  "email": "",
+  "nom": "CHAUDRONNERIE LOUCHET"
+ },
+ "410185623": {
+  "verdict": "homonyme",
+  "site": "cmmi.fr",
+  "email": "",
+  "nom": "CHAUDRONNERIE MAINTENANCE MECANIQUE INDUSTRIELLE SIGLE C.M.M"
+ },
+ "319448262": {
+  "verdict": "homonyme",
+  "site": "crb.fr",
+  "email": "",
+  "nom": "CHAUDRONNERIE REGIONALE DE LA BRIE (CRB)"
+ },
+ "348590399": {
+  "verdict": "homonyme",
+  "site": "csm.fr",
+  "email": "",
+  "nom": "CHAUDRONNERIE SERRURERIE MONTELIMARD (C.S.M.)"
+ },
+ "394526503": {
+  "verdict": "homonyme",
+  "site": "chaudronnerie-service.fr",
+  "email": "",
+  "nom": "CHAUDRONNERIE SERVICE SOCIETE D'EXPLOITATION"
+ },
+ "692026487": {
+  "verdict": "homonyme",
+  "site": "ctm.fr",
+  "email": "",
+  "nom": "CHAUDRONNERIE TOLERIE DES MOULINEAUX (CTM)"
+ },
+ "911822682": {
+  "verdict": "homonyme",
+  "site": "chaudronnerietolerie.fr",
+  "email": "",
+  "nom": "CHAUDRONNERIE TOLERIE INDUSTRIELLE - BENNES AMOVIBLES (CTI-B"
+ },
+ "378103709": {
+  "verdict": "homonyme",
+  "site": "ctl.fr",
+  "email": "",
+  "nom": "CHAUDRONNERIE TUYAUTERIE LAUNAY (CTL)"
+ },
+ "338407182": {
+  "verdict": "homonyme",
+  "site": "ctms.fr",
+  "email": "",
+  "nom": "CHAUDRONNERIE TUYAUTERIE MECANO SOUDURE (CTMS)"
+ },
+ "821585734": {
+  "verdict": "pas_de_site",
+  "site": "",
+  "email": "",
+  "nom": "CHRYSALIS"
+ },
+ "380295337": {
+  "verdict": "ok",
+  "site": "cmn-industrie.com",
+  "email": "alex.chapolard@cmn-industrie.com",
+  "nom": "CMN INDUSTRIE",
+  "ville": "MIRIBEL"
+ },
+ "873802045": {
+  "verdict": "pas_de_site",
+  "site": "",
+  "email": "",
+  "nom": "COMOTOLERIE (COMOTOLERIE - COMO TOLERIE)"
+ },
+ "321408932": {
+  "verdict": "homonyme",
+  "site": "cfc.fr",
+  "email": "",
+  "nom": "COMPAGNIE FRANCAISE DE CHAUDRONNERIE (CFC)"
+ },
+ "442968889": {
+  "verdict": "homonyme",
+  "site": "conceptbois.fr",
+  "email": "",
+  "nom": "CONCEPT BOIS COTE D'OPALE"
+ },
+ "843870064": {
+  "verdict": "homonyme",
+  "site": "ccmtech.com",
+  "email": "",
+  "nom": "CONCEPTION CHAUDRONNERIE MECANIQUE TECHNOLOGIE (CCMTECH) (CC"
+ },
+ "518104369": {
+  "verdict": "homonyme",
+  "site": "constructionsmetalliques.fr",
+  "email": "",
+  "nom": "CONSTRUCTIONS METALLIQUES ET CHAUDRONNERIE YONNAISE INDUSTRI"
+ },
+ "424575348": {
+  "verdict": "pas_de_site",
+  "site": "",
+  "email": "",
+  "nom": "CREUTZWALD INJECTION"
+ },
+ "326446952": {
+  "verdict": "pas_de_site",
+  "site": "",
+  "email": "",
+  "nom": "CTA (CHAUDRONNERIE TOLERIE DE L'ARGONNE)"
+ },
+ "822829990": {
+  "verdict": "homonyme",
+  "site": "d-v.fr",
+  "email": "",
+  "nom": "D.V.P. DECOUPE VIANDES PRODUCTEUR"
+ },
+ "314924721": {
+  "verdict": "pas_email",
+  "site": "decoprem.com",
+  "email": "",
+  "nom": "DECO PREM"
+ },
+ "309123701": {
+  "verdict": "homonyme",
+  "site": "dbn.fr",
+  "email": "",
+  "nom": "DECOLLETAGE DE BASSE NORMANDIE (DBN)"
+ },
+ "382376945": {
+  "verdict": "homonyme",
+  "site": "decolletage-cascade.com",
+  "email": "",
+  "nom": "DECOLLETAGE DE LA CASCADE THEVENET MICHEL ET FILS"
+ },
+ "732821236": {
+  "verdict": "pas_de_site",
+  "site": "",
+  "email": "",
+  "nom": "DECOLLETAGE DE LA GARENNE"
+ },
+ "551920796": {
+  "verdict": "pas_de_site",
+  "site": "",
+  "email": "",
+  "nom": "DECOLLETAGE DE REU"
+ },
+ "353153364": {
+  "verdict": "homonyme",
+  "site": "dbj.fr",
+  "email": "",
+  "nom": "DECOLLETAGE DU BAS JURA (DBJ)"
+ },
+ "300863370": {
+  "verdict": "homonyme",
+  "site": "decolletage-morel.fr",
+  "email": "",
+  "nom": "DECOLLETAGE MOREL"
+ },
+ "976720284": {
+  "verdict": "pas_email",
+  "site": "sdeb.fr",
+  "email": "",
+  "nom": "DECOUPAGE ET EMBOUTISSAGE DU BOURBONNAIS (SDEB)"
+ },
+ "817488349": {
+  "verdict": "pas_de_site",
+  "site": "",
+  "email": "",
+  "nom": "DECOUPE LUX"
+ },
+ "331014993": {
+  "verdict": "pas_de_site",
+  "site": "",
+  "email": "",
+  "nom": "DEFI - HOUILLIERES DE CRUEJOULS"
+ },
+ "440730372": {
+  "verdict": "homonyme",
+  "site": "delta-usinage.fr",
+  "email": "",
+  "nom": "DELTA USINAGE"
+ },
+ "309246247": {
+  "verdict": "pas_de_site",
+  "site": "",
+  "email": "",
+  "nom": "DPMI (DECOUPE PLIAGE MECANO SOUDURE INDUSTRIE)"
+ },
+ "348698671": {
+  "verdict": "homonyme",
+  "site": "dupont.fr",
+  "email": "",
+  "nom": "DUPONT SARL"
+ },
+ "354094914": {
+  "verdict": "homonyme",
+  "site": "dmm.fr",
+  "email": "",
+  "nom": "DUTHEL MAINTENANCE MOULE (DMM)"
+ },
+ "300155256": {
+  "verdict": "pas_email",
+  "site": "eberhard-usinage.fr",
+  "email": "",
+  "nom": "EBERHARD USINAGE"
+ },
+ "420425589": {
+  "verdict": "pas_de_site",
+  "site": "",
+  "email": "",
+  "nom": "ELCAM USINAGE (ELCAM USINAGE)"
+ },
+ "413894684": {
+  "verdict": "smtp_mort",
+  "site": "engelvin-bois-moule.com",
+  "email": "contact@engelvin-bois-moule.com",
+  "nom": "ENGELVIN BOIS MOULE"
+ },
+ "452493901": {
+  "verdict": "ok",
+  "site": "estusinage.fr",
+  "email": "contact@estusinage.fr",
+  "nom": "EST USINAGE",
+  "ville": "ŒTING"
+ },
+ "892388919": {
+  "verdict": "homonyme",
+  "site": "ertop.fr",
+  "email": "",
+  "nom": "ETUDE ET REALISATION DE TOLERIE DE PRECISION (ERTOP)"
+ },
+ "338216260": {
+  "verdict": "pas_de_site",
+  "site": "",
+  "email": "",
+  "nom": "ETUDES INDUSTRIELLES TOLERIE A REALISATIONS COURTES E.I.T.A."
+ },
+ "843168360": {
+  "verdict": "homonyme",
+  "site": "fce.fr",
+  "email": "",
+  "nom": "FERRONNERIE CHAUDRONNERIE ENTRETIEN (F.C.E.)"
+ },
+ "318772324": {
+  "verdict": "smtp_mort",
+  "site": "ficap.fr",
+  "email": "ficap@ficap.fr",
+  "nom": "FICAP"
+ },
+ "517735973": {
+  "verdict": "homonyme",
+  "site": "flprint.fr",
+  "email": "",
+  "nom": "FL PRINT"
+ },
+ "879857308": {
+  "verdict": "pas_de_site",
+  "site": "",
+  "email": "",
+  "nom": "FMX DECOUPE (FMX DECOUPE)"
  }
 }

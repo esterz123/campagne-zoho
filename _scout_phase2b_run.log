@@ -48,3 +48,46 @@
 [56/100] CHAUDRONNERIE LESCAUT SA                      -> pas_de_site 
 [57/100] CHAUDRONNERIE LESPINASSE                      -> pas_de_site 
 [58/100] CHAUDRONNERIE LOUCHET                         -> homonyme chaudronnerielouchet.fr
+[59/100] CHAUDRONNERIE MAINTENANCE MECANIQUE INDUSTRIE -> homonyme cmmi.fr
+[60/100] CHAUDRONNERIE REGIONALE DE LA BRIE (CRB)      -> homonyme crb.fr
+[61/100] CHAUDRONNERIE SERRURERIE MONTELIMARD (C.S.M.) -> homonyme csm.fr
+[62/100] CHAUDRONNERIE SERVICE SOCIETE D'EXPLOITATION  -> homonyme chaudronnerie-service.fr
+[63/100] CHAUDRONNERIE TOLERIE DES MOULINEAUX (CTM)    -> homonyme ctm.fr
+[64/100] CHAUDRONNERIE TOLERIE INDUSTRIELLE - BENNES A -> homonyme chaudronnerietolerie.fr
+[65/100] CHAUDRONNERIE TUYAUTERIE LAUNAY (CTL)         -> homonyme ctl.fr
+[66/100] CHAUDRONNERIE TUYAUTERIE MECANO SOUDURE (CTMS -> homonyme ctms.fr
+[67/100] CHRYSALIS                                     -> pas_de_site 
+[68/100] CMN INDUSTRIE                                 -> ok cmn-industrie.com
+[69/100] COMOTOLERIE (COMOTOLERIE - COMO TOLERIE)      -> pas_de_site 
+[70/100] COMPAGNIE FRANCAISE DE CHAUDRONNERIE (CFC)    -> homonyme cfc.fr
+[71/100] CONCEPT BOIS COTE D'OPALE                     -> homonyme conceptbois.fr
+[72/100] CONCEPTION CHAUDRONNERIE MECANIQUE TECHNOLOGI -> homonyme ccmtech.com
+[73/100] CONSTRUCTIONS METALLIQUES ET CHAUDRONNERIE YO -> homonyme constructionsmetalliques.fr
+[74/100] CREUTZWALD INJECTION                          -> pas_de_site 
+[75/100] CTA (CHAUDRONNERIE TOLERIE DE L'ARGONNE)      -> pas_de_site 
+[76/100] D.V.P. DECOUPE VIANDES PRODUCTEUR             -> homonyme d-v.fr
+[77/100] DECO PREM                                     -> pas_email decoprem.com
+[78/100] DECOLLETAGE DE BASSE NORMANDIE (DBN)          -> homonyme dbn.fr
+[79/100] DECOLLETAGE DE LA CASCADE THEVENET MICHEL ET  -> homonyme decolletage-cascade.com
+[80/100] DECOLLETAGE DE LA GARENNE                     -> pas_de_site 
+[81/100] DECOLLETAGE DE REU                            -> pas_de_site 
+[82/100] DECOLLETAGE DU BAS JURA (DBJ)                 -> homonyme dbj.fr
+[83/100] DECOLLETAGE MOREL                             -> homonyme decolletage-morel.fr
+[84/100] DECOUPAGE ET EMBOUTISSAGE DU BOURBONNAIS (SDE -> pas_email sdeb.fr
+[85/100] DECOUPE LUX                                   -> pas_de_site 
+[86/100] DEFI - HOUILLIERES DE CRUEJOULS               -> pas_de_site 
+[87/100] DELTA USINAGE                                 -> homonyme delta-usinage.fr
+[88/100] DPMI (DECOUPE PLIAGE MECANO SOUDURE INDUSTRIE -> pas_de_site 
+[89/100] DUPONT SARL                                   -> homonyme dupont.fr
+[90/100] DUTHEL MAINTENANCE MOULE (DMM)                -> homonyme dmm.fr
+[91/100] EBERHARD USINAGE                              -> pas_email eberhard-usinage.fr
+[92/100] ELCAM USINAGE (ELCAM USINAGE)                 -> pas_de_site 
+[93/100] ENGELVIN BOIS MOULE                           -> smtp_mort engelvin-bois-moule.com
+[94/100] EST USINAGE                                   -> ok estusinage.fr
+[95/100] ETUDE ET REALISATION DE TOLERIE DE PRECISION  -> homonyme ertop.fr
+[96/100] ETUDES INDUSTRIELLES TOLERIE A REALISATIONS C -> pas_de_site 
+[97/100] FERRONNERIE CHAUDRONNERIE ENTRETIEN (F.C.E.)  -> homonyme fce.fr
+[98/100] FICAP                                         -> smtp_mort ficap.fr
+[99/100] FL PRINT                                      -> homonyme flprint.fr
+[100/100] FMX DECOUPE (FMX DECOUPE)                     -> pas_de_site 
+=== PHASE 2b done: {'ok': 4, 'pas_de_site': 42, 'homonyme': 41, 'pas_email': 6, 'smtp_mort': 2, 'smtp_bloque': 1, 'doublon': 4}
