@@ -27,6 +27,20 @@ AUTO_PATTERNS = [
     "dmarc", "report domain", "dmarcreport",
 ]
 
+# MAILINBLACK (regle 14/08) : ces notifs ne sont PAS des reponses ni du bruit.
+# Elles signalent qu'un de NOS emails est en quarantaine chez le prospect et
+# attend un CLIC DE MAHDI pour etre delivre. Les ignorer = mail mort sans le savoir.
+MAILINBLACK_PATTERNS = [
+    "delivrer votre email", "délivrer votre email", "clic pour delivrer",
+    "clic pour délivrer", "protect de mailinblack", "mailinblack",
+    "en quarantaine", "quarantaine",
+]
+
+
+def is_mailinblack(frm, summary, subject):
+    t = (frm + " " + (summary or "") + " " + (subject or "")).lower()
+    return "mailinblack" in t or any(p in t for p in MAILINBLACK_PATTERNS)
+
 # DETECTEUR DE CONGES : les reponses automatiques ("de retour le X") deviennent des
 # relances planifiees au jour du retour (août = le mois des conges en France).
 RELANCES_CONGES_F = os.path.join(BASE, "relances_conges.json")
@@ -402,6 +416,20 @@ def main():
             frm = m["from"].lower()
             if is_ours(m["from"]):
                 traites.add(m["id"])
+                continue
+            if is_mailinblack(m["from"], m["summary"], m["subject"]):
+                # Un de nos mails attend en quarantaine : MAHDI doit cliquer "delivrer".
+                # On ne marque PAS traite definitivement : on le signale a chaque run
+                # tant que la notif est la (le clic la fait disparaitre de l'inbox).
+                doms = set(re.findall(r"@([a-z0-9-]+\.[a-z]{2,})",
+                                      ((m["summary"] or "") + " " + (m["subject"] or "")).lower()))
+                cibles = [p for p, d in prospects.items()
+                          if any(x in d.get("to", "").lower() or x in (d.get("site") or "").lower()
+                                 for x in doms if x not in ("mahdi-design.com", "mahdi-design.fr"))]
+                qui = cibles[0].split("@")[-1] if cibles else "destinataire a identifier"
+                rapports.append("[MAILINBLACK !! CLIQUER DELIVRER] notif %s -> notre mail pour %s "
+                                "est en quarantaine. Mahdi: ouvrir la notif et cliquer 'delivrer'."
+                                % (m["from"], qui))
                 continue
             if est_paiement_paypal(m["from"], m["summary"], m["subject"]):
                 traites.add(m["id"])
