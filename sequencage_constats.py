@@ -187,8 +187,14 @@ def main():
     written = 0
     for e in cibles:
         constats = extract_constats(e.get("body", ""), e.get("subject", ""))
+        # 31/08 NOMS REELS : si le mail initial salue "Bonjour M. X,", la relance
+        # doit saluer pareil (sinon on jette le travail du chasseur de noms).
+        m = re.match(r"^(Bonjour [^\n,]+,)", (e.get("body", "") or "").strip())
+        salut = m.group(1) if m and "Bonjour," not in m.group(1) else "Bonjour,"
         rel1 = TPL_RELANCE1.replace("{constats}", "\n".join(constats))
         rel2 = TPL_RELANCE2.replace("{constats}", "\n".join(constats)).replace("{sujet}", e.get("subject", ""))
+        rel1 = rel1.replace("Bonjour,", salut, 1)
+        rel2 = rel2.replace("Bonjour,", salut, 1)
         fn = os.path.join(OUT_DIR, f"relance1_prospect_{e['num']}.txt")
         with open(fn, "w", encoding="utf-8") as f:
             f.write(f"OBJET: Re : {e.get('subject', '')}\n\n")
