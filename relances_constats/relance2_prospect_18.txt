@@ -6,13 +6,10 @@ C'est ma dernière prise de contact au sujet de votre site. Concrètement : Fond
 
 Je voulais vous laisser un résumé des observations que j'ai relevées, pour que vous puissiez en faire ce que vous voulez, même si nous ne travaillons jamais ensemble :
 
-• Votre site repose sur jQuery 1
-• Je suis Mahdi, brand designer spécialisé dans les entreprises industrielles comme la vôtre. En analysant fonderie-lemer.com, j'ai noté deux points qui peuvent nuire à votre image auprès de clients exi
-• Votre site repose sur jQuery 1.8, une version de 2012. Douze ans de correctifs de sécurité manquants, et une lenteur perceptible pour vos visiteurs qui comparent plusieurs fonderies en ligne.
+• Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
+• J'ai ouvert fonderie-lemer.com a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.
 
 Si l'un de ces points vous préoccupe, mon diagnostic gratuit reste disponible (48h pour le recevoir, vous le gardez, sans engagement). Une simple réponse suffit.
-
-À noter : l'offre de rentrée sur les projets complets de marque et site se termine le 31 août. Si jamais vous pensez à votre image avant cette date, mon email est en bas de ce message.
 
 Bonne journée,
 

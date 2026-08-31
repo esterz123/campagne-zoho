@@ -1,14 +1,13 @@
-OBJET: Re : Votre site de 2016 nuit à la crédibilité de votre savoir-faire en usinage devant vos clients industriels.
+OBJET: Re : usinage-dieppois.fr met 4 secondes a s'afficher (mesure a l'instant)
 
-Bonjour,
+Bonjour M. Mauny,
 
 Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 
 Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
-• Je m'appelle Mahdi, brand designer spécialisé dans les PME industrielles comme la vôtre. En analysant usinage-dieppois.fr, j'ai remarqué que votre site utilise jQuery 2.2, une version de 2016.
-• Je peux vous montrer précisément ce que j'ai trouvé sur votre site, gratuitement et sans engagement.Dites-moi si ce créneau vous convient, je m'adapte à votre agenda.
-• Je m'appelle Mahdi, brand designer spécialisé dans les PME industrielles comme la vôtre. En analysant usinage-dieppois.fr, j'ai remarqué que votre site utilise jQuery 2.2, une version de 2016.
+• Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
+• J'ai ouvert usinage-dieppois.fr a l'instant. Deux choses me sautent aux yeux : le site met 4.1 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout
 
 Ces points sont vérifiables par votre équipe en 2 minutes. Ce sont des signaux que vos visiteurs voient AVANT de vous faire confiance.
 

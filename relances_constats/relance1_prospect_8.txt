@@ -1,14 +1,13 @@
-OBJET: Re : Votre site reflète-t-il l'exigence de vos donneurs d'ordre aéronautique ?
+OBJET: Re : Votre site est illisible sur telephone, je viens de verifier
 
-Bonjour,
+Bonjour M. Bourrelier,
 
 Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 
 Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
-• JSM Perrin, acteur reconnu dans l'aéronautique et la défense, mérite un site à la hauteur de ses exigences industrielles. Après avoir analysé jsmperrin.com, trois points retiennent l'attention :
-• Vous utilisez encore un template Joomla par défaut, non personnalisé, et un lien vers un template russe gratuit persiste dans le code. Votre site repose sur des tableaux HTML, ce qui le rend peu adapt
-• JSM Perrin, acteur reconnu dans l'aéronautique et la défense, mérite un site à la hauteur de ses exigences industrielles. Après avoir analysé jsmperrin.com, trois points retiennent l'attention :
+• Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
+• J'ai ouvert jsmperrin.fr a l'instant. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et pas de sitemap : Google decouvre vos pages tout seul, lentemen
 
 Ces points sont vérifiables par votre équipe en 2 minutes. Ce sont des signaux que vos visiteurs voient AVANT de vous faire confiance.
 

@@ -1,4 +1,4 @@
-OBJET: Re : Votre site utilise des tables HTML, un signal pour vos donneurs d'ordre
+OBJET: Re : alpha-industries.fr met 3 secondes a s'afficher (mesure a l'instant)
 
 Bonjour,
 
@@ -6,9 +6,8 @@ Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 
 Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
-• Votre site repose sur des tables HTML, une technique de mise en page abandonnée depuis 15 ans, qui casse l'affichage sur mobile.
-• La barre de navigation noire massive avec l'onglet bleu vif est un code visuel des années 2010, qui alourdit votre image alors que vos compétences techniques sont modernes.
-• La structure en blocs bruts ne laisse pas respirer votre contenu, vos marchés (agroalimentaire, automobile) méritent une mise en valeur plus soignée.
+• Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
+• J'ai ouvert alpha-industries.fr a l'instant. Le point qui me saute aux yeux : le site met 3.5 s a s'afficher, la moitie des visiteurs partent avant.
 
 Ces points sont vérifiables par votre équipe en 2 minutes. Ce sont des signaux que vos visiteurs voient AVANT de vous faire confiance.
 

@@ -1,14 +1,19 @@
-OBJET: Re : Votre site plastiques-atp.fr envoie vos prospects sur une page d'erreur sans retour
+OBJET: Re : Votre site plastiques-atp.fr ne s'ouvre pas ce matin
 
 Bonjour,
 
-Je reviens vers vous au sujet de mon email d'il y a quelques jours. Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
+Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 
-• L'adresse de votre site renvoie automatiquement vers atp-groupermt.com, qui n'affiche aucune page. Concrètement, un donneur d'ordre qui cherche votre expertise en injection plastique tombe sur une erreur sans retour, et repart chez un concurrent sans même essayer de vous joindre.
+Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
-Dans l'industrie, le site est le premier filtre des donneurs d'ordre : il fait douter, ou rassure, avant même une première rencontre.
+• J'ai tape plastiques-atp.fr dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.
+• Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
 
-Si vous voulez que je vous envoie, gratuitement et sans engagement, un diagnostic de votre image digitale (analyse de votre site, de vos 2-3 concurrents, et des corrections concrètes dont plusieurs gratuites), il me suffit d'une réponse à cet email.
+Ces points sont vérifiables par votre équipe en 2 minutes. Ce sont des signaux que vos visiteurs voient AVANT de vous faire confiance.
+
+Le diagnostic complet que je propose (votre site comparé à 2 concurrents + plan d'action priorisé) vous donne l'impact précis de chaque point en euros. Vous le gardez, que vous travailliez avec moi ou non.
+
+Je vous l'envoie sous 48h. Dites simplement "je veux le diagnostic" en répondant à cet email, ou cliquez ici : https://mahdi-design.com/diagnostic.html
 
 Cordialement,
 Mahdi

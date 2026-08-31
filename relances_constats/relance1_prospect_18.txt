@@ -6,9 +6,8 @@ Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 
 Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
-• Votre site repose sur jQuery 1
-• Je suis Mahdi, brand designer spécialisé dans les entreprises industrielles comme la vôtre. En analysant fonderie-lemer.com, j'ai noté deux points qui peuvent nuire à votre image auprès de clients exi
-• Votre site repose sur jQuery 1.8, une version de 2012. Douze ans de correctifs de sécurité manquants, et une lenteur perceptible pour vos visiteurs qui comparent plusieurs fonderies en ligne.
+• Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
+• J'ai ouvert fonderie-lemer.com a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.
 
 Ces points sont vérifiables par votre équipe en 2 minutes. Ce sont des signaux que vos visiteurs voient AVANT de vous faire confiance.
 

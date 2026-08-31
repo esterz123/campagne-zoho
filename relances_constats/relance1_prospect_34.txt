@@ -1,14 +1,13 @@
-OBJET: Re : Votre site WordPress obsolète envoie un signal d'alerte à vos futurs clients industriels.
+OBJET: Re : decolletage-elbe.fr met 4 secondes a s'afficher (mesure a l'instant)
 
-Bonjour,
+Bonjour M. Bene,
 
 Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 
 Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
-• Je suis Mahdi, brand designer spécialisé dans les PME industrielles comme Axil Plasturgie. Votre site actuel tourne sur une version WordPress qui n'est pas à jour. Un donneur d'ordres qui recherche un
-• Je peux vous montrer précisément ce que j'ai trouvé sur votre site, gratuitement et sans engagement.Dites-moi si cette proposition vous intéresse, je vous l'envoie sous 3 jours.
-• Je suis Mahdi, brand designer spécialisé dans les PME industrielles comme Axil Plasturgie. Votre site actuel tourne sur une version WordPress qui n'est pas à jour. Un donneur d'ordres qui recherche un
+• Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
+• J'ai ouvert decolletage-elbe.fr a l'instant. Deux choses me sautent aux yeux : le site met 4.4 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout
 
 Ces points sont vérifiables par votre équipe en 2 minutes. Ce sont des signaux que vos visiteurs voient AVANT de vous faire confiance.
 

@@ -1,14 +1,13 @@
 OBJET: Re : Votre site affiche 2015, vos prospects comparent avec 2026
 
-Bonjour,
+Bonjour M. Boumertit,
 
 Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 
 Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
-• Votre site ne repose sur aucun CMS récent, seulement sur un plugin de mesure Google (Site Kit). Concrètement, rien ne permet de le faire évoluer simplement, et ça se voit.
-• Rien en première page ne montre vos machines, vos moules ou vos références clients, alors que ce sont exactement les preuves que cherche un acheteur industriel.
-• Je suis Mahdi, brand designer travaillant avec des PME industrielles. En analysant bgplastic.com dans le cadre d'une veille sur l'injection plastique en Auvergne-Rhône-Alpes, j'ai été surpris par un c
+• J'ai ouvert bgplastic.com a l'instant. Deux choses me sautent aux yeux : 24 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.
+• Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
 
 Ces points sont vérifiables par votre équipe en 2 minutes. Ce sont des signaux que vos visiteurs voient AVANT de vous faire confiance.
 

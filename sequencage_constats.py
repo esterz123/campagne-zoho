@@ -50,9 +50,22 @@ Je voulais vous laisser un résumé des observations que j'ai relevées, pour qu
 
 Si l'un de ces points vous préoccupe, mon diagnostic gratuit reste disponible (48h pour le recevoir, vous le gardez, sans engagement). Une simple réponse suffit.
 
-À noter : l'offre de rentrée sur les projets complets de marque et site se termine le 31 août. Si jamais vous pensez à votre image avant cette date, mon email est en bas de ce message.
-
 Bonne journée,
+
+Cordialement,
+Mahdi
+Portfolio : mahdi-design.com
+"""
+
+# Relance 3 (31/08, step 18) : breakup AVEC preuve mesuree. L'ancienne etait
+# generique ("un concurrent qui vous depasse") = retour a l'ere pre-preuve.
+TPL_RELANCE3 = """Bonjour,
+
+Je ne vous relancerai plus apres ce mail, promis. Juste une derniere chose, factuelle.
+
+{constats}
+
+Ces points releves sur votre site ne bougeront pas tout seuls. Si un jour vous voulez y voir clair, le diagnostic gratuit reste disponible : une reponse suffit, vous gardez le rapport, sans engagement. Sinon, je m'arrete la et je vous souhaite de bons chantiers.
 
 Cordialement,
 Mahdi
@@ -149,12 +162,14 @@ def main():
     state = json.load(open(STATE, encoding="utf-8")) if os.path.exists(STATE) else {"sent": {}}
     sent = state.get("sent", {})
 
-    # Prospects envoyés qui n'ont pas encore de relance1
+    # Prospects envoyes qui ont besoin d'une relance (1, 2 ou 3). Step 18 (31/08) :
+    # la R3 etait absente de la generation -> breakup generique sans preuve.
     cibles = []
     for e in data:
         num = str(e.get("num", ""))
         s = sent.get(num, {})
-        if num in sent and "sent_relance1" not in s:
+        if num in sent and ("sent_relance1" not in s or "sent_relance2" not in s
+                            or "sent_relance3" not in s):
             cibles.append(e)
 
     print(f"=== SEQUENCAGE CONSTATS ===")
@@ -169,7 +184,7 @@ def main():
         rel2 = TPL_RELANCE2.replace("{constats}", "\n".join(constats)).replace("{sujet}", sujet)
 
         if dry:
-            print(f"  #{e['num']} {e['prospect'][:45]:45s} constats={len(constats)}")
+            print(f"  #{e['num']} {(e.get('prospect') or e.get('subject') or '')[:45]:45s} constats={len(constats)}")
             for c in constats:
                 print(f"      {c[:90]}")
             gen += 1
@@ -195,6 +210,7 @@ def main():
         rel2 = TPL_RELANCE2.replace("{constats}", "\n".join(constats)).replace("{sujet}", e.get("subject", ""))
         rel1 = rel1.replace("Bonjour,", salut, 1)
         rel2 = rel2.replace("Bonjour,", salut, 1)
+        rel3 = TPL_RELANCE3.replace("{constats}", "\n".join(constats)).replace("Bonjour,", salut, 1)
         fn = os.path.join(OUT_DIR, f"relance1_prospect_{e['num']}.txt")
         with open(fn, "w", encoding="utf-8") as f:
             f.write(f"OBJET: Re : {e.get('subject', '')}\n\n")
@@ -203,6 +219,10 @@ def main():
         with open(fn2, "w", encoding="utf-8") as f:
             f.write(f"OBJET: Re : {e.get('subject', '')}\n\n")
             f.write(rel2)
+        fn3 = os.path.join(OUT_DIR, f"relance3_prospect_{e['num']}.txt")
+        with open(fn3, "w", encoding="utf-8") as f:
+            f.write("OBJET: Une derniere chose, factuelle, sur votre site\n\n")
+            f.write(rel3)
         written += 1
 
     print(f"\n✅ {written} paires de relances personnalisées écrites dans {OUT_DIR}/")

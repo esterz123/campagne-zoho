@@ -1,14 +1,13 @@
-OBJET: Re : Votre site affiche 2019, vos clients le voient et s'en étonnent.
+OBJET: Re : Chrome affiche 'non securise' sur rgf-plastique.com
 
-Bonjour,
+Bonjour M. Béraldin,
 
 Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 
 Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
-• Votre site comparé à 3 concurrents du secteur, avec 5 recommandations concrètes classées par impact, dont plusieurs gratuites
-• Je suis Mahdi, brand designer spécialisé dans les PME industrielles françaises. En analysant votre site groupergf-plastique.com, j'ai remarqué que votre positionnement "Smart Plastic, Inspired Injecti
-• Le copyright affiche toujours 2019. Votre site n'a pas évolué en 7 ans, alors que votre groupe a dû avancer sur bien des fronts.
+• J'ai ouvert rgf-plastique.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et seulement 2 pages : trop peu pour exister dans les recher
+• Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
 
 Ces points sont vérifiables par votre équipe en 2 minutes. Ce sont des signaux que vos visiteurs voient AVANT de vous faire confiance.
 

@@ -1,18 +1,15 @@
-OBJET: Re : Votre site WordPress obsolète envoie un signal d'alerte à vos futurs clients industriels.
+OBJET: Re : decolletage-elbe.fr met 4 secondes a s'afficher (mesure a l'instant)
 
-Bonjour,
+Bonjour M. Bene,
 
-C'est ma dernière prise de contact au sujet de votre site. Concrètement : Votre site WordPress obsolète envoie un signal d'alerte à vos futurs clients industriels..
+C'est ma dernière prise de contact au sujet de votre site. Concrètement : decolletage-elbe.fr met 4 secondes a s'afficher (mesure a l'instant).
 
 Je voulais vous laisser un résumé des observations que j'ai relevées, pour que vous puissiez en faire ce que vous voulez, même si nous ne travaillons jamais ensemble :
 
-• Je suis Mahdi, brand designer spécialisé dans les PME industrielles comme Axil Plasturgie. Votre site actuel tourne sur une version WordPress qui n'est pas à jour. Un donneur d'ordres qui recherche un
-• Je peux vous montrer précisément ce que j'ai trouvé sur votre site, gratuitement et sans engagement.Dites-moi si cette proposition vous intéresse, je vous l'envoie sous 3 jours.
-• Je suis Mahdi, brand designer spécialisé dans les PME industrielles comme Axil Plasturgie. Votre site actuel tourne sur une version WordPress qui n'est pas à jour. Un donneur d'ordres qui recherche un
+• Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
+• J'ai ouvert decolletage-elbe.fr a l'instant. Deux choses me sautent aux yeux : le site met 4.4 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout
 
 Si l'un de ces points vous préoccupe, mon diagnostic gratuit reste disponible (48h pour le recevoir, vous le gardez, sans engagement). Une simple réponse suffit.
-
-À noter : l'offre de rentrée sur les projets complets de marque et site se termine le 31 août. Si jamais vous pensez à votre image avant cette date, mon email est en bas de ce message.
 
 Bonne journée,
 
