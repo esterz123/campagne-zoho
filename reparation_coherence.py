@@ -53,9 +53,9 @@ def main():
         # dedoublonnage CTA : le nouveau paragraphe contient deja "Repondez oui".
         # On retire l'ancien CTA de fin + les queues orphelines devenues redondantes.
         new = re.sub(r"\s*C'est gratuit, sans engagement\.\s*", " ", new)
-        new = re.sub(r"Repondez simplement [\"\u00ab]oui[\"\u00bb] a ce mail et je vous envoie mes constats sous 48h\.?\s*",
+        new = re.sub(r"R[ée]pond[ée]z simplement [\"\u00ab]oui[\"\u00bb] [àa] ce mail et je vous envoie mes constats sous 48h\.?\s*",
                      "", new)
-        new = re.sub(r"Repondez [\"\u00ab]oui[\"\u00bb] et je vous l'envoie sous 48h\.?\s*", "", new)
+        new = re.sub(r"R[ée]pond[ée]z [\"\u00ab]oui[\"\u00bb] et je vous l'envoie sous 48h\.?\s*", "", new)
         new = re.sub(r"[ \t]{2,}", " ", new)
         new = re.sub(r"(\.?\s*)Cordialement,", "\n\nCordialement,", new)
         new = re.sub(r"\n{3,}", "\n\n", new)
