@@ -237,6 +237,17 @@
   "ville": ""
  },
  {
+  "url": "https://bureau-etude-thermique-bet.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 6.3 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@bureau-etude-thermique-bet.fr",
+  "ville": ""
+ },
+ {
   "url": "https://eberhard.de",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -488,6 +499,17 @@
   "ville": ""
  },
  {
+  "url": "https://cabinet12.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@cabinet12.com",
+  "ville": ""
+ },
+ {
   "url": "https://nordvpn.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -554,6 +576,17 @@
   "ville": "VINAY"
  },
  {
+  "url": "https://paprec.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "ACTI-PLAST",
+  "email": "communication@paprec.com",
+  "ville": ""
+ },
+ {
   "url": "https://slicom-group.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -573,6 +606,17 @@
   "note": 0,
   "nom": "4 — Milmeca (Villeneuve-Tolosane, 31)",
   "email": "contact@milmeca.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://georget.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "5 — Georget Precision (Vivonne, 86)",
+  "email": "contact@georget.fr",
   "ville": ""
  },
  {
@@ -738,6 +782,17 @@
   "note": 0,
   "nom": "",
   "email": "ats@carrosserie-ats.com",
+  "ville": ""
+ },
+ {
+  "url": "https://cnr.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "cnr@cnr.fr",
   "ville": ""
  }
 ]
