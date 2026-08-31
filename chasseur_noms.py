@@ -65,6 +65,16 @@ def dirigeant_de(resultat, profondeur=0):
             prenom = (best.get("prenoms") or "").strip().title()
             qualite_up = norm(best.get("qualite") or "").upper()
             feminin = any(w in qualite_up for w in ("GERANTE", "PRESIDENTE", "DIRECTRICE", "CO-GERANTE", "ASSOCIEE"))
+            # Step 12 (31/08) : l'API met souvent "Gerant" meme pour une femme.
+            # Test par le premier prenom (liste conservatrice de prenoms feminins FR).
+            FEM = {"MARIE", "SOPHIE", "CAMILLE", "LAURE", "NATHALIE", "SANDRINE", "VALERIE",
+                   "ISABELLE", "CATHERINE", "HELENE", "ANNE", "CAROLINE", "EMILIE", "JULIE",
+                   "SANDRA", "STEPHANIE", "VERONIQUE", "SYLVIE", "BRIGITTE", "MONIQUE",
+                   "CHRISTINE", "MARLENE", "AUDREY", "CAROLE", "NADINE", "BEATRICE", "DENISE",
+                   "YVONNE", "SUZANNE", "GERALDINE", "DELPHINE"}
+            premier = norm((best.get("prenoms") or "").split()[0] if best.get("prenoms") else "").upper()
+            if premier in FEM or premier.startswith("MARIE"):
+                feminin = True
             if nom:
                 return {"nom": nom, "prenom": prenom, "qualite": best.get("qualite"),
                         "feminin": feminin}
@@ -102,12 +112,54 @@ def chercher(nom_entreprise, domaine):
         if conf:
             candidats = conf
     for c in candidats:
+        # Step 14 (31/08) : jamais écrire à une entreprise radiée/fermee.
+        if (c.get("etat_administratif") or "A") != "A":
+            continue
         got = dirigeant_de(c)
         if got:
             got["siren"] = c.get("siren")
             got["enseigne"] = c.get("nom_complet", "")[:60]
             return got
     return None
+
+
+FEM_PRENOMS = {"MARIE", "SOPHIE", "CAMILLE", "LAURE", "NATHALIE", "SANDRINE", "VALERIE",
+               "ISABELLE", "CATHERINE", "HELENE", "ANNE", "CAROLINE", "EMILIE", "JULIE",
+               "SANDRA", "STEPHANIE", "VERONIQUE", "SYLVIE", "BRIGITTE", "MONIQUE",
+               "CHRISTINE", "MARLENE", "AUDREY", "CAROLE", "NADINE", "BEATRICE", "DENISE",
+               "YVONNE", "SUZANNE", "GERALDINE", "DELPHINE"}
+
+
+def est_feminin(got):
+    q = norm(got.get("qualite") or "").upper()
+    if any(w in q for w in ("GERANTE", "PRESIDENTE", "DIRECTRICE", "CO-GERANTE", "ASSOCIEE")):
+        return True
+    pre = norm((got.get("prenom") or "").split(" ")[0]).upper()
+    return pre in FEM_PRENOMS or pre.startswith("MARIE")
+
+
+def reciv(data):
+    """Corrige M./Mme sur les mails deja injectes, grace au prenom en cache (step 12)."""
+    cache = json.load(open(CACHE, encoding="utf-8")) if os.path.exists(CACHE) else {}
+    par_nom = {}
+    for got in cache.values():
+        if got.get("nom"):
+            par_nom.setdefault(got["nom"], got)
+    n = 0
+    for r in data:
+        lignes = r.get("body", "").split("\n")
+        m = re.match(r"^Bonjour (M\.|Mme) ([A-Z' -]+),$", lignes[0].strip())
+        if not m:
+            continue
+        got = par_nom.get(m.group(2).strip())
+        if not got:
+            continue
+        bon = "Mme" if est_feminin(got) else "M."
+        if bon != m.group(1):
+            lignes[0] = "Bonjour %s %s," % (bon, m.group(2).strip())
+            r["body"] = clean("\n".join(lignes))
+            n += 1
+    return n
 
 
 def main():
@@ -124,6 +176,9 @@ def main():
         if os.path.exists(os.path.join(BASE, "constats_sites.json")) else {}
 
     cibles = []
+    corr = reciv(data)  # step 12 : corriger les M./Mme deja ecrits avec le cache existant
+    if corr:
+        print("civilites corrigees (pass 1):", corr)
     for r in data:
         num = str(r.get("num"))
         if num in sent:
@@ -139,7 +194,14 @@ def main():
     for k, (num, r) in enumerate(cibles, 1):
         entreprise = re.sub(r"^\d+\s*[—-]\s*", "", r.get("prospect") or "")
         if not entreprise.strip():
-            # 1) titre reel du site (deja mesure par verificateur_site, plus fiable
+            # 1) SUJET du mail : "3 points qui coutent des clients a Elcam Usinage"
+            #    -> le nom commercial y est presque toujours (step 13, 31/08)
+            subj = r.get("subject") or ""
+            m = re.search(r"\b(?:a|à|au|aux|chez|pour|sur)\s+([\w' \u00c0-\u0178-]{3,28})\s*$", subj)
+            if m and len(m.group(1).strip()) >= 4:
+                entreprise = m.group(1).strip()
+        if not entreprise.strip():
+            # 2) titre reel du site (deja mesure par verificateur_site, plus fiable
             #    que le domaine : "Societe Trucmachin - accueil" -> requete propre)
             titre = (preuves.get(num, {}).get("titre") or "").strip()
             titre = re.sub(r"\s*[-|–].*$", "", titre)          # couper " - accueil" etc.
@@ -172,7 +234,7 @@ def main():
         print("  [%d/%d] #%s %-30s -> %s %s (%s)" % (k, len(cibles), num, entreprise[:30], civ, got["nom"], got.get("qualite", "")[:20]))
 
     print("\nnoms verifies trouves: %d / %d cibles" % (trouves, len(cibles)))
-    if not dry and trouves:
+    if not dry and (trouves or corr):
         json.dump(data, open(DATA, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print("ECRIT:", DATA)
     return 0

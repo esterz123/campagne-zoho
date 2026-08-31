@@ -805,5 +805,14 @@
   "siren": "878826130",
   "enseigne": "CHARPENTE METALLIQUE CONSTRUCTION INGENIERIE (CMC INGENIERIE"
  },
- "reparation navale et maintenance industrielle a ma": {}
+ "reparation navale et maintenance industrielle a ma": {},
+ "nplastusinage": {},
+ "forge": {
+  "nom": "BRIAND",
+  "prenom": "Charles Francois Bertrand Gil",
+  "qualite": "Président de SAS",
+  "feminin": false,
+  "siren": "948208731",
+  "enseigne": "FORGE"
+ }
 }
