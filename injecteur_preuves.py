@@ -95,7 +95,9 @@ def main():
             if ALREADY.match(s):
                 idx = None
                 break  # déjà injecté
-            if CLAIM.search(s):
+            # Règle 31/08 : si un constat MESURÉ existe, il remplace la 2e ligne
+            # quelle que soit sa formulation d'origine (accusation non prouvée).
+            if p.get("constat") or CLAIM.search(s):
                 idx = i
             break
         if idx is None:
