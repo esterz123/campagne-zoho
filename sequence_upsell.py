@@ -94,7 +94,7 @@ Mes clients qui convertissent le mieux leurs propres prospects sont ceux qui pre
 
 Vos reponses (meme en 3 lignes) seront integrees a votre rapport final pour le rendre actionnable.
 
-Aussi, un point pratique : si vous voulez aller plus loin que le diagnostic et transformer votre image de marque pour de bon, l'offre de rentree reste ouverte jusqu'au 31 aout. 3 places seulement. Le tarif passe de 3 900 EUR a 2 900 EUR jusqu'a cette date.
+Aussi, un point pratique : si vous voulez aller plus loin que le diagnostic et transformer votre image de marque pour de bon, l'offre de rentree reste ouverte jusqu'au 30 septembre. 3 places seulement. Le tarif passe de 3 900 EUR a 2 900 EUR jusqu'a cette date.
 
 https://mahdi-design.com/refonte.html
 
@@ -118,7 +118,7 @@ Maintenant, deux options pour la suite :
 
 Option A - Vous appliquez vous-meme. Les 3 premieres recommandations sont gratuites (a venir dans le document). Je reste disponible pour une question par email.
 
-Option B - Vous me confiez la transformation. Je m'occupe de tout : refonte du logo, refonte du site, mise en conformite mobile, optimisation pour la conversion. Delai 4 semaines. Tarif rentree jusqu'au 31 aout : 2 900 EUR au lieu de 3 900 EUR.
+Option B - Vous me confiez la transformation. Je m'occupe de tout : refonte du logo, refonte du site, mise en conformite mobile, optimisation pour la conversion. Delai 4 semaines. Tarif rentree jusqu'au 30 septembre : 2 900 EUR au lieu de 3 900 EUR.
 
 Dites-moi simplement "option A" ou "option B" et je vous envoie le detail.
 
@@ -133,7 +133,7 @@ Dernier message de ma part sur ce diagnostic.
 
 J'ai bien note que vous n'avez pas encore choisi la suite, et c'est totalement votre droit. Le diagnostic vous appartient et je ne veux rien vous forcer.
 
-Juste pour information, l'offre de rentree se termine demain (31 aout) : la refonte complete passe de 3 900 EUR a 2 900 EUR. Si vous decidez de transformer votre image avant cette date, mon agenda reste ouvert.
+Juste pour information, l'offre de rentree se termine le 30 septembre : la refonte complete passe de 3 900 EUR a 2 900 EUR. Si vous decidez de transformer votre image avant cette date, mon agenda reste ouvert.
 
 Sinon, gardez le diagnostic. Si un jour votre situation change (nouveau client qui doute, projet de refonte qui arrive), vous avez mon email.
 
