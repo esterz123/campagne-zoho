@@ -1,0 +1,802 @@
+[
+ {
+  "nom": "4 J CHAUDRONNERIE",
+  "siren": "421264037",
+  "ville": "SAINTE-BLANDINE",
+  "naf": "25.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/421264037"
+ },
+ {
+  "nom": "A.F.U.M.E. ATELIER DE FABRICATION ET D'USINAGE MECANIQUE (A.F.U.M.E.)",
+  "siren": "419763099",
+  "ville": "JARGEAU",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/419763099"
+ },
+ {
+  "nom": "ABAG (ABATTOIRS DE GRENOBLE) (ABAG) (ABAG)",
+  "siren": "404048704",
+  "ville": "FONTANIL-CORNILLON",
+  "naf": "10.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/404048704"
+ },
+ {
+  "nom": "ABATTOIR ET DECOUPES DES TUILERIES",
+  "siren": "507518298",
+  "ville": "BEAUVAIS-SUR-TESCOU",
+  "naf": "10.12Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/507518298"
+ },
+ {
+  "nom": "ACGR TOLERIE",
+  "siren": "797644606",
+  "ville": "ROSULT",
+  "naf": "25.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/797644606"
+ },
+ {
+  "nom": "ACTIOMS (ACTIOMS)",
+  "siren": "538985714",
+  "ville": "SAINT-MARCEL",
+  "naf": "25.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/538985714"
+ },
+ {
+  "nom": "AG TOLERIE",
+  "siren": "513961367",
+  "ville": "SAINT-MARTIN-LA-PLAINE",
+  "naf": "25.50B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/513961367"
+ },
+ {
+  "nom": "ALLIANCE CHAUDRONNERIE TUYAUTERIE INDUSTRIE (ALLIANCE CHAUDRONNERIE TUYAUTERIE INDUSTRIE) (A.C.T.I.)",
+  "siren": "503441594",
+  "ville": "VILLENEUVE-D'OLMES",
+  "naf": "33.20A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/503441594"
+ },
+ {
+  "nom": "ALSACE TOLERIE (ALSACE TOLERIE)",
+  "siren": "482415775",
+  "ville": "COLMAR",
+  "naf": "25.50B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/482415775"
+ },
+ {
+  "nom": "AMADA OUTILLAGE",
+  "siren": "320130263",
+  "ville": "VAL-DE-SCIE",
+  "naf": "25.73B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/320130263"
+ },
+ {
+  "nom": "ANJOU DECOLLETAGE",
+  "siren": "070201041",
+  "ville": "MAUGES-SUR-LOIRE",
+  "naf": "25.62A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/070201041"
+ },
+ {
+  "nom": "AP DECOUPE",
+  "siren": "884537937",
+  "ville": "ALGRANGE",
+  "naf": "10.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/884537937"
+ },
+ {
+  "nom": "APPLICATION DE TECHNIQUES D'ELECTRO-EROSION MOULES ET INJECTIONS PLASTIQUES (ATEMIP)",
+  "siren": "323298349",
+  "ville": "AMBOISE",
+  "naf": "22.29A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/323298349"
+ },
+ {
+  "nom": "APPLICATION GENERALE MECANIQUE ELECTRIQU (AGME)",
+  "siren": "403540586",
+  "ville": "DOMONT",
+  "naf": "33.14Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/403540586"
+ },
+ {
+  "nom": "APPLICATIONS USINAGE DES PLASTIQUES POUR L'INDUSTRIE - AUPI (AUPI)",
+  "siren": "351468277",
+  "ville": "VILLERS-COTTERETS",
+  "naf": "22.29A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/351468277"
+ },
+ {
+  "nom": "ARDEN PLAST SAS",
+  "siren": "392445466",
+  "ville": "MOUZON",
+  "naf": "22.21Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/392445466"
+ },
+ {
+  "nom": "ATELIER CHAUDRONNERIE LASER (ACL23)",
+  "siren": "442669529",
+  "ville": "FROMENTAL",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/442669529"
+ },
+ {
+  "nom": "ATELIER DE DECOLLETAGE DE BIGORRE (ADB)",
+  "siren": "422289835",
+  "ville": "LOUEY",
+  "naf": "25.62A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/422289835"
+ },
+ {
+  "nom": "ATELIER DE FRAISAGE ET MECANIQUE (AFM)",
+  "siren": "410492326",
+  "ville": "ATHIS-VAL DE ROUVRE",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/410492326"
+ },
+ {
+  "nom": "ATELIER DECOLLETAGE MECANIQUE ISERE (ADEMIS)",
+  "siren": "419039888",
+  "ville": "GRENOBLE",
+  "naf": "25.62A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/419039888"
+ },
+ {
+  "nom": "ATELIER INDUSTRIEL TOLERIE SOUDURE SATIP (AITS SATIP)",
+  "siren": "794303412",
+  "ville": "VERRIERES-EN-ANJOU",
+  "naf": "25.50B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/794303412"
+ },
+ {
+  "nom": "ATELIER MECANIQUE CHAUDRONNERIE SERRURER (AMCS)",
+  "siren": "303828883",
+  "ville": "SAINTE AGATHE D'ALIERMONT",
+  "naf": "25.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/303828883"
+ },
+ {
+  "nom": "ATELIER MECANIQUE DECOLLETAGE SANDERON (AMD SANDERON)",
+  "siren": "853761039",
+  "ville": "COURPIERE",
+  "naf": "25.62A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/853761039"
+ },
+ {
+  "nom": "ATELIER MECANIQUE THOUARSAIS D'ELECTROEROSION ET USINAGE",
+  "siren": "510180193",
+  "ville": "THOUARS",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/510180193"
+ },
+ {
+  "nom": "ATELIER SOUDURE TOLERIE CHAUDRONNERIE (ASTC)",
+  "siren": "380248591",
+  "ville": "JOUY-LE-MOUTIER",
+  "naf": "33.20B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/380248591"
+ },
+ {
+  "nom": "ATELIER TOLERIE MECANIQUE PRECISION 77",
+  "siren": "341558799",
+  "ville": "YEBLES",
+  "naf": "25.50B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/341558799"
+ },
+ {
+  "nom": "ATELIERS CHAUDRONNERIE CANTAL (ACC)",
+  "siren": "338543416",
+  "ville": "SANSAC-DE-MARMIESSE",
+  "naf": "33.20A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/338543416"
+ },
+ {
+  "nom": "ATELIERS CONSTRUCTION MECANIQUE GENERALE (ACMG)",
+  "siren": "353247232",
+  "ville": "PAGNY-SUR-MEUSE",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/353247232"
+ },
+ {
+  "nom": "ATELIERS DE TOLERIE ANJOU BRETAGNE (ATAB)",
+  "siren": "326943255",
+  "ville": "AVRILLE",
+  "naf": "25.50B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/326943255"
+ },
+ {
+  "nom": "ATELIERS DE TOLERIE FINE (ATF)",
+  "siren": "339956633",
+  "ville": "ONNAING",
+  "naf": "25.50B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/339956633"
+ },
+ {
+  "nom": "ATELIERS MECANIQUE PRECISION OUTILLAGE (NEOAX INDUSTRIES) (AMPO)",
+  "siren": "318503885",
+  "ville": "FLEURINES",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/318503885"
+ },
+ {
+  "nom": "ATELIERS OUTILLAGE PRODUCTION BEUCHEY (AOPB)",
+  "siren": "353979818",
+  "ville": "DANNEMARIE-SUR-CRETE",
+  "naf": "22.29A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/353979818"
+ },
+ {
+  "nom": "ATHISIENNE MECANIQUE MOULE ET OUTILLAGE",
+  "siren": "402481667",
+  "ville": "ATHIS-VAL DE ROUVRE",
+  "naf": "25.73B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/402481667"
+ },
+ {
+  "nom": "ATLANTIQUE TOLERIE SOUDURE",
+  "siren": "450396296",
+  "ville": "NANTES",
+  "naf": "33.20A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/450396296"
+ },
+ {
+  "nom": "AUTOMATISATION MACHINES USINAGE (ACTEMIUM ANJOU BLEU AUTOMATION) (AMU)",
+  "siren": "403101728",
+  "ville": "SEGRE-EN-ANJOU BLEU",
+  "naf": "28.41Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/403101728"
+ },
+ {
+  "nom": "AUTOMATISME TOLERIE ET MECANIQUE (ATM)",
+  "siren": "382641181",
+  "ville": "CARIGNAN",
+  "naf": "25.50B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/382641181"
+ },
+ {
+  "nom": "AXIL PLASTURGIE",
+  "siren": "341917813",
+  "ville": "CIVRIEUX-D'AZERGUES",
+  "naf": "22.29A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/341917813"
+ },
+ {
+  "nom": "BAXTER INJECTION",
+  "siren": "399796861",
+  "ville": "VINAY",
+  "naf": "22.29A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/399796861"
+ },
+ {
+  "nom": "BOULANGERIE JOSSERAND",
+  "siren": "823076740",
+  "ville": "ALLEMOND",
+  "naf": "10.71C",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/823076740"
+ },
+ {
+  "nom": "BREIZH USINAGE SERVICES",
+  "siren": "409730074",
+  "ville": "PLEYBEN",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/409730074"
+ },
+ {
+  "nom": "BRIZARD USINAGE (BRIZARD USINAGE)",
+  "siren": "431980929",
+  "ville": "VOIRON",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/431980929"
+ },
+ {
+  "nom": "CADIOU CHAUDRONNERIE PLASTIQUE",
+  "siren": "539176768",
+  "ville": "GUENGAT",
+  "naf": "22.23Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/539176768"
+ },
+ {
+  "nom": "CAMEGA-TOLERIE",
+  "siren": "434269411",
+  "ville": "SEICHES-SUR-LE-LOIR",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/434269411"
+ },
+ {
+  "nom": "CARROSSERIE TOLERIE INDUSTRIELLE GROMY",
+  "siren": "392316782",
+  "ville": "MELESSE",
+  "naf": "29.20Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/392316782"
+ },
+ {
+  "nom": "CENTRALU USINAGE",
+  "siren": "504494105",
+  "ville": "GANNAT",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/504494105"
+ },
+ {
+  "nom": "CERO CONCEPT REALISA OUTILLAGE",
+  "siren": "329666572",
+  "ville": "CHALLANS",
+  "naf": "25.73A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/329666572"
+ },
+ {
+  "nom": "CGS PLASTIQUE",
+  "siren": "384825014",
+  "ville": "LORIOL-SUR-DROME",
+  "naf": "22.29A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/384825014"
+ },
+ {
+  "nom": "CHARLES LAUZIER",
+  "siren": "633620323",
+  "ville": "SAINT-GEORGES-D'ESPERANCHE",
+  "naf": "24.53Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/633620323"
+ },
+ {
+  "nom": "CHAUDRONNERIE AGNP",
+  "siren": "530044684",
+  "ville": "NASSANDRES SUR RISLE",
+  "naf": "25.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/530044684"
+ },
+ {
+  "nom": "CHAUDRONNERIE ALBANAISE - GRANGER (BLOCALPS)",
+  "siren": "351845128",
+  "ville": "ENTRELACS",
+  "naf": "25.29Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/351845128"
+ },
+ {
+  "nom": "CHAUDRONNERIE COGNACAISE",
+  "siren": "448396234",
+  "ville": "MERPINS",
+  "naf": "33.20B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/448396234"
+ },
+ {
+  "nom": "CHAUDRONNERIE DE LA RHUNE",
+  "siren": "409458916",
+  "ville": "TARNOS",
+  "naf": "25.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/409458916"
+ },
+ {
+  "nom": "CHAUDRONNERIE DU RIED",
+  "siren": "382446201",
+  "ville": "SAASENHEIM",
+  "naf": "25.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/382446201"
+ },
+ {
+  "nom": "CHAUDRONNERIE INDUST MAINTENANCE ETUDES (CIME)",
+  "siren": "451891584",
+  "ville": "SAINT SAULVE",
+  "naf": "33.20A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/451891584"
+ },
+ {
+  "nom": "CHAUDRONNERIE INDUSTR CHAMP ARDENNE (CICA)",
+  "siren": "428679724",
+  "ville": "MUIZON",
+  "naf": "33.20A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/428679724"
+ },
+ {
+  "nom": "CHAUDRONNERIE LESCAUT SA",
+  "siren": "557020062",
+  "ville": "BERGERAC",
+  "naf": "25.29Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/557020062"
+ },
+ {
+  "nom": "CHAUDRONNERIE LESPINASSE",
+  "siren": "380046862",
+  "ville": "HIERSAC",
+  "naf": "33.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/380046862"
+ },
+ {
+  "nom": "CHAUDRONNERIE LOUCHET",
+  "siren": "301273678",
+  "ville": "CAMBLIGNEUL",
+  "naf": "25.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/301273678"
+ },
+ {
+  "nom": "CHAUDRONNERIE MAINTENANCE MECANIQUE INDUSTRIELLE SIGLE C.M.M.I (CMMI)",
+  "siren": "410185623",
+  "ville": "INGRANDES",
+  "naf": "25.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/410185623"
+ },
+ {
+  "nom": "CHAUDRONNERIE REGIONALE DE LA BRIE (CRB)",
+  "siren": "319448262",
+  "ville": "LA CHAPELLE-LA-REINE",
+  "naf": "29.20Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/319448262"
+ },
+ {
+  "nom": "CHAUDRONNERIE SERRURERIE MONTELIMARD (C.S.M.)",
+  "siren": "348590399",
+  "ville": "TENCE",
+  "naf": "25.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/348590399"
+ },
+ {
+  "nom": "CHAUDRONNERIE SERVICE SOCIETE D'EXPLOITATION",
+  "siren": "394526503",
+  "ville": "YVRAC",
+  "naf": "33.20A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/394526503"
+ },
+ {
+  "nom": "CHAUDRONNERIE TOLERIE DES MOULINEAUX (CTM)",
+  "siren": "692026487",
+  "ville": "IGNY",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/692026487"
+ },
+ {
+  "nom": "CHAUDRONNERIE TOLERIE INDUSTRIELLE - BENNES AMOVIBLES (CTI-BA)",
+  "siren": "911822682",
+  "ville": "BELFORET-EN-PERCHE",
+  "naf": "29.20Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/911822682"
+ },
+ {
+  "nom": "CHAUDRONNERIE TUYAUTERIE LAUNAY (CTL)",
+  "siren": "378103709",
+  "ville": "SURGERES",
+  "naf": "25.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/378103709"
+ },
+ {
+  "nom": "CHAUDRONNERIE TUYAUTERIE MECANO SOUDURE (CTMS)",
+  "siren": "338407182",
+  "ville": "AVESNES-SUR-HELPE",
+  "naf": "25.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/338407182"
+ },
+ {
+  "nom": "CHRYSALIS",
+  "siren": "821585734",
+  "ville": "CUSTINES",
+  "naf": "27.90Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/821585734"
+ },
+ {
+  "nom": "CMN INDUSTRIE",
+  "siren": "380295337",
+  "ville": "MIRIBEL",
+  "naf": "25.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/380295337"
+ },
+ {
+  "nom": "COMOTOLERIE (COMOTOLERIE - COMO TOLERIE)",
+  "siren": "873802045",
+  "ville": "ANCENIS-SAINT-GEREON",
+  "naf": "25.50B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/873802045"
+ },
+ {
+  "nom": "COMPAGNIE FRANCAISE DE CHAUDRONNERIE (CFC)",
+  "siren": "321408932",
+  "ville": "BLENDECQUES",
+  "naf": "25.29Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/321408932"
+ },
+ {
+  "nom": "CONCEPT BOIS COTE D'OPALE",
+  "siren": "442968889",
+  "ville": "PREURES",
+  "naf": "16.23Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/442968889"
+ },
+ {
+  "nom": "CONCEPTION CHAUDRONNERIE MECANIQUE TECHNOLOGIE (CCMTECH) (CCMTECH)",
+  "siren": "843870064",
+  "ville": "CORAY",
+  "naf": "28.93Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/843870064"
+ },
+ {
+  "nom": "CONSTRUCTIONS METALLIQUES ET CHAUDRONNERIE YONNAISE INDUSTRIES (CMCY INDUSTRIES)",
+  "siren": "518104369",
+  "ville": "POIRE SUR VIE (LE)",
+  "naf": "25.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/518104369"
+ },
+ {
+  "nom": "CREUTZWALD INJECTION",
+  "siren": "424575348",
+  "ville": "CREUTZWALD",
+  "naf": "29.32Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/424575348"
+ },
+ {
+  "nom": "CTA (CHAUDRONNERIE TOLERIE DE L'ARGONNE)",
+  "siren": "326446952",
+  "ville": "VARENNES-EN-ARGONNE",
+  "naf": "25.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/326446952"
+ },
+ {
+  "nom": "D.V.P. DECOUPE VIANDES PRODUCTEUR",
+  "siren": "822829990",
+  "ville": "LA FERRIERE",
+  "naf": "10.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/822829990"
+ },
+ {
+  "nom": "DECO PREM",
+  "siren": "314924721",
+  "ville": "MARNAZ",
+  "naf": "25.62A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/314924721"
+ },
+ {
+  "nom": "DECOLLETAGE DE BASSE NORMANDIE (DBN)",
+  "siren": "309123701",
+  "ville": "BAYEUX",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/309123701"
+ },
+ {
+  "nom": "DECOLLETAGE DE LA CASCADE THEVENET MICHEL ET FILS",
+  "siren": "382376945",
+  "ville": "MAGLAND",
+  "naf": "25.62A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/382376945"
+ },
+ {
+  "nom": "DECOLLETAGE DE LA GARENNE",
+  "siren": "732821236",
+  "ville": "ORNANS",
+  "naf": "25.62A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/732821236"
+ },
+ {
+  "nom": "DECOLLETAGE DE REU",
+  "siren": "551920796",
+  "ville": "ACHIET-LE-GRAND",
+  "naf": "25.62A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/551920796"
+ },
+ {
+  "nom": "DECOLLETAGE DU BAS JURA (DBJ)",
+  "siren": "353153364",
+  "ville": "VAL SURAN",
+  "naf": "25.62A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/353153364"
+ },
+ {
+  "nom": "DECOLLETAGE MOREL",
+  "siren": "300863370",
+  "ville": "CHAMPAGNOLE",
+  "naf": "25.62A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/300863370"
+ },
+ {
+  "nom": "DECOUPAGE ET EMBOUTISSAGE DU BOURBONNAIS (SDEB)",
+  "siren": "976720284",
+  "ville": "CUSSET",
+  "naf": "25.50B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/976720284"
+ },
+ {
+  "nom": "DECOUPE LUX",
+  "siren": "817488349",
+  "ville": "BRULON",
+  "naf": "13.99Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/817488349"
+ },
+ {
+  "nom": "DEFI - HOUILLIERES DE CRUEJOULS",
+  "siren": "331014993",
+  "ville": "CHATTE",
+  "naf": "20.12Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/331014993"
+ },
+ {
+  "nom": "DELTA USINAGE",
+  "siren": "440730372",
+  "ville": "MURS-ERIGNE",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/440730372"
+ },
+ {
+  "nom": "DPMI (DECOUPE PLIAGE MECANO SOUDURE INDUSTRIE)",
+  "siren": "309246247",
+  "ville": "MARBOZ",
+  "naf": "25.50B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/309246247"
+ },
+ {
+  "nom": "DUPONT SARL",
+  "siren": "348698671",
+  "ville": "VEIGY-FONCENEX",
+  "naf": "10.71C",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/348698671"
+ },
+ {
+  "nom": "DUTHEL MAINTENANCE MOULE (DMM)",
+  "siren": "354094914",
+  "ville": "GROISSIAT",
+  "naf": "25.73A",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/354094914"
+ },
+ {
+  "nom": "EBERHARD USINAGE",
+  "siren": "300155256",
+  "ville": "HATTMATT",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/300155256"
+ },
+ {
+  "nom": "ELCAM USINAGE (ELCAM USINAGE)",
+  "siren": "420425589",
+  "ville": "POLIGNY",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/420425589"
+ },
+ {
+  "nom": "ENGELVIN BOIS MOULE",
+  "siren": "413894684",
+  "ville": "MENDE",
+  "naf": "16.24Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/413894684"
+ },
+ {
+  "nom": "EST USINAGE",
+  "siren": "452493901",
+  "ville": "ŒTING",
+  "naf": "25.62B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/452493901"
+ },
+ {
+  "nom": "ETUDE ET REALISATION DE TOLERIE DE PRECISION (ERTOP)",
+  "siren": "892388919",
+  "ville": "JOIGNY",
+  "naf": "25.50B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/892388919"
+ },
+ {
+  "nom": "ETUDES INDUSTRIELLES TOLERIE A REALISATIONS COURTES E.I.T.A.R.C. (EITARC)",
+  "siren": "338216260",
+  "ville": "SAINT-MARTIN-D'HERES",
+  "naf": "25.50B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/338216260"
+ },
+ {
+  "nom": "FERRONNERIE CHAUDRONNERIE ENTRETIEN (F.C.E.)",
+  "siren": "843168360",
+  "ville": "LES PENNES-MIRABEAU",
+  "naf": "33.11Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/843168360"
+ },
+ {
+  "nom": "FICAP",
+  "siren": "318772324",
+  "ville": "BRAY-SUR-SEINE",
+  "naf": "28.22Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/318772324"
+ },
+ {
+  "nom": "FL PRINT",
+  "siren": "517735973",
+  "ville": "SAINT-CYR-EN-VAL",
+  "naf": "18.12Z",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/517735973"
+ },
+ {
+  "nom": "FMX DECOUPE (FMX DECOUPE)",
+  "siren": "879857308",
+  "ville": "MESLIERES",
+  "naf": "25.50B",
+  "tranche": "12",
+  "url_api": "https://annuaire-entreprises.data.gouv.fr/entreprise/879857308"
+ }
+]
