@@ -102,3 +102,45 @@ OSError: [Errno 22] Invalid argument
 16:32:16 [57/100] HOMONYME CHAUDRONNERIE LESPINASSE (HIERSAC) candidats=chaudronnerie-lespinasse.fr,chaudronnerie-lespinasse.com,chaudronnerie-lespinasse.eu
 16:32:33 [58/100] HOMONYME CHAUDRONNERIE LOUCHET (CAMBLIGNEUL) candidats=chaudronnerielouchet.fr,chaudronnerie-louchet.fr,chaudronnerie-louchet.com
 16:33:28 [59/100] HOMONYME CHAUDRONNERIE MAINTENANCE MECANIQUE (INGRANDES) candidats=datalegal.fr,cmmi.fr,cmmi.com
+16:37:58 [60/100] HOMONYME CHAUDRONNERIE REGIONALE DE LA BRIE  (LA CHAPELLE-LA-REINE) candidats=crb.fr,crb.com,chaudronnerie-regionale-de-la-brie.fr
+16:44:04 [61/100] HOMONYME CHAUDRONNERIE SERRURERIE MONTELIMAR (TENCE) candidats=csm.fr,csm.com,chaudronnerie-serrurerie-montelimard.fr
+16:45:01 [62/100] HOMONYME CHAUDRONNERIE SERVICE SOCIETE D'EXP (YVRAC) candidats=chaudronnerie-service-societe-d-exploitation.fr,chaudronnerie-service-societe-d-exploitation.com,chaudronnerie-service-societe-d-exploitation.eu
+16:46:18 [63/100] HOMONYME CHAUDRONNERIE TOLERIE DES MOULINEAU (IGNY) candidats=mecaweb.fr,ctm.fr,ctm.com
+16:46:26 [64/100] HOMONYME CHAUDRONNERIE TOLERIE INDUSTRIELLE  (BELFORET-EN-PERCHE) candidats=ctiba.fr,ctiba.com,chaudronnerie-tolerie-industrielle-bennes-amovibles.fr
+16:47:04 [65/100] HOMONYME CHAUDRONNERIE TUYAUTERIE LAUNAY (CT (SURGERES) candidats=ctl.fr,ctl.com,chaudronnerie-tuyauterie-launay.fr
+16:48:09 [66/100] HOMONYME CHAUDRONNERIE TUYAUTERIE MECANO SOU (AVESNES-SUR-HELPE) candidats=datalegal.fr,ctms.fr,ctms.com
+16:49:22 [67/100] MORT     CHRYSALIS contact@chrysaliseclairage.com chrysaliseclairage.com (RCPT code 550)
+16:50:24 [68/100] OK       CMN INDUSTRIE guy.rasper@cmn-industrie.com cmn-industrie.com (RCPT code 250)
+16:50:35 [69/100] HOMONYME COMOTOLERIE (COMOTOLERIE - COMO TOL (ANCENIS-SAINT-GEREON) candidats=comotolerie.fr,comotolerie.com,comotolerie.eu
+16:52:27 [70/100] HOMONYME COMPAGNIE FRANCAISE DE CHAUDRONNERI (BLENDECQUES) candidats=cfc.fr,cfc.com,compagnie-francaise-de-chaudronnerie.fr
+16:53:39 [71/100] HOMONYME CONCEPT BOIS COTE D'OPALE (PREURES) candidats=concept-bois-cote-d-opale.fr,concept-bois-cote-d-opale.com,concept-bois-cote-d-opale.eu
+16:54:15 [72/100] HOMONYME CONCEPTION CHAUDRONNERIE MECANIQUE  (CORAY) candidats=ccmtech.fr,ccmtech.com,conception-chaudronnerie-mecanique-technologie.fr
+16:56:43 [73/100] HOMONYME CONSTRUCTIONS METALLIQUES ET CHAUDR (POIRE SUR VIE (LE)) candidats=constructions-metalliques-et-chaudronnerie-yonnaise-industries.fr,constructions-metalliques-et-chaudronnerie-yonnaise-industries.com,constructions-metalliques-et-chaudronnerie-yonnaise-industries.eu
+16:56:52 [74/100] HOMONYME CREUTZWALD INJECTION (CREUTZWALD) candidats=creutzwald-injection.fr,creutzwald-injection.com,creutzwald-injection.eu
+16:56:56 [75/100] NO_SITE CTA (CHAUDRONNERIE TOLERIE DE L'ARGONN (VARENNES-EN-ARGONNE)
+17:00:04 [76/100] HOMONYME D.V.P. DECOUPE VIANDES PRODUCTEUR (LA FERRIERE) candidats=bidsfactory.com,dvp.fr,dvp.com
+17:00:31 [77/100] HOMONYME DECO PREM (MARNAZ) candidats=deco-prem.fr,deco-prem.com,deco-prem.eu
+17:01:21 [78/100] HOMONYME DECOLLETAGE DE BASSE NORMANDIE (DBN (BAYEUX) candidats=dbn.fr,dbn.com,decolletage-de-basse-normandie.fr
+17:01:30 [79/100] HOMONYME DECOLLETAGE DE LA CASCADE THEVENET  (MAGLAND) candidats=decolletage-de-la-cascade-thevenet-michel-et-fils.fr,decolletage-de-la-cascade-thevenet-michel-et-fils.com,decolletage-de-la-cascade-thevenet-michel-et-fils.eu
+17:01:38 [80/100] HOMONYME DECOLLETAGE DE LA GARENNE (ORNANS) candidats=decolletage-de-la-garenne.fr,decolletage-de-la-garenne.com,decolletage-de-la-garenne.eu
+17:01:58 [81/100] DOUBLON DECOLLETAGE DE REU decolletage-de-reu.com
+17:02:45 [82/100] HOMONYME DECOLLETAGE DU BAS JURA (DBJ) (VAL SURAN) candidats=dbj.fr,dbj.com,decolletage-du-bas-jura.fr
+17:03:21 [83/100] HOMONYME DECOLLETAGE MOREL (CHAMPAGNOLE) candidats=decolletage-morel.fr,decolletage-morel.com,decolletage-morel.eu
+17:04:36 [84/100] NO_EMAIL DECOUPAGE ET EMBOUTISSAGE DU BOURBO sdeb.fr
+17:05:02 [85/100] HOMONYME DECOUPE LUX (BRULON) candidats=decoupe-lux.fr,decoupe-lux.eu,decoupe-lux.net
+17:05:22 [86/100] HOMONYME DEFI - HOUILLIERES DE CRUEJOULS (CHATTE) candidats=defi-houillieres-de-cruejouls.fr,defi-houillieres-de-cruejouls.com,defi-houillieres-de-cruejouls.eu
+17:07:11 [87/100] HOMONYME DELTA USINAGE (MURS-ERIGNE) candidats=delta-usinage.com,delta-usinage.fr,delta-usinage.eu
+17:08:57 [88/100] HOMONYME DPMI (DECOUPE PLIAGE MECANO SOUDURE (MARBOZ) candidats=dpmi.fr,dpmi.com,dpmi.eu
+17:09:03 [89/100] HOMONYME DUPONT SARL (VEIGY-FONCENEX) candidats=dupont-sarl.fr,dupont-sarl.com,dupont-sarl.eu
+17:10:44 [90/100] HOMONYME DUTHEL MAINTENANCE MOULE (DMM) (GROISSIAT) candidats=lesentreprises.com,dmm.fr,dmm.com
+17:11:52 [91/100] NO_EMAIL EBERHARD USINAGE eberhard-usinage.fr
+17:12:09 [92/100] HOMONYME ELCAM USINAGE (ELCAM USINAGE) (POLIGNY) candidats=decolletage.fr,elcam-usinage.fr,elcam-usinage.com
+17:13:04 [93/100] MORT     ENGELVIN BOIS MOULE contact@engelvin-bois-moule.com engelvin-bois-moule.com (RCPT code 554)
+17:13:46 [94/100] OK       EST USINAGE contact@estusinage.fr estusinage.fr (RCPT code 250)
+17:14:54 [95/100] HOMONYME ETUDE ET REALISATION DE TOLERIE DE  (JOIGNY) candidats=rubypayeur.com,ertop.fr,ertop.com
+17:17:05 [96/100] HOMONYME ETUDES INDUSTRIELLES TOLERIE A REAL (SAINT-MARTIN-D'HERES) candidats=eitarc.fr,eitarc.com,etudes-industrielles-tolerie-a-realisations-courtes-e-i-t-a-r-c.fr
+17:17:47 [97/100] HOMONYME FERRONNERIE CHAUDRONNERIE ENTRETIEN (LES PENNES-MIRABEAU) candidats=fce.fr,fce.com,ferronnerie-chaudronnerie-entretien.fr
+17:18:37 [98/100] MORT     FICAP info@ficap.fr ficap.fr (RCPT code 550)
+17:19:27 [99/100] HOMONYME FL PRINT (SAINT-CYR-EN-VAL) candidats=fl-print.fr,fl-print.com,fl-print.eu
+17:19:32 [100/100] HOMONYME FMX DECOUPE (FMX DECOUPE) (MESLIERES) candidats=fmxdecoupe.fr,fmxdecoupe.com,fmx-decoupe.fr
+17:19:32 === PHASE 2 done: {'homonyme': 83, 'bloque': 2, 'doublon': 2, 'no_email': 6, 'ok': 3, 'mort': 3, 'no_site': 1} ===
