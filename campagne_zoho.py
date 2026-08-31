@@ -148,7 +148,8 @@ def compte_boite(sent, nom, today):
     return sum(1 for v in sent.values()
                if v.get("via") == nom and (v.get("on") == today
                                            or v.get("sent_relance1") == today
-                                           or v.get("sent_relance2") == today))
+                                           or v.get("sent_relance2") == today
+                                           or v.get("sent_relance3") == today))  # AUDIT 31/08: relance3 comptait nulle -> depassement silencieux du plafond boite
 
 
 def choisir_boite(boites, sent, today):
@@ -354,7 +355,8 @@ def main():
 
     sent_today = [k for k, v in sent.items()
                   if v.get("on") == today or v.get("sent_relance1") == today
-                  or v.get("sent_relance2") == today]
+                  or v.get("sent_relance2") == today
+                  or v.get("sent_relance3") == today]  # AUDIT 31/08: relance3 invisible au quota journalier
     # PREUVE-DRIVEN (31/08) : envoyer d'abord les sites les plus cassés.
     # constats_sites.json (verificateur_site.py) porte la note /100 mesurée.
     # Sans constat = note neutre 50 (après les cassés, avant les nickel).

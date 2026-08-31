@@ -25,6 +25,10 @@ on:
 jobs:
   campagne:
     runs-on: ubuntu-latest
+    # AUDIT 31/08: serialise les runs (crons + fallback dispatch du Chef) pour
+    # empecher deux runs simultanes de lire le meme state et double-envoyer.
+    concurrency: campagne
+    cancel-in-progress: false
     permissions:
       contents: write
     steps:
