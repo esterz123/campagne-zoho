@@ -8118,5 +8118,13 @@
   "siren": "414358705",
   "tranche": "02",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE VERNONNAISE D'EXPERTISE COMPTABLE",
+  "ville": "VERNON",
+  "naf": "69.20Z",
+  "siren": "352907224",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
  }
 ]
