@@ -178,3 +178,38 @@ START ERR: {
   + 349 expert-comptable-en-ligne.fr score 100
   + 350 fermetalu.com score 90
 PAGES GENEREES: 12 | manifest: 251
+[2026-09-01 10:18:42] === CHASSE HEBDOMADAIRE ===
+[2026-09-01 10:18:42] Phase 0 - recolle systematique (60 niches Exa, dedup auto)
+[2026-09-01 10:19:54] candidats recoltes: 998 -> 1039 (+41)
+[2026-09-01 10:19:54] Phase 1 - exa_bulk (collecte + extraction)
+[2026-09-01 10:20:01] sites candidats: 533
+== BULK LEADS: 0 -> /home/runner/work/campagne-zoho/campagne-zoho/_hebdo_exa.json
+[2026-09-01 10:20:01] Phase 2 - extract_seq (chunk dynamique 700)
+[2026-09-01 10:55:01] TIMEOUT extract_seq.py apres 2100s (chunk trop gros ou site lent)
+[2026-09-01 10:55:02] Phase 2ter err: name 'io' is not defined
+[2026-09-01 10:55:02] Phase 3 - Apify contact-info-scraper (emails JS)
+[2026-09-01 10:55:02] 
+URLs a traiter: 880
+START ERR: {
+  "error": {
+    "type": "not-enough-usage-to-run-paid-actor",
+    "message": "By launching this job you will exceed your remaining usage of $0.193544.  Consider upgrading to a paid plan at https://console.apify.com/billing/subscription"
+  }
+}
+
+[2026-09-01 10:55:02]   integre 0 depuis _exa_bulk_leads.json
+[2026-09-01 10:55:02] === CHASSE TERMINEE : +13 puis +0 prospects ===
+[2026-09-01 10:55:28] + 355 ampifrance.com score 100
+  + 356 apld-avocat.fr score 100
+  + 357 behm.fr score 90
+  + 358 corbel-jannin.fr score 55
+  + 359 cvim.fr score 82
+  + 360 figitalexpertise.fr score 100
+  + 361 fizexpert.fr score 100
+  + 362 forgeavia.fr score 100
+  + 363 fr.shprecisionshaft.com score 92
+  + 364 fraisepers.fr score 100
+  + 365 france-c.fr score 92
+  + 366 francemetal.com score 100
+  + 367 fry-etudes.fr score 100
+PAGES GENEREES: 13 | manifest: 349
