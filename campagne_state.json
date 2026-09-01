@@ -357,13 +357,15 @@
    "on": "2026-08-17",
    "messageId": "1786984298423155100",
    "via": "commercial",
-   "sent_relance1": "2026-08-21"
+   "sent_relance1": "2026-08-21",
+   "sent_relance2": "2026-09-01"
   },
   "54": {
    "on": "2026-08-17",
    "messageId": "1786985020298138400",
    "via": "hello",
-   "sent_relance1": "2026-08-21"
+   "sent_relance1": "2026-08-21",
+   "sent_relance2": "2026-09-01"
   },
   "55": {
    "on": "2026-08-17",
@@ -1298,6 +1300,22 @@
    "status_code": 200,
    "to": "contact@cf-injection.com",
    "body": "<p>Bonjour M. CAVEL (CAVEL),<br>J'ai ouvert cf-injection.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et pas de sitemap : Google decouvre vos pages tout seul, lentement.<br>Je ne vous propose rien à acheter aujourd'hui. Je regarde votre site en 2 minutes et je vous partage les 3 problèmes concrets qui font fuir vos prospects (vitesse, mobile, confiance). Répondez simplement \"oui\" à ce mail et je vous envoie mes constats sous 48 heures</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/124.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "171": {
+   "on": "2026-09-01",
+   "messageId": "1788290572368138300",
+   "via": "info",
+   "status_code": 200,
+   "to": "contact@srelectricite.fr",
+   "body": "<p>Bonjour M. SOURISSEAU,<br>J'ai ouvert srelectricite.fr a l'instant. Deux choses me sautent aux yeux : le site met 4.7 s a s'afficher, la moitie des visiteurs partent avant, et WordPress 5.9.16 : version majeure perimee, failles connues.<br>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie.Diagnostic gratuit, sans engagement.<br>Répondez simplement \"oui\" à ce mail, je vous envoie mes constats sous 48 heures</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/171.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "214": {
+   "on": "2026-09-01",
+   "messageId": "1788290754176138400",
+   "via": "direction",
+   "status_code": 200,
+   "to": "contact@sadevteq.com",
+   "body": "<p>Bonjour M. MOOS,<br>J'ai ouvert sadevteq.com a l'instant. Deux choses me sautent aux yeux : le site met 3.2 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, lentement.<br>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie. Répondez simplement « oui » à ce mail et je vous envoie mes constats sous 48 heures</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/214.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   }
  },
  "done_notified": false
