@@ -1,0 +1,13 @@
+[9/20] #244 atim-inox.com                            -> pas_de_form
+[10/20] #277 ermat-industries.com                     -> pas_de_form
+[11/20] #278 etanchebat.fr                            -> envoye (200)
+[12/20] #143 cardinaud.fr                             -> pas_de_form
+[13/20] #147 hexalean.com                             -> pas_de_form
+[14/20] #312 aci-menuiserie.com                       -> pas_de_form
+[15/20] #168 delabre.fr                               -> envoye (200)
+[16/20] #232 ch-metallerie.com                        -> pas_de_form
+[17/20] #263 conceptindustriel.fr                     -> envoye (200)
+[18/20] #351 anjoudecolletage.com                     -> envoye (200)
+[19/20] #101 usinage-alsace.com                       -> envoye (200)
+[20/20] #201 lefiljaune.com                           -> pas_de_form
+=== FORM DIRECT done: {'envoye': 5, 'pas_de_form': 7, 'echec': 0, 'doublon': 0}

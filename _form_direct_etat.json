@@ -59,5 +59,58 @@
   "code": 200,
   "num": "278",
   "date": "2026-09-01 02:32"
+ },
+ "cardinaud.fr": {
+  "verdict": "pas_de_form",
+  "num": "143",
+  "date": "2026-09-01 02:32"
+ },
+ "hexalean.com": {
+  "verdict": "pas_de_form",
+  "num": "147",
+  "date": "2026-09-01 02:32"
+ },
+ "aci-menuiserie.com": {
+  "verdict": "pas_de_form",
+  "num": "312",
+  "date": "2026-09-01 02:33"
+ },
+ "delabre.fr": {
+  "verdict": "envoye",
+  "via": "https://delabre.fr/contact",
+  "code": 200,
+  "num": "168",
+  "date": "2026-09-01 02:33"
+ },
+ "ch-metallerie.com": {
+  "verdict": "pas_de_form",
+  "num": "232",
+  "date": "2026-09-01 02:34"
+ },
+ "conceptindustriel.fr": {
+  "verdict": "envoye",
+  "via": "https://conceptindustriel.fr",
+  "code": 200,
+  "num": "263",
+  "date": "2026-09-01 02:34"
+ },
+ "anjoudecolletage.com": {
+  "verdict": "envoye",
+  "via": "https://anjoudecolletage.com/contact",
+  "code": 200,
+  "num": "351",
+  "date": "2026-09-01 02:34"
+ },
+ "usinage-alsace.com": {
+  "verdict": "envoye",
+  "via": "https://usinage-alsace.com/contact",
+  "code": 200,
+  "num": "101",
+  "date": "2026-09-01 02:34"
+ },
+ "lefiljaune.com": {
+  "verdict": "pas_de_form",
+  "num": "201",
+  "date": "2026-09-01 02:34"
  }
 }
