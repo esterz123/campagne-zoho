@@ -1,0 +1,63 @@
+{
+ "uti-metallerie.fr": {
+  "verdict": "pas_de_form",
+  "num": "138",
+  "date": "2026-09-01 02:29"
+ },
+ "chaudronnerie-rosteel.com": {
+  "verdict": "pas_de_form",
+  "num": "259",
+  "date": "2026-09-01 02:30"
+ },
+ "dama74.fr": {
+  "verdict": "pas_de_form",
+  "num": "150",
+  "date": "2026-09-01 02:30"
+ },
+ "scadametal.fr": {
+  "verdict": "pas_de_form",
+  "num": "215",
+  "date": "2026-09-01 02:30"
+ },
+ "cmn-industrie.com": {
+  "verdict": "envoye",
+  "via": "https://cmn-industrie.com/contact",
+  "code": 200,
+  "num": "353",
+  "date": "2026-09-01 02:30"
+ },
+ "cf-injection.com": {
+  "verdict": "pas_de_form",
+  "num": "124",
+  "date": "2026-09-01 02:30"
+ },
+ "srelectricite.fr": {
+  "verdict": "pas_de_form",
+  "num": "171",
+  "date": "2026-09-01 02:30"
+ },
+ "sadevteq.com": {
+  "verdict": "envoye",
+  "via": "https://sadevteq.com/contact",
+  "code": 200,
+  "num": "214",
+  "date": "2026-09-01 02:30"
+ },
+ "atim-inox.com": {
+  "verdict": "pas_de_form",
+  "num": "244",
+  "date": "2026-09-01 02:32"
+ },
+ "ermat-industries.com": {
+  "verdict": "pas_de_form",
+  "num": "277",
+  "date": "2026-09-01 02:32"
+ },
+ "etanchebat.fr": {
+  "verdict": "envoye",
+  "via": "https://etanchebat.fr/contact",
+  "code": 200,
+  "num": "278",
+  "date": "2026-09-01 02:32"
+ }
+}
