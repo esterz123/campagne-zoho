@@ -91,3 +91,4 @@
 [99/100] FL PRINT                                      -> homonyme flprint.fr
 [100/100] FMX DECOUPE (FMX DECOUPE)                     -> pas_de_site 
 === PHASE 2b done: {'ok': 4, 'pas_de_site': 42, 'homonyme': 41, 'pas_email': 6, 'smtp_mort': 2, 'smtp_bloque': 1, 'doublon': 4}
+=== PHASE 2b done: {'ok': 4, 'pas_de_site': 42, 'homonyme': 41, 'pas_email': 6, 'smtp_mort': 2, 'smtp_bloque': 1, 'doublon': 4}

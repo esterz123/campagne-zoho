@@ -885,5 +885,45 @@
   "feminin": false,
   "siren": "452493901",
   "enseigne": "EST USINAGE"
+ },
+ "ampi france": {},
+ "avocat en droit du travail ⚖ alexandra petit": {},
+ "behm : construction de vehicules speciaux en mosel": {},
+ "entreprise maintenance industrielle, conception ma": {},
+ "cvim": {
+  "nom": "CHABIRAND",
+  "prenom": "Anthony",
+  "qualite": "Président de SAS",
+  "feminin": false,
+  "siren": "822312039",
+  "enseigne": "CVIM"
+ },
+ "expert comptable paris 17": {
+  "nom": "CAUCHY",
+  "prenom": "Jean Fabrice",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "383450715",
+  "enseigne": "AGEXCO AUDIT EXPERT COMPTABLE"
+ },
+ "forgeavia": {
+  "nom": "OBRIST (VERBECQ)",
+  "prenom": "Christiane",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "552131518",
+  "enseigne": "SOC FORGEAVIA"
+ },
+ "arbres en porcelaine, attaches, fabricant de moteu": {},
+ "usinage de precision a genas": {},
+ "france c &#8211; isolation performante, renovation": {},
+ "pliage metal industriel et tole sur mesure": {},
+ "fry etudes": {
+  "nom": "FREA",
+  "prenom": "Ahlem",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "932435795",
+  "enseigne": "FRY ETUDES"
  }
 }
