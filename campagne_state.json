@@ -638,7 +638,8 @@
   "89": {
    "on": "2026-08-29",
    "doublon": true,
-   "via": "hello"
+   "via": "hello",
+   "sent_relance1": "2026-09-01"
   },
   "90": {
    "on": "2026-08-30",
@@ -648,7 +649,8 @@
   "91": {
    "on": "2026-08-29",
    "doublon": true,
-   "via": "direction"
+   "via": "info",
+   "sent_relance1": "2026-09-01"
   },
   "92": {
    "bounce": true,
@@ -1280,6 +1282,22 @@
    "status_code": 200,
    "to": "contact@scadametal.fr",
    "body": "<p>Bonjour M. MASSON (MASSON),<br>J'ai ouvert scadametal.fr a l'instant. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et pas de description : votre resultat Google affiche du texte bricolé.<br>Je ne vous propose rien à acheter aujourd'hui. Je regarde votre site 2 minutes et je vous partage mes constats précis : problèmes de vitesse de chargement, navigation peu adaptée sur mobile, ou encore manque de signaux de confiance pour vos prospects. C'est gratuit et sans engagement.<br>Répondez simplement \"oui\" à ce mail, je vous envoie mon analyse sous 48 h</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/215.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "353": {
+   "on": "2026-09-01",
+   "messageId": "1788284817178138400",
+   "via": "direction",
+   "status_code": 200,
+   "to": "alex.chapolard@cmn-industrie.com",
+   "body": "<p>Bonjour M. RASPER,</p>\n<p>J'ai ouvert cmn-industrie.com a l'instant. Deux choses me sautent aux yeux : le site met 6.3 s a s'afficher, la moitie des visiteurs partent avant, et pas de description : votre resultat Google affiche du texte bricolé.</p>\n<p>Repondez simplement \"oui\" et je vous envoie le rapport sous 48h, vous le gardez, sans engagement.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/353.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "124": {
+   "on": "2026-09-01",
+   "messageId": "1788284998558138400",
+   "via": "contact",
+   "status_code": 200,
+   "to": "contact@cf-injection.com",
+   "body": "<p>Bonjour M. CAVEL (CAVEL),<br>J'ai ouvert cf-injection.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et pas de sitemap : Google decouvre vos pages tout seul, lentement.<br>Je ne vous propose rien à acheter aujourd'hui. Je regarde votre site en 2 minutes et je vous partage les 3 problèmes concrets qui font fuir vos prospects (vitesse, mobile, confiance). Répondez simplement \"oui\" à ce mail et je vous envoie mes constats sous 48 heures</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/124.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   }
  },
  "done_notified": false
