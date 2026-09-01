@@ -370,14 +370,16 @@
   "55": {
    "on": "2026-08-17",
    "messageId": "1786985741655155000",
-   "via": "info",
-   "sent_relance1": "2026-08-21"
+   "via": "contact",
+   "sent_relance1": "2026-08-21",
+   "sent_relance2": "2026-09-01"
   },
   "56": {
    "on": "2026-08-17",
    "bloque": true,
    "sent_relance1": "2026-08-22",
-   "via": "commercial"
+   "via": "contact",
+   "sent_relance2": "2026-09-01"
   },
   "57": {
    "on": "2026-08-17",
@@ -1316,6 +1318,22 @@
    "status_code": 200,
    "to": "contact@sadevteq.com",
    "body": "<p>Bonjour M. MOOS,<br>J'ai ouvert sadevteq.com a l'instant. Deux choses me sautent aux yeux : le site met 3.2 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, lentement.<br>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie. Répondez simplement « oui » à ce mail et je vous envoie mes constats sous 48 heures</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/214.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "244": {
+   "on": "2026-09-01",
+   "messageId": "1788292498743155100",
+   "via": "contact",
+   "status_code": 200,
+   "to": "info@atim-inox.com",
+   "body": "<p>Bonjour M. ROEDERER (ROEDERER),</p>\n<p>J'ai ouvert atim-inox.com a l'instant. Deux choses me sautent aux yeux : le site met 3.3 s a s'afficher, la moitie des visiteurs partent avant, et une seule page : Google n'a rien a indexer sur vos metiers.</p>\n<p>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/244.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "277": {
+   "on": "2026-09-01",
+   "messageId": "1788292680928138300",
+   "via": "contact",
+   "status_code": 200,
+   "to": "ermat@ermat-industries.com",
+   "body": "<p>Bonjour M. TRASTOUR,</p>\n<p>J'ai ouvert ermat-industries.com a l'instant. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et seulement 3 pages : trop peu pour exister dans les recherches.</p>\n<p>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/277.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   }
  },
  "done_notified": false
