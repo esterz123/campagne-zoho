@@ -814,5 +814,76 @@
   "feminin": false,
   "siren": "948208731",
   "enseigne": "FORGE"
+ },
+ "vente d'outillage professionnel, matriel d'atelier": {},
+ "agence de securite privee, incendie et de gardienn": {},
+ "dsd renov couvreur et facadier a paris et en ile": {},
+ "entreprise de nettoyage industriel": {
+  "nom": "BOUBAKER (BOUBAKER)",
+  "prenom": "Mouna",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "793674136",
+  "enseigne": "ENTREPRISE DE NETTOYAGE INDUSTRIEL MULTISERVICES"
+ },
+ "effy": {
+  "nom": "CORREIA",
+  "prenom": "Daniel",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "529943813",
+  "enseigne": "EFFY"
+ },
+ "entreprise de logistique proche de caen": {},
+ "entoutesecurite": {},
+ "societe de securite privee en france": {
+  "nom": "HARLISCA",
+  "prenom": "Vasiliu",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "507879088",
+  "enseigne": "SAVOIR BIEN SECURISER FRANCE SOCIETE PRIVEE DE SECURITE"
+ },
+ "etude bet": {
+  "nom": "VANHOYE (VANHOYE)",
+  "prenom": "Laurent Gerard Claude",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "819037441",
+  "enseigne": "BET VANHOYE BATIMENT ETUDE TRAVAUX VANHOYE"
+ },
+ "votre expert &reg;, expert comptable en ligne": {},
+ "specialiste de la metallerie": {},
+ "anjou decolletage": {
+  "nom": "RIPOCHE",
+  "prenom": "Sebastien",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "070201041",
+  "enseigne": "ANJOU DECOLLETAGE"
+ },
+ "ateliers outillage production beuchey": {
+  "nom": "BEUCHEY",
+  "prenom": "Sabine",
+  "qualite": "Président de SAS",
+  "feminin": false,
+  "siren": "353979818",
+  "enseigne": "ATELIERS OUTILLAGE PRODUCTION BEUCHEY (AOPB)"
+ },
+ "cmn industrie": {
+  "nom": "RASPER",
+  "prenom": "Guy Rene",
+  "qualite": "Président de SAS",
+  "feminin": false,
+  "siren": "380295337",
+  "enseigne": "CMN INDUSTRIE"
+ },
+ "est usinage": {
+  "nom": "MULLER (MULLER)",
+  "prenom": "Geoffrey",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "452493901",
+  "enseigne": "EST USINAGE"
  }
 }

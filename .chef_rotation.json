@@ -1,7 +1,19 @@
 {
  "cycles": [
-  {"date": "2026-08-31T00:33", "slot": "b", "action": "Offre: test_simulation.py contenait encore la grille de prix pre-V2 (Diagnostic 290-490 EUR, Refonte 3500-15000, Pack Serenite 69 EUR/mois). Remplacee par l'offre V2 exacte alignee sur repondeur.py/closer_ia.py: Diagnostic 79 EUR sous 48h ou offert, Pack Serenite 69 EUR/mois (690/an), Marque+Site 3900 EUR rentree 2900. Backup .bak, py_compile OK. Reste en observation: dm_urgence.py + scan_urgence.py citent '150 EUR puis 69 EUR/mois' (offre urgence, prix hors V2) - ne pas modifier sans oui Mahdi. Audit cycle: repondeur 0 non-traites, suivi_revenus 0 entree, 186 entries sent."}
-,
-  {"date": "2026-08-30T23:55", "slot": "d", "action": "Hygiene campagne_data.json: 35 corps de mails corriges U+2019 -> apostrophe droite (backup campagne_data.json.bak, 338 prospects verifies identiques hors apostrophes, 0 restant). Audit etat: 186 entries sent (92 reels, 94 bounce-only), 69 relance1, 47 relance2, 8 envois du 30/08, relance2 #51 faite. Repondeur: 0 non-traites. Revenus: 0 entree."}
+  {
+   "date": "2026-08-31T01:14",
+   "slot": "a",
+   "action": "Copie: 2 corps non-envoyés contenaient des faits faux/non vérifiés. #179 Roanne Fonderie disait 'depuis 1987' -> site live dit fondation 1956 (alu), corrigé. #198 Kuchly disait 'depuis 40 ans' + 'usinage de précision' -> site live: emboutissage/taraudage depuis 1956 à Réding, corrigé + phrase 'expérience mobile désastreuse' (accusation non mesurée) adoucie en 'vitesse, mobile, confiance'. Backup campagne_data.json.bak, 338 entries, seules 179/198 modifiées, 0 U+2019. Audit: 186 sent, 152 non-envoyés, repondeur 0 non-traité (87 traités), revenus 0 entrée."
+  },
+  {
+   "date": "2026-08-31T00:33",
+   "slot": "b",
+   "action": "Offre: test_simulation.py contenait encore la grille de prix pre-V2 (Diagnostic 290-490 EUR, Refonte 3500-15000, Pack Serenite 69 EUR/mois). Remplacee par l'offre V2 exacte alignee sur repondeur.py/closer_ia.py: Diagnostic 79 EUR sous 48h ou offert, Pack Serenite 69 EUR/mois (690/an), Marque+Site 3900 EUR rentree 2900. Backup .bak, py_compile OK. Reste en observation: dm_urgence.py + scan_urgence.py citent '150 EUR puis 69 EUR/mois' (offre urgence, prix hors V2) - ne pas modifier sans oui Mahdi. Audit cycle: repondeur 0 non-traites, suivi_revenus 0 entree, 186 entries sent."
+  },
+  {
+   "date": "2026-08-30T23:55",
+   "slot": "d",
+   "action": "Hygiene campagne_data.json: 35 corps de mails corriges U+2019 -> apostrophe droite (backup campagne_data.json.bak, 338 prospects verifies identiques hors apostrophes, 0 restant). Audit etat: 186 entries sent (92 reels, 94 bounce-only), 69 relance1, 47 relance2, 8 envois du 30/08, relance2 #51 faite. Repondeur: 0 non-traites. Revenus: 0 entree."
+  }
  ]
 }

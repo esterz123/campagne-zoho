@@ -10,7 +10,7 @@ Bonjour,
 
 Dernier message de ma part au sujet de votre site, ensuite je ne reviendrai plus.
 
-Je viens de revérifier milmeca.fr a l'instant. Voici ce que j'ai trouve, noir sur blanc : votre site tourne sous WordPress 5.3.18, une branche qui date de 2019 (la version actuelle est la 7.1), avec le plugin Slider Revolution 6.2.3, connu pour ses failles de securite. Et votre pied de page affiche "Copyright 2020" sans changement depuis 6 ans : pour un donneur d'ordres qui compare trois fournisseurs en cinq minutes, le message est immediat.
+Je viens de revérifier milmeca.fr a l'instant. Voici ce que j'ai trouve, noir sur blanc : votre site tourne sous WordPress 5.3.18, une branche qui date de 2019 (la version actuelle est la 7.1), avec le plugin Slider Revolution 6.2.3, connu pour ses failles de securite. Et il y a plus grave : le certificat de securite de l'adresse milmeca.fr (sans les trois w) ne correspond pas a votre domaine, donc Chrome affiche une alerte rouge et la page ne s'ouvre pas. Seule l'adresse www.milmeca.fr s'affiche correctement : une partie de vos visiteurs ne voit jamais votre site.
 
 Pourtant vous usinez en fraisage 3 et 5 axes et tournage 2 et 4 axes, avec 18 centres d'usinage et un bras de mesure pour le controle. Votre site ne le montre pas comme il le devrait. Un concurrent avec une vitrine moderne prend le telephone avant vous, alors que vos capacites sont la.
 
@@ -25,7 +25,8 @@ Portfolio : mahdi-design.com
 ========================================
 PREUVES (verifiees en live le 2026-08-31, a garder pour le diagnostic)
 ========================================
-- https://www.milmeca.fr : HTTP 200, certificat SSL VALIDE (ne rien accuser sur le HTTPS, il est OK).
+- https://www.milmeca.fr : HTTP 200, certificat SSL VALIDE (ne rien accuser sur le HTTPS du www, il est OK).
+- Certificat du domaine SANS les trois w (https://milmeca.fr) : CN=cluster113.hosting.ovh.net, il ne couvre pas milmeca.fr (verifie en live le 01/09/2026 via openssl). curl echoue avec SEC_E_WRONG_PRINCIPAL : Chrome affichera une alerte de securite sur cette adresse. Redirection http://milmeca.fr -> https://milmeca.fr -> https://www.milmeca.fr (le visiteur est bloque a la premiere etape).
 - Meta generator : "WordPress 5.3.18" (derniere version officielle via api.wordpress.org le 31/08 : 7.1).
 - Meta generator : "Slider Revolution 6.2.3" et "WPBakery Page Builder" (outils de 2020, theme cree par Infopolis).
 - Pied de page : "Cree par Infopolis - Copyright (c) 2020 milmeca" = copyright FIGE (pas une fourchette), site non mis a jour depuis 2020. Constat valide selon la regle du 13/08.

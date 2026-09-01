@@ -4,6 +4,14 @@
   "semaine": 500,
   "note": "Objectifs decides le 14/08/2026 : 2000 EUR/mois (1 projet branding), 500 EUR/semaine ou 1re entree d'argent. Pas de course au cash rapide."
  },
- "entrees": [],
+ "entrees": [
+  {
+   "date": "2026-08-31",
+   "type": "diag_express",
+   "montant": 79,
+   "email_payeur": "contact@mahdi-design.com",
+   "note": "TESTBOUTENBOUT"
+  }
+ ],
  "note_compteur": "Compteur reparti a 0 le 16/08/2026 (decision Mahdi). Hors compteur : acompte 100 EUR Jean-Noel Jabir (SAYMYNAME) encaisse juin 2026, avant le cycle actuel."
 }
