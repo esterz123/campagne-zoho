@@ -1,0 +1,436 @@
+{
+ "cycles": [
+  {
+   "date": "2026-08-31T20:27:09.125378",
+   "mesure": {
+    "date": "2026-08-31T20:27:09.125378",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-08-31T20:35:49.169233",
+   "mesure": {
+    "date": "2026-08-31T20:35:49.169233",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-08-31T21:02:49.871873",
+   "mesure": {
+    "date": "2026-08-31T21:02:49.871873",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-08-31T22:06:50.744404",
+   "mesure": {
+    "date": "2026-08-31T22:06:50.744404",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-08-31T22:24:02.209669",
+   "mesure": {
+    "date": "2026-08-31T22:24:02.209669",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-08-31T22:26:44.300821",
+   "mesure": {
+    "date": "2026-08-31T22:26:44.300821",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-08-31T22:34:42.100217",
+   "mesure": {
+    "date": "2026-08-31T22:34:42.100217",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-08-31T22:40:11.557997",
+   "mesure": {
+    "date": "2026-08-31T22:40:11.557997",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-08-31T22:44:17.877852",
+   "mesure": {
+    "date": "2026-08-31T22:44:17.877852",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-08-31T22:46:28.709924",
+   "mesure": {
+    "date": "2026-08-31T22:46:28.709924",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-08-31T23:35:47.915703",
+   "mesure": {
+    "date": "2026-08-31T23:35:47.915703",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T00:26:56.698463",
+   "mesure": {
+    "date": "2026-09-01T00:26:56.698463",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T02:27:09.315626",
+   "mesure": {
+    "date": "2026-09-01T02:27:09.315626",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T02:35:16.745372",
+   "mesure": {
+    "date": "2026-09-01T02:35:16.745372",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T02:39:32.225259",
+   "mesure": {
+    "date": "2026-09-01T02:39:32.225259",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T04:27:20.526258",
+   "mesure": {
+    "date": "2026-09-01T04:27:20.526258",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T06:27:31.490935",
+   "mesure": {
+    "date": "2026-09-01T06:27:31.490935",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T08:27:42.408501",
+   "mesure": {
+    "date": "2026-09-01T08:27:42.408501",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T10:27:53.052981",
+   "mesure": {
+    "date": "2026-09-01T10:27:53.052981",
+    "prospects_total": 354,
+    "file_restante": 156,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T12:28:03.357021",
+   "mesure": {
+    "date": "2026-09-01T12:28:03.357021",
+    "prospects_total": 367,
+    "file_restante": 169,
+    "envoyes": 198,
+    "replies": 1,
+    "taux_reponse_pct": 0.51,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T14:28:10.139045",
+   "mesure": {
+    "date": "2026-09-01T14:28:10.139045",
+    "prospects_total": 367,
+    "file_restante": 167,
+    "envoyes": 200,
+    "replies": 1,
+    "taux_reponse_pct": 0.5,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T16:28:25.289292",
+   "mesure": {
+    "date": "2026-09-01T16:28:25.289292",
+    "prospects_total": 367,
+    "file_restante": 165,
+    "envoyes": 202,
+    "replies": 1,
+    "taux_reponse_pct": 0.5,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T17:25:57.256493",
+   "mesure": {
+    "date": "2026-09-01T17:25:57.256493",
+    "prospects_total": 367,
+    "file_restante": 163,
+    "envoyes": 204,
+    "replies": 1,
+    "taux_reponse_pct": 0.49,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T18:28:35.839246",
+   "mesure": {
+    "date": "2026-09-01T18:28:35.839246",
+    "prospects_total": 367,
+    "file_restante": 163,
+    "envoyes": 204,
+    "replies": 1,
+    "taux_reponse_pct": 0.49,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T18:50:01.100712",
+   "mesure": {
+    "date": "2026-09-01T18:50:01.100712",
+    "prospects_total": 367,
+    "file_restante": 163,
+    "envoyes": 204,
+    "replies": 1,
+    "taux_reponse_pct": 0.49,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T20:28:46.455657",
+   "mesure": {
+    "date": "2026-09-01T20:28:46.455657",
+    "prospects_total": 367,
+    "file_restante": 161,
+    "envoyes": 206,
+    "replies": 1,
+    "taux_reponse_pct": 0.49,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-01T20:41:59.499552",
+   "mesure": {
+    "date": "2026-09-01T20:41:59.499552",
+    "prospects_total": 367,
+    "file_restante": 159,
+    "envoyes": 208,
+    "replies": 1,
+    "taux_reponse_pct": 0.48,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  }
+ ]
+}
