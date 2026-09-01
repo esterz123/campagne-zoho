@@ -8126,5 +8126,29 @@
   "siren": "352907224",
   "tranche": "02",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "DENIS CHEVALIER EXPERTISE COMPTABLE (DCE)",
+  "ville": "MONTEPILLOY",
+  "naf": "69.20Z",
+  "siren": "479793408",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE D'EXPERTISE COMPTABLE ET DE REVISION (S.E.C.R.)",
+  "ville": "LA ROCHETTE",
+  "naf": "69.20Z",
+  "siren": "391478476",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CENTRE D'ETUDE ET D'EXPERTISE COMPTABLE (C2EC)",
+  "ville": "AUBIERE",
+  "naf": "69.20Z",
+  "siren": "428701981",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
  }
 ]
