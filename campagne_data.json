@@ -740,10 +740,10 @@
   "to": "direction@bprecimeca.fr",
   "cc": "",
   "to_confirmed": true,
-  "subject": "Votre site est toujours en construction",
-  "body": "Bonjour M. Roussel,\n\nJe suis alle voir votre site ce matin. Plutot que de vous ecrire une longue lettre, je prefere vous montrer deux ou trois points en direct, ca prend cinq minutes. Diagnostic gratuit, sans engagement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "bprecimeca.fr affiche \"Site not installed\" : vos clients tombent sur une page OVH",
+  "body": "Bonjour M. Roussel,\n\nJ'ai tape bprecimeca.fr ce matin. Le certificat securise ne repond plus : en https le site n'affiche rien du tout, et en http la page renvoie une erreur 404 avec le message OVHcloud \"Site not installed\". Concretement, un donneur d'ordres qui cherche \"usinage Bourgogne\" ce matin tombe sur une page d'erreur, pas sur vos presses.\n\n3 reperages Numero 1, 2, 3 :\n1. Https mort : navigateur moderne affiche un avertissement de securite, beaucoup de visiteurs ferment\n2. Erreur 404 OVHcloud a la place de la page d'accueil : aucun contenu, aucun contact\n3. Aucune sauvegarde visible en ligne : si l'hebergement est perdu, votre vitrine l'est aussi\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement \"oui\" et je vous l'envoie.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Philippe ROUSSEL",
-  "note": "",
+  "note": "corps verifie en live 01/09: https erreur TLS (curl exit 60), http 404 page OVHcloud 'Site not installed' (4960 octets)",
   "site": "https://bprecimeca.fr"
  },
  {
