@@ -366,9 +366,21 @@ def main():
                                             encoding="utf-8")).items()}
     except Exception:
         NOTES = {}
+    # GARDE-FOU SMTP (02/09) : jamais d'envoi vers une adresse confirmee morte.
+    # smtp_verif.py interroge le MX reel (RCPT TO) -> smtp_verif.json.
+    # user_unknown/mx_manquant = bounce quasi garanti = 1 bounce de plus sur les
+    # 94 deja comptes = reputation des 5 boites brulee = 0 reponse. mx_injoignable
+    # reste permis (souvent transitoire) ; re-testable en relançant smtp_verif.py.
+    SMTP_MORTS = {"user_unknown", "mx_manquant"}
+    try:
+        SMTP_VERIF = json.load(open(os.path.join(BASE, "smtp_verif.json"),
+                                    encoding="utf-8"))
+    except Exception:
+        SMTP_VERIF = {}
     remaining = [(num, e) for num, e in sorted(
         emails.items(), key=lambda kv: (NOTES.get(kv[0], 50), int(kv[0])))
-        if num not in sent and e.get("to")]
+        if num not in sent and e.get("to")
+        and SMTP_VERIF.get(e["to"].strip().lower()) not in SMTP_MORTS]
 
     # Relances J+3 / J+7, prioritaires sur les nouveaux emails
     fu = load_followups()
