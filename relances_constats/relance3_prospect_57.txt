@@ -6,7 +6,6 @@ Je ne vous relancerai plus apres ce mail, promis. Juste une derniere chose, fact
 
 • J'ai ouvert demc.fr a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et 3 photos sans legende : invisibles dans Google Images.
 • Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
-• J'ai ouvert demc.fr ce matin : Chrome affiche 'non securise' sur demc.fr.
 
 Ces points releves sur votre site ne bougeront pas tout seuls. Si un jour vous voulez y voir clair, le diagnostic gratuit reste disponible : une reponse suffit, vous gardez le rapport, sans engagement. Sinon, je m'arrete la et je vous souhaite de bons chantiers.
 
