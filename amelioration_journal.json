@@ -1,38 +1,6 @@
 {
  "cycles": [
   {
-   "date": "2026-08-31T20:27:09.125378",
-   "mesure": {
-    "date": "2026-08-31T20:27:09.125378",
-    "prospects_total": 354,
-    "file_restante": 156,
-    "envoyes": 198,
-    "replies": 1,
-    "taux_reponse_pct": 0.51,
-    "argent_reel_eur": 0,
-    "closing_faits": 1
-   },
-   "diagnostic": "panier_cash",
-   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
-   "resultat": "closer dispatche (rapports prets a servir)"
-  },
-  {
-   "date": "2026-08-31T20:35:49.169233",
-   "mesure": {
-    "date": "2026-08-31T20:35:49.169233",
-    "prospects_total": 354,
-    "file_restante": 156,
-    "envoyes": 198,
-    "replies": 1,
-    "taux_reponse_pct": 0.51,
-    "argent_reel_eur": 0,
-    "closing_faits": 1
-   },
-   "diagnostic": "panier_cash",
-   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
-   "resultat": "closer dispatche (rapports prets a servir)"
-  },
-  {
    "date": "2026-08-31T21:02:49.871873",
    "mesure": {
     "date": "2026-08-31T21:02:49.871873",
@@ -468,6 +436,38 @@
    "date": "2026-09-01T23:17:15.466453",
    "mesure": {
     "date": "2026-09-01T23:17:15.466453",
+    "prospects_total": 367,
+    "file_restante": 157,
+    "envoyes": 210,
+    "replies": 1,
+    "taux_reponse_pct": 0.48,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-02T00:29:16.121385",
+   "mesure": {
+    "date": "2026-09-02T00:29:16.121385",
+    "prospects_total": 367,
+    "file_restante": 157,
+    "envoyes": 210,
+    "replies": 1,
+    "taux_reponse_pct": 0.48,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-02T02:29:28.116096",
+   "mesure": {
+    "date": "2026-09-02T02:29:28.116096",
     "prospects_total": 367,
     "file_restante": 157,
     "envoyes": 210,

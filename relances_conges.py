@@ -49,11 +49,23 @@ def main():
     today = datetime.date.today().isoformat()
     rapports = []
     for r in data["relances"]:
-        if r.get("sent") or r.get("send_on") != today:
+        if r.get("sent"):
+            continue
+        # FIX 02/09 : envoyer tout ce qui est DU OU EN RETARD (send_on <= today).
+        # Avant : send_on != today -> si le run du jour J saute (scheduler GitHub)
+        # ou echoue, la relance etait PERDUE A JAMAIS (vecu : atelierphysis 24/08
+        # et adduxi 25/08 jamais envoyees). Retarder de quelques jours = safe.
+        if r.get("send_on", "9999") > today:
+            continue
+        # Garde-fou anti-boucle : abandon apres 3 echecs de verification de constat
+        if r.get("attempts", 0) >= 3:
             continue
         ok = check_constat(r["check_url"])
         if not ok:
-            rapports.append("- %s : constat NON confirme (%s) -> envoi manuel recommande" % (r["id"], r["check_url"]))
+            r["attempts"] = r.get("attempts", 0) + 1
+            rapports.append("- %s : constat NON confirme (tentative %s/3, %s) -> reessaie demain, abandon apres 3" % (r["id"], r["attempts"], r["check_url"]))
+            if r["attempts"] >= 3:
+                rapports.append("- %s : ABANDONNE apres 3 echecs -> envoi manuel recommande a %s" % (r["id"], r["to"]))
             continue
         corps = CZ.build_html(r["body"], CZ.SIG)
         if DRY:
