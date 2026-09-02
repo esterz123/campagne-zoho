@@ -1,8 +1,8 @@
-OBJET: Re : Cardinaud met 8 secondes a s'afficher (mesure a l'instant)
+OBJET: Re : cardinaud.fr : Cardinaud met 8 secondes a s'afficher (mesure a l'instant)
 
 Bonjour Bruno,
 
-C'est ma dernière prise de contact au sujet de votre site. Concrètement : Cardinaud met 8 secondes a s'afficher (mesure a l'instant).
+C'est ma dernière prise de contact au sujet de votre site. Concrètement : cardinaud.fr : Cardinaud met 8 secondes a s'afficher (mesure a l'instant).
 
 Je voulais vous laisser un résumé des observations que j'ai relevées, pour que vous puissiez en faire ce que vous voulez, même si nous ne travaillons jamais ensemble :
 
