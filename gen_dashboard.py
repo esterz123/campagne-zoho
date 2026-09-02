@@ -40,7 +40,8 @@ sent = state.get("sent", {})
 suivi = jload(SUIVI_F, {})
 prochains = jload(REL_F, {}).get("relances", [])
 
-nb_envoyes = len(sent)
+# Envois REELS = entrees avec date 'on'. Sans date = rejets SMTP pre-envoi (jamais partis).
+nb_envoyes = sum(1 for v in sent.values() if isinstance(v, dict) and v.get("on"))
 nb_total = len(emails)
 nb_restants = nb_total - nb_envoyes
 auj = [k for k, v in sent.items()
