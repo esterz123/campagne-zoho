@@ -213,3 +213,50 @@ START ERR: {
   + 366 francemetal.com score 100
   + 367 fry-etudes.fr score 100
 PAGES GENEREES: 13 | manifest: 349
+[2026-09-02 09:47:56] === CHASSE HEBDOMADAIRE ===
+[2026-09-02 09:47:56] Phase 0 - recolle systematique (60 niches Exa, dedup auto)
+[2026-09-02 09:49:09] candidats recoltes: 1039 -> 1052 (+13)
+[2026-09-02 09:49:09] Phase 1 - exa_bulk (collecte + extraction)
+[2026-09-02 09:49:16] sites candidats: 518
+== BULK LEADS: 0 -> /home/runner/work/campagne-zoho/campagne-zoho/_hebdo_exa.json
+[2026-09-02 09:49:16] Phase 2 - extract_seq (chunk dynamique 700)
+[2026-09-02 10:24:16] TIMEOUT extract_seq.py apres 2100s (chunk trop gros ou site lent)
+[2026-09-02 10:24:17] Phase 2ter err: name 'io' is not defined
+[2026-09-02 10:24:17] Phase 3 - Apify contact-info-scraper (emails JS)
+[2026-09-02 10:24:17] 
+URLs a traiter: 852
+START ERR: {
+  "error": {
+    "type": "not-enough-usage-to-run-paid-actor",
+    "message": "By launching this job you will exceed your remaining usage of $0.193544.  Consider upgrading to a paid plan at https://console.apify.com/billing/subscription"
+  }
+}
+
+[2026-09-02 10:24:17]   integre 0 depuis _exa_bulk_leads.json
+[2026-09-02 10:24:17] === CHASSE TERMINEE : +46 puis +0 prospects ===
+[2026-09-02 10:25:20] + 355 ampifrance.com score 100
+  + 356 apld-avocat.fr score 100
+  + 357 behm.fr score 90
+  + 358 corbel-jannin.fr score 55
+  + 359 cvim.fr score 82
+  + 360 figitalexpertise.fr score 100
+  + 361 fizexpert.fr score 100
+  + 362 forgeavia.fr score 100
+  + 363 fr.shprecisionshaft.com score 92
+  + 364 fraisepers.fr score 100
+  + 365 france-c.fr score 92
+  + 366 francemetal.com score 100
+  + 367 fry-etudes.fr score 100
+  + 368 evolutrans.fr score 63
+  + 369 garage-gauyat.fr score 92
+  + 370 garagedestroismonts.fr score 75
+  + 371 garagelibert.fr score 92
+  + 372 garagepasteur.fr score 100
+  + 373 gardiennageparis.fr score 100
+  + 374 gelygroup.fr score 82
+  + 375 geobiomics.fr score 100
+  + 376 geofoncier.fr score 90
+  + 377 geometre-cdb.com score 88
+  + 378 geometre-paris.fr score 88
+  + 379 geometre.fr score 100
+PAGES GENEREES: 25 | manifest: 361
