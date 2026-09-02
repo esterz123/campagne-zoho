@@ -7,7 +7,9 @@
    "sent_relance1": "2026-08-14",
    "sent_relance2": "2026-08-18",
    "via": "info",
-   "go2_livraison_simi": "2026-08-30T23:58:54.213455"
+   "go2_livraison_simi": "2026-08-30T23:58:54.213455",
+   "relance_closing_preparee": "2026-09-02T19:12:34",
+   "relance_closing_fichier": "livrable/relance_closing_SIMI.txt"
   },
   "2": {
    "on": "2026-08-11",
@@ -428,7 +430,14 @@
    "messageId": "1787063850405138400",
    "via": "hello",
    "replied": true,
-   "note": "Gaultier a quitte SOMEP; piste nouvelle collab (a.gaultier@free.fr)"
+   "note": "Gaultier a quitte SOMEP; piste nouvelle collab (a.gaultier@free.fr)",
+   "audit_suivi": {
+    "repondu_le": "2026-08-18",
+    "reponse_sous_24h": "N/A (c est EUX qui ont repondu a notre mail du 18/08)",
+    "note_reponse_envoyee": "AUCUNE — aucun suivi marque depuis le 18/08 (15 jours de silence sur le seul fil chaud)",
+    "message_collab_pret_depuis": "2026-08-31 (commit 478fdae, livrable/message_GAULTIER_collab.txt)",
+    "statut_0902": "EN ATTENTE GO NOMME \"envoie Gaultier\" — envoi via GO2 adresse perso a.gaultier@free.fr, hors file campagne"
+   }
   },
   "64": {
    "on": "2026-08-18",
