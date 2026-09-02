@@ -398,14 +398,16 @@
   "59": {
    "on": "2026-08-17",
    "messageId": "1786989229567155100",
-   "via": "commercial",
-   "sent_relance1": "2026-08-23"
+   "via": "hello",
+   "sent_relance1": "2026-08-23",
+   "sent_relance2": "2026-09-02"
   },
   "60": {
    "on": "2026-08-17",
    "messageId": "1786989951532155100",
-   "via": "hello",
-   "sent_relance1": "2026-08-23"
+   "via": "info",
+   "sent_relance1": "2026-08-23",
+   "sent_relance2": "2026-09-02"
   },
   "61": {
    "on": "2026-08-18",
@@ -1388,6 +1390,22 @@
    "status_code": 200,
    "to": "contact@gise-securite.fr",
    "body": "<p>Bonjour,</p>\n<p>Je suis alle voir votre site ce matin. Plutot que de vous ecrire une longue lettre, je prefere vous montrer deux ou trois points en direct, ca prend cinq minutes. Diagnostic gratuit, sans engagement.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. Testez vous-meme votre site en 30 secondes (gratuit, sans inscription) : https://mahdi-design.com/audit.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "382": {
+   "on": "2026-09-02",
+   "messageId": "1788353857062155300",
+   "via": "direction",
+   "status_code": 200,
+   "to": "guillaume@gfavreau.fr",
+   "body": "<p>Bonjour,</p>\n<p>J'ai ouvert gfavreau.fr a l'instant. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et seulement 3 pages : trop peu pour exister dans les recherches.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. Testez vous-meme votre site en 30 secondes (gratuit, sans inscription) : https://mahdi-design.com/audit.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "368": {
+   "on": "2026-09-02",
+   "messageId": "1788354043669138300",
+   "via": "contact",
+   "status_code": 200,
+   "to": "contact@evolutrans.fr",
+   "body": "<p>Bonjour,</p>\n<p>J'ai ouvert evolutrans.fr a l'instant. Deux choses me sautent aux yeux : le site met 4.3 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, lentement.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/368.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   }
  },
  "done_notified": false
