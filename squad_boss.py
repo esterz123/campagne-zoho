@@ -41,6 +41,23 @@ def chiffres():
         "envois_aujourdhui": env_auj,
     }
 
+def cash_reel():
+    """Cash reel : somme des montants de suivi_revenus.json en EXCLUANT les tests
+    (note contient TEST / test / boutenbout). Regle Mahdi : zero mensonge, chiffre verifie."""
+    try:
+        rev = jload("suivi_revenus.json") or {}
+        total = 0.0
+        for e in rev.get("entrees", []):
+            if "TEST" in str(e.get("note", "")).upper():
+                continue
+            try:
+                total += float(e.get("montant", 0))
+            except (TypeError, ValueError):
+                pass
+        return int(total)
+    except Exception:
+        return 0
+
 def openrouter_decision(c, dernier_brief):
     key = os.environ.get("OPENROUTER_API_KEY", "")
     if not key:
@@ -69,8 +86,13 @@ def openrouter_decision(c, dernier_brief):
                                  "max_tokens": 400}).encode(),
                 headers={"Authorization": "Bearer " + key, "Content-Type": "application/json"})
             r = json.load(urllib.request.urlopen(req, timeout=60))
-            txt = r["choices"][0]["message"]["content"]
-            if txt:
+            txt = r["choices"][0]["message"]["content"] or ""
+            # strip le "thinking" brut de certains modeles gratuits (pollue le briefing)
+            if "</think>" in txt:
+                txt = txt.split("</think>")[-1]
+            txt = txt.strip()
+            # format exige : doit contenir PRIORITE: sinon on tente le modele suivant
+            if "PRIORITE" in txt:
                 return "[modele %s]\n%s" % (model, txt.strip())
         except Exception as e:
             print("  modele %s KO: %s" % (model, str(e)[:80]))
@@ -105,8 +127,8 @@ def main():
     body = (
         "=== SQUAD BOSS CLOUD — %s ===\n\n" % now
         + "CHIFFRES REELS:\n"
-        + "  envoyes: %d | file: %d | restants: %d | reponses: %d | ENCAISSE: %d EUR x%s\n"
-          % (c["sent"], c["file"], c["restants"], c["reponses"], 79, c["encaisse"])
+        + "  envoyes: %d | file: %d | restants: %d | reponses: %d | CASH REEL: %d EUR x%s\n"
+          % (c["sent"], c["file"], c["restants"], c["reponses"], cash_reel(), c["encaisse"])
         + "  pages diag: %d | envois aujourd hui: %d | A/B: A=%s B=%s\n\n"
           % (c["pages_diag"], c["envois_aujourdhui"], c["ab"]["A"], c["ab"]["B"])
         + ("DECISION STRATEGIQUE (IA):\n%s\n\n" % dec if dec else "(IA indisponible ce tour)\n\n")
