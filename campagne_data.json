@@ -27,9 +27,10 @@
   "to": "contact@rouxel-mold.com",
   "cc": "",
   "subject": "5 polices différentes sur une même page , et ce que ça dit de vos moules",
-  "body": "Bonjour,\n\nJ'ai ouvert rouxel-mold.com a l'instant. Le point qui me saute aux yeux : 29 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert rouxel-mold.com a l'instant. Trois choses me sautent aux yeux : cinq polices differentes chargees sur une seule page (Lato, Open Sans, Oswald, PT Sans Narrow, Indie Flower) : Indie Flower est une ecriture manuscrite, elle n'inspire pas confiance sur des moules d'injection, et chaque police ajoute du temps de chargement ; aucune balise H1 sur l'accueil : Google ne peut pas dire en une ligne ce que vous fabriquez ; 29 photos sur 33 sans texte alternatif : vos moules, votre meilleur argument visuel, n'apparaissent pas dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "to_confirmed": true,
-  "site": "https://rouxel-mold.com"
+  "site": "https://rouxel-mold.com",
+  "note": "corps corrige 02/09 (backup campagne_data.json.bak). Verifie en live 02/09: HTTP 200, 5 polices Google Fonts (Lato, Open Sans, Oswald, PT Sans Narrow, Indie Flower) + Arial, H1 absent (0), 29/33 img sans alt, Slider Revolution 5.2.5 (plugin 2016). L'ancien corps ne mentionnait jamais les polices promises par l'objet."
  },
  {
   "num": 4,
