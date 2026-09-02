@@ -8150,5 +8150,13 @@
   "siren": "428701981",
   "tranche": "11",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "A. CH. EXPERTISE COMPTABLE",
+  "ville": "GELOS",
+  "naf": "69.20Z",
+  "siren": "415384601",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
  }
 ]
