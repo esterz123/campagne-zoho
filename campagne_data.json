@@ -4694,9 +4694,10 @@
   "site": "https://france-c.fr",
   "activite": "industrielle",
   "dirigeant": "",
-  "subject": "Votre site France C : diagnostic offert",
-  "body": "Bonjour,\n\nJ'ai ouvert france-c.fr a l'instant. Deux choses me sautent aux yeux : pas de description : votre resultat Google affiche du texte bricolé, et 13 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "source": "moulin"
+  "subject": "France C : votre site plait a Google, mais Google ne sait pas quoi en dire",
+  "body": "Bonjour,\n\nJ'ai ouvert france-c.fr ce matin. Vos photos de chantier racontent le vrai travail : maconnerie, isolation, couverture, plomberie. Mais deux choses les rendent invisibles :\n\n1. Aucune de vos pages n'a de description : j'ai verifie l'accueil, contact, qui sommes-nous, realisations et tarifications. Dans les resultats Google, la ligne sous votre nom est vide ou remplie par un extrait au hasard, alors qu'elle devrait dire le truc simple : renovation complete tous corps de metier.\n\n2. 13 photos sur 15 de la page d'accueil sans texte alternatif : vos chantiers, votre meilleur argument, n'apparaissent pas dans Google Images. Quelqu'un qui cherche \"entreprise renovation\" en images ne tombe jamais sur vous.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "source": "moulin",
+  "note": "corps reecrit 02/09 (backup campagne_data.json.bak-francec-0902). Verifie en live 02/09: france-c.fr HTTP 200, activite reelle = renovation tous corps de metier (isolation, maconnerie, couverture, plomberie). Meta description ABSENTE sur 5 pages testees (accueil, /contact, /qui-sommes-nous, /nos-realisations, /nos-tarifications). Accueil: 15 img dont 13 sans alt. Ancien corps generique 'diagnostic offert' sans fait verifiable."
  },
  {
   "num": 366,
