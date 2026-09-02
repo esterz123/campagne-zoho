@@ -1,14 +1,13 @@
-OBJET: Re : Votre nouveau site slicom.fr est en ligne, et il cache votre travail
+OBJET: Re : sadevteq.com met 3 secondes a s'afficher (mesure a l'instant)
 
-Bonjour,
+Bonjour M. MOOS,
 
 Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 
 Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
-• Aucune description sur la page d'accueil : dans les resultats Google, la ligne sous votre nom est vide, alors qu'elle doit dire ce que vous faites mieux que personne (usinage 15 tonnes en tournage, 7 
-• Ni sitemap.xml ni robots.txt : Google decouvre vos pages au compte-gouttes, sans filet.
-• Aucun titre H1 sur l'accueil et 5 photos sur 25 sans texte alternatif : vos realisations, votre meilleur argument, n'apparaissent pas dans Google Images.
+• Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
+• J'ai ouvert sadevteq.com a l'instant. Deux choses me sautent aux yeux : le site met 3.2 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, 
 
 Ces points sont vérifiables par votre équipe en 2 minutes. Ce sont des signaux que vos visiteurs voient AVANT de vous faire confiance.
 

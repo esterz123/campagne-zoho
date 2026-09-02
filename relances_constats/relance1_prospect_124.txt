@@ -1,14 +1,14 @@
-OBJET: Re : Votre nouveau site slicom.fr est en ligne, et il cache votre travail
+OBJET: Re : Chrome affiche 'non securise' sur cf-injection.com
 
-Bonjour,
+Bonjour M. CAVEL (CAVEL),
 
 Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 
 Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
-• Aucune description sur la page d'accueil : dans les resultats Google, la ligne sous votre nom est vide, alors qu'elle doit dire ce que vous faites mieux que personne (usinage 15 tonnes en tournage, 7 
-• Ni sitemap.xml ni robots.txt : Google decouvre vos pages au compte-gouttes, sans filet.
-• Aucun titre H1 sur l'accueil et 5 photos sur 25 sans texte alternatif : vos realisations, votre meilleur argument, n'apparaissent pas dans Google Images.
+• J'ai ouvert cf-injection.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et pas de sitemap : Google decouvre vos pages tout seul, lent
+• Je ne vous propose rien à acheter aujourd'hui. Je regarde votre site en 2 minutes et je vous partage les 3 problèmes concrets qui font fuir vos prospects (vitesse, mobile, confiance). Répondez simplem
+• Un point vérifiable sur votre site en 2 minutes par votre équipe.
 
 Ces points sont vérifiables par votre équipe en 2 minutes. Ce sont des signaux que vos visiteurs voient AVANT de vous faire confiance.
 

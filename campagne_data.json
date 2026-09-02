@@ -15,10 +15,11 @@
   "prospect": "2 — Slicom (ACA Slicom Technologies, Clermont-Ferrand)",
   "to": "techno@slicom-group.com",
   "cc": "",
-  "subject": "Votre site slicom-group.com ne s'ouvre pas ce matin",
-  "body": "Bonjour,\n\nJ'ai tape slicom-group.com dans mon navigateur ce matin : la page ne s'ouvre pas du tout. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "Votre nouveau site slicom.fr est en ligne, et il cache votre travail",
+  "body": "Bonjour,\n\nJ'ai tape slicom-group.com ce matin : le domaine ne repond plus du tout. Un donneur d'ordres qui garde votre ancienne adresse tombe sur une erreur, pas sur vos presses.\n\nEn cherchant, j'ai trouve votre nouveau site, slicom.fr, et il est bien en ligne. Mais trois choses y rendent votre travail invisible :\n\n1. Aucune description sur la page d'accueil : dans les resultats Google, la ligne sous votre nom est vide, alors qu'elle doit dire ce que vous faites mieux que personne (usinage 15 tonnes en tournage, 7 m en fraisage).\n\n2. Ni sitemap.xml ni robots.txt : Google decouvre vos pages au compte-gouttes, sans filet.\n\n3. Aucun titre H1 sur l'accueil et 5 photos sur 25 sans texte alternatif : vos realisations, votre meilleur argument, n'apparaissent pas dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "to_confirmed": true,
-  "site": "https://slicom-group.com"
+  "site": "https://slicom-group.com",
+  "note": "MAJ 02/09 verifie live: slicom-group.com DNS mort (domaine abandonne), slicom.fr HTTP 200 = le bon Slicom (Clermont-Ferrand, 04 73 61 03 55). Constats verifies: meta description absente, robots.txt 404, sitemap.xml 404, H1 absent, 5/25 img sans alt. Objet remplace (ancien objet parlait d'un site qui ne s'ouvre pas: faux aujourd'hui, slicom.fr existe)."
  },
  {
   "num": 3,
