@@ -433,14 +433,16 @@
   "64": {
    "on": "2026-08-18",
    "messageId": "1787064572595138300",
-   "via": "hello",
-   "sent_relance1": "2026-08-24"
+   "via": "contact",
+   "sent_relance1": "2026-08-24",
+   "sent_relance2": "2026-09-02"
   },
   "65": {
    "on": "2026-08-18",
    "bloque": true,
    "sent_relance1": "2026-08-25",
-   "via": "commercial"
+   "via": "contact",
+   "sent_relance2": "2026-09-02"
   },
   "66": {
    "on": "2026-08-18",
@@ -1424,6 +1426,22 @@
    "status_code": 200,
    "to": "contact@ch-metallerie.com",
    "body": "<p>Bonjour M. HEBRAUD (AZAM),</p>\n<p>J'ai ouvert ch-metallerie.com a l'instant. Deux choses me sautent aux yeux : le site met 4.5 s a s'afficher, la moitie des visiteurs partent avant, et 14 photos sans legende : invisibles dans Google Images.</p>\n<p>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/232.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "263": {
+   "on": "2026-09-02",
+   "messageId": "1788368901295138300",
+   "via": "contact",
+   "status_code": 200,
+   "to": "ci@conceptindustriel.com",
+   "body": "<p>Bonjour,</p>\n<p>J'ai ouvert conceptindustriel.fr a l'instant. Deux choses me sautent aux yeux : le site met 3.3 s a s'afficher, la moitie des visiteurs partent avant, et 23 photos sans legende : invisibles dans Google Images.</p>\n<p>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/263.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "351": {
+   "on": "2026-09-02",
+   "messageId": "1788369082901155100",
+   "via": "contact",
+   "status_code": 200,
+   "to": "contact@anjoudecolletage.com",
+   "body": "<p>Bonjour M. RIPOCHE,</p>\n<p>J'ai ouvert anjoudecolletage.com a l'instant. Deux choses me sautent aux yeux : le site met 6.0 s a s'afficher, la moitie des visiteurs partent avant, et 17 photos sans legende : invisibles dans Google Images.</p>\n<p>Repondez simplement \"oui\" et je vous envoie le rapport sous 48h, vous le gardez, sans engagement.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/351.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   }
  },
  "done_notified": false
