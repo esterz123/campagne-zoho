@@ -6,9 +6,9 @@ C'est ma dernière prise de contact au sujet de votre site. Concrètement : bure
 
 Je voulais vous laisser un résumé des observations que j'ai relevées, pour que vous puissiez en faire ce que vous voulez, même si nous ne travaillons jamais ensemble :
 
+• J'ai ouvert bureau-vallee.fr ce matin : met 4 secondes a s'afficher (mesure a l'instant).
 • J'ai ouvert bureau-vallee.fr a l'instant. Deux choses me sautent aux yeux : le site met 3.8 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout se
 • Je ne vous propose rien aujourd'hui. Je regarde votre site rapidement et je vous partage deux ou trois éléments précis qui freinent vos prospects (temps de chargement, adaptation mobile, manque de pre
-• Un point vérifiable sur votre site en 2 minutes par votre équipe.
 
 Si l'un de ces points vous préoccupe, mon diagnostic gratuit reste disponible (48h pour le recevoir, vous le gardez, sans engagement). Une simple réponse suffit.
 

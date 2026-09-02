@@ -7,6 +7,7 @@ Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
 • Je ne vous vendrai rien aujourd'hui. Je regarde votre site 2 minutes et je vous partage mes constats sur ce qui fait fuir vos prospects (rapidité, expérience mobile, crédibilité). Diagnostic gratuit, 
+• J'ai ouvert decolletage-elbe.fr ce matin : met 4 secondes a s'afficher (mesure a l'instant).
 • J'ai ouvert decolletage-elbe.fr a l'instant. Deux choses me sautent aux yeux : le site met 3.9 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout
 
 Ces points sont vérifiables par votre équipe en 2 minutes. Ce sont des signaux que vos visiteurs voient AVANT de vous faire confiance.

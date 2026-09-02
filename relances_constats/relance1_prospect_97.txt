@@ -7,6 +7,7 @@ Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
 • Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
+• J'ai ouvert ids33017.delosmail.com ce matin : Chrome affiche 'non securise' sur ids33017.delosmail.com.
 • J'ai ouvert ids33017.delosmail.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et aucune version mobile : Google declasse le site sur 
 
 Ces points sont vérifiables par votre équipe en 2 minutes. Ce sont des signaux que vos visiteurs voient AVANT de vous faire confiance.

@@ -6,9 +6,9 @@ Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 
 Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
+• J'ai ouvert cf-injection.com ce matin : Chrome affiche 'non securise' sur cf-injection.com.
 • J'ai ouvert cf-injection.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et pas de sitemap : Google decouvre vos pages tout seul, lent
 • Je ne vous propose rien à acheter aujourd'hui. Je regarde votre site en 2 minutes et je vous partage les 3 problèmes concrets qui font fuir vos prospects (vitesse, mobile, confiance). Répondez simplem
-• Un point vérifiable sur votre site en 2 minutes par votre équipe.
 
 Ces points sont vérifiables par votre équipe en 2 minutes. Ce sont des signaux que vos visiteurs voient AVANT de vous faire confiance.
 

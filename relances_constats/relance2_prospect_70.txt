@@ -7,6 +7,7 @@ C'est ma dernière prise de contact au sujet de votre site. Concrètement : Chro
 Je voulais vous laisser un résumé des observations que j'ai relevées, pour que vous puissiez en faire ce que vous voulez, même si nous ne travaillons jamais ensemble :
 
 • Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
+• J'ai ouvert mcp-fi.fr ce matin : Chrome affiche 'non securise' sur mcp-fi.fr.
 • J'ai ouvert mcp-fi.fr a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et une seule page : Google n'a rien a indexer sur vos metiers.
 
 Si l'un de ces points vous préoccupe, mon diagnostic gratuit reste disponible (48h pour le recevoir, vous le gardez, sans engagement). Une simple réponse suffit.

@@ -7,6 +7,7 @@ Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
 • Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
+• J'ai ouvert cardinaud.fr ce matin : Cardinaud met 8 secondes a s'afficher (mesure a l'instant).
 • J'ai ouvert cardinaud.fr a l'instant. Deux choses me sautent aux yeux : le site met 8.0 s a s'afficher, la moitie des visiteurs partent avant, et une seule page : Google n'a rien a indexer sur vos met
 
 Ces points sont vérifiables par votre équipe en 2 minutes. Ce sont des signaux que vos visiteurs voient AVANT de vous faire confiance.

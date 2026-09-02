@@ -6,9 +6,9 @@ C'est ma dernière prise de contact au sujet de votre site. Concrètement : Chro
 
 Je voulais vous laisser un résumé des observations que j'ai relevées, pour que vous puissiez en faire ce que vous voulez, même si nous ne travaillons jamais ensemble :
 
+• J'ai ouvert cf-injection.com ce matin : Chrome affiche 'non securise' sur cf-injection.com.
 • J'ai ouvert cf-injection.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et pas de sitemap : Google decouvre vos pages tout seul, lent
 • Je ne vous propose rien à acheter aujourd'hui. Je regarde votre site en 2 minutes et je vous partage les 3 problèmes concrets qui font fuir vos prospects (vitesse, mobile, confiance). Répondez simplem
-• Un point vérifiable sur votre site en 2 minutes par votre équipe.
 
 Si l'un de ces points vous préoccupe, mon diagnostic gratuit reste disponible (48h pour le recevoir, vous le gardez, sans engagement). Une simple réponse suffit.
 
