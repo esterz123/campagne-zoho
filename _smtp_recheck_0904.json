@@ -1,0 +1,1022 @@
+{
+ "114": {
+  "email": "mathilde.cartaux@elcam-usinage.fr",
+  "verdict": "OK",
+  "mx": "mx1.mail.ovh.net"
+ },
+ "109": {
+  "email": "fabrice.delamarre@atelierphysis.fr",
+  "verdict": "OK",
+  "mx": "mail.atelierphysis.fr"
+ },
+ "131": {
+  "email": "cts@cts-france.com",
+  "verdict": "OK",
+  "mx": "smtp-in.fc-net.fr"
+ },
+ "112": {
+  "email": "joffrey.reu@decolletage-de-reu.com",
+  "verdict": "OK",
+  "mx": "mx3.mail.ovh.net"
+ },
+ "118": {
+  "email": "contact@nplast-usinage.fr",
+  "verdict": "OK",
+  "mx": "mx3.mail.ovh.net"
+ },
+ "136": {
+  "email": "smt@smt.fr",
+  "verdict": "OK",
+  "mx": "mx2.mail.ovh.net"
+ },
+ "104": {
+  "email": "sebastien.drault@drault-decolletage.com",
+  "verdict": "OK",
+  "mx": "mx03.cloud.vadesecure.com"
+ },
+ "139": {
+  "email": "contact@mojonmetallerie.fr",
+  "verdict": "OK",
+  "mx": "mx4.mail.ovh.net"
+ },
+ "153": {
+  "email": "contact@grem.fr",
+  "verdict": "OK",
+  "mx": "alt2.aspmx.l.google.com"
+ },
+ "148": {
+  "email": "contact@weber-tolerie.fr",
+  "verdict": "OK",
+  "mx": "ex5.mail.ovh.net"
+ },
+ "155": {
+  "email": "timothee.veille@menuiserie-veille.fr",
+  "verdict": "OK",
+  "mx": "alt2.aspmx.l.google.com"
+ },
+ "163": {
+  "email": "contact@eddb-batiment.fr",
+  "verdict": "OK",
+  "mx": "spool.mail.gandi.net"
+ },
+ "115": {
+  "email": "patrick.baci@fonderiesdelarians.fr",
+  "verdict": "OK",
+  "mx": "fonderiesdelarians.fr"
+ },
+ "125": {
+  "email": "contact@chaudronnerie-du-cordeau.com",
+  "verdict": "OK",
+  "mx": "antispam2.xefi.fr"
+ },
+ "169": {
+  "email": "dmi@dmi-dury.com",
+  "verdict": "OK",
+  "mx": "mx00.ionos.fr"
+ },
+ "172": {
+  "email": "info@injectionplastic.com",
+  "verdict": "OK",
+  "mx": "mta-gw.infomaniak.ch"
+ },
+ "154": {
+  "email": "contact@boutte.fr",
+  "verdict": "NOMX",
+  "mx": "boutte.fr"
+ },
+ "157": {
+  "email": "contact@neothermie.com",
+  "verdict": "NOMX",
+  "mx": "neothermie.com"
+ },
+ "177": {
+  "email": "ets.besse@louisbesse.com",
+  "verdict": "PORT25KO",
+  "mx": "mx14b.mailinblack.com"
+ },
+ "121": {
+  "email": "contact@acs-chaudronnerie.com",
+  "verdict": "NOMX",
+  "mx": "acs-chaudronnerie.com"
+ },
+ "164": {
+  "email": "contact@bellay-electricite.fr",
+  "verdict": "OK",
+  "mx": "altair-mail01.eskemm.net"
+ },
+ "108": {
+  "email": "valerie.bleuze@artoisplastiques.fr",
+  "verdict": "OK",
+  "mx": "france.security-mail.net"
+ },
+ "167": {
+  "email": "contact@edeneagencement.fr",
+  "verdict": "OK",
+  "mx": "mx1.mail.ovh.net"
+ },
+ "119": {
+  "email": "contact@aupg.fr",
+  "verdict": "OK",
+  "mx": "mx-mibc-fr-08.mailinblack.com"
+ },
+ "180": {
+  "email": "jeantet@jeantet.com",
+  "verdict": "OK",
+  "mx": "smtp-in.fc-net.fr"
+ },
+ "181": {
+  "email": "contact@traitementdesurface.fr",
+  "verdict": "OK",
+  "mx": "mx2.mail.ovh.net"
+ },
+ "146": {
+  "email": "contact@silex-corp.com",
+  "verdict": "NOMX",
+  "mx": "silex-corp.com"
+ },
+ "140": {
+  "email": "chaudronnerie.bauloise@chaudronnerie-bauloise.com",
+  "verdict": "OK",
+  "mx": "mail-fr.securemail.pro"
+ },
+ "189": {
+  "email": "contact@asjb.fr",
+  "verdict": "OK",
+  "mx": "mx00.ionos.fr"
+ },
+ "184": {
+  "email": "contact@maintenance-industrielle.com",
+  "verdict": "OK",
+  "mx": "mx1.mail.ovh.net"
+ },
+ "186": {
+  "email": "narac@narac.fr",
+  "verdict": "OK",
+  "mx": "mx2.hostinger.com"
+ },
+ "195": {
+  "email": "administration@fonderie-ortel.com",
+  "verdict": "OK",
+  "mx": "mx0.mail.ovh.net"
+ },
+ "174": {
+  "email": "contact@emboutimetal.com",
+  "verdict": "PORT25KO",
+  "mx": "extranet.emboutimetal.fr"
+ },
+ "198": {
+  "email": "contact@kuchly-sa.fr",
+  "verdict": "OK",
+  "mx": "smtp25.ameos.net"
+ },
+ "203": {
+  "email": "contact@lesartisanspros.fr",
+  "verdict": "OK",
+  "mx": "alt1.aspmx.l.google.com"
+ },
+ "200": {
+  "email": "contact@latelierfrance.fr",
+  "verdict": "OK",
+  "mx": "mx00.ionos.fr"
+ },
+ "173": {
+  "email": "uma@uma02.fr",
+  "verdict": "OK",
+  "mx": "aspmx4.googlemail.com"
+ },
+ "207": {
+  "email": "accueil@oureval.fr",
+  "verdict": "OK",
+  "mx": "mx-mibc-fr-09.mailinblack.com"
+ },
+ "210": {
+  "email": "contact@prototype-emboutissage-78.com",
+  "verdict": "OK",
+  "mx": "in.regicom.fr"
+ },
+ "197": {
+  "email": "contact@france-menuisiers.fr",
+  "verdict": "OK",
+  "mx": "mx01.cloud.vadesecure.com"
+ },
+ "218": {
+  "email": "contact@tcstolerie.fr",
+  "verdict": "OK",
+  "mx": "mx01.ionos.fr"
+ },
+ "219": {
+  "email": "tsi@tsi-france.fr",
+  "verdict": "OK",
+  "mx": "tsifrance-fr0i.mail.protection.outlook.com"
+ },
+ "222": {
+  "email": "contact@ag-plomberie.com",
+  "verdict": "OK",
+  "mx": "alt1.aspmx.l.google.com"
+ },
+ "142": {
+  "email": "spi@spindustrie.com",
+  "verdict": "PORT25KO",
+  "mx": "mx4.ovh.net"
+ },
+ "212": {
+  "email": "contact@rcma-maconnerie.fr",
+  "verdict": "NOMX",
+  "mx": "rcma-maconnerie.fr"
+ },
+ "204": {
+  "email": "accueil@lr-metallerie.fr",
+  "verdict": "OK",
+  "mx": "mx-mibc-fr-11.mailinblack.com"
+ },
+ "205": {
+  "email": "contact@mecadecouptol12.fr",
+  "verdict": "OK",
+  "mx": "mail.webador.com"
+ },
+ "183": {
+  "email": "contact@surfasfrance.com",
+  "verdict": "OK",
+  "mx": "mxf02.privilis.com"
+ },
+ "223": {
+  "email": "info@alu.fr",
+  "verdict": "OK",
+  "mx": "mx2.ovh.net"
+ },
+ "227": {
+  "email": "contact@bearncouverture.fr",
+  "verdict": "OK",
+  "mx": "mail.bearncouverture.fr"
+ },
+ "192": {
+  "email": "contact@durandpc.fr",
+  "verdict": "OK",
+  "mx": "aspmx.l.google.com"
+ },
+ "221": {
+  "email": "info@abfonderie.fr",
+  "verdict": "OK",
+  "mx": "mx-mibc-fr-10.mailinblack.com"
+ },
+ "235": {
+  "email": "info.uk@fractory.com",
+  "verdict": "OK",
+  "mx": "alt2.aspmx.l.google.com"
+ },
+ "236": {
+  "email": "contact@france-calorifugeage.fr",
+  "verdict": "OK",
+  "mx": "mail.france-calorifugeage.fr"
+ },
+ "230": {
+  "email": "contact@bti.fr",
+  "verdict": "OK",
+  "mx": "mail7adeli.bti.fr"
+ },
+ "240": {
+  "email": "contact@francergo.com",
+  "verdict": "OK",
+  "mx": "antispam6.xefi.fr"
+ },
+ "238": {
+  "email": "contact@france-profilage.com",
+  "verdict": "OK",
+  "mx": "mx20.antispam.mailspamprotection.com"
+ },
+ "179": {
+  "email": "contact@roanne-fonderie.fr",
+  "verdict": "PORT25KO",
+  "mx": "mx-mibc-fr-02.mailinblack.com"
+ },
+ "241": {
+  "email": "contact@fromeca.fr",
+  "verdict": "OK",
+  "mx": "mx2.mail.ovh.net"
+ },
+ "242": {
+  "email": "contact@alsacienne-de-metallerie.fr",
+  "verdict": "OK",
+  "mx": "mx01.ionos.fr"
+ },
+ "229": {
+  "email": "jpb@bs-decolletage.com",
+  "verdict": "OK",
+  "mx": "alt2.aspmx.l.google.com"
+ },
+ "245": {
+  "email": "contact@atlantique-profilage.fr",
+  "verdict": "OK",
+  "mx": "mx20.antispam.mailspamprotection.com"
+ },
+ "247": {
+  "email": "info@benoit-plastique.com",
+  "verdict": "OK",
+  "mx": "mx1.mail.ovh.net"
+ },
+ "249": {
+  "email": "lyon@bgs-rouleaux.com",
+  "verdict": "OK",
+  "mx": "mail-fr.securemail.pro"
+ },
+ "209": {
+  "email": "contact@polyvia.fr",
+  "verdict": "PORT25KO",
+  "mx": "cfp.mailinblack.com"
+ },
+ "213": {
+  "email": "contact@reffay-sas.fr",
+  "verdict": "PORT25KO",
+  "mx": "mx-mibc-fr-11.mailinblack.com"
+ },
+ "251": {
+  "email": "contact@bouillet-profilage.com",
+  "verdict": "OK",
+  "mx": "mx00.ionos.fr"
+ },
+ "253": {
+  "email": "contact@candas.fr",
+  "verdict": "OK",
+  "mx": "mx01.ionos.fr"
+ },
+ "239": {
+  "email": "contact@franceproetancheite.com",
+  "verdict": "OK",
+  "mx": "alt1.aspmx.l.google.com"
+ },
+ "252": {
+  "email": "courrier@briandconstruction.fr",
+  "verdict": "OK",
+  "mx": "mx-01-eu-west-1.prod.hydra.sophos.com"
+ },
+ "246": {
+  "email": "contact@bardeprofils.fr",
+  "verdict": "OK",
+  "mx": "bardeprofils.fr"
+ },
+ "264": {
+  "email": "support@workeezconnect.fr",
+  "verdict": "OK",
+  "mx": "mta-gw.infomaniak.ch"
+ },
+ "262": {
+  "email": "commercial@comptoirnautique.com",
+  "verdict": "OK",
+  "mx": "alt1.aspmx.l.google.com"
+ },
+ "233": {
+  "email": "contact@civm-chaudronnerie.fr",
+  "verdict": "PORT25KO",
+  "mx": "mx1.mail.ovh.net"
+ },
+ "261": {
+  "email": "cinox@cinox.fr",
+  "verdict": "NOMX",
+  "mx": "cinox.fr"
+ },
+ "268": {
+  "email": "web@demarches-plaisance.net",
+  "verdict": "OK",
+  "mx": "vade-mx-fr01.hornetsecurity.com"
+ },
+ "269": {
+  "email": "contact@dessenne.net",
+  "verdict": "OK",
+  "mx": "mx-mibc-fr-01.mailinblack.com"
+ },
+ "258": {
+  "email": "contact@carrosserie-francis.fr",
+  "verdict": "OK",
+  "mx": "mx1.mail.ovh.net"
+ },
+ "260": {
+  "email": "grenoble@christaud.com",
+  "verdict": "OK",
+  "mx": "mxa-003e6a01.gslb.pphosted.com"
+ },
+ "272": {
+  "email": "contact@easymetal.fr",
+  "verdict": "OK",
+  "mx": "mx00.ionos.fr"
+ },
+ "273": {
+  "email": "info@electronic-marine.fr",
+  "verdict": "OK",
+  "mx": "mail.webador.com"
+ },
+ "275": {
+  "email": "info@energir.com",
+  "verdict": "OK",
+  "mx": "mxa-007fcb01.gslb.pphosted.com"
+ },
+ "290": {
+  "email": "acodi@acodi.fr",
+  "verdict": "OK",
+  "mx": "mx-mibc-fr-01.mailinblack.com"
+ },
+ "286": {
+  "email": "delwaullefrederic@3d-industrie.fr",
+  "verdict": "OK",
+  "mx": "mx1.mail.ovh.net"
+ },
+ "297": {
+  "email": "commerce@ageneau.fr",
+  "verdict": "OK",
+  "mx": "ageneau-fr.mail.protection.outlook.com"
+ },
+ "257": {
+  "email": "contact@carrosserie-corsin.com",
+  "verdict": "NOMX",
+  "mx": "carrosserie-corsin.com"
+ },
+ "301": {
+  "email": "prenom.nom@anr.fr",
+  "verdict": "OK",
+  "mx": "mx03.cloud.vadesecure.com"
+ },
+ "300": {
+  "email": "contact@alsace-carreaux.fr",
+  "verdict": "OK",
+  "mx": "alsacecarreaux-fr01e.mail.protection.outlook.com"
+ },
+ "271": {
+  "email": "contact@dgm-industrie.fr",
+  "verdict": "OK",
+  "mx": "mx1.cyberbrain.net"
+ },
+ "304": {
+  "email": "bonjour@artisanvaa.fr",
+  "verdict": "OK",
+  "mx": "mx1.mail.ovh.net"
+ },
+ "284": {
+  "email": "preciforge@preciforge.fr",
+  "verdict": "OK",
+  "mx": "mx-mibc-fr-03.mailinblack.com"
+ },
+ "291": {
+  "email": "contact@acsoxycoupage.fr",
+  "verdict": "OK",
+  "mx": "asp36.mailinblack.com"
+ },
+ "308": {
+  "email": "contact@batirpeintures.com",
+  "verdict": "OK",
+  "mx": "mx-mibc-fr-07.mailinblack.com"
+ },
+ "311": {
+  "email": "contact@besgc.fr",
+  "verdict": "OK",
+  "mx": "besgc.fr"
+ },
+ "314": {
+  "email": "contact@bureau-detude-structure.fr",
+  "verdict": "OK",
+  "mx": "mx1.mail.ovh.net"
+ },
+ "296": {
+  "email": "alexandra@afortinavocate.fr",
+  "verdict": "OK",
+  "mx": "mx2.mail.ovh.net"
+ },
+ "321": {
+  "email": "ernest.ozmen@calorizol.fr",
+  "verdict": "OK",
+  "mx": "inbox.linkeo.com"
+ },
+ "282": {
+  "email": "contact@folliot-electricite.fr",
+  "verdict": "OK",
+  "mx": "mta-gw.infomaniak.ch"
+ },
+ "303": {
+  "email": "contact@artihome-france.fr",
+  "verdict": "NOMX",
+  "mx": "artihome-france.fr"
+ },
+ "325": {
+  "email": "contact@agbsecurite.fr",
+  "verdict": "OK",
+  "mx": "mx01.ionos.fr"
+ },
+ "326": {
+  "email": "contact@bonnevaux-sa.com",
+  "verdict": "PORT25KO",
+  "mx": "mx01b.mailinblack.com"
+ },
+ "328": {
+  "email": "matthieu@chronotruck.com",
+  "verdict": "OK",
+  "mx": "alt3.aspmx.l.google.com"
+ },
+ "293": {
+  "email": "adc@adc.fr",
+  "verdict": "OK",
+  "mx": "mxa-00111701.gslb.pphosted.com"
+ },
+ "266": {
+  "email": "cophyma@cophyma.fr",
+  "verdict": "PORT25KO",
+  "mx": "antispam.xefi.fr"
+ },
+ "319": {
+  "email": "contact@cabinetexpertcomptable.fr",
+  "verdict": "OK",
+  "mx": "mx1.mail.ovh.net"
+ },
+ "279": {
+  "email": "contact@etketancheite.fr",
+  "verdict": "PORT25KO",
+  "mx": "mail.etketancheite.fr"
+ },
+ "318": {
+  "email": "ecai@cabinetecai.com",
+  "verdict": "OK",
+  "mx": "exc3.assistances.exchange"
+ },
+ "337": {
+  "email": "contact@decolletage-usinage.fr",
+  "verdict": "OK",
+  "mx": "mx3.ovh.net"
+ },
+ "280": {
+  "email": "contact@etscolombie.fr",
+  "verdict": "PORT25KO",
+  "mx": "spool.mail.gandi.net"
+ },
+ "336": {
+  "email": "contact@decobaie.com",
+  "verdict": "OK",
+  "mx": "smtp.google.com"
+ },
+ "341": {
+  "email": "contact@dpsa-securite.fr",
+  "verdict": "OK",
+  "mx": "mx-mibc-fr-06.mailinblack.com"
+ },
+ "340": {
+  "email": "info@dema-france.com",
+  "verdict": "OK",
+  "mx": "mx00.ionos.fr"
+ },
+ "345": {
+  "email": "logistique@eltf.fr",
+  "verdict": "OK",
+  "mx": "mx01.ionos.fr"
+ },
+ "344": {
+  "email": "contact@effy.fr",
+  "verdict": "OK",
+  "mx": "mx-mibc-fr-06.mailinblack.com"
+ },
+ "347": {
+  "email": "serviceclient@esg1securite.fr",
+  "verdict": "NOMX",
+  "mx": "esg1securite.fr"
+ },
+ "329": {
+  "email": "accueil@cmdcardot.fr",
+  "verdict": "OK",
+  "mx": "mx-mibc-fr-02.mailinblack.com"
+ },
+ "315": {
+  "email": "contact@bureau-etude-thermique-bet.fr",
+  "verdict": "NOMX",
+  "mx": "bureau-etude-thermique-bet.fr"
+ },
+ "346": {
+  "email": "contact@entoutesecurite.fr",
+  "verdict": "OK",
+  "mx": "aspmx.l.google.com"
+ },
+ "352": {
+  "email": "contact@aopb.fr",
+  "verdict": "OK",
+  "mx": "aspmx.l.google.com"
+ },
+ "330": {
+  "email": "contact@cmhindustrie.com",
+  "verdict": "OK",
+  "mx": "fb.mail.gandi.net"
+ },
+ "350": {
+  "email": "contact@fermetalu.com",
+  "verdict": "OK",
+  "mx": "fermetalu-com.mail.protection.outlook.com"
+ },
+ "354": {
+  "email": "contact@estusinage.fr",
+  "verdict": "OK",
+  "mx": "mx-mibc-fr-09.mailinblack.com"
+ },
+ "339": {
+  "email": "info@cabinetvision.fr",
+  "verdict": "NOMX",
+  "mx": "cabinetvision.fr"
+ },
+ "343": {
+  "email": "contact@ecovantaro.com",
+  "verdict": "NOMX",
+  "mx": "ecovantaro.com"
+ },
+ "295": {
+  "email": "contact@aforgedefer.com",
+  "verdict": "PORT25KO",
+  "mx": "mx3.mail.ovh.net"
+ },
+ "342": {
+  "email": "bonjour@dsdrenov.com",
+  "verdict": "OK",
+  "mx": "alt1.aspmx.l.google.com"
+ },
+ "361": {
+  "email": "contact@fizexpert.fr",
+  "verdict": "OK",
+  "mx": "mx1.coaxis.com"
+ },
+ "364": {
+  "email": "contact@fraisepers.fr",
+  "verdict": "OK",
+  "mx": "mail.fraisepers.fr"
+ },
+ "324": {
+  "email": "info.contact@carrondo.fr",
+  "verdict": "PORT25KO",
+  "mx": "asp38.mailinblack.com"
+ },
+ "363": {
+  "email": "halandforhj@shprecisionshaft.com",
+  "verdict": "OK",
+  "mx": "mx.263.net"
+ },
+ "367": {
+  "email": "contact@fry-etudes.fr",
+  "verdict": "OK",
+  "mx": "mx0.mail.ovh.net"
+ },
+ "359": {
+  "email": "contact@cvim.fr",
+  "verdict": "NOMX",
+  "mx": "cvim.fr"
+ },
+ "309": {
+  "email": "contact@bba-securite-france.fr",
+  "verdict": "PORT25KO",
+  "mx": "mx2.mail.ovh.net"
+ },
+ "357": {
+  "email": "arnaud.kaizer@behm.fr",
+  "verdict": "OK",
+  "mx": "behm-fr.mail.protection.outlook.com"
+ },
+ "360": {
+  "email": "contact@figitalexpertise.fr",
+  "verdict": "OK",
+  "mx": "figitalexpertise-fr.mail.protection.outlook.com"
+ },
+ "370": {
+  "email": "l.leon@garagedestroismonts.fr",
+  "verdict": "OK",
+  "mx": "garagedestroismonts-fr.mail.protection.outlook.com"
+ },
+ "372": {
+  "email": "contact@garagepasteur.com",
+  "verdict": "OK",
+  "mx": "mx1.mail.ovh.net"
+ },
+ "362": {
+  "email": "sales@forgeavia.fr",
+  "verdict": "OK",
+  "mx": "mx3.mail.ovh.net"
+ },
+ "374": {
+  "email": "accueil@gelygroup.fr",
+  "verdict": "OK",
+  "mx": "gelygroup-fr.mail.protection.outlook.com"
+ },
+ "375": {
+  "email": "contact@geobiomics.fr",
+  "verdict": "OK",
+  "mx": "geobiomics-fr.mail.protection.outlook.com"
+ },
+ "376": {
+  "email": "support.commercial@geofoncier.fr",
+  "verdict": "OK",
+  "mx": "geofoncier-fr.mail.protection.outlook.com"
+ },
+ "366": {
+  "email": "commercial@francemetal.fr",
+  "verdict": "OK",
+  "mx": "europe.security-mail.net"
+ },
+ "365": {
+  "email": "contact@france-c.fr",
+  "verdict": "OK",
+  "mx": "mx1.hostinger.com"
+ },
+ "380": {
+  "email": "calais@geometre.net",
+  "verdict": "OK",
+  "mx": "geometre-net.mail.protection.outlook.com"
+ },
+ "384": {
+  "email": "brest@giffardmanutention.fr",
+  "verdict": "OK",
+  "mx": "giffardmanutention-fr.mail.protection.outlook.com"
+ },
+ "373": {
+  "email": "contact@gardiennageparis.fr",
+  "verdict": "NOMX",
+  "mx": "gardiennageparis.fr"
+ },
+ "371": {
+  "email": "contact@garagelibert.fr",
+  "verdict": "OK",
+  "mx": "garagelibert-fr.mail.protection.outlook.com"
+ },
+ "349": {
+  "email": "votre@expert-comptable-en-ligne.fr",
+  "verdict": "PORT25KO",
+  "mx": "mail.moteur-comptable.fr"
+ },
+ "388": {
+  "email": "info@gmi-robinetterie.com",
+  "verdict": "OK",
+  "mx": "gmirobinetterie-com0i.mail.protection.outlook.com"
+ },
+ "338": {
+  "email": "decoupacier@decoupacier.com",
+  "verdict": "PORT25KO",
+  "mx": "mx2.mail.ovh.net"
+ },
+ "389": {
+  "email": "contact@gmld.fr",
+  "verdict": "OK",
+  "mx": "fb.mail.gandi.net"
+ },
+ "358": {
+  "email": "contact@corbel-jannin.fr",
+  "verdict": "PORT25KO",
+  "mx": "mx4.mail.ovh.net"
+ },
+ "379": {
+  "email": "contact@geometre.fr",
+  "verdict": "OK",
+  "mx": "mx1.mail.ovh.net"
+ },
+ "390": {
+  "email": "digital@groupe-ecomedia.com",
+  "verdict": "OK",
+  "mx": "groupeecomedia-com01e.mail.protection.outlook.com"
+ },
+ "392": {
+  "email": "sales@groupe-rouger.com",
+  "verdict": "OK",
+  "mx": "mail.groupe-rouger.com"
+ },
+ "391": {
+  "email": "contact@groupe-pfister.com",
+  "verdict": "OK",
+  "mx": "groupepfister-com01e.mail.protection.outlook.com"
+ },
+ "395": {
+  "email": "webmarketing@groupeidec.com",
+  "verdict": "OK",
+  "mx": "mx-mibc-fr-07.mailinblack.com"
+ },
+ "383": {
+  "email": "ghp-pdc@ghp.fr",
+  "verdict": "OK",
+  "mx": "ghp-fr.mail.protection.outlook.com"
+ },
+ "399": {
+  "email": "contact@guillaumie.com",
+  "verdict": "OK",
+  "mx": "mx3.ovh.net"
+ },
+ "387": {
+  "email": "atelier@gmetallier.fr",
+  "verdict": "OK",
+  "mx": "mx1.mail.ovh.net"
+ },
+ "403": {
+  "email": "contact@hashtagavocats.com",
+  "verdict": "OK",
+  "mx": "aspmx2.googlemail.com"
+ },
+ "369": {
+  "email": "celine@garage-gauyat.fr",
+  "verdict": "PORT25KO",
+  "mx": "mx4.mail.ovh.net"
+ },
+ "393": {
+  "email": "marketing@groupe-thermi-lyon.com",
+  "verdict": "OK",
+  "mx": "thermilyon.in.tmes.trendmicro.eu"
+ },
+ "378": {
+  "email": "contact@geometre-paris.fr",
+  "verdict": "PORT25KO",
+  "mx": "mx4.mail.ovh.net"
+ },
+ "406": {
+  "email": "contact@herouard.com",
+  "verdict": "OK",
+  "mx": "herouard-com.mail.protection.outlook.com"
+ },
+ "381": {
+  "email": "contact@georgeault.fr",
+  "verdict": "OK",
+  "mx": "georgeault-fr.mail.protection.outlook.com"
+ },
+ "386": {
+  "email": "mateo.adam@glory-injectionplastique.fr",
+  "verdict": "PORT25KO",
+  "mx": "mx-mibc-fr-08.mailinblack.com"
+ },
+ "394": {
+  "email": "info@groupe-tma.com",
+  "verdict": "PORT25KO",
+  "mx": "mx-mibc-fr-05.mailinblack.com"
+ },
+ "400": {
+  "email": "informatique-et-libertes@guy-hoquet.com",
+  "verdict": "OK",
+  "mx": "guyhoquet-com0i.mail.protection.outlook.com"
+ },
+ "401": {
+  "email": "hts@hacer.fr",
+  "verdict": "OK",
+  "mx": "mx10.fmi-groupe.fr"
+ },
+ "407": {
+  "email": "contact@hfmetal.fr",
+  "verdict": "OK",
+  "mx": "mail.hfmetal.fr"
+ },
+ "405": {
+  "email": "contact@helixexpertise.com",
+  "verdict": "OK",
+  "mx": "helixexpertise-com.mail.protection.outlook.com"
+ },
+ "404": {
+  "email": "contact@hatty-vonnas.fr",
+  "verdict": "OK",
+  "mx": "hattyvonnas-fr01c.mail.protection.outlook.com"
+ },
+ "397": {
+  "email": "contact@guardianfrance.fr",
+  "verdict": "OK",
+  "mx": "alt1.aspmx.l.google.com"
+ },
+ "410": {
+  "email": "contact@hosmoz.fr",
+  "verdict": "OK",
+  "mx": "hosmoz-fr.mail.protection.outlook.com"
+ },
+ "411": {
+  "email": "info@hybster.com",
+  "verdict": "OK",
+  "mx": "hybster-com.mail.protection.outlook.com"
+ },
+ "414": {
+  "email": "contact@89art.fr",
+  "verdict": "OK",
+  "mx": "mta-gw.infomaniak.ch"
+ },
+ "402": {
+  "email": "contact@hannecard.com",
+  "verdict": "OK",
+  "mx": "hannecard-com.mail.protection.outlook.com"
+ },
+ "413": {
+  "email": "commercial@hynecofrance.com",
+  "verdict": "OK",
+  "mx": "hynecofrance-com.mail.protection.outlook.com"
+ },
+ "412": {
+  "email": "solutions@hydralogie.com",
+  "verdict": "OK",
+  "mx": "d408534.b.ess.ca.barracudanetworks.com"
+ },
+ "418": {
+  "email": "contact@ifd-outillage.fr",
+  "verdict": "OK",
+  "mx": "alt1.aspmx.l.google.com"
+ },
+ "416": {
+  "email": "hugo.pech@bethpc.fr",
+  "verdict": "OK",
+  "mx": "bethpc-fr.mail.protection.outlook.com"
+ },
+ "419": {
+  "email": "communication@inextenso.fr",
+  "verdict": "OK",
+  "mx": "inextenso-fr.mail.protection.outlook.com"
+ },
+ "424": {
+  "email": "enlever-majusculescontact@item-conseil.fr",
+  "verdict": "OK",
+  "mx": "itemconseil-fr01b.mail.protection.outlook.com"
+ },
+ "422": {
+  "email": "contact@irt-m2p.fr",
+  "verdict": "OK",
+  "mx": "irtm2p-fr0i.mail.protection.outlook.com"
+ },
+ "425": {
+  "email": "cii56@ito-calorifuge.com",
+  "verdict": "OK",
+  "mx": "itocalorifuge-com0i.mail.protection.outlook.com"
+ },
+ "431": {
+  "email": "contact@justifit.fr",
+  "verdict": "OK",
+  "mx": "alt2.aspmx.l.google.com"
+ },
+ "409": {
+  "email": "contact@hmdprecision.fr",
+  "verdict": "NOMX",
+  "mx": "hmdprecision.fr"
+ },
+ "428": {
+  "email": "contact@jcp-pmdp.fr",
+  "verdict": "OK",
+  "mx": "jcppmdp-fr0i.mail.protection.outlook.com"
+ },
+ "432": {
+  "email": "info@kaecia.fr",
+  "verdict": "OK",
+  "mx": "kaecia-fr.mail.protection.outlook.com"
+ },
+ "417": {
+  "email": "bordeaux@elige-avocats.com",
+  "verdict": "OK",
+  "mx": "eligeavocats-com01c.mail.protection.outlook.com"
+ },
+ "436": {
+  "email": "hello@l-expert-comptable.com",
+  "verdict": "OK",
+  "mx": "de-smtp-inbound-2.mimecast.com"
+ },
+ "420": {
+  "email": "contact@ira.eu",
+  "verdict": "OK",
+  "mx": "alt1.aspmx.l.google.com"
+ },
+ "437": {
+  "email": "contact@labaliseavocat.fr",
+  "verdict": "OK",
+  "mx": "smtp.google.com"
+ },
+ "427": {
+  "email": "contact@jacnet.fr",
+  "verdict": "OK",
+  "mx": "jacnet-fr.mail.protection.outlook.com"
+ },
+ "435": {
+  "email": "contact@klingroupe.fr",
+  "verdict": "OK",
+  "mx": "mx1.hostinger.com"
+ },
+ "377": {
+  "email": "sevran@geometre-cdb.com",
+  "verdict": "OK",
+  "mx": "geometrecdb-com02b.mail.protection.outlook.com"
+ },
+ "439": {
+  "email": "donneespersonnelles@laforet.com",
+  "verdict": "OK",
+  "mx": "mxb-00915c01.gslb.pphosted.com"
+ },
+ "415": {
+  "email": "sales@actor.fr",
+  "verdict": "PORT25KO",
+  "mx": "exchange.actor.fr"
+ },
+ "421": {
+  "email": "contact@iria-avocat.fr",
+  "verdict": "PORT25KO",
+  "mx": "mx4.network-studio.com"
+ },
+ "426": {
+  "email": "contact@jaberson-avocats.com",
+  "verdict": "PORT25KO",
+  "mx": "mx-mibc-fr-10.mailinblack.com"
+ },
+ "433": {
+  "email": "contact@kapeci-acier.fr",
+  "verdict": "PORT25KO",
+  "mx": "mx-mibc-fr-05.mailinblack.com"
+ },
+ "430": {
+  "email": "rgpd@junot.fr",
+  "verdict": "OK",
+  "mx": "junot-fr.mail.protection.outlook.com"
+ },
+ "434": {
+  "email": "contact@khadiri.com",
+  "verdict": "PORT25KO",
+  "mx": "ex2.mail.ovh.net"
+ }
+}

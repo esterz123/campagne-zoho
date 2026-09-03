@@ -186,5 +186,22 @@
   "gpse@pps-expertise.com",
   "contact@cabinetnew.fr"
  ],
- "_maj_emails_morts": "03/09 : sync bounce state -> emails morts (93 ajoutes)"
+ "_maj_emails_morts": "03/09 : sync bounce state -> emails morts (93 ajoutes)",
+ "domaines": [
+  "acs-chaudronnerie.com",
+  "artihome-france.fr",
+  "boutte.fr",
+  "bureau-etude-thermique-bet.fr",
+  "cabinetvision.fr",
+  "carrosserie-corsin.com",
+  "cinox.fr",
+  "cvim.fr",
+  "ecovantaro.com",
+  "esg1securite.fr",
+  "gardiennageparis.fr",
+  "hmdprecision.fr",
+  "neothermie.com",
+  "rcma-maconnerie.fr",
+  "silex-corp.com"
+ ]
 }
