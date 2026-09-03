@@ -430,14 +430,15 @@
    "messageId": "1787063850405138400",
    "via": "hello",
    "replied": true,
-   "note": "Gaultier a quitte SOMEP; piste nouvelle collab (a.gaultier@free.fr)",
+   "note": "GO nomme 'envoie Gaultier' (02/09) : collab reseau, adresse perso hors file",
    "audit_suivi": {
     "repondu_le": "2026-08-18",
     "reponse_sous_24h": "N/A (c est EUX qui ont repondu a notre mail du 18/08)",
     "note_reponse_envoyee": "AUCUNE — aucun suivi marque depuis le 18/08 (15 jours de silence sur le seul fil chaud)",
     "message_collab_pret_depuis": "2026-08-31 (commit 478fdae, livrable/message_GAULTIER_collab.txt)",
     "statut_0902": "EN ATTENTE GO NOMME \"envoie Gaultier\" — envoi via GO2 adresse perso a.gaultier@free.fr, hors file campagne"
-   }
+   },
+   "go2_gaultier": "2026-09-03T11:11:56.202203"
   },
   "64": {
    "on": "2026-08-18",
