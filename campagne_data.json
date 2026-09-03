@@ -946,9 +946,9 @@
   "cc": "",
   "to_confirmed": true,
   "subject": "Votre site baxter-injection.com ne s'ouvre pas ce matin",
-  "body": "Bonjour M. GINOUVIER,\n\nJ'ai tape baxter-injection.com dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour M. GINOUVIER,\n\nJ'ai tape baxter-injection.com dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.\n\nEt sur www, la page d'accueil est une passerelle avec 2 boutons : France et Portugal. En cliquant sur France, le site s'ouvre... en portugais (\"Injecao de pecas, decoracao e montagem\"). Le menu est traduit, mais le titre de la page et la description Google aussi.\n\nJe l'ai mesure ce matin : aucune des 17 images n'a de nom alternatif, aucun titre H2 n'annonce vos services, et ni robots.txt ni sitemap.xml n'existent. Un client qui cherche \"injection plastique\" ne vous trouve pas : Google lit un site portugais.\n\nJe fais ce diagnostic gratuitement pour 2 entreprises par semaine : en 48h vous recevez les 5 corrections prioritaires, sans engagement. Si ca vous plait, on en parle. Sinon vous gardez le document.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Patrick GINOUVIER",
-  "note": "ligne1-v2 0902",
+  "note": "ligne1-v2 0902 | MAJ 0903 corps recrit et objet remplace (backup campagne_data.json.bak-baxter-0903). Verifie live 03/09: baxter-injection.com (apex) DNS mort (getaddrinfo failed, http+https), www.baxter-injection.com HTTP 200. Accueil = passerelle 2 boutons France/Portugal, 11970 octets, title 'Baxter' seul, 3 img sans alt, 0 H1. france/fr/ HTTP 200: title 'Baxter - Accueil', meta description EN PORTUGAIS 'Injecao de pecas, decoracao e montagem', 17/17 img sans alt, 1 H1 'Injection de pieces plastiques', menu traduit en FR, robots.txt 404, sitemap.xml 404. Site 'Developed by SUBA.PT'. Ne PAS accuser: description FR inexistante, c'est la PT qui est en place.",
   "site": "https://baxter-injection.com"
  },
  {
