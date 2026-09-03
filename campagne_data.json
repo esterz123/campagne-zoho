@@ -49,10 +49,10 @@
   "to": "contact@georget.fr",
   "cc": "",
   "subject": "Votre site georget.fr tient en 4 Ko: 2 liens du menu sont morts, je viens de verifier",
-  "body": "Bonjour,\n\nJ'ai ouvert georget.fr a l'instant. Voici ce que j'ai trouve, lien par lien: deux entrees de votre menu ne mènent nulle part (les liens pointent vers « # », un clic ne fait rien), votre plaquette PDF s'ouvre dans une fenêtre bloquée par la plupart des navigateurs, et il n'y a ni sitemap ni robots.txt: Google decouvre vos 4 pages tout seul, lentement.\n\nPourtant votre description le dit: sous-traitance mecanique et usinage de pièces de précision a Vivonne. C'est exactement ce que cherchent les donneurs d'ordres, mais ils ne peuvent pas vous trouver avec un menu qui ne répond pas.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait: les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert georget.fr a l'instant. Deux choses me sautent aux yeux : une seule page : Google n'a rien a indexer sur vos metiers, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "to_confirmed": true,
   "site": "https://georget.fr",
-  "note": "ligne1-v2 0902"
+  "note": "ligne1-v2 0902 | MAJ 0903 corps recrit et objet remplace (backup campagne_data.json.bak-georget-0903). Verifie live 03/09: HTTP 200, 4229 octets, robots.txt 404, sitemap.xml 404, 2 liens menu href=\"#\" confirmes (Accueil + Plaquette, popup window.open), meta description PRESENTE (ne pas l'accuser), viewport OK, copyright fige \"Copyright © GEORGET PRECISION 2019\" (pas une fourchette), champ author du code = \"ROSIN Alexis LE STAGIAIRE\" confirme, historique site: 1977, 20 salaries, rachat groupe MTSA 2016. Relance2 envoyee 25/08, aucune reponse depuis 9 jours."
  },
  {
   "num": 6,
