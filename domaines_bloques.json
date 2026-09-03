@@ -78,7 +78,7 @@
   "smgconfrere.com",
   "smg-decoupage-tolerie.com"
  ],
- "_maj": "01/09 regle bounce: email mort specifique blacklistE, domaine rehabilite si adresse seule",
+ "_maj": "bounce shield 2026-09-03",
  "cabinetnew.fr": "bounce",
  "milmeca.fr": "bounce 550 user unknown 29/08",
  "agencedigitalnew.fr": "bounce",
@@ -180,7 +180,11 @@
   "stephanie.gresle@morel-decolletage.fr",
   "usinage@aul-usinage.fr",
   "usinage@cfup.fr",
-  "vincent.chouzenoux@bureau-vallee.fr"
+  "vincent.chouzenoux@bureau-vallee.fr",
+  "contact@agencedigitalnew.fr",
+  "marie.schoepf@usinage-alsace.com",
+  "gpse@pps-expertise.com",
+  "contact@cabinetnew.fr"
  ],
  "_maj_emails_morts": "03/09 : sync bounce state -> emails morts (93 ajoutes)"
 }

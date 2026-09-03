@@ -1,12 +1,102 @@
 [
-  {"ordre": 1, "num": "408", "to": "contact@hmc-metal.fr", "note": 70, "griefs": 3, "angle": "4 s de chargement mesuré"},
-  {"ordre": 2, "num": "101", "to": "marie.schoepf@usinage-alsace.com", "note": 71, "griefs": 3, "angle": "5 s de chargement mesuré"},
-  {"ordre": 3, "num": "201", "to": "contact@lefiljaune.com", "note": 71, "griefs": 3, "angle": "71/100 audit direct"},
-  {"ordre": 4, "num": "132", "to": "sergio.luzia@aluthea.com", "note": 72, "griefs": 3, "angle": "4 s de chargement mesuré"},
-  {"ordre": 5, "num": "194", "to": "contact@finishtech.fr", "note": 72, "griefs": 3, "angle": "6 s de chargement mesuré"},
-  {"ordre": 6, "num": "208", "to": "contact.commercial@piroux.com", "note": 72, "griefs": 3, "angle": "3 s de chargement mesuré"},
-  {"ordre": 7, "num": "254", "to": "carfar54@carfar.fr", "note": 72, "griefs": 3, "angle": "6 s de chargement mesuré"},
-  {"ordre": 8, "num": "310", "to": "contact@be-etude.fr", "note": 72, "griefs": 3, "angle": "4 s de chargement mesuré"},
-  {"ordre": 9, "num": "320", "to": "contact@cabinetmaillard.com", "note": 72, "griefs": 3, "angle": "3 s de chargement mesuré"},
-  {"ordre": 10, "num": "396", "to": "info@gt-hydraulique.fr", "note": 72, "griefs": 3, "angle": "3 s de chargement mesuré"}
+ {
+  "ordre": 1,
+  "num": "408",
+  "to": "contact@hmc-metal.fr",
+  "note": 70,
+  "griefs": 3,
+  "angle": "4 s de chargement mesuré",
+  "verif_0902": "VIVANT",
+  "chargement_mesure_0902_s": 3.9
+ },
+ {
+  "ordre": 2,
+  "num": "101",
+  "to": "marie.schoepf@usinage-alsace.com",
+  "note": 71,
+  "griefs": 3,
+  "angle": "5 s de chargement mesuré",
+  "verif_0902": "VIVANT",
+  "chargement_mesure_0902_s": 1.8
+ },
+ {
+  "ordre": 3,
+  "num": "201",
+  "to": "contact@lefiljaune.com",
+  "note": 71,
+  "griefs": 3,
+  "angle": "71/100 audit direct",
+  "verif_0902": "VIVANT",
+  "chargement_mesure_0902_s": 0.5
+ },
+ {
+  "ordre": 4,
+  "num": "132",
+  "to": "sergio.luzia@aluthea.com",
+  "note": 72,
+  "griefs": 3,
+  "angle": "4 s de chargement mesuré",
+  "verif_0902": "VIVANT",
+  "chargement_mesure_0902_s": 2.0
+ },
+ {
+  "ordre": 5,
+  "num": "194",
+  "to": "contact@finishtech.fr",
+  "note": 72,
+  "griefs": 3,
+  "angle": "6 s de chargement mesuré",
+  "verif_0902": "VIVANT",
+  "chargement_mesure_0902_s": 2.9
+ },
+ {
+  "ordre": 6,
+  "num": "208",
+  "to": "contact.commercial@piroux.com",
+  "note": 72,
+  "griefs": 3,
+  "angle": "3 s de chargement mesuré",
+  "verif_0902": "VIVANT",
+  "chargement_mesure_0902_s": 6.9
+ },
+ {
+  "ordre": 7,
+  "num": "254",
+  "to": "carfar54@carfar.fr",
+  "note": 72,
+  "griefs": 3,
+  "angle": "6 s de chargement mesuré",
+  "verif_0902": "VIVANT",
+  "chargement_mesure_0902_s": 3.4
+ },
+ {
+  "ordre": 8,
+  "num": "310",
+  "to": "contact@be-etude.fr",
+  "note": 72,
+  "griefs": 3,
+  "angle": "4 s de chargement mesuré",
+  "verif_0902": "VIVANT",
+  "chargement_mesure_0902_s": 0.6
+ },
+ {
+  "ordre": 9,
+  "num": "320",
+  "to": "contact@cabinetmaillard.com",
+  "note": 72,
+  "griefs": 3,
+  "angle": "3 s de chargement mesuré",
+  "verif_0902": "VIVANT",
+  "chargement_mesure_0902_s": 2.0
+ },
+ {
+  "ordre": 10,
+  "num": "396",
+  "to": "info@gt-hydraulique.fr",
+  "note": 72,
+  "griefs": 3,
+  "angle": "3 s de chargement mesuré",
+  "verif_0902": "VIVANT",
+  "chargement_mesure_0902_s": 3.0
+ }
 ]

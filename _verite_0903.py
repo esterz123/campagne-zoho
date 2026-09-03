@@ -19,6 +19,7 @@ for creds in boites:
     try:
         token = cz.refresh_token(creds)
     except Exception:
+        token = None
         for k in ('token', 'access_token'):
             if creds.get(k):
                 token = creds[k]
