@@ -498,6 +498,17 @@
   "ville": ""
  },
  {
+  "url": "https://anjoudecolletage.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "ANJOU DECOLLETAGE",
+  "email": "contact@anjoudecolletage.com",
+  "ville": ""
+ },
+ {
   "url": "https://estusinage.fr",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -550,6 +561,17 @@
   "note": 2,
   "nom": "",
   "email": "contact@hmc-metal.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://elige-avocats.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "bordeaux@elige-avocats.com",
   "ville": ""
  },
  {
@@ -619,6 +641,17 @@
   "ville": "VINAY"
  },
  {
+  "url": "https://alencon-plastic.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "ALENCON PLASTIC",
+  "email": "contact@alencon-plastic.com",
+  "ville": ""
+ },
+ {
   "url": "https://slicom-group.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -671,6 +704,17 @@
   "note": 0,
   "nom": "46 — Sa Amd Decolletage",
   "email": "sales@amd-decolletage.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://alencon-plastic.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "49 — Alencon Plastic (plasturgie, groupe",
+  "email": "contact@alencon-plastic.com",
   "ville": ""
  },
  {
@@ -751,6 +795,17 @@
   "ville": ""
  },
  {
+  "url": "https://neothermie.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@neothermie.com",
+  "ville": ""
+ },
+ {
   "url": "https://michel-perret.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -770,6 +825,39 @@
   "note": 0,
   "nom": "",
   "email": "ribautsa@ribaut.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://adiamix.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "admin@adiamix.com",
+  "ville": ""
+ },
+ {
+  "url": "https://oureval.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "accueil@oureval.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://france-calorifugeage.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@france-calorifugeage.fr",
   "ville": ""
  },
  {
