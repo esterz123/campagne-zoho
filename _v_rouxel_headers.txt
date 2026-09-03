@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+link: <https://www.rouxel-mold.com/wp-json/>; rel="https://api.w.org/", <https://www.rouxel-mold.com/wp-json/wp/v2/pages/7486>; rel="alternate"; title="JSON"; type="application/json", <https://www.rouxel-mold.com/>; rel=shortlink
+vary: Accept-Encoding
+content-type: text/html; charset=UTF-8
+server: LiteSpeed
+x-tuned-by: N0C
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000
+x-litespeed-cache: hit
+content-length: 81024
+date: Mon, 31 Aug 2026 12:12:08 GMT
+connection: Keep-Alive
+

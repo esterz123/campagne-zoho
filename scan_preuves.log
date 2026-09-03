@@ -1,0 +1,491 @@
+A sonder: 332 (deja faits: 6)
+  [1/332] num 7    note   0 MORT         plastiques-atp.fr
+  [2/332] num 8    note  67 VIVANT       jsmperrin.fr
+  [3/332] num 9    note  85 VIVANT       usimeca.fr
+  [4/332] num 10   note  77 VIVANT       remiplast.com
+  [5/332] num 11   note  27 VIVANT       itplast.com
+  [6/332] num 12   note  79 VIVANT       bgplastic.com
+  [7/332] num 13   note  54 VIVANT       desjardins-sa.com
+  [8/332] num 14   note  30 VIVANT       rgf-plastique.com
+  [9/332] num 15   note  89 VIVANT       r2c-aura.fr
+  [10/332] num 16   note  80 VIVANT       erce-plasturgie.com
+  [11/332] num 17   note  92 VIVANT       jcm-decolletage.fr
+  [12/332] num 18   note 100 VIVANT       fonderie-lemer.com
+  [13/332] num 19   BLOQUE provence-outillage.com (robot bloque, rien d'affirme)
+  [14/332] num 20   note  71 VIVANT       usinage-alsace.com
+  [15/332] num 21   note  52 VIVANT       maine-tolerie.fr
+  [16/332] num 22   note 100 VIVANT       ag-tolerie.com
+  [17/332] num 23   note  89 VIVANT       france-injection-service.fr
+  [18/332] num 24   note  72 VIVANT       usinage-dieppois.fr
+  [19/332] num 25   note  95 VIVANT       drault-decolletage.com
+  [20/332] num 26   note  87 VIVANT       decolletage-jurassien.fr
+  [21/332] num 27   note  64 VIVANT       gay-decolletage.fr
+  [22/332] num 28   note  87 VIVANT       morel-decolletage.fr
+  [23/332] num 29   note  94 VIVANT       amp.fr
+  [24/332] num 30   note  80 VIVANT       artoisplastiques.fr
+  [25/332] num 31   note 100 VIVANT       atelierphysis.fr
+  [26/332] num 32   note  79 VIVANT       axil-plasturgie.com
+  [27/332] num 33   note  95 VIVANT       decolletage-de-reu.com
+  [28/332] num 34   note  80 VIVANT       decolletage-elbe.fr
+  [29/332] num 35   note  79 VIVANT       elcam-usinage.fr
+  [30/332] num 36   note  94 VIVANT       fonderiesdelarians.fr
+  [31/332] num 37   note  87 VIVANT       fonderies-de-nangis.fr
+  [32/332] num 38   note  79 VIVANT       graf.fr
+  [33/332] num 39   note 100 VIVANT       lesplastiquesdecores.fr
+  [34/332] num 40   note  86 VIVANT       milletplastics-group.com
+  [35/332] num 41   note   0 MORT         amd-decolletage.fr
+  [36/332] num 42   note  24 VIVANT       tolerie-forezienne.com
+  [37/332] num 43   note  66 VIVANT       tolerie-remond.com
+  [38/332] num 44   note   3 VIVANT       fonderies-dechaumont.com
+  [39/332] num 45   note  71 VIVANT       agripolyane.com
+  [40/332] num 46   note  89 VIVANT       alencon-plastic.com
+  [41/332] num 47   note  94 VIVANT       aplicit.com
+  [42/332] num 48   note  79 VIVANT       a3plast.fr
+  [43/332] num 49   note  85 VIVANT       alpha-industries.fr
+  [44/332] num 50   note  94 VIVANT       amdi.fr
+  [45/332] num 51   note  33 VIVANT       acs-alpes.com
+  [46/332] num 52   note  49 VIVANT       mpi-mecanique.com
+  [47/332] num 53   note  69 VIVANT       wanadoo.fr
+  [48/332] num 54   note  86 VIVANT       centreplastique.fr
+  [49/332] num 55   note  77 VIVANT       mousse-plastique-artois.com
+  [50/332] num 56   note  85 VIVANT       anjos.com
+  [51/332] num 57   note  49 VIVANT       demc.fr
+  [52/332] num 58   note  86 VIVANT       fraisageservices.fr
+  [53/332] num 59   note  84 VIVANT       begc.fr
+  [54/332] num 60   note  46 VIVANT       omedec.com
+  [55/332] num 61   note 100 VIVANT       nordfraisage.fr
+  [56/332] num 62   note  39 VIVANT       edelweiss-decolletage.fr
+  [57/332] num 63   note  66 VIVANT       somep.eu
+  [58/332] num 64   note  29 VIVANT       capest.fr
+  [59/332] num 65   note  56 VIVANT       amp-france.fr
+  [60/332] num 66   note   0 MORT         mpe-prod.com
+  [61/332] num 67   BLOQUE bprecimeca.fr (robot bloque, rien d'affirme)
+  [62/332] num 68   note 100 VIVANT       ucss.fr
+  [63/332] num 69   note  77 VIVANT       plast-fb.com
+  [64/332] num 70   note  33 VIVANT       mcp-fi.fr
+  [65/332] num 71   note  33 VIVANT       hgpi-group.fr
+  [66/332] num 72   note  49 VIVANT       actech-innovation.com
+  [67/332] num 73   note  85 VIVANT       aplast.fr
+  [68/332] num 74   note  79 VIVANT       appcell.fr
+  [69/332] num 75   note  89 VIVANT       dmg-decoupage.com
+  [70/332] num 76   note  69 VIVANT       wanadoo.fr
+  [71/332] num 77   note  81 VIVANT       oaca.fr
+  [72/332] num 78   note  79 VIVANT       torras.fr
+  [73/332] num 79   note  87 VIVANT       atemip.com
+  [74/332] num 80   note  33 VIVANT       mgp-voray.com
+  [75/332] num 81   note   0 MORT         baxter-injection.com
+  [76/332] num 82   note  72 VIVANT       outillageprogress.com
+  [77/332] num 83   note  73 VIVANT       adp85.com
+  [78/332] num 84   note  69 VIVANT       lg-metallerie.fr
+  [79/332] num 85   BLOQUE magafor.com (robot bloque, rien d'affirme)
+  [80/332] num 86   note 100 VIVANT       carlesimo-groupe.fr
+  [81/332] num 87   note  85 VIVANT       metalleriefrancilienne.fr
+  [82/332] num 88   note  89 VIVANT       france-injection-service.fr
+  [83/332] num 89   note  56 VIVANT       id-plasturgie.fr
+  [84/332] num 90   note  38 VIVANT       simi.fr
+  [85/332] num 91   note  94 VIVANT       rouxel-mold.com
+  [86/332] num 92   note  85 VIVANT       milmeca.fr
+  [87/332] num 93   note  79 VIVANT       brugiere-outillage.com
+  [88/332] num 94   note  85 VIVANT       usimeca.fr
+  [89/332] num 95   note  69 VIVANT       desjardins-sa.com
+  [90/332] num 96   note  89 VIVANT       r2c-aura.fr
+  [91/332] num 97   note  19 VIVANT       ids33017.delosmail.com
+  [92/332] num 98   note  80 VIVANT       erce-plasturgie.com
+  [93/332] num 99   note  92 VIVANT       jcm-decolletage.fr
+  [94/332] num 100  BLOQUE provence-outillage.com (robot bloque, rien d'affirme)
+  [95/332] num 101  note  71 VIVANT       usinage-alsace.com
+  [96/332] num 102  note  52 VIVANT       maine-tolerie.fr
+  [97/332] num 103  note 100 VIVANT       ag-tolerie.com
+  [98/332] num 104  note  95 VIVANT       drault-decolletage.com
+  [99/332] num 105  note  64 VIVANT       gay-decolletage.fr
+  [100/332] num 106  note  87 VIVANT       morel-decolletage.fr
+  [101/332] num 107  note  94 VIVANT       amp.fr
+  [102/332] num 108  note  80 VIVANT       artoisplastiques.fr
+  [103/332] num 109  note 100 VIVANT       atelierphysis.fr
+  [104/332] num 110  note  94 VIVANT       axil-plasturgie.com
+  [105/332] num 111  note  72 VIVANT       bureau-vallee.fr
+  [106/332] num 112  note  80 VIVANT       decolletage-de-reu.com
+  [107/332] num 113  note  80 VIVANT       decolletage-elbe.fr
+  [108/332] num 114  note  79 VIVANT       elcam-usinage.fr
+  [109/332] num 115  note  94 VIVANT       fonderiesdelarians.fr
+  [110/332] num 116  note  87 VIVANT       fonderies-de-nangis.fr
+  [111/332] num 117  note  39 VIVANT       tolerie-forezienne.com
+  [112/332] num 118  note  77 VIVANT       nplast-usinage.fr
+  [113/332] num 119  note  85 VIVANT       aupg.fr
+  [114/332] num 120  BLOQUE ufp-plast.fr (robot bloque, rien d'affirme)
+  [115/332] num 121  note  92 VIVANT       acs-chaudronnerie.com
+  [116/332] num 122  note 100 VIVANT       ajymaconnerie.fr
+  [117/332] num 123  note  95 VIVANT       cetim.fr
+  [118/332] num 124  note  62 VIVANT       cf-injection.com
+  [119/332] num 125  note  85 VIVANT       chaudronnerie-du-cordeau.com
+  [120/332] num 126  note  94 VIVANT       chaudronneriedelavareze.fr
+  [121/332] num 127  note  74 VIVANT       cide-elec.fr
+  [122/332] num 128  note 100 VIVANT       cne-elec.fr
+  [123/332] num 129  note  43 VIVANT       cnrtl.fr
+  [124/332] num 130  note  85 VIVANT       compagnons-du-devoir.com
+  [125/332] num 131  note  94 VIVANT       cts-france.com
+  [126/332] num 132  note  72 VIVANT       aluthea.com
+  [127/332] num 133  note  94 VIVANT       amp-usinage.com
+  [128/332] num 134  note  95 VIVANT       angouleme-ts.fr
+  [129/332] num 135  note  77 VIVANT       artisal.fr
+  [130/332] num 136  note  79 VIVANT       smt.fr
+  [131/332] num 137  note  85 VIVANT       metalleriejonchere.fr
+  [132/332] num 138  note  54 VIVANT       uti-metallerie.fr
+  [133/332] num 139  note  55 VIVANT       mojonmetallerie.fr
+A sonder: 202 (deja faits: 136)
+  [1/202] num 137  note  85 VIVANT       metalleriejonchere.fr
+  [2/202] num 138  note  54 VIVANT       uti-metallerie.fr
+  [3/202] num 139  note  75 VIVANT       mojonmetallerie.fr
+  [4/202] num 140  note  79 VIVANT       chaudronnerie-bauloise.com
+  [5/202] num 141  note  92 VIVANT       nsn-industrie.com
+  [6/202] num 142  note  94 VIVANT       spindustrie.com
+  [7/202] num 143  note  65 VIVANT       cardinaud.fr
+  [8/202] num 144  note  57 VIVANT       guery.com
+  [9/202] num 145  note 100 VIVANT       mgr.fr
+  [10/202] num 146  note  77 VIVANT       silex-corp.com
+  [11/202] num 147  note  66 VIVANT       hexalean.com
+  [12/202] num 148  note 100 VIVANT       weber-tolerie.fr
+  [13/202] num 149  note   0 MORT         dis-bourasseau.fr
+  [14/202] num 150  note  58 VIVANT       dama74.fr
+  [15/202] num 151  note  52 VIVANT       etitolerie.fr
+  [16/202] num 152  note  44 VIVANT       ets-ogier.fr
+  [17/202] num 153  note 100 VIVANT       grem.fr
+  [18/202] num 154  note  73 VIVANT       boutte.fr
+  [19/202] num 155  note  94 VIVANT       menuiserie-veille.fr
+  [20/202] num 156  note  92 VIVANT       pitaval-sarl.com
+  [21/202] num 157  note  92 VIVANT       neothermie.com
+  [22/202] num 158  note  95 VIVANT       raynier-plomberie.fr
+  [23/202] num 159  note  80 VIVANT       webency.com
+  [24/202] num 160  note 100 VIVANT       smba-sas.fr
+  [25/202] num 161  note  66 VIVANT       schneider-cie.fr
+  [26/202] num 162  note   0 MORT         michel-perret.fr
+  [27/202] num 163  note  80 VIVANT       eddb-batiment.fr
+  [28/202] num 164  note  80 VIVANT       bellay-electricite.fr
+  [29/202] num 165  note   0 MORT         ribaut.fr
+  [30/202] num 166  note  92 VIVANT       jsefrance.fr
+  [31/202] num 167  note 100 VIVANT       edeneagencement.fr
+  [32/202] num 168  note  67 VIVANT       delabre.fr
+  [33/202] num 169  note  92 VIVANT       dmi-dury.com
+  [34/202] num 170  note  26 VIVANT       smgconfrere.com
+  [35/202] num 171  note  62 VIVANT       srelectricite.fr
+  [36/202] num 172  note  80 VIVANT       injectionplastic.com
+  [37/202] num 173  note 100 VIVANT       uma02.fr
+  [38/202] num 174  note  94 VIVANT       emboutimetal.com
+  [39/202] num 175  note  79 VIVANT       pieraut.fr
+  [40/202] num 176  note  94 VIVANT       quadratecinjection.com
+  [41/202] num 177  note  94 VIVANT       louisbesse.com
+  [42/202] num 178  note  40 VIVANT       sagaertplastique.com
+  [43/202] num 179  note 100 VIVANT       roanne-fonderie.fr
+  [44/202] num 180  note 100 VIVANT       jeantet.com
+  [45/202] num 181  note  81 VIVANT       traitementdesurface.fr
+  [46/202] num 182  note  70 VIVANT       psg-industries.com
+  [47/202] num 183  note  87 VIVANT       surfasfrance.com
+  [48/202] num 184  note  89 VIVANT       maintenance-industrielle.com
+  [49/202] num 185  note  70 VIVANT       sn-gillet.com
+  [50/202] num 186  note  79 VIVANT       narac.fr
+  [51/202] num 187  note  86 VIVANT       adiamix.com
+  [52/202] num 188  note  95 VIVANT       asindus.com
+  [53/202] num 189  note 100 VIVANT       asjb.fr
+  [54/202] num 190  note  85 VIVANT       croix-rousse-precision.fr
+  [55/202] num 191  note  74 VIVANT       decolletage.net
+  [56/202] num 192  note  85 VIVANT       durandpc.fr
+  [57/202] num 193  note  92 VIVANT       emab.fr
+  [58/202] num 194  note  72 VIVANT       finishtech.fr
+  [59/202] num 195  note  92 VIVANT       fonderie-ortel.com
+  [60/202] num 196  note  95 VIVANT       fonderiealupervieux.fr
+  [61/202] num 197  note  80 VIVANT       france-menuisiers.fr
+  [62/202] num 198  note  81 VIVANT       kuchly-sa.fr
+  [63/202] num 199  note  81 VIVANT       larousse.fr
+  [64/202] num 200  note  92 VIVANT       latelierfrance.fr
+  [65/202] num 201  note  71 VIVANT       lefiljaune.com
+  [66/202] num 202  note   0 MORT         lenoirmetallerie.fr
+  [67/202] num 203  note  85 VIVANT       lesartisanspros.fr
+  [68/202] num 204  note  94 VIVANT       lr-metallerie.fr
+  [69/202] num 205  note 100 VIVANT       mecadecouptol12.fr
+  [70/202] num 206  note  80 VIVANT       ogier-tolerie.fr
+  [71/202] num 207  note 100 VIVANT       oureval.fr
+  [72/202] num 208  note  72 VIVANT       piroux.com
+  [73/202] num 209  note  94 VIVANT       polyvia.fr
+  [74/202] num 210  note  80 VIVANT       prototype-emboutissage-78.com
+  [75/202] num 211  note 100 VIVANT       protoumat.fr
+  [76/202] num 212  note  84 VIVANT       rcma-maconnerie.fr
+  [77/202] num 213  note  85 VIVANT       reffay-sas.fr
+  [78/202] num 214  note  62 VIVANT       sadevteq.com
+  [79/202] num 215  note  58 VIVANT       scadametal.fr
+  [80/202] num 216  note 100 VIVANT       screwfix.fr
+  [81/202] num 217  note  77 VIVANT       sitralindustrie.fr
+  [82/202] num 218  note  92 VIVANT       tcstolerie.fr
+  [83/202] num 219  note  92 VIVANT       tsi-france.fr
+  [84/202] num 220  note  92 VIVANT       3mi-industrie.com
+  [85/202] num 221  note  79 VIVANT       abfonderie.fr
+  [86/202] num 222  note  85 VIVANT       ag-plomberie.com
+  [87/202] num 223  note  95 VIVANT       alu.fr
+  [88/202] num 224  note 100 VIVANT       arcenciel78.fr
+  [89/202] num 225  note  92 VIVANT       aul-usinage.fr
+  [90/202] num 226  note  77 VIVANT       bdagencements.fr
+  [91/202] num 227  note  94 VIVANT       bearncouverture.fr
+  [92/202] num 228  note 100 VIVANT       bibollet-decolletage.fr
+  [93/202] num 229  note 100 VIVANT       bs-decolletage.com
+  [94/202] num 230  note  75 VIVANT       bti.fr
+  [95/202] num 231  note 100 VIVANT       cfup.fr
+  [96/202] num 232  note  69 VIVANT       ch-metallerie.com
+  [97/202] num 233  note  94 VIVANT       civm-chaudronnerie.fr
+  [98/202] num 234  note  85 VIVANT       corvaisier-metallerie.fr
+  [99/202] num 235  note 100 VIVANT       fractory.com
+  [100/202] num 236  note 100 VIVANT       france-calorifugeage.fr
+  [101/202] num 237  note  80 VIVANT       france-etancheite.com
+  [102/202] num 238  note  94 VIVANT       france-profilage.com
+  [103/202] num 239  note  94 VIVANT       franceproetancheite.com
+  [104/202] num 240  note  85 VIVANT       francergo.com
+  [105/202] num 241  note  95 VIVANT       fromeca.fr
+  [106/202] num 242  note 100 VIVANT       alsacienne-de-metallerie.fr
+  [107/202] num 243  note 100 VIVANT       atelier-inoxia.fr
+  [108/202] num 244  note  64 VIVANT       atim-inox.com
+  [109/202] num 245  note  92 VIVANT       atlantique-profilage.fr
+  [110/202] num 246  note  81 VIVANT       bardeprofils.fr
+  [111/202] num 247  note  84 VIVANT       benoit-plastique.com
+  [112/202] num 248  note  75 VIVANT       besafrance.fr
+  [113/202] num 249  note  92 VIVANT       bgs-rouleaux.com
+  [114/202] num 250  note  94 VIVANT       bluenav.com
+  [115/202] num 251  note  81 VIVANT       bouillet-profilage.com
+  [116/202] num 252  note  85 VIVANT       briand.fr
+  [117/202] num 253  note 100 VIVANT       candas.fr
+  [118/202] num 254  note  72 VIVANT       carfar.fr
+  [119/202] num 255  BLOQUE carrosserie-ats.com (robot bloque, rien d'affirme)
+  [120/202] num 256  note 100 VIVANT       carrosserie-cantin.fr
+  [121/202] num 257  note  89 VIVANT       carrosserie-corsin.com
+  [122/202] num 258  note  81 VIVANT       carrosserie-francis.fr
+  [123/202] num 259  note  56 VIVANT       chaudronnerie-rosteel.com
+  [124/202] num 260  note  79 VIVANT       christaud.com
+  [125/202] num 261  note  94 VIVANT       cinox.fr
+  [126/202] num 262  note  80 VIVANT       comptoirnautique.com
+  [127/202] num 263  note  69 VIVANT       conceptindustriel.fr
+  [128/202] num 264  note  77 VIVANT       connect.workeez.fr
+  [129/202] num 265  note  77 VIVANT       constructionmetallique.fr
+  [130/202] num 266  note  75 VIVANT       cophyma.fr
+  [131/202] num 267  note  86 VIVANT       deliotec.com
+  [132/202] num 268  note  95 VIVANT       demarches-plaisance.net
+  [133/202] num 269  note  92 VIVANT       dessenne.net
+  [134/202] num 270  note  79 VIVANT       devismes.fr
+  [135/202] num 271  note  92 VIVANT       dgm-industrie.fr
+  [136/202] num 272  note  95 VIVANT       easymetal.fr
+  [137/202] num 273  note  92 VIVANT       electronic-marine.fr
+  [138/202] num 274  note  61 VIVANT       ems-concept.com
+  [139/202] num 275  note  92 VIVANT       energir.com
+  [140/202] num 276  note  20 VIVANT       eps-peinture.fr
+  [141/202] num 277  note  64 VIVANT       ermat-industries.com
+  [142/202] num 278  note  64 VIVANT       etanchebat.fr
+  [143/202] num 279  note 100 VIVANT       etketancheite.fr
+  [144/202] num 280  note 100 VIVANT       etscolombie.fr
+  [145/202] num 281  note 100 VIVANT       eurl-joachim-calorifuge.fr
+  [146/202] num 282  note  94 VIVANT       folliot-electricite.fr
+  [147/202] num 283  note  94 VIVANT       forge-de-laguiole.com
+  [148/202] num 284  note 100 VIVANT       forge.forlam-groupe.fr
+  [149/202] num 285  note  51 VIVANT       forgedevulcain.fr
+  [150/202] num 286  note 100 VIVANT       3d-industrie.com
+  [151/202] num 287  note 100 VIVANT       abys-navigation.fr
+  [152/202] num 288  BLOQUE achatmat.com (robot bloque, rien d'affirme)
+  [153/202] num 289  note  51 VIVANT       acierprofil.com
+  [154/202] num 290  note  85 VIVANT       acodi.fr
+  [155/202] num 291  note  85 VIVANT       acsoxycoupage.fr
+  [156/202] num 292  note  95 VIVANT       acti-seillier.com
+  [157/202] num 293  note 100 VIVANT       adc.fayat.com
+  [158/202] num 294  note 100 VIVANT       adekma.fr
+  [159/202] num 295  note  84 VIVANT       aforgedefer.com
+  [160/202] num 296  note  79 VIVANT       afortinavocate.fr
+  [161/202] num 297  note 100 VIVANT       ageneau.fr
+  [162/202] num 298  note   0 MORT         alkar.fr
+  [163/202] num 299  note  95 VIVANT       alpha-group.eu
+  [164/202] num 300  note  95 VIVANT       alsace-carreaux.fr
+  [165/202] num 301  note  89 VIVANT       anr.fr
+  [166/202] num 302  note  85 VIVANT       ar-racking.com
+  [167/202] num 303  note  80 VIVANT       artihome-france.fr
+  [168/202] num 304  note 100 VIVANT       artisanvaa.fr
+  [169/202] num 305  note 100 VIVANT       aximar.com
+  [170/202] num 306  note  94 VIVANT       b27.fr
+  [171/202] num 307  note  74 VIVANT       baillesas.fr
+  [172/202] num 308  note  84 VIVANT       batirpeintures.com
+  [173/202] num 309  note  86 VIVANT       bba-securite-france.fr
+  [174/202] num 310  note  72 VIVANT       be-etude.fr
+  [175/202] num 311  note  85 VIVANT       besgc.fr
+  [176/202] num 312  note  66 VIVANT       aci-menuiserie.com
+  [177/202] num 313  note  94 VIVANT       armadal.fr
+  [178/202] num 314  note  85 VIVANT       bureau-detude-structure.fr
+  [179/202] num 315  note 100 VIVANT       bureau-etude-thermique-bet.fr
+  [180/202] num 316  note 100 VIVANT       cabinet-sac.fr
+  [181/202] num 317  note  75 VIVANT       cabinet12.com
+  [182/202] num 318  note  85 VIVANT       cabinetecai.com
+  [183/202] num 319  note 100 VIVANT       cabinetexpertcomptable.fr
+  [184/202] num 320  note  72 VIVANT       cabinetmaillard.com
+  [185/202] num 321  note 100 VIVANT       calorizol.com
+  [186/202] num 322  note 100 VIVANT       caro-centre.fr
+  [187/202] num 323  BLOQUE carrelage-bain.fr (robot bloque, rien d'affirme)
+  [188/202] num 324  note  92 VIVANT       carrondo.fr
+  [189/202] num 325  note 100 VIVANT       agbsecurite.fr
+  [190/202] num 326  note 100 VIVANT       bonnevaux-sa.fr
+  [191/202] num 327  note  92 VIVANT       chort-batiment.com
+  [192/202] num 328  note 100 VIVANT       chronotruck.com
+  [193/202] num 329  note  94 VIVANT       cmdcardot.fr
+  [194/202] num 330  note  94 VIVANT       cmhindustrie.com
+  [195/202] num 331  BLOQUE cnr.fr (robot bloque, rien d'affirme)
+  [196/202] num 332  note  80 VIVANT       cornut.fr
+  [197/202] num 333  BLOQUE covernit.fr (robot bloque, rien d'affirme)
+  [198/202] num 334  note  95 VIVANT       ct-ipc.com
+  [199/202] num 335  note 100 VIVANT       de-pierre.fr
+  [200/202] num 336  note 100 VIVANT       decobaie.com
+  [201/202] num 337  note  87 VIVANT       decolletage-usinage.fr
+  [202/202] num 338  note 100 VIVANT       decoupacier.com
+
+=== BILAN ===
+Sites sondes: 338 en 1213 s
+Note < 60/100 (dossier urgent): 46
+Morts / injoignables: 10
+Bloques (robot refuse, non audites): 10
+Pirates: 1
+-> C:\Users\ulamb\Bureau\prospection\github-campagne\constats_sites.json
+A sonder: 12 (deja faits: 338)
+  [1/12] num 339  note  86 VIVANT       cabinetvision.fr
+  [2/12] num 340  note 100 VIVANT       dema-france.com
+  [3/12] num 341  note  95 VIVANT       dpsa-securite.fr
+  [4/12] num 342  note  95 VIVANT       dsdrenov.com
+  [5/12] num 343  note  77 VIVANT       ecovantaro.com
+  [6/12] num 344  note  92 VIVANT       effy.fr
+  [7/12] num 345  note  79 VIVANT       eltf.fr
+  [8/12] num 346  note  80 VIVANT       entoutesecurite.fr
+  [9/12] num 347  note  92 VIVANT       esg1securite.fr
+  [10/12] num 348  BLOQUE etude-bet.fr (robot bloque, rien d'affirme)
+  [11/12] num 349  note  95 VIVANT       expert-comptable-en-ligne.fr
+  [12/12] num 350  note  89 VIVANT       fermetalu.com
+
+=== BILAN ===
+Sites sondes: 350 en 67 s
+Note < 60/100 (dossier urgent): 46
+Morts / injoignables: 10
+Bloques (robot refuse, non audites): 11
+Pirates: 1
+-> C:\Users\ulamb\Bureau\prospection\github-campagne\constats_sites.json
+A sonder: 4 (deja faits: 350)
+  [1/4] num 351  note  69 VIVANT       anjoudecolletage.com
+  [2/4] num 352  note  86 VIVANT       aopb.fr
+  [3/4] num 353  note  58 VIVANT       cmn-industrie.com
+  [4/4] num 354  note  84 VIVANT       estusinage.fr
+
+=== BILAN ===
+Sites sondes: 354 en 35 s
+Note < 60/100 (dossier urgent): 47
+Morts / injoignables: 10
+Bloques (robot refuse, non audites): 11
+Pirates: 1
+-> C:\Users\ulamb\Bureau\prospection\github-campagne\constats_sites.json
+A sonder: 13 (deja faits: 354)
+  [1/13] num 355  note  94 VIVANT       ampifrance.com
+  [2/13] num 356  note  85 VIVANT       apld-avocat.fr
+  [3/13] num 357  note 100 VIVANT       behm.fr
+  [4/13] num 358  note 100 VIVANT       corbel-jannin.fr
+  [5/13] num 359  note  94 VIVANT       cvim.fr
+  [6/13] num 360  note  89 VIVANT       figitalexpertise.fr
+  [7/13] num 361  note  78 VIVANT       fizexpert.fr
+  [8/13] num 362  note  92 VIVANT       forgeavia.fr
+  [9/13] num 363  note  85 VIVANT       fr.shprecisionshaft.com
+  [10/13] num 364  note 100 VIVANT       fraisepers.fr
+  [11/13] num 365  note  86 VIVANT       france-c.fr
+  [12/13] num 366  note  80 VIVANT       francemetal.com
+  [13/13] num 367  note 100 VIVANT       fry-etudes.fr
+
+=== BILAN ===
+Sites sondes: 367 en 98 s
+Note < 60/100 (dossier urgent): 47
+Morts / injoignables: 10
+Bloques (robot refuse, non audites): 11
+Pirates: 1
+-> C:\Users\ulamb\Bureau\prospection\github-campagne\constats_sites.json
+A sonder: 46 (deja faits: 367)
+  [1/46] num 368  note  62 VIVANT       evolutrans.fr
+  [2/46] num 369  note  81 VIVANT       garage-gauyat.fr
+  [3/46] num 370  note 100 VIVANT       garagedestroismonts.fr
+  [4/46] num 371  note  80 VIVANT       garagelibert.fr
+  [5/46] num 372  note 100 VIVANT       garagepasteur.fr
+  [6/46] num 373  note  95 VIVANT       gardiennageparis.fr
+  [7/46] num 374  note  80 VIVANT       gelygroup.fr
+  [8/46] num 375  note  89 VIVANT       geobiomics.fr
+  [9/46] num 376  note  92 VIVANT       geofoncier.fr
+  [10/46] num 377  note  92 VIVANT       geometre-cdb.com
+  [11/46] num 378  note 100 VIVANT       geometre-paris.fr
+  [12/46] num 379  note  85 VIVANT       geometre.fr
+  [13/46] num 380  note  86 VIVANT       geometre.net
+  [14/46] num 381  note  87 VIVANT       georgeault.fr
+  [15/46] num 382  note  51 VIVANT       gfavreau.fr
+  [16/46] num 383  note 100 VIVANT       ghp.fr
+  [17/46] num 384  note  94 VIVANT       giffardmanutention.fr
+  [18/46] num 385  BLOQUE gise-securite.fr (robot bloque, rien d'affirme)
+  [19/46] num 386  note  95 VIVANT       glory-injectionplastique.com
+  [20/46] num 387  note 100 VIVANT       gmetallier.fr
+  [21/46] num 388  note  90 VIVANT       gmi-robinetterie.com
+  [22/46] num 389  note  94 VIVANT       gmld.fr
+  [23/46] num 390  note  84 VIVANT       groupe-ecomedia.com
+  [24/46] num 391  note 100 VIVANT       groupe-pfister.com
+  [25/46] num 392  note  89 VIVANT       groupe-rouger.com
+  [26/46] num 393  note  89 VIVANT       groupe-thermi-lyon.com
+  [27/46] num 394  note  94 VIVANT       groupe-tma.com
+  [28/46] num 395  note  89 VIVANT       groupeidec.com
+  [29/46] num 396  note  72 VIVANT       gt-hydraulique.fr
+  [30/46] num 397  note  95 VIVANT       guardianfrance.com
+  [31/46] num 398  note   0 MORT         guedo-outillage.fr
+  [32/46] num 399  note  94 VIVANT       guillaumie.com
+  [33/46] num 400  note  95 VIVANT       guy-hoquet.com
+  [34/46] num 401  note 100 VIVANT       hacer.fr
+  [35/46] num 402  note 100 VIVANT       hannecard.com
+  [36/46] num 403  note 100 VIVANT       hashtagavocats.com
+  [37/46] num 404  note  89 VIVANT       hatty.fr
+  [38/46] num 405  note  92 VIVANT       helixexpertise.com
+  [39/46] num 406  note 100 VIVANT       herouard.com
+  [40/46] num 407  note  95 VIVANT       hfmetal.fr
+  [41/46] num 408  note  70 VIVANT       hmc-metal.fr
+  [42/46] num 409  note  74 VIVANT       hmdprecision.com
+  [43/46] num 410  note 100 VIVANT       hosmoz.fr
+  [44/46] num 411  note 100 VIVANT       hybster.com
+  [45/46] num 412  note  92 VIVANT       hydralogie.com
+  [46/46] num 413  note  92 VIVANT       hynecofrance.com
+
+=== BILAN ===
+Sites sondes: 413 en 235 s
+Note < 60/100 (dossier urgent): 49
+Morts / injoignables: 11
+Bloques (robot refuse, non audites): 12
+Pirates: 1
+-> C:\Users\ulamb\Bureau\prospection\github-campagne\constats_sites.json
+A sonder: 26 (deja faits: 413)
+  [1/26] num 414  note  94 VIVANT       89art.fr
+  [2/26] num 415  note  86 VIVANT       actor.fr
+  [3/26] num 416  note 100 VIVANT       bethpc.fr
+  [4/26] num 417  note  82 VIVANT       elige-avocats.com
+  [5/26] num 418  note 100 VIVANT       ifd-outillage.fr
+  [6/26] num 419  note  95 VIVANT       inextenso.fr
+  [7/26] num 420  note  92 VIVANT       ira.eu
+  [8/26] num 421  note 100 VIVANT       iria-avocat.fr
+  [9/26] num 422  note 100 VIVANT       irt-m2p.fr
+  [10/26] num 423  note  65 VIVANT       isocalori.fr
+  [11/26] num 424  note 100 VIVANT       item-conseil.fr
+  [12/26] num 425  note 100 VIVANT       ito-calorifuge.com
+  [13/26] num 426  note  95 VIVANT       jaberson.fr
+  [14/26] num 427  note 100 VIVANT       jacnet.fr
+  [15/26] num 428  note  92 VIVANT       jcp-pmdp.fr
+  [16/26] num 429  note  74 VIVANT       jpoutillage.fr
+  [17/26] num 430  note  95 VIVANT       junot.fr
+  [18/26] num 431  note 100 VIVANT       justifit.fr
+  [19/26] num 432  note  80 VIVANT       kaecia.fr
+  [20/26] num 433  note  95 VIVANT       kapeci-acier.fr
+  [21/26] num 434  note  85 VIVANT       khadiri.com
+  [22/26] num 435  note 100 VIVANT       klingroupe.fr
+  [23/26] num 436  note 100 VIVANT       l-expert-comptable.com
+  [24/26] num 437  note 100 VIVANT       labaliseavocat.fr
+  [25/26] num 438  note  64 VIVANT       laboratoires-aci.com
+  [26/26] num 439  note 100 VIVANT       laforet.com
+
+=== BILAN ===
+Sites sondes: 439 en 111 s
+Note < 60/100 (dossier urgent): 49
+Morts / injoignables: 11
+Bloques (robot refuse, non audites): 12
+Pirates: 1
+-> C:\Users\ulamb\Bureau\prospection\github-campagne\constats_sites.json

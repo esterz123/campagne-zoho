@@ -38,7 +38,15 @@ def clean(t):
 def main():
     data = json.load(open(DATA, encoding="utf-8"))
     fixes = 0
+    sent = set()
+    try:
+        st = json.load(open(os.path.join(BASE, "campagne_state.json"), encoding="utf-8"))
+        sent = set(st.get("sent", {}).keys())
+    except Exception:
+        pass  # etat absent : tout est traitable (comportement historique)
     for r in data:
+        if str(r.get("num")) in sent:
+            continue  # envoyes INTOUCHABLES
         body = r.get("body", "")
         if not re.search(r"J'ai (ouvert|tape|audite)", body):
             continue  # pas un mail a preuve
@@ -53,9 +61,11 @@ def main():
         # dedoublonnage CTA : le nouveau paragraphe contient deja "Repondez oui".
         # On retire l'ancien CTA de fin + les queues orphelines devenues redondantes.
         new = re.sub(r"\s*C'est gratuit, sans engagement\.\s*", " ", new)
-        new = re.sub(r"R[ée]pond[ée]z simplement [\"\u00ab]oui[\"\u00bb] [àa] ce mail et je vous envoie mes constats sous 48h\.?\s*",
+        new = re.sub(r"R[ée]pond[ée]z simplement [\"\u00ab]oui[\"\u00bb][\s,]*(?:[àa] ce mail)?[, ]*(?:et )?je vous envoie mes constats sous 48\s*(?:heures|h)\b\.?\s*",
                      "", new)
-        new = re.sub(r"R[ée]pond[ée]z [\"\u00ab]oui[\"\u00bb] et je vous l'envoie sous 48h\.?\s*", "", new)
+        new = re.sub(r"R[ée]pond[ée]z [\"\u00ab]oui[\"\u00bb] et je vous l'envoie sous 48\s*(?:heures|h)\b\.?\s*", "", new)
+        # orphelins de passes anterieures (regex h|heures partiellement matchee) : " eures" residuel
+        new = re.sub(r" ?eures(?=[\s,\n]|$)", "", new)
         new = re.sub(r"[ \t]{2,}", " ", new)
         new = re.sub(r"(\.?\s*)Cordialement,", "\n\nCordialement,", new)
         new = re.sub(r"\n{3,}", "\n\n", new)
