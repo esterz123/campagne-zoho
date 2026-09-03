@@ -59,11 +59,11 @@
   "prospect": "6 — Brugière (EURL outillage, Peschadoires, 63)",
   "to": "direction@brugiere-outillage.com",
   "cc": "info@brugiere-outillage.com",
-  "subject": "brugiere-outillage.com : +58% de CA en 2023, mais votre site n'a pas suivi",
-  "body": "Bonjour,\n\nJ'ai ouvert brugiere-outillage.com a l'instant. Le point qui me saute aux yeux : 12 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "brugiere-outillage.com : vos outillages sont invisibles dans Google Images, je viens de verifier",
+  "body": "Bonjour,\n\nJ'ai ouvert brugiere-outillage.com a l'instant. Voici ce qui m'a saute aux yeux : 12 images sur 14 sans texte alternatif : vos outillages de presse et vos outils a suivre, votre meilleur argument visuel, sont invisibles dans Google Images, alors qu'un donneur d'ordres qui cherche « outil a suivre Auvergne » tombe chez vos concurrents ; votre certificat ISO 9001:2015, argument numero un de confiance chez un donneur d'ordres, est une photo sans texte alternatif : Google ne sait pas que vous etes certifie ; et votre sitemap.xml redirige en boucle au lieu d'etre servi directement : Google met des semaines a decouvrir vos pages tout seul.\n\nVotre description le dit : createur d'outillages de precision depuis 1991 en Auvergne-Rhone-Alpes. C'est exactement ce que cherchent les donneurs d'ordres, mais votre site ne leur montre pas vos pieces.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "to_confirmed": true,
   "site": "https://brugiere-outillage.com",
-  "note": "ligne1-v2 0902"
+  "note": "ligne1-v2 0902 | MAJ 0903 corps recrit et objet remplace (backup campagne_data.json.bak-0903-brugiere). Verifie en live 03/09: HTTP 200, 12/14 img alt vide (confirme), ISO 9001 en alt vide, sitemap.xml 301 vers sitemap_index.xml, viewport OK, meta description OK, H1 present (1). Ancien objet '+58% de CA en 2023' supprime: chiffre non verifiable dans le dossier, jamais mentionne dans le corps."
  },
  {
   "num": 7,
