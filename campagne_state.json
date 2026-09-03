@@ -1186,18 +1186,20 @@
   "276": {
    "on": "2026-08-31",
    "messageId": "1788186154114138400",
-   "via": "commercial",
+   "via": "direction",
    "status_code": 200,
    "to": "contact@eps-peinture.fr",
-   "body": "<p>Bonjour M. PAIN,</p>\n<p>J'ai ouvert eps-peinture.fr a l'instant. Deux choses me sautent aux yeux : le domaine affiche une page de parking, pas votre entreprise, et le site met 3.3 s a s'afficher, la moitie des visiteurs partent avant.</p>\n<p>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/276.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+   "body": "<p>Bonjour M. PAIN,</p>\n<p>J'ai ouvert eps-peinture.fr a l'instant. Deux choses me sautent aux yeux : le domaine affiche une page de parking, pas votre entreprise, et le site met 3.3 s a s'afficher, la moitie des visiteurs partent avant.</p>\n<p>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/276.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com",
+   "sent_relance1": "2026-09-03"
   },
   "178": {
    "on": "2026-08-31",
    "messageId": "1788186336403155300",
-   "via": "hello",
+   "via": "info",
    "status_code": 200,
    "to": "contact@sagaertplastique.com",
-   "body": "<p>Bonjour,<br>J'ai ouvert sagaertplastique.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et le site met 3.4 s a s'afficher, la moitie des visiteurs partent avant.<br>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie. Répondez simplement \"oui\" à ce mail et je vous envoie mes constats sous 48 heures</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/178.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+   "body": "<p>Bonjour,<br>J'ai ouvert sagaertplastique.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et le site met 3.4 s a s'afficher, la moitie des visiteurs partent avant.<br>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie. Répondez simplement \"oui\" à ce mail et je vous envoie mes constats sous 48 heures</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/178.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com",
+   "sent_relance1": "2026-09-03"
   },
   "129": {
    "on": "2026-08-31",
@@ -1488,6 +1490,22 @@
    "status_code": 200,
    "to": "sergio.luzia@aluthea.com",
    "body": "<p>Bonjour Sergio,</p>\n<p>J'ai ouvert aluthea.com a l'instant. Deux choses me sautent aux yeux : le site met 3.8 s a s'afficher, la moitie des visiteurs partent avant, et pas de description : votre resultat Google affiche du texte bricolé.<br>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/132.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "438": {
+   "on": "2026-09-03",
+   "messageId": "1788435664969155000",
+   "via": "contact",
+   "status_code": 200,
+   "to": "contact@laboratoires-aci.com",
+   "body": "<p>Bonjour Mme BOGOSSIAN,</p>\n<p>J'ai ouvert laboratoires-aci.com a l'instant. Deux choses me sautent aux yeux : une seule page : Google n'a rien a indexer sur vos metiers, et pas de description : votre resultat Google affiche du texte bricolé.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/438.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "423": {
+   "on": "2026-09-03",
+   "messageId": "1788435846923155000",
+   "via": "commercial",
+   "status_code": 200,
+   "to": "contact@isocalori.fr",
+   "body": "<p>Bonjour,</p>\n<p>J'ai ouvert isocalori.fr a l'instant. Deux choses me sautent aux yeux : certificat HTTPS invalide : le navigateur bloque la premiere visite, et une seule page : Google n'a rien a indexer sur vos metiers.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/423.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   }
  },
  "done_notified": false
