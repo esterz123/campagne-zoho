@@ -1,38 +1,6 @@
 {
  "cycles": [
   {
-   "date": "2026-09-01T02:39:32.225259",
-   "mesure": {
-    "date": "2026-09-01T02:39:32.225259",
-    "prospects_total": 354,
-    "file_restante": 156,
-    "envoyes": 198,
-    "replies": 1,
-    "taux_reponse_pct": 0.51,
-    "argent_reel_eur": 0,
-    "closing_faits": 1
-   },
-   "diagnostic": "panier_cash",
-   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
-   "resultat": "closer dispatche (rapports prets a servir)"
-  },
-  {
-   "date": "2026-09-01T04:27:20.526258",
-   "mesure": {
-    "date": "2026-09-01T04:27:20.526258",
-    "prospects_total": 354,
-    "file_restante": 156,
-    "envoyes": 198,
-    "replies": 1,
-    "taux_reponse_pct": 0.51,
-    "argent_reel_eur": 0,
-    "closing_faits": 1
-   },
-   "diagnostic": "panier_cash",
-   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
-   "resultat": "closer dispatche (rapports prets a servir)"
-  },
-  {
    "date": "2026-09-01T06:27:31.490935",
    "mesure": {
     "date": "2026-09-01T06:27:31.490935",
@@ -473,6 +441,38 @@
     "envoyes": 230,
     "replies": 1,
     "taux_reponse_pct": 0.43,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-03T18:34:08.741181",
+   "mesure": {
+    "date": "2026-09-03T18:34:08.741181",
+    "prospects_total": 439,
+    "file_restante": 207,
+    "envoyes": 233,
+    "replies": 1,
+    "taux_reponse_pct": 0.43,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-03T20:34:21.612546",
+   "mesure": {
+    "date": "2026-09-03T20:34:21.612546",
+    "prospects_total": 439,
+    "file_restante": 204,
+    "envoyes": 236,
+    "replies": 1,
+    "taux_reponse_pct": 0.42,
     "argent_reel_eur": 0,
     "closing_faits": 1
    },

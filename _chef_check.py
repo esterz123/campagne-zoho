@@ -1,35 +1,29 @@
-import json, datetime, os
-os.chdir(r"C:\Users\ulamb\Bureau\prospection\github-campagne")
-today = datetime.date.today().isoformat()
+import json, datetime
+from collections import Counter
 
-notes = json.load(open('constats_sites.json'))
-data = json.load(open('campagne_data.json'))
-st = json.load(open('campagne_state.json'))
+st = json.load(open('campagne_state.json', encoding='utf-8'))
 sent = st.get('sent', {})
-nonenv = [d for d in data if str(d.get('num')) not in sent]
-sans_preuve = [d for d in nonenv if str(d.get('num')) not in notes]
-print('non envoyes:', len(nonenv), '| sans preuve constat:', len(sans_preuve))
-if nonenv:
-    nnums = sorted(int(str(d.get('num'))) for d in nonenv)
-    print('num range non-envoyes:', nnums[0], '-', nnums[-1])
+d = json.load(open('campagne_data.json', encoding='utf-8'))
+nums_sent = set(str(k) for k in sent)
+print('fiches:', len(d), '| envoyes:', len(nums_sent), '| restants:', len([r for r in d if str(r.get('num')) not in nums_sent]))
 
-try:
-    fu = json.load(open('followups.json'))
-    items = fu if isinstance(fu, list) else fu.get('relances', fu.get('items', []))
-    print('relances followups:', len(items))
-except Exception as e:
-    print('ERR fu', e)
+vals = [v for v in sent.values() if isinstance(v, dict)]
+dates = Counter(str(v.get('date', ''))[:10] for v in vals)
+for dt in sorted(dates)[-5:]:
+    print('  envois', dt, '->', dates[dt])
 
-try:
-    db = json.load(open('domaines_bloques.json'))
-    n = len(db) if isinstance(db, (list, dict)) else 0
-    print('domaines bloques:', n)
-except Exception as e:
-    print('pas de domaines_bloques:', e)
+auj = [k for k, v in sent.items() if isinstance(v, dict) and str(v.get('date', '')).startswith('2026-09-03')]
+print('envois 03/09:', len(auj), auj[:12])
 
-# relances dues aujourd'hui ?
-try:
-    rel = json.load(open('relances_conges.json'))
-    print('relances conges:', len(rel) if isinstance(rel, list) else rel)
-except Exception as e:
-    print('pas de relances_conges:', e)
+now = datetime.date(2026, 9, 3)
+due = []
+for k, v in sent.items():
+    if isinstance(v, dict):
+        try:
+            d0 = datetime.date.fromisoformat(str(v.get('date', ''))[:10])
+        except ValueError:
+            continue
+        j = (now - d0).days
+        if j in (3, 7, 14):
+            due.append((k, j))
+print('relances dues (J+3/7/14):', len(due), sorted(due)[:15])
