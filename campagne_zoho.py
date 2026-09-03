@@ -268,6 +268,8 @@ def envoi_go2(dry=False):
          "Relance 3 breakup envoyee le 31/08 (site renvoie vers annuaire)"),
         ("44", "go2_fpsa", "fd@fonderies-dechaumont.com", "go2_urgence_fpsa",
          "Urgence pirate: liens xena-casino.gr verifies 31/08 03h30, intervention 150 EUR"),
+        ("63", "go2_gaultier", "a.gaultier@free.fr", "go2_gaultier",
+         "GO nomme 'envoie Gaultier' (02/09) : collab reseau, adresse perso hors file"),
     ]
     state = load_state()
     sent = state.setdefault("sent", {})
