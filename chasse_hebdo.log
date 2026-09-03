@@ -260,3 +260,50 @@ START ERR: {
   + 378 geometre-paris.fr score 88
   + 379 geometre.fr score 100
 PAGES GENEREES: 25 | manifest: 361
+[2026-09-03 09:59:40] === CHASSE HEBDOMADAIRE ===
+[2026-09-03 09:59:40] Phase 0 - recolle systematique (60 niches Exa, dedup auto)
+[2026-09-03 10:00:57] candidats recoltes: 1052 -> 1079 (+27)
+[2026-09-03 10:00:57] Phase 1 - exa_bulk (collecte + extraction)
+[2026-09-03 10:01:06] sites candidats: 494
+== BULK LEADS: 0 -> /home/runner/work/campagne-zoho/campagne-zoho/_hebdo_exa.json
+[2026-09-03 10:01:06] Phase 2 - extract_seq (chunk dynamique 700)
+[2026-09-03 10:36:06] TIMEOUT extract_seq.py apres 2100s (chunk trop gros ou site lent)
+[2026-09-03 10:36:07] Phase 2ter err: name 'io' is not defined
+[2026-09-03 10:36:07] Phase 3 - Apify contact-info-scraper (emails JS)
+[2026-09-03 10:36:07] 
+URLs a traiter: 855
+START ERR: {
+  "error": {
+    "type": "not-enough-usage-to-run-paid-actor",
+    "message": "By launching this job you will exceed your remaining usage of $0.193544.  Consider upgrading to a paid plan at https://console.apify.com/billing/subscription"
+  }
+}
+
+[2026-09-03 10:36:07]   integre 0 depuis _exa_bulk_leads.json
+[2026-09-03 10:36:07] === CHASSE TERMINEE : +26 puis +0 prospects ===
+[2026-09-03 10:36:59] + 414 89art.fr score 82
+  + 415 actor.fr score 92
+  + 416 bethpc.fr score 100
+  + 417 elige-avocats.com score 70
+  + 418 ifd-outillage.fr score 100
+  + 419 inextenso.fr score 92
+  + 420 ira.eu score 100
+  + 421 iria-avocat.fr score 92
+  + 422 irt-m2p.fr score 100
+  + 423 isocalori.fr score 92
+  + 424 item-conseil.fr score 100
+  + 425 ito-calorifuge.com score 80
+  + 426 jaberson.fr score 92
+  + 427 jacnet.fr score 88
+  + 428 jcp-pmdp.fr score 80
+  + 429 jpoutillage.fr score 88
+  + 430 junot.fr score 90
+  + 431 justifit.fr score 100
+  + 432 kaecia.fr score 100
+  + 433 kapeci-acier.fr score 100
+  + 434 khadiri.com score 82
+  + 435 klingroupe.fr score 100
+  + 436 l-expert-comptable.com score 90
+  + 437 labaliseavocat.fr score 100
+  + 438 laboratoires-aci.com score 100
+PAGES GENEREES: 25 | manifest: 418
