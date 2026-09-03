@@ -8158,5 +8158,21 @@
   "siren": "415384601",
   "tranche": "02",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EXPERTISE COMPTABLE DES MONTS D'OR (E.C.M.O.)",
+  "ville": "SAINT-DIDIER-AU-MONT-D'OR",
+  "naf": "69.20Z",
+  "siren": "492136734",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "AUDIT REVISION EXPERTISE COMPTABLE (AUREC)",
+  "ville": "AIX-EN-PROVENCE",
+  "naf": "69.20Z",
+  "siren": "388911653",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
  }
 ]
