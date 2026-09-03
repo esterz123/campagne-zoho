@@ -402,6 +402,8 @@ def main():
             continue  # le prospect a repondu : conversation en cours, pas de relance
         if v.get("bounce"):
             continue  # bounce verifie : adresse morte, relancer = gaz par la fenetre + burn delivrabilite
+        if num not in emails:
+            continue  # fiche exclue des donnees (ex: SIMI) : pas de relance possible
         if emails[num].get("to", "").strip().lower() in conges_to:
             continue  # relance dediee programmee (retour de conges) : pas de relance auto
         days = (datetime.date.today() - datetime.date.fromisoformat(v["on"])).days
