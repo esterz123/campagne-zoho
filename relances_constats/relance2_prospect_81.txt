@@ -6,7 +6,7 @@ C'est ma dernière prise de contact au sujet de votre site. Concrètement : Votr
 
 Je voulais vous laisser un résumé des observations que j'ai relevées, pour que vous puissiez en faire ce que vous voulez, même si nous ne travaillons jamais ensemble :
 
-• J'ai tape baxter-injection.com dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.
+• J'ai tape baxter-injection.com dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant
 • Un point vérifiable sur votre site en 2 minutes par votre équipe.
 
 Si l'un de ces points vous préoccupe, mon diagnostic gratuit reste disponible (48h pour le recevoir, vous le gardez, sans engagement). Une simple réponse suffit.
