@@ -1,0 +1,54 @@
+Restants: 204 | deja filtres: 0 | a verifier: 204
+checkpoint 20/204 (17s)
+checkpoint 40/204 (32s)
+checkpoint 60/204 (42s)
+checkpoint 80/204 (54s)
+checkpoint 100/204 (69s)
+checkpoint 120/204 (82s)
+checkpoint 140/204 (95s)
+checkpoint 160/204 (106s)
+checkpoint 180/204 (115s)
+checkpoint 200/204 (122s)
+SYNTHESE TOTALE: {'ok': 70, 'bloque': 45, 'morte': 87, 'hold_rgpd': 2}
+MORTES (87):
+  114 mathilde.cartaux@elcam-usinage.fr
+  131 cts@cts-france.com
+  136 smt@smt.fr
+  139 contact@mojonmetallerie.fr
+  142 spi@spindustrie.com
+  146 contact@silex-corp.com
+  154 contact@boutte.fr
+  163 contact@eddb-batiment.fr
+  164 contact@bellay-electricite.fr
+  167 contact@edeneagencement.fr
+  180 jeantet@jeantet.com
+  181 contact@traitementdesurface.fr
+  183 contact@surfasfrance.com
+  195 administration@fonderie-ortel.com
+  205 contact@mecadecouptol12.fr
+  219 tsi@tsi-france.fr
+  223 info@alu.fr
+  227 contact@bearncouverture.fr
+  233 contact@civm-chaudronnerie.fr
+  241 contact@fromeca.fr
+  247 info@benoit-plastique.com
+  252 courrier@briandconstruction.fr
+  258 contact@carrosserie-francis.fr
+  261 cinox@cinox.fr
+  271 contact@dgm-industrie.fr
+  273 info@electronic-marine.fr
+  280 contact@etscolombie.fr
+  286 delwaullefrederic@3d-industrie.fr
+  295 contact@aforgedefer.com
+  297 commerce@ageneau.fr
+  304 bonjour@artisanvaa.fr
+  309 contact@bba-securite-france.fr
+  314 contact@bureau-detude-structure.fr
+  315 contact@bureau-etude-thermique-bet.fr
+  319 contact@cabinetexpertcomptable.fr
+  337 contact@decolletage-usinage.fr
+  338 decoupacier@decoupacier.com
+  339 info@cabinetvision.fr
+  343 contact@ecovantaro.com
+  347 serviceclient@esg1securite.fr
+EXIT=0

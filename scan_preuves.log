@@ -489,3 +489,32 @@ Morts / injoignables: 11
 Bloques (robot refuse, non audites): 12
 Pirates: 1
 -> C:\Users\ulamb\Bureau\prospection\github-campagne\constats_sites.json
+A sonder: 20 (deja faits: 439)
+  [1/20] num 440  note  94 VIVANT       atlantic-tolerie.fr
+  [2/20] num 441  note  85 VIVANT       bourdoncle.com
+  [3/20] num 442  note  94 VIVANT       clairecimmobilier.com
+  [4/20] num 443  note 100 VIVANT       eol.fr
+  [5/20] num 444  note  95 VIVANT       fdusinage.fr
+  [6/20] num 445  note 100 VIVANT       floody.fr
+  [7/20] num 446  note  79 VIVANT       formatype.com
+  [8/20] num 447  note 100 VIVANT       garage-kda.fr
+  [9/20] num 448  note  74 VIVANT       index-group.com
+  [10/20] num 449  note  92 VIVANT       lametalleriefrancaise.fr
+  [11/20] num 450  note 100 VIVANT       lartdumetal.fr
+  [12/20] num 451  note 100 VIVANT       lasermetaldesign.fr
+  [13/20] num 452  note 100 VIVANT       lasersocmel.fr
+  [14/20] num 453  note 100 VIVANT       latelierdulaser.fr
+  [15/20] num 454  note  95 VIVANT       latribune.fr
+  [16/20] num 455  note  85 VIVANT       lejournaltoulousain.fr
+  [17/20] num 456  note  72 VIVANT       leleusas.com
+  [18/20] num 457  note   0 MORT         leray-industrie.com
+  [19/20] num 458  note  94 VIVANT       les-toliers.fr
+  [20/20] num 459  note  95 VIVANT       levagemanutention.com
+
+=== BILAN ===
+Sites sondes: 459 en 89 s
+Note < 60/100 (dossier urgent): 50
+Morts / injoignables: 12
+Bloques (robot refuse, non audites): 12
+Pirates: 1
+-> C:\Users\ulamb\Bureau\prospection\github-campagne\constats_sites.json

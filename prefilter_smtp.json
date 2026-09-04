@@ -1,0 +1,1020 @@
+{
+ "119": {
+  "verdict": "ok",
+  "email": "contact@aupg.fr",
+  "detail": "RCPT code 250"
+ },
+ "108": {
+  "verdict": "bloque",
+  "email": "valerie.bleuze@artoisplastiques.fr",
+  "detail": "serveur bloque/injoignable (SMTPServerDisconnected)"
+ },
+ "125": {
+  "verdict": "ok",
+  "email": "contact@chaudronnerie-du-cordeau.com",
+  "detail": "RCPT code 250"
+ },
+ "121": {
+  "verdict": "ok",
+  "email": "contact@acs-chaudronnerie.com",
+  "detail": "RCPT code 250"
+ },
+ "104": {
+  "verdict": "bloque",
+  "email": "sebastien.drault@drault-decolletage.com",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "131": {
+  "verdict": "morte",
+  "email": "cts@cts-france.com",
+  "detail": "RCPT code 450"
+ },
+ "109": {
+  "verdict": "bloque",
+  "email": "fabrice.delamarre@atelierphysis.fr",
+  "detail": "serveur bloque/injoignable (SMTPServerDisconnected)"
+ },
+ "140": {
+  "verdict": "bloque",
+  "email": "chaudronnerie.bauloise@chaudronnerie-bauloise.com",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "115": {
+  "verdict": "bloque",
+  "email": "patrick.baci@fonderiesdelarians.fr",
+  "detail": "serveur bloque/injoignable (SMTPServerDisconnected)"
+ },
+ "118": {
+  "verdict": "bloque",
+  "email": "contact@nplast-usinage.fr",
+  "detail": "serveur bloque/injoignable (TimeoutError)"
+ },
+ "148": {
+  "verdict": "ok",
+  "email": "contact@weber-tolerie.fr",
+  "detail": "RCPT code 250"
+ },
+ "114": {
+  "verdict": "morte",
+  "email": "mathilde.cartaux@elcam-usinage.fr",
+  "detail": "RCPT code 450"
+ },
+ "112": {
+  "verdict": "bloque",
+  "email": "joffrey.reu@decolletage-de-reu.com",
+  "detail": "serveur bloque/injoignable (gaierror)"
+ },
+ "146": {
+  "verdict": "morte",
+  "email": "contact@silex-corp.com",
+  "detail": "RCPT code 550"
+ },
+ "136": {
+  "verdict": "morte",
+  "email": "smt@smt.fr",
+  "detail": "RCPT code 450"
+ },
+ "153": {
+  "verdict": "ok",
+  "email": "contact@grem.fr",
+  "detail": "RCPT code 250"
+ },
+ "154": {
+  "verdict": "morte",
+  "email": "contact@boutte.fr",
+  "detail": "RCPT code 554"
+ },
+ "155": {
+  "verdict": "ok",
+  "email": "timothee.veille@menuiserie-veille.fr",
+  "detail": "RCPT code 250"
+ },
+ "163": {
+  "verdict": "morte",
+  "email": "contact@eddb-batiment.fr",
+  "detail": "RCPT code 554"
+ },
+ "164": {
+  "verdict": "morte",
+  "email": "contact@bellay-electricite.fr",
+  "detail": "RCPT code 450"
+ },
+ "139": {
+  "verdict": "morte",
+  "email": "contact@mojonmetallerie.fr",
+  "detail": "RCPT code 450"
+ },
+ "172": {
+  "verdict": "ok",
+  "email": "info@injectionplastic.com",
+  "detail": "RCPT code 250"
+ },
+ "174": {
+  "verdict": "bloque",
+  "email": "contact@emboutimetal.com",
+  "detail": "serveur bloque/injoignable (gaierror)"
+ },
+ "173": {
+  "verdict": "ok",
+  "email": "uma@uma02.fr",
+  "detail": "RCPT code 250"
+ },
+ "179": {
+  "verdict": "ok",
+  "email": "contact@roanne-fonderie.fr",
+  "detail": "RCPT code 250"
+ },
+ "142": {
+  "verdict": "morte",
+  "email": "spi@spindustrie.com",
+  "detail": "RCPT code 450"
+ },
+ "177": {
+  "verdict": "ok",
+  "email": "ets.besse@louisbesse.com",
+  "detail": "RCPT code 250"
+ },
+ "180": {
+  "verdict": "morte",
+  "email": "jeantet@jeantet.com",
+  "detail": "RCPT code 450"
+ },
+ "167": {
+  "verdict": "morte",
+  "email": "contact@edeneagencement.fr",
+  "detail": "RCPT code 450"
+ },
+ "189": {
+  "verdict": "bloque",
+  "email": "contact@asjb.fr",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "157": {
+  "verdict": "bloque",
+  "email": "contact@neothermie.com",
+  "detail": "serveur bloque/injoignable (SMTPServerDisconnected)"
+ },
+ "192": {
+  "verdict": "ok",
+  "email": "contact@durandpc.fr",
+  "detail": "RCPT code 250"
+ },
+ "186": {
+  "verdict": "ok",
+  "email": "narac@narac.fr",
+  "detail": "RCPT code 250"
+ },
+ "169": {
+  "verdict": "bloque",
+  "email": "dmi@dmi-dury.com",
+  "detail": "serveur bloque/injoignable (TimeoutError)"
+ },
+ "184": {
+  "verdict": "bloque",
+  "email": "contact@maintenance-industrielle.com",
+  "detail": "serveur bloque/injoignable (TimeoutError)"
+ },
+ "181": {
+  "verdict": "morte",
+  "email": "contact@traitementdesurface.fr",
+  "detail": "RCPT code 450"
+ },
+ "200": {
+  "verdict": "bloque",
+  "email": "contact@latelierfrance.fr",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "203": {
+  "verdict": "ok",
+  "email": "contact@lesartisanspros.fr",
+  "detail": "RCPT code 250"
+ },
+ "183": {
+  "verdict": "morte",
+  "email": "contact@surfasfrance.com",
+  "detail": "RCPT code 450"
+ },
+ "204": {
+  "verdict": "ok",
+  "email": "accueil@lr-metallerie.fr",
+  "detail": "RCPT code 250"
+ },
+ "195": {
+  "verdict": "morte",
+  "email": "administration@fonderie-ortel.com",
+  "detail": "RCPT code 450"
+ },
+ "207": {
+  "verdict": "ok",
+  "email": "accueil@oureval.fr",
+  "detail": "RCPT code 250"
+ },
+ "209": {
+  "verdict": "ok",
+  "email": "contact@polyvia.fr",
+  "detail": "RCPT code 250"
+ },
+ "198": {
+  "verdict": "ok",
+  "email": "contact@kuchly-sa.fr",
+  "detail": "RCPT code 250"
+ },
+ "197": {
+  "verdict": "bloque",
+  "email": "contact@france-menuisiers.fr",
+  "detail": "serveur bloque/injoignable (TimeoutError)"
+ },
+ "212": {
+  "verdict": "bloque",
+  "email": "contact@rcma-maconnerie.fr",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "218": {
+  "verdict": "bloque",
+  "email": "contact@tcstolerie.fr",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "213": {
+  "verdict": "ok",
+  "email": "contact@reffay-sas.fr",
+  "detail": "RCPT code 250"
+ },
+ "222": {
+  "verdict": "ok",
+  "email": "contact@ag-plomberie.com",
+  "detail": "RCPT code 250"
+ },
+ "219": {
+  "verdict": "morte",
+  "email": "tsi@tsi-france.fr",
+  "detail": "RCPT code 550"
+ },
+ "221": {
+  "verdict": "ok",
+  "email": "info@abfonderie.fr",
+  "detail": "RCPT code 250"
+ },
+ "205": {
+  "verdict": "morte",
+  "email": "contact@mecadecouptol12.fr",
+  "detail": "RCPT code 554"
+ },
+ "227": {
+  "verdict": "morte",
+  "email": "contact@bearncouverture.fr",
+  "detail": "RCPT code 503"
+ },
+ "235": {
+  "verdict": "ok",
+  "email": "info.uk@fractory.com",
+  "detail": "RCPT code 250"
+ },
+ "229": {
+  "verdict": "ok",
+  "email": "jpb@bs-decolletage.com",
+  "detail": "RCPT code 250"
+ },
+ "210": {
+  "verdict": "ok",
+  "email": "contact@prototype-emboutissage-78.com",
+  "detail": "RCPT code 250"
+ },
+ "230": {
+  "verdict": "ok",
+  "email": "contact@bti.fr",
+  "detail": "RCPT code 250"
+ },
+ "239": {
+  "verdict": "ok",
+  "email": "contact@franceproetancheite.com",
+  "detail": "RCPT code 250"
+ },
+ "238": {
+  "verdict": "ok",
+  "email": "contact@france-profilage.com",
+  "detail": "RCPT code 250"
+ },
+ "242": {
+  "verdict": "bloque",
+  "email": "contact@alsacienne-de-metallerie.fr",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "240": {
+  "verdict": "ok",
+  "email": "contact@francergo.com",
+  "detail": "RCPT code 250"
+ },
+ "223": {
+  "verdict": "morte",
+  "email": "info@alu.fr",
+  "detail": "RCPT code 450"
+ },
+ "249": {
+  "verdict": "bloque",
+  "email": "lyon@bgs-rouleaux.com",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "233": {
+  "verdict": "morte",
+  "email": "contact@civm-chaudronnerie.fr",
+  "detail": "RCPT code 450"
+ },
+ "245": {
+  "verdict": "ok",
+  "email": "contact@atlantique-profilage.fr",
+  "detail": "RCPT code 250"
+ },
+ "251": {
+  "verdict": "bloque",
+  "email": "contact@bouillet-profilage.com",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "253": {
+  "verdict": "bloque",
+  "email": "contact@candas.fr",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "257": {
+  "verdict": "ok",
+  "email": "contact@carrosserie-corsin.com",
+  "detail": "RCPT code 250"
+ },
+ "260": {
+  "verdict": "ok",
+  "email": "grenoble@christaud.com",
+  "detail": "RCPT code 250"
+ },
+ "241": {
+  "verdict": "morte",
+  "email": "contact@fromeca.fr",
+  "detail": "RCPT code 450"
+ },
+ "236": {
+  "verdict": "bloque",
+  "email": "contact@france-calorifugeage.fr",
+  "detail": "serveur bloque/injoignable (TimeoutError)"
+ },
+ "246": {
+  "verdict": "bloque",
+  "email": "contact@bardeprofils.fr",
+  "detail": "serveur bloque/injoignable (SMTPServerDisconnected)"
+ },
+ "266": {
+  "verdict": "ok",
+  "email": "cophyma@cophyma.fr",
+  "detail": "RCPT code 250"
+ },
+ "247": {
+  "verdict": "morte",
+  "email": "info@benoit-plastique.com",
+  "detail": "RCPT code 450"
+ },
+ "262": {
+  "verdict": "ok",
+  "email": "commercial@comptoirnautique.com",
+  "detail": "RCPT code 250"
+ },
+ "264": {
+  "verdict": "ok",
+  "email": "support@workeezconnect.fr",
+  "detail": "RCPT code 250"
+ },
+ "258": {
+  "verdict": "morte",
+  "email": "contact@carrosserie-francis.fr",
+  "detail": "RCPT code 450"
+ },
+ "273": {
+  "verdict": "morte",
+  "email": "info@electronic-marine.fr",
+  "detail": "RCPT code 554"
+ },
+ "272": {
+  "verdict": "bloque",
+  "email": "contact@easymetal.fr",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "269": {
+  "verdict": "ok",
+  "email": "contact@dessenne.net",
+  "detail": "RCPT code 250"
+ },
+ "282": {
+  "verdict": "ok",
+  "email": "contact@folliot-electricite.fr",
+  "detail": "RCPT code 250"
+ },
+ "261": {
+  "verdict": "morte",
+  "email": "cinox@cinox.fr",
+  "detail": "RCPT code 450"
+ },
+ "280": {
+  "verdict": "morte",
+  "email": "contact@etscolombie.fr",
+  "detail": "RCPT code 554"
+ },
+ "284": {
+  "verdict": "ok",
+  "email": "preciforge@preciforge.fr",
+  "detail": "RCPT code 250"
+ },
+ "252": {
+  "verdict": "morte",
+  "email": "courrier@briandconstruction.fr",
+  "detail": "RCPT code 554"
+ },
+ "275": {
+  "verdict": "ok",
+  "email": "info@energir.com",
+  "detail": "RCPT code 250"
+ },
+ "290": {
+  "verdict": "ok",
+  "email": "acodi@acodi.fr",
+  "detail": "RCPT code 250"
+ },
+ "271": {
+  "verdict": "morte",
+  "email": "contact@dgm-industrie.fr",
+  "detail": "RCPT code 450"
+ },
+ "291": {
+  "verdict": "ok",
+  "email": "contact@acsoxycoupage.fr",
+  "detail": "RCPT code 250"
+ },
+ "268": {
+  "verdict": "bloque",
+  "email": "web@demarches-plaisance.net",
+  "detail": "serveur bloque/injoignable (TimeoutError)"
+ },
+ "293": {
+  "verdict": "ok",
+  "email": "adc@adc.fr",
+  "detail": "RCPT code 250"
+ },
+ "301": {
+  "verdict": "bloque",
+  "email": "prenom.nom@anr.fr",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "297": {
+  "verdict": "morte",
+  "email": "commerce@ageneau.fr",
+  "detail": "RCPT code 451"
+ },
+ "279": {
+  "verdict": "bloque",
+  "email": "contact@etketancheite.fr",
+  "detail": "serveur bloque/injoignable (SMTPServerDisconnected)"
+ },
+ "308": {
+  "verdict": "ok",
+  "email": "contact@batirpeintures.com",
+  "detail": "RCPT code 250"
+ },
+ "303": {
+  "verdict": "ok",
+  "email": "contact@artihome-france.fr",
+  "detail": "RCPT code 250"
+ },
+ "295": {
+  "verdict": "morte",
+  "email": "contact@aforgedefer.com",
+  "detail": "RCPT code 450"
+ },
+ "286": {
+  "verdict": "morte",
+  "email": "delwaullefrederic@3d-industrie.fr",
+  "detail": "RCPT code 450"
+ },
+ "318": {
+  "verdict": "ok",
+  "email": "ecai@cabinetecai.com",
+  "detail": "RCPT code 250"
+ },
+ "296": {
+  "verdict": "bloque",
+  "email": "alexandra@afortinavocate.fr",
+  "detail": "serveur bloque/injoignable (TimeoutError)"
+ },
+ "309": {
+  "verdict": "morte",
+  "email": "contact@bba-securite-france.fr",
+  "detail": "RCPT code 450"
+ },
+ "300": {
+  "verdict": "bloque",
+  "email": "contact@alsace-carreaux.fr",
+  "detail": "serveur bloque/injoignable (SMTPServerDisconnected)"
+ },
+ "314": {
+  "verdict": "morte",
+  "email": "contact@bureau-detude-structure.fr",
+  "detail": "RCPT code 450"
+ },
+ "319": {
+  "verdict": "morte",
+  "email": "contact@cabinetexpertcomptable.fr",
+  "detail": "RCPT code 450"
+ },
+ "315": {
+  "verdict": "morte",
+  "email": "contact@bureau-etude-thermique-bet.fr",
+  "detail": "RCPT code 450"
+ },
+ "324": {
+  "verdict": "ok",
+  "email": "info.contact@carrondo.fr",
+  "detail": "RCPT code 250"
+ },
+ "304": {
+  "verdict": "morte",
+  "email": "bonjour@artisanvaa.fr",
+  "detail": "RCPT code 450"
+ },
+ "311": {
+  "verdict": "bloque",
+  "email": "contact@besgc.fr",
+  "detail": "serveur bloque/injoignable (SMTPServerDisconnected)"
+ },
+ "336": {
+  "verdict": "ok",
+  "email": "contact@decobaie.com",
+  "detail": "RCPT code 250"
+ },
+ "326": {
+  "verdict": "ok",
+  "email": "contact@bonnevaux-sa.com",
+  "detail": "RCPT code 250"
+ },
+ "329": {
+  "verdict": "ok",
+  "email": "accueil@cmdcardot.fr",
+  "detail": "RCPT code 250"
+ },
+ "340": {
+  "verdict": "bloque",
+  "email": "info@dema-france.com",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "328": {
+  "verdict": "ok",
+  "email": "matthieu@chronotruck.com",
+  "detail": "RCPT code 250"
+ },
+ "321": {
+  "verdict": "bloque",
+  "email": "ernest.ozmen@calorizol.fr",
+  "detail": "serveur bloque/injoignable (TimeoutError)"
+ },
+ "341": {
+  "verdict": "ok",
+  "email": "contact@dpsa-securite.fr",
+  "detail": "RCPT code 250"
+ },
+ "339": {
+  "verdict": "morte",
+  "email": "info@cabinetvision.fr",
+  "detail": "RCPT code 550"
+ },
+ "325": {
+  "verdict": "bloque",
+  "email": "contact@agbsecurite.fr",
+  "detail": "serveur bloque/injoignable (TimeoutError)"
+ },
+ "345": {
+  "verdict": "bloque",
+  "email": "logistique@eltf.fr",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "343": {
+  "verdict": "morte",
+  "email": "contact@ecovantaro.com",
+  "detail": "domaine sans MX (mort)"
+ },
+ "342": {
+  "verdict": "ok",
+  "email": "bonjour@dsdrenov.com",
+  "detail": "RCPT code 250"
+ },
+ "346": {
+  "verdict": "ok",
+  "email": "contact@entoutesecurite.fr",
+  "detail": "RCPT code 250"
+ },
+ "349": {
+  "verdict": "ok",
+  "email": "votre@expert-comptable-en-ligne.fr",
+  "detail": "RCPT code 250"
+ },
+ "344": {
+  "verdict": "ok",
+  "email": "contact@effy.fr",
+  "detail": "RCPT code 250"
+ },
+ "347": {
+  "verdict": "morte",
+  "email": "serviceclient@esg1securite.fr",
+  "detail": "domaine sans MX (mort)"
+ },
+ "330": {
+  "verdict": "bloque",
+  "email": "contact@cmhindustrie.com",
+  "detail": "serveur bloque/injoignable (TimeoutError)"
+ },
+ "338": {
+  "verdict": "morte",
+  "email": "decoupacier@decoupacier.com",
+  "detail": "RCPT code 450"
+ },
+ "352": {
+  "verdict": "ok",
+  "email": "contact@aopb.fr",
+  "detail": "RCPT code 250"
+ },
+ "354": {
+  "verdict": "ok",
+  "email": "contact@estusinage.fr",
+  "detail": "RCPT code 250"
+ },
+ "357": {
+  "verdict": "morte",
+  "email": "arnaud.kaizer@behm.fr",
+  "detail": "RCPT code 550"
+ },
+ "360": {
+  "verdict": "morte",
+  "email": "contact@figitalexpertise.fr",
+  "detail": "RCPT code 550"
+ },
+ "359": {
+  "verdict": "morte",
+  "email": "contact@cvim.fr",
+  "detail": "RCPT code 550"
+ },
+ "337": {
+  "verdict": "morte",
+  "email": "contact@decolletage-usinage.fr",
+  "detail": "RCPT code 450"
+ },
+ "366": {
+  "verdict": "bloque",
+  "email": "commercial@francemetal.fr",
+  "detail": "serveur bloque/injoignable (SMTPServerDisconnected)"
+ },
+ "365": {
+  "verdict": "morte",
+  "email": "contact@france-c.fr",
+  "detail": "RCPT code 550"
+ },
+ "358": {
+  "verdict": "morte",
+  "email": "contact@corbel-jannin.fr",
+  "detail": "RCPT code 450"
+ },
+ "361": {
+  "verdict": "bloque",
+  "email": "contact@fizexpert.fr",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "362": {
+  "verdict": "morte",
+  "email": "sales@forgeavia.fr",
+  "detail": "RCPT code 450"
+ },
+ "350": {
+  "verdict": "bloque",
+  "email": "contact@fermetalu.com",
+  "detail": "serveur bloque/injoignable (gaierror)"
+ },
+ "364": {
+  "verdict": "bloque",
+  "email": "contact@fraisepers.fr",
+  "detail": "serveur bloque/injoignable (SMTPServerDisconnected)"
+ },
+ "370": {
+  "verdict": "morte",
+  "email": "l.leon@garagedestroismonts.fr",
+  "detail": "RCPT code 550"
+ },
+ "363": {
+  "verdict": "ok",
+  "email": "halandforhj@shprecisionshaft.com",
+  "detail": "RCPT code 250"
+ },
+ "371": {
+  "verdict": "morte",
+  "email": "contact@garagelibert.fr",
+  "detail": "RCPT code 550"
+ },
+ "373": {
+  "verdict": "bloque",
+  "email": "contact@gardiennageparis.fr",
+  "detail": "serveur bloque/injoignable (SMTPConnectError)"
+ },
+ "369": {
+  "verdict": "morte",
+  "email": "celine@garage-gauyat.fr",
+  "detail": "RCPT code 450"
+ },
+ "375": {
+  "verdict": "morte",
+  "email": "contact@geobiomics.fr",
+  "detail": "RCPT code 550"
+ },
+ "376": {
+  "verdict": "morte",
+  "email": "support.commercial@geofoncier.fr",
+  "detail": "RCPT code 550"
+ },
+ "377": {
+  "verdict": "morte",
+  "email": "sevran@geometre-cdb.com",
+  "detail": "RCPT code 550"
+ },
+ "374": {
+  "verdict": "morte",
+  "email": "accueil@gelygroup.fr",
+  "detail": "RCPT code 550"
+ },
+ "381": {
+  "verdict": "morte",
+  "email": "contact@georgeault.fr",
+  "detail": "RCPT code 550"
+ },
+ "383": {
+  "verdict": "morte",
+  "email": "ghp-pdc@ghp.fr",
+  "detail": "RCPT code 550"
+ },
+ "367": {
+  "verdict": "bloque",
+  "email": "contact@fry-etudes.fr",
+  "detail": "serveur bloque/injoignable (TimeoutError)"
+ },
+ "384": {
+  "verdict": "morte",
+  "email": "brest@giffardmanutention.fr",
+  "detail": "RCPT code 550"
+ },
+ "372": {
+  "verdict": "morte",
+  "email": "contact@garagepasteur.com",
+  "detail": "RCPT code 450"
+ },
+ "386": {
+  "verdict": "ok",
+  "email": "mateo.adam@glory-injectionplastique.fr",
+  "detail": "RCPT code 250"
+ },
+ "378": {
+  "verdict": "morte",
+  "email": "contact@geometre-paris.fr",
+  "detail": "RCPT code 450"
+ },
+ "388": {
+  "verdict": "morte",
+  "email": "info@gmi-robinetterie.com",
+  "detail": "RCPT code 550"
+ },
+ "379": {
+  "verdict": "morte",
+  "email": "contact@geometre.fr",
+  "detail": "RCPT code 450"
+ },
+ "390": {
+  "verdict": "morte",
+  "email": "digital@groupe-ecomedia.com",
+  "detail": "RCPT code 550"
+ },
+ "391": {
+  "verdict": "morte",
+  "email": "contact@groupe-pfister.com",
+  "detail": "RCPT code 550"
+ },
+ "394": {
+  "verdict": "ok",
+  "email": "info@groupe-tma.com",
+  "detail": "RCPT code 250"
+ },
+ "397": {
+  "verdict": "ok",
+  "email": "contact@guardianfrance.fr",
+  "detail": "RCPT code 250"
+ },
+ "392": {
+  "verdict": "bloque",
+  "email": "sales@groupe-rouger.com",
+  "detail": "serveur bloque/injoignable (SMTPServerDisconnected)"
+ },
+ "393": {
+  "verdict": "morte",
+  "email": "marketing@groupe-thermi-lyon.com",
+  "detail": "RCPT code 550"
+ },
+ "395": {
+  "verdict": "ok",
+  "email": "webmarketing@groupeidec.com",
+  "detail": "RCPT code 250"
+ },
+ "387": {
+  "verdict": "morte",
+  "email": "atelier@gmetallier.fr",
+  "detail": "RCPT code 450"
+ },
+ "400": {
+  "verdict": "morte",
+  "email": "informatique-et-libertes@guy-hoquet.com",
+  "detail": "RCPT code 550"
+ },
+ "403": {
+  "verdict": "ok",
+  "email": "contact@hashtagavocats.com",
+  "detail": "RCPT code 250"
+ },
+ "380": {
+  "verdict": "morte",
+  "email": "calais@geometre.net",
+  "detail": "RCPT code 550"
+ },
+ "405": {
+  "verdict": "morte",
+  "email": "contact@helixexpertise.com",
+  "detail": "RCPT code 550"
+ },
+ "401": {
+  "verdict": "morte",
+  "email": "hts@hacer.fr",
+  "detail": "RCPT code 550"
+ },
+ "409": {
+  "verdict": "ok",
+  "email": "contact@hmdprecision.fr",
+  "detail": "RCPT code 250"
+ },
+ "404": {
+  "verdict": "morte",
+  "email": "contact@hatty-vonnas.fr",
+  "detail": "RCPT code 550"
+ },
+ "406": {
+  "verdict": "morte",
+  "email": "contact@herouard.com",
+  "detail": "RCPT code 550"
+ },
+ "399": {
+  "verdict": "morte",
+  "email": "contact@guillaumie.com",
+  "detail": "RCPT code 450"
+ },
+ "402": {
+  "verdict": "morte",
+  "email": "contact@hannecard.com",
+  "detail": "RCPT code 550"
+ },
+ "410": {
+  "verdict": "morte",
+  "email": "contact@hosmoz.fr",
+  "detail": "RCPT code 550"
+ },
+ "389": {
+  "verdict": "bloque",
+  "email": "contact@gmld.fr",
+  "detail": "serveur bloque/injoignable (TimeoutError)"
+ },
+ "413": {
+  "verdict": "morte",
+  "email": "commercial@hynecofrance.com",
+  "detail": "RCPT code 550"
+ },
+ "412": {
+  "verdict": "ok",
+  "email": "solutions@hydralogie.com",
+  "detail": "RCPT code 250"
+ },
+ "414": {
+  "verdict": "ok",
+  "email": "contact@89art.fr",
+  "detail": "RCPT code 250"
+ },
+ "415": {
+  "verdict": "morte",
+  "email": "sales@actor.fr",
+  "detail": "RCPT code 550"
+ },
+ "417": {
+  "verdict": "morte",
+  "email": "bordeaux@elige-avocats.com",
+  "detail": "RCPT code 550"
+ },
+ "411": {
+  "verdict": "morte",
+  "email": "info@hybster.com",
+  "detail": "RCPT code 550"
+ },
+ "419": {
+  "verdict": "morte",
+  "email": "communication@inextenso.fr",
+  "detail": "RCPT code 550"
+ },
+ "418": {
+  "verdict": "ok",
+  "email": "contact@ifd-outillage.fr",
+  "detail": "RCPT code 250"
+ },
+ "416": {
+  "verdict": "morte",
+  "email": "hugo.pech@bethpc.fr",
+  "detail": "RCPT code 550"
+ },
+ "424": {
+  "verdict": "morte",
+  "email": "enlever-majusculescontact@item-conseil.fr",
+  "detail": "RCPT code 550"
+ },
+ "407": {
+  "verdict": "bloque",
+  "email": "contact@hfmetal.fr",
+  "detail": "serveur bloque/injoignable (SMTPServerDisconnected)"
+ },
+ "430": {
+  "verdict": "hold_rgpd",
+  "email": "rgpd@junot.fr"
+ },
+ "420": {
+  "verdict": "ok",
+  "email": "contact@ira.eu",
+  "detail": "RCPT code 250"
+ },
+ "422": {
+  "verdict": "morte",
+  "email": "contact@irt-m2p.fr",
+  "detail": "RCPT code 550"
+ },
+ "426": {
+  "verdict": "ok",
+  "email": "contact@jaberson-avocats.com",
+  "detail": "RCPT code 250"
+ },
+ "425": {
+  "verdict": "morte",
+  "email": "cii56@ito-calorifuge.com",
+  "detail": "RCPT code 550"
+ },
+ "427": {
+  "verdict": "morte",
+  "email": "contact@jacnet.fr",
+  "detail": "RCPT code 550"
+ },
+ "428": {
+  "verdict": "morte",
+  "email": "contact@jcp-pmdp.fr",
+  "detail": "RCPT code 550"
+ },
+ "432": {
+  "verdict": "morte",
+  "email": "info@kaecia.fr",
+  "detail": "RCPT code 550"
+ },
+ "439": {
+  "verdict": "hold_rgpd",
+  "email": "donneespersonnelles@laforet.com"
+ },
+ "431": {
+  "verdict": "ok",
+  "email": "contact@justifit.fr",
+  "detail": "RCPT code 250"
+ },
+ "434": {
+  "verdict": "ok",
+  "email": "contact@khadiri.com",
+  "detail": "RCPT code 250"
+ },
+ "435": {
+  "verdict": "ok",
+  "email": "contact@klingroupe.fr",
+  "detail": "RCPT code 250"
+ },
+ "436": {
+  "verdict": "morte",
+  "email": "hello@l-expert-comptable.com",
+  "detail": "RCPT code 550"
+ },
+ "437": {
+  "verdict": "morte",
+  "email": "contact@labaliseavocat.fr",
+  "detail": "RCPT code 550"
+ },
+ "421": {
+  "verdict": "bloque",
+  "email": "contact@iria-avocat.fr",
+  "detail": "serveur bloque/injoignable (TimeoutError)"
+ },
+ "433": {
+  "verdict": "bloque",
+  "email": "contact@kapeci-acier.fr",
+  "detail": "serveur bloque/injoignable (TimeoutError)"
+ }
+}
