@@ -8174,5 +8174,13 @@
   "siren": "388911653",
   "tranche": "02",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "2B EXPERTISE COMPTABLE ET CONSEIL (2B-EC)",
+  "ville": "LA TESTE-DE-BUCH",
+  "naf": "69.20Z",
+  "siren": "791746928",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
  }
 ]
