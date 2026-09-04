@@ -2632,5 +2632,315 @@
  {
   "domaine": "laforet.com",
   "email": "donneespersonnelles@laforet.com"
+ },
+ {
+  "domaine": "abpeinture.com",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "actu.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "atlantic-tolerie.fr",
+  "email": "info@atlantic-tolerie.fr"
+ },
+ {
+  "domaine": "auvergnerhonealpes-entreprises.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "batidirect.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "bourdoncle.com",
+  "email": "contact@bourdoncle.com"
+ },
+ {
+  "domaine": "bretagnelevage.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "carrelage-laize.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "chapel-hydraulique.com",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "cia16.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "clairecimmobilier.com",
+  "email": "contact@clairecimmobilier.com"
+ },
+ {
+  "domaine": "cornille-decolletage.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "demarche.numerique.gouv.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "depannage-pro.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "doursat.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "eol.fr",
+  "email": "info@eol.fr"
+ },
+ {
+  "domaine": "fdusinage.fr",
+  "email": "contact@fdusinage.fr"
+ },
+ {
+  "domaine": "fideip.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "fim.net",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "floody.fr",
+  "email": "contact@floody.fr"
+ },
+ {
+  "domaine": "formatype.com",
+  "email": "rh@formatype.com"
+ },
+ {
+  "domaine": "futur-services.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "garage-anatole-france.com",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "garage-kda.fr",
+  "email": "contact@garage-kda.fr"
+ },
+ {
+  "domaine": "gdesrevanti.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "gepi.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "index-group.com",
+  "email": "kontakt@index-group.com"
+ },
+ {
+  "domaine": "ipgsecuriteprivee.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "lallemand-plasturgie.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "lamartine-construction.com",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "lamecaniquegenerale.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "lametalleriefine.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "lametalleriefrancaise.fr",
+  "email": "contact@lametalleriefrancaise.com"
+ },
+ {
+  "domaine": "landy-paysages.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "languedoc-etancheite.com",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "lapeyre-logistique.com",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "larobinetterie.com",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "lartdumetal.fr",
+  "email": "contact@lartdumetal.fr"
+ },
+ {
+  "domaine": "laserdecoupemetal.com",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "lasermetaldesign.fr",
+  "email": "contact@lasermetaldesign.fr"
+ },
+ {
+  "domaine": "lasersocmel.fr",
+  "email": "lasersocmel@lasersocmel.com"
+ },
+ {
+  "domaine": "latelierdulaser.fr",
+  "email": "devis@latelierdulaser.fr"
+ },
+ {
+  "domaine": "latoleriearmoricaine.com",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "latribune.fr",
+  "email": "pnom@latribune.fr"
+ },
+ {
+  "domaine": "lavisserie.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "lbconcept-avis.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "lcie-etancheite.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "lcplatrerie.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "le-comptable.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "le-decolletage.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "leboncoin.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "leguichetdesformalites.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "lejobadequat.com",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "lejournaltoulousain.fr",
+  "email": "redaction@lejournaltoulousain.fr"
+ },
+ {
+  "domaine": "leleusas.com",
+  "email": "fcardock@leleusas.com"
+ },
+ {
+  "domaine": "lelievre-immobilier.com",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "leparc-chaudronnerie.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "leray-industrie.com",
+  "email": "contact@leray-industrie.com"
+ },
+ {
+  "domaine": "leroi-maconnerie.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "leroylogistique.com",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "les-toliers.fr",
+  "email": "contact@les-toliers.fr"
+ },
+ {
+  "domaine": "lesentreprisesdupaysage.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "lespalettesurbaines.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "lespaysagistes.com",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "levac.fr",
+  "email": "",
+  "scan": "2026-08-28"
+ },
+ {
+  "domaine": "levagemanutention.com",
+  "email": "info@levagemanutention.com"
  }
 ]
