@@ -413,6 +413,7 @@
   "url": "https://sitralindustrie.fr",
   "probleme": "SITE_DATÉ",
   "details": [
+   "SSL absent : le site repond en http, pas de https",
    "Copyright 2015 : site non mis a jour depuis des annees"
   ],
   "note": 2,
@@ -553,17 +554,6 @@
   "ville": ""
  },
  {
-  "url": "https://hmc-metal.fr",
-  "probleme": "SITE_DATÉ",
-  "details": [
-   "Copyright 2015 : site non mis a jour depuis des annees"
-  ],
-  "note": 2,
-  "nom": "",
-  "email": "contact@hmc-metal.fr",
-  "ville": ""
- },
- {
   "url": "https://elige-avocats.com",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -584,72 +574,6 @@
   "nom": "",
   "email": "contact@bourdoncle.com",
   "ville": ""
- },
- {
-  "url": "https://mecaniqueautofacile.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Mecanique De Precision Du Barrois (Mpb)",
-  "email": "contact@mecaniqueautofacile.com",
-  "ville": "LIGNY-EN-BARROIS"
- },
- {
-  "url": "https://mecaniqueautofacile.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Mecanique Usinage De Precision (Mup)",
-  "email": "contact@mecaniqueautofacile.com",
-  "ville": "CORBIERES-EN-PROVENCE"
- },
- {
-  "url": "https://mecaniqueautofacile.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Mecanique De Grande Precision",
-  "email": "contact@mecaniqueautofacile.com",
-  "ville": "VORAY SUR L'OGNON"
- },
- {
-  "url": "https://mecaniqueautofacile.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Mecanique Precision Industrie (Mpi)",
-  "email": "contact@mecaniqueautofacile.com",
-  "ville": "VIRE NORMANDIE"
- },
- {
-  "url": "https://mecaniqueautofacile.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Mecanique De Precision De L'Est (Mpe)",
-  "email": "contact@mecaniqueautofacile.com",
-  "ville": "MASEVAUX-NIEDERBRUCK"
- },
- {
-  "url": "https://mecaniqueautofacile.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Mecanique De Precision Scala",
-  "email": "contact@mecaniqueautofacile.com",
-  "ville": "MOUSSY-LE-NEUF"
  },
  {
   "url": "https://nordvpn.com",
@@ -685,6 +609,17 @@
   "ville": "MARNAZ"
  },
  {
+  "url": "https://gilletsa.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Gillet Decolletage",
+  "email": "",
+  "ville": "DANNEMARIE-SUR-CRETE"
+ },
+ {
   "url": "https://petite.co.uk",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -716,6 +651,17 @@
   "nom": "Baxter Injection",
   "email": "",
   "ville": "VINAY"
+ },
+ {
+  "url": "https://alencon-plastic.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "ALENCON PLASTIC",
+  "email": "contact@alencon-plastic.com",
+  "ville": ""
  },
  {
   "url": "https://slicom-group.com",
@@ -770,6 +716,17 @@
   "note": 0,
   "nom": "46 — Sa Amd Decolletage",
   "email": "sales@amd-decolletage.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://alencon-plastic.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "49 — Alencon Plastic (plasturgie, groupe",
+  "email": "contact@alencon-plastic.com",
   "ville": ""
  },
  {
@@ -872,14 +829,14 @@
   "ville": ""
  },
  {
-  "url": "https://oureval.fr",
+  "url": "https://adiamix.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "accueil@oureval.fr",
+  "email": "admin@adiamix.com",
   "ville": ""
  },
  {
@@ -902,6 +859,28 @@
   "note": 0,
   "nom": "",
   "email": "cnr@cnr.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://hmc-metal.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@hmc-metal.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://formatype.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "rh@formatype.com",
   "ville": ""
  }
 ]
