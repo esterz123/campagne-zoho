@@ -1297,7 +1297,8 @@
    "via": "commercial",
    "status_code": 200,
    "to": "contact@uti-metallerie.fr",
-   "body": "<p>Bonjour,</p>\n<p>J'ai ouvert uti-metallerie.fr a l'instant. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et le site met 7.6 s a s'afficher, la moitie des visiteurs partent avant.</p>\n<p>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/138.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+   "body": "<p>Bonjour,</p>\n<p>J'ai ouvert uti-metallerie.fr a l'instant. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et le site met 7.6 s a s'afficher, la moitie des visiteurs partent avant.</p>\n<p>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/138.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com",
+   "sent_relance1": "2026-09-04"
   },
   "259": {
    "on": "2026-09-01",
@@ -1337,7 +1338,8 @@
    "via": "contact",
    "status_code": 200,
    "to": "contact@cf-injection.com",
-   "body": "<p>Bonjour M. CAVEL (CAVEL),<br>J'ai ouvert cf-injection.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et pas de sitemap : Google decouvre vos pages tout seul, lentement.<br>Je ne vous propose rien à acheter aujourd'hui. Je regarde votre site en 2 minutes et je vous partage les 3 problèmes concrets qui font fuir vos prospects (vitesse, mobile, confiance). Répondez simplement \"oui\" à ce mail et je vous envoie mes constats sous 48 heures</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/124.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+   "body": "<p>Bonjour M. CAVEL (CAVEL),<br>J'ai ouvert cf-injection.com a l'instant. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et pas de sitemap : Google decouvre vos pages tout seul, lentement.<br>Je ne vous propose rien à acheter aujourd'hui. Je regarde votre site en 2 minutes et je vous partage les 3 problèmes concrets qui font fuir vos prospects (vitesse, mobile, confiance). Répondez simplement \"oui\" à ce mail et je vous envoie mes constats sous 48 heures</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/124.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com",
+   "sent_relance1": "2026-09-04"
   },
   "171": {
    "on": "2026-09-01",
@@ -1573,6 +1575,22 @@
   "429": {
    "manual": true,
    "note": "Exclu par Chef 03/09: adresse poubelle (donneespersonnelles@) - jamais un decideur. Reversible: retirer cette cle."
+  },
+  "440": {
+   "on": "2026-09-04",
+   "messageId": "1788522141332138400",
+   "via": "hello",
+   "status_code": 200,
+   "to": "info@atlantic-tolerie.fr",
+   "body": "<p>Bonjour,</p>\n<p>Votre site atlantic-tolerie.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/440.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "441": {
+   "on": "2026-09-04",
+   "messageId": "1788522323398138400",
+   "via": "info",
+   "status_code": 200,
+   "to": "contact@bourdoncle.com",
+   "body": "<p>Bonjour,</p>\n<p>Votre site bourdoncle.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/441.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   }
  },
  "done_notified": false
