@@ -1,22 +1,6 @@
 {
  "cycles": [
   {
-   "date": "2026-09-01T16:28:25.289292",
-   "mesure": {
-    "date": "2026-09-01T16:28:25.289292",
-    "prospects_total": 367,
-    "file_restante": 165,
-    "envoyes": 202,
-    "replies": 1,
-    "taux_reponse_pct": 0.5,
-    "argent_reel_eur": 0,
-    "closing_faits": 1
-   },
-   "diagnostic": "panier_cash",
-   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
-   "resultat": "closer dispatche (rapports prets a servir)"
-  },
-  {
    "date": "2026-09-01T17:25:57.256493",
    "mesure": {
     "date": "2026-09-01T17:25:57.256493",
@@ -473,6 +457,22 @@
     "envoyes": 236,
     "replies": 1,
     "taux_reponse_pct": 0.42,
+    "argent_reel_eur": 0,
+    "closing_faits": 1
+   },
+   "diagnostic": "panier_cash",
+   "action": "RELANCER_CHAUDS_OFFRE_DIRECTE",
+   "resultat": "closer dispatche (rapports prets a servir)"
+  },
+  {
+   "date": "2026-09-05T01:14:34.560930",
+   "mesure": {
+    "date": "2026-09-05T01:14:34.560930",
+    "prospects_total": 459,
+    "file_restante": 212,
+    "envoyes": 248,
+    "replies": 1,
+    "taux_reponse_pct": 0.4,
     "argent_reel_eur": 0,
     "closing_faits": 1
    },
