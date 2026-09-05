@@ -418,7 +418,7 @@ def main():
     quota = max(0, daily_max - len(sent_today))
     # LEVIER x1000 : jusqu'a 2 relances + 3 nouveaux par run (max_per_run=5, plafond boites intact)
     quota = min(quota, max_per_run)
-    todo_fu = due_fu[:min(quota, 2)]
+    todo_fu = due_fu[:min(quota, 3)]
     todo = remaining[:min(max(0, quota - len(todo_fu)), 3)]
     # Si quota=2 : 2 relances. Si quota=5 : 2 relances + 3 nouveaux en meme run. DELAY_S=180s protege la delivrabilite.
 
