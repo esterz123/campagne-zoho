@@ -4,7 +4,7 @@ Bonjour,
 
 Le 31/08, je vous ai signale que votre site fonderies-dechaumont.com est pirate : des liens vers un site de fraude en ligne (xena-casino.gr) sont inclus dans votre page d'accueil. Vous pouvez le verifier vous-meme en 10 secondes : ouvrez la page d'accueil, Ctrl+U, cherchez "casino".
 
-Je n'ai pas eu de retour depuis. Le code pirate, lui, n'attend pas : chaque jour sans intervention, c'est votre reputation de fonderie (depuis 1860) associee a de la pub de fraude, et le risque que Google marque votre domaine comme dangereux.
+Je viens de reverifier ce matin : le code pirate est toujours la, aujourd'hui, en direct sur votre page d'accueil. Je n'ai pas eu de retour depuis. Chaque jour sans intervention, c'est votre reputation de fonderie (depuis 1860) associee a de la pub de fraude, et le risque que Google marque votre domaine comme dangereux.
 
 L'intervention d'urgence tient toujours :
 - Nettoyage complet du code pirate + suppression des acces portes par les fraudeurs.

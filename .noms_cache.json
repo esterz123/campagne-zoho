@@ -1093,5 +1093,170 @@
   "siren": "328959267",
   "enseigne": "TOLERIE INDUSTRIELLE TOULOUSAINE (TIT)"
  },
- "levagemanutention.com : vente d&#039;accessoires d": {}
+ "levagemanutention.com : vente d&#039;accessoires d": {},
+ "kiloutou": {
+  "nom": "COLLEAU",
+  "prenom": "Olivier",
+  "qualite": "Président de SAS",
+  "feminin": false,
+  "siren": "317686061",
+  "enseigne": "KILOUTOU"
+ },
+ "lm platrerie": {
+  "nom": "MAGOR (MAGOR)",
+  "prenom": "Laurent",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "514293109",
+  "enseigne": "LM PLATRERIE"
+ },
+ "calorifugeage industriel et isolation thermique en": {},
+ "lne": {
+  "nom": "HENRY",
+  "prenom": "Hélène",
+  "qualite": "Président de SAS",
+  "feminin": true,
+  "siren": "931189443",
+  "enseigne": "LNE"
+ },
+ "lobsoleterie": {},
+ "entreprise de transport routier et distribution pr": {},
+ "lopes electricite plomberie": {},
+ "fabrication de pieces en aluminium": {},
+ "aviva leszczynski": {},
+ "maas": {
+  "nom": "MAAS",
+  "prenom": "Julien",
+  "qualite": "Président de SAS",
+  "feminin": false,
+  "siren": "331418186",
+  "enseigne": "MAAS"
+ },
+ "mac mahon avocats — restructuring &amp; procedures": {},
+ "home": {
+  "nom": "GOBANCE (ROMEDENNE)",
+  "prenom": "Stephanie",
+  "qualite": "Gérant",
+  "feminin": true,
+  "siren": "520118431",
+  "enseigne": "HOME"
+ },
+ "maintenance industrielle lyon · intervention 4h · ": {},
+ "boutique arcane industries : produits d&#039;etanc": {},
+ "manda": {
+  "nom": "HARHAD",
+  "prenom": "Madani",
+  "qualite": "Président de SAS",
+  "feminin": false,
+  "siren": "410359186",
+  "enseigne": "MANDA"
+ },
+ "materiel de levage et de manutention": {},
+ "arno": {
+  "nom": "CABRAS",
+  "prenom": "Arnaud",
+  "qualite": "Président de SAS",
+  "feminin": false,
+  "siren": "912356029",
+  "enseigne": "ARNO"
+ },
+ "visserie et boulonnerie en ligne": {},
+ "menuisier agenceur depuis 1933": {},
+ "specialiste du levage et de la manutention": {},
+ "mathis carrosserie": {
+  "nom": "MATHIS",
+  "prenom": "Jean-Michel",
+  "qualite": "Directeur Général",
+  "feminin": false,
+  "siren": "322941014",
+  "enseigne": "MATHIS (CARROSSERIE INDUSTRIELLE MATHIS)"
+ },
+ "mdi france": {
+  "nom": "VU",
+  "prenom": "Daniel",
+  "qualite": "Directeur Général",
+  "feminin": false,
+  "siren": "328697099",
+  "enseigne": "MDI FRANCE"
+ },
+ "plaquiste annecy": {},
+ "meca": {
+  "nom": "GRUAND",
+  "prenom": "Ralph Sylvain Dominique",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "493242408",
+  "enseigne": "MECA (MECA) (MECA)"
+ },
+ "mecanique g": {
+  "nom": "GICQUEL",
+  "prenom": "Nicolas Bernard Francis",
+  "qualite": "Président de SAS",
+  "feminin": false,
+  "siren": "513983148",
+  "enseigne": "G CONSTRUCTIONS MECANIQUES"
+ },
+ "mecanique de precision, m2p, pierre": {
+  "nom": "L'HONORE",
+  "prenom": "Gregory",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "821222973",
+  "enseigne": "MECANIQUE DE PRECISION PIERROISE (MECANIQUE DE PRECISION PIE"
+ },
+ "metallerie et serrurerie sur mesure a la ciotat et": {},
+ "meiko": {
+  "nom": "CHABOT",
+  "prenom": "Nicolas Philippe Pierre",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "101269058",
+  "enseigne": "MEIKO"
+ },
+ "mecanique de precision et usinage": {
+  "nom": "VOLPE",
+  "prenom": "David",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "319179891",
+  "enseigne": "MECANIQUE USINAGE DE PRECISION (MUP)"
+ },
+ "mendes mecanique: mecanique de precision a clermon": {},
+ "ag menuiserie": {
+  "nom": "AG",
+  "prenom": "Rustem",
+  "qualite": "Président de SAS",
+  "feminin": false,
+  "siren": "508219672",
+  "enseigne": "AG MENUISERIE"
+ },
+ "le fabricant menuiseries bois sur mesure": {},
+ "fabricant francais de menuiseries bois sur mesure": {},
+ "menuiserie interieure et exterieure sur mesure": {},
+ "entreprise de chaudronnerie industrielle": {
+  "nom": "MOTTE",
+  "prenom": "Frédéric",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "409699113",
+  "enseigne": "ENTREPRISE DE TUYAUTERIE ET CHAUDRONNERIE INDUSTRIELLE (ETCI"
+ },
+ "metal laser societe decoupe laser pliage et faconn": {},
+ "metal 2000 : specialiste rideaux metalliques, port": {},
+ "metalium": {
+  "nom": "BOUCHER",
+  "prenom": "Josselin Alain Vivien",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "432482677",
+  "enseigne": "METALIUM (METALIUM)"
+ },
+ "metallerie chatre": {
+  "nom": "CARBON (AIGLON)",
+  "prenom": "Christelle",
+  "qualite": "Directeur Général",
+  "feminin": false,
+  "siren": "829201268",
+  "enseigne": "SAS A2R METALLERIE (SAS A2R METALLERIE)"
+ }
 }

@@ -1,65 +1,59 @@
-# -*- coding: utf-8 -*-
-# Etat business reel : file restante, envois, reponses, relances, argent (hors TEST)
-import json, re, os
+import json, sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
+BASE = "C:/Users/ulamb/Bureau/prospection/github-campagne/"
 
-def load(p):
-    try:
-        with open(p, encoding='utf-8') as f:
-            return json.load(f)
-    except Exception as e:
-        print('ERR load', p, e)
-        return None
+s = json.load(open(BASE + "campagne_state.json"))
+sent = s.get("sent", {})
+rep = [n for n in sent if sent[n].get("replied")]
+bounce = [n for n in sent if sent[n].get("bounce")]
+print("== CAMPAGNE ==")
+print("envoyes total:", len(sent))
+print("replied:", len(rep), sorted(rep, key=lambda x: int(x))[:40])
+print("bounces:", len(bounce))
+import collections
+per_day = collections.Counter(v.get("on", "?") for v in sent.values())
+for day in sorted(per_day)[-8:]:
+    print("  ", day, "->", per_day[day])
 
-data = load('campagne_data.json')
-state = load('campagne_state.json') or {}
-fiches = data if isinstance(data, list) else data.get('fiches', data.get('prospects', list(data.values())))
-sent = state.get('sent', {})
+d = json.load(open(BASE + "campagne_data.json"))
+p = d.get("prospects", d) if isinstance(d, dict) else d
+rest = [x for x in p if str(x.get("num")) not in sent]
+print("file totale:", len(p), "| restants non envoyes:", len(rest))
 
-restants, envoyes, replies = [], 0, []
-for i, f in enumerate(fiches):
-    num = str(i)
-    s = sent.get(num)
-    if s:
-        envoyes += 1
-        if s.get('replied'):
-            replies.append((num, str(f.get('entreprise', f.get('nom', '?')))[:40]))
-    else:
-        restants.append(num)
+# suivi revenus
+try:
+    rev = json.load(open(BASE + "suivi_revenus.json"))
+    encaisse = sum(e["montant"] for e in rev.get("entrees", []) if e.get("statut") == "encaisse")
+    print("== REVENUS == encaisse:", encaisse, "| entrees:", len(rev.get("entrees", [])))
+    for e in rev.get("entrees", [])[-10:]:
+        print("  ", e)
+except Exception as ex:
+    print("suivi_revenus:", ex)
 
-print('FICHES:', len(fiches), '| ENVOYES:', envoyes, '| RESTANTS:', len(restants))
-print('REPLIES:', len(replies))
-for n, e in replies:
-    print('  #' + n, e)
-rel1 = sum(1 for v in sent.values() if v.get('sent_relance1'))
-rel2 = sum(1 for v in sent.values() if v.get('sent_relance2'))
-print('RELANCES R1:', rel1, 'R2:', rel2)
+# relances en attente
+try:
+    fu = json.load(open(BASE + "followups.json"))
+    print("== FOLLOWUPS ==", [k for k in fu.keys()] if isinstance(fu, dict) else type(fu))
+except Exception as ex:
+    print("followups:", ex)
 
-# Argent reel (exclut TEST + auto-mahdi)
-rev = load('suivi_revenus.json')
-if rev:
-    items = rev if isinstance(rev, list) else rev.get('paiements', list(rev.values()))
-    tot = 0.0
-    for p in items:
-        if not isinstance(p, dict):
-            continue
-        note = str(p.get('note', ''))
-        payeur = str(p.get('payeur', ''))
-        if 'TEST' in note.upper() or 'mahdi-design' in payeur.lower():
-            continue
-        m = p.get('montant', 0)
-        m = m if isinstance(m, (int, float)) else 0
-        tot += m
-        print('PAY:', p.get('date', '?'), '|', m, 'EUR |', payeur[:30], '|', note[:60])
-    print('TOTAL ARGENT REEL:', round(tot, 2), 'EUR')
+# ab test
+try:
+    ab = json.load(open(BASE + "ab_resultats.json"))
+    print("== A/B ==", json.dumps(ab)[:400])
+except Exception as ex:
+    pass
+try:
+    ab = json.load(open(BASE + "ab_test.json"))
+    print("ab_test.json:", json.dumps(ab)[:300])
+except Exception:
+    pass
 
-# Chauds: replies recents ou pending
-seq = load('relances_conges.json')
-if seq:
-    print('CONGES/PAUSES:', len(seq) if isinstance(seq, (list, dict)) else '?')
-
-# Aliases reponses
-alias = load('reply_aliases.json')
-if alias:
-    print('ALIASES:', list(alias.keys())[:8] if isinstance(alias, dict) else len(alias))
+# partenaires
+try:
+    ps = json.load(open(BASE + "partenaires_state.json"))
+    pss = ps.get("sent", ps)
+    print("== PARTENAIRES == envoyes:", len(pss) if isinstance(pss, dict) else "?")
+except Exception as ex:
+    print("partenaires:", ex)

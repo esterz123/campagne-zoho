@@ -29,3 +29,11 @@ livrable/diagnostic_*_*.docx
 messages_livraison.json
 livrable/diag_gratuit_*.docx
 *.bak*
+# artefacts debug crons/scripts (chef) _*.py .chef_preuve_fait .noms_cache.json .sentinel_vus.json
+_*.py
+.chef_preuve_fait
+.noms_cache.json
+.sentinel_vus.json
+_audit_bounces_relances.py
+_mib_liens.json
+_*.json

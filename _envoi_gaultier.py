@@ -14,7 +14,7 @@ boites = cz.load_boites()
 b = [x for x in boites if x["nom"] == "hello"][0]
 tok = cz.refresh_token(b)
 html = cz.build_html(corps, cz.SIG)
-r = cz.send_email(tok, sujet, html, "a.gaultier@free.fr", "", "hello")
+r = cz.send_email(tok, sujet, html, "a.gaultier@free.fr", "", b)
 print("RESULTAT:", r if not isinstance(r, dict) else {k: r.get(k) for k in ("status", "code", "message") if k in r})
 
 ok = False
