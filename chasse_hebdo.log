@@ -417,3 +417,73 @@ START ERR: {
   + 479 manda.fr score 90
   + 480 manustock.fr score 100
 PAGES GENEREES: 21 | manifest: 460
+[2026-09-05 09:12:13] === CHASSE HEBDOMADAIRE ===
+[2026-09-05 09:12:13] Phase 0 - recolle systematique (60 niches Exa, dedup auto)
+[2026-09-05 09:13:27] candidats recoltes: 1155 -> 1165 (+10)
+[2026-09-05 09:13:27] Phase 1 - exa_bulk (collecte + extraction)
+[2026-09-05 09:13:35] sites candidats: 466
+== BULK LEADS: 0 -> /home/runner/work/campagne-zoho/campagne-zoho/_hebdo_exa.json
+[2026-09-05 09:13:35] Phase 2 - extract_seq (chunk dynamique 700)
+[2026-09-05 09:38:27] ie-ag.fr
+  - menuiserie-bois-baron.fr (sans email, marque scanne)
+  - menuiserie-bois-bodin.fr (sans email, marque scanne)
+  + menuiserie-levieux.com -> contact@menuiserie-levieux.com
+  - menuiserie-reveau.fr (sans email, marque scanne)
+  + menuiserie-second.fr -> contact@menuiserie-second.fr
+  - menuiserie-synergie-bois.fr (sans email, marque scanne)
+  + menuiserieag.com -> contact@menuiserieag.com
+  - menuiseriefrance.fr (sans email, marque scanne)
+  - menuiseriemb.fr (sans email, marque scanne)
+  - mer.gouv.fr (sans email, marque scanne)
+  - mesinfos.fr (sans email, marque scanne)
+  - meta-industrie.com (sans email, marque scanne)
+  ...720/729, 733 leads jusqu'ici
+  - metal-action.fr (sans email, marque scanne)
+  + metal-inox.fr -> contact@metal-inox.fr
+  + metal-laser.com -> oxy@metal-laser.com
+  + metal2000.fr -> contact@metal2000.fr
+  - metalarc-metallerie.fr (sans email, marque scanne)
+  - metaliseindustrie.com (sans email, marque scanne)
+  + metalium-industrie.fr -> contact@metalium-industrie.fr
+  + metallerie-chatre.com -> contact@metallerie-chatre.com
+  - metallerie-gilbert.fr (sans email, marque scanne)
+
+a traiter [29:758] sur 729 candidats
+== TOTAL SEQUENTIEL LEADS: 742
+[2026-09-05 09:38:28] Phase 2ter err: name 'io' is not defined
+[2026-09-05 09:38:28] Phase 3 - Apify contact-info-scraper (emails JS)
+[2026-09-05 09:38:28] 
+URLs a traiter: 880
+START ERR: {
+  "error": {
+    "type": "not-enough-usage-to-run-paid-actor",
+    "message": "By launching this job you will exceed your remaining usage of $0.193544.  Consider upgrading to a paid plan at https://console.apify.com/billing/subscription"
+  }
+}
+
+[2026-09-05 09:38:28]   integre 0 depuis _exa_bulk_leads.json
+[2026-09-05 09:38:28] === CHASSE TERMINEE : +23 puis +0 prospects ===
+[2026-09-05 09:39:20] + 481 arno-sas.fr score 100
+  + 482 marleva.net score 100
+  + 483 masson-agencement.com score 100
+  + 484 materiel-levage.com score 88
+  + 485 mathis-carrosserie.com score 92
+  + 486 mdi-france.fr score 88
+  + 487 me-platrerie.fr score 75
+  + 488 meca-mic.com score 70
+  + 489 mecanique-g.com score 68
+  + 490 mecanique-m2p.fr score 80
+  + 491 med-metal.com score 92
+  + 492 meiko.com score 82
+  + 493 meirs.fr score 63
+  + 494 mendes-mecaniquegenerale.com score 100
+  + 495 menuiserie-ag.fr score 92
+  + 496 menuiserie-levieux.com score 100
+  + 497 menuiserie-second.fr score 92
+  + 498 menuiserieag.com score 92
+  + 499 metal-inox.fr score 100
+  + 500 metal-laser.com score 90
+  + 501 metal2000.fr score 92
+  + 502 metalium-industrie.fr score 90
+  + 503 metallerie-chatre.com score 90
+PAGES GENEREES: 23 | manifest: 483
