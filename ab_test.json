@@ -105,9 +105,9 @@
   "to": "pierre.desjardin@desjardins-sa.com"
  },
  "96": {
-  "variant": "A",
-  "subject": "3 points qui coutent des clients a R2C",
-  "to": "chanthara.sirivathana@r2c-aura.fr"
+  "variant": "C",
+  "subject": "Votre diagnostic est pret : r2c-aura.fr",
+  "to": "contact@r2c-aura.fr"
  },
  "97": {
   "variant": "B",
@@ -135,9 +135,9 @@
   "to": "marie.schoepf@usinage-alsace.com"
  },
  "102": {
-  "variant": "A",
-  "subject": "3 points qui coutent des clients a Maine Tolerie",
-  "to": "charlene.guillotin@maine-tolerie.fr"
+  "variant": "C",
+  "subject": "J'ai audite maine-tolerie.fr : 52/100",
+  "to": "contact@maine-tolerie.fr"
  },
  "103": {
   "variant": "B",
@@ -160,9 +160,9 @@
   "to": "stephanie.gresle@morel-decolletage.fr"
  },
  "107": {
-  "variant": "B",
-  "subject": "Question rapide sur votre site, Alpha Matieres Plastiques",
-  "to": "julie.leguillier@amp.fr"
+  "variant": "C",
+  "subject": "Votre diagnostic est pret : amp.fr",
+  "to": "contact@amp.fr"
  },
  "108": {
   "variant": "C",
@@ -180,9 +180,9 @@
   "to": "cedric.romera-vallin@axil-plasturgie.com"
  },
  "111": {
-  "variant": "B",
-  "subject": "Question rapide sur votre site, Bureau Etude Outillage Mecaniq Generale",
-  "to": "vincent.chouzenoux@bureau-vallee.fr"
+  "variant": "C",
+  "subject": "J'ai audite bureau-vallee.fr : 72/100",
+  "to": "contact@bureau-vallee.fr"
  },
  "112": {
   "variant": "C",
@@ -190,9 +190,9 @@
   "to": "joffrey.reu@decolletage-de-reu.com"
  },
  "113": {
-  "variant": "B",
-  "subject": "Question rapide sur votre site, Decolletage Elbe",
-  "to": "geoffroy.bene@decolletage-elbe.fr"
+  "variant": "C",
+  "subject": "Votre diagnostic est pret : decolletage-elbe.fr",
+  "to": "contact@decolletage-elbe.fr"
  },
  "114": {
   "variant": "C",
@@ -205,9 +205,9 @@
   "to": "patrick.baci@fonderiesdelarians.fr"
  },
  "116": {
-  "variant": "A",
-  "subject": "3 points qui coutent des clients a Fonderies De Nangis",
-  "to": "stephane.roch@fonderies-de-nangis.fr"
+  "variant": "C",
+  "subject": "Votre diagnostic est pret : fonderies-de-nangis.fr",
+  "to": "contact@fonderies-de-nangis.fr"
  },
  "117": {
   "variant": "B",
@@ -960,9 +960,9 @@
   "to": "cophyma@cophyma.fr"
  },
  "267": {
-  "variant": "B",
-  "subject": "Question rapide sur votre site, Deliotec",
-  "to": "hugo.demilly@deliotec.fr"
+  "variant": "C",
+  "subject": "Votre diagnostic est pret : deliotec.com",
+  "to": "contact@deliotec.fr"
  },
  "268": {
   "variant": "C",
