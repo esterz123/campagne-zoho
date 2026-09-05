@@ -525,11 +525,11 @@
   "num": 45,
   "prospect": "48 — AGRIPOLYANE (films plastiques agricoles)",
   "to": "contact@agripolyane.com",
-  "subject": "agripolyane.com : Votre site affiche des technologies des années 2010",
-  "body": "Bonjour,\n\nJ'ai ouvert agripolyane.com a l'instant. Deux choses me sautent aux yeux : pas de description : votre resultat Google affiche du texte bricolé, et 29 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "agripolyane.com : votre ligne Google est vide, et 11 photos sur 32 invisibles",
+  "body": "Bonjour,\n\nJ'ai ouvert agripolyane.com a l'instant. Deux choses me sautent aux yeux : aucune description sur la page d'accueil : dans les resultats Google, la ligne sous votre nom est vide ou remplie par un extrait au hasard, alors qu'elle devrait dire le truc simple : leader francais des films de serre, et 11 photos sur 32 sans texte alternatif : vos serres et vos installations, votre meilleur argument visuel, n'apparaissent pas dans Google Images. Dernier detail : le site n'a pas de sitemap, Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "to_confirmed": false,
   "site": "https://agripolyane.com",
-  "note": "ligne1-v2 0902"
+  "note": "ligne1-v2 0902 | MAJ 0905 corps recrit et objet remplace (backup campagne_data.json.bak-agripolyane-0905). Verifie live 05/09: HTTP 200, meta description ABSENTE (confirme), 32 img dont 11 sans alt (l ancien corps disait 29 photos sans legende: chiffre faux, corrige), robots.txt 200, sitemap.xml 404 (confirme), /contact/ 200, viewport OK, H1 present, WordPress + Slider Revolution 6.3.6 (meta generator)."
  },
  {
   "num": 46,
@@ -1362,7 +1362,7 @@
   "activite": "industrielle",
   "dirigeant": "VINCENT CHOUZENOUX",
   "subject": "J'ai audite bureau-vallee.fr : 72/100",
-  "body": "Bonjour,\n\nJ'ai ouvert bureau-vallee.fr a l'instant. Deux choses me sautent aux yeux : le site met 3.8 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\nJe ne vous propose rien aujourd'hui. Je regarde votre site rapidement et je vous partage deux ou trois éléments précis qui freinent vos prospects (temps de chargement, adaptation mobile, manque de preuves sociales)\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour M. BUREAU,\n\nJ'ai ouvert bureau-vallee.fr a l'instant. Deux choses me sautent aux yeux : le site met 3.8 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\nJe ne vous propose rien aujourd'hui. Je regarde votre site rapidement et je vous partage deux ou trois éléments précis qui freinent vos prospects (temps de chargement, adaptation mobile, manque de preuves sociales)\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "dirigeants_verifies",
   "to_confirmed": false,
   "note": "ligne1-v2 0902 | 05/09: ex-salarie vincent.chouzenoux@bureau-vallee.fr bounced, bascule contact@bureau-vallee.fr (site 200 + MX OK)"
@@ -1437,7 +1437,7 @@
   "activite": "fonderie",
   "dirigeant": "STEPHANE ROCH",
   "subject": "Votre diagnostic est pret : fonderies-de-nangis.fr",
-  "body": "Bonjour,\n\nJ'ai ouvert fonderies-de-nangis.fr a l'instant. Deux choses me sautent aux yeux : pas de description : votre resultat Google affiche du texte bricolé, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\nJe ne vous vends rien ici. Je regarde votre site en deux minutes et je vous partage exactement ce que vos prospects fuient : lenteur, mauvaise expérience mobile ou manque de confiance. Répondez simplement \"oui\" à ce mail, je vous envoie mes constats sous 48 h\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour M. ROCH,\n\nJ'ai ouvert fonderies-de-nangis.fr a l'instant. Deux choses me sautent aux yeux : pas de description : votre resultat Google affiche du texte bricolé, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\nJe ne vous vends rien ici. Je regarde votre site en deux minutes et je vous partage exactement ce que vos prospects fuient : lenteur, mauvaise expérience mobile ou manque de confiance. Répondez simplement \"oui\" à ce mail, je vous envoie mes constats sous 48 h\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "dirigeants_verifies",
   "to_confirmed": false,
   "note": "ligne1-v2 0902 | 05/09: ex-salarie stephane.roch@fonderies-de-nangis.fr bounced, bascule contact@fonderies-de-nangis.fr (site 200 + MX OK)"
@@ -3541,7 +3541,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : deliotec.com",
-  "body": "Bonjour,\n\nJ'ai ouvert deliotec.com a l'instant. Deux choses me sautent aux yeux : 14 photos sans legende : invisibles dans Google Images, et ni formulaire ni telephone cliquable : on ne peut pas vous joindre depuis le site.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour M. DEMILLY,\n\nJ'ai ouvert deliotec.com a l'instant. Deux choses me sautent aux yeux : 14 photos sans legende : invisibles dans Google Images, et ni formulaire ni telephone cliquable : on ne peut pas vous joindre depuis le site.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin",
   "note": "05/09: ex-salarie hugo.demilly@deliotec.fr bounced, bascule contact@deliotec.fr (site 200 + MX OK)"
  },
@@ -6037,7 +6037,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre site 1001-solutions.fr : diagnostic offert",
-  "body": "Bonjour,\n\nVotre site 1001-solutions.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert 1001-solutions.fr a l'instant. Deux choses me sautent aux yeux : 11 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6050,7 +6050,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre site compta-online.com : diagnostic offert",
-  "body": "Bonjour,\n\nVotre site compta-online.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert compta-online.com a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6063,7 +6063,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre site fidemeca.com : diagnostic offert",
-  "body": "Bonjour,\n\nVotre site fidemeca.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert fidemeca.com a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6075,8 +6075,8 @@
   "site": "https://groupe-efire.com",
   "activite": "industrielle",
   "dirigeant": "",
-  "subject": "Votre site groupe-efire.com : diagnostic offert",
-  "body": "Bonjour,\n\nVotre site groupe-efire.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "groupe-efire.com met 5 secondes a s'afficher (mesure a l'instant)",
+  "body": "Bonjour,\n\nJ'ai ouvert groupe-efire.com a l'instant. Deux choses me sautent aux yeux : le site met 4.6 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6089,7 +6089,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : kiloutou.fr",
-  "body": "Bonjour M. COLLEAU,\n\nVotre site kiloutou.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour M. COLLEAU,\n\nJe suis alle voir votre site ce matin. Plutot que de vous ecrire une longue lettre, je prefere vous montrer deux ou trois points en direct, ca prend cinq minutes. Diagnostic gratuit, sans engagement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6102,7 +6102,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : lm-platrerie.fr",
-  "body": "Bonjour M. MAGOR (MAGOR),\n\nVotre site lm-platrerie.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour M. MAGOR (MAGOR),\n\nJ'ai ouvert lm-platrerie.fr a l'instant. Deux choses me sautent aux yeux : pas de sitemap : Google decouvre vos pages tout seul, lentement, et mention legale figee en 2015 : le site parait abandonne.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6115,7 +6115,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : lmd-calorifuge.fr",
-  "body": "Bonjour,\n\nVotre site lmd-calorifuge.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert lmd-calorifuge.fr a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6128,7 +6128,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : lne.fr",
-  "body": "Bonjour Mme HENRY,\n\nVotre site lne.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour Mme HENRY,\n\nJ'ai ouvert lne.fr a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6140,8 +6140,8 @@
   "site": "https://lobsoleterie.fr",
   "activite": "industrielle",
   "dirigeant": "",
-  "subject": "Votre diagnostic est pret : lobsoleterie.fr",
-  "body": "Bonjour,\n\nVotre site lobsoleterie.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "Votre site lobsoleterie.fr ne s'ouvre pas ce matin",
+  "body": "Bonjour,\n\nJ'ai tape lobsoleterie.fr dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6154,7 +6154,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : lomatrans.com",
-  "body": "Bonjour,\n\nVotre site lomatrans.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert lomatrans.com a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6167,7 +6167,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : lopes-electricite-plomberie.fr",
-  "body": "Bonjour,\n\nVotre site lopes-electricite-plomberie.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert lopes-electricite-plomberie.fr a l'instant. Deux choses me sautent aux yeux : pas de description : votre resultat Google affiche du texte bricolé, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6180,7 +6180,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : lor-alu.fr",
-  "body": "Bonjour,\n\nVotre site lor-alu.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert lor-alu.fr a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6193,7 +6193,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : lpo-france.com",
-  "body": "Bonjour,\n\nVotre site lpo-france.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert lpo-france.com a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6206,7 +6206,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : lsz-avocat.fr",
-  "body": "Bonjour,\n\nVotre site lsz-avocat.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert lsz-avocat.fr a l'instant. Deux choses me sautent aux yeux : mention legale figee en 2017 : le site parait abandonne, et WordPress 3.8.41 : version majeure perimee, failles connues.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6218,8 +6218,8 @@
   "site": "https://maas-bt.com",
   "activite": "industrielle",
   "dirigeant": "",
-  "subject": "Votre diagnostic est pret : maas-bt.com",
-  "body": "Bonjour M. MAAS,\n\nVotre site maas-bt.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "maas-bt.com met 10 secondes a s'afficher (mesure a l'instant)",
+  "body": "Bonjour M. MAAS,\n\nJ'ai ouvert maas-bt.com a l'instant. Deux choses me sautent aux yeux : le site met 9.7 s a s'afficher, la moitie des visiteurs partent avant, et mention legale figee en 2016 : le site parait abandonne.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6231,8 +6231,8 @@
   "site": "https://macmahon-avocats.fr",
   "activite": "industrielle",
   "dirigeant": "",
-  "subject": "Votre diagnostic est pret : macmahon-avocats.fr",
-  "body": "Bonjour,\n\nVotre site macmahon-avocats.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "macmahon-avocats.fr met 3 secondes a s'afficher (mesure a l'instant)",
+  "body": "Bonjour,\n\nJ'ai ouvert macmahon-avocats.fr a l'instant. Le point qui me saute aux yeux : le site met 3.0 s a s'afficher, la moitie des visiteurs partent avant.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6244,8 +6244,8 @@
   "site": "https://madeinfr.fr",
   "activite": "industrielle",
   "dirigeant": "",
-  "subject": "Votre diagnostic est pret : madeinfr.fr",
-  "body": "Bonjour Mme GOBANCE (ROMEDENNE),\n\nVotre site madeinfr.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "madeinfr.fr met 4 secondes a s'afficher (mesure a l'instant)",
+  "body": "Bonjour Mme GOBANCE (ROMEDENNE),\n\nJ'ai ouvert madeinfr.fr a l'instant. Le point qui me saute aux yeux : le site met 3.9 s a s'afficher, la moitie des visiteurs partent avant.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6258,7 +6258,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : maintenance-industrielle-lyon.fr",
-  "body": "Bonjour,\n\nVotre site maintenance-industrielle-lyon.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert maintenance-industrielle-lyon.fr a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6271,7 +6271,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : maison-etanche.com",
-  "body": "Bonjour,\n\nVotre site maison-etanche.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert maison-etanche.com a l'instant. Le point qui me saute aux yeux : pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6283,8 +6283,8 @@
   "site": "https://manda.fr",
   "activite": "industrielle",
   "dirigeant": "",
-  "subject": "Votre diagnostic est pret : manda.fr",
-  "body": "Bonjour M. HARHAD,\n\nVotre site manda.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "Votre site manda.fr ne s'ouvre pas ce matin",
+  "body": "Bonjour M. HARHAD,\n\nJ'ai tape manda.fr dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6297,7 +6297,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : manustock.fr",
-  "body": "Bonjour,\n\nVotre site manustock.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert manustock.fr a l'instant. Le point qui me saute aux yeux : mention legale figee en 2015 : le site parait abandonne.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6310,7 +6310,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : arno-sas.fr",
-  "body": "Bonjour M. CABRAS,\n\nVotre site arno-sas.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour M. CABRAS,\n\nJ'ai ouvert arno-sas.fr a l'instant. Deux choses me sautent aux yeux : 13 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6323,7 +6323,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : marleva.net",
-  "body": "Bonjour,\n\nVotre site marleva.net n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert marleva.net a l'instant. Le point qui me saute aux yeux : pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6336,7 +6336,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : masson-agencement.com",
-  "body": "Bonjour,\n\nVotre site masson-agencement.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert masson-agencement.com a l'instant. Deux choses me sautent aux yeux : 18 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6349,7 +6349,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : materiel-levage.com",
-  "body": "Bonjour,\n\nVotre site materiel-levage.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert materiel-levage.com a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6362,7 +6362,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : mathis-carrosserie.com",
-  "body": "Bonjour M. MATHIS,\n\nVotre site mathis-carrosserie.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour M. MATHIS,\n\nJ'ai ouvert mathis-carrosserie.com a l'instant. Le point qui me saute aux yeux : 17 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6375,7 +6375,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : mdi-france.fr",
-  "body": "Bonjour M. VU,\n\nVotre site mdi-france.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour M. VU,\n\nJ'ai ouvert mdi-france.fr a l'instant. Le point qui me saute aux yeux : mention legale figee en 2015 : le site parait abandonne.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6387,8 +6387,8 @@
   "site": "https://me-platrerie.fr",
   "activite": "industrielle",
   "dirigeant": "",
-  "subject": "Votre diagnostic est pret : me-platrerie.fr",
-  "body": "Bonjour,\n\nVotre site me-platrerie.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "me-platrerie.fr met 6 secondes a s'afficher (mesure a l'instant)",
+  "body": "Bonjour,\n\nJ'ai ouvert me-platrerie.fr a l'instant. Deux choses me sautent aux yeux : le site met 5.7 s a s'afficher, la moitie des visiteurs partent avant, et mention legale figee en 2015 : le site parait abandonne.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6401,7 +6401,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "J'ai audite meca-mic.com : 70/100",
-  "body": "Bonjour M. GRUAND,\n\nVotre site meca-mic.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour M. GRUAND,\n\nJ'ai ouvert meca-mic.com a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6414,7 +6414,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "J'ai audite mecanique-g.com : 68/100",
-  "body": "Bonjour M. GICQUEL,\n\nVotre site mecanique-g.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour M. GICQUEL,\n\nJ'ai ouvert mecanique-g.com a l'instant. Deux choses me sautent aux yeux : 16 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6427,7 +6427,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : mecanique-m2p.fr",
-  "body": "Bonjour M. L'HONORE,\n\nVotre site mecanique-m2p.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour M. L'HONORE,\n\nJ'ai ouvert mecanique-m2p.fr a l'instant. Deux choses me sautent aux yeux : 16 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6440,7 +6440,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : med-metal.com",
-  "body": "Bonjour,\n\nVotre site med-metal.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert med-metal.com a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6453,7 +6453,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : meiko.com",
-  "body": "Bonjour M. CHABOT,\n\nVotre site meiko.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour M. CHABOT,\n\nJ'ai ouvert meiko.com a l'instant. Deux choses me sautent aux yeux : 73 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6465,8 +6465,8 @@
   "site": "https://meirs.fr",
   "activite": "industrielle",
   "dirigeant": "",
-  "subject": "J'ai audite meirs.fr : 63/100",
-  "body": "Bonjour M. VOLPE,\n\nVotre site meirs.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "meirs.fr met 5 secondes a s'afficher (mesure a l'instant)",
+  "body": "Bonjour M. VOLPE,\n\nJ'ai ouvert meirs.fr a l'instant. Deux choses me sautent aux yeux : le site met 5.0 s a s'afficher, la moitie des visiteurs partent avant, et 16 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6479,7 +6479,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : mendes-mecaniquegenerale.com",
-  "body": "Bonjour,\n\nVotre site mendes-mecaniquegenerale.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert mendes-mecaniquegenerale.com a l'instant. Deux choses me sautent aux yeux : seulement 2 pages : trop peu pour exister dans les recherches, et 9 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6492,7 +6492,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : menuiserie-ag.fr",
-  "body": "Bonjour M. AG,\n\nVotre site menuiserie-ag.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour M. AG,\n\nJ'ai ouvert menuiserie-ag.fr a l'instant. Deux choses me sautent aux yeux : pas de description : votre resultat Google affiche du texte bricolé, et 7 photos sans legende : invisibles dans Google Images.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6505,7 +6505,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : menuiserie-levieux.com",
-  "body": "Bonjour,\n\nVotre site menuiserie-levieux.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert menuiserie-levieux.com a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6518,7 +6518,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : menuiserie-second.fr",
-  "body": "Bonjour,\n\nVotre site menuiserie-second.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert menuiserie-second.fr a l'instant. Le point qui me saute aux yeux : ni formulaire ni telephone cliquable : on ne peut pas vous joindre depuis le site.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6531,7 +6531,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : menuiserieag.com",
-  "body": "Bonjour,\n\nVotre site menuiserieag.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert menuiserieag.com a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6543,8 +6543,8 @@
   "site": "https://metal-inox.fr",
   "activite": "industrielle",
   "dirigeant": "",
-  "subject": "Votre diagnostic est pret : metal-inox.fr",
-  "body": "Bonjour M. MOTTE,\n\nVotre site metal-inox.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "metal-inox.fr met 5 secondes a s'afficher (mesure a l'instant)",
+  "body": "Bonjour M. MOTTE,\n\nJ'ai ouvert metal-inox.fr a l'instant. Deux choses me sautent aux yeux : le site met 5.0 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6557,7 +6557,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : metal-laser.com",
-  "body": "Bonjour,\n\nVotre site metal-laser.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert metal-laser.com a l'instant. Deux choses me sautent aux yeux : 34 photos sans legende : invisibles dans Google Images, et WordPress 4.2.39 : version majeure perimee, failles connues.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6570,7 +6570,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : metal2000.fr",
-  "body": "Bonjour,\n\nVotre site metal2000.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert metal2000.fr a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6583,7 +6583,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre diagnostic est pret : metalium-industrie.fr",
-  "body": "Bonjour M. BOUCHER,\n\nVotre site metalium-industrie.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour M. BOUCHER,\n\nJ'ai ouvert metalium-industrie.fr a l'instant. Deux choses me sautent aux yeux : 4 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6595,8 +6595,8 @@
   "site": "https://metallerie-chatre.com",
   "activite": "industrielle",
   "dirigeant": "",
-  "subject": "Votre diagnostic est pret : metallerie-chatre.com",
-  "body": "Bonjour M. CARBON (AIGLON),\n\nVotre site metallerie-chatre.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "Votre site metallerie-chatre.com ne s'ouvre pas ce matin",
+  "body": "Bonjour M. CARBON (AIGLON),\n\nJ'ai tape metallerie-chatre.com dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  }
 ]
