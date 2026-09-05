@@ -8182,5 +8182,21 @@
   "siren": "791746928",
   "tranche": "02",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EXPERTISE COMPTABLE AGENCE 7",
+  "ville": "PONTAULT-COMBAULT",
+  "naf": "69.20Z",
+  "siren": "348142787",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "JLA EXPERTISE COMPTABLE & CONSEILS (JLA)",
+  "ville": "MARSEILLE",
+  "naf": "69.20Z",
+  "siren": "912218013",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
  }
 ]
