@@ -349,3 +349,71 @@ START ERR: {
   + 458 les-toliers.fr score 100
   + 459 levagemanutention.com score 92
 PAGES GENEREES: 20 | manifest: 439
+[2026-09-05 08:15:26] === CHASSE HEBDOMADAIRE ===
+[2026-09-05 08:15:26] Phase 0 - recolle systematique (60 niches Exa, dedup auto)
+[2026-09-05 08:16:31] candidats recoltes: 1140 -> 1155 (+15)
+[2026-09-05 08:16:31] Phase 1 - exa_bulk (collecte + extraction)
+[2026-09-05 08:16:36] sites candidats: 394
+== BULK LEADS: 0 -> /home/runner/work/campagne-zoho/campagne-zoho/_hebdo_exa.json
+[2026-09-05 08:16:36] Phase 2 - extract_seq (chunk dynamique 700)
+[2026-09-05 08:35:24] nne)
+  + maas-bt.com -> contact@maas-bt.com
+  + macmahon-avocats.fr -> accueil@macmahon-avocats.fr
+  - maconnerie-traditionnelle-gard.fr (sans email, marque scanne)
+  - maconneriechabrol.fr (sans email, marque scanne)
+  - made-in-bois.fr (sans email, marque scanne)
+  - madeforindustry.com (sans email, marque scanne)
+  + madeinfr.fr -> info@madeinfr.fr
+  - magnin-precision.fr (sans email, marque scanne)
+  + maintenance-industrielle-lyon.fr -> contact@maintenance-industrielle-lyon.fr
+  - maintenancetravauxindustriels.fr (sans email, marque scanne)
+  ...690/701, 675 leads jusqu'ici
+  + maison-etanche.com -> contact@maison-etanche.com
+  - maisonbionat.fr (sans email, marque scanne)
+  - maisondelaconstructionmetallique.com (sans email, marque scanne)
+  - manageo.fr (sans email, marque scanne)
+  - manceauoxy.fr (sans email, marque scanne)
+  + manda.fr -> contact@manda.fr
+  - mandon-architecte.fr (sans email, marque scanne)
+  - manlog.fr (sans email, marque scanne)
+  - manufacturedeforage.fr (sans email, marque scanne)
+  + manustock.fr -> ximun.darritchon@manustock.fr
+  - manutention-levage.com (sans email, marque scanne)
+
+a traiter [1:702] sur 701 candidats
+== TOTAL SEQUENTIEL LEADS: 686
+[2026-09-05 08:35:24] Phase 2ter err: name 'io' is not defined
+[2026-09-05 08:35:24] Phase 3 - Apify contact-info-scraper (emails JS)
+[2026-09-05 08:35:25] 
+URLs a traiter: 892
+START ERR: {
+  "error": {
+    "type": "not-enough-usage-to-run-paid-actor",
+    "message": "By launching this job you will exceed your remaining usage of $0.193544.  Consider upgrading to a paid plan at https://console.apify.com/billing/subscription"
+  }
+}
+
+[2026-09-05 08:35:25]   integre 0 depuis _exa_bulk_leads.json
+[2026-09-05 08:35:25] === CHASSE TERMINEE : +21 puis +0 prospects ===
+[2026-09-05 08:36:14] + 460 1001-solutions.fr score 100
+  + 461 compta-online.com score 88
+  + 462 fidemeca.com score 60
+  + 463 groupe-efire.com score 82
+  + 464 kiloutou.fr score 82
+  + 465 lm-platrerie.fr score 100
+  + 466 lmd-calorifuge.fr score 100
+  + 467 lne.fr score 100
+  + 468 lobsoleterie.fr score 90
+  + 469 lomatrans.com score 92
+  + 470 lopes-electricite-plomberie.fr score 92
+  + 471 lor-alu.fr score 100
+  + 472 lpo-france.com score 88
+  + 473 lsz-avocat.fr score 80
+  + 474 maas-bt.com score 100
+  + 475 macmahon-avocats.fr score 92
+  + 476 madeinfr.fr score 90
+  + 477 maintenance-industrielle-lyon.fr score 100
+  + 478 maison-etanche.com score 92
+  + 479 manda.fr score 90
+  + 480 manustock.fr score 100
+PAGES GENEREES: 21 | manifest: 460
