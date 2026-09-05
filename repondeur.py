@@ -383,11 +383,18 @@ def notify_discord(text):
     hook = os.environ.get("DISCORD_WEBHOOK")
     if not hook:
         return False
-    body = json.dumps({"content": text}).encode()
-    req = urllib.request.Request(hook, data=body, headers={"Content-Type": "application/json",
-                                                           "User-Agent": "campagne-bot/1.0"})
-    urllib.request.urlopen(req, timeout=20)
-    return True
+    # Discord rejette (400) tout content > 2000 chars : tronquer + ne jamais
+    # faire echouer le run pour une notif (fix 05/09 : run repondeur RED apres
+    # un rapport MAILINBLACK trop long alors que l'etat etait deja sauvegarde).
+    body = json.dumps({"content": text[:1900]}).encode()
+    try:
+        req = urllib.request.Request(hook, data=body, headers={"Content-Type": "application/json",
+                                                               "User-Agent": "campagne-bot/1.0"})
+        urllib.request.urlopen(req, timeout=20)
+        return True
+    except Exception as e:
+        print("[WARN] notify_discord a echoue (non bloquant) : %s" % str(e)[:120])
+        return False
 
 
 def main():
