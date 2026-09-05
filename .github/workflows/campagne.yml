@@ -10,11 +10,18 @@ name: Campagne emails Zoho
 on:
   schedule:
     - cron: '30 6 * * *'    # 08h30 Paris (7j/7 - weekend inclus, decision Mahdi 16/08)
+    - cron: '40 6 * * *'    # BACKUP 08h40 Paris : GitHub saute les crons en charge (06h30 jamais tire sur 40 runs du 03-05/09)
+    - cron: '50 6 * * *'    # BACKUP 08h50 Paris : 2e secours creneau matin (fenetre doree 8h-11h)
     - cron: '30 8 * * *'    # 10h30 Paris
+    - cron: '40 8 * * *'    # BACKUP 10h40 Paris
     - cron: '0 12 * * *'    # 14h00 Paris
+    - cron: '10 12 * * *'   # BACKUP 14h10 Paris
     - cron: '0 14 * * *'    # 16h00 Paris (ajoute 13/08 : 6/jour)
+    - cron: '10 14 * * *'   # BACKUP 16h10 Paris
     - cron: '0 16 * * *'    # 18h00 Paris
+    - cron: '10 16 * * *'   # BACKUP 18h10 Paris
     - cron: '0 17 * * *'    # 19h00 Paris
+    - cron: '10 17 * * *'   # BACKUP 19h10 Paris
   workflow_dispatch:          # bouton "Run workflow" = envoyer maintenant
     inputs:
       go2:
