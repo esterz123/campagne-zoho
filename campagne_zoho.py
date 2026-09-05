@@ -404,6 +404,8 @@ def main():
             continue  # bounce verifie : adresse morte, relancer = gaz par la fenetre + burn delivrabilite
         if num not in emails:
             continue  # fiche exclue des donnees (ex: SIMI) : pas de relance possible
+        if v.get("manual") or v.get("relance_closing_envoyee"):
+            continue  # lead manuel / closing deja envoye (SIMI, ITPLAST...) : conversation humaine, JAMAIS de relance auto
         if emails[num].get("to", "").strip().lower() in conges_to:
             continue  # relance dediee programmee (retour de conges) : pas de relance auto
         days = (datetime.date.today() - datetime.date.fromisoformat(v["on"])).days
@@ -413,7 +415,20 @@ def main():
             due_fu.append(("relance2", num))
         elif "sent_relance3" not in v and days >= fu.get("relance3", {}).get("wait_days", 99):
             due_fu.append(("relance3", num))
-    due_fu.sort(key=lambda x: (fu[x[0]].get("wait_days", 99), int(x[1])))
+    # FIX famine 05/09 : l'ancien tri (wait_days du stage) faisait passer TOUTES les rel1
+    # avant TOUTES les rel2/rel3 -> des qu'il y a >=3 rel1 dues par run, les rel2/rel3
+    # ne partaient JAMAIS (vecu : 129 rel1 vs 60 rel2 vs 0 rel3 envoyees).
+    # Nouveau tri : retard REEL = jours ecoules - attente du stage. Le plus en retard d'abord.
+    def _retard(item):
+        stage, num = item
+        v = sent.get(num, {})
+        try:
+            d0 = datetime.date.fromisoformat(str(v.get("on", ""))[:10])
+        except Exception:
+            return -1
+        wait = fu.get(stage, {}).get("wait_days", 99)
+        return (datetime.date.today() - d0).days - wait
+    due_fu.sort(key=_retard, reverse=True)
 
     quota = max(0, daily_max - len(sent_today))
     # LEVIER x1000 : jusqu'a 2 relances + 3 nouveaux par run (max_per_run=5, plafond boites intact)
