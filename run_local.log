@@ -295,3 +295,123 @@ json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
 json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 65 column 1 (char 1010)
 
 [2026-08-28 04:09:02] === RUN LOCAL termine ===
+[2026-09-05 19:08:40] === RUN LOCAL: campagne ===
+[2026-09-05 19:08:41]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:08:41]   C Restants : 250
+[2026-09-05 19:08:41] === RUN LOCAL: partenaires ===
+[2026-09-05 19:08:44]   P RELANCE partenaire #10 10 — PULSATION STUDIO WEB -> contact@pulsation.eco (via info)
+[2026-09-05 19:08:44] === RUN LOCAL termine ===
+[2026-09-05 19:08:52] === RUN LOCAL: campagne ===
+[2026-09-05 19:08:52]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:08:52]   C Restants : 250
+[2026-09-05 19:08:52] === RUN LOCAL: partenaires ===
+[2026-09-05 19:08:55]   P RELANCE partenaire #2 2 — AGENCE WEB P24 -> contact@agencewebp24.fr (via direction)
+[2026-09-05 19:08:55] === RUN LOCAL termine ===
+[2026-09-05 19:09:03] === RUN LOCAL: campagne ===
+[2026-09-05 19:09:04]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:09:04]   C Restants : 250
+[2026-09-05 19:09:04] === RUN LOCAL: partenaires ===
+[2026-09-05 19:09:06]   P RELANCE partenaire #20 20 — Cabinet Expert New -> contact@cabinetnew.fr (via hello)
+[2026-09-05 19:09:06] === RUN LOCAL termine ===
+[2026-09-05 19:09:14] === RUN LOCAL: campagne ===
+[2026-09-05 19:09:14]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:09:14]   C Restants : 250
+[2026-09-05 19:09:14] === RUN LOCAL: partenaires ===
+[2026-09-05 19:09:16]   P RELANCE partenaire #21 21 — Agence Digitale New -> contact@agencedigitalnew.fr (via contact)
+[2026-09-05 19:09:16] === RUN LOCAL termine ===
+[2026-09-05 19:09:24] === RUN LOCAL: campagne ===
+[2026-09-05 19:09:25]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:09:25]   C Restants : 250
+[2026-09-05 19:09:25] === RUN LOCAL: partenaires ===
+[2026-09-05 19:09:28]   P RELANCE partenaire #3 3 — ZEFYX -> contact@zefyx.fr (via commercial)
+[2026-09-05 19:09:28] === RUN LOCAL termine ===
+[2026-09-05 19:09:36] === RUN LOCAL: campagne ===
+[2026-09-05 19:09:36]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:09:36]   C Restants : 250
+[2026-09-05 19:09:36] === RUN LOCAL: partenaires ===
+[2026-09-05 19:09:38]   P RELANCE partenaire #4 4 — ANFCI (Agence Nationale Française en -> contact@anfci.fr (via commercial)
+[2026-09-05 19:09:38] === RUN LOCAL termine ===
+[2026-09-05 19:09:46] === RUN LOCAL: campagne ===
+[2026-09-05 19:09:47]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:09:47]   C Restants : 250
+[2026-09-05 19:09:47] === RUN LOCAL: partenaires ===
+[2026-09-05 19:09:49]   P RELANCE partenaire #5 5 — AGENCE WEB PERFORMANCE (Eroan BOYER) -> marylise@agencewebperformance.fr (via hello)
+[2026-09-05 19:09:49] === RUN LOCAL termine ===
+[2026-09-05 19:09:57] === RUN LOCAL: campagne ===
+[2026-09-05 19:09:57]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:09:57]   C Restants : 250
+[2026-09-05 19:09:57] === RUN LOCAL: partenaires ===
+[2026-09-05 19:09:59]   P RELANCE partenaire #6 6 — BOOKAN / AGENCE B:COM -> chreimen@groupebookan.com (via info)
+[2026-09-05 19:09:59] === RUN LOCAL termine ===
+[2026-09-05 19:10:07] === RUN LOCAL: campagne ===
+[2026-09-05 19:10:07]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:10:07]   C Restants : 250
+[2026-09-05 19:10:07] === RUN LOCAL: partenaires ===
+[2026-09-05 19:10:10]   P RELANCE partenaire #7 7 — WEB STUDIOS -> contact@web-studios.fr (via direction)
+[2026-09-05 19:10:10] === RUN LOCAL termine ===
+[2026-09-05 19:10:18] === RUN LOCAL: campagne ===
+[2026-09-05 19:10:19]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:10:19]   C Restants : 250
+[2026-09-05 19:10:19] === RUN LOCAL: partenaires ===
+[2026-09-05 19:10:21]   P RELANCE partenaire #8 8 — VIBIZ -> vbouvard@vibiz.fr (via direction)
+[2026-09-05 19:10:21] === RUN LOCAL termine ===
+[2026-09-05 19:10:29] === RUN LOCAL: campagne ===
+[2026-09-05 19:10:29]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:10:29]   C Restants : 250
+[2026-09-05 19:10:29] === RUN LOCAL: partenaires ===
+[2026-09-05 19:10:32]   P RELANCE partenaire #9 9 — MA PETITE COM -> contact@mapetitecom.fr (via commercial)
+[2026-09-05 19:10:32] === RUN LOCAL termine ===
+[2026-09-05 19:10:40] === RUN LOCAL: campagne ===
+[2026-09-05 19:10:40]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:10:40]   C Restants : 250
+[2026-09-05 19:10:40] === RUN LOCAL: partenaires ===
+[2026-09-05 19:10:40]   P File partenaires vide : toutes envoyees.
+[2026-09-05 19:10:40] === RUN LOCAL termine ===
+[2026-09-05 19:10:48] === RUN LOCAL: campagne ===
+[2026-09-05 19:10:49]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:10:49]   C Restants : 250
+[2026-09-05 19:10:49] === RUN LOCAL: partenaires ===
+[2026-09-05 19:10:49]   P File partenaires vide : toutes envoyees.
+[2026-09-05 19:10:49] === RUN LOCAL termine ===
+[2026-09-05 19:10:57] === RUN LOCAL: campagne ===
+[2026-09-05 19:10:57]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:10:57]   C Restants : 250
+[2026-09-05 19:10:57] === RUN LOCAL: partenaires ===
+[2026-09-05 19:10:57]   P File partenaires vide : toutes envoyees.
+[2026-09-05 19:10:57] === RUN LOCAL termine ===
+[2026-09-05 19:11:05] === RUN LOCAL: campagne ===
+[2026-09-05 19:11:05]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:11:05]   C Restants : 250
+[2026-09-05 19:11:05] === RUN LOCAL: partenaires ===
+[2026-09-05 19:11:06]   P File partenaires vide : toutes envoyees.
+[2026-09-05 19:11:06] === RUN LOCAL termine ===
+[2026-09-05 19:11:14] === RUN LOCAL: campagne ===
+[2026-09-05 19:11:14]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:11:14]   C Restants : 250
+[2026-09-05 19:11:14] === RUN LOCAL: partenaires ===
+[2026-09-05 19:11:14]   P File partenaires vide : toutes envoyees.
+[2026-09-05 19:11:14] === RUN LOCAL termine ===
+[2026-09-05 19:11:22] === RUN LOCAL: campagne ===
+[2026-09-05 19:11:22]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:11:22]   C Restants : 250
+[2026-09-05 19:11:22] === RUN LOCAL: partenaires ===
+[2026-09-05 19:11:22]   P File partenaires vide : toutes envoyees.
+[2026-09-05 19:11:22] === RUN LOCAL termine ===
+[2026-09-05 19:11:30] === RUN LOCAL: campagne ===
+[2026-09-05 19:11:31]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:11:31]   C Restants : 250
+[2026-09-05 19:11:31] === RUN LOCAL: partenaires ===
+[2026-09-05 19:11:31]   P File partenaires vide : toutes envoyees.
+[2026-09-05 19:11:31] === RUN LOCAL termine ===
+[2026-09-05 19:11:39] === RUN LOCAL: campagne ===
+[2026-09-05 19:11:39]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:11:39]   C Restants : 250
+[2026-09-05 19:11:39] === RUN LOCAL: partenaires ===
+[2026-09-05 19:11:39]   P File partenaires vide : toutes envoyees.
+[2026-09-05 19:11:39] === RUN LOCAL termine ===
+[2026-09-05 19:11:47] === RUN LOCAL: campagne ===
+[2026-09-05 19:11:48]   C Toutes les boites sont a leur plafond du jour
+[2026-09-05 19:11:48]   C Restants : 250
+[2026-09-05 19:11:48] === RUN LOCAL: partenaires ===
+[2026-09-05 19:11:48]   P File partenaires vide : toutes envoyees.
+[2026-09-05 19:11:48] === RUN LOCAL termine ===
