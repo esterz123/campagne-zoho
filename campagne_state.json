@@ -1439,18 +1439,20 @@
   "382": {
    "on": "2026-09-02",
    "messageId": "1788353857062155300",
-   "via": "direction",
+   "via": "hello",
    "status_code": 200,
    "to": "guillaume@gfavreau.fr",
-   "body": "<p>Bonjour,</p>\n<p>J'ai ouvert gfavreau.fr a l'instant. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et seulement 3 pages : trop peu pour exister dans les recherches.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. Testez vous-meme votre site en 30 secondes (gratuit, sans inscription) : https://mahdi-design.com/audit.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+   "body": "<p>Bonjour,</p>\n<p>J'ai ouvert gfavreau.fr a l'instant. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et seulement 3 pages : trop peu pour exister dans les recherches.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. Testez vous-meme votre site en 30 secondes (gratuit, sans inscription) : https://mahdi-design.com/audit.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com",
+   "sent_relance1": "2026-09-05"
   },
   "368": {
    "on": "2026-09-02",
    "messageId": "1788354043669138300",
-   "via": "contact",
+   "via": "commercial",
    "status_code": 200,
    "to": "contact@evolutrans.fr",
-   "body": "<p>Bonjour,</p>\n<p>J'ai ouvert evolutrans.fr a l'instant. Deux choses me sautent aux yeux : le site met 4.3 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, lentement.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/368.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+   "body": "<p>Bonjour,</p>\n<p>J'ai ouvert evolutrans.fr a l'instant. Deux choses me sautent aux yeux : le site met 4.3 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, lentement.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/368.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com",
+   "sent_relance1": "2026-09-05"
   },
   "168": {
    "on": "2026-09-02",
@@ -1754,6 +1756,22 @@
    "status_code": 200,
    "to": "contact@nplast-usinage.fr",
    "body": "<p>Bonjour,</p>\n<p>J'ai ouvert nplast-usinage.fr a l'instant. Deux choses me sautent aux yeux : WordPress 5.2.26 : version majeure perimee, failles connues, et ni formulaire ni telephone cliquable : on ne peut pas vous joindre depuis le site.<br>Je ne vous propose rien ici, juste un regard rapide sur votre site. En 30 minutes de diagnostic gratuit, je vous montre exactement ce que vos prospects fuient : lenteur, mauvaise expérience mobile, manque de crédibilité. Sans engagement, sans vente, juste des constats clairs.<br>Dites-moi simplement \"oui\" à ce mail, je vous envoie mes observations sous 48h</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/118.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "460": {
+   "on": "2026-09-05",
+   "messageId": "1788605845208155300",
+   "via": "info",
+   "status_code": 200,
+   "to": "contact@1001-solutions.fr",
+   "body": "<p>Bonjour,</p>\n<p>Votre site 1001-solutions.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/460.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "461": {
+   "on": "2026-09-05",
+   "messageId": "1788606027485155000",
+   "via": "direction",
+   "status_code": 200,
+   "to": "forum@compta-online.com",
+   "body": "<p>Bonjour,</p>\n<p>Votre site compta-online.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/461.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   }
  },
  "done_notified": false
