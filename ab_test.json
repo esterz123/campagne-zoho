@@ -1675,7 +1675,7 @@
   "to": "info@lne.fr"
  },
  "468": {
-  "variant": "C",
+  "variant": "OLD",
   "subject": "Votre diagnostic est pret : lobsoleterie.fr",
   "to": "hello@lobsoleterie.fr"
  },
@@ -1730,7 +1730,7 @@
   "to": "contact@maison-etanche.com"
  },
  "479": {
-  "variant": "C",
+  "variant": "OLD",
   "subject": "Votre diagnostic est pret : manda.fr",
   "to": "contact@manda.fr"
  },
@@ -1850,7 +1850,7 @@
   "to": "contact@metalium-industrie.fr"
  },
  "503": {
-  "variant": "C",
+  "variant": "OLD",
   "subject": "Votre diagnostic est pret : metallerie-chatre.com",
   "to": "contact@metallerie-chatre.com"
  },
