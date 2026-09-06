@@ -433,7 +433,10 @@ def main():
     quota = max(0, daily_max - len(sent_today))
     # LEVIER x1000 : jusqu'a 2 relances + 3 nouveaux par run (max_per_run=5, plafond boites intact)
     quota = min(quota, max_per_run)
-    todo_fu = due_fu[:min(quota, 3)]
+    # FIX backlog 06/09 : 86 relances dues (44 a J+14+, hors fenetre froide J+7-21 en retard
+    # median de 5 jours). Slice 3 -> 4 relances/run (quota 5 : 4 relances + 1 nouveau).
+    # Le tri _retard fait partir les plus en retard d'abord. Reversible : revenir a min(quota, 3).
+    todo_fu = due_fu[:min(quota, 4)]
     todo = remaining[:min(max(0, quota - len(todo_fu)), 3)]
     # Si quota=2 : 2 relances. Si quota=5 : 2 relances + 3 nouveaux en meme run. DELAY_S=180s protege la delivrabilite.
 
