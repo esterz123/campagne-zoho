@@ -17774,5 +17774,42 @@
   "constat": "J'ai tape metallerie-chatre.com dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.",
   "deja_envoye": false,
   "sonde_le": "2026-09-05 11:01"
+ },
+ "504": {
+  "site_brut": "https://dominguescouverture.fr",
+  "domaine": "dominguescouverture.fr",
+  "etat": "VIVANT",
+  "mort_nx": false,
+  "https": true,
+  "ssl_valide": true,
+  "http_seul": false,
+  "temps_s": 2.18,
+  "mobile": true,
+  "titre": "Domingues Couverture : Entreprise de couverture à Paris",
+  "meta_desc": true,
+  "wp_version": "4.9.31",
+  "img_sans_alt": 29,
+  "img_total": 31,
+  "sitemap": true,
+  "robots": true,
+  "pages_internes": 38,
+  "une_seule_page": false,
+  "parking": false,
+  "copyright": null,
+  "pirate": "",
+  "tel": false,
+  "formulaire": false,
+  "fichier": "https://dominguescouverture.fr",
+  "erreur": "",
+  "num": "504",
+  "note": 71,
+  "griefs": [
+   "29 photos sans legende : invisibles dans Google Images",
+   "WordPress 4.9.31 : version majeure perimee, failles connues",
+   "ni formulaire ni telephone cliquable : on ne peut pas vous joindre depuis le site"
+  ],
+  "constat": "J'ai ouvert dominguescouverture.fr a l'instant. Deux choses me sautent aux yeux : 29 photos sans legende : invisibles dans Google Images, et WordPress 4.9.31 : version majeure perimee, failles connues.",
+  "deja_envoye": false,
+  "sonde_le": "2026-09-06 13:57"
  }
 }
