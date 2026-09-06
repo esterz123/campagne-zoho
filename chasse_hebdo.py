@@ -123,7 +123,7 @@ def main():
                     {e.get("to","").lower() for e in json.load(open(os.path.join(BASE, "campagne_data.json"), encoding="utf-8"))}]
         if nouveaux:
             io_email = os.path.join(BASE, "_smtp_queue.txt")
-            io.open(io_email, "w", encoding="utf-8", newline="").write(chr(10).join(x["email"] for x in nouveaux))
+            open(io_email, "w", encoding="utf-8", newline="").write(chr(10).join(x["email"] for x in nouveaux))
             code_v, out_v = safe_run("smtp_verif.py", "60", timeout=900)
             log("Phase 2ter - SMTP verify: " + out_v[-400:])
     except Exception as e:

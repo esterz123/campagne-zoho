@@ -1258,5 +1258,33 @@
   "feminin": false,
   "siren": "829201268",
   "enseigne": "SAS A2R METALLERIE (SAS A2R METALLERIE)"
+ },
+ "r2c : conception, realisation de moules et injecti": {},
+ "nom de domaine, prestataire rfrencement, hbergemen": {},
+ "distributeur de polymere thermoplastique": {},
+ "bureau": {
+  "nom": "BUREAU",
+  "prenom": "Cyril",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "344159827",
+  "enseigne": "BUREAU"
+ },
+ "decolletage de precision &amp; usinage cn": {},
+ "fonderies de nangis": {
+  "nom": "ROCH",
+  "prenom": "Stephane",
+  "qualite": "Président de SAS",
+  "feminin": false,
+  "siren": "346980188",
+  "enseigne": "FONDERIES DE NANGIS"
+ },
+ "deliotec": {
+  "nom": "DEMILLY",
+  "prenom": "Hugo Florian",
+  "qualite": "Gérant",
+  "feminin": false,
+  "siren": "934990334",
+  "enseigne": "DELIOTEC"
  }
 }

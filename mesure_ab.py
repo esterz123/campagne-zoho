@@ -15,15 +15,18 @@ def main():
     # reponses: le repondeur marque replied dans campagne_state
     st = json.load(open(os.path.join(BASE, "campagne_state.json"), encoding="utf-8"))["sent"]
     resp = {k for k, v in st.items() if v.get("replied")}
-    n = {"A": {"env": 0, "rep": 0}, "B": {"env": 0, "rep": 0}}
+    n = {"A": {"env": 0, "rep": 0}, "B": {"env": 0, "rep": 0}, "C": {"env": 0, "rep": 0}}
     for num, v in ab.items():
         var = v.get("variant", "A")
+        n.setdefault(var, {"env": 0, "rep": 0})
         n[var]["env"] += 1
         if num in resp:
             n[var]["rep"] += 1
     lignes = []
     lignes.append("=== TABLEAU DE BORD A/B (sujets) %s ===" % datetime.date.today())
-    for var, label in (("A", "A: 3 points qui coutent des clients"), ("B", "B: Question rapide sur votre site")):
+    labels = {"A": "A: 3 points qui coutent des clients", "B": "B: Question rapide sur votre site", "C": "C: Score dans le sujet"}
+    for var in sorted(n):
+        label = labels.get(var, var + ": (sans libelle)")
         e, r = n[var]["env"], n[var]["rep"]
         tx = (100.0 * r / e) if e else 0.0
         lignes.append("%s | envois: %3d | reponses: %d | taux: %.1f%%" % (label.ljust(36), e, r, tx))
