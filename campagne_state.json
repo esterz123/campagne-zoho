@@ -1804,7 +1804,9 @@
    "via": "commercial",
    "status_code": 200,
    "to": "u002f@kiloutou.fr",
-   "body": "<p>Bonjour M. COLLEAU,</p>\n<p>Je suis alle voir votre site ce matin. Plutot que de vous ecrire une longue lettre, je prefere vous montrer deux ou trois points en direct, ca prend cinq minutes. Diagnostic gratuit, sans engagement.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. Testez vous-meme votre site en 30 secondes (gratuit, sans inscription) : https://mahdi-design.com/audit.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+   "body": "<p>Bonjour M. COLLEAU,</p>\n<p>Je suis alle voir votre site ce matin. Plutot que de vous ecrire une longue lettre, je prefere vous montrer deux ou trois points en direct, ca prend cinq minutes. Diagnostic gratuit, sans engagement.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. Testez vous-meme votre site en 30 secondes (gratuit, sans inscription) : https://mahdi-design.com/audit.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com",
+   "bounce": true,
+   "note": "06/09: email corrompu u002f (= / encode), Kiloutou hors cible PME, relances bloquees"
   },
   "102": {
    "on": "2026-09-06",
