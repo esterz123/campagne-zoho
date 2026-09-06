@@ -487,3 +487,34 @@ START ERR: {
   + 502 metalium-industrie.fr score 90
   + 503 metallerie-chatre.com score 90
 PAGES GENEREES: 23 | manifest: 483
+[2026-09-06 09:34:23] === CHASSE HEBDOMADAIRE ===
+[2026-09-06 09:34:23] Phase 0 - recolle systematique (60 niches Exa, dedup auto)
+[2026-09-06 09:35:37] candidats recoltes: 1165 -> 1170 (+5)
+[2026-09-06 09:35:37] Phase 1 - exa_bulk (collecte + extraction)
+[2026-09-06 09:35:45] sites candidats: 450
+== BULK LEADS: 0 -> /home/runner/work/campagne-zoho/campagne-zoho/_hebdo_exa.json
+[2026-09-06 09:35:45] Phase 2 - extract_seq (chunk dynamique 700)
+[2026-09-06 09:37:02] - 6-napse.com (sans email, marque scanne)
+  + dominguescouverture.fr -> contact@dominguescouverture.fr
+  - fr.indeed.com (sans email, marque scanne)
+
+a traiter [8:716] sur 708 candidats
+== TOTAL SEQUENTIEL LEADS: 745
+[2026-09-06 09:37:03] Phase 2ter - SMTP verify: Traceback (most recent call last):
+  File "/home/runner/work/campagne-zoho/campagne-zoho/smtp_verif.py", line 11, in <module>
+    import json, os, re, sys, socket, smtplib, dns.resolver, dns.exception
+ModuleNotFoundError: No module named 'dns'
+[2026-09-06 09:37:03] Phase 3 - Apify contact-info-scraper (emails JS)
+[2026-09-06 09:37:03] 
+URLs a traiter: 883
+START ERR: {
+  "error": {
+    "type": "not-enough-usage-to-run-paid-actor",
+    "message": "By launching this job you will exceed your remaining usage of $0.193544.  Consider upgrading to a paid plan at https://console.apify.com/billing/subscription"
+  }
+}
+
+[2026-09-06 09:37:03]   integre 0 depuis _exa_bulk_leads.json
+[2026-09-06 09:37:03] === CHASSE TERMINEE : +1 puis +0 prospects ===
+[2026-09-06 09:37:05] + 504 dominguescouverture.fr score 100
+PAGES GENEREES: 1 | manifest: 484
