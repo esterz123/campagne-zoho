@@ -298,7 +298,11 @@ def main():
             existant = json.load(f) or []
     except Exception:
         existant = []
-    existant.extend(fiches)
+    # Dedup : ne jamais re-ajouter un SIREN deja present dans le fichier (vecu 06/09 :
+    # 2 entreprises dupliquees 17x chacune par des runs repetes)
+    deja_siren = {str(f0.get("siren")) for f0 in existant if f0.get("siren")}
+    nouvelles = [f for f in fiches if str(f.get("siren")) not in deja_siren]
+    existant.extend(nouvelles)
     with open("nouveau_prospects.json", "w", encoding="utf-8") as f:
         json.dump(existant, f, ensure_ascii=False, indent=1)
     print("Total nouvelles fiches ce jour : %d (accumulees : %d)"
