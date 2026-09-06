@@ -8198,5 +8198,21 @@
   "siren": "912218013",
   "tranche": "02",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "PHI-ACTIO EXPERTISE COMPTABLE",
+  "ville": "PERPIGNAN",
+  "naf": "69.20Z",
+  "siren": "802468579",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE D'EXPERTISE COMPTABLE DU PARISIS (SECP)",
+  "ville": "BOULOGNE-BILLANCOURT",
+  "naf": "69.20Z",
+  "siren": "712063817",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
  }
 ]
