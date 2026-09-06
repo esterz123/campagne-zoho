@@ -1601,7 +1601,7 @@
  },
  "434": {
   "variant": "C",
-  "subject": "Votre diagnostic est pret : khadiri.com",
+  "subject": "J'ai audite khadiri.com : 57/100",
   "to": "contact@khadiri.com"
  },
  "435": {
@@ -1666,7 +1666,7 @@
  },
  "466": {
   "variant": "C",
-  "subject": "Votre diagnostic est pret : lmd-calorifuge.fr",
+  "subject": "Question rapide sur votre site, Lmd Calorifuge",
   "to": "contact@lmd-calorifuge.fr"
  },
  "467": {
@@ -1701,12 +1701,12 @@
  },
  "473": {
   "variant": "C",
-  "subject": "Votre diagnostic est pret : lsz-avocat.fr",
+  "subject": "J'ai audite lsz-avocat.fr : 55/100",
   "to": "contact@lsz-avocat.fr"
  },
  "474": {
   "variant": "C",
-  "subject": "Votre diagnostic est pret : maas-bt.com",
+  "subject": "Question rapide sur votre site, Maas Bt",
   "to": "contact@maas-bt.com"
  },
  "475": {
@@ -1761,12 +1761,12 @@
  },
  "485": {
   "variant": "C",
-  "subject": "Votre diagnostic est pret : mathis-carrosserie.com",
+  "subject": "J'ai audite mathis-carrosserie.com : 67/100",
   "to": "mathis@mathis-carrosserie.com"
  },
  "486": {
   "variant": "C",
-  "subject": "Votre diagnostic est pret : mdi-france.fr",
+  "subject": "J'ai audite mdi-france.fr : 63/100",
   "to": "contact@mdi-france.fr"
  },
  "487": {
@@ -1853,5 +1853,10 @@
   "variant": "C",
   "subject": "Votre diagnostic est pret : metallerie-chatre.com",
   "to": "contact@metallerie-chatre.com"
+ },
+ "504": {
+  "variant": "C",
+  "subject": "Votre diagnostic est pret : dominguescouverture.fr",
+  "to": "contact@dominguescouverture.fr"
  }
 }

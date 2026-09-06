@@ -53,17 +53,17 @@ def objet_pour(p):
     if p.get("etat") == "BLOQUE" or note is None:
         return None
     if p.get("etat") != "VIVANT":
-        return "Votre site %s ne s'ouvre pas ce matin" % dom
+        return "Votre site %s ne s'ouvre pas" % dom
     if p.get("parking"):
         return "%s affiche une page de parking, pas votre entreprise" % dom
     if p.get("http_seul"):
         return "Chrome affiche 'non securise' sur %s" % dom
     if note < 60:
-        return "J'ai audite %s ce matin: %d/100" % (dom, note)
+        return "J'ai audite %s: %d/100" % (dom, note)
     if p.get("mobile") is False:
-        return "Votre site est illisible sur telephone, je viens de verifier"
+        return "Votre site est illisible sur telephone"
     if p.get("temps_s") and p["temps_s"] > 3:
-        return "%s met %.0f secondes a s'afficher (mesure a l'instant)" % (dom, p["temps_s"])
+        return "%s met %.0f secondes a s'afficher" % (dom, p["temps_s"])
     return None  # site correct : objet d'origine, constat honnête dans le corps
 
 
@@ -107,7 +107,7 @@ def main():
         if not constat:
             # Site qui refuse le robot : on ne peut RIEN mesurer, donc on
             # n'affirme RIEN (règle 13/08). Formule honnête, sans Google.
-            constat = ("Je suis alle voir votre site ce matin. Plutot que de vous ecrire "
+            constat = ("Je suis alle voir votre site. Plutot que de vous ecrire "
                        "une longue lettre, je prefere vous montrer deux ou trois points "
                        "en direct, ca prend cinq minutes. Diagnostic gratuit, sans engagement.")
         if not constat:
