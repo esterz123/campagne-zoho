@@ -2299,10 +2299,11 @@
   "site": "https://pieraut.fr",
   "activite": "industrielle",
   "dirigeant": "",
-  "subject": "pieraut.fr met 7 secondes a s'afficher",
-  "body": "Bonjour,\nJ'ai ouvert pieraut.fr. Deux choses me sautent aux yeux : le site met 7.3 s a s'afficher, la moitie des visiteurs partent avant, et 13 photos sans legende : invisibles dans Google Images.\nJe ne vous vends rien ici. Je regarde votre site en deux minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). Répondez simplement \"oui\" à ce mail et je vous envoie mes constats sous 48 h\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "pieraut.fr : votre bouton Contact ouvre une adresse qui n existe pas",
+  "body": "Bonjour,\n\nJ'ai ouvert pieraut.fr et j'ai voulu vous ecrire directement depuis votre site. Le bouton Contact en haut de la page d'accueil ouvre l'adresse mailto:mailto:contact@pieraut.fr : elle est invalide, le logiciel de messagerie refuse de creer le message. Un donneur d'ordres presse qui clique dessus au lieu de composer votre numero tombe sur un message d'erreur et repart chez un concurrent.\n\nDeux autres choses, mesurees ce matin :\n13 photos sur 17 sans texte alternatif : vos chantiers, votre meilleur argument, n'apparaissent pas dans Google Images ; et 3 titres H1 sur la page d'accueil (PROJETS REALISES, NOTRE ACTUALITE, Nos agences) : Google ne peut pas dire en une ligne ce que vous faites.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "apify_contact",
-  "to_confirmed": false
+  "to_confirmed": true,
+  "note": "MAJ 07/09 corps recrit et objet remplace (backup campagne_data.json.bak-pieraut-0907). Verifie en live 07/09: HTTP 200, bouton Contact de l'en-tete href=mailto:mailto:contact@pieraut.fr (adresse invalide, confirme sur le code source, en-tete mfn-header-icon-box), 13/17 img sans alt, 3 H1 sur l'accueil (PROJETS REALISES / NOTRE ACTUALITE / Nos agences), meta description presente (ne pas affirmer son absence). Vitesse variable 1,06 a 7,84 s sur 5 essais: chiffre 7,3 s de l'ancien corps non soutenable en objet, retire. | ligne1-v2 0907"
  },
  {
   "num": 176,
