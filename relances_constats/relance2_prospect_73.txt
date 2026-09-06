@@ -1,13 +1,13 @@
-OBJET: Re : aplast.fr met 3 secondes a s'afficher (mesure a l'instant)
+OBJET: Re : aplast.fr met 3 secondes a s'afficher
 
 Bonjour M. LACOUR,
 
-C'est ma dernière prise de contact au sujet de votre site. Concrètement : aplast.fr met 3 secondes a s'afficher (mesure a l'instant).
+C'est ma dernière prise de contact au sujet de votre site. Concrètement : aplast.fr met 3 secondes a s'afficher.
 
 Je voulais vous laisser un résumé des observations que j'ai relevées, pour que vous puissiez en faire ce que vous voulez, même si nous ne travaillons jamais ensemble :
 
 • Je ne vous vends rien aujourd'hui. En deux minutes d'analyse, je peux vous montrer précisément ce que vos prospects fuient sur votre site : un chargement lent, une expérience mobile médiocre, ou un ma
-• J'ai ouvert aplast.fr a l'instant. Le point qui me saute aux yeux : le site met 3.1 s a s'afficher, la moitie des visiteurs partent avant.
+• J'ai ouvert aplast.fr. Le point qui me saute aux yeux : le site met 3.1 s a s'afficher, la moitie des visiteurs partent avant.
 
 Si l'un de ces points vous préoccupe, mon diagnostic gratuit reste disponible (48h pour le recevoir, vous le gardez, sans engagement). Une simple réponse suffit.
 

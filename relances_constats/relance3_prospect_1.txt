@@ -4,7 +4,7 @@ Bonjour,
 
 Je ne vous relancerai plus apres ce mail, promis. Juste une derniere chose, factuelle.
 
-• J'ai ouvert simi.fr a l'instant. Deux choses me sautent aux yeux : aucune version mobile : le site n'a aucune balise viewport, donc sur un telephone le texte sort minuscule et Google declasse simi.fr 
+• J'ai ouvert simi.fr. Deux choses me sautent aux yeux : aucune version mobile : le site n'a aucune balise viewport, donc sur un telephone le texte sort minuscule et Google declasse simi.fr 
 • Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmast
 
 Ces points releves sur votre site ne bougeront pas tout seuls. Si un jour vous voulez y voir clair, le diagnostic gratuit reste disponible : une reponse suffit, vous gardez le rapport, sans engagement. Sinon, je m'arrete la et je vous souhaite de bons chantiers.

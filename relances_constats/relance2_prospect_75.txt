@@ -6,7 +6,7 @@ C'est ma dernière prise de contact au sujet de votre site. Concrètement : dmg-
 
 Je voulais vous laisser un résumé des observations que j'ai relevées, pour que vous puissiez en faire ce que vous voulez, même si nous ne travaillons jamais ensemble :
 
-• J'ai ouvert dmg-decoupage.com a l'instant. Deux choses me sautent aux yeux : 3 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.
+• J'ai ouvert dmg-decoupage.com. Deux choses me sautent aux yeux : 3 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.
 • Je ne vous propose rien pour l'instant. Je regarde votre site en 2 minutes et je vous partage mes constats sur ce qui freine vos prospects : vitesse de chargement, adaptation mobile, ou manque de conf
 
 Si l'un de ces points vous préoccupe, mon diagnostic gratuit reste disponible (48h pour le recevoir, vous le gardez, sans engagement). Une simple réponse suffit.

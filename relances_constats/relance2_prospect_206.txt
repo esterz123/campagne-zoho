@@ -1,12 +1,12 @@
-OBJET: Re : ogier-tolerie.fr met 5 secondes a s'afficher (mesure a l'instant)
+OBJET: Re : ogier-tolerie.fr met 5 secondes a s'afficher
 
 Bonjour M. Ogier,
 
-C'est ma dernière prise de contact au sujet de votre site. Concrètement : ogier-tolerie.fr met 5 secondes a s'afficher (mesure a l'instant).
+C'est ma dernière prise de contact au sujet de votre site. Concrètement : ogier-tolerie.fr met 5 secondes a s'afficher.
 
 Je voulais vous laisser un résumé des observations que j'ai relevées, pour que vous puissiez en faire ce que vous voulez, même si nous ne travaillons jamais ensemble :
 
-• J'ai ouvert ogier-tolerie.fr a l'instant. Deux choses me sautent aux yeux : le site met 5.1 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout se
+• J'ai ouvert ogier-tolerie.fr. Deux choses me sautent aux yeux : le site met 5.1 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout se
 • Je ne vous vends rien ici. En 2 minutes d'analyse, je vous montre exactement ce que vos prospects fuient sur votre site : lenteur, mauvaise adaptation mobile, manque de repères rassurants. Répondez si
 • Un point vérifiable sur votre site en 2 minutes par votre équipe.
 

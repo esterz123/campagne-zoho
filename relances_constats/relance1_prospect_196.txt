@@ -6,7 +6,7 @@ Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 
 Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
-• J'ai ouvert fonderiealupervieux.fr a l'instant. Le point qui me saute aux yeux : pas de sitemap : Google decouvre vos pages tout seul, lentement.
+• J'ai ouvert fonderiealupervieux.fr. Le point qui me saute aux yeux : pas de sitemap : Google decouvre vos pages tout seul, lentement.
 • Je ne vous propose rien aujourd'hui. Je jette un œil à votre site pendant deux minutes et je vous liste clairement ce qui manque pour convertir (vitesse de chargement, adaptation mobile, éléments de c
 • Un point vérifiable sur votre site en 2 minutes par votre équipe.
 

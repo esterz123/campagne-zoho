@@ -7,7 +7,7 @@ C'est ma dernière prise de contact au sujet de votre site. Concrètement : Votr
 Je voulais vous laisser un résumé des observations que j'ai relevées, pour que vous puissiez en faire ce que vous voulez, même si nous ne travaillons jamais ensemble :
 
 • Je ne vous vends rien ici. Je regarde votre site pendant deux minutes et je vous partage, sans filtre, ce que vos prospects fuient : la lenteur, une expérience mobile médiocre, ou encore un manque de 
-• J'ai ouvert asindus.com a l'instant. Le point qui me saute aux yeux : pas de sitemap : Google decouvre vos pages tout seul, lentement.
+• J'ai ouvert asindus.com. Le point qui me saute aux yeux : pas de sitemap : Google decouvre vos pages tout seul, lentement.
 
 Si l'un de ces points vous préoccupe, mon diagnostic gratuit reste disponible (48h pour le recevoir, vous le gardez, sans engagement). Une simple réponse suffit.
 

@@ -6,7 +6,7 @@ C'est ma dernière prise de contact au sujet de votre site. Concrètement : Votr
 
 Je voulais vous laisser un résumé des observations que j'ai relevées, pour que vous puissiez en faire ce que vous voulez, même si nous ne travaillons jamais ensemble :
 
-• J'ai ouvert fonderiealupervieux.fr a l'instant. Le point qui me saute aux yeux : pas de sitemap : Google decouvre vos pages tout seul, lentement.
+• J'ai ouvert fonderiealupervieux.fr. Le point qui me saute aux yeux : pas de sitemap : Google decouvre vos pages tout seul, lentement.
 • Je ne vous propose rien aujourd'hui. Je jette un œil à votre site pendant deux minutes et je vous liste clairement ce qui manque pour convertir (vitesse de chargement, adaptation mobile, éléments de c
 • Un point vérifiable sur votre site en 2 minutes par votre équipe.
 

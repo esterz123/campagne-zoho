@@ -1,4 +1,4 @@
-OBJET: Re : aplast.fr met 3 secondes a s'afficher (mesure a l'instant)
+OBJET: Re : aplast.fr met 3 secondes a s'afficher
 
 Bonjour M. LACOUR,
 
@@ -7,7 +7,7 @@ Je reviens vers vous au sujet de mon email d'il y a quelques jours.
 Plutôt que de vous demander de me croire sur parole, voici ce que j'ai concrètement trouvé sur votre site :
 
 • Je ne vous vends rien aujourd'hui. En deux minutes d'analyse, je peux vous montrer précisément ce que vos prospects fuient sur votre site : un chargement lent, une expérience mobile médiocre, ou un ma
-• J'ai ouvert aplast.fr a l'instant. Le point qui me saute aux yeux : le site met 3.1 s a s'afficher, la moitie des visiteurs partent avant.
+• J'ai ouvert aplast.fr. Le point qui me saute aux yeux : le site met 3.1 s a s'afficher, la moitie des visiteurs partent avant.
 
 Ces points sont vérifiables par votre équipe en 2 minutes. Ce sont des signaux que vos visiteurs voient AVANT de vous faire confiance.
 
