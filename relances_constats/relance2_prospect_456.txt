@@ -7,7 +7,7 @@ C'est ma dernière prise de contact au sujet de votre site. Concrètement : lele
 Je voulais vous laisser un résumé des observations que j'ai relevées, pour que vous puissiez en faire ce que vous voulez, même si nous ne travaillons jamais ensemble :
 
 • Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.
-• J'ai ouvert leleusas.com. Deux choses me sautent aux yeux : le site met 3.6 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, 
+• J'ai ouvert leleusas.com. Deux choses me sautent aux yeux : le site met 3.6 s a s'afficher, la moitie des visiteurs partent avant, et pas de sitemap : Google decouvre vos pages tout seul, lentement.
 
 Si l'un de ces points vous préoccupe, mon diagnostic gratuit reste disponible (48h pour le recevoir, vous le gardez, sans engagement). Une simple réponse suffit.
 
