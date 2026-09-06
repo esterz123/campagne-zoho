@@ -33,15 +33,17 @@
    "messageId": "1786524420320155000",
    "note": "; DELIVRE via clic Mailinblack par Mahdi le 2026-08-14",
    "sent_relance1": "2026-08-15",
-   "via": "contact",
-   "sent_relance2": "2026-08-19"
+   "via": "hello",
+   "sent_relance2": "2026-08-19",
+   "sent_relance3": "2026-09-06"
   },
   "5": {
    "on": "2026-08-12",
    "messageId": "1786524421023155100",
    "sent_relance1": "2026-08-15",
    "via": "info",
-   "sent_relance2": "2026-08-25"
+   "sent_relance2": "2026-08-25",
+   "sent_relance3": "2026-09-06"
   },
   "6": {
    "on": "2026-08-12",
@@ -461,10 +463,11 @@
   "66": {
    "on": "2026-08-18",
    "messageId": "1787065294871155100",
-   "via": "hello",
+   "via": "contact",
    "replied": false,
    "note": "faux positif corrige (pas de reponse mpe-prod en boite)",
-   "sent_relance1": "2026-08-25"
+   "sent_relance1": "2026-08-25",
+   "sent_relance2": "2026-09-06"
   },
   "29": {
    "on": "2026-08-27",
@@ -1755,6 +1758,14 @@
    "status_code": 200,
    "to": "marketing@groupe-efire.com",
    "body": "<p>Bonjour,</p>\n<p>Votre site groupe-efire.com n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/463.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "468": {
+   "on": "2026-09-06",
+   "messageId": "1788693897110138400",
+   "via": "direction",
+   "status_code": 200,
+   "to": "hello@lobsoleterie.fr",
+   "body": "<p>Bonjour,</p>\n<p>J'ai tape lobsoleterie.fr dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/468.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   }
  },
  "done_notified": false
