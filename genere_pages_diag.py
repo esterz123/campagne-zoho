@@ -144,7 +144,7 @@ def main():
         # 31/08 P3 (audit Boss) : les DEJA-ENVOYES sans page recoivent aussi leur page
         # (le closer et les relances peuvent encore la leur servir). On ne saute
         # que ceux qui ont deja une page dans le manifeste.
-        if num in man: continue
+        if num in man and os.path.exists(os.path.join(DIAG_DIR, "%s.html" % num)): continue
         site = (e.get("site") or "").strip()
         if not site: continue
         dom, constats, score = scan(site)
