@@ -113,26 +113,29 @@
   },
   "13": {
    "on": "2026-08-15",
-   "via": "commercial",
+   "via": "info",
    "reconcilie": true,
    "doublon": false,
    "note": "reconcilie depuis la boite (1x envoye)",
    "sent_relance1": "2026-08-18",
-   "sent_relance2": "2026-08-27"
+   "sent_relance2": "2026-08-27",
+   "sent_relance3": "2026-09-06"
   },
   "14": {
    "on": "2026-08-15",
    "doublon": true,
-   "via": "hello",
+   "via": "direction",
    "sent_relance1": "2026-08-18",
-   "sent_relance2": "2026-08-27"
+   "sent_relance2": "2026-08-27",
+   "sent_relance3": "2026-09-06"
   },
   "15": {
    "on": "2026-08-15",
    "doublon": true,
-   "via": "info",
+   "via": "contact",
    "sent_relance1": "2026-08-18",
-   "sent_relance2": "2026-08-27"
+   "sent_relance2": "2026-08-27",
+   "sent_relance3": "2026-09-06"
   },
   "16": {
    "on": "2026-08-15",
@@ -1788,6 +1791,14 @@
    "status_code": 200,
    "to": "contact@metallerie-chatre.com",
    "body": "<p>Bonjour M. CARBON (AIGLON),</p>\n<p>J'ai tape metallerie-chatre.com dans mon navigateur ce matin : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/503.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "464": {
+   "on": "2026-09-06",
+   "messageId": "1788708951068155300",
+   "via": "commercial",
+   "status_code": 200,
+   "to": "u002f@kiloutou.fr",
+   "body": "<p>Bonjour M. COLLEAU,</p>\n<p>Je suis alle voir votre site ce matin. Plutot que de vous ecrire une longue lettre, je prefere vous montrer deux ou trois points en direct, ca prend cinq minutes. Diagnostic gratuit, sans engagement.</p>\n<p>Je ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.</p>\n<p>Repondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. Testez vous-meme votre site en 30 secondes (gratuit, sans inscription) : https://mahdi-design.com/audit.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
   }
  },
  "done_notified": false
