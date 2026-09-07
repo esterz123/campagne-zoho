@@ -319,28 +319,32 @@
    "messageId": "1786958499501155100",
    "via": "contact",
    "sent_relance1": "2026-08-20",
-   "sent_relance2": "2026-08-29"
+   "sent_relance2": "2026-08-29",
+   "sent_relance3": "2026-09-07"
   },
   "41": {
    "on": "2026-08-17",
    "messageId": "1786959222078155300",
    "via": "commercial",
    "sent_relance1": "2026-08-20",
-   "sent_relance2": "2026-08-29"
+   "sent_relance2": "2026-08-29",
+   "erreurs_envoi": 1
   },
   "42": {
    "on": "2026-08-17",
    "messageId": "1786959944913138400",
    "via": "direction",
    "sent_relance1": "2026-08-20",
-   "sent_relance2": "2026-08-29"
+   "sent_relance2": "2026-08-29",
+   "erreurs_envoi": 1
   },
   "43": {
    "on": "2026-08-17",
    "messageId": "1786969394214155100",
    "via": "contact",
    "sent_relance1": "2026-08-20",
-   "sent_relance2": "2026-08-29"
+   "sent_relance2": "2026-08-29",
+   "erreurs_envoi": 1
   },
   "44": {
    "on": "2026-08-17",
