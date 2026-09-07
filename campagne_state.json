@@ -31,11 +31,12 @@
   "4": {
    "on": "2026-08-12",
    "messageId": "1786524420320155000",
-   "note": "; DELIVRE via clic Mailinblack par Mahdi le 2026-08-14",
+   "note": "; DELIVRE via clic Mailinblack par Mahdi le 2026-08-14 | auto 07/09: domaine dans domaines_bloques.json, relance bloquee pour proteger delivrabilite",
    "sent_relance1": "2026-08-15",
    "via": "hello",
    "sent_relance2": "2026-08-19",
-   "sent_relance3": "2026-09-06"
+   "sent_relance3": "2026-09-06",
+   "bounce": true
   },
   "5": {
    "on": "2026-08-12",
@@ -174,9 +175,10 @@
   "20": {
    "on": "2026-08-16",
    "messageId": "1786872053869155000",
-   "via": "info",
+   "via": "commercial",
    "sent_relance1": "2026-08-19",
-   "sent_relance2": "2026-08-27"
+   "sent_relance2": "2026-08-27",
+   "sent_relance3": "2026-09-07"
   },
   "21": {
    "on": "2026-08-16",
@@ -576,8 +578,9 @@
    "status_code": 200,
    "to": "contact@oaca.fr",
    "body": "<p>Bonjour Jean-Pierre BILLIARD,</p>\n<p>Je suis Mahdi, designer de marque pour PME industrielles. En passant sur appcell.fr, j'ai noté un point qui peut faire hésiter un donneur d'ordre :</p>\n<p>1. Un point vérifiable sur votre site en 2 minutes</p>\n<p>Ces points sont vérifiables par votre équipe en 2 minutes. Pour un client qui compare 3 sous-traitants, c'est souvent ce genre de détail qui fait la différence entre « partenaire crédible » et « fournisseur daté ».</p>\n<p>Je vous envoie, gratuitement et sans engagement, un diagnostic de 10 pages qui détaille ces points et les compare à 2 de vos concurrents directs. Vous le gardez, que nous travaillions ensemble ou non.</p>\n<p>Répondez simplement « oui » et je vous l'envoie sous 48h.</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com",
-   "note": "bounce detecte 2026-09-03 | bounce retire 05/09: SMTP vivant verifie (verify_smtp), recuperation prospect",
-   "sent_relance1": "2026-08-31"
+   "note": "bounce detecte 2026-09-03 | bounce retire 05/09: SMTP vivant verifie (verify_smtp), recuperation prospect | auto 07/09: domaine dans domaines_bloques.json, relance bloquee pour proteger delivrabilite",
+   "sent_relance1": "2026-08-31",
+   "bounce": true
   },
   "78": {
    "on": "2026-08-28",
