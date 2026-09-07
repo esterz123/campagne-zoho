@@ -8214,5 +8214,21 @@
   "siren": "712063817",
   "tranche": "02",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE EXPERTISE COMPTABLE ESC2",
+  "ville": "AIX-EN-PROVENCE",
+  "naf": "69.20Z",
+  "siren": "383402203",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "BLARD & VITRY EXPERTISE COMPTABLE (BVEC)",
+  "ville": "PETITE-ILE",
+  "naf": "69.20Z",
+  "siren": "903301943",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
  }
 ]
