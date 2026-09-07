@@ -98,6 +98,18 @@ def openrouter_decision(c, dernier_brief):
             print("  modele %s KO: %s" % (model, str(e)[:80]))
     return None
 
+def _workflow_dernier_run(wf):
+    """Date ISO du dernier run d'un workflow via gh api (sans LLM, sans secrets)."""
+    import subprocess
+    try:
+        r = subprocess.run(
+            ["gh", "api", "repos/esterz123/campagne-zoho/actions/workflows/" + wf +
+             "/runs?per_page=1", "--jq", ".workflow_runs[0].created_at"],
+            capture_output=True, text=True, timeout=30)
+        return (r.stdout or "").strip()
+    except Exception:
+        return ""
+
 def actions_automatiques(c):
     acts = []
     if c["restants"] < 100:
@@ -109,6 +121,27 @@ def actions_automatiques(c):
             acts.append("0 envoi aujourd hui: run campagne declenche")
         except Exception as e:
             print("  trigger campagne KO:", str(e)[:80])
+    # GARDIEN REPONSES (07/09) : le cron */15 du repondeur saute des heures entieres
+    # (vecu 07/09 : mort de 23h la veille a 10h49 = reponses clients sans reponse 4h+,
+    # alors que <15 min = facteur n1 de conversion). Si le dernier run du repondeur
+    # date de > 90 min, on le declenche. Idem closer (> 60 min). Reversible : un run
+    # en trop est sans effet (lecture seule des boites, dry-safe).
+    now = datetime.datetime.utcnow()
+    for wf, seuil_min in (("repondeur.yml", 90), ("closer.yml", 60)):
+        last = _workflow_dernier_run(wf)
+        try:
+            dt = datetime.datetime.strptime(last[:19], "%Y-%m-%dT%H:%M:%S")
+            age_min = (now - dt).total_seconds() / 60
+        except Exception:
+            age_min = None
+        if age_min is None or age_min > seuil_min:
+            try:
+                subprocess_gh({"repondeur.yml": "Repondeur IA", "closer.yml": "Closer IA"}[wf])
+                acts.append("%s muet %s -> run declenche" %
+                            (wf, ("%.0f min" % age_min) if age_min is not None else "(inconnu)"))
+                print("  gardien: %s declenche (age %s)" % (wf, age_min))
+            except Exception as e:
+                print("  trigger %s KO:" % wf, str(e)[:80])
     return acts
 
 def subprocess_gh(workflow):
