@@ -511,7 +511,15 @@ def main():
             sent[num]["sent_" + stage] = today
             lines.append("DOUBLON evite (deja envoye aujourd'hui, toutes boites) : %s" % e["to"])
             continue
-        r = send_email(token_pour(boite), subject, content, e["to"], e.get("cc", ""), boite)
+        # FIX 07/09 : un 500/429 Zoho sur UNE fiche ne doit plus tuer le run
+        # (vecu 07/09 : run mort en boucle 3h sur la meme relance #40).
+        try:
+            r = send_email(token_pour(boite), subject, content, e["to"], e.get("cc", ""), boite)
+        except Exception as exc:
+            sent[num]["erreurs_envoi"] = sent[num].get("erreurs_envoi", 0) + 1
+            save_state(state)
+            lines.append("ECHEC %s #%s -> %s : %s (skip, reessaie au prochain run)" % (stage, num, e["to"], exc))
+            continue
         sent[num]["sent_" + stage] = today
         sent[num]["via"] = boite["nom"]
         save_state(state)  # fix 16/08 : sauvegarde APRES CHAQUE envoi (un crash ne perd plus rien)
@@ -558,7 +566,15 @@ def main():
             sent[num] = {"on": today, "doublon": True, "via": boite["nom"]}
             lines.append("DOUBLON evite (deja envoye aujourd'hui, toutes boites) : %s" % e["to"])
             continue
-        r = send_email(token_pour(boite), e["subject"], content, e["to"], e.get("cc", ""), boite)
+        try:
+            r = send_email(token_pour(boite), e["subject"], content, e["to"], e.get("cc", ""), boite)
+        except Exception as exc:
+            # FIX 07/09 : idem, un 500 sur un nouveau ne tue plus le run
+            sent[num] = sent.get(num) or {"erreurs_envoi": 0}
+            sent[num]["erreurs_envoi"] = sent[num].get("erreurs_envoi", 0) + 1
+            save_state(state)
+            lines.append("ECHEC #%s -> %s : %s (skip, reessaie au prochain run)" % (num, e["to"], exc))
+            continue
         resp = r  # fix 27/08 : send_email retourne DEJA le JSON parse (double-parse = crash)
         sent[num] = {"on": today, "messageId": str(resp.get("data", {}).get("messageId", "")), "via": boite["nom"],
                      "status_code": resp.get("status", {}).get("code"),
