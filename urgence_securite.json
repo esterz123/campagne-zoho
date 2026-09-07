@@ -58,6 +58,7 @@
   "url": "https://arc-colorant.com",
   "probleme": "WP_OBSOLETE",
   "details": [
+   "SSL absent : le site repond en http, pas de https",
    "WordPress 4.7 (vulnerabilites connues non corrigees)"
   ],
   "note": 3,
@@ -764,6 +765,17 @@
   "ville": "VINAY"
  },
  {
+  "url": "https://alencon-plastic.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "ALENCON PLASTIC",
+  "email": "contact@alencon-plastic.com",
+  "ville": ""
+ },
+ {
   "url": "https://slicom-group.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -816,6 +828,17 @@
   "note": 0,
   "nom": "46 — Sa Amd Decolletage",
   "email": "sales@amd-decolletage.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://alencon-plastic.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "49 — Alencon Plastic (plasturgie, groupe",
+  "email": "contact@alencon-plastic.com",
   "ville": ""
  },
  {
@@ -874,17 +897,6 @@
   "ville": ""
  },
  {
-  "url": "https://cnrtl.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@cnrtl.fr",
-  "ville": ""
- },
- {
   "url": "https://dis-bourasseau.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -918,6 +930,17 @@
   "ville": ""
  },
  {
+  "url": "https://adiamix.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "admin@adiamix.com",
+  "ville": ""
+ },
+ {
   "url": "https://carrosserie-ats.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -926,17 +949,6 @@
   "note": 0,
   "nom": "",
   "email": "ats@carrosserie-ats.com",
-  "ville": ""
- },
- {
-  "url": "https://eurl-joachim-calorifuge.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@eurl-joachim-calorifuge-33.fr",
   "ville": ""
  },
  {
