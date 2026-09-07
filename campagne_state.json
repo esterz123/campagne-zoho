@@ -287,28 +287,32 @@
    "messageId": "1786952659610155000",
    "via": "info",
    "sent_relance1": "2026-08-20",
-   "sent_relance2": "2026-08-28"
+   "sent_relance2": "2026-08-28",
+   "sent_relance3": "2026-09-07"
   },
   "37": {
    "on": "2026-08-17",
    "messageId": "1786953381564138400",
    "via": "direction",
    "sent_relance1": "2026-08-20",
-   "sent_relance2": "2026-08-28"
+   "sent_relance2": "2026-08-28",
+   "sent_relance3": "2026-09-07"
   },
   "38": {
    "on": "2026-08-17",
    "messageId": "1786954103941138400",
    "via": "contact",
    "sent_relance1": "2026-08-20",
-   "sent_relance2": "2026-08-28"
+   "sent_relance2": "2026-08-28",
+   "sent_relance3": "2026-09-07"
   },
   "39": {
    "on": "2026-08-17",
    "messageId": "1786957777088155300",
-   "via": "contact",
+   "via": "commercial",
    "sent_relance1": "2026-08-20",
-   "sent_relance2": "2026-08-28"
+   "sent_relance2": "2026-08-28",
+   "sent_relance3": "2026-09-07"
   },
   "40": {
    "on": "2026-08-17",
