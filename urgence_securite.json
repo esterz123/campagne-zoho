@@ -259,6 +259,51 @@
   "ville": ""
  },
  {
+  "url": "https://lsz-avocat.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 3.8 (vulnerabilites connues non corrigees)",
+   "Copyright 2017 : site non mis a jour depuis des annees"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@lsz-avocat.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://menuiserie-ag.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 4.9 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@menuiserie-ag.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://metal-laser.com",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 4.2 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "oxy@metal-laser.com",
+  "ville": ""
+ },
+ {
+  "url": "https://dominguescouverture.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 4.9 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@dominguescouverture.fr",
+  "ville": ""
+ },
+ {
   "url": "https://eberhard.de",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -413,7 +458,6 @@
   "url": "https://sitralindustrie.fr",
   "probleme": "SITE_DATÉ",
   "details": [
-   "SSL absent : le site repond en http, pas de https",
    "Copyright 2015 : site non mis a jour depuis des annees"
   ],
   "note": 2,
@@ -554,6 +598,17 @@
   "ville": ""
  },
  {
+  "url": "https://hmc-metal.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@hmc-metal.fr",
+  "ville": ""
+ },
+ {
   "url": "https://elige-avocats.com",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -573,6 +628,73 @@
   "note": 2,
   "nom": "",
   "email": "contact@bourdoncle.com",
+  "ville": ""
+ },
+ {
+  "url": "https://lm-platrerie.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@lm-platrerie.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://maas-bt.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Theme WordPress : tech-life",
+   "Copyright 2016 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@maas-bt.com",
+  "ville": ""
+ },
+ {
+  "url": "https://manustock.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "ximun.darritchon@manustock.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://mdi-france.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@mdi-france.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://me-platrerie.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@me-platrerie.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://metal-inox.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@metal-inox.fr",
   "ville": ""
  },
  {
@@ -609,17 +731,6 @@
   "ville": "MARNAZ"
  },
  {
-  "url": "https://gilletsa.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Gillet Decolletage",
-  "email": "",
-  "ville": "DANNEMARIE-SUR-CRETE"
- },
- {
   "url": "https://petite.co.uk",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -651,17 +762,6 @@
   "nom": "Baxter Injection",
   "email": "",
   "ville": "VINAY"
- },
- {
-  "url": "https://alencon-plastic.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "ALENCON PLASTIC",
-  "email": "contact@alencon-plastic.com",
-  "ville": ""
  },
  {
   "url": "https://slicom-group.com",
@@ -716,17 +816,6 @@
   "note": 0,
   "nom": "46 — Sa Amd Decolletage",
   "email": "sales@amd-decolletage.fr",
-  "ville": ""
- },
- {
-  "url": "https://alencon-plastic.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "49 — Alencon Plastic (plasturgie, groupe",
-  "email": "contact@alencon-plastic.com",
   "ville": ""
  },
  {
@@ -829,17 +918,6 @@
   "ville": ""
  },
  {
-  "url": "https://adiamix.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "admin@adiamix.com",
-  "ville": ""
- },
- {
   "url": "https://carrosserie-ats.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -851,6 +929,17 @@
   "ville": ""
  },
  {
+  "url": "https://eurl-joachim-calorifuge.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@eurl-joachim-calorifuge-33.fr",
+  "ville": ""
+ },
+ {
   "url": "https://cnr.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -859,28 +948,6 @@
   "note": 0,
   "nom": "",
   "email": "cnr@cnr.fr",
-  "ville": ""
- },
- {
-  "url": "https://hmc-metal.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@hmc-metal.fr",
-  "ville": ""
- },
- {
-  "url": "https://formatype.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "rh@formatype.com",
   "ville": ""
  }
 ]
