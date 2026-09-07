@@ -591,5 +591,7 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as exc:  # noqa: BLE001 — le cron doit remonter l'erreur
+        import traceback
         sys.stderr.write("ERREUR campagne_zoho: %s\n" % exc)
+        traceback.print_exc()
         sys.exit(1)
