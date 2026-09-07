@@ -99,7 +99,12 @@ def main():
         sent[num] = {"on": today, "boite": boite["nom"], "note": "doublon/erreur"}
         save_state(st)
         return 1
-    cz.send_email(token, e["subject"], e["body"], e["to"], boite=boite)
+    # fix 07/09 : un 500 Zoho ici tuait tout le run partenaires (vecu 18:39) -> skip + reessaie au prochain run
+    try:
+        cz.send_email(token, e["subject"], e["body"], e["to"], boite=boite)
+    except Exception as exc:
+        print("ECHEC partenaire #%s -> %s : %s (skip, reessaie au prochain run)" % (num, e["to"], str(exc)[:120]))
+        return 1
     sent[num] = {"on": today, "boite": boite["nom"]}
     save_state(st)
     print("PARTENAIRE envoye #%s %s -> %s (via %s)" % (num, e["prospect"][:40], e["to"], boite["nom"]))
