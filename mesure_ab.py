@@ -11,7 +11,8 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 
 LABELS = {"A": "A: 3 points qui coutent des clients",
           "B": "B: Question rapide sur votre site",
-          "C": "C: curiosite diagnostic pret (06/09)"}
+          "C": "C: score mesure dans l'objet (06/09)",
+          "S": "S: standard (diagnostic est pret)"}
 
 def main():
     write = "--write" in sys.argv
@@ -19,8 +20,13 @@ def main():
     # reponses: le repondeur marque replied dans campagne_state
     st = json.load(open(os.path.join(BASE, "campagne_state.json"), encoding="utf-8"))["sent"]
     resp = {k for k, v in st.items() if isinstance(v, dict) and v.get("replied")}
+    # aplatir : entrees directes + structure imbriquee C_test.num_variant
+    flat = {k: v for k, v in ab.items() if isinstance(v, dict) and "variant" in v}
+    ct = ab.get("C_test", {}).get("num_variant", {})
+    for num, var in ct.items():
+        flat[num] = {"variant": var}
     n = {}
-    for num, v in ab.items():
+    for num, v in flat.items():
         var = v.get("variant", "A")
         n.setdefault(var, {"env": 0, "rep": 0})
         n[var]["env"] += 1

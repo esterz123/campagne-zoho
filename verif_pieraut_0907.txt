@@ -1,0 +1,10 @@
+accueil status=200 url=https://www.pieraut.fr/ bytes=261762 t=2.93s
+meta_description=60 ans d&#039;expertise Pieraut électricité sécurise vos installations avec des solutions sur mesure en câblage, IRVE et
+nb_liens_mailto=6 doubles=['mailto:mailto:contact@pieraut.fr']
+ancre_cassee: texte='contact@pieraut.fr' bouton=False
+contexte='fr" class="mfn-icon-box mfn-header-icon-box mfn-icon-box-left mfn-icon-box-center mfn-header-link" title=""><div class="icon-wrapper"><i class="icon-email" aria-hidden="true"></i></div><div class="desc-wrapper ">contact@pieraut.fr</div></a></div></div><div  cl'
+H1_exact=['PROJETS RÉALISÉS', 'NOTRE ACTUALITÉ', 'Nos agences']
+img_total=17 sans_alt=13
+vitesse essai1: 2.09 s, 261762 octets, HTTP 200
+vitesse essai2: 7.84 s, 261762 octets, HTTP 200
+vitesse essai3: 1.06 s, 261762 octets, HTTP 200

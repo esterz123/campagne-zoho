@@ -1,0 +1,38 @@
+===== num=172 site=https://injectionplastic.com =====
+status=200 final_url=https://injectionplastic.com bytes=47891
+title=Pierre Bercher SA - Injection plastique
+meta_description=Pierre Bercher SA – Spécialiste suisse de l
+viewport=PRESENT
+nb_h1=0 h1_contenus=[]
+img_total=27 img_sans_alt=0
+generator=ABSENT
+google_fonts=[]
+liens_internes_uniques=2 ['aide-memoire.html', 'mailto:info@injectionplastic.com']
+robots.txt status=200 content=b'User-agent: *\nCrawl-delay: 10\n'
+sitemap.xml status=None bytes=25
+
+===== num=154 site=https://boutte.fr =====
+status=200 final_url=https://www.boutte.fr/ bytes=18773
+title=Groupe Boutté, industrie et distribution depuis 1867
+meta_description=Depuis 1867, le groupe Boutté réunit expertise industrielle, décolletage de précision et solutions de plomberie et d’arrosage.
+viewport=PRESENT
+nb_h1=1 h1_contenus=['Choisissez un univers Boutté']
+img_total=4 img_sans_alt=4
+generator=ABSENT
+google_fonts=[]
+liens_internes_uniques=4 ['/decolletage', '/entreprise', '/plomberie-arrosage', 'https://www.boutte.fr/']
+robots.txt status=200 content=b'User-agent: *\nAllow: /\n\nSitemap: https://www.boutte.fr/sitemap-index.xml\n'
+sitemap.xml status=None bytes=25
+
+===== num=175 site=https://pieraut.fr =====
+status=200 final_url=https://www.pieraut.fr/ bytes=261762
+title=Pieraut électricité - Au service des pro
+meta_description=60 ans d&#039;expertise Pieraut électricité sécurise vos installations avec des solutions sur mesure en câblage, IRVE et vidéosurveillance!
+viewport=PRESENT
+nb_h1=3 h1_contenus=['PROJETS RÉALISÉS', 'NOTRE ACTUALITÉ', 'Nos agences']
+img_total=17 img_sans_alt=13
+generator=Powered by Slider Revolution 6.7.29 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.
+google_fonts=['Plus+Jakarta+Sans', 'Roboto']
+liens_internes_uniques=9 ['//fonts.googleapis.com', '//fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Roboto:wght@500&display=swap', '//tracker.wpserveur.net', '//www.pieraut.fr', 'https://pieraut.fr/', 'https://www.pieraut.fr', 'https://www.pieraut.fr/', 'mailto:contact@pieraut.fr', 'mailto:mailto:contact@pieraut.fr']
+robots.txt status=200 content=b'# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitem'
+sitemap.xml status=200 bytes=775

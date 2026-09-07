@@ -1,0 +1,84 @@
+======================================================================
+num 7 | 7 — ATP Applications Techniques des Plastiques (La Ferté-Bernard, 72) | https://plastiques-atp.fr
+objet: Votre site plastiques-atp.fr ne s'ouvre pas
+corps:
+Bonjour,
+
+J'ai tape plastiques-atp.fr dans mon navigateur : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.
+
+Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie
+
+Cordialement,
+Mahdi
+Portfolio : mahdi-design.com
+note: EXCEPTION dirigee: dirigeant introuvable via API (garde Bonjour, generique) | ligne1-v2 0902
+======================================================================
+num 8 | 8 — JSM Perrin (Châlette-sur-Loing, 45) | https://jsmperrin.fr
+objet: jsmperrin.fr : Votre site est illisible sur telephone, je viens de verifier
+corps:
+Bonjour M. Bourrelier,
+
+J'ai ouvert jsmperrin.fr. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et pas de sitemap : Google decouvre vos pages tout seul, lentement.
+
+Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie
+
+Cordialement,
+Mahdi
+Portfolio : mahdi-design.com
+note: ligne1-v2 0902
+======================================================================
+num 9 | 9 — Usimeca Prod (Sorbiers, 42) | https://usimeca.fr
+objet: usimeca.fr : Votre site reflète-t-il la précision que vous offrez en usinage ?
+corps:
+Bonjour M. Masson,
+
+J'ai ouvert usimeca.fr. Le point qui me saute aux yeux : une seule page : Google n'a rien a indexer sur vos metiers.
+
+Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie
+
+Cordialement,
+Mahdi
+Portfolio : mahdi-design.com
+note: ligne1-v2 0902
+======================================================================
+num 10 | 10 — Remiplast (Saint-Aubin-lès-Elbeuf, 76) | https://remiplast.com
+objet: remiplast.com : Vos prospects industriels cherchent des pièces techniques en plastique, pas des énigmes.
+corps:
+Bonjour M. Regent,
+
+J'ai ouvert remiplast.com. Deux choses me sautent aux yeux : une seule page : Google n'a rien a indexer sur vos metiers, et ni formulaire ni telephone cliquable : on ne peut pas vous joindre depuis le site.
+
+Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie
+
+Cordialement,
+Mahdi
+Portfolio : mahdi-design.com
+note: ligne1-v2 0902
+======================================================================
+num 11 | 11 — ITPLAST (Sarreguemines, 57) | https://itplast.com
+objet: Chrome affiche 'non securise' sur itplast.com
+corps:
+Bonjour M. Muller,
+
+J'ai ouvert itplast.com. Deux choses me sautent aux yeux : pas de HTTPS : Chrome affiche une alerte rouge 'non securise', et aucune version mobile : Google declasse le site sur telephone.
+
+Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie
+
+Cordialement,
+Mahdi
+Portfolio : mahdi-design.com
+note: ligne1-v2 0902
+======================================================================
+num 12 | 12 — BG Plastic (Rhône, 69) | https://bgplastic.com
+objet: bgplastic.com : Votre site affiche 2015, vos prospects comparent avec 2026
+corps:
+Bonjour M. Boumertit,
+
+J'ai ouvert bgplastic.com. Deux choses me sautent aux yeux : 24 photos sans legende : invisibles dans Google Images, et pas de sitemap : Google decouvre vos pages tout seul, lentement.
+
+Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie
+
+Cordialement,
+Mahdi
+Portfolio : mahdi-design.com
+note: ligne1-v2 0902

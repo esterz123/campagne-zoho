@@ -1,0 +1,69 @@
+=== num=90 ===
+  activite : plasturgie
+  body : Bonjour M. MAX SIMI, / J'ai ouvert simi.fr. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et une seule page : Google n'a rien a indexer sur vos metiers. / Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie /  / Cordialement, / Mahdi / Portfolio : mahdi-design.com
+  dirigeant : OLIVIER MAX SIMI
+  nom : SIMI
+  num : 90
+  prenom : 
+  siren : 
+  site : https://simi.fr
+  source : dirigeants_verifies
+  subject : J'ai audite simi.fr: 38/100
+  to : olivier.simi@simi.fr
+  to_confirmed : False
+
+=== num=153 ===
+  activite : industrielle
+  body : Bonjour M. MAZZONE, / J'ai ouvert grem.fr : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique. / Je ne vous vends rien ici. Je regarde votre site en deux minutes et je vous donne les points précis qui font fuir vos clients (vitesse de chargement, compatibilité mobile, manque de confiance). /  / Cordialement, / Mahdi / Portfolio : mahdi-design.com
+  dirigeant : 
+  nom : Grem
+  num : 153
+  prenom : 
+  siren : 
+  site : https://grem.fr
+  source : apify_contact
+  subject : Votre diagnostic est pret : grem.fr
+  to : contact@grem.fr
+  to_confirmed : False
+
+=== num=154 ===
+  activite : industrielle
+  body : Bonjour M. BOUTTE, / J'ai ouvert boutte.fr. Deux choses me sautent aux yeux : seulement 4 pages : trop peu pour exister dans les recherches, et 4 photos sans legende : invisibles dans Google Images. / Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie. /  / Cordialement, / Mahdi / Portfolio : mahdi-design.com
+  dirigeant : 
+  nom : Boutte
+  num : 154
+  prenom : 
+  siren : 
+  site : https://boutte.fr
+  source : apify_contact
+  subject : J'ai audite boutte.fr: 73/100
+  to : contact@boutte.fr
+  to_confirmed : False
+
+=== num=172 ===
+  activite : injection
+  body : Bonjour, / J'ai ouvert injectionplastic.com. Deux choses me sautent aux yeux : une seule page : Google n'a rien a indexer sur vos metiers, et pas de sitemap : Google decouvre vos pages tout seul, lentement. / Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie. /  / Cordialement, / Mahdi / Portfolio : mahdi-design.com
+  dirigeant : 
+  nom : Injectionplastic
+  num : 172
+  prenom : 
+  siren : 
+  site : https://injectionplastic.com
+  source : apify_contact
+  subject : Votre site : 80/100 (https://injectionplastic.com)
+  to : info@injectionplastic.com
+  to_confirmed : False
+
+=== num=175 ===
+  activite : industrielle
+  body : Bonjour, / J'ai ouvert pieraut.fr. Deux choses me sautent aux yeux : le site met 7.3 s a s'afficher, la moitie des visiteurs partent avant, et 13 photos sans legende : invisibles dans Google Images. / Je ne vous vends rien ici. Je regarde votre site en deux minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). Répondez simplement "oui" à ce mail et je vous envoie mes constats sous 48 h /  / Cordialement, / Mahdi / Portfolio : mahdi-design.com
+  dirigeant : 
+  nom : Pieraut
+  num : 175
+  prenom : 
+  siren : 
+  site : https://pieraut.fr
+  source : apify_contact
+  subject : pieraut.fr met 7 secondes a s'afficher
+  to : contact@pieraut.fr
+  to_confirmed : False

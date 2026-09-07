@@ -1,0 +1,14 @@
+Restants: 247
+A verifier (MX): 247 | sans email: 0 | free: 0
+  ...25/247
+  ...50/247
+  ...75/247
+  ...100/247
+  ...125/247
+  ...150/247
+  ...175/247
+  ...200/247
+  ...225/247
+VERDICTS: {'RCPT_REFUSE': 123, 'SMTP_ERR': 43, 'OK': 79, 'MX_MORT': 2}
+A retirer de la file (mort confirme): 125
+Confirmes vivants: 79

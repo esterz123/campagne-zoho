@@ -1,59 +1,35 @@
-import json, sys, io
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+import json, os
+os.chdir(r'C:\Users\ulamb\Bureau\prospection\github-campagne')
 
-BASE = "C:/Users/ulamb/Bureau/prospection/github-campagne/"
+# Levee de doute J+14 : les 79 relances "dues" ont-elles deja recu J+14 ?
+s = json.load(open('campagne_state.json', encoding='utf-8'))
+sent = s['sent']
 
-s = json.load(open(BASE + "campagne_state.json"))
-sent = s.get("sent", {})
-rep = [n for n in sent if sent[n].get("replied")]
-bounce = [n for n in sent if sent[n].get("bounce")]
-print("== CAMPAGNE ==")
-print("envoyes total:", len(sent))
-print("replied:", len(rep), sorted(rep, key=lambda x: int(x))[:40])
-print("bounces:", len(bounce))
-import collections
-per_day = collections.Counter(v.get("on", "?") for v in sent.values())
-for day in sorted(per_day)[-8:]:
-    print("  ", day, "->", per_day[day])
+import datetime
+now = datetime.date(2026, 9, 6)
+suspects = []
+for k, v in sent.items():
+    if not isinstance(v, dict):
+        continue
+    r1 = v.get('sent_relance1'); r2 = v.get('sent_relance2'); r3 = v.get('sent_relance3')
+    r14 = v.get('sent_relance14') or v.get('sent_j14') or v.get('relance_j14')
+    if r2 and not r3 and not r14:
+        d2 = str(r2)[:10]
+        try:
+            dd = datetime.date.fromisoformat(d2)
+        except Exception:
+            continue
+        if (now - dd).days >= 7:
+            suspects.append((k, d2, sorted(v.keys())))
 
-d = json.load(open(BASE + "campagne_data.json"))
-p = d.get("prospects", d) if isinstance(d, dict) else d
-rest = [x for x in p if str(x.get("num")) not in sent]
-print("file totale:", len(p), "| restants non envoyes:", len(rest))
-
-# suivi revenus
-try:
-    rev = json.load(open(BASE + "suivi_revenus.json"))
-    encaisse = sum(e["montant"] for e in rev.get("entrees", []) if e.get("statut") == "encaisse")
-    print("== REVENUS == encaisse:", encaisse, "| entrees:", len(rev.get("entrees", [])))
-    for e in rev.get("entrees", [])[-10:]:
-        print("  ", e)
-except Exception as ex:
-    print("suivi_revenus:", ex)
-
-# relances en attente
-try:
-    fu = json.load(open(BASE + "followups.json"))
-    print("== FOLLOWUPS ==", [k for k in fu.keys()] if isinstance(fu, dict) else type(fu))
-except Exception as ex:
-    print("followups:", ex)
-
-# ab test
-try:
-    ab = json.load(open(BASE + "ab_resultats.json"))
-    print("== A/B ==", json.dumps(ab)[:400])
-except Exception as ex:
-    pass
-try:
-    ab = json.load(open(BASE + "ab_test.json"))
-    print("ab_test.json:", json.dumps(ab)[:300])
-except Exception:
-    pass
-
-# partenaires
-try:
-    ps = json.load(open(BASE + "partenaires_state.json"))
-    pss = ps.get("sent", ps)
-    print("== PARTENAIRES == envoyes:", len(pss) if isinstance(pss, dict) else "?")
-except Exception as ex:
-    print("partenaires:", ex)
+print("SUSPECTS J+14 non envoye malgre retard:", len(suspects))
+if suspects:
+    k, d2, keys = suspects[0]
+    print("exemple cle", k, "relance2 le", d2)
+    print("cles dispo:", keys)
+    # quels suffixes sent_ existent dans tout l'etat ?
+    allkeys = set()
+    for v in sent.values():
+        if isinstance(v, dict):
+            allkeys.update(v.keys())
+    print("TOUTES cles rencontrees:", sorted(allkeys))

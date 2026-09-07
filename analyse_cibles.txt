@@ -1,0 +1,84 @@
+TODAY=2026-09-06
+BODY_VIDE=0
+NOTE_ANCIENNE_<=0902=146
+  num=2 | 2 — Slicom (ACA Slicom Technologies, Clermont-Ferr | https://slicom-group.com | last=0902
+  num=3 | 3 — Rouxel Mold (moules industriels) | https://rouxel-mold.com | last=0902
+  num=7 | 7 — ATP Applications Techniques des Plastiques (La | https://plastiques-atp.fr | last=0902
+  num=8 | 8 — JSM Perrin (Châlette-sur-Loing, 45) | https://jsmperrin.fr | last=0902
+  num=9 | 9 — Usimeca Prod (Sorbiers, 42) | https://usimeca.fr | last=0902
+  num=10 | 10 — Remiplast (Saint-Aubin-lès-Elbeuf, 76) | https://remiplast.com | last=0902
+  num=11 | 11 — ITPLAST (Sarreguemines, 57) | https://itplast.com | last=0902
+  num=12 | 12 — BG Plastic (Rhône, 69) | https://bgplastic.com | last=0902
+  num=13 | 13 — Desjardins SA (76) | https://desjardins-sa.com | last=0902
+  num=14 | 14 — Groupe RGF (Smart Plastic) | https://rgf-plastique.com | last=0902
+  num=15 | 16 — R2C (moules et injection, AURA) | https://r2c-aura.fr | last=0902
+  num=16 | 18 — Erce Plasturgie (Oyonnax, 01) | https://erce-plasturgie.com | last=0902
+  num=17 | 19 — JCM Decolletage (Sallanches, 74) | https://jcm-decolletage.fr | last=0902
+  num=18 | 20 — Fonderie Lemer (Carquefou, 44) | https://fonderie-lemer.com | last=0902
+  num=19 | 21 — Provence Outillage (Les Taillades, 84) | https://provence-outillage.com | last=0902
+  num=20 | 22 — Usinage Alsace (Oberhaslach, 67) | https://usinage-alsace.com | last=0902
+  num=21 | 23 — Maine Tolerie (Chateau-Gontier, 53) | https://maine-tolerie.fr | last=0902
+  num=22 | 24 — AG Tolerie (Saint-Martin-la-Plaine, 42) | https://ag-tolerie.com | last=0902
+  num=23 | 25 — France Injection Service (Saint-Symphorien-d' | https://france-injection-service.fr | last=0902
+  num=24 | 26 — Usinage Dieppois (Rouxmesnil-Bouteilles, 76) | https://usinage-dieppois.fr | last=0902
+  num=25 | 27 — Drault Decolletage (Ayse, 74) | https://drault-decolletage.com | last=0902
+  num=26 | 28 — Le Decolletage Jurassien (Champagnole, 39) | https://decolletage-jurassien.fr | last=0902
+  num=27 | 29 — Gay Decolletage (Saint-Pierre-en-Faucigny, 74 | https://gay-decolletage.fr | last=0902
+  num=28 | 30 — Decolletage Morel (Champagnole, 39) | https://morel-decolletage.fr | last=0902
+  num=29 | 33 — Alpha Matieres Plastiques | https://amp.fr | last=0902
+  num=30 | 34 — Artois Plastiques | https://artoisplastiques.fr | last=0902
+  num=31 | 35 — Atelier De Fraisage Et Mecanique (Afm) | https://atelierphysis.fr | last=0902
+  num=32 | 36 — Axil Plasturgie | https://axil-plasturgie.com | last=0902
+  num=33 | 38 — Decolletage De Reu | https://decolletage-de-reu.com | last=0902
+  num=34 | 39 — Decolletage Elbe | https://decolletage-elbe.fr | last=0902
+  num=35 | 40 — Elcam Usinage (Elcam Usinage) | https://elcam-usinage.fr | last=0902
+  num=36 | 41 — Fonderies De Larians | https://fonderiesdelarians.fr | last=0902
+  num=37 | 42 — Fonderies De Nangis | https://fonderies-de-nangis.fr | last=0902
+  num=38 | 43 — Graf Plasturgie | https://graf.fr | last=0902
+  num=39 | 44 — Les Plastiques Decores | https://lesplastiquesdecores.fr | last=0902
+  num=40 | 45 — Millet Injection (Millet Plastics Group) | https://milletplastics-group.com | last=0902
+  num=41 | 46 — Sa Amd Decolletage | https://amd-decolletage.fr | last=0902
+  num=42 | 48 — Tolerie Forezienne | https://tolerie-forezienne.com | last=0902
+  num=43 | 49 — Tolerie Remond | https://tolerie-remond.com | last=0902
+  num=44 | 52 — Fonderie Et Plasturgie (Fpsa) | https://fonderies-dechaumont.com | last=0902
+BODY_SANS_NOTE=350
+  num=90 |  | https://simi.fr
+  num=153 |  | https://grem.fr
+  num=154 |  | https://boutte.fr
+  num=155 |  | https://menuiserie-veille.fr
+  num=156 |  | https://pitaval-sarl.com
+  num=157 |  | https://neothermie.com
+  num=158 |  | https://raynier-plomberie.fr
+  num=159 |  | https://webency.com
+  num=160 |  | https://smba-sas.fr
+  num=161 |  | https://schneider-cie.fr
+  num=162 |  | https://michel-perret.fr
+  num=163 |  | https://eddb-batiment.fr
+  num=164 |  | https://bellay-electricite.fr
+  num=165 |  | https://ribaut.fr
+  num=166 |  | https://jsefrance.fr
+  num=167 |  | https://edeneagencement.fr
+  num=168 |  | https://delabre.fr
+  num=169 |  | https://dmi-dury.com
+  num=170 |  | https://smgconfrere.com
+  num=171 |  | https://srelectricite.fr
+  num=172 |  | https://injectionplastic.com
+  num=173 |  | https://uma02.fr
+  num=174 |  | https://emboutimetal.com
+  num=175 |  | https://pieraut.fr
+  num=176 |  | https://quadratecinjection.com
+  num=177 |  | https://louisbesse.com
+  num=178 |  | https://sagaertplastique.com
+  num=179 |  | https://roanne-fonderie.fr
+  num=180 |  | https://jeantet.com
+  num=181 |  | https://traitementdesurface.fr
+  num=182 |  | https://psg-industries.com
+  num=183 |  | https://surfasfrance.com
+  num=184 |  | https://maintenance-industrielle.com
+  num=185 |  | https://sn-gillet.com
+  num=186 |  | https://narac.fr
+  num=187 |  | https://adiamix.com
+  num=188 |  | https://asindus.com
+  num=189 |  | https://asjb.fr
+  num=190 |  | https://croix-rousse-precision.fr
+  num=191 |  | https://decolletage.net

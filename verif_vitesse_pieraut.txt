@@ -1,0 +1,5 @@
+essai1: 0.75 s, 261762 octets, HTTP 200
+essai2: 0.93 s, 261762 octets, HTTP 200
+essai3: 1.26 s, 261762 octets, HTTP 200
+essai4: 0.71 s, 261762 octets, HTTP 200
+essai5: 0.85 s, 261762 octets, HTTP 200

@@ -1,0 +1,6 @@
+accueil status=200 url=https://www.pieraut.fr/ bytes=261762
+hrefs_mailto=['mailto:mailto:contact@pieraut.fr', 'mailto:contact@pieraut.fr', 'mailto:contact@pieraut.fr', 'mailto:contact@pieraut.fr', 'mailto:contact@pieraut.fr', 'mailto:contact@pieraut.fr']
+H1_exact=['PROJETS RÉALISÉS', 'NOTRE ACTUALITÉ', 'Nos agences']
+img_total=17 sans_alt=13 exemples=['ieraut.fr/wp-content/uploads/2025/02/Pieraut-electricite.png', 'ieraut.fr/wp-content/uploads/2025/02/Pieraut-electricite.png', '/03/Cablage-darmoires-electriques-bourg-en-bresse-scaled.jpg', 'nt/uploads/2026/02/offre-d-emploi-e1771253331563-960x750.jpg', 'Offre-demploi-Pieraut-Electricite-e1771252968814-960x698.jpg']
+page /contact/ -> status=200
+https://pieraut.fr/ -> status=200 final=https://www.pieraut.fr/
