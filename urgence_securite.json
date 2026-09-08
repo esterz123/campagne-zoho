@@ -55,17 +55,6 @@
   "ville": ""
  },
  {
-  "url": "https://arc-colorant.com",
-  "probleme": "WP_OBSOLETE",
-  "details": [
-   "WordPress 4.7 (vulnerabilites connues non corrigees)"
-  ],
-  "note": 3,
-  "nom": "ARC APPLICATIONS RECHERCHES COULEURS",
-  "email": "contact@arc-colorant.com",
-  "ville": ""
- },
- {
   "url": "https://rgf-plastique.com",
   "probleme": "WP_OBSOLETE",
   "details": [
@@ -764,6 +753,17 @@
   "ville": "VINAY"
  },
  {
+  "url": "https://arc-colorant.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "ARC APPLICATIONS RECHERCHES COULEURS",
+  "email": "contact@arc-colorant.com",
+  "ville": ""
+ },
+ {
   "url": "https://slicom-group.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -863,6 +863,17 @@
   "ville": ""
  },
  {
+  "url": "https://aupg.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@aupg.fr",
+  "ville": ""
+ },
+ {
   "url": "https://ufp-plast.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -907,17 +918,6 @@
   "ville": ""
  },
  {
-  "url": "https://oureval.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "accueil@oureval.fr",
-  "ville": ""
- },
- {
   "url": "https://carrosserie-ats.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -937,6 +937,28 @@
   "note": 0,
   "nom": "",
   "email": "cnr@cnr.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://etude-bet.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@etude-bet.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://hatty.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@hatty-vonnas.fr",
   "ville": ""
  }
 ]
