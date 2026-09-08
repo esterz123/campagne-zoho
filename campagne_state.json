@@ -1839,6 +1839,326 @@
    "status_code": 200,
    "to": "contact@maine-tolerie.fr",
    "body": "<p>Bonjour,</p>\n<p>J'ai ouvert maine-tolerie.fr a l'instant. Deux choses me sautent aux yeux : aucune version mobile : Google declasse le site sur telephone, et une seule page : Google n'a rien a indexer sur vos metiers.<br>Je ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie. Diagnostic gratuit, sans engagement.<br>Répondez simplement \"oui\" à ce mail et je vous adresse mes constats sous 48 h</p>\n<p>Cordialement,<br>Mahdi<br>Portfolio : mahdi-design.com</p>\n<p>P.S. J'ai deja prepare le diagnostic express de votre site : score, points bloquants, tout est ici : https://mahdi-design.com/diag/102.html</p>\n<br>\nMahdi<br>Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>contact@mahdi-design.com"
+  },
+  "96": {
+   "bounce": true,
+   "to": "contact@r2c-aura.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "107": {
+   "bounce": true,
+   "to": "contact@amp.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "111": {
+   "bounce": true,
+   "to": "contact@bureau-vallee.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "113": {
+   "bounce": true,
+   "to": "contact@decolletage-elbe.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "116": {
+   "bounce": true,
+   "to": "contact@fonderies-de-nangis.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "267": {
+   "bounce": true,
+   "to": "contact@deliotec.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "339": {
+   "bounce": true,
+   "to": "info@cabinetvision.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "343": {
+   "bounce": true,
+   "to": "contact@ecovantaro.com",
+   "note": "SMTP verify mx_manquant - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "347": {
+   "bounce": true,
+   "to": "serviceclient@esg1securite.fr",
+   "note": "SMTP verify mx_manquant - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "350": {
+   "bounce": true,
+   "to": "contact@fermetalu.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "357": {
+   "bounce": true,
+   "to": "arnaud.kaizer@behm.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "359": {
+   "bounce": true,
+   "to": "contact@cvim.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "360": {
+   "bounce": true,
+   "to": "contact@figitalexpertise.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "365": {
+   "bounce": true,
+   "to": "contact@france-c.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "370": {
+   "bounce": true,
+   "to": "l.leon@garagedestroismonts.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "371": {
+   "bounce": true,
+   "to": "contact@garagelibert.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "374": {
+   "bounce": true,
+   "to": "accueil@gelygroup.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "375": {
+   "bounce": true,
+   "to": "contact@geobiomics.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "376": {
+   "bounce": true,
+   "to": "support.commercial@geofoncier.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "377": {
+   "bounce": true,
+   "to": "sevran@geometre-cdb.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "380": {
+   "bounce": true,
+   "to": "calais@geometre.net",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "381": {
+   "bounce": true,
+   "to": "contact@georgeault.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "383": {
+   "bounce": true,
+   "to": "ghp-pdc@ghp.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "384": {
+   "bounce": true,
+   "to": "brest@giffardmanutention.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "388": {
+   "bounce": true,
+   "to": "info@gmi-robinetterie.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "390": {
+   "bounce": true,
+   "to": "digital@groupe-ecomedia.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "391": {
+   "bounce": true,
+   "to": "contact@groupe-pfister.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "392": {
+   "bounce": true,
+   "to": "sales@groupe-rouger.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "393": {
+   "bounce": true,
+   "to": "marketing@groupe-thermi-lyon.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "400": {
+   "bounce": true,
+   "to": "informatique-et-libertes@guy-hoquet.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "401": {
+   "bounce": true,
+   "to": "hts@hacer.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "402": {
+   "bounce": true,
+   "to": "contact@hannecard.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "404": {
+   "bounce": true,
+   "to": "contact@hatty-vonnas.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "405": {
+   "bounce": true,
+   "to": "contact@helixexpertise.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "406": {
+   "bounce": true,
+   "to": "contact@herouard.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "410": {
+   "bounce": true,
+   "to": "contact@hosmoz.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "411": {
+   "bounce": true,
+   "to": "info@hybster.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "413": {
+   "bounce": true,
+   "to": "commercial@hynecofrance.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "415": {
+   "bounce": true,
+   "to": "sales@actor.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "416": {
+   "bounce": true,
+   "to": "hugo.pech@bethpc.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "417": {
+   "bounce": true,
+   "to": "bordeaux@elige-avocats.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "419": {
+   "bounce": true,
+   "to": "communication@inextenso.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "422": {
+   "bounce": true,
+   "to": "contact@irt-m2p.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "424": {
+   "bounce": true,
+   "to": "enlever-majusculescontact@item-conseil.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "425": {
+   "bounce": true,
+   "to": "cii56@ito-calorifuge.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "427": {
+   "bounce": true,
+   "to": "contact@jacnet.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "428": {
+   "bounce": true,
+   "to": "contact@jcp-pmdp.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "430": {
+   "bounce": true,
+   "to": "rgpd@junot.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "432": {
+   "bounce": true,
+   "to": "info@kaecia.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "436": {
+   "bounce": true,
+   "to": "hello@l-expert-comptable.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "437": {
+   "bounce": true,
+   "to": "contact@labaliseavocat.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "453": {
+   "bounce": true,
+   "to": "devis@latelierdulaser.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "454": {
+   "bounce": true,
+   "to": "pnom@latribune.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "459": {
+   "bounce": true,
+   "to": "info@levagemanutention.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "466": {
+   "bounce": true,
+   "to": "contact@lmd-calorifuge.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "473": {
+   "bounce": true,
+   "to": "contact@lsz-avocat.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "475": {
+   "bounce": true,
+   "to": "accueil@macmahon-avocats.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "481": {
+   "bounce": true,
+   "to": "contact@arno-sas.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "483": {
+   "bounce": true,
+   "to": "welcome@masson-agencement.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "488": {
+   "bounce": true,
+   "to": "contact@meca-mic.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "491": {
+   "bounce": true,
+   "to": "contact@med-metal.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "496": {
+   "bounce": true,
+   "to": "contact@menuiserie-levieux.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "499": {
+   "bounce": true,
+   "to": "contact@metal-inox.fr",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
+  },
+  "500": {
+   "bounce": true,
+   "to": "oxy@metal-laser.com",
+   "note": "SMTP verify user_unknown - marque mort 08/09 par audit chef, jamais envoye, jamais envoyable"
   }
  },
  "done_notified": false
