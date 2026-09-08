@@ -577,3 +577,67 @@ START ERR: {
   + 27 gay-decolletage.fr score 90
   + 28 morel-decolletage.fr score 90
 PAGES GENEREES: 25 | manifest: 479
+[2026-09-08 09:55:04] === CHASSE HEBDOMADAIRE ===
+[2026-09-08 09:55:04] Phase 0 - recolle systematique (60 niches Exa, dedup auto)
+[2026-09-08 09:56:17] candidats recoltes: 1173 -> 1185 (+12)
+[2026-09-08 09:56:17] Phase 1 - exa_bulk (collecte + extraction)
+[2026-09-08 09:56:24] sites candidats: 448
+== BULK LEADS: 0 -> /home/runner/work/campagne-zoho/campagne-zoho/_hebdo_exa.json
+[2026-09-08 09:56:24] Phase 2 - extract_seq (chunk dynamique 700)
+[2026-09-08 09:59:17] + cmiv.fr -> commercial@cmiv.fr
+  + denis-inox.fr -> secretariat@denis-inox.fr
+  ...270/730, 750 leads jusqu'ici
+  - french-business-law.com (sans email, marque scanne)
+  - hb-couverture.com (sans email, marque scanne)
+  - les-toituresdefrance.fr (sans email, marque scanne)
+  - lesechos.fr (sans email, marque scanne)
+  - libner.fr (sans email, marque scanne)
+  - maintenance-industrielle-grandest.fr (sans email, marque scanne)
+
+a traiter [30:760] sur 730 candidats
+== TOTAL SEQUENTIEL LEADS: 756
+[2026-09-08 09:59:18] Phase 2ter - SMTP verify: Traceback (most recent call last):
+  File "/home/runner/work/campagne-zoho/campagne-zoho/smtp_verif.py", line 11, in <module>
+    import json, os, re, sys, socket, smtplib, dns.resolver, dns.exception
+ModuleNotFoundError: No module named 'dns'
+[2026-09-08 09:59:18] Phase 3 - Apify contact-info-scraper (emails JS)
+[2026-09-08 09:59:18] 
+URLs a traiter: 896
+START ERR: {
+  "error": {
+    "type": "not-enough-usage-to-run-paid-actor",
+    "message": "By launching this job you will exceed your remaining usage of $0.193544.  Consider upgrading to a paid plan at https://console.apify.com/billing/subscription"
+  }
+}
+
+[2026-09-08 09:59:18]   integre 0 depuis _exa_bulk_leads.json
+[2026-09-08 09:59:18] === CHASSE TERMINEE : +2 puis +0 prospects ===
+[2026-09-08 10:00:12] + 1 simi.fr score 60
+  - 2 injoignable
+  + 3 rouxel-mold.com score 82
+  + 4 milmeca.fr score 88
+  + 5 georget.fr score 88
+  + 6 brugiere-outillage.com score 92
+  - 7 injoignable
+  + 8 jsmperrin.fr score 60
+  + 9 usimeca.fr score 90
+  + 10 remiplast.com score 82
+  + 11 itplast.com score 40
+  + 12 bgplastic.com score 88
+  + 13 desjardins-sa.com score 100
+  + 14 rgf-plastique.com score 88
+  + 15 r2c-aura.fr score 100
+  + 16 erce-plasturgie.com score 82
+  + 17 jcm-decolletage.fr score 92
+  + 18 fonderie-lemer.com score 100
+  - 19 injoignable
+  + 20 usinage-alsace.com score 92
+  + 21 maine-tolerie.fr score 60
+  + 22 ag-tolerie.com score 92
+  + 23 france-injection-service.fr score 100
+  + 24 usinage-dieppois.fr score 90
+  + 25 drault-decolletage.com score 100
+  + 26 decolletage-jurassien.fr score 82
+  + 27 gay-decolletage.fr score 90
+  + 28 morel-decolletage.fr score 90
+PAGES GENEREES: 25 | manifest: 479
