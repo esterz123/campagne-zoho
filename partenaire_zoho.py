@@ -43,37 +43,50 @@ def main():
 
     restants = [(n, e) for n, e in sorted(emails.items(), key=lambda kv: int(kv[0]))
                 if n not in sent]
-    # RELANCE PARTENAIRE : agences envoyees il y a >= 5 jours sans reponse -> Re: en priorite
+    # RELANCE PARTENAIRE : envoyees il y a >= 5 jours sans reponse -> Re: en priorite.
+    # Cycle BORNE (fix 08/09 : avant, aucune limite -> relance tous les 5 jours a l'infini) :
+    # relance2 (J+5) puis relance3 de cloture (J+10), puis silence definitif.
     relance_fu = []
     if not dry:
         for n, v in sorted(sent.items()):
-            if v.get("replied") or not v.get("on"):
+            if v.get("replied") or not v.get("on") or v.get("relance3"):
                 continue
             days = (datetime.date.today() - datetime.date.fromisoformat(v["on"])).days
             if days >= 5:
-                relance_fu.append(n)
+                stage = "relance3" if v.get("relance2") else "relance2"
+                relance_fu.append((stage, n))
     if relance_fu:
         if dry:
-            n = relance_fu[0]
+            stage, n = relance_fu[0]
             e = emails[n]
-            print("[DRY-RUN] relance partenaire #%s %s -> %s" % (n, e["prospect"][:40], e["to"]))
+            print("[DRY-RUN] %s partenaire #%s %s -> %s" % (stage, n, e["prospect"][:40], e["to"]))
             return 0
         # corps de relance dedie (nom extrait du body initial)
         import re as _re
         # fix 08/09 : un 500 Zoho sur la relance tuait TOUT le run (vecu 07/09 18:39, 21:50, 08/09 00:02)
         # -> try/except par candidat, on passe au suivant, retry au prochain run
-        for n in relance_fu:
+        for stage, n in relance_fu:
             e = emails[n]
             m = _re.match(r"Bonjour M\. ([A-ZÀ-Ü]+(?: [A-ZÀ-Ü]+)*),", e["body"])
-            nom = m.group(1) if m else "Madame, Monsieur"
-            corps = ("Bonjour M. %s,\n\n"
-                     "Je me permets de revenir vers vous au sujet de ma proposition de partenariat envoyée il y a quelques jours.\n\n"
-                     "En résumé : vos clients industriels ont des sites qui datent, je m'occupe de leur refonte complète "
-                     "(identité + site), vous gardez la relation client et touchez 15%% de commission. Le client reçoit "
-                     "d'abord un diagnostic gratuit, zéro risque pour votre réputation.\n\n"
-                     "Tous les détails : mahdi-design.com/partenaires.html\n\n"
-                     "Si le sujet vous intéresse, une simple réponse suffit.\n\n"
-                     "Cordialement,\nMahdi\nPortfolio : mahdi-design.com" % nom)
+            nom = m.group(1) if m else ""
+            civil = ("M. " + nom) if nom else "Madame, Monsieur"
+            if stage == "relance3":
+                corps = ("Bonjour %s,\n\n"
+                         "Je cloture de mon cote : visiblement le timing n'est pas bon, et je ne veux pas insister.\n\n"
+                         "Je laisse juste la porte ouverte : si un de vos clients industriels a besoin un jour d'une refonte "
+                         "(identite + site), je m'en occupe entierement, vous gardez la relation client et touchez 15%% de commission. "
+                         "Le diagnostic gratuit reste valable pour tester sans risque.\n\n"
+                         "Un mot suffit, meme dans 6 mois.\n\n"
+                         "Cordialement,\nMahdi\nPortfolio : mahdi-design.com" % civil)
+            else:
+                corps = ("Bonjour %s,\n\n"
+                         "Je me permets de revenir vers vous au sujet de ma proposition de partenariat envoyee il y a quelques jours.\n\n"
+                         "En resume : vos clients industriels ont des sites qui datent, je m'occupe de leur refonte complete "
+                         "(identite + site), vous gardez la relation client et touchez 15%% de commission. Le client recoit "
+                         "d'abord un diagnostic gratuit, zero risque pour votre reputation.\n\n"
+                         "Tous les details : mahdi-design.com/partenaires.html\n\n"
+                         "Si le sujet vous interesse, une simple reponse suffit.\n\n"
+                         "Cordialement,\nMahdi\nPortfolio : mahdi-design.com" % civil)
             boite = min(boites, key=lambda b: sum(1 for v in sent.values() if v.get("boite") == b["nom"]))
             token = cz.refresh_token(boite)
             try:
@@ -81,9 +94,12 @@ def main():
             except Exception as exc:
                 print("ECHEC relance partenaire #%s -> %s : %s (skip, retry au prochain run)" % (n, e["to"], str(exc)[:120]))
                 continue
-            sent[n] = {"on": datetime.date.today().isoformat(), "boite": boite["nom"], "relance2": True}
+            flags = {"on": datetime.date.today().isoformat(), "boite": boite["nom"], "relance2": True}
+            if stage == "relance3":
+                flags["relance3"] = True
+            sent[n] = flags
             save_state(st)
-            print("RELANCE partenaire #%s %s -> %s (via %s)" % (n, e["prospect"][:40], e["to"], boite["nom"]))
+            print("RELANCE %s partenaire #%s %s -> %s (via %s)" % (stage, n, e["prospect"][:40], e["to"], boite["nom"]))
             return 0
         print("Relances dues : toutes en echec Zoho, retry au prochain run.")
         return 0
