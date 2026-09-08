@@ -8230,5 +8230,21 @@
   "siren": "903301943",
   "tranche": "11",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "MD AUDIT  & EXPERTISE COMPTABLE (MD AUDIT) (MDAUDIT)",
+  "ville": "WASSELONNE",
+  "naf": "69.20Z",
+  "siren": "511979882",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "F2JS CONSEILS EXPERTISE COMPTABLE (GUERY BOLLE - SOGEIX)",
+  "ville": "CERGY",
+  "naf": "69.20Z",
+  "siren": "508747524",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
  }
 ]
