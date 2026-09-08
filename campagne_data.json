@@ -477,10 +477,10 @@
   "prospect": "46 — Sa Amd Decolletage",
   "to": "sales@amd-decolletage.fr",
   "cc": "",
-  "subject": "Votre site amd-decolletage.fr ne s'ouvre pas",
-  "body": "Bonjour M. Allamand,\n\nJ'ai tape amd-decolletage.fr dans mon navigateur : la page ne repond pas. Si un client essaie de vous trouver et tombe sur une erreur, il appelle le suivant.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "subject": "amd-decolletage.com est entierement en anglais : vos clients francais ne vous trouvent pas",
+  "body": "Bonjour M. Allamand,\n\nJ'ai tape amd-decolletage.fr dans mon navigateur : la page ne repond pas. En cherchant, j'ai trouve votre site actuel, www.amd-decolletage.com, et il est bien en ligne. Mais il est entierement en anglais : « Precision turning », « Who we are », « Markets ». Un acheteur francais qui tape « decolletage precision » ou « usinage de precision Rhone-Alpes » dans Google ne vous trouve pas, il trouve vos concurrents.\n\nEn 5 minutes j'ai aussi mesure : 13 images sur 16 sans texte alternatif, donc vos pieces usinees n'apparaissent pas dans Google Images, et le logo du site lui-meme porte une faute d'orthographe dans son nom de fichier (« precission »).\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement « oui » et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "dirigeant": "Emile ALLAMAND",
-  "note": "ligne1-v2 0902",
+  "note": "MAJ 0908 corps recrit et objet remplace (backup campagne_data.json.bak-amd-0908). Verifie live 08/09: amd-decolletage.fr sans www = DNS mort (resolve 8.8.8.8 et 1.1.1.1: aucun A record); www.amd-decolletage.fr CNAME savoy-international.com (46.105.204.2, curl --resolve) -> redirection vers https://www.amd-decolletage.com HTTP 200. Site en anglais (html lang=en-US, H1 « Expert in precision turning since 1978 », H2 Who we are/Markets/Industry). 16 img dont 13 sans alt vide confirme. Viewport OK. meta description en anglais. Faute « precission » dans le fichier logo (2026-Logo-AMD-Explore-the-world-of-precission). robots.txt OK + sitemap_index.xml OK. to_confirmed reste false.",
   "to_confirmed": false,
   "site": "https://amd-decolletage.fr"
  },
@@ -6623,7 +6623,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre site cmiv.fr : diagnostic offert",
-  "body": "Bonjour,\n\nVotre site cmiv.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour,\n\nJ'ai ouvert cmiv.fr a l'instant. Deux choses me sautent aux yeux : 11 photos sans legende : invisibles dans Google Images, et ni formulaire ni telephone cliquable : on ne peut pas vous joindre depuis le site.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  },
  {
@@ -6636,7 +6636,7 @@
   "activite": "industrielle",
   "dirigeant": "",
   "subject": "Votre site denis-inox.fr : diagnostic offert",
-  "body": "Bonjour,\n\nVotre site denis-inox.fr n'apparait pas quand un donneur d'ordres cherche du travail de precision sur Google. Vos concurrents qui ont refait leur site il y a 2 ans sont devant vous sur ces requetes : c'est eux qui prennent les appels, pas vous.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "body": "Bonjour Mme NERON BERGER (BERGER),\n\nJ'ai ouvert denis-inox.fr a l'instant : le site est propre, je n'ai rien a vous reprocher. C'est justement pour ca que je vous ecris, pour la visibilite, pas pour la technique.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
   "source": "moulin"
  }
 ]
