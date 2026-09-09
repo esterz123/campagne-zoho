@@ -6609,9 +6609,10 @@
   "site": "https://dominguescouverture.fr",
   "activite": "industrielle",
   "dirigeant": "",
-  "subject": "Votre site : 71/100 (https://dominguescouverture.fr)",
-  "body": "Bonjour,\n\nJ'ai ouvert dominguescouverture.fr. Deux choses me sautent aux yeux : 29 photos sans legende : invisibles dans Google Images, et WordPress 4.9.31 : version majeure perimee, failles connues.\n\nJe ne vous vends rien ici. Je regarde votre site 2 minutes et je vous dis exactement ce que vos prospects fuient (vitesse, mobile, confiance). C'est gratuit, sans engagement.\n\nRepondez simplement \"oui\" a ce mail et je vous envoie mes constats sous 48h.\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
-  "source": "moulin"
+  "subject": "dominguescouverture.fr : votre accueil recrute au lieu de vendre, verifie",
+  "body": "Bonjour,\n\nJ'ai ouvert dominguescouverture.fr. Deux choses me sautent aux yeux : votre page d'accueil n'a qu'un seul grand titre, et il dit \"Domingues Couverture recrute\" : un donneur d'ordres qui cherche un couvreur zinc ou ardoise tombe sur une annonce d'emploi, pas sur vos toitures ; et 29 photos sur 31 sans texte alternatif : vos realisations, votre meilleur argument visuel, n'apparaissent pas dans Google Images.\n\nJe ne vous vends rien ici. Le rapport complet est deja fait : les mesures exactes, ce qui casse, et l'ordre des reparations. Deux pages, gratuit, sans engagement, vous pouvez le donner a votre webmaster tel quel. Repondez simplement \"oui\" et je vous l'envoie\n\nCordialement,\nMahdi\nPortfolio : mahdi-design.com",
+  "source": "moulin",
+  "note": "MAJ 09/09 corps reecrit sur verification live (backup campagne_data.json.bak-504-0909). Verifie live 09/09: HTTP 200, H1 unique sur l'accueil = 'Domingues Couverture recrute' (confirme), 29/31 img sans alt (confirme), viewport OK, meta description presente. L'ancien corps affirmait 'WordPress 4.9.31': non confirme (generator visible = LayerSlider 6.6.7), claim retire."
  },
  {
   "num": 505,
