@@ -87,8 +87,20 @@ def main():
                          "Tous les details : mahdi-design.com/partenaires.html\n\n"
                          "Si le sujet vous interesse, une simple reponse suffit.\n\n"
                          "Cordialement,\nMahdi\nPortfolio : mahdi-design.com" % civil)
-            boite = min(boites, key=lambda b: sum(1 for v in sent.values() if v.get("boite") == b["nom"]))
-            token = cz.refresh_token(boite)
+            # fix 10/09 : refresh_token peut aussi 500 (vecu 13:44) -> tester les boites une a une
+            token = None
+            boite_utilisee = None
+            for b_try in sorted(boites, key=lambda b: sum(1 for v in sent.values() if v.get("boite") == b["nom"])):
+                try:
+                    token = cz.refresh_token(b_try)
+                    boite_utilisee = b_try
+                    break
+                except Exception as exc_t:
+                    print("ECHEC token %s : %s (boite suivante)" % (b_try.get("nom", "?"), str(exc_t)[:80]))
+            if not token:
+                print("Aucune boite joignable : retry au prochain run.")
+                return 0
+            boite = boite_utilisee
             try:
                 cz.send_email(token, "Re: " + e["subject"], corps, e["to"], boite=boite)
             except Exception as exc:
@@ -116,7 +128,18 @@ def main():
     def compte(b):
         return sum(1 for v in sent.values() if v.get("boite") == b["nom"])
     boite = min(boites, key=compte)
-    token = cz.refresh_token(boite)
+    # fix 10/09 : refresh_token peut 500 -> boites suivantes avant de crasher
+    token = None
+    for b_try in sorted(boites, key=compte):
+        try:
+            token = cz.refresh_token(b_try)
+            boite = b_try
+            break
+        except Exception as exc_t:
+            print("ECHEC token %s : %s (boite suivante)" % (b_try.get("nom", "?"), str(exc_t)[:80]))
+    if not token:
+        print("Aucune boite joignable : retry au prochain run.")
+        return 1
     # anti-doublon : verifier que ce destinataire n'a pas deja recu la campagne principale
     try:
         cz.verifier_doublon(token, boite, e["to"])
