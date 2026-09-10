@@ -8246,5 +8246,37 @@
   "siren": "508747524",
   "tranche": "11",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "A2CSI SOCIETE D'EXPERTISE COMPTABLE",
+  "ville": "ANTONY",
+  "naf": "69.20Z",
+  "siren": "948530845",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "DIDIER BELMA EXPERTISE COMPTABLE",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "947870184",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "AUDIT DROIT EXPERTISE COMPTABLE (A.D.E.C)",
+  "ville": "MAGNY-LE-HONGRE",
+  "naf": "69.20Z",
+  "siren": "834652729",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CONSEILS D'ENTREPRISES & EXPERTISE COMPTABLE (C2EC)",
+  "ville": "CENON",
+  "naf": "69.20Z",
+  "siren": "505304295",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
  }
 ]
