@@ -328,7 +328,7 @@
    "via": "commercial",
    "sent_relance1": "2026-08-20",
    "sent_relance2": "2026-08-29",
-   "erreurs_envoi": 40
+   "erreurs_envoi": 41
   },
   "42": {
    "on": "2026-08-17",
@@ -336,7 +336,7 @@
    "via": "direction",
    "sent_relance1": "2026-08-20",
    "sent_relance2": "2026-08-29",
-   "erreurs_envoi": 40
+   "erreurs_envoi": 41
   },
   "43": {
    "on": "2026-08-17",
@@ -344,7 +344,7 @@
    "via": "contact",
    "sent_relance1": "2026-08-20",
    "sent_relance2": "2026-08-29",
-   "erreurs_envoi": 40
+   "erreurs_envoi": 41
   },
   "44": {
    "on": "2026-08-17",
@@ -354,7 +354,7 @@
    "sent_relance2": "2026-08-29",
    "go2_urgence_fpsa": "2026-08-31T03:12:38.493004",
    "note": "Urgence pirate: liens xena-casino.gr verifies 31/08 03h30, intervention 150 EUR",
-   "erreurs_envoi": 39
+   "erreurs_envoi": 40
   },
   "45": {
    "on": "2026-08-17",
