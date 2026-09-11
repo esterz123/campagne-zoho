@@ -590,6 +590,7 @@
   "url": "https://hmc-metal.fr",
   "probleme": "SITE_DATÉ",
   "details": [
+   "SSL absent : le site repond en http, pas de https",
    "Copyright 2015 : site non mis a jour depuis des annees"
   ],
   "note": 2,
@@ -698,18 +699,6 @@
   "ville": ""
  },
  {
-  "url": "https://arc-industries.fr",
-  "probleme": "SITE_DATÉ",
-  "details": [
-   "Theme WordPress : arcindustries",
-   "Copyright 2015 : site non mis a jour depuis des annees"
-  ],
-  "note": 2,
-  "nom": "",
-  "email": "contact.voiron@arc-industries.fr",
-  "ville": ""
- },
- {
   "url": "https://cabinet-roche.com",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -795,17 +784,6 @@
   "note": 0,
   "nom": "ALENCON PLASTIC",
   "email": "contact@alencon-plastic.com",
-  "ville": ""
- },
- {
-  "url": "https://arc-colorant.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "ARC APPLICATIONS RECHERCHES COULEURS",
-  "email": "contact@arc-colorant.com",
   "ville": ""
  },
  {
