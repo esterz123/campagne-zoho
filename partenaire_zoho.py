@@ -87,6 +87,7 @@ def main():
                          "Tous les details : mahdi-design.com/partenaires.html\n\n"
                          "Si le sujet vous interesse, une simple reponse suffit.\n\n"
                          "Cordialement,\nMahdi\nPortfolio : mahdi-design.com" % civil)
+            corps += "\n\nPour ne plus recevoir mes emails, repondez \"stop\"."
             # fix 10/09 : refresh_token peut aussi 500 (vecu 13:44) -> tester les boites une a une
             token = None
             boite_utilisee = None
@@ -150,7 +151,8 @@ def main():
         return 1
     # fix 07/09 : un 500 Zoho ici tuait tout le run partenaires (vecu 18:39) -> skip + reessaie au prochain run
     try:
-        cz.send_email(token, e["subject"], e["body"], e["to"], boite=boite)
+        corps1 = e["body"] + "\n\nPour ne plus recevoir mes emails, repondez \"stop\"."
+        cz.send_email(token, e["subject"], corps1, e["to"], boite=boite)
     except Exception as exc:
         print("ECHEC partenaire #%s -> %s : %s (skip, reessaie au prochain run)" % (num, e["to"], str(exc)[:120]))
         return 1

@@ -61,7 +61,8 @@ def domaine_bloque(to, bloquees):
 SIG = ("Mahdi<br>"
        "Brand Designer &mdash; Identit&eacute; visuelle &amp; sites web pour PME<br>"
        "Portfolio : <a href=\"https://mahdi-design.com\">mahdi-design.com</a><br>"
-       "contact@mahdi-design.com")
+       "contact@mahdi-design.com<br>"
+       "<span style=\"color:#999;font-size:12px;\">Pour ne plus recevoir mes emails, r&eacute;pondez \"stop\".</span>")
 
 
 def body_to_html(text):
