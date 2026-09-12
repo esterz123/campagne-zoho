@@ -8278,5 +8278,13 @@
   "siren": "505304295",
   "tranche": "02",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE D'EXPERTISE COMPTABLE GM ET ASSOCIES SA",
+  "ville": "AGDE",
+  "naf": "69.20Z",
+  "siren": "388128662",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
  }
 ]
