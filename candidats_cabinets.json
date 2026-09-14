@@ -8286,5 +8286,13 @@
   "siren": "388128662",
   "tranche": "11",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ALLIANCE EXPERTISE-COMPTABLE ET CONSEIL (A.E.C.C.)",
+  "ville": "BEAUVAIS",
+  "naf": "69.20Z",
+  "siren": "793965310",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
  }
 ]
