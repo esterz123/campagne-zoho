@@ -590,7 +590,6 @@
   "url": "https://hmc-metal.fr",
   "probleme": "SITE_DATÉ",
   "details": [
-   "SSL absent : le site repond en http, pas de https",
    "Copyright 2015 : site non mis a jour depuis des annees"
   ],
   "note": 2,
@@ -699,6 +698,18 @@
   "ville": ""
  },
  {
+  "url": "https://arc-industries.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Theme WordPress : arcindustries",
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact.voiron@arc-industries.fr",
+  "ville": ""
+ },
+ {
   "url": "https://cabinet-roche.com",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -707,6 +718,17 @@
   "note": 2,
   "nom": "",
   "email": "contact@cabinet-roche.com",
+  "ville": ""
+ },
+ {
+  "url": "https://forgeem.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "sales@forgeem.com",
   "ville": ""
  },
  {
@@ -776,14 +798,14 @@
   "ville": "VINAY"
  },
  {
-  "url": "https://alencon-plastic.com",
+  "url": "https://aplicit.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
-  "nom": "ALENCON PLASTIC",
-  "email": "contact@alencon-plastic.com",
+  "nom": "APLICIT",
+  "email": "contact@aplicit.com",
   "ville": ""
  },
  {
@@ -842,14 +864,14 @@
   "ville": ""
  },
  {
-  "url": "https://alencon-plastic.com",
+  "url": "https://aplicit.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
-  "nom": "49 — Alencon Plastic (plasturgie, groupe",
-  "email": "contact@alencon-plastic.com",
+  "nom": "50 — Aplicit (accompagnement technologiq",
+  "email": "contact@aplicit.com",
   "ville": ""
  },
  {
@@ -897,6 +919,17 @@
   "ville": ""
  },
  {
+  "url": "https://aupg.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@aupg.fr",
+  "ville": ""
+ },
+ {
   "url": "https://ufp-plast.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -941,14 +974,14 @@
   "ville": ""
  },
  {
-  "url": "https://adiamix.com",
+  "url": "https://candas.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "admin@adiamix.com",
+  "email": "contact@candas.fr",
   "ville": ""
  },
  {
