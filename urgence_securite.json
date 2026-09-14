@@ -798,14 +798,14 @@
   "ville": "VINAY"
  },
  {
-  "url": "https://aplicit.com",
+  "url": "https://alencon-plastic.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
-  "nom": "APLICIT",
-  "email": "contact@aplicit.com",
+  "nom": "ALENCON PLASTIC",
+  "email": "contact@alencon-plastic.com",
   "ville": ""
  },
  {
@@ -864,14 +864,14 @@
   "ville": ""
  },
  {
-  "url": "https://aplicit.com",
+  "url": "https://alencon-plastic.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
-  "nom": "50 — Aplicit (accompagnement technologiq",
-  "email": "contact@aplicit.com",
+  "nom": "49 — Alencon Plastic (plasturgie, groupe",
+  "email": "contact@alencon-plastic.com",
   "ville": ""
  },
  {
@@ -919,17 +919,6 @@
   "ville": ""
  },
  {
-  "url": "https://aupg.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@aupg.fr",
-  "ville": ""
- },
- {
   "url": "https://ufp-plast.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -974,14 +963,25 @@
   "ville": ""
  },
  {
-  "url": "https://candas.fr",
+  "url": "https://adiamix.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "contact@candas.fr",
+  "email": "admin@adiamix.com",
+  "ville": ""
+ },
+ {
+  "url": "https://oureval.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "accueil@oureval.fr",
   "ville": ""
  },
  {
