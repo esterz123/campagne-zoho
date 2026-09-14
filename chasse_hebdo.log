@@ -977,3 +977,81 @@ START ERR: {
   + 27 gay-decolletage.fr score 90
   + 28 morel-decolletage.fr score 90
 PAGES GENEREES: 25 | manifest: 494
+[2026-09-14 10:51:59] === CHASSE HEBDOMADAIRE ===
+[2026-09-14 10:51:59] Phase 0 - recolle systematique (60 niches Exa, dedup auto)
+[2026-09-14 10:53:27] candidats recoltes: 1270 -> 1276 (+6)
+[2026-09-14 10:53:27] Phase 1 - exa_bulk (collecte + extraction)
+[2026-09-14 10:53:33] sites candidats: 443
+== BULK LEADS: 0 -> /home/runner/work/campagne-zoho/campagne-zoho/_hebdo_exa.json
+[2026-09-14 10:53:33] Phase 2 - extract_seq (chunk dynamique 700)
+[2026-09-14 10:55:08] - aebat.fr (sans email, marque scanne)
+  + atpa-tolerie.com -> contact@atpa-tolerie.com
+  ...75/732, 813 leads jusqu'ici
+  - exosup.com (sans email, marque scanne)
+
+a traiter [32:764] sur 732 candidats
+== TOTAL SEQUENTIEL LEADS: 814
+[2026-09-14 10:55:08] Phase 2ter - SMTP verify: Traceback (most recent call last):
+  File "/home/runner/work/campagne-zoho/campagne-zoho/smtp_verif.py", line 11, in <module>
+    import json, os, re, sys, socket, smtplib, dns.resolver, dns.exception
+ModuleNotFoundError: No module named 'dns'
+[2026-09-14 10:55:08] Phase 3 - Apify contact-info-scraper (emails JS)
+[2026-09-14 11:00:48]  aebat.contact@gmail.com
+  +  -> jean-michel.parrou@protechlav.fr
+  +  -> dbp@dbp-mayet.com
+  +  -> Contact@tb-renovation-nettoyage.com
+  +  -> contact@thevenet-decolletage.fr
+  +  -> hbcouverture95@gmail.com
+  +  -> contact@odibelt.fr
+  +  -> contact@bdagencements.com
+  +  -> accueil@societe-prevost.com
+  +  -> contact@violon.fr
+  +  -> contact@mysite.com
+  +  -> canique@anatole-france.fr
+  +  -> contact@materiaux-naturels.fr
+  +  -> contact@yourwebsite.com
+  +  -> contact@remorquage-pro.fr
+  +  -> secretariat@sergeant.fr
+  +  -> mbohda+cbc@gmail.com
+  +  -> c.gomes@proprietes-privees.com
+  +  -> contact@idra-france.com
+  +  -> Contact@metalise.fr
+  +  -> info@massard.fr
+  +  -> rgpd@artis-groupe.fr
+
+URLs a traiter: 964
+RUN: hanMfYn4yGH31h3j7
+status: SUCCEEDED
+== APIFY CONTACT LEADS: 291
+
+[2026-09-14 11:00:48]   integre 0 depuis _exa_bulk_leads.json
+[2026-09-14 11:00:48] === CHASSE TERMINEE : +1 puis +0 prospects ===
+[2026-09-14 11:01:56] + 1 simi.fr score 60
+  - 2 injoignable
+  + 3 rouxel-mold.com score 82
+  + 4 milmeca.fr score 88
+  + 5 georget.fr score 88
+  + 6 brugiere-outillage.com score 92
+  - 7 injoignable
+  + 8 jsmperrin.fr score 60
+  + 9 usimeca.fr score 90
+  + 10 remiplast.com score 82
+  + 11 itplast.com score 40
+  + 12 bgplastic.com score 88
+  + 13 desjardins-sa.com score 100
+  + 14 rgf-plastique.com score 88
+  + 15 r2c-aura.fr score 100
+  + 16 erce-plasturgie.com score 82
+  + 17 jcm-decolletage.fr score 92
+  + 18 fonderie-lemer.com score 100
+  - 19 injoignable
+  + 20 usinage-alsace.com score 92
+  + 21 maine-tolerie.fr score 60
+  + 22 ag-tolerie.com score 92
+  + 23 france-injection-service.fr score 100
+  + 24 usinage-dieppois.fr score 90
+  + 25 drault-decolletage.com score 100
+  + 26 decolletage-jurassien.fr score 82
+  + 27 gay-decolletage.fr score 90
+  + 28 morel-decolletage.fr score 90
+PAGES GENEREES: 25 | manifest: 494
