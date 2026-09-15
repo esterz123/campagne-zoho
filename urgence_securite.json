@@ -293,6 +293,17 @@
   "ville": ""
  },
  {
+  "url": "https://carrosseriehangard.com",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 5.2 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@carrosseriehangard.com",
+  "ville": ""
+ },
+ {
   "url": "https://eberhard.de",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -732,6 +743,28 @@
   "ville": ""
  },
  {
+  "url": "https://eurl-msti.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@eurl-msti.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://segreenanjoubleu.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Segre Mecanique Precision (Smp)",
+  "email": "communication@segreenanjoubleu.fr",
+  "ville": "SEGRE-EN-ANJOU BLEU"
+ },
+ {
   "url": "https://nordvpn.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -798,14 +831,14 @@
   "ville": "VINAY"
  },
  {
-  "url": "https://alencon-plastic.com",
+  "url": "https://paprec.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
-  "nom": "ALENCON PLASTIC",
-  "email": "contact@alencon-plastic.com",
+  "nom": "ACTI-PLAST",
+  "email": "communication@paprec.com",
   "ville": ""
  },
  {
@@ -853,6 +886,17 @@
   "ville": ""
  },
  {
+  "url": "https://graf.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "43 — Graf Plasturgie",
+  "email": "info@graf.fr",
+  "ville": ""
+ },
+ {
   "url": "https://amd-decolletage.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -861,17 +905,6 @@
   "note": 0,
   "nom": "46 — Sa Amd Decolletage",
   "email": "sales@amd-decolletage.fr",
-  "ville": ""
- },
- {
-  "url": "https://alencon-plastic.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "49 — Alencon Plastic (plasturgie, groupe",
-  "email": "contact@alencon-plastic.com",
   "ville": ""
  },
  {
@@ -960,17 +993,6 @@
   "note": 0,
   "nom": "",
   "email": "ribautsa@ribaut.fr",
-  "ville": ""
- },
- {
-  "url": "https://adiamix.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "admin@adiamix.com",
   "ville": ""
  },
  {
