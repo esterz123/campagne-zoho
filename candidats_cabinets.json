@@ -8294,5 +8294,117 @@
   "siren": "793965310",
   "tranche": "02",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "AZUR PROACTIF EXPERTISE COMPTABLE (AZUR PROACTIF EXPERTISE COMPTABLE)",
+  "ville": "NICE",
+  "naf": "69.20Z",
+  "siren": "904247723",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "VAL DE MARCQ EXPERTISE COMPTABLE (VAL DE MARCQ EXPERTISE COMPTABLE)",
+  "ville": "MOUVAUX",
+  "naf": "69.20Z",
+  "siren": "901851907",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "O.MED.O.C. - SOCIETE D'EXPERTISE COMPTABLE (O.MED.O.C.-S.E.C)",
+  "ville": "NICE",
+  "naf": "69.20Z",
+  "siren": "830642914",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "PANCHBHAYA EXPERTISE-COMPTABLE & AUDIT",
+  "ville": "SAINT-PAUL",
+  "naf": "69.20Z",
+  "siren": "817984461",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE CEVENOLE D'EXPERTISE COMPTABLE (SOCIETE CEVENOLE D'EXPERTISE COMPTABLE) (SOCEVEX SARL)",
+  "ville": "ALES",
+  "naf": "69.20Z",
+  "siren": "504507609",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CABROL & CASTRO EXPERTISE COMPTABLE (2C EXPERTISE COMPTABLE) (2C EC)",
+  "ville": "MEYSSAC",
+  "naf": "69.20Z",
+  "siren": "788418549",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "AUDIT EXPERTISE-COMPTABLE NINU (AUDIT EXPERTISE-COMPTABLE NINU)",
+  "ville": "BASTIA",
+  "naf": "69.20Z",
+  "siren": "849997523",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "NADEXCO-EXPERTISE COMPTABLE   CONSEIL (NADEXCO-EXPERTISE)",
+  "ville": "BRUGUIERES",
+  "naf": "69.20Z",
+  "siren": "451350300",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "UPTEAMIZ - SOCIETE D'EXPERTISE COMPTABLE (UPTEAMIZ - SOCIETE D'EXPERTISE COMPTABLE) (UPTEAMIZ)",
+  "ville": "LE PERREUX-SUR-MARNE",
+  "naf": "69.20Z",
+  "siren": "788655090",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "B.L. EXPERTISE COMPTABLE ET AUDIT",
+  "ville": "CERISE",
+  "naf": "69.20Z",
+  "siren": "509402657",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ACCOMPAGNEMENT CONSEIL EXPERTISE COMPTABLE (AC EXPERTISE COMPTABLE)",
+  "ville": "SAINT-AUNES",
+  "naf": "69.20Z",
+  "siren": "803905934",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "AUDIT EXPERTISE COMPTABLE FINANCE (AUDEXFI)",
+  "ville": "SAINT-DENIS",
+  "naf": "69.20Z",
+  "siren": "814095329",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOC RHODANIENNE D'EXPERTISE COMPTABLE (SOCIETE RHODANIENNE D'EXPERTISE COMPTABLE) (SOREC)",
+  "ville": "MONTELIMAR",
+  "naf": "69.20Z",
+  "siren": "712980325",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ESTHER - EXPERTISE COMPTABLE STEPHANIE RONECKER",
+  "ville": "WINTZENHEIM",
+  "naf": "69.20Z",
+  "siren": "529371791",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
  }
 ]
