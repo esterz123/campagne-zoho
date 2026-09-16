@@ -831,14 +831,14 @@
   "ville": "VINAY"
  },
  {
-  "url": "https://alencon-plastic.com",
+  "url": "https://arc-colorant.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
-  "nom": "ALENCON PLASTIC",
-  "email": "contact@alencon-plastic.com",
+  "nom": "ARC APPLICATIONS RECHERCHES COULEURS",
+  "email": "contact@arc-colorant.com",
   "ville": ""
  },
  {
@@ -886,17 +886,6 @@
   "ville": ""
  },
  {
-  "url": "https://graf.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "43 — Graf Plasturgie",
-  "email": "info@graf.fr",
-  "ville": ""
- },
- {
   "url": "https://amd-decolletage.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -905,17 +894,6 @@
   "note": 0,
   "nom": "46 — Sa Amd Decolletage",
   "email": "sales@amd-decolletage.fr",
-  "ville": ""
- },
- {
-  "url": "https://alencon-plastic.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "49 — Alencon Plastic (plasturgie, groupe",
-  "email": "contact@alencon-plastic.com",
   "ville": ""
  },
  {
@@ -1007,17 +985,6 @@
   "ville": ""
  },
  {
-  "url": "https://adiamix.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "admin@adiamix.com",
-  "ville": ""
- },
- {
   "url": "https://carrosserie-ats.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1026,6 +993,17 @@
   "note": 0,
   "nom": "",
   "email": "ats@carrosserie-ats.com",
+  "ville": ""
+ },
+ {
+  "url": "https://besgc.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@besgc.fr",
   "ville": ""
  },
  {
@@ -1040,14 +1018,14 @@
   "ville": ""
  },
  {
-  "url": "https://mendes-mecaniquegenerale.com",
+  "url": "https://etude-bet.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "contact@mendes-mecaniquegenerale.com",
+  "email": "contact@etude-bet.fr",
   "ville": ""
  }
 ]
