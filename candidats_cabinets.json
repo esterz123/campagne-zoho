@@ -8406,5 +8406,85 @@
   "siren": "529371791",
   "tranche": "03",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ALPES SUD EXPERTISE COMPTABLE (ASEC)",
+  "ville": "MANOSQUE",
+  "naf": "69.20Z",
+  "siren": "902242676",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "INTECO SOCIETE INTERNATIONALE DES TECHNIQUES ECONOMIQUES ET COMPTABLES (INTECO)",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "311976096",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CABINET CBL (QWANTA EXPERTS) (CBL)",
+  "ville": "NICE",
+  "naf": "69.20Z",
+  "siren": "324249531",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CABINET OGER ET ASSOCIES",
+  "ville": "SAINT-HERBLAIN",
+  "naf": "69.20Z",
+  "siren": "790013619",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CENTRE DE GESTION COMPTABLE DE L'ENTREPRISE (CGCE)",
+  "ville": "CARPENTRAS",
+  "naf": "69.20Z",
+  "siren": "399650464",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CABINET DE PAZ & TOMASINI",
+  "ville": "NICE",
+  "naf": "69.20Z",
+  "siren": "450698345",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "FIDUCIAIRE D'EXPERTISE COMPTABLE FIDEC S.A.S. (FIDEC S.A.S.)",
+  "ville": "REPLONGES",
+  "naf": "69.20Z",
+  "siren": "402901458",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CABINET JEGARD PARIS (JEGARD CREATIS) (CFA)",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "489746255",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE D'EXPERTISE COMPTABLE ET AUDIT FINANCIER CATALOGNE SUD MEDITERRANEE (SECAFI CSM)",
+  "ville": "PERPIGNAN",
+  "naf": "69.20Z",
+  "siren": "341754489",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "DILIGENTIA-QUILLE&DILLIES EXPERT COMPTAB",
+  "ville": "HAZEBROUCK",
+  "naf": "69.20Z",
+  "siren": "447050030",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
  }
 ]
