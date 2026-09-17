@@ -55,6 +55,17 @@
   "ville": ""
  },
  {
+  "url": "https://arc-colorant.com",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 4.7 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "ARC APPLICATIONS RECHERCHES COULEURS",
+  "email": "contact@arc-colorant.com",
+  "ville": ""
+ },
+ {
   "url": "https://rgf-plastique.com",
   "probleme": "WP_OBSOLETE",
   "details": [
@@ -301,6 +312,17 @@
   "note": 3,
   "nom": "",
   "email": "contact@carrosseriehangard.com",
+  "ville": ""
+ },
+ {
+  "url": "https://dvai.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 5.3 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "devis@dvai.fr",
   "ville": ""
  },
  {
@@ -831,14 +853,14 @@
   "ville": "VINAY"
  },
  {
-  "url": "https://arc-colorant.com",
+  "url": "https://aera-sa.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
-  "nom": "ARC APPLICATIONS RECHERCHES COULEURS",
-  "email": "contact@arc-colorant.com",
+  "nom": "AERA",
+  "email": "aerasav@aera-sa.fr",
   "ville": ""
  },
  {
@@ -996,14 +1018,14 @@
   "ville": ""
  },
  {
-  "url": "https://besgc.fr",
+  "url": "https://carrosserie-cantin.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "contact@besgc.fr",
+  "email": "contact@carrosserie-cantin.fr",
   "ville": ""
  },
  {
@@ -1015,17 +1037,6 @@
   "note": 0,
   "nom": "",
   "email": "cnr@cnr.fr",
-  "ville": ""
- },
- {
-  "url": "https://etude-bet.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@etude-bet.fr",
   "ville": ""
  }
 ]
