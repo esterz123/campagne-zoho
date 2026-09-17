@@ -8486,5 +8486,13 @@
   "siren": "447050030",
   "tranche": "11",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CHRISTIAN DETRE EXPERTISE COMPTABLE (CDE EXPERTISE COMPTA)",
+  "ville": "FLINS-SUR-SEINE",
+  "naf": "69.20Z",
+  "siren": "491950648",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
  }
 ]
