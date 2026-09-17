@@ -1230,3 +1230,84 @@ RUN non reussi
   + 27 gay-decolletage.fr score 90
   + 28 morel-decolletage.fr score 90
 PAGES GENEREES: 25 | manifest: 494
+[2026-09-17 10:13:21] === CHASSE HEBDOMADAIRE ===
+[2026-09-17 10:13:21] Phase 0 - recolle systematique (60 niches Exa, dedup auto)
+[2026-09-17 10:14:53] candidats recoltes: 1405 -> 1465 (+60)
+[2026-09-17 10:14:53] Phase 1 - exa_bulk (collecte + extraction)
+[2026-09-17 10:15:03] sites candidats: 497
+== BULK LEADS: 0 -> /home/runner/work/campagne-zoho/campagne-zoho/_hebdo_exa.json
+[2026-09-17 10:15:03] Phase 2 - extract_seq (chunk dynamique 700)
+[2026-09-17 10:28:12] > contact@articoin.fr
+  + aspeo.fr -> contact@aspeo.fr
+  - atelierduplombier.com (sans email, marque scanne)
+  - batietanche.fr (sans email, marque scanne)
+  - bdo.fr (sans email, marque scanne)
+  + be-vivien.fr -> contact@be-vivien.fr
+  - bgm-geometre.com (sans email, marque scanne)
+  - bom-distribution.fr (sans email, marque scanne)
+  + cabinetecb.com -> contact@cabinetecb.fr
+  - cgmr.fr (sans email, marque scanne)
+  + chausson.fr -> contact@chausson.fr
+  + cisabat.fr -> contact@cisabat.fr
+  - cmdlyon.com (sans email, marque scanne)
+  + dvai.fr -> devis@dvai.fr
+  - elite-trade-group.com (sans email, marque scanne)
+  - entreprisepoint.fr (sans email, marque scanne)
+  - expertise.boschrexroth.fr (sans email, marque scanne)
+  - farinia.com (sans email, marque scanne)
+  - fj-platrerie.fr (sans email, marque scanne)
+  + forlam.fr -> accueil@forlam.fr
+  - francemachinesoutils.com (sans email, marque scanne)
+  + garagebm.fr -> contact@garagebm.fr
+  - garagefmc.fr (sans email, marque scanne)
+  - geo-sat.com (sans email, marque scanne)
+  - gunaybat.com (sans email, marque scanne)
+  - herceg.fr (sans email, marque scanne)
+
+a traiter [15:730] sur 715 candidats
+== TOTAL SEQUENTIEL LEADS: 909
+[2026-09-17 10:28:13] Phase 2ter - SMTP verify: Traceback (most recent call last):
+  File "/home/runner/work/campagne-zoho/campagne-zoho/smtp_verif.py", line 11, in <module>
+    import json, os, re, sys, socket, smtplib, dns.resolver, dns.exception
+ModuleNotFoundError: No module named 'dns'
+[2026-09-17 10:28:13] Phase 3 - Apify contact-info-scraper (emails JS)
+[2026-09-17 10:28:13] 
+URLs a traiter: 1110
+START ERR: {
+  "error": {
+    "type": "not-enough-usage-to-run-paid-actor",
+    "message": "Your remaining usage of $0.000474 this billing cycle isn't enough for this run. Increase your limit by upgrading to a paid plan at https://console.apify.com/billing/subscription"
+  }
+}
+
+[2026-09-17 10:28:13]   integre 0 depuis _exa_bulk_leads.json
+[2026-09-17 10:28:13] === CHASSE TERMINEE : +11 puis +0 prospects ===
+[2026-09-17 10:29:19] + 1 simi.fr score 60
+  - 2 injoignable
+  + 3 rouxel-mold.com score 82
+  + 4 milmeca.fr score 88
+  + 5 georget.fr score 88
+  + 6 brugiere-outillage.com score 92
+  - 7 injoignable
+  + 8 jsmperrin.fr score 60
+  + 9 usimeca.fr score 90
+  + 10 remiplast.com score 82
+  + 11 itplast.com score 40
+  + 12 bgplastic.com score 88
+  + 13 desjardins-sa.com score 100
+  + 14 rgf-plastique.com score 88
+  + 15 r2c-aura.fr score 100
+  + 16 erce-plasturgie.com score 82
+  + 17 jcm-decolletage.fr score 92
+  + 18 fonderie-lemer.com score 100
+  - 19 injoignable
+  + 20 usinage-alsace.com score 92
+  + 21 maine-tolerie.fr score 60
+  + 22 ag-tolerie.com score 92
+  + 23 france-injection-service.fr score 100
+  + 24 usinage-dieppois.fr score 90
+  + 25 drault-decolletage.com score 100
+  + 26 decolletage-jurassien.fr score 82
+  + 27 gay-decolletage.fr score 90
+  + 28 morel-decolletage.fr score 90
+PAGES GENEREES: 25 | manifest: 494
