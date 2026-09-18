@@ -55,17 +55,6 @@
   "ville": ""
  },
  {
-  "url": "https://arc-colorant.com",
-  "probleme": "WP_OBSOLETE",
-  "details": [
-   "WordPress 4.7 (vulnerabilites connues non corrigees)"
-  ],
-  "note": 3,
-  "nom": "ARC APPLICATIONS RECHERCHES COULEURS",
-  "email": "contact@arc-colorant.com",
-  "ville": ""
- },
- {
   "url": "https://rgf-plastique.com",
   "probleme": "WP_OBSOLETE",
   "details": [
@@ -853,17 +842,6 @@
   "ville": "VINAY"
  },
  {
-  "url": "https://alencon-plastic.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "ALENCON PLASTIC",
-  "email": "contact@alencon-plastic.com",
-  "ville": ""
- },
- {
   "url": "https://slicom-group.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -916,17 +894,6 @@
   "note": 0,
   "nom": "46 — Sa Amd Decolletage",
   "email": "sales@amd-decolletage.fr",
-  "ville": ""
- },
- {
-  "url": "https://alencon-plastic.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "49 — Alencon Plastic (plasturgie, groupe",
-  "email": "contact@alencon-plastic.com",
   "ville": ""
  },
  {
@@ -1018,14 +985,14 @@
   "ville": ""
  },
  {
-  "url": "https://adiamix.com",
+  "url": "https://oureval.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "admin@adiamix.com",
+  "email": "accueil@oureval.fr",
   "ville": ""
  },
  {
