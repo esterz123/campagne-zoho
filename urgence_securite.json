@@ -831,6 +831,17 @@
   "ville": "CHATEAU-GONTIER-SUR-MAYENNE"
  },
  {
+  "url": "https://smg-decoupage-tolerie.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Smg Tolerie (Smg)",
+  "email": "g.sitkiewiez@smgconfrere.com",
+  "ville": "SAINT-PAUL"
+ },
+ {
   "url": "https://baxter-injection.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -894,6 +905,17 @@
   "note": 0,
   "nom": "46 — Sa Amd Decolletage",
   "email": "sales@amd-decolletage.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://mpi-mecanique.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "55 — MPI (Issoire, 63)",
+  "email": "contact@mpi-mecanique.com",
   "ville": ""
  },
  {
@@ -985,14 +1007,14 @@
   "ville": ""
  },
  {
-  "url": "https://oureval.fr",
+  "url": "https://smgconfrere.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "accueil@oureval.fr",
+  "email": "louis.sitkiewiez@smgconfrere.com",
   "ville": ""
  },
  {
@@ -1018,6 +1040,17 @@
   "ville": ""
  },
  {
+  "url": "https://eurl-joachim-calorifuge.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@eurl-joachim-calorifuge-33.fr",
+  "ville": ""
+ },
+ {
   "url": "https://cnr.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1026,6 +1059,17 @@
   "note": 0,
   "nom": "",
   "email": "cnr@cnr.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://lasersocmel.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "lasersocmel@lasersocmel.com",
   "ville": ""
  }
 ]
