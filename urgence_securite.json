@@ -94,6 +94,7 @@
   "url": "https://id-plasturgie.fr",
   "probleme": "WP_OBSOLETE",
   "details": [
+   "SSL absent : le site repond en http, pas de https",
    "WordPress 5.5 (vulnerabilites connues non corrigees)"
   ],
   "note": 3,
@@ -469,7 +470,6 @@
   "url": "https://sitralindustrie.fr",
   "probleme": "SITE_DATÉ",
   "details": [
-   "SSL absent : le site repond en http, pas de https",
    "Copyright 2015 : site non mis a jour depuis des annees"
   ],
   "note": 2,
@@ -530,6 +530,17 @@
   "note": 2,
   "nom": "",
   "email": "info@ems-concept.com",
+  "ville": ""
+ },
+ {
+  "url": "https://etanchebat.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@etanchebat.fr",
   "ville": ""
  },
  {
@@ -688,17 +699,6 @@
   "ville": ""
  },
  {
-  "url": "https://axiolis.com",
-  "probleme": "SITE_DATÉ",
-  "details": [
-   "Copyright 2015 : site non mis a jour depuis des annees"
-  ],
-  "note": 2,
-  "nom": "",
-  "email": "contact@axiolis.com",
-  "ville": ""
- },
- {
   "url": "https://arc-industries.fr",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -788,17 +788,6 @@
   "ville": "MARNAZ"
  },
  {
-  "url": "https://institutfrancais.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Institut De Soudure (Is)",
-  "email": "info@institutfrancais.com",
-  "ville": "VILLEPINTE"
- },
- {
   "url": "https://petite.co.uk",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -830,6 +819,17 @@
   "nom": "Baxter Injection",
   "email": "",
   "ville": "VINAY"
+ },
+ {
+  "url": "https://paprec.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "ACTI-PLAST",
+  "email": "communication@paprec.com",
+  "ville": ""
  },
  {
   "url": "https://slicom-group.com",
@@ -953,17 +953,6 @@
   "ville": ""
  },
  {
-  "url": "https://uti-metallerie.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@uti-metallerie.fr",
-  "ville": ""
- },
- {
   "url": "https://dis-bourasseau.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -997,14 +986,14 @@
   "ville": ""
  },
  {
-  "url": "https://jeantet.com",
+  "url": "https://oureval.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "jeantet@jeantet.com",
+  "email": "accueil@oureval.fr",
   "ville": ""
  },
  {
@@ -1030,17 +1019,6 @@
   "ville": ""
  },
  {
-  "url": "https://etanchebat.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@etanchebat.fr",
-  "ville": ""
- },
- {
   "url": "https://cnr.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1049,17 +1027,6 @@
   "note": 0,
   "nom": "",
   "email": "cnr@cnr.fr",
-  "ville": ""
- },
- {
-  "url": "https://lopes-electricite-plomberie.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@lopes-electricite-plomberie.fr",
   "ville": ""
  }
 ]
