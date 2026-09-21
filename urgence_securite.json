@@ -469,6 +469,7 @@
   "url": "https://sitralindustrie.fr",
   "probleme": "SITE_DATÉ",
   "details": [
+   "SSL absent : le site repond en http, pas de https",
    "Copyright 2015 : site non mis a jour depuis des annees"
   ],
   "note": 2,
@@ -532,17 +533,6 @@
   "ville": ""
  },
  {
-  "url": "https://etanchebat.fr",
-  "probleme": "SITE_DATÉ",
-  "details": [
-   "Copyright 2015 : site non mis a jour depuis des annees"
-  ],
-  "note": 2,
-  "nom": "",
-  "email": "contact@etanchebat.fr",
-  "ville": ""
- },
- {
   "url": "https://cabinet12.com",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -595,17 +585,6 @@
   "note": 2,
   "nom": "",
   "email": "info@gmi-robinetterie.com",
-  "ville": ""
- },
- {
-  "url": "https://groupe-ecomedia.com",
-  "probleme": "SITE_DATÉ",
-  "details": [
-   "Copyright 1869 : site non mis a jour depuis des annees"
-  ],
-  "note": 2,
-  "nom": "",
-  "email": "digital@groupe-ecomedia.com",
   "ville": ""
  },
  {
@@ -809,6 +788,17 @@
   "ville": "MARNAZ"
  },
  {
+  "url": "https://institutfrancais.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Institut De Soudure (Is)",
+  "email": "info@institutfrancais.com",
+  "ville": "VILLEPINTE"
+ },
+ {
   "url": "https://petite.co.uk",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -829,17 +819,6 @@
   "nom": "Maine Tolerie",
   "email": "",
   "ville": "CHATEAU-GONTIER-SUR-MAYENNE"
- },
- {
-  "url": "https://smg-decoupage-tolerie.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Smg Tolerie (Smg)",
-  "email": "g.sitkiewiez@smgconfrere.com",
-  "ville": "SAINT-PAUL"
  },
  {
   "url": "https://baxter-injection.com",
@@ -974,6 +953,17 @@
   "ville": ""
  },
  {
+  "url": "https://uti-metallerie.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@uti-metallerie.fr",
+  "ville": ""
+ },
+ {
   "url": "https://dis-bourasseau.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1007,14 +997,14 @@
   "ville": ""
  },
  {
-  "url": "https://smgconfrere.com",
+  "url": "https://jeantet.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "louis.sitkiewiez@smgconfrere.com",
+  "email": "jeantet@jeantet.com",
   "ville": ""
  },
  {
@@ -1040,14 +1030,14 @@
   "ville": ""
  },
  {
-  "url": "https://eurl-joachim-calorifuge.fr",
+  "url": "https://etanchebat.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "contact@eurl-joachim-calorifuge-33.fr",
+  "email": "contact@etanchebat.fr",
   "ville": ""
  },
  {
@@ -1062,14 +1052,14 @@
   "ville": ""
  },
  {
-  "url": "https://lasersocmel.fr",
+  "url": "https://lopes-electricite-plomberie.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "lasersocmel@lasersocmel.com",
+  "email": "contact@lopes-electricite-plomberie.fr",
   "ville": ""
  }
 ]
