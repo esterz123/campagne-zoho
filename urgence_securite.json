@@ -94,7 +94,6 @@
   "url": "https://id-plasturgie.fr",
   "probleme": "WP_OBSOLETE",
   "details": [
-   "SSL absent : le site repond en http, pas de https",
    "WordPress 5.5 (vulnerabilites connues non corrigees)"
   ],
   "note": 3,
@@ -699,6 +698,17 @@
   "ville": ""
  },
  {
+  "url": "https://axiolis.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@axiolis.com",
+  "ville": ""
+ },
+ {
   "url": "https://arc-industries.fr",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -788,6 +798,17 @@
   "ville": "MARNAZ"
  },
  {
+  "url": "https://institutfrancais.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Institut De Soudure (Is)",
+  "email": "info@institutfrancais.com",
+  "ville": "VILLEPINTE"
+ },
+ {
   "url": "https://petite.co.uk",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -821,14 +842,14 @@
   "ville": "VINAY"
  },
  {
-  "url": "https://paprec.com",
+  "url": "https://alencon-plastic.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
-  "nom": "ACTI-PLAST",
-  "email": "communication@paprec.com",
+  "nom": "ALENCON PLASTIC",
+  "email": "contact@alencon-plastic.com",
   "ville": ""
  },
  {
@@ -884,6 +905,17 @@
   "note": 0,
   "nom": "46 — Sa Amd Decolletage",
   "email": "sales@amd-decolletage.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://alencon-plastic.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "49 — Alencon Plastic (plasturgie, groupe",
+  "email": "contact@alencon-plastic.com",
   "ville": ""
  },
  {
@@ -964,6 +996,17 @@
   "ville": ""
  },
  {
+  "url": "https://neothermie.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@neothermie.com",
+  "ville": ""
+ },
+ {
   "url": "https://michel-perret.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -986,14 +1029,25 @@
   "ville": ""
  },
  {
-  "url": "https://oureval.fr",
+  "url": "https://adiamix.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "accueil@oureval.fr",
+  "email": "admin@adiamix.com",
+  "ville": ""
+ },
+ {
+  "url": "https://france-calorifugeage.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@france-calorifugeage.fr",
   "ville": ""
  },
  {
@@ -1027,6 +1081,50 @@
   "note": 0,
   "nom": "",
   "email": "cnr@cnr.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://esg1securite.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "serviceclient@esg1securite.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://garagelibert.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@garagelibert.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://essenamavocats.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@essenamavocats.com",
+  "ville": ""
+ },
+ {
+  "url": "https://fabrikable.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "bienvenue@fabrikable.fr",
   "ville": ""
  }
 ]
