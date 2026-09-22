@@ -500,8 +500,8 @@
   "site": "https://axiolis.com",
   "email": "contact@axiolis.com",
   "probleme": "SITE_DATÉ",
-  "instagram": "Bonjour, J'ai regarde votre site https://axiolis.com : Copyright 2015 : site non mis a jour depuis des annees\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
-  "x": "Bonjour, J'ai regarde votre site https://axiolis.com : Copyright 2015 : site non mis a jour depuis des annees\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+  "instagram": "Bonjour, J'ai regarde votre site https://axiolis.com : SSL absent : le site repond en http, pas de https\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://axiolis.com : SSL absent : le site repond en http, pas de https\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
  },
  {
   "nom": "",
@@ -544,6 +544,54 @@
   "x": "Bonjour, J'ai regarde votre site https://crcarrelages.fr : Copyright 2015 : site non mis a jour depuis des annees\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
  },
  {
+  "nom": "Mecanique De Precision Du Barrois (Mpb)",
+  "site": "https://mecaniqueautofacile.com",
+  "email": "contact@mecaniqueautofacile.com",
+  "probleme": "INJOIGNABLE",
+  "instagram": "Bonjour, J'ai regarde votre site https://mecaniqueautofacile.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://mecaniqueautofacile.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+ },
+ {
+  "nom": "Mecanique Usinage De Precision (Mup)",
+  "site": "https://mecaniqueautofacile.com",
+  "email": "contact@mecaniqueautofacile.com",
+  "probleme": "INJOIGNABLE",
+  "instagram": "Bonjour, J'ai regarde votre site https://mecaniqueautofacile.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://mecaniqueautofacile.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+ },
+ {
+  "nom": "Mecanique De Grande Precision",
+  "site": "https://mecaniqueautofacile.com",
+  "email": "contact@mecaniqueautofacile.com",
+  "probleme": "INJOIGNABLE",
+  "instagram": "Bonjour, J'ai regarde votre site https://mecaniqueautofacile.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://mecaniqueautofacile.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+ },
+ {
+  "nom": "Mecanique Precision Industrie (Mpi)",
+  "site": "https://mecaniqueautofacile.com",
+  "email": "contact@mecaniqueautofacile.com",
+  "probleme": "INJOIGNABLE",
+  "instagram": "Bonjour, J'ai regarde votre site https://mecaniqueautofacile.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://mecaniqueautofacile.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+ },
+ {
+  "nom": "Mecanique De Precision De L'Est (Mpe)",
+  "site": "https://mecaniqueautofacile.com",
+  "email": "contact@mecaniqueautofacile.com",
+  "probleme": "INJOIGNABLE",
+  "instagram": "Bonjour, J'ai regarde votre site https://mecaniqueautofacile.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://mecaniqueautofacile.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+ },
+ {
+  "nom": "Mecanique De Precision Scala",
+  "site": "https://mecaniqueautofacile.com",
+  "email": "contact@mecaniqueautofacile.com",
+  "probleme": "INJOIGNABLE",
+  "instagram": "Bonjour, J'ai regarde votre site https://mecaniqueautofacile.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://mecaniqueautofacile.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+ },
+ {
   "nom": "Nord Fraisage",
   "site": "https://nordvpn.com",
   "email": "9765ee91544348309ca8564e59eba16d@debug.nordvpn.com",
@@ -568,14 +616,6 @@
   "x": "Bonjour, J'ai regarde votre site https://amd-decolletage.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
  },
  {
-  "nom": "Institut De Soudure (Is)",
-  "site": "https://institutfrancais.com",
-  "email": "info@institutfrancais.com",
-  "probleme": "INJOIGNABLE",
-  "instagram": "Bonjour, J'ai regarde votre site https://institutfrancais.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
-  "x": "Bonjour, J'ai regarde votre site https://institutfrancais.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
- },
- {
   "nom": "Petite Tolerie De Precision (Ptp)",
   "site": "https://petite.co.uk",
   "email": "customerservice@roman.co.uk",
@@ -598,14 +638,6 @@
   "probleme": "INJOIGNABLE",
   "instagram": "Bonjour, J'ai regarde votre site https://baxter-injection.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
   "x": "Bonjour, J'ai regarde votre site https://baxter-injection.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
- },
- {
-  "nom": "ALENCON PLASTIC",
-  "site": "https://alencon-plastic.com",
-  "email": "contact@alencon-plastic.com",
-  "probleme": "INJOIGNABLE",
-  "instagram": "Bonjour, J'ai regarde votre site https://alencon-plastic.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
-  "x": "Bonjour, J'ai regarde votre site https://alencon-plastic.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
  },
  {
   "nom": "2 — Slicom (ACA Slicom Technologies, Cle",
@@ -646,14 +678,6 @@
   "probleme": "INJOIGNABLE",
   "instagram": "Bonjour, J'ai regarde votre site https://amd-decolletage.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
   "x": "Bonjour, J'ai regarde votre site https://amd-decolletage.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
- },
- {
-  "nom": "49 — Alencon Plastic (plasturgie, groupe",
-  "site": "https://alencon-plastic.com",
-  "email": "contact@alencon-plastic.com",
-  "probleme": "INJOIGNABLE",
-  "instagram": "Bonjour, J'ai regarde votre site https://alencon-plastic.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
-  "x": "Bonjour, J'ai regarde votre site https://alencon-plastic.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
  },
  {
   "nom": "55 — MPI (Issoire, 63)",
@@ -713,14 +737,6 @@
  },
  {
   "nom": "",
-  "site": "https://neothermie.com",
-  "email": "contact@neothermie.com",
-  "probleme": "INJOIGNABLE",
-  "instagram": "Bonjour, J'ai regarde votre site https://neothermie.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
-  "x": "Bonjour, J'ai regarde votre site https://neothermie.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
- },
- {
-  "nom": "",
   "site": "https://michel-perret.fr",
   "email": "contact@michel-perret.fr",
   "probleme": "INJOIGNABLE",
@@ -737,19 +753,11 @@
  },
  {
   "nom": "",
-  "site": "https://adiamix.com",
-  "email": "admin@adiamix.com",
+  "site": "https://injectionplastic.com",
+  "email": "info@injectionplastic.com",
   "probleme": "INJOIGNABLE",
-  "instagram": "Bonjour, J'ai regarde votre site https://adiamix.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
-  "x": "Bonjour, J'ai regarde votre site https://adiamix.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
- },
- {
-  "nom": "",
-  "site": "https://france-calorifugeage.fr",
-  "email": "contact@france-calorifugeage.fr",
-  "probleme": "INJOIGNABLE",
-  "instagram": "Bonjour, J'ai regarde votre site https://france-calorifugeage.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
-  "x": "Bonjour, J'ai regarde votre site https://france-calorifugeage.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
+  "instagram": "Bonjour, J'ai regarde votre site https://injectionplastic.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
+  "x": "Bonjour, J'ai regarde votre site https://injectionplastic.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
  },
  {
   "nom": "",
@@ -777,34 +785,10 @@
  },
  {
   "nom": "",
-  "site": "https://esg1securite.fr",
-  "email": "serviceclient@esg1securite.fr",
-  "probleme": "INJOIGNABLE",
-  "instagram": "Bonjour, J'ai regarde votre site https://esg1securite.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
-  "x": "Bonjour, J'ai regarde votre site https://esg1securite.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
- },
- {
-  "nom": "",
-  "site": "https://garagelibert.fr",
-  "email": "contact@garagelibert.fr",
-  "probleme": "INJOIGNABLE",
-  "instagram": "Bonjour, J'ai regarde votre site https://garagelibert.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
-  "x": "Bonjour, J'ai regarde votre site https://garagelibert.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
- },
- {
-  "nom": "",
   "site": "https://essenamavocats.com",
   "email": "contact@essenamavocats.com",
   "probleme": "INJOIGNABLE",
   "instagram": "Bonjour, J'ai regarde votre site https://essenamavocats.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
   "x": "Bonjour, J'ai regarde votre site https://essenamavocats.com : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
- },
- {
-  "nom": "",
-  "site": "https://fabrikable.fr",
-  "email": "bienvenue@fabrikable.fr",
-  "probleme": "INJOIGNABLE",
-  "instagram": "Bonjour, J'ai regarde votre site https://fabrikable.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise et modernise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement.\n\nPassez une bonne journee.",
-  "x": "Bonjour, J'ai regarde votre site https://fabrikable.fr : Le site ne repond pas (domaine mort ou bloque)\n\nJe peux le moderniser et le securiser. On en parle 5 minutes ?\n\nJe suis Mahdi, je securise les sites de PME. Je peux vous montrer ce que j'ai trouve, sans engagement."
  }
 ]

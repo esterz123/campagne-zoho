@@ -701,6 +701,7 @@
   "url": "https://axiolis.com",
   "probleme": "SITE_DATÉ",
   "details": [
+   "SSL absent : le site repond en http, pas de https",
    "Copyright 2015 : site non mis a jour depuis des annees"
   ],
   "note": 2,
@@ -765,6 +766,72 @@
   "ville": ""
  },
  {
+  "url": "https://mecaniqueautofacile.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Mecanique De Precision Du Barrois (Mpb)",
+  "email": "contact@mecaniqueautofacile.com",
+  "ville": "LIGNY-EN-BARROIS"
+ },
+ {
+  "url": "https://mecaniqueautofacile.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Mecanique Usinage De Precision (Mup)",
+  "email": "contact@mecaniqueautofacile.com",
+  "ville": "CORBIERES-EN-PROVENCE"
+ },
+ {
+  "url": "https://mecaniqueautofacile.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Mecanique De Grande Precision",
+  "email": "contact@mecaniqueautofacile.com",
+  "ville": "VORAY SUR L'OGNON"
+ },
+ {
+  "url": "https://mecaniqueautofacile.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Mecanique Precision Industrie (Mpi)",
+  "email": "contact@mecaniqueautofacile.com",
+  "ville": "VIRE NORMANDIE"
+ },
+ {
+  "url": "https://mecaniqueautofacile.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Mecanique De Precision De L'Est (Mpe)",
+  "email": "contact@mecaniqueautofacile.com",
+  "ville": "MASEVAUX-NIEDERBRUCK"
+ },
+ {
+  "url": "https://mecaniqueautofacile.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Mecanique De Precision Scala",
+  "email": "contact@mecaniqueautofacile.com",
+  "ville": "MOUSSY-LE-NEUF"
+ },
+ {
   "url": "https://nordvpn.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -798,17 +865,6 @@
   "ville": "MARNAZ"
  },
  {
-  "url": "https://institutfrancais.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Institut De Soudure (Is)",
-  "email": "info@institutfrancais.com",
-  "ville": "VILLEPINTE"
- },
- {
   "url": "https://petite.co.uk",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -840,17 +896,6 @@
   "nom": "Baxter Injection",
   "email": "",
   "ville": "VINAY"
- },
- {
-  "url": "https://alencon-plastic.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "ALENCON PLASTIC",
-  "email": "contact@alencon-plastic.com",
-  "ville": ""
  },
  {
   "url": "https://slicom-group.com",
@@ -905,17 +950,6 @@
   "note": 0,
   "nom": "46 — Sa Amd Decolletage",
   "email": "sales@amd-decolletage.fr",
-  "ville": ""
- },
- {
-  "url": "https://alencon-plastic.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "49 — Alencon Plastic (plasturgie, groupe",
-  "email": "contact@alencon-plastic.com",
   "ville": ""
  },
  {
@@ -996,17 +1030,6 @@
   "ville": ""
  },
  {
-  "url": "https://neothermie.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@neothermie.com",
-  "ville": ""
- },
- {
   "url": "https://michel-perret.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1029,25 +1052,14 @@
   "ville": ""
  },
  {
-  "url": "https://adiamix.com",
+  "url": "https://injectionplastic.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "admin@adiamix.com",
-  "ville": ""
- },
- {
-  "url": "https://france-calorifugeage.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@france-calorifugeage.fr",
+  "email": "info@injectionplastic.com",
   "ville": ""
  },
  {
@@ -1084,28 +1096,6 @@
   "ville": ""
  },
  {
-  "url": "https://esg1securite.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "serviceclient@esg1securite.fr",
-  "ville": ""
- },
- {
-  "url": "https://garagelibert.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@garagelibert.fr",
-  "ville": ""
- },
- {
   "url": "https://essenamavocats.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1114,17 +1104,6 @@
   "note": 0,
   "nom": "",
   "email": "contact@essenamavocats.com",
-  "ville": ""
- },
- {
-  "url": "https://fabrikable.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "bienvenue@fabrikable.fr",
   "ville": ""
  }
 ]
