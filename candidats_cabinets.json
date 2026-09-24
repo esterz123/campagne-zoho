@@ -8494,5 +8494,13 @@
   "siren": "491950648",
   "tranche": "02",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CINQPLUS HAGUENAU EXPERTISE COMPTABLE",
+  "ville": "HAGUENAU",
+  "naf": "69.20Z",
+  "siren": "392987228",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
  }
 ]
