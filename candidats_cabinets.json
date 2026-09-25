@@ -8502,5 +8502,53 @@
   "siren": "392987228",
   "tranche": "11",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "REVICONSEIL SOCIETE D'EXPERTISE COMPTABLE",
+  "ville": "MAISONS-ALFORT",
+  "naf": "69.20Z",
+  "siren": "325020923",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE VIVAROISE D'EXPERTISE COMPTABLE (SOVIDEC)",
+  "ville": "AUBENAS",
+  "naf": "69.20Z",
+  "siren": "311285415",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE NORMANDE D'EXPERTISE-COMPTABLE (SONOREC)",
+  "ville": "ROUEN",
+  "naf": "69.20Z",
+  "siren": "300531118",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE D'EXPERTISE COMPTABLE ET DE GESTION (S.E.C.G.)",
+  "ville": "SAINTE-MAXIME",
+  "naf": "69.20Z",
+  "siren": "498658293",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "AL2S CONSEILS EXPERTISE COMPTABLE",
+  "ville": "AUBAGNE",
+  "naf": "69.20Z",
+  "siren": "821873759",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOASTE EXPERTISE-COMPTABLE ET AUDIT",
+  "ville": "SAINT-GREGOIRE",
+  "naf": "69.20Z",
+  "siren": "824947550",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
  }
 ]
