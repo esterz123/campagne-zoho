@@ -8550,5 +8550,29 @@
   "siren": "824947550",
   "tranche": "03",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "INSTITUT RHENAN D'EXPERTISE COMPTABLE",
+  "ville": "ECKBOLSHEIM",
+  "naf": "69.20Z",
+  "siren": "658501119",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE ROYANNAISE EXPERTISE COMPTABLE (SORODEC - GROUPE PRI)",
+  "ville": "ROYAN",
+  "naf": "69.20Z",
+  "siren": "340025360",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE DE GESTION ET EXPERTISE COMPTABLES (SOGEXCO)",
+  "ville": "LIMOGES",
+  "naf": "69.20Z",
+  "siren": "301569737",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
  }
 ]
