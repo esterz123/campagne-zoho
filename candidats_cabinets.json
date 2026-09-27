@@ -8574,5 +8574,21 @@
   "siren": "301569737",
   "tranche": "11",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ACTIF REACTIF EXPERTISE COMPTABLE",
+  "ville": "MILHAUD",
+  "naf": "69.20Z",
+  "siren": "891463523",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EQUATION EXPERTISE COMPTABLE ET CONSEILS (LFEC)",
+  "ville": "SAINT-ETIENNE",
+  "naf": "69.20Z",
+  "siren": "834068140",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
  }
 ]
