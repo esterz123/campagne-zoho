@@ -1051,17 +1051,6 @@
   "ville": ""
  },
  {
-  "url": "https://artisanvaa.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "bonjour@artisanvaa.fr",
-  "ville": ""
- },
- {
   "url": "https://cnr.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1081,28 +1070,6 @@
   "note": 0,
   "nom": "",
   "email": "contact@gmld.fr",
-  "ville": ""
- },
- {
-  "url": "https://clairecimmobilier.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@clairecimmobilier.com",
-  "ville": ""
- },
- {
-  "url": "https://estrepublicain.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "lerabonnement@estrepublicain.fr",
   "ville": ""
  }
 ]
