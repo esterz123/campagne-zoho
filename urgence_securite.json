@@ -765,17 +765,6 @@
   "ville": ""
  },
  {
-  "url": "https://segreenanjoubleu.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Segre Mecanique Precision (Smp)",
-  "email": "communication@segreenanjoubleu.fr",
-  "ville": "SEGRE-EN-ANJOU BLEU"
- },
- {
   "url": "https://nordvpn.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -842,6 +831,17 @@
   "ville": "VINAY"
  },
  {
+  "url": "https://alencon-plastic.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "ALENCON PLASTIC",
+  "email": "contact@alencon-plastic.com",
+  "ville": ""
+ },
+ {
   "url": "https://algoplast.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -905,6 +905,17 @@
   "note": 0,
   "nom": "46 — Sa Amd Decolletage",
   "email": "sales@amd-decolletage.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://alencon-plastic.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "49 — Alencon Plastic (plasturgie, groupe",
+  "email": "contact@alencon-plastic.com",
   "ville": ""
  },
  {
@@ -985,17 +996,6 @@
   "ville": ""
  },
  {
-  "url": "https://neothermie.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@neothermie.com",
-  "ville": ""
- },
- {
   "url": "https://michel-perret.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1015,6 +1015,17 @@
   "note": 0,
   "nom": "",
   "email": "ribautsa@ribaut.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://adiamix.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "admin@adiamix.com",
   "ville": ""
  },
  {
@@ -1062,14 +1073,36 @@
   "ville": ""
  },
  {
-  "url": "https://atpa-tolerie.com",
+  "url": "https://gmld.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "contact@atpa-tolerie.com",
+  "email": "contact@gmld.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://clairecimmobilier.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@clairecimmobilier.com",
+  "ville": ""
+ },
+ {
+  "url": "https://estrepublicain.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "lerabonnement@estrepublicain.fr",
   "ville": ""
  }
 ]
