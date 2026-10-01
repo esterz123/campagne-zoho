@@ -831,17 +831,6 @@
   "ville": "VINAY"
  },
  {
-  "url": "https://paprec.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "ACTI-PLAST",
-  "email": "communication@paprec.com",
-  "ville": ""
- },
- {
   "url": "https://algoplast.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -974,17 +963,6 @@
   "ville": ""
  },
  {
-  "url": "https://amp-usinage.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "amp@amp-usinage.com",
-  "ville": ""
- },
- {
   "url": "https://dis-bourasseau.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1018,36 +996,14 @@
   "ville": ""
  },
  {
-  "url": "https://psg-industries.com",
+  "url": "https://asjb.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "contact@psg-industries.com",
-  "ville": ""
- },
- {
-  "url": "https://alsacienne-de-metallerie.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@alsacienne-de-metallerie.fr",
-  "ville": ""
- },
- {
-  "url": "https://atelier-inoxia.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "info@atelier-inoxia.fr",
+  "email": "contact@asjb.fr",
   "ville": ""
  },
  {
@@ -1073,61 +1029,6 @@
   "ville": ""
  },
  {
-  "url": "https://etscolombie.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@etscolombie.fr",
-  "ville": ""
- },
- {
-  "url": "https://abys-navigation.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@abys-navigation.fr",
-  "ville": ""
- },
- {
-  "url": "https://artihome-france.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@artihome-france.fr",
-  "ville": ""
- },
- {
-  "url": "https://bonnevaux-sa.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@bonnevaux-sa.com",
-  "ville": ""
- },
- {
-  "url": "https://cmdcardot.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "accueil@cmdcardot.fr",
-  "ville": ""
- },
- {
   "url": "https://cnr.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1139,28 +1040,6 @@
   "ville": ""
  },
  {
-  "url": "https://ampifrance.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "david.dufour@ampifrance.com",
-  "ville": ""
- },
- {
-  "url": "https://ghp.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "ghp-pdc@ghp.fr",
-  "ville": ""
- },
- {
   "url": "https://gmld.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1169,6 +1048,17 @@
   "note": 0,
   "nom": "",
   "email": "contact@gmld.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://essenamavocats.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@essenamavocats.com",
   "ville": ""
  }
 ]
