@@ -282,17 +282,6 @@
   "ville": ""
  },
  {
-  "url": "https://dominguescouverture.fr",
-  "probleme": "WP_OBSOLETE",
-  "details": [
-   "WordPress 4.9 (vulnerabilites connues non corrigees)"
-  ],
-  "note": 3,
-  "nom": "",
-  "email": "contact@dominguescouverture.fr",
-  "ville": ""
- },
- {
   "url": "https://carrosseriehangard.com",
   "probleme": "WP_OBSOLETE",
   "details": [
@@ -765,6 +754,50 @@
   "ville": ""
  },
  {
+  "url": "https://acmt.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2018 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "acmt@acmt.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://cbda-avocats.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "renaud.cavoizy@cbda-avocats.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://ecocomplet.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@ecocomplet.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://forminox.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2019 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@forminox.com",
+  "ville": ""
+ },
+ {
   "url": "https://nordvpn.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -996,14 +1029,14 @@
   "ville": ""
  },
  {
-  "url": "https://asjb.fr",
+  "url": "https://oureval.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "contact@asjb.fr",
+  "email": "accueil@oureval.fr",
   "ville": ""
  },
  {
@@ -1051,14 +1084,25 @@
   "ville": ""
  },
  {
-  "url": "https://essenamavocats.com",
+  "url": "https://dominguescouverture.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "contact@essenamavocats.com",
+  "email": "contact@dominguescouverture.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://estrepublicain.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "lerabonnement@estrepublicain.fr",
   "ville": ""
  }
 ]
