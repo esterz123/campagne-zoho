@@ -8590,5 +8590,253 @@
   "siren": "834068140",
   "tranche": "03",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "GDS EXPERTISE COMPTABLE (G.D.S.EC)",
+  "ville": "CAYENNE",
+  "naf": "69.20Z",
+  "siren": "930922612",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "GROUPE EXPERTISE COMPTABLE (G.E.C.)",
+  "ville": "NICE",
+  "naf": "69.20Z",
+  "siren": "980825236",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "HRT EXPERTISE COMPTABLE (HRT EXPERTISE COMPTABLE)",
+  "ville": "POLIGNY",
+  "naf": "69.20Z",
+  "siren": "929739126",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ALLURE EXPERTISE COMPTABLE ET AUDIT",
+  "ville": "LIMOGES",
+  "naf": "69.20Z",
+  "siren": "922959077",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "DYNAMIS EXPERTISE COMPTABLE (DYNAMIS EXPERTISE COMPTABLE)",
+  "ville": "BISCHOFFSHEIM",
+  "naf": "69.20Z",
+  "siren": "803472356",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "VIA EXPERTISE COMPTABLE (EURL VIA EXPERTISE COMPTABLE)",
+  "ville": "SAINT-JEAN-DE-MOIRANS",
+  "naf": "69.20Z",
+  "siren": "880482922",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "BCM EXPERTISE COMPTABLE ET AUDIT (BCM CAYENNE)",
+  "ville": "CAYENNE",
+  "naf": "69.20Z",
+  "siren": "981956063",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "NOVYXIS EXPERTISE COMPTABLE",
+  "ville": "VELIZY-VILLACOUBLAY",
+  "naf": "69.20Z",
+  "siren": "927843763",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "GOURDEAU EXPERTISE COMPTABLE AUDIT (G.E.C.A.)",
+  "ville": "NONTRON",
+  "naf": "69.20Z",
+  "siren": "927486886",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "FIDUCIAIRE COHEN D'EXPERTISE COMPTABLE (FICODEC)",
+  "ville": "CRETEIL",
+  "naf": "69.20Z",
+  "siren": "538713165",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CABINET D EXPERTISE COMPTABLE CODEX (CODEX)",
+  "ville": "TOULOUSE",
+  "naf": "69.20Z",
+  "siren": "917739815",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CABINET COMPTABLE PARIS VALLEE DE LA MARNE (CCPVM)",
+  "ville": "LAGNY-SUR-MARNE",
+  "naf": "69.20Z",
+  "siren": "823635230",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CABINET LAZARE EXPERTISE COMPTABLE",
+  "ville": "LORMONT",
+  "naf": "69.20Z",
+  "siren": "928522143",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CABINET D'EXPERTISE COMPTABLE D'ORGANISATION ET DE REVISION (CECOR)",
+  "ville": "DRACY-LE-FORT",
+  "naf": "69.20Z",
+  "siren": "420505695",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CABINET D'EXPERTISE COMPTABLE GERARD RIVIERE ET ASSOCIES",
+  "ville": "TOULOUSE",
+  "naf": "69.20Z",
+  "siren": "420278103",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CABINET KIEFFER SOC EXPERTISE COMPTABLE",
+  "ville": "YUTZ",
+  "naf": "69.20Z",
+  "siren": "398432690",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SERENITY CONSEIL",
+  "ville": "LA COLLE-SUR-LOUP",
+  "naf": "69.20Z",
+  "siren": "892142332",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "MY EXPERT-COMPTABLE (MY EXPERT-COMPTABLE)",
+  "ville": "LILLERS",
+  "naf": "69.20Z",
+  "siren": "903741684",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "LIGHT EXPERTS-COMPTABLES",
+  "ville": "NANTES",
+  "naf": "69.20Z",
+  "siren": "985188739",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "TAIEB ET ARBISER EXPERTS COMPTABLES (TAREX)",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "493014617",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "LEGAPOLE EXPERTS-COMPTABLES TOULOUSE",
+  "ville": "TOULOUSE",
+  "naf": "69.20Z",
+  "siren": "803727197",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EFFICIENCE EXPERTS-COMPTABLES (EFFICIENCE CONSULTANTS)",
+  "ville": "PLERIN",
+  "naf": "69.20Z",
+  "siren": "827548751",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CMB EXPERTS COMPTABLES",
+  "ville": "METZ",
+  "naf": "69.20Z",
+  "siren": "379697840",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "MAYOTTE EXPERTISE COMPTABLE ET AUDIT SARL (MAY EXPERT COMPTABLE SARL) (MAY EXPERT COMPTABLE)",
+  "ville": "DZAOUDZI",
+  "naf": "69.20Z",
+  "siren": "838905966",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ASSOCIATION DE GESTION ET DE COMPTABILITE DE MAYOTTE (AGC MAYOTTE)",
+  "ville": "MAMOUDZOU",
+  "naf": "69.20Z",
+  "siren": "853175263",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "2COS",
+  "ville": "LA CIOTAT",
+  "naf": "69.20Z",
+  "siren": "538084823",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "AL CONSULTANTS (AL CONSULTANTS - A.B. COMPTABILITE)",
+  "ville": "LYON",
+  "naf": "69.20Z",
+  "siren": "405000670",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ARIANCE VENTOUX (AUDIT CONSEILS ET COMPTABILITE) (SA2C)",
+  "ville": "NOVES",
+  "naf": "69.20Z",
+  "siren": "509861464",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "COMPTABILITE AUDIT 2C CORSE (ECCA2C CORSE)",
+  "ville": "BASTIA",
+  "naf": "69.20Z",
+  "siren": "335184248",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "AUDIT COMPTABILITE CONSEIL (A.C.C.) (ACC)",
+  "ville": "LE HAVRE",
+  "naf": "69.20Z",
+  "siren": "404057663",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "AUDIT COMPTABILITE VDF",
+  "ville": "ENGHIEN-LES-BAINS",
+  "naf": "69.20Z",
+  "siren": "384083036",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
  }
 ]
