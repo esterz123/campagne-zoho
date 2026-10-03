@@ -8838,5 +8838,301 @@
   "siren": "384083036",
   "tranche": "11",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ALIORA EXPERTISE COMPTABLE",
+  "ville": "LA ROCHELLE",
+  "naf": "69.20Z",
+  "siren": "789226693",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "JMI - EXPERTISE COMPTABLE (PROPULS'CAB)",
+  "ville": "VERSAILLES",
+  "naf": "69.20Z",
+  "siren": "903501708",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "GROUPEGZ EXPERTISE COMPTABLE",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "929173235",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "KALON EXPERTISE COMPTABLE",
+  "ville": "QUIMPER",
+  "naf": "69.20Z",
+  "siren": "929968923",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "AUDIT COMPTABLE EXPERTISE (A EX COM)",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "443716329",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "DECOLLAGE EXPERTISE COMPTABLE",
+  "ville": "DAMMARIE-LES-LYS",
+  "naf": "69.20Z",
+  "siren": "895093508",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "TROUSSARD EXPERTISE COMPTABLE",
+  "ville": "BEAUNE",
+  "naf": "69.20Z",
+  "siren": "908620297",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ARENA EXPERTISE COMPTABLE",
+  "ville": "PUGET-SUR-ARGENS",
+  "naf": "69.20Z",
+  "siren": "921700910",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "QAAL EXPERTISE COMPTABLE",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "914326376",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "NOVO EXPERTISE COMPTABLE (NOVO) (NOVO)",
+  "ville": "TOULOUSE",
+  "naf": "69.20Z",
+  "siren": "980915342",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ELYSEES SOLUTIONS CONSEILS ET EXPERTISE COMPTABLE (ESCEC INTERNATIONAL) (ESCEC INTERNATIONAL)",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "824757363",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SASU YANNICK PIERRE EXPERTISE COMPTABLE (SASU YPEC)",
+  "ville": "ATHIS-MONS",
+  "naf": "69.20Z",
+  "siren": "979488251",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CODEXA EXPERTISE COMPTABLE",
+  "ville": "GONESSE",
+  "naf": "69.20Z",
+  "siren": "984075440",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "DALMAU - HYPHEN EXPERTISE COMPTABLE",
+  "ville": "VILLEMOUSTAUSSOU",
+  "naf": "69.20Z",
+  "siren": "983220906",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "YAKAN AUDIT & EXPERTISE-COMPTABLE (YAKAN AUDIT & EXPERTISE-COMPTABLE)",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "953119062",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "AXIMA GROUPE EXPERTISE COMPTABLE",
+  "ville": "ARRADON",
+  "naf": "69.20Z",
+  "siren": "380692236",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "K BIARD EXPERTISE COMPTABLE",
+  "ville": "AGNEAUX",
+  "naf": "69.20Z",
+  "siren": "895307510",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "KAIZEN EXPERTISE COMPTABLE",
+  "ville": "ROANNE",
+  "naf": "69.20Z",
+  "siren": "881512230",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "CDA-EXPERTISE COMPTABLE",
+  "ville": "SAINT-GERMAIN-EN-LAYE",
+  "naf": "69.20Z",
+  "siren": "434963013",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE FIDUCIAIRE D EXPERTISE COMPTABLE DE L ESSONNE (SOFIE)",
+  "ville": "RIS-ORANGIS",
+  "naf": "69.20Z",
+  "siren": "322367673",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "IMPLID AVOCATS ET EXPERTS COMPTABLES",
+  "ville": "LYON",
+  "naf": "69.10Z",
+  "siren": "387537384",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EXPERTISE COMPTABLE BENJAMIN BERTOMEU (CABINET BERTOMEU) (EC2B)",
+  "ville": "NIMES",
+  "naf": "69.20Z",
+  "siren": "883062481",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "IT STONE EXPERTS COMPTABLES",
+  "ville": "SAINTE-MARIE",
+  "naf": "69.20Z",
+  "siren": "913067096",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "EXPERT-COMPTABLE DE LA PROPRIETE IMMOBILIERE (E.C.P.I.M)",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "931191142",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "INNOVIZE EXPERTISE",
+  "ville": "SARCELLES",
+  "naf": "69.20Z",
+  "siren": "953574852",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "ECF SERVICES",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "844509133",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "JACQUES BRUYERE EXPERTISE COMPTABLE (JB EXPERT)",
+  "ville": "ANDREZIEUX-BOUTHEON",
+  "naf": "69.20Z",
+  "siren": "931702930",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "NEXCO EXPERTS COMPTABLES (NEXCO) (NEC)",
+  "ville": "LEVALLOIS-PERRET",
+  "naf": "69.20Z",
+  "siren": "949339535",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "MATIM EXPERTISE (MATIM)",
+  "ville": "PARIS",
+  "naf": "69.20Z",
+  "siren": "933898371",
+  "tranche": "02",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "A.N. COMPTABILITE",
+  "ville": "AIX-EN-PROVENCE",
+  "naf": "69.20Z",
+  "siren": "808647135",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "MONT BLANC COMPTABILITE (MBC)",
+  "ville": "MEGEVE",
+  "naf": "69.20Z",
+  "siren": "400911459",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "GRASSE COMPTABILITE GESTION (G.C.G)",
+  "ville": "GRASSE",
+  "naf": "69.20Z",
+  "siren": "497633396",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "FLANDRE COMPTABILITE HOLDING",
+  "ville": "MARCQ-EN-BARŒUL",
+  "naf": "69.20Z",
+  "siren": "824574768",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "GESTION AUDIT COMPTABILIT  CONSEIL (GESTION AUDIT COMPTABILITE CONSEIL) (G.A.C.C)",
+  "ville": "ANGLET",
+  "naf": "69.20Z",
+  "siren": "832651897",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOC AUDOISE COMPTABILITE GESTION (SACG)",
+  "ville": "LIMOUX",
+  "naf": "69.20Z",
+  "siren": "617150032",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE BERJALIENNE DE BUSINESS ET COMPTABILITE",
+  "ville": "BOURGOIN-JALLIEU",
+  "naf": "69.20Z",
+  "siren": "948992664",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "RM DP AUDIT COMPTABILITE EXPERTISE (RM DP AUDIT COMPTABILITE EXPERTISE) (RM DP ACE)",
+  "ville": "CANNES",
+  "naf": "69.20Z",
+  "siren": "897763173",
+  "tranche": "01",
+  "source": "api-officielle-cabinets"
  }
 ]

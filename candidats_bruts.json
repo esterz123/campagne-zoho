@@ -5856,5 +5856,157 @@
   "siren": "449140102",
   "tranche": "11",
   "source": "api-officielle"
+ },
+ {
+  "nom": "MBB USINAGE",
+  "ville": "NOUZONVILLE",
+  "naf": "25.62B",
+  "siren": "880113212",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "AP USINAGE",
+  "ville": "SPYCKER",
+  "naf": "25.62B",
+  "siren": "440701910",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "VENDARGUES USINAGE",
+  "ville": "VENDARGUES",
+  "naf": "25.62B",
+  "siren": "442741864",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "ADMN USINAGE",
+  "ville": "SADIRAC",
+  "naf": "25.62B",
+  "siren": "978107472",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "GRANDPRE (GRANDPRE USINAGE)",
+  "ville": "CHANGE",
+  "naf": "25.62B",
+  "siren": "799379730",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "FONDERIE PRADEL",
+  "ville": "SAINT-PRIEST",
+  "naf": "24.54Z",
+  "siren": "384097796",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "CHAUDRON.MONTAGE MAINT.MATERIEL FONDERIE",
+  "ville": "TRONVILLE-EN-BARROIS",
+  "naf": "25.11Z",
+  "siren": "404429508",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "FONDERIE ALUMINIUM ALLIAGE DOLE CIE",
+  "ville": "SAINT-PATHUS",
+  "naf": "24.53Z",
+  "siren": "662041607",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "GRAVITEC",
+  "ville": "VILLETTE-D'ANTHON",
+  "naf": "24.54Z",
+  "siren": "341351088",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "HEINRICH ECLAIRAGE",
+  "ville": "MOLSHEIM",
+  "naf": "27.40Z",
+  "siren": "383068467",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "BDF EMBALLAGES",
+  "ville": "MONTCHANIN",
+  "naf": "16.24Z",
+  "siren": "952960581",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "BOULANGERIE DU PONT MARAIS",
+  "ville": "CHERBOURG-EN-COTENTIN",
+  "naf": "10.71C",
+  "siren": "350174439",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "TOLERIE EMBOUTISSAGE PROTOTYPE T E P (T E P)",
+  "ville": "VIGNY",
+  "naf": "25.99B",
+  "siren": "524231446",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "ETM",
+  "ville": "PRUILLE-LE-CHETIF",
+  "naf": "25.11Z",
+  "siren": "391170354",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "SN GALLEZ OUTILLAGES",
+  "ville": "BONDUES",
+  "naf": "28.99B",
+  "siren": "927721456",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "MOULES ET OUTILLAGES DE BOURGOGNE PRECISION (MOB-PRECISION)",
+  "ville": "CHALON-SUR-SAONE",
+  "naf": "25.73A",
+  "siren": "981380009",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "SOCIETE D'OUTILLAGE ET DE RECTIFICATION D'ELEMENTS MECANIQUES DE PRECISION (SOREMP)",
+  "ville": "DRAVEIL",
+  "naf": "25.62B",
+  "siren": "318733060",
+  "tranche": "11",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "CHAUDRONNERIE CLAUDE PRADEAU",
+  "ville": "SAINT-MAUR",
+  "naf": "33.20A",
+  "siren": "440325454",
+  "tranche": "12",
+  "source": "api-officielle"
+ },
+ {
+  "nom": "ARC INDUSTRIES VOIRON",
+  "ville": "VOIRON",
+  "naf": "25.50B",
+  "siren": "320813652",
+  "tranche": "12",
+  "source": "api-officielle"
  }
 ]
