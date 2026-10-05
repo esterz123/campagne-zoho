@@ -440,5 +440,19 @@
   ],
   "score": 3,
   "siren": ""
+ },
+ {
+  "nom": "ARTIFIL",
+  "site": "artifil.fr",
+  "email": "adv3@artifil.fr",
+  "dirigeant": "Romain BESANCENOT",
+  "source": "polyvia",
+  "date": "2026-10-05",
+  "constats": [
+   "Copyright 2016",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "siren": ""
  }
 ]
