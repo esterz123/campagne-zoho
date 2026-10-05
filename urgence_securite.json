@@ -876,6 +876,17 @@
   "ville": "MARNAZ"
  },
  {
+  "url": "https://bureau-vallee.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "Bureau Etude Outillage Mecaniq Generale (Begc)",
+  "email": "contact@bureau-vallee.fr",
+  "ville": "GOUSSAINVILLE"
+ },
+ {
   "url": "https://petite.co.uk",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -907,6 +918,17 @@
   "nom": "Baxter Injection",
   "email": "",
   "ville": "VINAY"
+ },
+ {
+  "url": "https://alencon-plastic.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "ALENCON PLASTIC",
+  "email": "contact@alencon-plastic.com",
+  "ville": ""
  },
  {
   "url": "https://algoplast.com",
@@ -975,6 +997,17 @@
   "ville": ""
  },
  {
+  "url": "https://alencon-plastic.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "49 — Alencon Plastic (plasturgie, groupe",
+  "email": "contact@alencon-plastic.com",
+  "ville": ""
+ },
+ {
   "url": "https://mpi-mecanique.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1030,6 +1063,17 @@
   "ville": ""
  },
  {
+  "url": "https://bureau-vallee.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@bureau-vallee.fr",
+  "ville": ""
+ },
+ {
   "url": "https://ufp-plast.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1063,6 +1107,17 @@
   "ville": ""
  },
  {
+  "url": "https://neothermie.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@neothermie.com",
+  "ville": ""
+ },
+ {
   "url": "https://michel-perret.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1085,14 +1140,25 @@
   "ville": ""
  },
  {
-  "url": "https://oureval.fr",
+  "url": "https://adiamix.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "accueil@oureval.fr",
+  "email": "admin@adiamix.com",
+  "ville": ""
+ },
+ {
+  "url": "https://france-calorifugeage.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@france-calorifugeage.fr",
   "ville": ""
  },
  {
@@ -1118,14 +1184,14 @@
   "ville": ""
  },
  {
-  "url": "https://cabinetecai.com",
+  "url": "https://eurl-joachim-calorifuge.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "ecai@cabinetecai.com",
+  "email": "contact@eurl-joachim-calorifuge-33.fr",
   "ville": ""
  },
  {
@@ -1148,6 +1214,28 @@
   "note": 0,
   "nom": "",
   "email": "contact@gmld.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://estrepublicain.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "lerabonnement@estrepublicain.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://fabrikable.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "bienvenue@fabrikable.fr",
   "ville": ""
  }
 ]
