@@ -9134,5 +9134,13 @@
   "siren": "897763173",
   "tranche": "01",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "SOCIETE D'EXPERTISE COMPTABLE EXEDRA (ANDRE LE GROUPE) (EXEDRA)",
+  "ville": "CHALON-SUR-SAONE",
+  "naf": "69.20Z",
+  "siren": "492307178",
+  "tranche": "11",
+  "source": "api-officielle-cabinets"
  }
 ]
