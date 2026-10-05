@@ -315,6 +315,29 @@
   "ville": ""
  },
  {
+  "url": "https://delta-plasturgy.com",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 6.4 (vulnerabilites connues non corrigees)",
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@delta-plasturgy.com",
+  "ville": ""
+ },
+ {
+  "url": "https://france-facade.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 5.8 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@france-facade.fr",
+  "ville": ""
+ },
+ {
   "url": "https://eberhard.de",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -698,6 +721,17 @@
   "ville": ""
  },
  {
+  "url": "https://axiolis.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@axiolis.com",
+  "ville": ""
+ },
+ {
   "url": "https://arc-industries.fr",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -798,6 +832,17 @@
   "ville": ""
  },
  {
+  "url": "https://expertmetric.com",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "secretariat@expertmetric.com",
+  "ville": ""
+ },
+ {
   "url": "https://nordvpn.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -831,17 +876,6 @@
   "ville": "MARNAZ"
  },
  {
-  "url": "https://institutfrancais.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Institut De Soudure (Is)",
-  "email": "info@institutfrancais.com",
-  "ville": "VILLEPINTE"
- },
- {
   "url": "https://petite.co.uk",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -873,28 +907,6 @@
   "nom": "Baxter Injection",
   "email": "",
   "ville": "VINAY"
- },
- {
-  "url": "https://alencon-plastic.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "ALENCON PLASTIC",
-  "email": "contact@alencon-plastic.com",
-  "ville": ""
- },
- {
-  "url": "https://aplicit.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "APLICIT",
-  "email": "contact@aplicit.com",
-  "ville": ""
  },
  {
   "url": "https://algoplast.com",
@@ -960,28 +972,6 @@
   "note": 0,
   "nom": "46 — Sa Amd Decolletage",
   "email": "sales@amd-decolletage.fr",
-  "ville": ""
- },
- {
-  "url": "https://alencon-plastic.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "49 — Alencon Plastic (plasturgie, groupe",
-  "email": "contact@alencon-plastic.com",
-  "ville": ""
- },
- {
-  "url": "https://aplicit.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "50 — Aplicit (accompagnement technologiq",
-  "email": "contact@aplicit.com",
   "ville": ""
  },
  {
@@ -1095,17 +1085,6 @@
   "ville": ""
  },
  {
-  "url": "https://adiamix.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "admin@adiamix.com",
-  "ville": ""
- },
- {
   "url": "https://oureval.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1139,6 +1118,17 @@
   "ville": ""
  },
  {
+  "url": "https://cabinetecai.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "ecai@cabinetecai.com",
+  "ville": ""
+ },
+ {
   "url": "https://cnr.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1158,28 +1148,6 @@
   "note": 0,
   "nom": "",
   "email": "contact@gmld.fr",
-  "ville": ""
- },
- {
-  "url": "https://1001-solutions.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@1001-solutions.fr",
-  "ville": ""
- },
- {
-  "url": "https://anuri.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "v.tanneau@anuri.fr",
   "ville": ""
  }
 ]
