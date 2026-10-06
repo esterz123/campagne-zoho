@@ -454,5 +454,19 @@
   ],
   "score": 2,
   "siren": ""
+ },
+ {
+  "nom": "AISA",
+  "site": "aisa.com",
+  "email": "b.r.e@aisa.com",
+  "dirigeant": "",
+  "source": "polyvia",
+  "date": "2026-10-06",
+  "constats": [
+   "WordPress 7.1.2",
+   "Pas de certificat SSL"
+  ],
+  "score": 2,
+  "siren": ""
  }
 ]
