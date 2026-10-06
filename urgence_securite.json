@@ -285,6 +285,7 @@
   "url": "https://dominguescouverture.fr",
   "probleme": "WP_OBSOLETE",
   "details": [
+   "SSL absent : le site repond en http, pas de https",
    "WordPress 4.9 (vulnerabilites connues non corrigees)"
   ],
   "note": 3,
@@ -1118,6 +1119,17 @@
   "ville": ""
  },
  {
+  "url": "https://achatmat.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "commercial@achatmat.com",
+  "ville": ""
+ },
+ {
   "url": "https://cnr.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1137,6 +1149,39 @@
   "note": 0,
   "nom": "",
   "email": "contact@gmld.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://1001-solutions.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@1001-solutions.fr",
+  "ville": ""
+ },
+ {
+  "url": "https://groupe-efire.com",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "marketing@groupe-efire.com",
+  "ville": ""
+ },
+ {
+  "url": "https://filab.fr",
+  "probleme": "INJOIGNABLE",
+  "details": [
+   "Le site ne repond pas (domaine mort ou bloque)"
+  ],
+  "note": 0,
+  "nom": "",
+  "email": "contact@filab.fr",
   "ville": ""
  }
 ]
