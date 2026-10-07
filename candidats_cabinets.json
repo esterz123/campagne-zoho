@@ -9142,5 +9142,13 @@
   "siren": "492307178",
   "tranche": "11",
   "source": "api-officielle-cabinets"
+ },
+ {
+  "nom": "GS CONSEILS EXPERTISE COMPTABLE",
+  "ville": "AUBAGNE",
+  "naf": "69.20Z",
+  "siren": "830722989",
+  "tranche": "03",
+  "source": "api-officielle-cabinets"
  }
 ]
