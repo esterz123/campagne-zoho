@@ -1,13 +1,3 @@
 hugo.demilly@deliotec.fr
 contact@geometre-paris.com
-commercial@amg.fr
-contact@b-o-b-o.com
-contact@capifrance.fr
-ccscleaning@ccscleaning.com
-41bc422f2d704f5bab0981b59f449328@errors.data.gouv.fr
-ldenoeux@diligentia.fr
-hellobusiness@electriciteinfo.com
-dario@exella.com
-info@exponens.com
-infos@fontanay.com
-contact@garagekern-citroen.fr
+contact@cabinet-ceg.fr
