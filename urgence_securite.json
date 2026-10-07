@@ -282,6 +282,17 @@
   "ville": ""
  },
  {
+  "url": "https://dominguescouverture.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 4.9 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@dominguescouverture.fr",
+  "ville": ""
+ },
+ {
   "url": "https://carrosseriehangard.com",
   "probleme": "WP_OBSOLETE",
   "details": [
@@ -766,6 +777,17 @@
   "ville": ""
  },
  {
+  "url": "https://eurl-msti.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@eurl-msti.fr",
+  "ville": ""
+ },
+ {
   "url": "https://crcarrelages.fr",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -896,17 +918,6 @@
   "nom": "Baxter Injection",
   "email": "",
   "ville": "VINAY"
- },
- {
-  "url": "https://paprec.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "ACTI-PLAST",
-  "email": "communication@paprec.com",
-  "ville": ""
  },
  {
   "url": "https://algoplast.com",
@@ -1041,17 +1052,6 @@
   "ville": ""
  },
  {
-  "url": "https://uti-metallerie.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@uti-metallerie.fr",
-  "ville": ""
- },
- {
   "url": "https://dis-bourasseau.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1082,17 +1082,6 @@
   "note": 0,
   "nom": "",
   "email": "ribautsa@ribaut.fr",
-  "ville": ""
- },
- {
-  "url": "https://oureval.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "accueil@oureval.fr",
   "ville": ""
  },
  {
@@ -1137,17 +1126,6 @@
   "note": 0,
   "nom": "",
   "email": "contact@gmld.fr",
-  "ville": ""
- },
- {
-  "url": "https://dominguescouverture.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@dominguescouverture.fr",
   "ville": ""
  }
 ]
