@@ -237,6 +237,17 @@
   "ville": ""
  },
  {
+  "url": "https://france-c.fr",
+  "probleme": "WP_OBSOLETE",
+  "details": [
+   "WordPress 6.1 (vulnerabilites connues non corrigees)"
+  ],
+  "note": 3,
+  "nom": "",
+  "email": "contact@france-c.fr",
+  "ville": ""
+ },
+ {
   "url": "https://lsz-avocat.fr",
   "probleme": "WP_OBSOLETE",
   "details": [
@@ -654,6 +665,17 @@
   "ville": ""
  },
  {
+  "url": "https://lm-platrerie.fr",
+  "probleme": "SITE_DATÉ",
+  "details": [
+   "Copyright 2015 : site non mis a jour depuis des annees"
+  ],
+  "note": 2,
+  "nom": "",
+  "email": "contact@lm-platrerie.fr",
+  "ville": ""
+ },
+ {
   "url": "https://maas-bt.com",
   "probleme": "SITE_DATÉ",
   "details": [
@@ -865,17 +887,6 @@
   "ville": "MARNAZ"
  },
  {
-  "url": "https://footballberry.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "Decolletage Du Berry",
-  "email": "ask@footballberry.com",
-  "ville": "SAINT-FLORENT-SUR-CHER"
- },
- {
   "url": "https://petite.co.uk",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -909,14 +920,14 @@
   "ville": "VINAY"
  },
  {
-  "url": "https://alencon-plastic.com",
+  "url": "https://aplicit.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
-  "nom": "ALENCON PLASTIC",
-  "email": "contact@alencon-plastic.com",
+  "nom": "APLICIT",
+  "email": "contact@aplicit.com",
   "ville": ""
  },
  {
@@ -986,14 +997,14 @@
   "ville": ""
  },
  {
-  "url": "https://alencon-plastic.com",
+  "url": "https://aplicit.com",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
-  "nom": "49 — Alencon Plastic (plasturgie, groupe",
-  "email": "contact@alencon-plastic.com",
+  "nom": "50 — Aplicit (accompagnement technologiq",
+  "email": "contact@aplicit.com",
   "ville": ""
  },
  {
@@ -1052,17 +1063,6 @@
   "ville": ""
  },
  {
-  "url": "https://angouleme-ts.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "accueil@angouleme-ts.fr",
-  "ville": ""
- },
- {
   "url": "https://dis-bourasseau.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1071,28 +1071,6 @@
   "note": 0,
   "nom": "",
   "email": "info@dis-bourasseau.fr",
-  "ville": ""
- },
- {
-  "url": "https://pitaval-sarl.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@pitaval-sarl.com",
-  "ville": ""
- },
- {
-  "url": "https://neothermie.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@neothermie.com",
   "ville": ""
  },
  {
@@ -1118,61 +1096,6 @@
   "ville": ""
  },
  {
-  "url": "https://narac.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "narac@narac.fr",
-  "ville": ""
- },
- {
-  "url": "https://adiamix.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "admin@adiamix.com",
-  "ville": ""
- },
- {
-  "url": "https://bdagencements.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@bdagencements.com",
-  "ville": ""
- },
- {
-  "url": "https://france-calorifugeage.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@france-calorifugeage.fr",
-  "ville": ""
- },
- {
-  "url": "https://atim-inox.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "info@atim-inox.com",
-  "ville": ""
- },
- {
   "url": "https://carrosserie-ats.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1195,17 +1118,6 @@
   "ville": ""
  },
  {
-  "url": "https://eurl-joachim-calorifuge.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@eurl-joachim-calorifuge-33.fr",
-  "ville": ""
- },
- {
   "url": "https://cnr.fr",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1214,39 +1126,6 @@
   "note": 0,
   "nom": "",
   "email": "cnr@cnr.fr",
-  "ville": ""
- },
- {
-  "url": "https://decobaie.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@decobaie.com",
-  "ville": ""
- },
- {
-  "url": "https://france-c.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@france-c.fr",
-  "ville": ""
- },
- {
-  "url": "https://glory-injectionplastique.com",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "mateo.adam@glory-injectionplastique.fr",
   "ville": ""
  },
  {
@@ -1261,28 +1140,6 @@
   "ville": ""
  },
  {
-  "url": "https://klingroupe.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@klingroupe.fr",
-  "ville": ""
- },
- {
-  "url": "https://lm-platrerie.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@lm-platrerie.fr",
-  "ville": ""
- },
- {
   "url": "https://maison-etanche.com",
   "probleme": "INJOIGNABLE",
   "details": [
@@ -1294,58 +1151,14 @@
   "ville": ""
  },
  {
-  "url": "https://damien-paysage-forestier.fr",
+  "url": "https://forlam.fr",
   "probleme": "INJOIGNABLE",
   "details": [
    "Le site ne repond pas (domaine mort ou bloque)"
   ],
   "note": 0,
   "nom": "",
-  "email": "jarry@damien-paysage-forestier.fr",
-  "ville": ""
- },
- {
-  "url": "https://fabrikable.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "bienvenue@fabrikable.fr",
-  "ville": ""
- },
- {
-  "url": "https://alliance-france-securite.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@alliance-france-securite.fr",
-  "ville": ""
- },
- {
-  "url": "https://centralassistance.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@centralassistance.fr",
-  "ville": ""
- },
- {
-  "url": "https://dfe-energie.fr",
-  "probleme": "INJOIGNABLE",
-  "details": [
-   "Le site ne repond pas (domaine mort ou bloque)"
-  ],
-  "note": 0,
-  "nom": "",
-  "email": "contact@dfe-energie.fr",
+  "email": "accueil@forlam.fr",
   "ville": ""
  }
 ]
